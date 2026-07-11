@@ -1,0 +1,43 @@
+{
+  "schema_version": "phrase_overlay.v1",
+  "study_language": "en",
+  "learner_locale": "zh_tw",
+  "description": "Viewer-demo phrase overlays for the EN learning-library artifact. These rows are hand-synced for local viewer inspection until the packaging pipeline emits phrase overlays.",
+  "overlays": [
+    {
+      "overlay_id": "ov.en.a1.phrasal_verb.check_in.airport_demo.v1",
+      "overlay_type": "phrasal_verb",
+      "sense_scope": "global_base_with_optional_context",
+      "status": "viewer_demo",
+      "source": {
+        "path": "assets/artifacts/learning_library/en/core/sentences.json",
+        "item_id": "sent.en-a1-r250-dialogue-airport-001.t01",
+        "atom_start": 5,
+        "atom_end": 7
+      },
+      "span_text": "check in",
+      "component_atom_ids": [
+        "en:v:check",
+        "en:adv:in"
+      ],
+      "base_display": {
+        "zh_tw": {
+          "gloss": "辦理報到／登記",
+          "literal_hint": "check = 確認；in = 進入",
+          "explanation": "check in 的通用核心是抵達後報到或登記；可能用在飯店、機場、活動或辦公室。"
+        }
+      },
+      "contextual_display": {
+        "zh_tw": {
+          "gloss": "辦理登機報到",
+          "explanation": "這句是在機場櫃台情境，所以 check in 指為航班辦理報到。"
+        }
+      },
+      "context": {
+        "scenario_id": "airport_check_in",
+        "register": "traveler_to_staff",
+        "usage_note": "Use when arriving at an airport counter and registering for a flight."
+      }
+    }
+  ]
+}

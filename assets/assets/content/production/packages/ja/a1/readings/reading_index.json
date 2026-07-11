@@ -1,0 +1,326 @@
+{
+  "schema_version": "a1_runtime_reading_index.v1",
+  "language": "ja",
+  "assets": [
+    {
+      "surface_id": "ja_reading_clothes_colors_a1_v1",
+      "learning_object_id": "ja_vocab_clothes_colors",
+      "object_type": null,
+      "controlled_terms": [
+        "青い",
+        "シャツ",
+        "黒い",
+        "ズボン",
+        "白い",
+        "帽子"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_daily_routine_a1_v1",
+      "learning_object_id": "ja_vocab_daily_routine",
+      "object_type": null,
+      "controlled_terms": [
+        "朝",
+        "起きます",
+        "学校",
+        "昼ご飯",
+        "夜",
+        "家"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_family_a1_v1",
+      "learning_object_id": "ja_vocab_family",
+      "object_type": null,
+      "controlled_terms": [
+        "家族",
+        "父",
+        "母",
+        "妹",
+        "私",
+        "学生"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_health_body_a1_v1",
+      "learning_object_id": "ja_vocab_health_body",
+      "object_type": null,
+      "controlled_terms": [
+        "体",
+        "頭",
+        "痛い",
+        "水"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_home_rooms_a1_v1",
+      "learning_object_id": "ja_vocab_home",
+      "object_type": null,
+      "controlled_terms": [
+        "家",
+        "部屋",
+        "台所",
+        "左",
+        "トイレ",
+        "右"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_weather_a1_v1",
+      "learning_object_id": "ja_vocab_weather",
+      "object_type": null,
+      "controlled_terms": [
+        "天気",
+        "いい",
+        "暑い",
+        "水"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_work_school_a1_v1",
+      "learning_object_id": "ja_vocab_work_school",
+      "object_type": null,
+      "controlled_terms": [
+        "学生",
+        "学校",
+        "友達",
+        "会社",
+        "午後",
+        "カフェ"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_particles_a1_v1",
+      "learning_object_id": "ja_grammar_particles",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "は",
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_desu_masu_a1_v1",
+      "learning_object_id": "ja_grammar_desu_masu",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "です",
+        "ます"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_te_form_a1_v1",
+      "learning_object_id": "ja_grammar_te_form",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "て"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_question_ka_a1_v1",
+      "learning_object_id": "ja_grammar_question_ka",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "か"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_demonstratives_a1_v1",
+      "learning_object_id": "ja_grammar_demonstratives",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "これ",
+        "それ",
+        "あれ"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_counters_numbers_a1_v1",
+      "learning_object_id": "ja_grammar_counters_numbers",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "一",
+        "二"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_negation_a1_v1",
+      "learning_object_id": "ja_grammar_negation",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "ない",
+        "ません"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_existence_a1_v1",
+      "learning_object_id": "ja_grammar_existence",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "あります",
+        "います"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ja_reading_food_drink_a1_v1",
+      "learning_object_id": "ja_vocab_food_drink",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "ご飯",
+        "水",
+        "お茶",
+        "パン",
+        "牛乳"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "ja_reading_hotel_a1_v1",
+      "learning_object_id": "ja_vocab_hotel",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "ホテル",
+        "部屋",
+        "鍵",
+        "ベッド",
+        "朝ご飯"
+      ],
+      "row_count": 8
+    },
+    {
+      "surface_id": "ja_reading_directions_places_a1_v1",
+      "learning_object_id": "ja_vocab_directions_places",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "駅",
+        "道",
+        "右",
+        "左",
+        "トイレ"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "ja_reading_money_payment_a1_v1",
+      "learning_object_id": "ja_vocab_money_payment",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "お金",
+        "値段",
+        "カード",
+        "現金",
+        "レシート"
+      ],
+      "row_count": 8
+    },
+    {
+      "surface_id": "ja_reading_time_schedule_a1_v1",
+      "learning_object_id": "ja_vocab_time_schedule",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "時間",
+        "予定",
+        "分",
+        "朝",
+        "午後"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "ja_reading_self_intro_identity_a1_v1",
+      "learning_object_id": "ja_vocab_self_intro_identity",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "名前",
+        "日本",
+        "学生",
+        "町",
+        "友だち"
+      ],
+      "row_count": 8
+    },
+    {
+      "surface_id": "ja_reading_social_meeting_a1_v1",
+      "learning_object_id": "ja_vocab_social_meeting",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "こんにちは",
+        "友だち",
+        "会います",
+        "ありがとう",
+        "さようなら"
+      ],
+      "row_count": 8
+    },
+    {
+      "surface_id": "ja_reading_digital_phone_wifi_a1_v1",
+      "learning_object_id": "ja_vocab_digital_phone_wifi",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "スマホ",
+        "電話",
+        "充電",
+        "Wi-Fi",
+        "パスワード"
+      ],
+      "row_count": 8
+    },
+    {
+      "surface_id": "ja_reading_transport_a1_v1",
+      "learning_object_id": "ja_vocab_transport",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "タクシー",
+        "切符",
+        "駅",
+        "ホーム",
+        "電車"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "ja_reading_shopping_services_a1_v1",
+      "learning_object_id": "ja_vocab_shopping_services",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "店",
+        "買います",
+        "シャツ",
+        "値段",
+        "店員"
+      ],
+      "row_count": 8
+    },
+    {
+      "surface_id": "ja_reading_lost_items_a1_v1",
+      "learning_object_id": "ja_vocab_lost_items",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "かばん",
+        "財布",
+        "忘れ物",
+        "受付",
+        "名前"
+      ],
+      "row_count": 8
+    }
+  ],
+  "row_count": 174
+}

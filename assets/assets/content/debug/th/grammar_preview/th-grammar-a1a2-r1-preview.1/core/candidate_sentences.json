@@ -1,0 +1,2401 @@
+{
+  "build_id": "th-grammar-a1a2-r1-preview.1",
+  "content_version": "r1",
+  "items": [
+    {
+      "family": "identity_negation",
+      "knowledge_refs": [
+        "th-a1-gram-auth-019",
+        "th:grammar:a1_identity_negation_mai_chai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "identity noun negation",
+      "risk_label": "low",
+      "scenario_hint": "correcting hotel identity",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-019.01",
+      "surface": "ไม่ใช่โรงแรมนี้ค่ะ",
+      "target_forms": [
+        "ไม่ใช่"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-019"
+    },
+    {
+      "family": "identity_negation",
+      "knowledge_refs": [
+        "th-a1-gram-auth-019",
+        "th:grammar:a1_identity_negation_mai_chai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "identity noun negation",
+      "risk_label": "low",
+      "scenario_hint": "correcting a name",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-019.02",
+      "surface": "ไม่ใช่ชื่อของฉัน",
+      "target_forms": [
+        "ไม่ใช่"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-019"
+    },
+    {
+      "family": "identity_negation",
+      "knowledge_refs": [
+        "th-a1-gram-auth-019",
+        "th:grammar:a1_identity_negation_mai_chai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "identity noun negation",
+      "risk_label": "low",
+      "scenario_hint": "correcting item category",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-019.03",
+      "surface": "อันนี้ไม่ใช่กาแฟครับ",
+      "target_forms": [
+        "ไม่ใช่"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-019"
+    },
+    {
+      "family": "result_connector",
+      "knowledge_refs": [
+        "th-a2-gram-auth-014",
+        "th:grammar:a2_result_connector_ko_loei"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "result connector frame",
+      "risk_label": "low",
+      "scenario_hint": "rain causes waiting at hotel",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-014.01",
+      "surface": "ฝนตกก็เลยรอที่โรงแรมค่ะ",
+      "target_forms": [
+        "ก็เลย"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-014"
+    },
+    {
+      "family": "result_connector",
+      "knowledge_refs": [
+        "th-a2-gram-auth-014",
+        "th:grammar:a2_result_connector_ko_loei"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "result connector frame",
+      "risk_label": "low",
+      "scenario_hint": "slow bus leads to taxi choice",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-014.02",
+      "surface": "รถบัสช้าก็เลยนั่งแท็กซี่ครับ",
+      "target_forms": [
+        "ก็เลย"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-014"
+    },
+    {
+      "family": "result_connector",
+      "knowledge_refs": [
+        "th-a2-gram-auth-014",
+        "th:grammar:a2_result_connector_ko_loei"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "result connector frame",
+      "risk_label": "low",
+      "scenario_hint": "coffee sold out leads to ordering tea",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-014.03",
+      "surface": "กาแฟหมดก็เลยสั่งชา",
+      "target_forms": [
+        "ก็เลย"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-014"
+    },
+    {
+      "family": "questions_particles",
+      "knowledge_refs": [
+        "th-a1-gram-auth-020",
+        "th:grammar:confirmation_chai_mai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "ใช่ไหม confirmation checks",
+      "risk_label": "low",
+      "scenario_hint": "confirming a customer's name",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-020.01",
+      "surface": "ชื่อคุณหลินใช่ไหมคะ",
+      "target_forms": [
+        "ใช่ไหม",
+        "คะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-020"
+    },
+    {
+      "family": "questions_particles",
+      "knowledge_refs": [
+        "th-a1-gram-auth-020",
+        "th:grammar:confirmation_chai_mai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "ใช่ไหม confirmation checks",
+      "risk_label": "low",
+      "scenario_hint": "confirming the correct room",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-020.02",
+      "surface": "ห้องนี้ใช่ไหมครับ",
+      "target_forms": [
+        "ใช่ไหม",
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-020"
+    },
+    {
+      "family": "basic_needs_wants",
+      "knowledge_refs": [
+        "th-a1-gram-auth-021",
+        "th:grammar:want_to_yaak"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "อยาก + verb for simple desired action",
+      "risk_label": "low",
+      "scenario_hint": "saying a simple food need",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-021.01",
+      "surface": "ฉันอยากกินข้าวค่ะ",
+      "target_forms": [
+        "อยาก",
+        "กิน"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-021"
+    },
+    {
+      "family": "basic_needs_wants",
+      "knowledge_refs": [
+        "th-a1-gram-auth-021",
+        "th:grammar:want_to_yaak"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "อยาก + verb for simple desired action",
+      "risk_label": "low",
+      "scenario_hint": "saying a simple rest need",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-021.02",
+      "surface": "ผมอยากพักครับ",
+      "target_forms": [
+        "อยาก",
+        "พัก"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-021"
+    },
+    {
+      "family": "contrast_alternatives",
+      "knowledge_refs": [
+        "th-a2-gram-auth-015",
+        "th:grammar:contrast_tae"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "แต่/แต่ว่า simple contrast",
+      "risk_label": "low",
+      "scenario_hint": "comparing a room with one drawback",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-015.01",
+      "surface": "ห้องนี้ดีแต่แพงค่ะ",
+      "target_forms": [
+        "แต่"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-015"
+    },
+    {
+      "family": "contrast_alternatives",
+      "knowledge_refs": [
+        "th-a2-gram-auth-015",
+        "th:grammar:contrast_tae"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "แต่/แต่ว่า simple contrast",
+      "risk_label": "low",
+      "scenario_hint": "changing a plan because of rain",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-015.02",
+      "surface": "อยากไปแต่ว่าฝนตกครับ",
+      "target_forms": [
+        "แต่ว่า"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-015"
+    },
+    {
+      "family": "contrast_alternatives",
+      "knowledge_refs": [
+        "th-a2-gram-auth-016",
+        "th:grammar:alternative_rue"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "หรือ for alternatives",
+      "risk_label": "low",
+      "scenario_hint": "offering a drink choice",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-016.01",
+      "surface": "เอากาแฟหรือชาคะ",
+      "target_forms": [
+        "หรือ"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-016"
+    },
+    {
+      "family": "contrast_alternatives",
+      "knowledge_refs": [
+        "th-a2-gram-auth-016",
+        "th:grammar:alternative_rue"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "หรือ for alternatives",
+      "risk_label": "low",
+      "scenario_hint": "offering a seating choice",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-016.02",
+      "surface": "นั่งข้างในหรือข้างนอกครับ",
+      "target_forms": [
+        "หรือ"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-016"
+    },
+    {
+      "family": "politeness_particles",
+      "knowledge_refs": [
+        "th-a1-gram-auth-001",
+        "th:grammar:polite_particles_khrap_kha"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "polite sentence-final particles",
+      "risk_label": "low",
+      "scenario_hint": "thanking politely in service interaction",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-001.01",
+      "surface": "ขอบคุณครับ",
+      "target_forms": [
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-001"
+    },
+    {
+      "family": "politeness_particles",
+      "knowledge_refs": [
+        "th-a1-gram-auth-001",
+        "th:grammar:polite_particles_khrap_kha"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "polite sentence-final particles",
+      "risk_label": "low",
+      "scenario_hint": "thanking politely in service interaction",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-001.02",
+      "surface": "ขอบคุณค่ะ",
+      "target_forms": [
+        "ค่ะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-001"
+    },
+    {
+      "family": "questions_particles",
+      "knowledge_refs": [
+        "th-a1-gram-auth-002",
+        "th:grammar:yes_no_particle_mai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "yes-no question particle",
+      "risk_label": "low",
+      "scenario_hint": "asking if water is available",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-002.01",
+      "surface": "มีน้ำไหมคะ",
+      "target_forms": [
+        "ไหม",
+        "คะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-002"
+    },
+    {
+      "family": "questions_particles",
+      "knowledge_refs": [
+        "th-a1-gram-auth-002",
+        "th:grammar:yes_no_particle_mai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "yes-no question particle",
+      "risk_label": "low",
+      "scenario_hint": "offering coffee politely",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-002.02",
+      "surface": "รับกาแฟไหมครับ",
+      "target_forms": [
+        "ไหม",
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-002"
+    },
+    {
+      "family": "questions_particles",
+      "knowledge_refs": [
+        "th-a1-gram-auth-002",
+        "th:grammar:yes_no_particle_mai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "yes-no question particle",
+      "risk_label": "medium_colloquial_spelling",
+      "scenario_hint": "offering water in a casual spoken form",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-002.03",
+      "surface": "เอาน้ำมั้ยคะ",
+      "target_forms": [
+        "มั้ย",
+        "คะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-002"
+    },
+    {
+      "family": "negation",
+      "knowledge_refs": [
+        "th-a1-gram-auth-003",
+        "th:grammar:negation_mai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "negation before verb/adjective",
+      "risk_label": "low",
+      "scenario_hint": "saying an item is not expensive",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-003.01",
+      "surface": "อันนี้ไม่แพงค่ะ",
+      "target_forms": [
+        "ไม่",
+        "ไม่แพง"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-003"
+    },
+    {
+      "family": "negation",
+      "knowledge_refs": [
+        "th-a1-gram-auth-003",
+        "th:grammar:negation_mai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "negation before verb/adjective",
+      "risk_label": "low",
+      "scenario_hint": "saying a food preference",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-003.02",
+      "surface": "ผมไม่กินเผ็ดครับ",
+      "target_forms": [
+        "ไม่",
+        "ไม่กิน"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-003"
+    },
+    {
+      "family": "existence_possession",
+      "knowledge_refs": [
+        "th-a1-gram-auth-004",
+        "th:grammar:existence_possession_mii"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "existence/availability marker",
+      "risk_label": "low",
+      "scenario_hint": "saying a room is available here",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-004.01",
+      "surface": "ที่นี่มีห้องว่างค่ะ",
+      "target_forms": [
+        "มี",
+        "มีห้องว่าง"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-004"
+    },
+    {
+      "family": "existence_possession",
+      "knowledge_refs": [
+        "th-a1-gram-auth-004",
+        "th:grammar:existence_possession_mii"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "existence/availability marker",
+      "risk_label": "low",
+      "scenario_hint": "saying that one has a card",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-004.02",
+      "surface": "ผมมีบัตรครับ",
+      "target_forms": [
+        "มี",
+        "มีบัตร"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-004"
+    },
+    {
+      "family": "question_words",
+      "knowledge_refs": [
+        "th-a1-gram-auth-005",
+        "th:grammar:place_question_thi_nai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "place question form",
+      "risk_label": "low",
+      "scenario_hint": "asking where the bathroom is",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-005.01",
+      "surface": "ห้องน้ำอยู่ที่ไหนคะ",
+      "target_forms": [
+        "ที่ไหน",
+        "คะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-005"
+    },
+    {
+      "family": "question_words",
+      "knowledge_refs": [
+        "th-a1-gram-auth-005",
+        "th:grammar:place_question_thi_nai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "place question form",
+      "risk_label": "low",
+      "scenario_hint": "asking where the station is",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-005.02",
+      "surface": "สถานีอยู่ที่ไหนครับ",
+      "target_forms": [
+        "ที่ไหน",
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-005"
+    },
+    {
+      "family": "question_words",
+      "knowledge_refs": [
+        "th-a1-gram-auth-006",
+        "th:grammar:object_question_arai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "object/content question form",
+      "risk_label": "low",
+      "scenario_hint": "asking what someone wants",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-006.01",
+      "surface": "เอาอะไรคะ",
+      "target_forms": [
+        "อะไร",
+        "คะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-006"
+    },
+    {
+      "family": "question_words",
+      "knowledge_refs": [
+        "th-a1-gram-auth-006",
+        "th:grammar:object_question_arai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "object/content question form",
+      "risk_label": "low",
+      "scenario_hint": "asking what an item is",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-006.02",
+      "surface": "อันนี้คืออะไรครับ",
+      "target_forms": [
+        "อะไร",
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-006"
+    },
+    {
+      "family": "question_words",
+      "knowledge_refs": [
+        "th-a1-gram-auth-007",
+        "th:grammar:person_question_khrai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "person question form",
+      "risk_label": "low",
+      "scenario_hint": "asking who a person is",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-007.01",
+      "surface": "คนนี้คือใครคะ",
+      "target_forms": [
+        "ใคร",
+        "คะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-007"
+    },
+    {
+      "family": "question_words",
+      "knowledge_refs": [
+        "th-a1-gram-auth-007",
+        "th:grammar:person_question_khrai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "person question form",
+      "risk_label": "low",
+      "scenario_hint": "asking whose card this is",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-007.02",
+      "surface": "บัตรนี้ของใครครับ",
+      "target_forms": [
+        "ใคร",
+        "ของใคร",
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-007"
+    },
+    {
+      "family": "question_words",
+      "knowledge_refs": [
+        "th-a1-gram-auth-008",
+        "th:grammar:price_quantity_question_thao_rai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "price/quantity question form",
+      "risk_label": "low",
+      "scenario_hint": "asking item price",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-008.01",
+      "surface": "อันนี้ราคาเท่าไหร่คะ",
+      "target_forms": [
+        "เท่าไหร่",
+        "ราคาเท่าไหร่",
+        "คะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-008"
+    },
+    {
+      "family": "question_words",
+      "knowledge_refs": [
+        "th-a1-gram-auth-008",
+        "th:grammar:price_quantity_question_thao_rai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "price/quantity question form",
+      "risk_label": "low",
+      "scenario_hint": "asking total price or amount",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-008.02",
+      "surface": "ทั้งหมดเท่าไหร่ครับ",
+      "target_forms": [
+        "เท่าไหร่",
+        "ทั้งหมดเท่าไหร่",
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-008"
+    },
+    {
+      "family": "noun_phrase_linkers",
+      "knowledge_refs": [
+        "th-a1-gram-auth-009",
+        "th:grammar:possessive_linker_khong"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "possessive linker",
+      "risk_label": "low",
+      "scenario_hint": "identifying one's bag",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-009.01",
+      "surface": "นี่คือกระเป๋าของฉันค่ะ",
+      "target_forms": [
+        "ของ",
+        "ของฉัน",
+        "ค่ะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-009"
+    },
+    {
+      "family": "noun_phrase_linkers",
+      "knowledge_refs": [
+        "th-a1-gram-auth-009",
+        "th:grammar:possessive_linker_khong"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "possessive linker",
+      "risk_label": "low",
+      "scenario_hint": "returning a card to its owner",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-009.02",
+      "surface": "บัตรนี้ของคุณครับ",
+      "target_forms": [
+        "ของ",
+        "ของคุณ",
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-009"
+    },
+    {
+      "family": "classifiers",
+      "knowledge_refs": [
+        "th-a1-gram-auth-010",
+        "th:grammar:basic_classifiers"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic classifiers",
+      "risk_label": "low",
+      "scenario_hint": "counting people",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-010.01",
+      "surface": "ผู้ใหญ่สองคนค่ะ",
+      "target_forms": [
+        "คน",
+        "สองคน",
+        "ค่ะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-010",
+      "utterance_shape": "elliptical_counting_fragment"
+    },
+    {
+      "family": "classifiers",
+      "knowledge_refs": [
+        "th-a1-gram-auth-010",
+        "th:grammar:basic_classifiers"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic classifiers",
+      "risk_label": "low",
+      "scenario_hint": "ordering two glasses of water",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-010.02",
+      "surface": "น้ำสองแก้วครับ",
+      "target_forms": [
+        "แก้ว",
+        "สองแก้ว",
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-010",
+      "utterance_shape": "elliptical_counting_fragment"
+    },
+    {
+      "family": "classifiers",
+      "knowledge_refs": [
+        "th-a1-gram-auth-010",
+        "th:grammar:basic_classifiers"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic classifiers",
+      "risk_label": "low",
+      "scenario_hint": "counting one card",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-010.03",
+      "surface": "บัตรหนึ่งใบค่ะ",
+      "target_forms": [
+        "ใบ",
+        "หนึ่งใบ",
+        "ค่ะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-010",
+      "utterance_shape": "elliptical_counting_fragment"
+    },
+    {
+      "family": "classifiers",
+      "knowledge_refs": [
+        "th-a1-gram-auth-010",
+        "th:grammar:basic_classifiers"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic classifiers",
+      "risk_label": "low",
+      "scenario_hint": "ordering one plate of rice",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-010.04",
+      "surface": "ข้าวหนึ่งจานครับ",
+      "target_forms": [
+        "จาน",
+        "หนึ่งจาน",
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-010",
+      "utterance_shape": "elliptical_counting_fragment"
+    },
+    {
+      "family": "adjective_predicates",
+      "knowledge_refs": [
+        "th-a1-gram-auth-011",
+        "th:grammar:adjective_predicate_no_copula"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "adjective predicate/no copula",
+      "risk_label": "low",
+      "scenario_hint": "describing an item as expensive",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-011.01",
+      "surface": "อันนี้แพงค่ะ",
+      "target_forms": [
+        "แพง"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-011"
+    },
+    {
+      "family": "adjective_predicates",
+      "knowledge_refs": [
+        "th-a1-gram-auth-011",
+        "th:grammar:adjective_predicate_no_copula"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "adjective predicate/no copula",
+      "risk_label": "low",
+      "scenario_hint": "describing food as good",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-011.02",
+      "surface": "อาหารนี้ดีครับ",
+      "target_forms": [
+        "ดี"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-011"
+    },
+    {
+      "family": "identity_copula",
+      "knowledge_refs": [
+        "th-a1-gram-auth-012",
+        "th:grammar:identity_copula_pen_khue"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "copula/identity",
+      "risk_label": "low",
+      "scenario_hint": "saying one's category or role",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-012.01",
+      "surface": "ผมเป็นนักเรียนครับ",
+      "target_forms": [
+        "เป็น"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-012"
+    },
+    {
+      "family": "identity_copula",
+      "knowledge_refs": [
+        "th-a1-gram-auth-012",
+        "th:grammar:identity_copula_pen_khue"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "copula/identity",
+      "risk_label": "low",
+      "scenario_hint": "identifying a hotel in a simple statement",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-012.02",
+      "surface": "นี่คือโรงแรมค่ะ",
+      "target_forms": [
+        "คือ",
+        "ค่ะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-012"
+    },
+    {
+      "family": "request_frames",
+      "knowledge_refs": [
+        "th-a1-gram-auth-013",
+        "th:grammar:polite_request_chuai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "polite request frame",
+      "risk_label": "low",
+      "scenario_hint": "asking someone to speak slowly",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-013.01",
+      "surface": "ช่วยพูดช้าๆ ได้ไหมคะ",
+      "target_forms": [
+        "ช่วย",
+        "ได้ไหม",
+        "คะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-013"
+    },
+    {
+      "family": "request_frames",
+      "knowledge_refs": [
+        "th-a1-gram-auth-013",
+        "th:grammar:polite_request_chuai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "polite request frame",
+      "risk_label": "low",
+      "scenario_hint": "asking someone to call a taxi",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-013.02",
+      "surface": "ช่วยเรียกแท็กซี่หน่อยครับ",
+      "target_forms": [
+        "ช่วย",
+        "หน่อย",
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-013"
+    },
+    {
+      "family": "pronouns_address",
+      "knowledge_refs": [
+        "th-a1-gram-auth-014",
+        "th:grammar:learner_safe_pronouns"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "learner-safe pronoun choice",
+      "risk_label": "medium_pragmatics",
+      "scenario_hint": "self-introduction with a masculine-coded speaker pronoun",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-014.01",
+      "surface": "ผมชื่อแดนครับ",
+      "target_forms": [
+        "ผม",
+        "ครับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-014"
+    },
+    {
+      "family": "pronouns_address",
+      "knowledge_refs": [
+        "th-a1-gram-auth-014",
+        "th:grammar:learner_safe_pronouns"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "learner-safe pronoun choice",
+      "risk_label": "low",
+      "scenario_hint": "polite service question",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-014.02",
+      "surface": "คุณพักที่นี่ไหมคะ",
+      "target_forms": [
+        "คุณ",
+        "ไหม",
+        "คะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-014"
+    },
+    {
+      "family": "pronouns_address",
+      "knowledge_refs": [
+        "th-a1-gram-auth-014",
+        "th:grammar:learner_safe_pronouns"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "learner-safe pronoun choice",
+      "risk_label": "medium_pragmatics",
+      "scenario_hint": "simple third-person reference",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-014.03",
+      "surface": "เขาเป็นเพื่อนฉันค่ะ",
+      "target_forms": [
+        "เขา",
+        "ฉัน",
+        "ค่ะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-014"
+    },
+    {
+      "family": "pronouns_address",
+      "knowledge_refs": [
+        "th-a1-gram-auth-014",
+        "th:grammar:learner_safe_pronouns"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "learner-safe pronoun choice",
+      "risk_label": "medium_pragmatics",
+      "scenario_hint": "asking whether we can go together",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-014.04",
+      "surface": "เราไปด้วยกันได้ไหมคะ",
+      "target_forms": [
+        "เรา",
+        "ได้ไหม",
+        "คะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-014"
+    },
+    {
+      "family": "pronouns_address",
+      "knowledge_refs": [
+        "th-a1-gram-auth-014",
+        "th:grammar:learner_safe_pronouns"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "learner-safe pronoun choice",
+      "risk_label": "medium_pragmatics",
+      "scenario_hint": "formal self-introduction with a feminine-coded speaker pronoun",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-014.05",
+      "surface": "ดิฉันชื่อเมย์ค่ะ",
+      "target_forms": [
+        "ดิฉัน",
+        "ค่ะ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-014"
+    },
+    {
+      "family": "time_reference",
+      "knowledge_refs": [
+        "th-a1-gram-auth-015",
+        "th:grammar:time_reference_no_inflection"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "no-verb-inflection time reference",
+      "risk_label": "low",
+      "scenario_hint": "saying where one is today",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-015.01",
+      "surface": "วันนี้ผมอยู่กรุงเทพฯครับ",
+      "target_forms": [
+        "วันนี้"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-015"
+    },
+    {
+      "family": "time_reference",
+      "knowledge_refs": [
+        "th-a1-gram-auth-015",
+        "th:grammar:time_reference_no_inflection"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "no-verb-inflection time reference",
+      "risk_label": "low",
+      "scenario_hint": "stating a simple tomorrow plan",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-015.02",
+      "surface": "พรุ่งนี้ฉันไปเชียงใหม่ค่ะ",
+      "target_forms": [
+        "พรุ่งนี้"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-015"
+    },
+    {
+      "family": "time_reference",
+      "knowledge_refs": [
+        "th-a1-gram-auth-015",
+        "th:grammar:time_reference_no_inflection"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "no-verb-inflection time reference",
+      "risk_label": "low",
+      "scenario_hint": "stating what happened yesterday",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-015.03",
+      "surface": "เมื่อวานฝนตกครับ",
+      "target_forms": [
+        "เมื่อวาน"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-015"
+    },
+    {
+      "family": "time_reference",
+      "knowledge_refs": [
+        "th-a1-gram-auth-015",
+        "th:grammar:time_reference_no_inflection"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "no-verb-inflection time reference",
+      "risk_label": "low",
+      "scenario_hint": "saying a shop is open now",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-015.04",
+      "surface": "ตอนนี้ร้านเปิดค่ะ",
+      "target_forms": [
+        "ตอนนี้"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-015"
+    },
+    {
+      "family": "basic_word_order",
+      "knowledge_refs": [
+        "th-a1-gram-auth-016",
+        "th:grammar:basic_svo_word_order"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic SVO word order",
+      "risk_label": "low",
+      "scenario_hint": "simple statement about eating rice",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-016.01",
+      "surface": "ผมกินข้าวครับ",
+      "target_forms": [
+        "ผม",
+        "กิน",
+        "ข้าว"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-016"
+    },
+    {
+      "family": "basic_word_order",
+      "knowledge_refs": [
+        "th-a1-gram-auth-016",
+        "th:grammar:basic_svo_word_order"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic SVO word order",
+      "risk_label": "low",
+      "scenario_hint": "simple question with subject, verb, and object",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-016.02",
+      "surface": "คุณอ่านเมนูไหมคะ",
+      "target_forms": [
+        "คุณ",
+        "อ่าน",
+        "เมนู"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-016"
+    },
+    {
+      "family": "noun_phrase_description",
+      "knowledge_refs": [
+        "th-a1-gram-auth-017",
+        "th:grammar:noun_adjective_order"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "noun plus adjective order",
+      "risk_label": "low",
+      "scenario_hint": "asking for a small room",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-017.01",
+      "surface": "มีห้องเล็กไหมคะ",
+      "target_forms": [
+        "ห้องเล็ก",
+        "N + Adj"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-017"
+    },
+    {
+      "family": "noun_phrase_description",
+      "knowledge_refs": [
+        "th-a1-gram-auth-017",
+        "th:grammar:noun_adjective_order"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "noun plus adjective order",
+      "risk_label": "low",
+      "scenario_hint": "ordering hot coffee",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-017.02",
+      "surface": "เอากาแฟร้อนครับ",
+      "target_forms": [
+        "กาแฟร้อน",
+        "N + Adj"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-017"
+    },
+    {
+      "family": "degree_description",
+      "knowledge_refs": [
+        "th-a1-gram-auth-018",
+        "th:grammar:degree_adverb_mak"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic degree adverb",
+      "risk_label": "low",
+      "scenario_hint": "saying a hotel is very convenient",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-018.01",
+      "surface": "โรงแรมนี้สะดวกมากครับ",
+      "target_forms": [
+        "สะดวกมาก",
+        "มาก"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-018"
+    },
+    {
+      "family": "degree_description",
+      "knowledge_refs": [
+        "th-a1-gram-auth-018",
+        "th:grammar:degree_adverb_mak"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic degree adverb",
+      "risk_label": "low",
+      "scenario_hint": "saying one likes a place very much",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-018.02",
+      "surface": "ฉันชอบที่นี่มากค่ะ",
+      "target_forms": [
+        "ชอบมาก",
+        "มาก"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-018"
+    },
+    {
+      "family": "ordering_choice",
+      "knowledge_refs": [
+        "th-a1-gram-auth-022",
+        "th:grammar:take_want_item_ao"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "take/want item frame",
+      "risk_label": "low",
+      "scenario_hint": "ordering one glass of water",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-022.01",
+      "surface": "เอาน้ำหนึ่งแก้วครับ",
+      "target_forms": [
+        "เอา",
+        "เอา + N"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-022"
+    },
+    {
+      "family": "ordering_choice",
+      "knowledge_refs": [
+        "th-a1-gram-auth-022",
+        "th:grammar:take_want_item_ao"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "take/want item frame",
+      "risk_label": "low",
+      "scenario_hint": "choosing this one",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-022.02",
+      "surface": "เอาอันนี้ค่ะ",
+      "target_forms": [
+        "เอา",
+        "เอาอันนี้"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-022"
+    },
+    {
+      "family": "likes_preferences",
+      "knowledge_refs": [
+        "th-a1-gram-auth-023",
+        "th:grammar:like_frame_chop"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "like frame",
+      "risk_label": "low",
+      "scenario_hint": "saying one likes coffee",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-023.01",
+      "surface": "ผมชอบกาแฟครับ",
+      "target_forms": [
+        "ชอบ",
+        "ชอบ + N"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-023"
+    },
+    {
+      "family": "likes_preferences",
+      "knowledge_refs": [
+        "th-a1-gram-auth-023",
+        "th:grammar:like_frame_chop"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "like frame",
+      "risk_label": "low",
+      "scenario_hint": "saying one likes walking in the park",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-023.02",
+      "surface": "ฉันชอบเดินที่สวนค่ะ",
+      "target_forms": [
+        "ชอบ",
+        "ชอบ + V"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-023"
+    },
+    {
+      "family": "ability_doable",
+      "knowledge_refs": [
+        "th-a1-gram-auth-024",
+        "th:grammar:basic_can_doable_dai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic can/doable frame",
+      "risk_label": "low",
+      "scenario_hint": "asking whether sitting here is possible",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-024.01",
+      "surface": "นั่งตรงนี้ได้ไหมคะ",
+      "target_forms": [
+        "ได้",
+        "ได้ไหม"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-024"
+    },
+    {
+      "family": "ability_doable",
+      "knowledge_refs": [
+        "th-a1-gram-auth-024",
+        "th:grammar:basic_can_doable_dai"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic can/doable frame",
+      "risk_label": "low",
+      "scenario_hint": "saying card payment is possible",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-024.02",
+      "surface": "จ่ายด้วยบัตรได้ครับ",
+      "target_forms": [
+        "ได้"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-024"
+    },
+    {
+      "family": "demonstrative_object_reference",
+      "knowledge_refs": [
+        "th-a1-gram-auth-025",
+        "th:grammar:demonstrative_object_an_nii_nan"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "this/that one demonstrative frame",
+      "risk_label": "low",
+      "scenario_hint": "choosing this one",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-025.01",
+      "surface": "เอาอันนี้ค่ะ",
+      "target_forms": [
+        "อันนี้"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-025"
+    },
+    {
+      "family": "demonstrative_object_reference",
+      "knowledge_refs": [
+        "th-a1-gram-auth-025",
+        "th:grammar:demonstrative_object_an_nii_nan"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "this/that one demonstrative frame",
+      "risk_label": "low",
+      "scenario_hint": "asking whether that one is expensive",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-025.02",
+      "surface": "อันนั้นแพงไหมครับ",
+      "target_forms": [
+        "อันนั้น"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-025"
+    },
+    {
+      "family": "future_plans",
+      "knowledge_refs": [
+        "th-a1-gram-auth-026",
+        "th:grammar:basic_future_marker_ja"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic future marker",
+      "risk_label": "low",
+      "scenario_hint": "stating tomorrow's travel plan",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-026.01",
+      "surface": "พรุ่งนี้ผมจะไปเชียงใหม่ครับ",
+      "target_forms": [
+        "จะ",
+        "จะไป"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-026"
+    },
+    {
+      "family": "future_plans",
+      "knowledge_refs": [
+        "th-a1-gram-auth-026",
+        "th:grammar:basic_future_marker_ja"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic future marker",
+      "risk_label": "low",
+      "scenario_hint": "saying one will eat here",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-026.02",
+      "surface": "ฉันจะกินข้าวที่นี่ค่ะ",
+      "target_forms": [
+        "จะ",
+        "จะกิน"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-026"
+    },
+    {
+      "family": "completion_status",
+      "knowledge_refs": [
+        "th-a1-gram-auth-027",
+        "th:grammar:basic_completion_marker_laeo"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic completion marker",
+      "risk_label": "low",
+      "scenario_hint": "saying payment is done",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-027.01",
+      "surface": "จ่ายแล้วครับ",
+      "target_forms": [
+        "แล้ว",
+        "จ่ายแล้ว"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-027"
+    },
+    {
+      "family": "completion_status",
+      "knowledge_refs": [
+        "th-a1-gram-auth-027",
+        "th:grammar:basic_completion_marker_laeo"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "basic completion marker",
+      "risk_label": "low",
+      "scenario_hint": "saying one has eaten",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-027.02",
+      "surface": "กินข้าวแล้วค่ะ",
+      "target_forms": [
+        "แล้ว",
+        "กินแล้ว"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-027"
+    },
+    {
+      "family": "preference_suggestion",
+      "knowledge_refs": [
+        "th-a2-gram-auth-002",
+        "th:grammar:preference_suggestion_dii_kwaa"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "preference/suggestion frame",
+      "risk_label": "low",
+      "scenario_hint": "suggesting going tomorrow instead",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-002.01",
+      "surface": "ไปพรุ่งนี้ดีกว่าครับ",
+      "target_forms": [
+        "ดีกว่า"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-002"
+    },
+    {
+      "family": "preference_suggestion",
+      "knowledge_refs": [
+        "th-a2-gram-auth-002",
+        "th:grammar:preference_suggestion_dii_kwaa"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "preference/suggestion frame",
+      "risk_label": "low",
+      "scenario_hint": "choosing this one as better",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-002.02",
+      "surface": "เอาอันนี้ดีกว่าค่ะ",
+      "target_forms": [
+        "ดีกว่า"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-002"
+    },
+    {
+      "family": "future_plans",
+      "knowledge_refs": [
+        "th-a2-gram-auth-003",
+        "th:grammar:a2_future_plan_marker_ja"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "near-future marker",
+      "risk_label": "low",
+      "scenario_hint": "stating a checkout plan",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-003.01",
+      "surface": "พรุ่งนี้ผมจะเช็กเอาต์ตอนสิบโมงครับ",
+      "target_forms": [
+        "จะ"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-003"
+    },
+    {
+      "family": "future_plans",
+      "knowledge_refs": [
+        "th-a2-gram-auth-003",
+        "th:grammar:a2_future_plan_marker_ja"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "near-future marker",
+      "risk_label": "low",
+      "scenario_hint": "saying one will come back to pick up a bag",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-003.02",
+      "surface": "ฉันจะกลับมารับกระเป๋าค่ะ",
+      "target_forms": [
+        "จะ"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-003"
+    },
+    {
+      "family": "completion_status",
+      "knowledge_refs": [
+        "th-a2-gram-auth-004",
+        "th:grammar:a2_completion_marker_laeo"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "completion/result marker",
+      "risk_label": "low",
+      "scenario_hint": "confirming a room has been booked",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-004.01",
+      "surface": "จองห้องแล้วครับ",
+      "target_forms": [
+        "แล้ว"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-004"
+    },
+    {
+      "family": "completion_status",
+      "knowledge_refs": [
+        "th-a2-gram-auth-004",
+        "th:grammar:a2_completion_marker_laeo"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "completion/result marker",
+      "risk_label": "low",
+      "scenario_hint": "confirming an email has been sent",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-004.02",
+      "surface": "ส่งอีเมลแล้วค่ะ",
+      "target_forms": [
+        "แล้ว"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-004"
+    },
+    {
+      "family": "progressive_status",
+      "knowledge_refs": [
+        "th-a2-gram-auth-005",
+        "th:grammar:progressive_marker_kamlang"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "progressive marker",
+      "risk_label": "low",
+      "scenario_hint": "saying one is waiting for a taxi now",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-005.01",
+      "surface": "ผมกำลังรอแท็กซี่ครับ",
+      "target_forms": [
+        "กำลัง"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-005"
+    },
+    {
+      "family": "progressive_status",
+      "knowledge_refs": [
+        "th-a2-gram-auth-005",
+        "th:grammar:progressive_marker_kamlang"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "progressive marker",
+      "risk_label": "low",
+      "scenario_hint": "saying the car is going to the airport now",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-005.02",
+      "surface": "รถกำลังไปสนามบินค่ะ",
+      "target_forms": [
+        "กำลัง"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-005"
+    },
+    {
+      "family": "sequence_steps",
+      "knowledge_refs": [
+        "th-a2-gram-auth-006",
+        "th:grammar:a2_sequence_connectors_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "sequence connectors",
+      "risk_label": "low",
+      "scenario_hint": "giving service step instructions",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-006.01",
+      "surface": "กรอกแบบฟอร์มก่อน แล้วรอเรียกชื่อครับ",
+      "target_forms": [
+        "ก่อน",
+        "แล้ว"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-006"
+    },
+    {
+      "family": "sequence_steps",
+      "knowledge_refs": [
+        "th-a2-gram-auth-006",
+        "th:grammar:a2_sequence_connectors_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "sequence connectors",
+      "risk_label": "low",
+      "scenario_hint": "continuing a service queue instruction",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-006.02",
+      "surface": "หลังจากนั้นไปที่ช่องสอง ต่อไปรอใบเสร็จค่ะ",
+      "target_forms": [
+        "หลังจากนั้น",
+        "ต่อไป"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-006"
+    },
+    {
+      "family": "reason_result",
+      "knowledge_refs": [
+        "th-a2-gram-auth-007",
+        "th:grammar:a2_reason_result_connectors_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "simple reason/result connectors",
+      "risk_label": "low",
+      "scenario_hint": "explaining a late car because of rain",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-007.01",
+      "surface": "เพราะฝนตก รถเลยมาช้าครับ",
+      "target_forms": [
+        "เพราะ",
+        "เลย"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-007"
+    },
+    {
+      "family": "reason_result",
+      "knowledge_refs": [
+        "th-a2-gram-auth-007",
+        "th:grammar:a2_reason_result_connectors_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "simple reason/result connectors",
+      "risk_label": "low",
+      "scenario_hint": "explaining a wait because rooms are full",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-007.02",
+      "surface": "ห้องเต็ม ดังนั้นต้องรออีกนิดค่ะ",
+      "target_forms": [
+        "ดังนั้น"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-007"
+    },
+    {
+      "family": "ability_permission",
+      "knowledge_refs": [
+        "th-a2-gram-auth-008",
+        "th:grammar:a2_ability_permission_frame_dai"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "ability/permission frame",
+      "risk_label": "low",
+      "scenario_hint": "saying card payment is possible",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-008.01",
+      "surface": "จ่ายด้วยบัตรได้ครับ",
+      "target_forms": [
+        "ได้"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-008"
+    },
+    {
+      "family": "ability_permission",
+      "knowledge_refs": [
+        "th-a2-gram-auth-008",
+        "th:grammar:a2_ability_permission_frame_dai"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "ability/permission frame",
+      "risk_label": "low",
+      "scenario_hint": "asking permission to leave luggage",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-008.02",
+      "surface": "ขอฝากกระเป๋าได้ไหมคะ",
+      "target_forms": [
+        "ขอ",
+        "ได้ไหม"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-008"
+    },
+    {
+      "family": "service_rules",
+      "knowledge_refs": [
+        "th-a2-gram-auth-009",
+        "th:grammar:a2_obligation_prohibition_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "necessity/prohibition frame",
+      "risk_label": "low",
+      "scenario_hint": "stating a passport is required at the counter",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-009.01",
+      "surface": "ต้องแสดงพาสปอร์ตที่เคาน์เตอร์ครับ",
+      "target_forms": [
+        "ต้อง"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-009"
+    },
+    {
+      "family": "service_rules",
+      "knowledge_refs": [
+        "th-a2-gram-auth-009",
+        "th:grammar:a2_obligation_prohibition_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "necessity/prohibition frame",
+      "risk_label": "low",
+      "scenario_hint": "stating a room rule and no extra payment",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-009.02",
+      "surface": "ห้ามสูบบุหรี่ในห้อง และไม่ต้องจ่ายเพิ่มค่ะ",
+      "target_forms": [
+        "ห้าม",
+        "ไม่ต้อง"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-009"
+    },
+    {
+      "family": "conditions",
+      "knowledge_refs": [
+        "th-a2-gram-auth-010",
+        "th:grammar:a2_conditional_frame_thaa"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "conditional frame",
+      "risk_label": "low",
+      "scenario_hint": "saying what will happen if it rains",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-010.01",
+      "surface": "ถ้าฝนตก ผมจะโทรหาคุณครับ",
+      "target_forms": [
+        "ถ้า"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-010"
+    },
+    {
+      "family": "conditions",
+      "knowledge_refs": [
+        "th-a2-gram-auth-010",
+        "th:grammar:a2_conditional_frame_thaa"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "conditional frame",
+      "risk_label": "low",
+      "scenario_hint": "giving an alternative if the room is full",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-010.02",
+      "surface": "ถ้าห้องเต็ม เราไปที่อื่นได้ค่ะ",
+      "target_forms": [
+        "ถ้า"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-010"
+    },
+    {
+      "family": "location_route",
+      "knowledge_refs": [
+        "th-a2-gram-auth-011",
+        "th:grammar:a2_location_route_particles_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "directional/location prepositions",
+      "risk_label": "low",
+      "scenario_hint": "describing a route from a hotel to the airport",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-011.01",
+      "surface": "รถออกจากโรงแรมไปสนามบิน และถึงตอนบ่ายครับ",
+      "target_forms": [
+        "จาก",
+        "ไป",
+        "ถึง"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-011"
+    },
+    {
+      "family": "location_route",
+      "knowledge_refs": [
+        "th-a2-gram-auth-011",
+        "th:grammar:a2_location_route_particles_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "directional/location prepositions",
+      "risk_label": "low",
+      "scenario_hint": "describing where a shop is and where to get off",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-011.02",
+      "surface": "ร้านอยู่ในห้าง ลงที่สถานีหน้าค่ะ",
+      "target_forms": [
+        "ใน",
+        "ลงที่",
+        "ที่"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-011"
+    },
+    {
+      "family": "quantity_approximation",
+      "knowledge_refs": [
+        "th-a2-gram-auth-012",
+        "th:grammar:a2_quantity_approximation_kwaa"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "approximation with กว่า after number/unit",
+      "risk_label": "low",
+      "scenario_hint": "estimating more than ten people waiting",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-012.01",
+      "surface": "มีสิบกว่าคนรออยู่ครับ",
+      "target_forms": [
+        "สิบกว่าคน",
+        "กว่า"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-012"
+    },
+    {
+      "family": "quantity_approximation",
+      "knowledge_refs": [
+        "th-a2-gram-auth-012",
+        "th:grammar:a2_quantity_approximation_kwaa"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "approximation with กว่า after number/unit",
+      "risk_label": "low",
+      "scenario_hint": "estimating a trip takes over two hours",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-012.02",
+      "surface": "นั่งรถสองชั่วโมงกว่าค่ะ",
+      "target_forms": [
+        "สองชั่วโมงกว่า",
+        "กว่า"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-012"
+    },
+    {
+      "family": "reason_explanation",
+      "knowledge_refs": [
+        "th-a2-gram-auth-013",
+        "th:grammar:a2_because_connector_variants"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "because connector variants",
+      "risk_label": "low",
+      "scenario_hint": "explaining lateness because of traffic",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-013.01",
+      "surface": "ผมมาช้าเพราะรถติดครับ",
+      "target_forms": [
+        "เพราะ"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-013"
+    },
+    {
+      "family": "reason_explanation",
+      "knowledge_refs": [
+        "th-a2-gram-auth-013",
+        "th:grammar:a2_because_connector_variants"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "because connector variants",
+      "risk_label": "low",
+      "scenario_hint": "explaining a restaurant change because the old one is closed",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-013.02",
+      "surface": "เราเปลี่ยนร้านเพราะว่าร้านเดิมปิดค่ะ",
+      "target_forms": [
+        "เพราะว่า"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-013"
+    },
+    {
+      "family": "past_experience",
+      "knowledge_refs": [
+        "th-a2-gram-auth-017",
+        "th:grammar:a2_experience_marker_khoei"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "experience marker",
+      "risk_label": "low",
+      "scenario_hint": "asking whether someone has been to Chiang Mai",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-017.01",
+      "surface": "คุณเคยไปเชียงใหม่ไหมครับ",
+      "target_forms": [
+        "เคย"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-017"
+    },
+    {
+      "family": "past_experience",
+      "knowledge_refs": [
+        "th-a2-gram-auth-017",
+        "th:grammar:a2_experience_marker_khoei"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "experience marker",
+      "risk_label": "low",
+      "scenario_hint": "saying one has tried Thai food here before",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-017.02",
+      "surface": "ฉันเคยกินอาหารไทยที่นี่ค่ะ",
+      "target_forms": [
+        "เคย"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-017"
+    },
+    {
+      "family": "recent_past",
+      "knowledge_refs": [
+        "th-a2-gram-auth-018",
+        "th:grammar:a2_recent_action_marker_phoeng"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "recent-action marker",
+      "risk_label": "low",
+      "scenario_hint": "saying one just arrived at the hotel",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-018.01",
+      "surface": "ผมเพิ่งถึงโรงแรมครับ",
+      "target_forms": [
+        "เพิ่ง"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-018"
+    },
+    {
+      "family": "recent_past",
+      "knowledge_refs": [
+        "th-a2-gram-auth-018",
+        "th:grammar:a2_recent_action_marker_phoeng"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "recent-action marker",
+      "risk_label": "low",
+      "scenario_hint": "saying a form was just sent",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-018.02",
+      "surface": "ฉันเพิ่งส่งแบบฟอร์มค่ะ",
+      "target_forms": [
+        "เพิ่ง"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-018"
+    },
+    {
+      "family": "imminent_future",
+      "knowledge_refs": [
+        "th-a2-gram-auth-019",
+        "th:grammar:a2_imminent_plan_kamlang_ja"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "imminent plan frame",
+      "risk_label": "low",
+      "scenario_hint": "saying one is about to leave the hotel",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-019.01",
+      "surface": "ผมกำลังจะออกจากโรงแรมครับ",
+      "target_forms": [
+        "กำลังจะ"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-019"
+    },
+    {
+      "family": "imminent_future",
+      "knowledge_refs": [
+        "th-a2-gram-auth-019",
+        "th:grammar:a2_imminent_plan_kamlang_ja"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "imminent plan frame",
+      "risk_label": "low",
+      "scenario_hint": "saying the car is about to arrive at the station",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-019.02",
+      "surface": "รถกำลังจะถึงสถานีค่ะ",
+      "target_forms": [
+        "กำลังจะ"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-019"
+    },
+    {
+      "family": "not_yet_status",
+      "knowledge_refs": [
+        "th-a2-gram-auth-020",
+        "th:grammar:a2_not_yet_frame_yang_mai"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "not-yet negative frame",
+      "risk_label": "low",
+      "scenario_hint": "saying one has not paid yet",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-020.01",
+      "surface": "ผมยังไม่ได้จ่ายเงินครับ",
+      "target_forms": [
+        "ยังไม่"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-020"
+    },
+    {
+      "family": "not_yet_status",
+      "knowledge_refs": [
+        "th-a2-gram-auth-020",
+        "th:grammar:a2_not_yet_frame_yang_mai"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "not-yet negative frame",
+      "risk_label": "low",
+      "scenario_hint": "saying the room is not ready yet",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-020.02",
+      "surface": "ห้องยังไม่พร้อมค่ะ",
+      "target_forms": [
+        "ยังไม่"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-020"
+    },
+    {
+      "family": "advice_recommendation",
+      "knowledge_refs": [
+        "th-a2-gram-auth-021",
+        "th:grammar:a2_should_frame_khuan"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "should frame",
+      "risk_label": "low",
+      "scenario_hint": "low-risk restaurant booking advice",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-021.01",
+      "surface": "คุณควรจองโต๊ะก่อนครับ",
+      "target_forms": [
+        "ควร"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-021"
+    },
+    {
+      "family": "advice_recommendation",
+      "knowledge_refs": [
+        "th-a2-gram-auth-021",
+        "th:grammar:a2_should_frame_khuan"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "should frame",
+      "risk_label": "low",
+      "scenario_hint": "simple travel timing recommendation",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-021.02",
+      "surface": "เราควรจะไปเช้าหน่อยค่ะ",
+      "target_forms": [
+        "ควรจะ"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-021"
+    },
+    {
+      "family": "directional_serial",
+      "knowledge_refs": [
+        "th-a2-gram-auth-022",
+        "th:grammar:a2_directional_serial_ao_pai_ma"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "take away/bring here frame",
+      "risk_label": "low",
+      "scenario_hint": "taking luggage away to the car",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-022.01",
+      "surface": "ผมจะเอากระเป๋าไปที่รถครับ",
+      "target_forms": [
+        "เอา...ไป"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-022"
+    },
+    {
+      "family": "directional_serial",
+      "knowledge_refs": [
+        "th-a2-gram-auth-022",
+        "th:grammar:a2_directional_serial_ao_pai_ma"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "take away/bring here frame",
+      "risk_label": "low",
+      "scenario_hint": "bringing a receipt here",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-022.02",
+      "surface": "ช่วยเอาใบเสร็จมาให้ฉันหน่อยค่ะ",
+      "target_forms": [
+        "เอา...มา"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-022"
+    },
+    {
+      "family": "round_trip_experience",
+      "knowledge_refs": [
+        "th-a2-gram-auth-023",
+        "th:grammar:a2_round_trip_pai_ma"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "go and come back frame",
+      "risk_label": "low",
+      "scenario_hint": "saying one went to the market and came back",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-023.01",
+      "surface": "เมื่อวานฉันไปตลาดมาค่ะ",
+      "target_forms": [
+        "ไป...มา"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-023"
+    },
+    {
+      "family": "round_trip_experience",
+      "knowledge_refs": [
+        "th-a2-gram-auth-023",
+        "th:grammar:a2_round_trip_pai_ma"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "go and come back frame",
+      "risk_label": "low",
+      "scenario_hint": "saying we went to the museum and returned",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-023.02",
+      "surface": "เราไปพิพิธภัณฑ์มาครับ",
+      "target_forms": [
+        "ไป...มา"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-023"
+    },
+    {
+      "family": "relative_clause",
+      "knowledge_refs": [
+        "th-a2-gram-auth-024",
+        "th:grammar:a2_relative_clause_thii"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "noun plus relative ที่ clause",
+      "risk_label": "low",
+      "scenario_hint": "identifying a shop by location",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-024.01",
+      "surface": "ร้านที่อยู่ใกล้สถานีเปิดถึงสามทุ่มค่ะ",
+      "target_forms": [
+        "ที่"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-024"
+    },
+    {
+      "family": "relative_clause",
+      "knowledge_refs": [
+        "th-a2-gram-auth-024",
+        "th:grammar:a2_relative_clause_thii"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "noun plus relative ที่ clause",
+      "risk_label": "low",
+      "scenario_hint": "identifying the room that was booked",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-024.02",
+      "surface": "ห้องที่จองไว้อยู่ชั้นห้าครับ",
+      "target_forms": [
+        "ที่"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-024"
+    },
+    {
+      "family": "frequency_habit",
+      "knowledge_refs": [
+        "th-a2-gram-auth-025",
+        "th:grammar:a2_frequency_adverbs_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "frequency adverbs",
+      "risk_label": "low",
+      "scenario_hint": "saying one comes to this shop often",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-025.01",
+      "surface": "ผมมาที่ร้านนี้บ่อยๆครับ",
+      "target_forms": [
+        "บ่อยๆ"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-025"
+    },
+    {
+      "family": "frequency_habit",
+      "knowledge_refs": [
+        "th-a2-gram-auth-025",
+        "th:grammar:a2_frequency_adverbs_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "frequency adverbs",
+      "risk_label": "low",
+      "scenario_hint": "describing a daily habit and occasional choice",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-025.02",
+      "surface": "ฉันดื่มกาแฟทุกวัน แต่บางครั้งดื่มชาค่ะ",
+      "target_forms": [
+        "ทุกวัน",
+        "บางครั้ง"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-025"
+    },
+    {
+      "family": "superlative_ranking",
+      "knowledge_refs": [
+        "th-a2-gram-auth-026",
+        "th:grammar:a2_superlative_frame_thii_sut"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "superlative frame",
+      "risk_label": "low",
+      "scenario_hint": "saying this shop is the cheapest",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-026.01",
+      "surface": "ร้านนี้ถูกที่สุดครับ",
+      "target_forms": [
+        "ที่สุด"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-026"
+    },
+    {
+      "family": "superlative_ranking",
+      "knowledge_refs": [
+        "th-a2-gram-auth-026",
+        "th:grammar:a2_superlative_frame_thii_sut"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "superlative frame",
+      "risk_label": "low",
+      "scenario_hint": "saying this station is the closest",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-026.02",
+      "surface": "สถานีนี้ใกล้ที่สุดค่ะ",
+      "target_forms": [
+        "ที่สุด"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-026"
+    },
+    {
+      "family": "past_event_narrative",
+      "knowledge_refs": [
+        "th-a2-gram-auth-027",
+        "th:grammar:a2_past_event_narrative_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "simple past event narrative frame",
+      "risk_label": "low",
+      "scenario_hint": "short past outing and feeling",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-027.01",
+      "surface": "เมื่อวานผมไปตลาดมา แล้วรู้สึกเหนื่อยครับ",
+      "target_forms": [
+        "เมื่อวาน",
+        "แล้ว",
+        "รู้สึก"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-027"
+    },
+    {
+      "family": "past_event_narrative",
+      "knowledge_refs": [
+        "th-a2-gram-auth-027",
+        "th:grammar:a2_past_event_narrative_basic"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "simple past event narrative frame",
+      "risk_label": "low",
+      "scenario_hint": "short past weather event and feeling",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-027.02",
+      "surface": "เมื่อวานฝนตก แล้วฉันรู้สึกหนาวค่ะ",
+      "target_forms": [
+        "เมื่อวาน",
+        "แล้ว",
+        "รู้สึก"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-027"
+    },
+    {
+      "family": "symptom_description",
+      "knowledge_refs": [
+        "th-a2-gram-auth-028",
+        "th:grammar:a2_basic_symptom_description"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "basic symptom description frame",
+      "risk_label": "health_low_stakes_description_only",
+      "scenario_hint": "low-stakes headache description",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-028.01",
+      "surface": "วันนี้ฉันปวดหัวนิดหน่อยค่ะ",
+      "target_forms": [
+        "ปวดหัว"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-028"
+    },
+    {
+      "family": "symptom_description",
+      "knowledge_refs": [
+        "th-a2-gram-auth-028",
+        "th:grammar:a2_basic_symptom_description"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "basic symptom description frame",
+      "risk_label": "health_low_stakes_description_only",
+      "scenario_hint": "low-stakes stomachache and unwell description",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-028.02",
+      "surface": "ผมปวดท้องและไม่สบายครับ",
+      "target_forms": [
+        "ปวดท้อง",
+        "ไม่สบาย"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-028"
+    },
+    {
+      "family": "comparative_frame",
+      "knowledge_refs": [
+        "th-a2-gram-auth-001",
+        "th:grammar:a2_comparative_frame_kwaa"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "comparative frame",
+      "risk_label": "low",
+      "scenario_hint": "comparing two rooms by price",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-001.01",
+      "surface": "ห้องนี้ถูกกว่าห้องนั้นครับ",
+      "target_forms": [
+        "กว่า",
+        "ถูกกว่า"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-001"
+    },
+    {
+      "family": "comparative_frame",
+      "knowledge_refs": [
+        "th-a2-gram-auth-001",
+        "th:grammar:a2_comparative_frame_kwaa"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "comparative frame",
+      "risk_label": "low",
+      "scenario_hint": "comparing train and bus speed",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-001.02",
+      "surface": "รถไฟเร็วกว่ารถบัสค่ะ",
+      "target_forms": [
+        "กว่า",
+        "เร็วกว่า"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-001"
+    },
+    {
+      "family": "comparative_frame",
+      "knowledge_refs": [
+        "th-a2-gram-auth-001",
+        "th:grammar:a2_comparative_frame_kwaa"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "comparative frame",
+      "risk_label": "low",
+      "scenario_hint": "asking whether this option is more convenient",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-001.03",
+      "surface": "อันนี้สะดวกกว่าไหมครับ",
+      "target_forms": [
+        "กว่า",
+        "สะดวกกว่า"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-001"
+    },
+    {
+      "family": "coordination_comitative",
+      "knowledge_refs": [
+        "th-a1-gram-auth-028",
+        "th:grammar:a1_additive_comitative_connectors"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "additive/comitative connectors",
+      "risk_label": "low",
+      "scenario_hint": "listing two menu items",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-028.01",
+      "surface": "เมนูนี้มีกาแฟและชาครับ",
+      "target_forms": [
+        "และ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-028"
+    },
+    {
+      "family": "coordination_comitative",
+      "knowledge_refs": [
+        "th-a1-gram-auth-028",
+        "th:grammar:a1_additive_comitative_connectors"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "additive/comitative connectors",
+      "risk_label": "low",
+      "scenario_hint": "saying one goes with a friend",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-028.02",
+      "surface": "ฉันไปกับเพื่อนค่ะ",
+      "target_forms": [
+        "กับ"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-028"
+    },
+    {
+      "family": "coordination_comitative",
+      "knowledge_refs": [
+        "th-a1-gram-auth-028",
+        "th:grammar:a1_additive_comitative_connectors"
+      ],
+      "language": "th",
+      "level": "A1",
+      "micro_point": "additive/comitative connectors",
+      "risk_label": "low",
+      "scenario_hint": "asking for a bag as well",
+      "sentence_id": "sent.th.phase2.grammar.th-a1-gram-auth-028.03",
+      "surface": "ขอถุงด้วยครับ",
+      "target_forms": [
+        "ด้วย"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-028"
+    },
+    {
+      "family": "wh_time_reason_manner",
+      "knowledge_refs": [
+        "th-a2-gram-auth-029",
+        "th:grammar:a2_wh_time_reason_manner_questions"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "time question word",
+      "risk_label": "low",
+      "scenario_hint": "asking when a vehicle leaves",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-029.01",
+      "surface": "รถออกเมื่อไหร่ครับ",
+      "target_forms": [
+        "เมื่อไหร่"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-029"
+    },
+    {
+      "family": "wh_time_reason_manner",
+      "knowledge_refs": [
+        "th-a2-gram-auth-029",
+        "th:grammar:a2_wh_time_reason_manner_questions"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "reason question word",
+      "risk_label": "low",
+      "scenario_hint": "asking why the shop is closed today",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-029.02",
+      "surface": "ทำไมร้านปิดวันนี้คะ",
+      "target_forms": [
+        "ทำไม"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-029"
+    },
+    {
+      "family": "wh_time_reason_manner",
+      "knowledge_refs": [
+        "th-a2-gram-auth-029",
+        "th:grammar:a2_wh_time_reason_manner_questions"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "casual manner/route question",
+      "risk_label": "low",
+      "scenario_hint": "asking how to get to a station",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-029.03",
+      "surface": "ไปสถานียังไงครับ",
+      "target_forms": [
+        "ยังไง"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-029"
+    },
+    {
+      "family": "wh_time_reason_manner",
+      "knowledge_refs": [
+        "th-a2-gram-auth-029",
+        "th:grammar:a2_wh_time_reason_manner_questions"
+      ],
+      "language": "th",
+      "level": "A2",
+      "micro_point": "formal manner question",
+      "risk_label": "low",
+      "scenario_hint": "asking how to fill in a form in a more formal style",
+      "sentence_id": "sent.th.phase2.grammar.th-a2-gram-auth-029.04",
+      "surface": "กรอกแบบฟอร์มนี้อย่างไรคะ",
+      "target_forms": [
+        "อย่างไร"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-029"
+    }
+  ],
+  "language": "th",
+  "package_id": "th-grammar-a1a2",
+  "schema_version": "grammar_runtime_preview_candidate_sentences.v1"
+}

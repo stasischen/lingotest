@@ -1,0 +1,3812 @@
+{
+  "schema_version": "a1_grammar_knowledge_sidecar.v1",
+  "language": "de",
+  "status": "review_staging_native_pending",
+  "created_at": "2026-06-22",
+  "author_id": "a1_expanded_grammar_author_de_20260622",
+  "authoring_basis": "expanded DE A1 grammar micro-points plus realized frame examples",
+  "production_promotion_allowed": false,
+  "native_status": "native_pending",
+  "nodes": [
+    {
+      "learning_object_id": "de_grammar_expanded_001",
+      "title_zh_tw": "用 ich bin 說名字（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n用 ich bin + 名字直接說『我是某某』，焦點是身分呈現，不是姓名拼寫。 sein 是 A1 自我介紹和辨認人物的核心動詞，用來說名字、身分、國籍、職業或狀態。\n\n· 形式\n先抓主詞和 sein 的現在式：ich bin、du bist、Sie sind、er/sie/es ist。\n\n· 常見使用場景\n自我介紹、入住登記、課堂點名、介紹朋友或確認對方身分。\n\n· 相近用法與容易混淆\nIch bin Anna 說身分；Ich heiße Anna / Mein Name ist Anna 更直接回答姓名。\n\n· 注意\n不要只背英文式的『be』；德文會隨主詞換形，正式稱呼 Sie 一律搭配 sind。",
+      "ref_id": "de-gramx-a1-001",
+      "ref_item": "ich bin + Name",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "identity_sein",
+      "function_refs": [
+        "fn-self-intro",
+        "fn-identify",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_self_introduction_and_basic_identity_can_do;Goethe_A1_scope_calibration_not_copied;DE_sein_identity_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich bin Lukas.",
+          "source_item_id": "frame:authored-name-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「ich bin + Name」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich bin Anna.",
+          "source_item_id": "frame:de-frame-a1-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「ich bin + Name」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Guten Morgen, ich bin Anna.",
+          "source_item_id": "frame:de-frame-a1-013",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「ich bin + Name」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_002",
+      "title_zh_tw": "用 ich bin 說國籍（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n用 ich bin + 國籍/身分形容詞說自己是哪裡人；Ich komme aus ... 則是說來源國，功能相近但形式不同。 sein 是 A1 自我介紹和辨認人物的核心動詞，用來說名字、身分、國籍、職業或狀態。\n\n· 形式\n先抓主詞和 sein 的現在式：ich bin、du bist、Sie sind、er/sie/es ist。\n\n· 常見使用場景\n自我介紹、入住登記、課堂點名、介紹朋友或確認對方身分。\n\n· 相近用法與容易混淆\nIch bin deutsch 偏身分/國籍形容；Ich komme aus Deutschland 說來源地。\n\n· 注意\n不要只背英文式的『be』；德文會隨主詞換形，正式稱呼 Sie 一律搭配 sind。",
+      "ref_id": "de-gramx-a1-002",
+      "ref_item": "ich bin + Nationalität",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "identity_sein",
+      "function_refs": [
+        "fn-self-intro",
+        "fn-identify",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_self_introduction_and_basic_identity_can_do;Goethe_A1_scope_calibration_not_copied;DE_sein_identity_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich bin deutsch.",
+          "source_item_id": "frame:authored-nationality-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「ich bin + Nationalität」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich bin Österreicherin.",
+          "source_item_id": "frame:authored-nationality-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「ich bin + Nationalität」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich komme aus Deutschland.",
+          "source_item_id": "frame:de-frame-a1-004",
+          "note_zh_tw": "這句是對照句：它說『來自德國』，和 ich bin deutsch 都能回答身分/來源，但形式不同。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_003",
+      "title_zh_tw": "用 ich bin 說職業（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n用 ich bin + 職業名詞說工作或身分；正式問答中也會看到 Sie sind ... 或 Was sind Sie von Beruf? sein 是 A1 自我介紹和辨認人物的核心動詞，用來說名字、身分、國籍、職業或狀態。\n\n· 形式\n先抓主詞和 sein 的現在式：ich bin、du bist、Sie sind、er/sie/es ist。\n\n· 常見使用場景\n自我介紹、入住登記、課堂點名、介紹朋友或確認對方身分。\n\n· 相近用法與容易混淆\nIch bin Student 說職業或身分；Was sind Sie von Beruf? 是較正式的問法。\n\n· 注意\n不要只背英文式的『be』；德文會隨主詞換形，正式稱呼 Sie 一律搭配 sind。",
+      "ref_id": "de-gramx-a1-003",
+      "ref_item": "ich bin + Beruf",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "identity_sein",
+      "function_refs": [
+        "fn-self-intro",
+        "fn-identify",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_self_introduction_and_basic_identity_can_do;Goethe_A1_scope_calibration_not_copied;DE_sein_identity_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Sie sind Ärztin.",
+          "source_item_id": "frame:authored-job-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「ich bin + Beruf」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich bin Student.",
+          "source_item_id": "frame:de-frame-a1-007",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「ich bin + Beruf」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Was sind Sie von Beruf?",
+          "source_item_id": "frame:de-frame-a1-011",
+          "note_zh_tw": "這句是在正式問職業；回答時可用 ich bin/Sie sind + 職業。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_004",
+      "title_zh_tw": "du bist 與 Sie sind 的稱呼差別（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\ndu 和 Sie 都是『你/您』，但關係不同；du 搭配 bist，正式 Sie 搭配 sind。 sein 是 A1 自我介紹和辨認人物的核心動詞，用來說名字、身分、國籍、職業或狀態。\n\n· 形式\n先抓主詞和 sein 的現在式：ich bin、du bist、Sie sind、er/sie/es ist。\n\n· 常見使用場景\n自我介紹、入住登記、課堂點名、介紹朋友或確認對方身分。\n\n· 相近用法與容易混淆\ndu 用於熟人或同輩；Sie 是正式稱呼，動詞形式永遠是 sind。\n\n· 注意\n不要只背英文式的『be』；德文會隨主詞換形，正式稱呼 Sie 一律搭配 sind。",
+      "ref_id": "de-gramx-a1-004",
+      "ref_item": "du/Sie bist/sind contrast",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "identity_sein",
+      "function_refs": [
+        "fn-self-intro",
+        "fn-identify",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_self_introduction_and_basic_identity_can_do;Goethe_A1_scope_calibration_not_copied;DE_sein_identity_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Du bist Paul.",
+          "source_item_id": "frame:authored-register-001",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「du/Sie bist/sind contrast」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Sind Sie Anna?",
+          "source_item_id": "frame:authored-register-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 句中的形式對應「du/Sie bist/sind contrast」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Sie sind Lehrer.",
+          "source_item_id": "frame:authored-register-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「du/Sie bist/sind contrast」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_005",
+      "title_zh_tw": "用 er/sie ist 描述他人（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n描述第三人稱時用 er ist 或 sie ist，可接年齡、狀態、性格或職業。 sein 是 A1 自我介紹和辨認人物的核心動詞，用來說名字、身分、國籍、職業或狀態。\n\n· 形式\n先抓主詞和 sein 的現在式：ich bin、du bist、Sie sind、er/sie/es ist。\n\n· 常見使用場景\n自我介紹、入住登記、課堂點名、介紹朋友或確認對方身分。\n\n· 相近用法與容易混淆\ner/sie ist 描述人；das ist 指認人事物；es ist 常說天氣、時間或狀態。\n\n· 注意\n不要只背英文式的『be』；德文會隨主詞換形，正式稱呼 Sie 一律搭配 sind。",
+      "ref_id": "de-gramx-a1-005",
+      "ref_item": "er/sie ist description",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "identity_sein",
+      "function_refs": [
+        "fn-self-intro",
+        "fn-identify",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_self_introduction_and_basic_identity_can_do;Goethe_A1_scope_calibration_not_copied;DE_sein_identity_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Er ist müde.",
+          "source_item_id": "frame:authored-third-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「er/sie ist description」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Sie ist sehr nett.",
+          "source_item_id": "frame:de-frame-a1-021",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「er/sie ist description」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Er ist 25 Jahre alt.",
+          "source_item_id": "frame:de-frame-a1-022",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「er/sie ist description」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_006",
+      "title_zh_tw": "用 das ist 指認人事物（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\ndas ist 用來指認人、物或地點，意思接近『這是/那是』。 sein 是 A1 自我介紹和辨認人物的核心動詞，用來說名字、身分、國籍、職業或狀態。\n\n· 形式\n先抓主詞和 sein 的現在式：ich bin、du bist、Sie sind、er/sie/es ist。\n\n· 常見使用場景\n自我介紹、入住登記、課堂點名、介紹朋友或確認對方身分。\n\n· 相近用法與容易混淆\ndas ist 重點是指認；er/sie ist 則是描述具體人物。\n\n· 注意\n不要只背英文式的『be』；德文會隨主詞換形，正式稱呼 Sie 一律搭配 sind。",
+      "ref_id": "de-gramx-a1-006",
+      "ref_item": "das ist identification",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "identity_sein",
+      "function_refs": [
+        "fn-self-intro",
+        "fn-identify",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_self_introduction_and_basic_identity_can_do;Goethe_A1_scope_calibration_not_copied;DE_sein_identity_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Das ist mein Ausweis.",
+          "source_item_id": "frame:authored-das-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「das ist identification」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Das ist meine Mutter.",
+          "source_item_id": "frame:de-frame-a1-015",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「das ist identification」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Das ist mein Vater.",
+          "source_item_id": "frame:de-frame-a1-016",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「das ist identification」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_007",
+      "title_zh_tw": "用 es ist 說天氣、時間或狀態（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nes ist 可說天氣、時間或一般狀態，這裡的 es 不一定指具體物品。 sein 是 A1 自我介紹和辨認人物的核心動詞，用來說名字、身分、國籍、職業或狀態。\n\n· 形式\n先抓主詞和 sein 的現在式：ich bin、du bist、Sie sind、er/sie/es ist。\n\n· 常見使用場景\n自我介紹、入住登記、課堂點名、介紹朋友或確認對方身分。\n\n· 相近用法與容易混淆\nes ist kalt/spät/wichtig 中的 es 常是形式主詞，不一定指某個物品。\n\n· 注意\n不要只背英文式的『be』；德文會隨主詞換形，正式稱呼 Sie 一律搭配 sind。",
+      "ref_id": "de-gramx-a1-007",
+      "ref_item": "es ist impersonal description",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "identity_sein",
+      "function_refs": [
+        "fn-self-intro",
+        "fn-identify",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_self_introduction_and_basic_identity_can_do;Goethe_A1_scope_calibration_not_copied;DE_sein_identity_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Es ist kalt.",
+          "source_item_id": "frame:authored-es-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「es ist impersonal description」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Es ist spät.",
+          "source_item_id": "frame:authored-es-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「es ist impersonal description」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Es ist wichtig.",
+          "source_item_id": "frame:authored-es-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「es ist impersonal description」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_008",
+      "title_zh_tw": "sein 搭配地點片語（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nsein 加地點片語可說人或物在哪裡，例如 im Hotel、in der Schule、am Bahnhof。 sein 是 A1 自我介紹和辨認人物的核心動詞，用來說名字、身分、國籍、職業或狀態。\n\n· 形式\n先抓主詞和 sein 的現在式：ich bin、du bist、Sie sind、er/sie/es ist。\n\n· 常見使用場景\n自我介紹、入住登記、課堂點名、介紹朋友或確認對方身分。\n\n· 相近用法與容易混淆\nIch bin im Hotel 是所在位置；Ich gehe zum Hotel 是往某地移動。\n\n· 注意\n不要只背英文式的『be』；德文會隨主詞換形，正式稱呼 Sie 一律搭配 sind。",
+      "ref_id": "de-gramx-a1-008",
+      "ref_item": "sein in location chunks",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "identity_sein",
+      "function_refs": [
+        "fn-self-intro",
+        "fn-identify",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_self_introduction_and_basic_identity_can_do;Goethe_A1_scope_calibration_not_copied;DE_sein_identity_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich bin im Hotel.",
+          "source_item_id": "frame:authored-location-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「sein in location chunks」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Sie ist in der Schule.",
+          "source_item_id": "frame:authored-location-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「sein in location chunks」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Der Kurs ist am Dienstag.",
+          "source_item_id": "frame:authored-location-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「sein in location chunks」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_009",
+      "title_zh_tw": "ich habe possession（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nich habe 用來說自己有某物、某位家人、某張票或某段時間。 haben 表示『有』，A1 常用在家人、票、時間、問題、飢渴等生活需求。\n\n· 形式\n先把 ich habe、Sie haben、Haben Sie ...? 當成高頻句塊練熟。\n\n· 常見使用場景\n說家人、票券、預約、問題、飢餓口渴或是否有時間。\n\n· 相近用法與容易混淆\nhaben 說『有』；年齡和很多狀態則用 sein。\n\n· 注意\n德文年齡不用 haben，要說 ich bin ... Jahre alt；Hunger/Durst 則固定用 haben。",
+      "ref_id": "de-gramx-a1-009",
+      "ref_item": "ich habe possession",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "haben_possession",
+      "function_refs": [
+        "fn-possession",
+        "fn-like-need",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_personal_details_and_needs_can_do;Goethe_A1_scope_calibration_not_copied;DE_haben_possession_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich habe ein Ticket.",
+          "source_item_id": "frame:authored-have-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「ich habe possession」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich habe einen Bruder.",
+          "source_item_id": "frame:de-frame-a1-017",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「ich habe possession」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich habe am Samstag Zeit.",
+          "source_item_id": "frame:de-frame-a1-124",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「ich habe possession」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_010",
+      "title_zh_tw": "德文年齡不用 haben（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n說年齡時德文不用 haben，而用 sein + Jahre alt：Ich bin 25 Jahre alt。 haben 表示『有』，A1 常用在家人、票、時間、問題、飢渴等生活需求。\n\n· 形式\n先把 ich habe、Sie haben、Haben Sie ...? 當成高頻句塊練熟。\n\n· 常見使用場景\n說家人、票券、預約、問題、飢餓口渴或是否有時間。\n\n· 相近用法與容易混淆\n中文說『我 25 歲』，德文用 Ich bin 25 Jahre alt，不用 Ich habe 25。\n\n· 注意\n德文年齡不用 haben，要說 ich bin ... Jahre alt；Hunger/Durst 則固定用 haben。",
+      "ref_id": "de-gramx-a1-010",
+      "ref_item": "haben for age is not used in German: use sein/alt pattern",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "haben_possession",
+      "function_refs": [
+        "fn-possession",
+        "fn-like-need",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_personal_details_and_needs_can_do;Goethe_A1_scope_calibration_not_copied;DE_haben_possession_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich bin 25 Jahre alt.",
+          "source_item_id": "frame:authored-age-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「haben for age is not used in German: use sein/alt pattern」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Er ist 25 Jahre alt.",
+          "source_item_id": "frame:de-frame-a1-022",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「haben for age is not used in German: use sein/alt pattern」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Wie alt ist Ihre Tochter?",
+          "source_item_id": "frame:de-frame-a1-024",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 句中的形式對應「haben for age is not used in German: use sein/alt pattern」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_011",
+      "title_zh_tw": "haben + family object（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n說家人時常用 haben + 家庭成員名詞，例如 einen Bruder、keine Schwester、Kinder。 haben 表示『有』，A1 常用在家人、票、時間、問題、飢渴等生活需求。\n\n· 形式\n先把 ich habe、Sie haben、Haben Sie ...? 當成高頻句塊練熟。\n\n· 常見使用場景\n說家人、票券、預約、問題、飢餓口渴或是否有時間。\n\n· 相近用法與容易混淆\n德文年齡不用 haben，要說 ich bin ... Jahre alt；Hunger/Durst 則固定用 haben。\n\n· 注意\n德文年齡不用 haben，要說 ich bin ... Jahre alt；Hunger/Durst 則固定用 haben。",
+      "ref_id": "de-gramx-a1-011",
+      "ref_item": "haben + family object",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "haben_possession",
+      "function_refs": [
+        "fn-possession",
+        "fn-like-need",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_personal_details_and_needs_can_do;Goethe_A1_scope_calibration_not_copied;DE_haben_possession_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich habe einen Bruder.",
+          "source_item_id": "frame:de-frame-a1-017",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「haben + family object」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich habe keine Schwester.",
+          "source_item_id": "frame:de-frame-a1-018",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「haben + family object」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Haben Sie Kinder?",
+          "source_item_id": "frame:de-frame-a1-023",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 句中的形式對應「haben + family object」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_012",
+      "title_zh_tw": "haben + appointment/ticket（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n票、預約和時間常用 haben 表示已經有安排或持有某物。 haben 表示『有』，A1 常用在家人、票、時間、問題、飢渴等生活需求。\n\n· 形式\n先把 ich habe、Sie haben、Haben Sie ...? 當成高頻句塊練熟。\n\n· 常見使用場景\n說家人、票券、預約、問題、飢餓口渴或是否有時間。\n\n· 相近用法與容易混淆\n德文年齡不用 haben，要說 ich bin ... Jahre alt；Hunger/Durst 則固定用 haben。\n\n· 注意\n德文年齡不用 haben，要說 ich bin ... Jahre alt；Hunger/Durst 則固定用 haben。",
+      "ref_id": "de-gramx-a1-012",
+      "ref_item": "haben + appointment/ticket",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "haben_possession",
+      "function_refs": [
+        "fn-possession",
+        "fn-like-need",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_personal_details_and_needs_can_do;Goethe_A1_scope_calibration_not_copied;DE_haben_possession_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich habe einen Termin.",
+          "source_item_id": "frame:authored-appointment-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「haben + appointment/ticket」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich habe ein Ticket.",
+          "source_item_id": "frame:authored-ticket-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「haben + appointment/ticket」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich habe am Samstag Zeit.",
+          "source_item_id": "frame:de-frame-a1-124",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「haben + appointment/ticket」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_013",
+      "title_zh_tw": "haben + problem（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n說遇到問題時用 haben + Problem，後面常接請求協助的句子。 haben 表示『有』，A1 常用在家人、票、時間、問題、飢渴等生活需求。\n\n· 形式\n先把 ich habe、Sie haben、Haben Sie ...? 當成高頻句塊練熟。\n\n· 常見使用場景\n說家人、票券、預約、問題、飢餓口渴或是否有時間。\n\n· 相近用法與容易混淆\n德文年齡不用 haben，要說 ich bin ... Jahre alt；Hunger/Durst 則固定用 haben。\n\n· 注意\n德文年齡不用 haben，要說 ich bin ... Jahre alt；Hunger/Durst 則固定用 haben。",
+      "ref_id": "de-gramx-a1-013",
+      "ref_item": "haben + problem",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "haben_possession",
+      "function_refs": [
+        "fn-possession",
+        "fn-like-need",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_personal_details_and_needs_can_do;Goethe_A1_scope_calibration_not_copied;DE_haben_possession_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich habe ein Problem.",
+          "source_item_id": "frame:authored-problem-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「haben + problem」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Wir haben kein Internet.",
+          "source_item_id": "frame:authored-problem-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「haben + problem」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Können Sie mir helfen?",
+          "source_item_id": "frame:de-frame-a1-137",
+          "note_zh_tw": "這句不是 haben + Problem 本身，而是說完問題後最常接的禮貌求助句。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_014",
+      "title_zh_tw": "haben + hunger/thirst chunks（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nHunger 和 Durst 在德文用 haben，不用 sein：Ich habe Hunger/Durst。 haben 表示『有』，A1 常用在家人、票、時間、問題、飢渴等生活需求。\n\n· 形式\n先把 ich habe、Sie haben、Haben Sie ...? 當成高頻句塊練熟。\n\n· 常見使用場景\n說家人、票券、預約、問題、飢餓口渴或是否有時間。\n\n· 相近用法與容易混淆\n中文說『我餓了/渴了』，德文固定說 Ich habe Hunger/Durst。\n\n· 注意\n德文年齡不用 haben，要說 ich bin ... Jahre alt；Hunger/Durst 則固定用 haben。",
+      "ref_id": "de-gramx-a1-014",
+      "ref_item": "haben + hunger/thirst chunks",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "haben_possession",
+      "function_refs": [
+        "fn-possession",
+        "fn-like-need",
+        "fn-describe"
+      ],
+      "source_basis": "CEFR_A1_personal_details_and_needs_can_do;Goethe_A1_scope_calibration_not_copied;DE_haben_possession_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich habe Hunger.",
+          "source_item_id": "frame:authored-hunger-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「haben + hunger/thirst chunks」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich habe Durst.",
+          "source_item_id": "frame:authored-hunger-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「haben + hunger/thirst chunks」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Hast du Durst?",
+          "source_item_id": "frame:authored-hunger-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 句中的形式對應「haben + hunger/thirst chunks」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_015",
+      "title_zh_tw": "定冠詞 der / die / das（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nder/die/das 表示特定的人事物，也提示名詞性別。 名詞前的冠詞會提示性別、數量和是否特定，是德文 A1 讀句子的關鍵線索。\n\n· 形式\n先把 der/die/das、ein/eine/ein、kein/keine/kein 和名詞一起記，不要分開背。\n\n· 常見使用場景\n點餐、購物、問路和看標誌時，用冠詞判斷名詞角色與性別。\n\n· 相近用法與容易混淆\nder/die/das 指已知或特定；ein/eine/ein 指一個或某個。\n\n· 注意\nA1 不要求自由推導所有變格，但要能看出 der Bus、die Rechnung、das Menü 這類組合。",
+      "ref_id": "de-gramx-a1-015",
+      "ref_item": "definite articles der/die/das",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "articles_gender",
+      "function_refs": [
+        "fn-identify",
+        "fn-food-shopping",
+        "fn-negate"
+      ],
+      "source_basis": "CEFR_A1_basic_nominal_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_article_gender_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Was kostet das Menü?",
+          "source_item_id": "frame:de-frame-a1-030",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意名詞前的冠詞或否定冠詞，這裡用來示範「definite articles der/die/das」。"
+        },
+        {
+          "surface": "Die Rechnung, bitte.",
+          "source_item_id": "frame:de-frame-a1-031",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意名詞前的冠詞或否定冠詞，這裡用來示範「definite articles der/die/das」。"
+        },
+        {
+          "surface": "Der Bus kommt um acht Uhr.",
+          "source_item_id": "frame:de-frame-a1-060",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意名詞前的冠詞或否定冠詞，這裡用來示範「definite articles der/die/das」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_016",
+      "title_zh_tw": "不定冠詞 ein / eine / ein（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nein/eine/ein 表示『一個/某個』，點餐、購物和介紹物品時很常見。 名詞前的冠詞會提示性別、數量和是否特定，是德文 A1 讀句子的關鍵線索。\n\n· 形式\n先把 der/die/das、ein/eine/ein、kein/keine/kein 和名詞一起記，不要分開背。\n\n· 常見使用場景\n點餐、購物、問路和看標誌時，用冠詞判斷名詞角色與性別。\n\n· 相近用法與容易混淆\nein/eine/ein 不是只等於數字一，也常表示不特定的一個。\n\n· 注意\nA1 不要求自由推導所有變格，但要能看出 der Bus、die Rechnung、das Menü 這類組合。",
+      "ref_id": "de-gramx-a1-016",
+      "ref_item": "indefinite articles ein/eine/ein",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "articles_gender",
+      "function_refs": [
+        "fn-identify",
+        "fn-food-shopping",
+        "fn-negate"
+      ],
+      "source_basis": "CEFR_A1_basic_nominal_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_article_gender_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich möchte ein Wasser, bitte.",
+          "source_item_id": "frame:authored-indef-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意名詞前的冠詞或否定冠詞，這裡用來示範「indefinite articles ein/eine/ein」。"
+        },
+        {
+          "surface": "Ich möchte einen Kaffee, bitte.",
+          "source_item_id": "frame:de-frame-a1-027",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意名詞前的冠詞或否定冠詞，這裡用來示範「indefinite articles ein/eine/ein」。"
+        },
+        {
+          "surface": "Ein Stück Kuchen, bitte.",
+          "source_item_id": "frame:de-frame-a1-035",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意名詞前的冠詞或否定冠詞，這裡用來示範「indefinite articles ein/eine/ein」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_017",
+      "title_zh_tw": "否定冠詞 kein / keine / kein（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nkein/keine/kein 用來否定名詞，意思是『沒有/不是一個』。 名詞前的冠詞會提示性別、數量和是否特定，是德文 A1 讀句子的關鍵線索。\n\n· 形式\n先把 der/die/das、ein/eine/ein、kein/keine/kein 和名詞一起記，不要分開背。\n\n· 常見使用場景\n點餐、購物、問路和看標誌時，用冠詞判斷名詞角色與性別。\n\n· 相近用法與容易混淆\nkein 否定名詞；nicht 通常否定動作、形容詞或片語。\n\n· 注意\nA1 不要求自由推導所有變格，但要能看出 der Bus、die Rechnung、das Menü 這類組合。",
+      "ref_id": "de-gramx-a1-017",
+      "ref_item": "negative articles kein/keine/kein",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "articles_gender",
+      "function_refs": [
+        "fn-identify",
+        "fn-food-shopping",
+        "fn-negate"
+      ],
+      "source_basis": "CEFR_A1_basic_nominal_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_article_gender_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich habe keine Schwester.",
+          "source_item_id": "frame:de-frame-a1-018",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意名詞前的冠詞或否定冠詞，這裡用來示範「negative articles kein/keine/kein」。"
+        },
+        {
+          "surface": "Ich esse kein Fleisch.",
+          "source_item_id": "frame:de-frame-a1-032",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意名詞前的冠詞或否定冠詞，這裡用來示範「negative articles kein/keine/kein」。"
+        },
+        {
+          "surface": "Kein Problem.",
+          "source_item_id": "frame:de-frame-a1-142",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意名詞前的冠詞或否定冠詞，這裡用來示範「negative articles kein/keine/kein」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_018",
+      "title_zh_tw": "gender as lexical property（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n德文名詞性別是詞彙的一部分；學名詞時要連冠詞一起記。 名詞前的冠詞會提示性別、數量和是否特定，是德文 A1 讀句子的關鍵線索。\n\n· 形式\n先把 der/die/das、ein/eine/ein、kein/keine/kein 和名詞一起記，不要分開背。\n\n· 常見使用場景\n點餐、購物、問路和看標誌時，用冠詞判斷名詞角色與性別。\n\n· 相近用法與容易混淆\n名詞性別通常不能靠意思猜，要和單字一起記。\n\n· 注意\nA1 不要求自由推導所有變格，但要能看出 der Bus、die Rechnung、das Menü 這類組合。",
+      "ref_id": "de-gramx-a1-018",
+      "ref_item": "gender as lexical property",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "articles_gender",
+      "function_refs": [
+        "fn-identify",
+        "fn-food-shopping",
+        "fn-negate"
+      ],
+      "source_basis": "CEFR_A1_basic_nominal_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_article_gender_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Das Hotel ist hier.",
+          "source_item_id": "frame:authored-gender-001",
+          "note_zh_tw": "這句用冠詞提示名詞性別；學 Bus、Tasche、Hotel 時要把 der/die/das 一起記。"
+        },
+        {
+          "surface": "Wie viel kostet diese Tasche?",
+          "source_item_id": "frame:de-frame-a1-044",
+          "note_zh_tw": "這句用冠詞提示名詞性別；學 Bus、Tasche、Hotel 時要把 der/die/das 一起記。"
+        },
+        {
+          "surface": "Der Bus kommt um acht Uhr.",
+          "source_item_id": "frame:de-frame-a1-060",
+          "note_zh_tw": "這句用冠詞提示名詞性別；學 Bus、Tasche、Hotel 時要把 der/die/das 一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_019",
+      "title_zh_tw": "article with role nouns（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n職業或角色名詞有時不加冠詞說身分，有時加冠詞指特定人物。 名詞前的冠詞會提示性別、數量和是否特定，是德文 A1 讀句子的關鍵線索。\n\n· 形式\n先把 der/die/das、ein/eine/ein、kein/keine/kein 和名詞一起記，不要分開背。\n\n· 常見使用場景\n點餐、購物、問路和看標誌時，用冠詞判斷名詞角色與性別。\n\n· 相近用法與容易混淆\nIch bin Student 常不加冠詞說職業；Das ist der Lehrer 用冠詞指特定人。\n\n· 注意\nA1 不要求自由推導所有變格，但要能看出 der Bus、die Rechnung、das Menü 這類組合。",
+      "ref_id": "de-gramx-a1-019",
+      "ref_item": "article with role nouns",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "articles_gender",
+      "function_refs": [
+        "fn-identify",
+        "fn-food-shopping",
+        "fn-negate"
+      ],
+      "source_basis": "CEFR_A1_basic_nominal_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_article_gender_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Das ist der Lehrer.",
+          "source_item_id": "frame:authored-role-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意名詞前的冠詞或否定冠詞，這裡用來示範「article with role nouns」。"
+        },
+        {
+          "surface": "Die Ärztin ist hier.",
+          "source_item_id": "frame:authored-role-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意名詞前的冠詞或否定冠詞，這裡用來示範「article with role nouns」。"
+        },
+        {
+          "surface": "Der Student kommt heute.",
+          "source_item_id": "frame:authored-role-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意名詞前的冠詞或否定冠詞，這裡用來示範「article with role nouns」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_020",
+      "title_zh_tw": "article with food nouns（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n食物名詞在點餐時可能搭配 einen/eine/ein 或 den/die/das，取決於是否特定和格。 名詞前的冠詞會提示性別、數量和是否特定，是德文 A1 讀句子的關鍵線索。\n\n· 形式\n先把 der/die/das、ein/eine/ein、kein/keine/kein 和名詞一起記，不要分開背。\n\n· 常見使用場景\n點餐、購物、問路和看標誌時，用冠詞判斷名詞角色與性別。\n\n· 相近用法與容易混淆\nA1 不要求自由推導所有變格，但要能看出 der Bus、die Rechnung、das Menü 這類組合。\n\n· 注意\nA1 不要求自由推導所有變格，但要能看出 der Bus、die Rechnung、das Menü 這類組合。",
+      "ref_id": "de-gramx-a1-020",
+      "ref_item": "article with food nouns",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "articles_gender",
+      "function_refs": [
+        "fn-identify",
+        "fn-food-shopping",
+        "fn-negate"
+      ],
+      "source_basis": "CEFR_A1_basic_nominal_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_article_gender_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich möchte einen Kaffee, bitte.",
+          "source_item_id": "frame:de-frame-a1-027",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意名詞前的冠詞或否定冠詞，這裡用來示範「article with food nouns」。"
+        },
+        {
+          "surface": "Was kostet das Menü?",
+          "source_item_id": "frame:de-frame-a1-030",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意名詞前的冠詞或否定冠詞，這裡用來示範「article with food nouns」。"
+        },
+        {
+          "surface": "Ich nehme den Salat.",
+          "source_item_id": "frame:de-frame-a1-033",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意名詞前的冠詞或否定冠詞，這裡用來示範「article with food nouns」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_021",
+      "title_zh_tw": "article with places（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n地點名詞常和冠詞/縮約介系詞一起出現，例如 das Hotel、im Hotel、am Bahnhof。 名詞前的冠詞會提示性別、數量和是否特定，是德文 A1 讀句子的關鍵線索。\n\n· 形式\n先把 der/die/das、ein/eine/ein、kein/keine/kein 和名詞一起記，不要分開背。\n\n· 常見使用場景\n點餐、購物、問路和看標誌時，用冠詞判斷名詞角色與性別。\n\n· 相近用法與容易混淆\nA1 不要求自由推導所有變格，但要能看出 der Bus、die Rechnung、das Menü 這類組合。\n\n· 注意\nA1 不要求自由推導所有變格，但要能看出 der Bus、die Rechnung、das Menü 這類組合。",
+      "ref_id": "de-gramx-a1-021",
+      "ref_item": "article with places",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "articles_gender",
+      "function_refs": [
+        "fn-identify",
+        "fn-food-shopping",
+        "fn-negate"
+      ],
+      "source_basis": "CEFR_A1_basic_nominal_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_article_gender_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Das Hotel ist hier.",
+          "source_item_id": "frame:authored-place-001",
+          "note_zh_tw": "這句把地點名詞和冠詞/縮約介系詞一起呈現，例如 das Hotel、im Hotel、der Bahnhof。"
+        },
+        {
+          "surface": "Ich bin im Hotel.",
+          "source_item_id": "frame:authored-place-002",
+          "note_zh_tw": "這句把地點名詞和冠詞/縮約介系詞一起呈現，例如 das Hotel、im Hotel、der Bahnhof。"
+        },
+        {
+          "surface": "Der Bahnhof ist rechts.",
+          "source_item_id": "frame:authored-place-003",
+          "note_zh_tw": "這句把地點名詞和冠詞/縮約介系詞一起呈現，例如 das Hotel、im Hotel、der Bahnhof。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_022",
+      "title_zh_tw": "article omission in fixed labels（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n菜單、標誌和固定服務語中常省略冠詞，A1 先把整個標籤當作可辨認片語。 名詞前的冠詞會提示性別、數量和是否特定，是德文 A1 讀句子的關鍵線索。\n\n· 形式\n先把 der/die/das、ein/eine/ein、kein/keine/kein 和名詞一起記，不要分開背。\n\n· 常見使用場景\n點餐、購物、問路和看標誌時，用冠詞判斷名詞角色與性別。\n\n· 相近用法與容易混淆\n標誌或菜單上的 Zimmer frei、Kasse bitte 可省冠詞；完整句不一定省。\n\n· 注意\nA1 不要求自由推導所有變格，但要能看出 der Bus、die Rechnung、das Menü 這類組合。",
+      "ref_id": "de-gramx-a1-022",
+      "ref_item": "article omission in fixed labels",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "articles_gender",
+      "function_refs": [
+        "fn-identify",
+        "fn-food-shopping",
+        "fn-negate"
+      ],
+      "source_basis": "CEFR_A1_basic_nominal_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_article_gender_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Zimmer frei.",
+          "source_item_id": "frame:authored-label-001",
+          "note_zh_tw": "這句像標誌、菜單或服務提示，重點是名詞前省略冠詞，整句當固定標籤辨認。"
+        },
+        {
+          "surface": "Kasse bitte.",
+          "source_item_id": "frame:authored-label-002",
+          "note_zh_tw": "這句像標誌、菜單或服務提示，重點是名詞前省略冠詞，整句當固定標籤辨認。"
+        },
+        {
+          "surface": "Toilette links.",
+          "source_item_id": "frame:authored-label-003",
+          "note_zh_tw": "這句像標誌、菜單或服務提示，重點是名詞前省略冠詞，整句當固定標籤辨認。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_023",
+      "title_zh_tw": "regular plural recognition（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n重點是看到複數時知道它不是單數，尤其菜單、票券、家庭成員和物品數量。 複數讓你說數量、購物和家庭成員；德文複數形式常和單數不同。\n\n· 形式\n先辨認常見結尾 -e、-en、-er，以及數字加名詞的整體意思。\n\n· 常見使用場景\n購買多件物品、說家庭成員、看票券數量或理解菜單項目。\n\n· 相近用法與容易混淆\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。\n\n· 注意\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。",
+      "ref_id": "de-gramx-a1-023",
+      "ref_item": "regular plural recognition",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "plural_number",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-identify",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_numbers_quantities_and_basic_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_plural_number_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich habe zwei Tickets.",
+          "source_item_id": "frame:authored-plural-023-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「regular plural recognition」。"
+        },
+        {
+          "surface": "Die Kinder sind hier.",
+          "source_item_id": "frame:authored-plural-023-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「regular plural recognition」。"
+        },
+        {
+          "surface": "Viele Tage sind frei.",
+          "source_item_id": "frame:authored-plural-023-003",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意數字、viele/die 和名詞複數形，這裡用來示範「regular plural recognition」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_024",
+      "title_zh_tw": "common -e plural（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n-e 是常見複數線索，例如 viele Tage 這類形式，先當作詞形辨認。 複數讓你說數量、購物和家庭成員；德文複數形式常和單數不同。\n\n· 形式\n先辨認常見結尾 -e、-en、-er，以及數字加名詞的整體意思。\n\n· 常見使用場景\n購買多件物品、說家庭成員、看票券數量或理解菜單項目。\n\n· 相近用法與容易混淆\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。\n\n· 注意\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。",
+      "ref_id": "de-gramx-a1-024",
+      "ref_item": "common -e plural",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "plural_number",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-identify",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_numbers_quantities_and_basic_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_plural_number_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich brauche zwei Tage.",
+          "source_item_id": "frame:authored-plural-024-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「common -e plural」。"
+        },
+        {
+          "surface": "Viele Freunde kommen heute.",
+          "source_item_id": "frame:authored-plural-024-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意數字、viele/die 和名詞複數形，這裡用來示範「common -e plural」。"
+        },
+        {
+          "surface": "Zwei Kurse beginnen morgen.",
+          "source_item_id": "frame:authored-plural-024-003",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意數字、viele/die 和名詞複數形，這裡用來示範「common -e plural」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_025",
+      "title_zh_tw": "common -en plural（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n-en 常見於陰性或人稱相關名詞，A1 先把 Frauen、Karten 這類高頻詞記成整體。 複數讓你說數量、購物和家庭成員；德文複數形式常和單數不同。\n\n· 形式\n先辨認常見結尾 -e、-en、-er，以及數字加名詞的整體意思。\n\n· 常見使用場景\n購買多件物品、說家庭成員、看票券數量或理解菜單項目。\n\n· 相近用法與容易混淆\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。\n\n· 注意\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。",
+      "ref_id": "de-gramx-a1-025",
+      "ref_item": "common -en plural",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "plural_number",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-identify",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_numbers_quantities_and_basic_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_plural_number_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Die Frauen sind im Hotel.",
+          "source_item_id": "frame:authored-plural-025-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「common -en plural」。"
+        },
+        {
+          "surface": "Ich habe zwei Karten.",
+          "source_item_id": "frame:authored-plural-025-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「common -en plural」。"
+        },
+        {
+          "surface": "Die Taschen sind teuer.",
+          "source_item_id": "frame:authored-plural-025-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「common -en plural」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_026",
+      "title_zh_tw": "common -er plural（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n-er 常見於少數核心名詞，重點是不要漏看單複數改變。 複數讓你說數量、購物和家庭成員；德文複數形式常和單數不同。\n\n· 形式\n先辨認常見結尾 -e、-en、-er，以及數字加名詞的整體意思。\n\n· 常見使用場景\n購買多件物品、說家庭成員、看票券數量或理解菜單項目。\n\n· 相近用法與容易混淆\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。\n\n· 注意\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。",
+      "ref_id": "de-gramx-a1-026",
+      "ref_item": "common -er plural",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "plural_number",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-identify",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_numbers_quantities_and_basic_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_plural_number_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Die Kinder sind hier.",
+          "source_item_id": "frame:authored-plural-026-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「common -er plural」。"
+        },
+        {
+          "surface": "Ich habe zwei Bücher.",
+          "source_item_id": "frame:authored-plural-026-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「common -er plural」。"
+        },
+        {
+          "surface": "Die Wörter sind neu.",
+          "source_item_id": "frame:authored-plural-026-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「common -er plural」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_027",
+      "title_zh_tw": "unchanged plural recognition（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n有些名詞單複數外形相同，要靠數字、viele 或上下文判斷。 複數讓你說數量、購物和家庭成員；德文複數形式常和單數不同。\n\n· 形式\n先辨認常見結尾 -e、-en、-er，以及數字加名詞的整體意思。\n\n· 常見使用場景\n購買多件物品、說家庭成員、看票券數量或理解菜單項目。\n\n· 相近用法與容易混淆\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。\n\n· 注意\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。",
+      "ref_id": "de-gramx-a1-027",
+      "ref_item": "unchanged plural recognition",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "plural_number",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-identify",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_numbers_quantities_and_basic_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_plural_number_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Zwei Lehrer sind hier.",
+          "source_item_id": "frame:authored-plural-027-001",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意數字、viele/die 和名詞複數形，這裡用來示範「unchanged plural recognition」。"
+        },
+        {
+          "surface": "Die Mädchen sind in der Schule.",
+          "source_item_id": "frame:authored-plural-027-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「unchanged plural recognition」。"
+        },
+        {
+          "surface": "Drei Zimmer sind frei.",
+          "source_item_id": "frame:authored-plural-027-003",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意數字、viele/die 和名詞複數形，這裡用來示範「unchanged plural recognition」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_028",
+      "title_zh_tw": "numbers before nouns（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n數字放在名詞前面直接標數量；德文名詞本身仍可能要用複數型。 複數讓你說數量、購物和家庭成員；德文複數形式常和單數不同。\n\n· 形式\n先辨認常見結尾 -e、-en、-er，以及數字加名詞的整體意思。\n\n· 常見使用場景\n購買多件物品、說家庭成員、看票券數量或理解菜單項目。\n\n· 相近用法與容易混淆\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。\n\n· 注意\n不要假設加 s 就是複數；很多 A1 名詞有自己的複數型，要跟詞一起記。",
+      "ref_id": "de-gramx-a1-028",
+      "ref_item": "numbers before nouns",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "plural_number",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-identify",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_numbers_quantities_and_basic_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_plural_number_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich habe zwei Tickets.",
+          "source_item_id": "frame:authored-plural-028-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「numbers before nouns」。"
+        },
+        {
+          "surface": "Zwei Karten, bitte.",
+          "source_item_id": "frame:authored-plural-028-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意數字、viele/die 和名詞複數形，這裡用來示範「numbers before nouns」。"
+        },
+        {
+          "surface": "Wir brauchen drei Zimmer.",
+          "source_item_id": "frame:authored-plural-028-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意數字、viele/die 和名詞複數形，這裡用來示範「numbers before nouns」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_029",
+      "title_zh_tw": "nominative subject articles（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n主格標出主詞，der/die/das 在句首常告訴你『誰或什麼』在做動作。 格會標出句中角色：誰做動作、動作影響誰、介系詞後面接什麼。\n\n· 形式\nA1 先掌握主格和直接受詞，特別是陽性受格 der/ein/kein 會變成 den/einen/keinen。\n\n· 常見使用場景\n點餐購物、買票、說持有物和理解介系詞片語。\n\n· 相近用法與容易混淆\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。\n\n· 注意\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。",
+      "ref_id": "de-gramx-a1-029",
+      "ref_item": "nominative subject articles",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "case_basics",
+      "function_refs": [
+        "fn-identify",
+        "fn-possession",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_object_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_nominative_accusative_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Der Bus kommt.",
+          "source_item_id": "frame:authored-case-029-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「nominative subject articles」。"
+        },
+        {
+          "surface": "Die Tasche ist teuer.",
+          "source_item_id": "frame:authored-case-029-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「nominative subject articles」。"
+        },
+        {
+          "surface": "Das Hotel ist hier.",
+          "source_item_id": "frame:authored-case-029-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「nominative subject articles」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_030",
+      "title_zh_tw": "accusative direct object masculine den/einen/keinen（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n陽性直接受詞最容易看出變化：der/ein/kein 變 den/einen/keinen。 格會標出句中角色：誰做動作、動作影響誰、介系詞後面接什麼。\n\n· 形式\nA1 先掌握主格和直接受詞，特別是陽性受格 der/ein/kein 會變成 den/einen/keinen。\n\n· 常見使用場景\n點餐購物、買票、說持有物和理解介系詞片語。\n\n· 相近用法與容易混淆\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。\n\n· 注意\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。",
+      "ref_id": "de-gramx-a1-030",
+      "ref_item": "accusative direct object masculine den/einen/keinen",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "case_basics",
+      "function_refs": [
+        "fn-identify",
+        "fn-possession",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_object_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_nominative_accusative_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich nehme den Salat.",
+          "source_item_id": "frame:authored-case-030-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「accusative direct object masculine den/einen/keinen」。"
+        },
+        {
+          "surface": "Ich möchte einen Kaffee.",
+          "source_item_id": "frame:authored-case-030-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「accusative direct object masculine den/einen/keinen」。"
+        },
+        {
+          "surface": "Ich habe keinen Ausweis.",
+          "source_item_id": "frame:authored-case-030-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「accusative direct object masculine den/einen/keinen」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_031",
+      "title_zh_tw": "accusative feminine/neuter unchanged articles（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n陰性和中性受格外形常和主格一樣，A1 先知道不是所有冠詞都會變。 格會標出句中角色：誰做動作、動作影響誰、介系詞後面接什麼。\n\n· 形式\nA1 先掌握主格和直接受詞，特別是陽性受格 der/ein/kein 會變成 den/einen/keinen。\n\n· 常見使用場景\n點餐購物、買票、說持有物和理解介系詞片語。\n\n· 相近用法與容易混淆\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。\n\n· 注意\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。",
+      "ref_id": "de-gramx-a1-031",
+      "ref_item": "accusative feminine/neuter unchanged articles",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "case_basics",
+      "function_refs": [
+        "fn-identify",
+        "fn-possession",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_object_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_nominative_accusative_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich nehme die Tasche.",
+          "source_item_id": "frame:authored-case-031-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「accusative feminine/neuter unchanged articles」。"
+        },
+        {
+          "surface": "Ich brauche das Ticket.",
+          "source_item_id": "frame:authored-case-031-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「accusative feminine/neuter unchanged articles」。"
+        },
+        {
+          "surface": "Ich möchte eine Karte.",
+          "source_item_id": "frame:authored-case-031-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「accusative feminine/neuter unchanged articles」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_032",
+      "title_zh_tw": "ich habe einen/eine/ein（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nich habe 後面常接直接受詞，買票、說家人、說物品都會用到。 格會標出句中角色：誰做動作、動作影響誰、介系詞後面接什麼。\n\n· 形式\nA1 先掌握主格和直接受詞，特別是陽性受格 der/ein/kein 會變成 den/einen/keinen。\n\n· 常見使用場景\n點餐購物、買票、說持有物和理解介系詞片語。\n\n· 相近用法與容易混淆\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。\n\n· 注意\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。",
+      "ref_id": "de-gramx-a1-032",
+      "ref_item": "ich habe einen/eine/ein",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "case_basics",
+      "function_refs": [
+        "fn-identify",
+        "fn-possession",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_object_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_nominative_accusative_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich habe einen Bruder.",
+          "source_item_id": "frame:authored-case-032-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「ich habe einen/eine/ein」。"
+        },
+        {
+          "surface": "Ich habe eine Karte.",
+          "source_item_id": "frame:authored-case-032-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「ich habe einen/eine/ein」。"
+        },
+        {
+          "surface": "Ich habe ein Ticket.",
+          "source_item_id": "frame:authored-case-032-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「ich habe einen/eine/ein」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_033",
+      "title_zh_tw": "ich möchte einen/eine/ein（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nich möchte 後面接想要的東西，點餐購物時特別常見。 格會標出句中角色：誰做動作、動作影響誰、介系詞後面接什麼。\n\n· 形式\nA1 先掌握主格和直接受詞，特別是陽性受格 der/ein/kein 會變成 den/einen/keinen。\n\n· 常見使用場景\n點餐購物、買票、說持有物和理解介系詞片語。\n\n· 相近用法與容易混淆\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。\n\n· 注意\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。",
+      "ref_id": "de-gramx-a1-033",
+      "ref_item": "ich möchte einen/eine/ein",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "case_basics",
+      "function_refs": [
+        "fn-identify",
+        "fn-possession",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_object_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_nominative_accusative_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich möchte einen Kaffee.",
+          "source_item_id": "frame:authored-case-033-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「ich möchte einen/eine/ein」。"
+        },
+        {
+          "surface": "Ich möchte eine Karte.",
+          "source_item_id": "frame:authored-case-033-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「ich möchte einen/eine/ein」。"
+        },
+        {
+          "surface": "Ich möchte ein Wasser.",
+          "source_item_id": "frame:authored-case-033-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「ich möchte einen/eine/ein」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_034",
+      "title_zh_tw": "es gibt + accusative（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nes gibt 表示『有／存在』，後面接你要問或指出的東西。 格會標出句中角色：誰做動作、動作影響誰、介系詞後面接什麼。\n\n· 形式\nA1 先掌握主格和直接受詞，特別是陽性受格 der/ein/kein 會變成 den/einen/keinen。\n\n· 常見使用場景\n點餐購物、買票、說持有物和理解介系詞片語。\n\n· 相近用法與容易混淆\nes gibt 問或說某處『有』某物，和 ich habe 的『我有』不同。\n\n· 注意\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。",
+      "ref_id": "de-gramx-a1-034",
+      "ref_item": "es gibt + accusative",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "case_basics",
+      "function_refs": [
+        "fn-identify",
+        "fn-possession",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_object_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_nominative_accusative_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Gibt es hier ein Hotel?",
+          "source_item_id": "frame:authored-es-gibt-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 看受詞或介系詞後的冠詞變化，這裡示範「es gibt + accusative」。"
+        },
+        {
+          "surface": "Gibt es einen Bus nach Berlin?",
+          "source_item_id": "frame:authored-es-gibt-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 看受詞或介系詞後的冠詞變化，這裡示範「es gibt + accusative」。"
+        },
+        {
+          "surface": "Gibt es Brot?",
+          "source_item_id": "frame:de-frame-a1-040",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 看受詞或介系詞後的冠詞變化，這裡示範「es gibt + accusative」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_035",
+      "title_zh_tw": "für + accusative chunks（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nfür 在 A1 先當成『給／為了／持續』的句塊，後面的陽性也會出現 einen。 格會標出句中角色：誰做動作、動作影響誰、介系詞後面接什麼。\n\n· 形式\nA1 先掌握主格和直接受詞，特別是陽性受格 der/ein/kein 會變成 den/einen/keinen。\n\n· 常見使用場景\n點餐購物、買票、說持有物和理解介系詞片語。\n\n· 相近用法與容易混淆\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。\n\n· 注意\n不用一次學完整格表；先把 ich habe einen Kaffee、für einen Tag 這類句塊認清楚。",
+      "ref_id": "de-gramx-a1-035",
+      "ref_item": "für + accusative chunks",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "case_basics",
+      "function_refs": [
+        "fn-identify",
+        "fn-possession",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_object_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_nominative_accusative_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Für einen Tag, bitte.",
+          "source_item_id": "frame:authored-case-035-001",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 看受詞或介系詞後的冠詞變化，這裡示範「für + accusative chunks」。"
+        },
+        {
+          "surface": "Das Ticket ist für eine Person.",
+          "source_item_id": "frame:authored-case-035-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「für + accusative chunks」。"
+        },
+        {
+          "surface": "Ich brauche ein Zimmer für eine Nacht.",
+          "source_item_id": "frame:authored-case-035-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「für + accusative chunks」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_036",
+      "title_zh_tw": "mit + dative as formulaic chunk（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nmit 在 A1 先用固定片語理解，例如 mit Karte、mit dem Bus，不急著展開完整與格表。 格會標出句中角色：誰做動作、動作影響誰、介系詞後面接什麼。\n\n· 形式\n先把 mit Karte、mit dem Bus、mit meiner Mutter 當固定片語辨認；這裡不是受格。\n\n· 常見使用場景\n點餐購物、買票、說持有物和理解介系詞片語。\n\n· 相近用法與容易混淆\n不要把 mit 後面的 dem/meiner 當成陽性受格；A1 先用句塊處理。\n\n· 注意\n不要把 mit 後面的 dem/meiner 當成陽性受格；A1 先用句塊處理。",
+      "ref_id": "de-gramx-a1-036",
+      "ref_item": "mit + dative as formulaic chunk",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "case_basics",
+      "function_refs": [
+        "fn-identify",
+        "fn-possession",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_object_reference_can_do;Goethe_A1_scope_calibration_not_copied;DE_nominative_accusative_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich zahle mit Karte.",
+          "source_item_id": "frame:authored-case-036-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「mit + dative as formulaic chunk」。"
+        },
+        {
+          "surface": "Ich fahre mit dem Bus.",
+          "source_item_id": "frame:authored-case-036-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「mit + dative as formulaic chunk」。"
+        },
+        {
+          "surface": "Ich komme mit meiner Mutter.",
+          "source_item_id": "frame:authored-case-036-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 看受詞或介系詞後的冠詞變化，這裡示範「mit + dative as formulaic chunk」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_037",
+      "title_zh_tw": "finite verb second after subject（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n主詞開頭時，限定動詞通常第二：Ich wohne ...、Der Bus kommt ...。 德文主句的限定動詞通常站第二位置，這決定你能不能讀懂句子的骨架。\n\n· 形式\n先找會變化的動詞；時間片語放句首時，動詞仍在第二位置，主詞會跟在後面。\n\n· 常見使用場景\n讀懂主句骨架、問問題、把時間放句首，或辨認句尾的不定詞/前綴。\n\n· 相近用法與容易混淆\n主詞開頭和時間開頭都要維持限定動詞第二位。\n\n· 注意\n不要用中文或英文語序硬套；問句、情態動詞和可分動詞各有固定位置線索。",
+      "ref_id": "de-gramx-a1-037",
+      "ref_item": "finite verb second after subject",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "v2_word_order",
+      "function_refs": [
+        "fn-routine",
+        "fn-ask-info",
+        "fn-numbers-time"
+      ],
+      "source_basis": "CEFR_A1_simple_statement_question_and_time_phrase_can_do;Goethe_A1_scope_calibration_not_copied;DE_v2_word_order_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich wohne in Berlin.",
+          "source_item_id": "frame:authored-v2-037-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Ich wohne in Berlin.」裡限定動詞的位置，這就是「finite verb second after subject」的重點。"
+        },
+        {
+          "surface": "Der Bus kommt um acht Uhr.",
+          "source_item_id": "frame:authored-v2-037-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Der Bus kommt um acht Uhr.」裡限定動詞的位置，這就是「finite verb second after subject」的重點。"
+        },
+        {
+          "surface": "Wir lernen Deutsch.",
+          "source_item_id": "frame:authored-v2-037-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Wir lernen Deutsch.」裡限定動詞的位置，這就是「finite verb second after subject」的重點。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_038",
+      "title_zh_tw": "finite verb second after time phrase（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n時間放前面時，動詞仍第二：Heute fahre ich ...，不是 Heute ich fahre ...。 德文主句的限定動詞通常站第二位置，這決定你能不能讀懂句子的骨架。\n\n· 形式\n先找會變化的動詞；時間片語放句首時，動詞仍在第二位置，主詞會跟在後面。\n\n· 常見使用場景\n讀懂主句骨架、問問題、把時間放句首，或辨認句尾的不定詞/前綴。\n\n· 相近用法與容易混淆\nHeute fahre ich ... 不是 Heute ich fahre ...。\n\n· 注意\n不要用中文或英文語序硬套；問句、情態動詞和可分動詞各有固定位置線索。",
+      "ref_id": "de-gramx-a1-038",
+      "ref_item": "finite verb second after time phrase",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "v2_word_order",
+      "function_refs": [
+        "fn-routine",
+        "fn-ask-info",
+        "fn-numbers-time"
+      ],
+      "source_basis": "CEFR_A1_simple_statement_question_and_time_phrase_can_do;Goethe_A1_scope_calibration_not_copied;DE_v2_word_order_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Heute fahre ich nach Berlin.",
+          "source_item_id": "frame:authored-v2-038-001",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 觀察「Heute fahre ich nach Berlin.」裡限定動詞的位置，這就是「finite verb second after time phrase」的重點。"
+        },
+        {
+          "surface": "Morgen habe ich einen Termin.",
+          "source_item_id": "frame:authored-v2-038-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 觀察「Morgen habe ich einen Termin.」裡限定動詞的位置，這就是「finite verb second after time phrase」的重點。"
+        },
+        {
+          "surface": "Um acht Uhr kommt der Bus.",
+          "source_item_id": "frame:authored-v2-038-003",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 觀察「Um acht Uhr kommt der Bus.」裡限定動詞的位置，這就是「finite verb second after time phrase」的重點。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_039",
+      "title_zh_tw": "yes/no question verb first（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n是非問句把動詞放最前面：Haben Sie ...?、Kommen Sie ...? 德文主句的限定動詞通常站第二位置，這決定你能不能讀懂句子的骨架。\n\n· 形式\n先找會變化的動詞；時間片語放句首時，動詞仍在第二位置，主詞會跟在後面。\n\n· 常見使用場景\n讀懂主句骨架、問問題、把時間放句首，或辨認句尾的不定詞/前綴。\n\n· 相近用法與容易混淆\nHaben Sie Zeit? 是是非問句；Wo wohnen Sie? 是 W 問句。\n\n· 注意\n不要用中文或英文語序硬套；問句、情態動詞和可分動詞各有固定位置線索。",
+      "ref_id": "de-gramx-a1-039",
+      "ref_item": "yes/no question verb first",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "v2_word_order",
+      "function_refs": [
+        "fn-routine",
+        "fn-ask-info",
+        "fn-numbers-time"
+      ],
+      "source_basis": "CEFR_A1_simple_statement_question_and_time_phrase_can_do;Goethe_A1_scope_calibration_not_copied;DE_v2_word_order_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Haben Sie Zeit?",
+          "source_item_id": "frame:authored-v2-039-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 觀察「Haben Sie Zeit?」裡限定動詞的位置，這就是「yes/no question verb first」的重點。"
+        },
+        {
+          "surface": "Kommen Sie aus Deutschland?",
+          "source_item_id": "frame:authored-v2-039-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 觀察「Kommen Sie aus Deutschland?」裡限定動詞的位置，這就是「yes/no question verb first」的重點。"
+        },
+        {
+          "surface": "Ist das frei?",
+          "source_item_id": "frame:authored-v2-039-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 觀察「Ist das frei?」裡限定動詞的位置，這就是「yes/no question verb first」的重點。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_040",
+      "title_zh_tw": "W-question with verb second（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nW 問詞後面接限定動詞：Wo wohnen Sie?、Wann kommt der Bus? 德文主句的限定動詞通常站第二位置，這決定你能不能讀懂句子的骨架。\n\n· 形式\n先找會變化的動詞；時間片語放句首時，動詞仍在第二位置，主詞會跟在後面。\n\n· 常見使用場景\n讀懂主句骨架、問問題、把時間放句首，或辨認句尾的不定詞/前綴。\n\n· 相近用法與容易混淆\nW 問詞在句首，但動詞仍要緊跟在第二位置。\n\n· 注意\n不要用中文或英文語序硬套；問句、情態動詞和可分動詞各有固定位置線索。",
+      "ref_id": "de-gramx-a1-040",
+      "ref_item": "W-question with verb second",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "v2_word_order",
+      "function_refs": [
+        "fn-routine",
+        "fn-ask-info",
+        "fn-numbers-time"
+      ],
+      "source_basis": "CEFR_A1_simple_statement_question_and_time_phrase_can_do;Goethe_A1_scope_calibration_not_copied;DE_v2_word_order_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Wo wohnen Sie?",
+          "source_item_id": "frame:authored-v2-040-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 觀察「Wo wohnen Sie?」裡限定動詞的位置，這就是「W-question with verb second」的重點。"
+        },
+        {
+          "surface": "Wann kommt der Bus?",
+          "source_item_id": "frame:authored-v2-040-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 觀察「Wann kommt der Bus?」裡限定動詞的位置，這就是「W-question with verb second」的重點。"
+        },
+        {
+          "surface": "Was kostet das?",
+          "source_item_id": "frame:authored-v2-040-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 觀察「Was kostet das?」裡限定動詞的位置，這就是「W-question with verb second」的重點。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_041",
+      "title_zh_tw": "情態動詞加句尾不定詞（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n情態動詞會變位，真正動作放句尾原形：Ich kann ... zahlen。 德文主句的限定動詞通常站第二位置，這決定你能不能讀懂句子的骨架。\n\n· 形式\n情態動詞本身變位放第二位置，主要動作保留原形放在句尾，例如 kann ... zahlen、möchte ... kaufen。\n\n· 常見使用場景\n讀懂主句骨架、問問題、把時間放句首，或辨認句尾的不定詞/前綴。\n\n· 相近用法與容易混淆\nkönnen/müssen/möchten 等會變位；主要動作的不定詞留在句尾。\n\n· 注意\n不要把兩個動詞都放前面；德文會形成前後呼應的句框。",
+      "ref_id": "de-gramx-a1-041",
+      "ref_item": "modal + infinitive final",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "v2_word_order",
+      "function_refs": [
+        "fn-routine",
+        "fn-ask-info",
+        "fn-numbers-time"
+      ],
+      "source_basis": "CEFR_A1_simple_statement_question_and_time_phrase_can_do;Goethe_A1_scope_calibration_not_copied;DE_v2_word_order_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Kann ich mit Karte zahlen?",
+          "source_item_id": "frame:de-frame-a1-039",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 觀察「Kann ich mit Karte zahlen?」裡限定動詞的位置，這就是「modal + infinitive final」的重點。"
+        },
+        {
+          "surface": "Ich möchte tanzen.",
+          "source_item_id": "frame:de-frame-a1-129",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Ich möchte tanzen.」裡限定動詞的位置，這就是「modal + infinitive final」的重點。"
+        },
+        {
+          "surface": "Können Sie das bitte wiederholen?",
+          "source_item_id": "frame:de-frame-a1-132",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 觀察「Können Sie das bitte wiederholen?」裡限定動詞的位置，這就是「modal + infinitive final」的重點。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_042",
+      "title_zh_tw": "nicht placement in simple clauses（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nnicht 的位置會跟它否定的內容有關；A1 先熟悉短句中的常見位置。 德文主句的限定動詞通常站第二位置，這決定你能不能讀懂句子的骨架。\n\n· 形式\n先找會變化的動詞；時間片語放句首時，動詞仍在第二位置，主詞會跟在後面。\n\n· 常見使用場景\n讀懂主句骨架、問問題、把時間放句首，或辨認句尾的不定詞/前綴。\n\n· 相近用法與容易混淆\nnicht 的位置依否定範圍變化；A1 先記常用短句。\n\n· 注意\n不要用中文或英文語序硬套；問句、情態動詞和可分動詞各有固定位置線索。",
+      "ref_id": "de-gramx-a1-042",
+      "ref_item": "nicht placement in simple clauses",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "v2_word_order",
+      "function_refs": [
+        "fn-routine",
+        "fn-ask-info",
+        "fn-numbers-time"
+      ],
+      "source_basis": "CEFR_A1_simple_statement_question_and_time_phrase_can_do;Goethe_A1_scope_calibration_not_copied;DE_v2_word_order_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich verstehe nicht.",
+          "source_item_id": "frame:authored-v2-042-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Ich verstehe nicht.」裡限定動詞的位置，這就是「nicht placement in simple clauses」的重點。"
+        },
+        {
+          "surface": "Das ist nicht teuer.",
+          "source_item_id": "frame:authored-v2-042-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Das ist nicht teuer.」裡限定動詞的位置，這就是「nicht placement in simple clauses」的重點。"
+        },
+        {
+          "surface": "Ich wohne nicht in Berlin.",
+          "source_item_id": "frame:authored-v2-042-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Ich wohne nicht in Berlin.」裡限定動詞的位置，這就是「nicht placement in simple clauses」的重點。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_043",
+      "title_zh_tw": "separable verb chunk position formulaic（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n可分動詞先當成句塊看：Ich rufe ... an，前綴可能跑到句尾。 德文主句的限定動詞通常站第二位置，這決定你能不能讀懂句子的骨架。\n\n· 形式\n先找會變化的動詞；時間片語放句首時，動詞仍在第二位置，主詞會跟在後面。\n\n· 常見使用場景\n讀懂主句骨架、問問題、把時間放句首，或辨認句尾的不定詞/前綴。\n\n· 相近用法與容易混淆\n不要用中文或英文語序硬套；問句、情態動詞和可分動詞各有固定位置線索。\n\n· 注意\n不要用中文或英文語序硬套；問句、情態動詞和可分動詞各有固定位置線索。",
+      "ref_id": "de-gramx-a1-043",
+      "ref_item": "separable verb chunk position formulaic",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "v2_word_order",
+      "function_refs": [
+        "fn-routine",
+        "fn-ask-info",
+        "fn-numbers-time"
+      ],
+      "source_basis": "CEFR_A1_simple_statement_question_and_time_phrase_can_do;Goethe_A1_scope_calibration_not_copied;DE_v2_word_order_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich rufe Sie an.",
+          "source_item_id": "frame:authored-v2-043-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Ich rufe Sie an.」裡限定動詞的位置，這就是「separable verb chunk position formulaic」的重點。"
+        },
+        {
+          "surface": "Der Bus fährt ab.",
+          "source_item_id": "frame:authored-v2-043-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Der Bus fährt ab.」裡限定動詞的位置，這就是「separable verb chunk position formulaic」的重點。"
+        },
+        {
+          "surface": "Ich steige hier ein.",
+          "source_item_id": "frame:authored-v2-043-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Ich steige hier ein.」裡限定動詞的位置，這就是「separable verb chunk position formulaic」的重點。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_044",
+      "title_zh_tw": "sentence bracket as recognition only（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n句框是辨認概念：前面有變位動詞，句尾可能有不定詞或前綴。 德文主句的限定動詞通常站第二位置，這決定你能不能讀懂句子的骨架。\n\n· 形式\n先找會變化的動詞；時間片語放句首時，動詞仍在第二位置，主詞會跟在後面。\n\n· 常見使用場景\n讀懂主句骨架、問問題、把時間放句首，或辨認句尾的不定詞/前綴。\n\n· 相近用法與容易混淆\n不要用中文或英文語序硬套；問句、情態動詞和可分動詞各有固定位置線索。\n\n· 注意\n不要用中文或英文語序硬套；問句、情態動詞和可分動詞各有固定位置線索。",
+      "ref_id": "de-gramx-a1-044",
+      "ref_item": "sentence bracket as recognition only",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "v2_word_order",
+      "function_refs": [
+        "fn-routine",
+        "fn-ask-info",
+        "fn-numbers-time"
+      ],
+      "source_basis": "CEFR_A1_simple_statement_question_and_time_phrase_can_do;Goethe_A1_scope_calibration_not_copied;DE_v2_word_order_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich kann heute zahlen.",
+          "source_item_id": "frame:authored-v2-044-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Ich kann heute zahlen.」裡限定動詞的位置，這就是「sentence bracket as recognition only」的重點。"
+        },
+        {
+          "surface": "Ich rufe morgen an.",
+          "source_item_id": "frame:authored-v2-044-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Ich rufe morgen an.」裡限定動詞的位置，這就是「sentence bracket as recognition only」的重點。"
+        },
+        {
+          "surface": "Ich möchte ein Ticket kaufen.",
+          "source_item_id": "frame:authored-v2-044-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 觀察「Ich möchte ein Ticket kaufen.」裡限定動詞的位置，這就是「sentence bracket as recognition only」的重點。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_045",
+      "title_zh_tw": "nicht with verbs（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n否定動作常用 nicht，例如 Ich verstehe nicht。 否定用來說沒有、不需要、不對或不是；A1 最常見是 nicht、kein 和 nein。\n\n· 形式\nkein 否定名詞，nicht 否定動作、形容詞或片語，nein 可作獨立回答。\n\n· 常見使用場景\n拒絕、說沒有、說不懂、說某事不正確或描述限制。\n\n· 相近用法與容易混淆\n先不要糾結所有 nicht 位置；以高頻句 Ich weiß nicht、Das ist nicht ...、kein Problem 開始。\n\n· 注意\n先不要糾結所有 nicht 位置；以高頻句 Ich weiß nicht、Das ist nicht ...、kein Problem 開始。",
+      "ref_id": "de-gramx-a1-045",
+      "ref_item": "nicht with verbs",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "negation",
+      "function_refs": [
+        "fn-negate",
+        "fn-like-need",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_negative_statement_can_do;Goethe_A1_scope_calibration_not_copied;DE_negation_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Das passt nicht.",
+          "source_item_id": "frame:de-frame-a1-055",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「nicht with verbs」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich verstehe das nicht.",
+          "source_item_id": "frame:de-frame-a1-088",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「nicht with verbs」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich weiß es nicht.",
+          "source_item_id": "frame:de-frame-a1-144",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「nicht with verbs」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_046",
+      "title_zh_tw": "nicht with adjectives（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n否定描述常用 nicht，例如 Das ist nicht teuer。 否定用來說沒有、不需要、不對或不是；A1 最常見是 nicht、kein 和 nein。\n\n· 形式\nkein 否定名詞，nicht 否定動作、形容詞或片語，nein 可作獨立回答。\n\n· 常見使用場景\n拒絕、說沒有、說不懂、說某事不正確或描述限制。\n\n· 相近用法與容易混淆\n先不要糾結所有 nicht 位置；以高頻句 Ich weiß nicht、Das ist nicht ...、kein Problem 開始。\n\n· 注意\n先不要糾結所有 nicht 位置；以高頻句 Ich weiß nicht、Das ist nicht ...、kein Problem 開始。",
+      "ref_id": "de-gramx-a1-046",
+      "ref_item": "nicht with adjectives",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "negation",
+      "function_refs": [
+        "fn-negate",
+        "fn-like-need",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_negative_statement_can_do;Goethe_A1_scope_calibration_not_copied;DE_negation_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Das ist nicht teuer.",
+          "source_item_id": "frame:authored-neg-046-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「nicht with adjectives」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Der Kaffee ist nicht kalt.",
+          "source_item_id": "frame:authored-neg-046-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「nicht with adjectives」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Das Zimmer ist nicht groß.",
+          "source_item_id": "frame:authored-neg-046-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「nicht with adjectives」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_047",
+      "title_zh_tw": "nicht with prepositional phrases（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n否定地點或片語時也用 nicht，例如 nicht im Hotel。 否定用來說沒有、不需要、不對或不是；A1 最常見是 nicht、kein 和 nein。\n\n· 形式\nkein 否定名詞，nicht 否定動作、形容詞或片語，nein 可作獨立回答。\n\n· 常見使用場景\n拒絕、說沒有、說不懂、說某事不正確或描述限制。\n\n· 相近用法與容易混淆\n先不要糾結所有 nicht 位置；以高頻句 Ich weiß nicht、Das ist nicht ...、kein Problem 開始。\n\n· 注意\n先不要糾結所有 nicht 位置；以高頻句 Ich weiß nicht、Das ist nicht ...、kein Problem 開始。",
+      "ref_id": "de-gramx-a1-047",
+      "ref_item": "nicht with prepositional phrases",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "negation",
+      "function_refs": [
+        "fn-negate",
+        "fn-like-need",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_negative_statement_can_do;Goethe_A1_scope_calibration_not_copied;DE_negation_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich wohne nicht in Berlin.",
+          "source_item_id": "frame:authored-neg-047-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「nicht with prepositional phrases」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Der Bus ist nicht am Bahnhof.",
+          "source_item_id": "frame:authored-neg-047-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「nicht with prepositional phrases」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Das Zimmer ist nicht im Hotel.",
+          "source_item_id": "frame:authored-neg-047-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「nicht with prepositional phrases」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_048",
+      "title_zh_tw": "kein with nouns（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n否定名詞用 kein，比 nicht ein 更自然。 否定用來說沒有、不需要、不對或不是；A1 最常見是 nicht、kein 和 nein。\n\n· 形式\nkein 否定名詞，nicht 否定動作、形容詞或片語，nein 可作獨立回答。\n\n· 常見使用場景\n拒絕、說沒有、說不懂、說某事不正確或描述限制。\n\n· 相近用法與容易混淆\nkein Problem 否定名詞；Das ist nicht richtig 否定描述。\n\n· 注意\n先不要糾結所有 nicht 位置；以高頻句 Ich weiß nicht、Das ist nicht ...、kein Problem 開始。",
+      "ref_id": "de-gramx-a1-048",
+      "ref_item": "kein with nouns",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "negation",
+      "function_refs": [
+        "fn-negate",
+        "fn-like-need",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_negative_statement_can_do;Goethe_A1_scope_calibration_not_copied;DE_negation_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich habe keine Schwester.",
+          "source_item_id": "frame:de-frame-a1-018",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「kein with nouns」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich esse kein Fleisch.",
+          "source_item_id": "frame:de-frame-a1-032",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「kein with nouns」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Kein Problem.",
+          "source_item_id": "frame:de-frame-a1-142",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「kein with nouns」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_049",
+      "title_zh_tw": "nein as answer（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nnein 可獨立回答 yes/no 問題，後面再補完整句會更清楚。 否定用來說沒有、不需要、不對或不是；A1 最常見是 nicht、kein 和 nein。\n\n· 形式\nkein 否定名詞，nicht 否定動作、形容詞或片語，nein 可作獨立回答。\n\n· 常見使用場景\n拒絕、說沒有、說不懂、說某事不正確或描述限制。\n\n· 相近用法與容易混淆\n先不要糾結所有 nicht 位置；以高頻句 Ich weiß nicht、Das ist nicht ...、kein Problem 開始。\n\n· 注意\n先不要糾結所有 nicht 位置；以高頻句 Ich weiß nicht、Das ist nicht ...、kein Problem 開始。",
+      "ref_id": "de-gramx-a1-049",
+      "ref_item": "nein as answer",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "negation",
+      "function_refs": [
+        "fn-negate",
+        "fn-like-need",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_negative_statement_can_do;Goethe_A1_scope_calibration_not_copied;DE_negation_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Nein, danke.",
+          "source_item_id": "frame:authored-neg-049-001",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「nein as answer」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Nein, ich habe keine Zeit.",
+          "source_item_id": "frame:authored-neg-049-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「nein as answer」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Nein, das ist nicht richtig.",
+          "source_item_id": "frame:authored-neg-049-003",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「nein as answer」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_050",
+      "title_zh_tw": "doch deferred/not required（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\ndoch 對 A1 是辨認項；先知道它可反駁否定問句，不要求主動使用。 否定用來說沒有、不需要、不對或不是；A1 最常見是 nicht、kein 和 nein。\n\n· 形式\n先只辨認單字 doch 或 Doch, ... 這種反駁否定的回應，不要求主動產出。\n\n· 常見使用場景\n拒絕、說沒有、說不懂、說某事不正確或描述限制。\n\n· 相近用法與容易混淆\ndoch 常回應否定問題，語境依賴高；A1 可先辨認。\n\n· 注意\ndoch 很依賴前一句語境；不知道時可以先不用，避免答非所問。",
+      "ref_id": "de-gramx-a1-050",
+      "ref_item": "doch deferred/not required",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "negation",
+      "function_refs": [
+        "fn-negate",
+        "fn-like-need",
+        "fn-food-shopping"
+      ],
+      "source_basis": "CEFR_A1_simple_negative_statement_can_do;Goethe_A1_scope_calibration_not_copied;DE_negation_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Doch.",
+          "source_item_id": "frame:authored-doch-001",
+          "note_zh_tw": "這句只作 doch 的辨認例：它常用來反駁否定或補一句『其實是』，A1 不要求主動熟練使用。"
+        },
+        {
+          "surface": "Doch, ich habe Zeit.",
+          "source_item_id": "frame:authored-doch-002",
+          "note_zh_tw": "這句只作 doch 的辨認例：它常用來反駁否定或補一句『其實是』，A1 不要求主動熟練使用。"
+        },
+        {
+          "surface": "Doch, das ist richtig.",
+          "source_item_id": "frame:authored-doch-003",
+          "note_zh_tw": "這句只作 doch 的辨認例：它常用來反駁否定或補一句『其實是』，A1 不要求主動熟練使用。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_051",
+      "title_zh_tw": "in + place chunk（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nin 加地點可表示在某處或去某處，A1 先記固定地點片語。 地點和方向讓你問路、入住、搭車和約時間，是旅行 A1 的核心。\n\n· 形式\nin/im/am/zu/nach 先當成片語學：im Hotel、am Bahnhof、nach Berlin、zur Kasse。\n\n· 常見使用場景\n問路、搭車、入住、描述位置和說明目的地。\n\n· 相近用法與容易混淆\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。\n\n· 注意\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。",
+      "ref_id": "de-gramx-a1-051",
+      "ref_item": "in + place chunk",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "location_direction",
+      "function_refs": [
+        "fn-location",
+        "fn-travel",
+        "fn-existence"
+      ],
+      "source_basis": "CEFR_A1_location_direction_and_service_navigation_can_do;Goethe_A1_scope_calibration_not_copied;DE_location_direction_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich wohne in Berlin.",
+          "source_item_id": "frame:authored-loc-051-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「in + place chunk」。"
+        },
+        {
+          "surface": "Ich bin in der Schule.",
+          "source_item_id": "frame:authored-loc-051-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「in + place chunk」。"
+        },
+        {
+          "surface": "Wir sind in Deutschland.",
+          "source_item_id": "frame:authored-loc-051-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「in + place chunk」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_052",
+      "title_zh_tw": "im/am contractions（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nim = in dem，am = an dem；常見於 im Hotel、am Bahnhof、am Montag。 地點和方向讓你問路、入住、搭車和約時間，是旅行 A1 的核心。\n\n· 形式\nin/im/am/zu/nach 先當成片語學：im Hotel、am Bahnhof、nach Berlin、zur Kasse。\n\n· 常見使用場景\n問路、搭車、入住、描述位置和說明目的地。\n\n· 相近用法與容易混淆\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。\n\n· 注意\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。",
+      "ref_id": "de-gramx-a1-052",
+      "ref_item": "im/am contractions",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "location_direction",
+      "function_refs": [
+        "fn-location",
+        "fn-travel",
+        "fn-existence"
+      ],
+      "source_basis": "CEFR_A1_location_direction_and_service_navigation_can_do;Goethe_A1_scope_calibration_not_copied;DE_location_direction_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich bin im Hotel.",
+          "source_item_id": "frame:authored-loc-052-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「im/am contractions」。"
+        },
+        {
+          "surface": "Der Bus ist am Bahnhof.",
+          "source_item_id": "frame:authored-loc-052-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「im/am contractions」。"
+        },
+        {
+          "surface": "Der Kurs ist am Montag.",
+          "source_item_id": "frame:authored-loc-052-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「im/am contractions」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_053",
+      "title_zh_tw": "nach + city/country chunk（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nnach 常接城市和多數國家，表示往某地去。 地點和方向讓你問路、入住、搭車和約時間，是旅行 A1 的核心。\n\n· 形式\nin/im/am/zu/nach 先當成片語學：im Hotel、am Bahnhof、nach Berlin、zur Kasse。\n\n· 常見使用場景\n問路、搭車、入住、描述位置和說明目的地。\n\n· 相近用法與容易混淆\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。\n\n· 注意\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。",
+      "ref_id": "de-gramx-a1-053",
+      "ref_item": "nach + city/country chunk",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "location_direction",
+      "function_refs": [
+        "fn-location",
+        "fn-travel",
+        "fn-existence"
+      ],
+      "source_basis": "CEFR_A1_location_direction_and_service_navigation_can_do;Goethe_A1_scope_calibration_not_copied;DE_location_direction_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich fahre nach Berlin.",
+          "source_item_id": "frame:authored-loc-053-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「nach + city/country chunk」。"
+        },
+        {
+          "surface": "Der Zug fährt nach Deutschland.",
+          "source_item_id": "frame:authored-loc-053-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「nach + city/country chunk」。"
+        },
+        {
+          "surface": "Ich möchte nach Hause.",
+          "source_item_id": "frame:authored-loc-053-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「nach + city/country chunk」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_054",
+      "title_zh_tw": "zu + person/place chunk（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nzu 常表示往人或特定地點去，例如 zum Arzt、zur Kasse。 地點和方向讓你問路、入住、搭車和約時間，是旅行 A1 的核心。\n\n· 形式\nin/im/am/zu/nach 先當成片語學：im Hotel、am Bahnhof、nach Berlin、zur Kasse。\n\n· 常見使用場景\n問路、搭車、入住、描述位置和說明目的地。\n\n· 相近用法與容易混淆\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。\n\n· 注意\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。",
+      "ref_id": "de-gramx-a1-054",
+      "ref_item": "zu + person/place chunk",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "location_direction",
+      "function_refs": [
+        "fn-location",
+        "fn-travel",
+        "fn-existence"
+      ],
+      "source_basis": "CEFR_A1_location_direction_and_service_navigation_can_do;Goethe_A1_scope_calibration_not_copied;DE_location_direction_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich gehe zur Kasse.",
+          "source_item_id": "frame:authored-loc-054-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「zu + person/place chunk」。"
+        },
+        {
+          "surface": "Ich gehe zum Arzt.",
+          "source_item_id": "frame:authored-loc-054-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「zu + person/place chunk」。"
+        },
+        {
+          "surface": "Kommen Sie zum Hotel?",
+          "source_item_id": "frame:authored-loc-054-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意地點/方向片語，這裡示範「zu + person/place chunk」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_055",
+      "title_zh_tw": "links/rechts/geradeaus adverbs（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nlinks、rechts、geradeaus 是問路高頻方向副詞，可單獨承載方向資訊。 地點和方向讓你問路、入住、搭車和約時間，是旅行 A1 的核心。\n\n· 形式\nin/im/am/zu/nach 先當成片語學：im Hotel、am Bahnhof、nach Berlin、zur Kasse。\n\n· 常見使用場景\n問路、搭車、入住、描述位置和說明目的地。\n\n· 相近用法與容易混淆\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。\n\n· 注意\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。",
+      "ref_id": "de-gramx-a1-055",
+      "ref_item": "links/rechts/geradeaus adverbs",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "location_direction",
+      "function_refs": [
+        "fn-location",
+        "fn-travel",
+        "fn-existence"
+      ],
+      "source_basis": "CEFR_A1_location_direction_and_service_navigation_can_do;Goethe_A1_scope_calibration_not_copied;DE_location_direction_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Gehen Sie links.",
+          "source_item_id": "frame:authored-loc-055-001",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意地點/方向片語，這裡示範「links/rechts/geradeaus adverbs」。"
+        },
+        {
+          "surface": "Die Toilette ist rechts.",
+          "source_item_id": "frame:authored-loc-055-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「links/rechts/geradeaus adverbs」。"
+        },
+        {
+          "surface": "Gehen Sie geradeaus.",
+          "source_item_id": "frame:authored-loc-055-003",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意地點/方向片語，這裡示範「links/rechts/geradeaus adverbs」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_056",
+      "title_zh_tw": "wo question for location（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nwo 問所在位置，答案常是 in/im/am + 地點。 地點和方向讓你問路、入住、搭車和約時間，是旅行 A1 的核心。\n\n· 形式\nin/im/am/zu/nach 先當成片語學：im Hotel、am Bahnhof、nach Berlin、zur Kasse。\n\n· 常見使用場景\n問路、搭車、入住、描述位置和說明目的地。\n\n· 相近用法與容易混淆\nwo 問位置；wohin 問方向。\n\n· 注意\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。",
+      "ref_id": "de-gramx-a1-056",
+      "ref_item": "wo question for location",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "location_direction",
+      "function_refs": [
+        "fn-location",
+        "fn-travel",
+        "fn-existence"
+      ],
+      "source_basis": "CEFR_A1_location_direction_and_service_navigation_can_do;Goethe_A1_scope_calibration_not_copied;DE_location_direction_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Wo ist der Bahnhof?",
+          "source_item_id": "frame:authored-loc-056-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意地點/方向片語，這裡示範「wo question for location」。"
+        },
+        {
+          "surface": "Wo wohnen Sie?",
+          "source_item_id": "frame:authored-loc-056-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意地點/方向片語，這裡示範「wo question for location」。"
+        },
+        {
+          "surface": "Wo ist die Toilette?",
+          "source_item_id": "frame:authored-loc-056-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意地點/方向片語，這裡示範「wo question for location」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_057",
+      "title_zh_tw": "wohin question for direction（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nwohin 問移動方向，答案常含 nach 或 zu。 地點和方向讓你問路、入住、搭車和約時間，是旅行 A1 的核心。\n\n· 形式\nin/im/am/zu/nach 先當成片語學：im Hotel、am Bahnhof、nach Berlin、zur Kasse。\n\n· 常見使用場景\n問路、搭車、入住、描述位置和說明目的地。\n\n· 相近用法與容易混淆\nwohin 常搭配 gehen/fahren 和 nach/zu 等方向片語。\n\n· 注意\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。",
+      "ref_id": "de-gramx-a1-057",
+      "ref_item": "wohin question for direction",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "location_direction",
+      "function_refs": [
+        "fn-location",
+        "fn-travel",
+        "fn-existence"
+      ],
+      "source_basis": "CEFR_A1_location_direction_and_service_navigation_can_do;Goethe_A1_scope_calibration_not_copied;DE_location_direction_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Wohin fahren Sie?",
+          "source_item_id": "frame:authored-loc-057-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意地點/方向片語，這裡示範「wohin question for direction」。"
+        },
+        {
+          "surface": "Wohin gehen wir?",
+          "source_item_id": "frame:authored-loc-057-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意地點/方向片語，這裡示範「wohin question for direction」。"
+        },
+        {
+          "surface": "Wohin möchten Sie?",
+          "source_item_id": "frame:authored-loc-057-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意地點/方向片語，這裡示範「wohin question for direction」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_058",
+      "title_zh_tw": "hier/dort/da contrast（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nhier 是這裡，dort/da 是那裡；A1 先能聽懂指路和指物。 地點和方向讓你問路、入住、搭車和約時間，是旅行 A1 的核心。\n\n· 形式\nin/im/am/zu/nach 先當成片語學：im Hotel、am Bahnhof、nach Berlin、zur Kasse。\n\n· 常見使用場景\n問路、搭車、入住、描述位置和說明目的地。\n\n· 相近用法與容易混淆\nhier 是說話者附近；dort/da 通常指較遠或已知位置。\n\n· 注意\nwo 問『在哪裡』，wohin 問『往哪裡』；不要把靜態位置和移動方向混在一起。",
+      "ref_id": "de-gramx-a1-058",
+      "ref_item": "hier/dort/da contrast",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "location_direction",
+      "function_refs": [
+        "fn-location",
+        "fn-travel",
+        "fn-existence"
+      ],
+      "source_basis": "CEFR_A1_location_direction_and_service_navigation_can_do;Goethe_A1_scope_calibration_not_copied;DE_location_direction_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich bin hier.",
+          "source_item_id": "frame:authored-loc-058-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「hier/dort/da contrast」。"
+        },
+        {
+          "surface": "Der Bahnhof ist dort.",
+          "source_item_id": "frame:authored-loc-058-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意地點/方向片語，這裡示範「hier/dort/da contrast」。"
+        },
+        {
+          "surface": "Da ist das Hotel.",
+          "source_item_id": "frame:authored-loc-058-003",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意地點/方向片語，這裡示範「hier/dort/da contrast」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_059",
+      "title_zh_tw": "regular present ich/du/Sie forms（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n規則現在式先抓 ich、du、Sie 三個最常用互動人稱。 現在式支撐 A1 的日常動作、需求、能力和計畫。\n\n· 形式\n規則動詞先看 ich -e、du -st、Sie -en；sein、haben、möchten、können、müssen 要當常用不規則記。\n\n· 常見使用場景\n介紹日常、說需求、能力、計畫和簡單行程。\n\n· 相近用法與容易混淆\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。\n\n· 注意\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。",
+      "ref_id": "de-gramx-a1-059",
+      "ref_item": "regular present ich/du/Sie forms",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "present_verbs",
+      "function_refs": [
+        "fn-routine",
+        "fn-describe",
+        "fn-like-need"
+      ],
+      "source_basis": "CEFR_A1_everyday_action_and_routine_can_do;Goethe_A1_scope_calibration_not_copied;DE_present_verb_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich lerne Deutsch.",
+          "source_item_id": "frame:authored-verb-059-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「regular present ich/du/Sie forms」。"
+        },
+        {
+          "surface": "Du wohnst in Berlin.",
+          "source_item_id": "frame:authored-verb-059-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意現在式動詞形和主詞搭配，這裡示範「regular present ich/du/Sie forms」。"
+        },
+        {
+          "surface": "Sie kommen aus Deutschland.",
+          "source_item_id": "frame:authored-verb-059-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「regular present ich/du/Sie forms」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_060",
+      "title_zh_tw": "kommen/wohnen/lernen regular pattern（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nkommen、wohnen、lernen 都能套規則現在式，是自我介紹核心動詞。 現在式支撐 A1 的日常動作、需求、能力和計畫。\n\n· 形式\n規則動詞先看 ich -e、du -st、Sie -en；sein、haben、möchten、können、müssen 要當常用不規則記。\n\n· 常見使用場景\n介紹日常、說需求、能力、計畫和簡單行程。\n\n· 相近用法與容易混淆\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。\n\n· 注意\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。",
+      "ref_id": "de-gramx-a1-060",
+      "ref_item": "kommen/wohnen/lernen regular pattern",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "present_verbs",
+      "function_refs": [
+        "fn-routine",
+        "fn-describe",
+        "fn-like-need"
+      ],
+      "source_basis": "CEFR_A1_everyday_action_and_routine_can_do;Goethe_A1_scope_calibration_not_copied;DE_present_verb_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich komme aus Taiwan.",
+          "source_item_id": "frame:authored-verb-060-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「kommen/wohnen/lernen regular pattern」。"
+        },
+        {
+          "surface": "Ich wohne in Berlin.",
+          "source_item_id": "frame:authored-verb-060-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「kommen/wohnen/lernen regular pattern」。"
+        },
+        {
+          "surface": "Ich lerne Deutsch.",
+          "source_item_id": "frame:authored-verb-060-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「kommen/wohnen/lernen regular pattern」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_061",
+      "title_zh_tw": "haben irregular present（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nhaben 是不規則高頻動詞：ich habe、du hast、Sie haben。 現在式支撐 A1 的日常動作、需求、能力和計畫。\n\n· 形式\n規則動詞先看 ich -e、du -st、Sie -en；sein、haben、möchten、können、müssen 要當常用不規則記。\n\n· 常見使用場景\n介紹日常、說需求、能力、計畫和簡單行程。\n\n· 相近用法與容易混淆\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。\n\n· 注意\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。",
+      "ref_id": "de-gramx-a1-061",
+      "ref_item": "haben irregular present",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "present_verbs",
+      "function_refs": [
+        "fn-routine",
+        "fn-describe",
+        "fn-like-need"
+      ],
+      "source_basis": "CEFR_A1_everyday_action_and_routine_can_do;Goethe_A1_scope_calibration_not_copied;DE_present_verb_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich habe ein Ticket.",
+          "source_item_id": "frame:authored-verb-061-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「haben irregular present」。"
+        },
+        {
+          "surface": "Du hast Zeit.",
+          "source_item_id": "frame:authored-verb-061-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意現在式動詞形和主詞搭配，這裡示範「haben irregular present」。"
+        },
+        {
+          "surface": "Haben Sie Wasser?",
+          "source_item_id": "frame:authored-verb-061-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意現在式動詞形和主詞搭配，這裡示範「haben irregular present」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_062",
+      "title_zh_tw": "sein irregular present（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nsein 是最不規則也最常用：ich bin、du bist、Sie sind、er/sie/es ist。 現在式支撐 A1 的日常動作、需求、能力和計畫。\n\n· 形式\n規則動詞先看 ich -e、du -st、Sie -en；sein、haben、möchten、können、müssen 要當常用不規則記。\n\n· 常見使用場景\n介紹日常、說需求、能力、計畫和簡單行程。\n\n· 相近用法與容易混淆\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。\n\n· 注意\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。",
+      "ref_id": "de-gramx-a1-062",
+      "ref_item": "sein irregular present",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "present_verbs",
+      "function_refs": [
+        "fn-routine",
+        "fn-describe",
+        "fn-like-need"
+      ],
+      "source_basis": "CEFR_A1_everyday_action_and_routine_can_do;Goethe_A1_scope_calibration_not_copied;DE_present_verb_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich bin Anna.",
+          "source_item_id": "frame:authored-verb-062-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「sein irregular present」。"
+        },
+        {
+          "surface": "Du bist Paul.",
+          "source_item_id": "frame:authored-verb-062-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意現在式動詞形和主詞搭配，這裡示範「sein irregular present」。"
+        },
+        {
+          "surface": "Sie sind Lehrer.",
+          "source_item_id": "frame:authored-verb-062-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「sein irregular present」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_063",
+      "title_zh_tw": "möchten as polite want（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nmöchten 是禮貌表達『想要』，點餐和請求比 ich will 更安全。 現在式支撐 A1 的日常動作、需求、能力和計畫。\n\n· 形式\n規則動詞先看 ich -e、du -st、Sie -en；sein、haben、möchten、können、müssen 要當常用不規則記。\n\n· 常見使用場景\n介紹日常、說需求、能力、計畫和簡單行程。\n\n· 相近用法與容易混淆\nich möchte 比 ich will 更安全禮貌，尤其在服務場景。\n\n· 注意\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。",
+      "ref_id": "de-gramx-a1-063",
+      "ref_item": "möchten as polite want",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "present_verbs",
+      "function_refs": [
+        "fn-routine",
+        "fn-describe",
+        "fn-like-need"
+      ],
+      "source_basis": "CEFR_A1_everyday_action_and_routine_can_do;Goethe_A1_scope_calibration_not_copied;DE_present_verb_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich möchte einen Kaffee.",
+          "source_item_id": "frame:authored-verb-063-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「möchten as polite want」。"
+        },
+        {
+          "surface": "Möchten Sie Wasser?",
+          "source_item_id": "frame:authored-verb-063-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意現在式動詞形和主詞搭配，這裡示範「möchten as polite want」。"
+        },
+        {
+          "surface": "Wir möchten zahlen.",
+          "source_item_id": "frame:authored-verb-063-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「möchten as polite want」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_064",
+      "title_zh_tw": "können as ability/request（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nkönnen 可說能力，也可用 Können Sie ...? 禮貌請對方幫忙。 現在式支撐 A1 的日常動作、需求、能力和計畫。\n\n· 形式\n規則動詞先看 ich -e、du -st、Sie -en；sein、haben、möchten、können、müssen 要當常用不規則記。\n\n· 常見使用場景\n介紹日常、說需求、能力、計畫和簡單行程。\n\n· 相近用法與容易混淆\nIch kann ... 說能力；Können Sie ...? 常是禮貌請求。\n\n· 注意\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。",
+      "ref_id": "de-gramx-a1-064",
+      "ref_item": "können as ability/request",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "present_verbs",
+      "function_refs": [
+        "fn-routine",
+        "fn-describe",
+        "fn-like-need"
+      ],
+      "source_basis": "CEFR_A1_everyday_action_and_routine_can_do;Goethe_A1_scope_calibration_not_copied;DE_present_verb_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich kann Deutsch sprechen.",
+          "source_item_id": "frame:authored-verb-064-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「können as ability/request」。"
+        },
+        {
+          "surface": "Können Sie mir helfen?",
+          "source_item_id": "frame:authored-verb-064-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意現在式動詞形和主詞搭配，這裡示範「können as ability/request」。"
+        },
+        {
+          "surface": "Kann ich hier zahlen?",
+          "source_item_id": "frame:authored-verb-064-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意現在式動詞形和主詞搭配，這裡示範「können as ability/request」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_065",
+      "title_zh_tw": "müssen as need/obligation（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nmüssen 表示必須或需要，A1 常用於行程、時間和規則。 現在式支撐 A1 的日常動作、需求、能力和計畫。\n\n· 形式\n規則動詞先看 ich -e、du -st、Sie -en；sein、haben、möchten、können、müssen 要當常用不規則記。\n\n· 常見使用場景\n介紹日常、說需求、能力、計畫和簡單行程。\n\n· 相近用法與容易混淆\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。\n\n· 注意\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。",
+      "ref_id": "de-gramx-a1-065",
+      "ref_item": "müssen as need/obligation",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "present_verbs",
+      "function_refs": [
+        "fn-routine",
+        "fn-describe",
+        "fn-like-need"
+      ],
+      "source_basis": "CEFR_A1_everyday_action_and_routine_can_do;Goethe_A1_scope_calibration_not_copied;DE_present_verb_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich muss gehen.",
+          "source_item_id": "frame:authored-verb-065-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「müssen as need/obligation」。"
+        },
+        {
+          "surface": "Wir müssen warten.",
+          "source_item_id": "frame:authored-verb-065-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「müssen as need/obligation」。"
+        },
+        {
+          "surface": "Müssen Sie arbeiten?",
+          "source_item_id": "frame:authored-verb-065-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意現在式動詞形和主詞搭配，這裡示範「müssen as need/obligation」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_066",
+      "title_zh_tw": "gehen/fahren contrast（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\ngehen 偏走路或一般去，fahren 偏搭車或交通工具移動。 現在式支撐 A1 的日常動作、需求、能力和計畫。\n\n· 形式\n規則動詞先看 ich -e、du -st、Sie -en；sein、haben、möchten、können、müssen 要當常用不規則記。\n\n· 常見使用場景\n介紹日常、說需求、能力、計畫和簡單行程。\n\n· 相近用法與容易混淆\ngehen 可泛指去或走路；fahren 通常涉及交通工具。\n\n· 注意\nA1 重點是能用固定人稱說清楚需求，不是背完整變位表。",
+      "ref_id": "de-gramx-a1-066",
+      "ref_item": "gehen/fahren contrast",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "present_verbs",
+      "function_refs": [
+        "fn-routine",
+        "fn-describe",
+        "fn-like-need"
+      ],
+      "source_basis": "CEFR_A1_everyday_action_and_routine_can_do;Goethe_A1_scope_calibration_not_copied;DE_present_verb_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich gehe zur Schule.",
+          "source_item_id": "frame:authored-verb-066-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「gehen/fahren contrast」。"
+        },
+        {
+          "surface": "Ich fahre mit dem Bus.",
+          "source_item_id": "frame:authored-verb-066-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意現在式動詞形和主詞搭配，這裡示範「gehen/fahren contrast」。"
+        },
+        {
+          "surface": "Fahren Sie nach Berlin?",
+          "source_item_id": "frame:authored-verb-066-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意現在式動詞形和主詞搭配，這裡示範「gehen/fahren contrast」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_067",
+      "title_zh_tw": "ich möchte...（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nich möchte ... 是 A1 最穩的點餐、購物、表達需求句型。 服務場合要同時說清楚需求和保持禮貌，常見於咖啡廳、商店、車站、旅館。\n\n· 形式\nich möchte ...、Können Sie ...?、bitte、danke、Entschuldigung 是最安全的基本工具。\n\n· 常見使用場景\n在咖啡廳、商店、車站、旅館或陌生人互動中提出請求。\n\n· 相近用法與容易混淆\n只說名詞也可能被懂，但加 bitte 和 Sie 會更自然、更安全。\n\n· 注意\n只說名詞也可能被懂，但加 bitte 和 Sie 會更自然、更安全。",
+      "ref_id": "de-gramx-a1-067",
+      "ref_item": "ich möchte...",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "requests_service",
+      "function_refs": [
+        "fn-request",
+        "fn-food-shopping",
+        "fn-pragmatics-register"
+      ],
+      "source_basis": "CEFR_A1_simple_service_request_can_do;Goethe_A1_scope_calibration_not_copied;DE_request_service_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich möchte einen Kaffee.",
+          "source_item_id": "frame:authored-req-067-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「ich möchte...」。"
+        },
+        {
+          "surface": "Ich möchte bitte zahlen.",
+          "source_item_id": "frame:authored-req-067-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「ich möchte...」。"
+        },
+        {
+          "surface": "Ich möchte ein Ticket.",
+          "source_item_id": "frame:authored-req-067-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「ich möchte...」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_068",
+      "title_zh_tw": "ich hätte gern formulaic optional（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nich hätte gern ... 很自然但可先當固定片語，不必分析 Konjunktiv。 服務場合要同時說清楚需求和保持禮貌，常見於咖啡廳、商店、車站、旅館。\n\n· 形式\nich möchte ...、Können Sie ...?、bitte、danke、Entschuldigung 是最安全的基本工具。\n\n· 常見使用場景\n在咖啡廳、商店、車站、旅館或陌生人互動中提出請求。\n\n· 相近用法與容易混淆\n這個片語很自然，但語法來源較進階；A1 可先整句記。\n\n· 注意\n只說名詞也可能被懂，但加 bitte 和 Sie 會更自然、更安全。",
+      "ref_id": "de-gramx-a1-068",
+      "ref_item": "ich hätte gern formulaic optional",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "requests_service",
+      "function_refs": [
+        "fn-request",
+        "fn-food-shopping",
+        "fn-pragmatics-register"
+      ],
+      "source_basis": "CEFR_A1_simple_service_request_can_do;Goethe_A1_scope_calibration_not_copied;DE_request_service_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich hätte gern Wasser.",
+          "source_item_id": "frame:authored-req-068-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「ich hätte gern formulaic optional」。"
+        },
+        {
+          "surface": "Ich hätte gern ein Zimmer.",
+          "source_item_id": "frame:authored-req-068-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「ich hätte gern formulaic optional」。"
+        },
+        {
+          "surface": "Ich hätte gern die Rechnung.",
+          "source_item_id": "frame:authored-req-068-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「ich hätte gern formulaic optional」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_069",
+      "title_zh_tw": "bitte/danke placement（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nbitte 可放句尾或句首緩和請求，danke 用來完成禮貌回應。 服務場合要同時說清楚需求和保持禮貌，常見於咖啡廳、商店、車站、旅館。\n\n· 形式\nich möchte ...、Können Sie ...?、bitte、danke、Entschuldigung 是最安全的基本工具。\n\n· 常見使用場景\n在咖啡廳、商店、車站、旅館或陌生人互動中提出請求。\n\n· 相近用法與容易混淆\nbitte 緩和請求，danke 完成回應；位置可在句首或句尾。\n\n· 注意\n只說名詞也可能被懂，但加 bitte 和 Sie 會更自然、更安全。",
+      "ref_id": "de-gramx-a1-069",
+      "ref_item": "bitte/danke placement",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "requests_service",
+      "function_refs": [
+        "fn-request",
+        "fn-food-shopping",
+        "fn-pragmatics-register"
+      ],
+      "source_basis": "CEFR_A1_simple_service_request_can_do;Goethe_A1_scope_calibration_not_copied;DE_request_service_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Einen Kaffee, bitte.",
+          "source_item_id": "frame:authored-req-069-001",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「bitte/danke placement」。"
+        },
+        {
+          "surface": "Bitte langsam.",
+          "source_item_id": "frame:authored-req-069-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「bitte/danke placement」。"
+        },
+        {
+          "surface": "Danke schön.",
+          "source_item_id": "frame:authored-req-069-003",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「bitte/danke placement」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_070",
+      "title_zh_tw": "können Sie...?（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nKönnen Sie ...? 用正式 Sie 請對方幫忙，適合陌生人和服務場景。 服務場合要同時說清楚需求和保持禮貌，常見於咖啡廳、商店、車站、旅館。\n\n· 形式\nich möchte ...、Können Sie ...?、bitte、danke、Entschuldigung 是最安全的基本工具。\n\n· 常見使用場景\n在咖啡廳、商店、車站、旅館或陌生人互動中提出請求。\n\n· 相近用法與容易混淆\n只說名詞也可能被懂，但加 bitte 和 Sie 會更自然、更安全。\n\n· 注意\n只說名詞也可能被懂，但加 bitte 和 Sie 會更自然、更安全。",
+      "ref_id": "de-gramx-a1-070",
+      "ref_item": "können Sie...?",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "requests_service",
+      "function_refs": [
+        "fn-request",
+        "fn-food-shopping",
+        "fn-pragmatics-register"
+      ],
+      "source_basis": "CEFR_A1_simple_service_request_can_do;Goethe_A1_scope_calibration_not_copied;DE_request_service_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Können Sie mir helfen?",
+          "source_item_id": "frame:authored-req-070-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「können Sie...?」。"
+        },
+        {
+          "surface": "Können Sie das wiederholen?",
+          "source_item_id": "frame:authored-req-070-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「können Sie...?」。"
+        },
+        {
+          "surface": "Können Sie bitte langsamer sprechen?",
+          "source_item_id": "frame:authored-req-070-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「können Sie...?」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_071",
+      "title_zh_tw": "Entschuldigung as attention getter（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nEntschuldigung 可先吸引注意，再接問題或請求。 服務場合要同時說清楚需求和保持禮貌，常見於咖啡廳、商店、車站、旅館。\n\n· 形式\nich möchte ...、Können Sie ...?、bitte、danke、Entschuldigung 是最安全的基本工具。\n\n· 常見使用場景\n在咖啡廳、商店、車站、旅館或陌生人互動中提出請求。\n\n· 相近用法與容易混淆\n只說名詞也可能被懂，但加 bitte 和 Sie 會更自然、更安全。\n\n· 注意\n只說名詞也可能被懂，但加 bitte 和 Sie 會更自然、更安全。",
+      "ref_id": "de-gramx-a1-071",
+      "ref_item": "Entschuldigung as attention getter",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "requests_service",
+      "function_refs": [
+        "fn-request",
+        "fn-food-shopping",
+        "fn-pragmatics-register"
+      ],
+      "source_basis": "CEFR_A1_simple_service_request_can_do;Goethe_A1_scope_calibration_not_copied;DE_request_service_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Entschuldigung, wo ist der Bahnhof?",
+          "source_item_id": "frame:authored-req-071-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「Entschuldigung as attention getter」。"
+        },
+        {
+          "surface": "Entschuldigung, ich habe eine Frage.",
+          "source_item_id": "frame:authored-req-071-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「Entschuldigung as attention getter」。"
+        },
+        {
+          "surface": "Entschuldigung, können Sie mir helfen?",
+          "source_item_id": "frame:authored-req-071-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「Entschuldigung as attention getter」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_072",
+      "title_zh_tw": "imperative chunks bitte + infinitive/noun（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nA1 先用 bitte 加名詞或固定動作片語表達需求，不急著學完整命令式。 服務場合要同時說清楚需求和保持禮貌，常見於咖啡廳、商店、車站、旅館。\n\n· 形式\nich möchte ...、Können Sie ...?、bitte、danke、Entschuldigung 是最安全的基本工具。\n\n· 常見使用場景\n在咖啡廳、商店、車站、旅館或陌生人互動中提出請求。\n\n· 相近用法與容易混淆\n只說名詞也可能被懂，但加 bitte 和 Sie 會更自然、更安全。\n\n· 注意\n只說名詞也可能被懂，但加 bitte 和 Sie 會更自然、更安全。",
+      "ref_id": "de-gramx-a1-072",
+      "ref_item": "imperative chunks bitte + infinitive/noun",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "requests_service",
+      "function_refs": [
+        "fn-request",
+        "fn-food-shopping",
+        "fn-pragmatics-register"
+      ],
+      "source_basis": "CEFR_A1_simple_service_request_can_do;Goethe_A1_scope_calibration_not_copied;DE_request_service_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Bitte warten.",
+          "source_item_id": "frame:authored-req-072-001",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「imperative chunks bitte + infinitive/noun」。"
+        },
+        {
+          "surface": "Bitte langsam sprechen.",
+          "source_item_id": "frame:authored-req-072-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「imperative chunks bitte + infinitive/noun」。"
+        },
+        {
+          "surface": "Die Rechnung, bitte.",
+          "source_item_id": "frame:authored-req-072-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 注意 bitte、Sie 或 möchte/können 的禮貌功能，這裡示範「imperative chunks bitte + infinitive/noun」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_073",
+      "title_zh_tw": "um + clock time（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\num 接鐘點：um acht Uhr、um 10:30。 時間片語讓你約時間、說日期、說頻率和安排路線。\n\n· 形式\num 接鐘點，am 接星期/日期，im 接月份/季節；heute/morgen/gestern 常放句首或動詞後。\n\n· 常見使用場景\n約時間、說日期、安排課程、描述頻率和交通時間。\n\n· 相近用法與容易混淆\num 接鐘點；am 接星期/日期；im 接月份/季節。\n\n· 注意\n時間放句首時，德文仍要維持動詞第二位置：Heute fahre ich ...。",
+      "ref_id": "de-gramx-a1-073",
+      "ref_item": "um + clock time",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "time_schedule",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-routine",
+        "fn-future-basic"
+      ],
+      "source_basis": "CEFR_A1_time_date_schedule_and_simple_plan_can_do;Goethe_A1_scope_calibration_not_copied;DE_time_schedule_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Der Bus kommt um acht Uhr.",
+          "source_item_id": "frame:de-frame-a1-060",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「um + clock time」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich stehe um sieben Uhr auf.",
+          "source_item_id": "frame:de-frame-a1-073",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「um + clock time」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Der Kurs beginnt um neun Uhr.",
+          "source_item_id": "frame:de-frame-a1-086",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「um + clock time」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_074",
+      "title_zh_tw": "am + day（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nam 接星期或日期：am Montag、am Samstag。 時間片語讓你約時間、說日期、說頻率和安排路線。\n\n· 形式\num 接鐘點，am 接星期/日期，im 接月份/季節；heute/morgen/gestern 常放句首或動詞後。\n\n· 常見使用場景\n約時間、說日期、安排課程、描述頻率和交通時間。\n\n· 相近用法與容易混淆\nam Montag 說星期；um acht Uhr 說幾點。\n\n· 注意\n時間放句首時，德文仍要維持動詞第二位置：Heute fahre ich ...。",
+      "ref_id": "de-gramx-a1-074",
+      "ref_item": "am + day",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "time_schedule",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-routine",
+        "fn-future-basic"
+      ],
+      "source_basis": "CEFR_A1_time_date_schedule_and_simple_plan_can_do;Goethe_A1_scope_calibration_not_copied;DE_time_schedule_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Der Kurs ist am Dienstag.",
+          "source_item_id": "frame:de-frame-a1-111",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「am + day」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Am Wochenende habe ich Zeit.",
+          "source_item_id": "frame:de-frame-a1-118",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「am + day」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich habe am Samstag Zeit.",
+          "source_item_id": "frame:de-frame-a1-124",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「am + day」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_075",
+      "title_zh_tw": "im + month/season（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nim 接月份或季節：im Juni、im Sommer。 時間片語讓你約時間、說日期、說頻率和安排路線。\n\n· 形式\num 接鐘點，am 接星期/日期，im 接月份/季節；heute/morgen/gestern 常放句首或動詞後。\n\n· 常見使用場景\n約時間、說日期、安排課程、描述頻率和交通時間。\n\n· 相近用法與容易混淆\nim Juni/im Sommer 說月份或季節，不用 um。\n\n· 注意\n時間放句首時，德文仍要維持動詞第二位置：Heute fahre ich ...。",
+      "ref_id": "de-gramx-a1-075",
+      "ref_item": "im + month/season",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "time_schedule",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-routine",
+        "fn-future-basic"
+      ],
+      "source_basis": "CEFR_A1_time_date_schedule_and_simple_plan_can_do;Goethe_A1_scope_calibration_not_copied;DE_time_schedule_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich komme im Juni.",
+          "source_item_id": "frame:authored-time-075-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「im + month/season」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Im Sommer fahre ich nach Berlin.",
+          "source_item_id": "frame:authored-time-075-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「im + month/season」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Der Kurs ist im März.",
+          "source_item_id": "frame:authored-time-075-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「im + month/season」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_076",
+      "title_zh_tw": "heute/morgen/gestern placement（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n今天、明天、昨天可放句首；放句首時動詞仍要第二。 時間片語讓你約時間、說日期、說頻率和安排路線。\n\n· 形式\num 接鐘點，am 接星期/日期，im 接月份/季節；heute/morgen/gestern 常放句首或動詞後。\n\n· 常見使用場景\n約時間、說日期、安排課程、描述頻率和交通時間。\n\n· 相近用法與容易混淆\n時間詞放句首時，動詞仍維持第二位。\n\n· 注意\n時間放句首時，德文仍要維持動詞第二位置：Heute fahre ich ...。",
+      "ref_id": "de-gramx-a1-076",
+      "ref_item": "heute/morgen/gestern placement",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "time_schedule",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-routine",
+        "fn-future-basic"
+      ],
+      "source_basis": "CEFR_A1_time_date_schedule_and_simple_plan_can_do;Goethe_A1_scope_calibration_not_copied;DE_time_schedule_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Heute habe ich Zeit.",
+          "source_item_id": "frame:authored-time-076-001",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「heute/morgen/gestern placement」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Morgen fahre ich nach Berlin.",
+          "source_item_id": "frame:authored-time-076-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「heute/morgen/gestern placement」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Gestern war ich im Hotel.",
+          "source_item_id": "frame:authored-time-076-003",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「heute/morgen/gestern placement」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_077",
+      "title_zh_tw": "frequency adverbs with V2（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\noft、immer、manchmal 這類頻率副詞放進句中時仍要維持主句語序。 時間片語讓你約時間、說日期、說頻率和安排路線。\n\n· 形式\num 接鐘點，am 接星期/日期，im 接月份/季節；heute/morgen/gestern 常放句首或動詞後。\n\n· 常見使用場景\n約時間、說日期、安排課程、描述頻率和交通時間。\n\n· 相近用法與容易混淆\n時間放句首時，德文仍要維持動詞第二位置：Heute fahre ich ...。\n\n· 注意\n時間放句首時，德文仍要維持動詞第二位置：Heute fahre ich ...。",
+      "ref_id": "de-gramx-a1-077",
+      "ref_item": "frequency adverbs with V2",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "time_schedule",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-routine",
+        "fn-future-basic"
+      ],
+      "source_basis": "CEFR_A1_time_date_schedule_and_simple_plan_can_do;Goethe_A1_scope_calibration_not_copied;DE_time_schedule_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich trinke oft Kaffee.",
+          "source_item_id": "frame:authored-time-077-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「frequency adverbs with V2」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Manchmal fahre ich mit dem Bus.",
+          "source_item_id": "frame:authored-time-077-002",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「frequency adverbs with V2」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich lerne jeden Tag Deutsch.",
+          "source_item_id": "frame:authored-time-077-003",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「frequency adverbs with V2」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_078",
+      "title_zh_tw": "von...bis... chunks（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nvon ... bis ... 表示從幾點到幾點、從哪裡到哪裡。 時間片語讓你約時間、說日期、說頻率和安排路線。\n\n· 形式\num 接鐘點，am 接星期/日期，im 接月份/季節；heute/morgen/gestern 常放句首或動詞後。\n\n· 常見使用場景\n約時間、說日期、安排課程、描述頻率和交通時間。\n\n· 相近用法與容易混淆\n時間放句首時，德文仍要維持動詞第二位置：Heute fahre ich ...。\n\n· 注意\n時間放句首時，德文仍要維持動詞第二位置：Heute fahre ich ...。",
+      "ref_id": "de-gramx-a1-078",
+      "ref_item": "von...bis... chunks",
+      "ref_subitems": [],
+      "stage": "A1-CORE",
+      "family": "time_schedule",
+      "function_refs": [
+        "fn-numbers-time",
+        "fn-routine",
+        "fn-future-basic"
+      ],
+      "source_basis": "CEFR_A1_time_date_schedule_and_simple_plan_can_do;Goethe_A1_scope_calibration_not_copied;DE_time_schedule_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Der Kurs ist von neun bis elf.",
+          "source_item_id": "frame:authored-time-078-001",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「von...bis... chunks」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Ich arbeite von Montag bis Freitag.",
+          "source_item_id": "frame:authored-time-078-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 句中的形式對應「von...bis... chunks」，先把它和整句意思一起記。"
+        },
+        {
+          "surface": "Von hier bis zum Bahnhof sind es zehn Minuten.",
+          "source_item_id": "frame:authored-time-078-003",
+          "note_zh_tw": "這句展示服務或日常情境中的固定用法。 句中的形式對應「von...bis... chunks」，先把它和整句意思一起記。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_079",
+      "title_zh_tw": "wer/was/wo/wann/wie/wie viel（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n這組 W 問詞分別問人、事物、地點、時間、方式和價格/數量。 問句讓你取得名字、來源、價格、物品和服務資訊。\n\n· 形式\nW 問詞在句首時，限定動詞通常第二；是非問句則動詞放第一位。\n\n· 常見使用場景\n問姓名、來源、價格、地點、時間、是否有服務或物品。\n\n· 相近用法與容易混淆\n問詞不同，期待的答案類型也不同：人、物、地點、時間、方式、價格/數量。\n\n· 注意\nWas kostet ...?、Haben Sie ...?、Gibt es ...? 是服務場景最常用的整句模板。",
+      "ref_id": "de-gramx-a1-079",
+      "ref_item": "wer/was/wo/wann/wie/wie viel",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "questions",
+      "function_refs": [
+        "fn-ask-info",
+        "fn-location",
+        "fn-identify"
+      ],
+      "source_basis": "CEFR_A1_basic_information_question_can_do;Goethe_A1_scope_calibration_not_copied;DE_question_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Wer ist das?",
+          "source_item_id": "frame:authored-q-079-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「wer/was/wo/wann/wie/wie viel」。"
+        },
+        {
+          "surface": "Wo ist der Bahnhof?",
+          "source_item_id": "frame:authored-q-079-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「wer/was/wo/wann/wie/wie viel」。"
+        },
+        {
+          "surface": "Wie viel kostet das?",
+          "source_item_id": "frame:authored-q-079-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「wer/was/wo/wann/wie/wie viel」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_080",
+      "title_zh_tw": "Wie heißen Sie?（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n正式問姓名用 Wie heißen Sie?，回答可用 Ich heiße ...。 問句讓你取得名字、來源、價格、物品和服務資訊。\n\n· 形式\nW 問詞在句首時，限定動詞通常第二；是非問句則動詞放第一位。\n\n· 常見使用場景\n問姓名、來源、價格、地點、時間、是否有服務或物品。\n\n· 相近用法與容易混淆\nWie heißen Sie? 問姓名；Wer sind Sie? 語氣較像問身分。\n\n· 注意\nWas kostet ...?、Haben Sie ...?、Gibt es ...? 是服務場景最常用的整句模板。",
+      "ref_id": "de-gramx-a1-080",
+      "ref_item": "Wie heißen Sie?",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "questions",
+      "function_refs": [
+        "fn-ask-info",
+        "fn-location",
+        "fn-identify"
+      ],
+      "source_basis": "CEFR_A1_basic_information_question_can_do;Goethe_A1_scope_calibration_not_copied;DE_question_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Wie heißt du?",
+          "source_item_id": "frame:authored-name-q-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Wie heißen Sie?」。"
+        },
+        {
+          "surface": "Wie heißt Ihre Tochter?",
+          "source_item_id": "frame:authored-name-q-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Wie heißen Sie?」。"
+        },
+        {
+          "surface": "Wie heißen Sie?",
+          "source_item_id": "frame:de-frame-a1-009",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Wie heißen Sie?」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_081",
+      "title_zh_tw": "Woher kommen Sie?（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nWoher 問來源或出身，回答常用 Ich komme aus ...。 問句讓你取得名字、來源、價格、物品和服務資訊。\n\n· 形式\nW 問詞在句首時，限定動詞通常第二；是非問句則動詞放第一位。\n\n· 常見使用場景\n問姓名、來源、價格、地點、時間、是否有服務或物品。\n\n· 相近用法與容易混淆\nWoher 問來源；Wo 問目前位置。\n\n· 注意\nWas kostet ...?、Haben Sie ...?、Gibt es ...? 是服務場景最常用的整句模板。",
+      "ref_id": "de-gramx-a1-081",
+      "ref_item": "Woher kommen Sie?",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "questions",
+      "function_refs": [
+        "fn-ask-info",
+        "fn-location",
+        "fn-identify"
+      ],
+      "source_basis": "CEFR_A1_basic_information_question_can_do;Goethe_A1_scope_calibration_not_copied;DE_question_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Woher kommst du?",
+          "source_item_id": "frame:authored-woher-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Woher kommen Sie?」。"
+        },
+        {
+          "surface": "Ich komme aus Deutschland.",
+          "source_item_id": "frame:authored-woher-002",
+          "note_zh_tw": "這句可直接當 A1 模仿句。 這個問法可整句記住，用來練「Woher kommen Sie?」。"
+        },
+        {
+          "surface": "Woher kommen Sie?",
+          "source_item_id": "frame:de-frame-a1-010",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Woher kommen Sie?」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_082",
+      "title_zh_tw": "Was kostet...?（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nWas kostet ...? 問價格，後面接商品或服務。 問句讓你取得名字、來源、價格、物品和服務資訊。\n\n· 形式\nW 問詞在句首時，限定動詞通常第二；是非問句則動詞放第一位。\n\n· 常見使用場景\n問姓名、來源、價格、地點、時間、是否有服務或物品。\n\n· 相近用法與容易混淆\nWas kostet ...? 問價格；Wie viel ...? 可問價格或數量。\n\n· 注意\nWas kostet ...?、Haben Sie ...?、Gibt es ...? 是服務場景最常用的整句模板。",
+      "ref_id": "de-gramx-a1-082",
+      "ref_item": "Was kostet...?",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "questions",
+      "function_refs": [
+        "fn-ask-info",
+        "fn-location",
+        "fn-identify"
+      ],
+      "source_basis": "CEFR_A1_basic_information_question_can_do;Goethe_A1_scope_calibration_not_copied;DE_question_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Was kostet ein Ticket?",
+          "source_item_id": "frame:authored-price-q-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Was kostet...?」。"
+        },
+        {
+          "surface": "Was kostet das?",
+          "source_item_id": "frame:de-frame-a1-043",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Was kostet...?」。"
+        },
+        {
+          "surface": "Wie viel kostet diese Tasche?",
+          "source_item_id": "frame:de-frame-a1-044",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Was kostet...?」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_083",
+      "title_zh_tw": "Haben Sie...?（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nHaben Sie ...? 可問店家、櫃台或對方是否有某物/時間。 問句讓你取得名字、來源、價格、物品和服務資訊。\n\n· 形式\nW 問詞在句首時，限定動詞通常第二；是非問句則動詞放第一位。\n\n· 常見使用場景\n問姓名、來源、價格、地點、時間、是否有服務或物品。\n\n· 相近用法與容易混淆\nHaben Sie ...? 問對方或店家是否有；Gibt es ...? 問某處是否存在。\n\n· 注意\nWas kostet ...?、Haben Sie ...?、Gibt es ...? 是服務場景最常用的整句模板。",
+      "ref_id": "de-gramx-a1-083",
+      "ref_item": "Haben Sie...?",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "questions",
+      "function_refs": [
+        "fn-ask-info",
+        "fn-location",
+        "fn-identify"
+      ],
+      "source_basis": "CEFR_A1_basic_information_question_can_do;Goethe_A1_scope_calibration_not_copied;DE_question_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Haben Sie Zeit?",
+          "source_item_id": "frame:authored-q-083-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Haben Sie...?」。"
+        },
+        {
+          "surface": "Haben Sie Brot?",
+          "source_item_id": "frame:authored-q-083-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Haben Sie...?」。"
+        },
+        {
+          "surface": "Haben Sie ein Zimmer frei?",
+          "source_item_id": "frame:authored-q-083-003",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Haben Sie...?」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_084",
+      "title_zh_tw": "Gibt es...?（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nGibt es ...? 問某處是否有某物或服務。 問句讓你取得名字、來源、價格、物品和服務資訊。\n\n· 形式\nW 問詞在句首時，限定動詞通常第二；是非問句則動詞放第一位。\n\n· 常見使用場景\n問姓名、來源、價格、地點、時間、是否有服務或物品。\n\n· 相近用法與容易混淆\nGibt es ...? 偏『有沒有』；Haben Sie ...? 偏問對方/店家是否有。\n\n· 注意\nWas kostet ...?、Haben Sie ...?、Gibt es ...? 是服務場景最常用的整句模板。",
+      "ref_id": "de-gramx-a1-084",
+      "ref_item": "Gibt es...?",
+      "ref_subitems": [],
+      "stage": "A1-EARLY",
+      "family": "questions",
+      "function_refs": [
+        "fn-ask-info",
+        "fn-location",
+        "fn-identify"
+      ],
+      "source_basis": "CEFR_A1_basic_information_question_can_do;Goethe_A1_scope_calibration_not_copied;DE_question_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Gibt es hier WLAN?",
+          "source_item_id": "frame:authored-gibt-es-001",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Gibt es...?」。"
+        },
+        {
+          "surface": "Gibt es ein Zimmer frei?",
+          "source_item_id": "frame:authored-gibt-es-002",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Gibt es...?」。"
+        },
+        {
+          "surface": "Gibt es Brot?",
+          "source_item_id": "frame:de-frame-a1-040",
+          "note_zh_tw": "這句是問句，先看句首和動詞位置。 這個問法可整句記住，用來練「Gibt es...?」。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_085",
+      "title_zh_tw": "du vs Sie selection（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\ndu/Sie 是關係選擇，不只是代名詞；陌生場合先用 Sie 最安全。 語用和稱呼決定句子是否禮貌、自然，尤其在德語區陌生人互動很重要。\n\n· 形式\n陌生人、服務人員和正式場合先用 Sie；Herr/Frau 後接姓氏；bitte 可降低命令感。\n\n· 常見使用場景\n陌生人、服務人員、課堂和正式場合中的稱呼與禮貌選擇。\n\n· 相近用法與容易混淆\n先用 Sie 最安全；改用 du 通常要對方允許或關係足夠近。\n\n· 注意\nA1 先求安全禮貌，不急著模仿朋友間的 du 或只叫名字。",
+      "ref_id": "de-gramx-a1-085",
+      "ref_item": "du vs Sie selection",
+      "ref_subitems": [],
+      "stage": "A1-EXPAND",
+      "family": "pragmatics_register",
+      "function_refs": [
+        "fn-pragmatics-register",
+        "fn-request",
+        "fn-self-intro"
+      ],
+      "source_basis": "CEFR_A1_polite_address_and_service_register_can_do;Goethe_A1_scope_calibration_not_copied;DE_register_pragmatics_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Du bist Paul.",
+          "source_item_id": "frame:authored-prag-085-001",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「du vs Sie selection」在真實互動中是否安全。"
+        },
+        {
+          "surface": "Sind Sie Frau Müller?",
+          "source_item_id": "frame:authored-prag-085-002",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「du vs Sie selection」在真實互動中是否安全。"
+        },
+        {
+          "surface": "Können Sie mir helfen?",
+          "source_item_id": "frame:authored-prag-085-003",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「du vs Sie selection」在真實互動中是否安全。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_086",
+      "title_zh_tw": "Herr / Frau 後面接姓氏（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nHerr/Frau 後面通常接姓氏，不接名字；這是正式稱呼的基本規則。 語用和稱呼決定句子是否禮貌、自然，尤其在德語區陌生人互動很重要。\n\n· 形式\n陌生人、服務人員和正式場合先用 Sie；Herr/Frau 後接姓氏；bitte 可降低命令感。\n\n· 常見使用場景\n陌生人、服務人員、課堂和正式場合中的稱呼與禮貌選擇。\n\n· 相近用法與容易混淆\nHerr/Frau 後接姓氏，不接名字；直接叫名字表示關係較近。\n\n· 注意\nA1 先求安全禮貌，不急著模仿朋友間的 du 或只叫名字。",
+      "ref_id": "de-gramx-a1-086",
+      "ref_item": "Herr/Frau + surname",
+      "ref_subitems": [],
+      "stage": "A1-EXPAND",
+      "family": "pragmatics_register",
+      "function_refs": [
+        "fn-pragmatics-register",
+        "fn-request",
+        "fn-self-intro"
+      ],
+      "source_basis": "CEFR_A1_polite_address_and_service_register_can_do;Goethe_A1_scope_calibration_not_copied;DE_register_pragmatics_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Guten Tag, Herr Müller.",
+          "source_item_id": "frame:authored-prag-086-001",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「Herr/Frau + surname」在真實互動中是否安全。"
+        },
+        {
+          "surface": "Sind Sie Frau Schmidt?",
+          "source_item_id": "frame:authored-prag-086-002",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「Herr/Frau + surname」在真實互動中是否安全。"
+        },
+        {
+          "surface": "Danke, Frau Wagner.",
+          "source_item_id": "frame:authored-prag-086-003",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「Herr/Frau + surname」在真實互動中是否安全。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_087",
+      "title_zh_tw": "first-name use caution（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n直接叫名字通常表示熟悉或對方允許；A1 在服務場景先避免。 語用和稱呼決定句子是否禮貌、自然，尤其在德語區陌生人互動很重要。\n\n· 形式\n陌生人、服務人員和正式場合先用 Sie；Herr/Frau 後接姓氏；bitte 可降低命令感。\n\n· 常見使用場景\n陌生人、服務人員、課堂和正式場合中的稱呼與禮貌選擇。\n\n· 相近用法與容易混淆\n名字稱呼不是錯，但在陌生服務場景不一定安全。\n\n· 注意\nA1 先求安全禮貌，不急著模仿朋友間的 du 或只叫名字。",
+      "ref_id": "de-gramx-a1-087",
+      "ref_item": "first-name use caution",
+      "ref_subitems": [],
+      "stage": "A1-EXPAND",
+      "family": "pragmatics_register",
+      "function_refs": [
+        "fn-pragmatics-register",
+        "fn-request",
+        "fn-self-intro"
+      ],
+      "source_basis": "CEFR_A1_polite_address_and_service_register_can_do;Goethe_A1_scope_calibration_not_copied;DE_register_pragmatics_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Hallo Anna.",
+          "source_item_id": "frame:authored-prag-087-001",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「first-name use caution」在真實互動中是否安全。"
+        },
+        {
+          "surface": "Guten Tag, Frau Müller.",
+          "source_item_id": "frame:authored-prag-087-002",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「first-name use caution」在真實互動中是否安全。"
+        },
+        {
+          "surface": "Ich heiße Anna.",
+          "source_item_id": "frame:authored-prag-087-003",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「first-name use caution」在真實互動中是否安全。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_088",
+      "title_zh_tw": "service politeness minimum（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n服務場合最低禮貌組合是 Entschuldigung、Sie、bitte、danke。 語用和稱呼決定句子是否禮貌、自然，尤其在德語區陌生人互動很重要。\n\n· 形式\n陌生人、服務人員和正式場合先用 Sie；Herr/Frau 後接姓氏；bitte 可降低命令感。\n\n· 常見使用場景\n陌生人、服務人員、課堂和正式場合中的稱呼與禮貌選擇。\n\n· 相近用法與容易混淆\nA1 先求安全禮貌，不急著模仿朋友間的 du 或只叫名字。\n\n· 注意\nA1 先求安全禮貌，不急著模仿朋友間的 du 或只叫名字。",
+      "ref_id": "de-gramx-a1-088",
+      "ref_item": "service politeness minimum",
+      "ref_subitems": [],
+      "stage": "A1-EXPAND",
+      "family": "pragmatics_register",
+      "function_refs": [
+        "fn-pragmatics-register",
+        "fn-request",
+        "fn-self-intro"
+      ],
+      "source_basis": "CEFR_A1_polite_address_and_service_register_can_do;Goethe_A1_scope_calibration_not_copied;DE_register_pragmatics_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Entschuldigung, können Sie mir helfen?",
+          "source_item_id": "frame:authored-prag-088-001",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「service politeness minimum」在真實互動中是否安全。"
+        },
+        {
+          "surface": "Einen Kaffee, bitte.",
+          "source_item_id": "frame:authored-prag-088-002",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「service politeness minimum」在真實互動中是否安全。"
+        },
+        {
+          "surface": "Danke schön.",
+          "source_item_id": "frame:authored-prag-088-003",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「service politeness minimum」在真實互動中是否安全。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_089",
+      "title_zh_tw": "directness softening with bitte（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nbitte 能把直接需求變成比較禮貌的請求。 語用和稱呼決定句子是否禮貌、自然，尤其在德語區陌生人互動很重要。\n\n· 形式\n陌生人、服務人員和正式場合先用 Sie；Herr/Frau 後接姓氏；bitte 可降低命令感。\n\n· 常見使用場景\n陌生人、服務人員、課堂和正式場合中的稱呼與禮貌選擇。\n\n· 相近用法與容易混淆\nA1 先求安全禮貌，不急著模仿朋友間的 du 或只叫名字。\n\n· 注意\nA1 先求安全禮貌，不急著模仿朋友間的 du 或只叫名字。",
+      "ref_id": "de-gramx-a1-089",
+      "ref_item": "directness softening with bitte",
+      "ref_subitems": [],
+      "stage": "A1-EXPAND",
+      "family": "pragmatics_register",
+      "function_refs": [
+        "fn-pragmatics-register",
+        "fn-request",
+        "fn-self-intro"
+      ],
+      "source_basis": "CEFR_A1_polite_address_and_service_register_can_do;Goethe_A1_scope_calibration_not_copied;DE_register_pragmatics_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Bitte langsam.",
+          "source_item_id": "frame:authored-prag-089-001",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「directness softening with bitte」在真實互動中是否安全。"
+        },
+        {
+          "surface": "Können Sie bitte helfen?",
+          "source_item_id": "frame:authored-prag-089-002",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「directness softening with bitte」在真實互動中是否安全。"
+        },
+        {
+          "surface": "Die Rechnung, bitte.",
+          "source_item_id": "frame:authored-prag-089-003",
+          "note_zh_tw": "這句重點不是新文法，而是稱呼和禮貌選擇；用它判斷「directness softening with bitte」在真實互動中是否安全。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_090",
+      "title_zh_tw": "變音字母與 ß 的辨認（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nä/ö/ü/ß 會影響拼字和查字典；A1 先能辨認並正確抄寫。 語用和稱呼決定句子是否禮貌、自然，尤其在德語區陌生人互動很重要。\n\n· 形式\n練習看見並輸入 ä、ö、ü、ß；查字典或打字時要知道它們不是普通 a/o/u/b。\n\n· 常見使用場景\n陌生人、服務人員、課堂和正式場合中的稱呼與禮貌選擇。\n\n· 相近用法與容易混淆\nä/ö/ü/ß 不是裝飾符號，會影響拼字、查字典和輸入。\n\n· 注意\nß 不是 B；ä/ö/ü 也不是隨便省略的裝飾，拼錯會影響搜尋和辨認。",
+      "ref_id": "de-gramx-a1-090",
+      "ref_item": "regional/orthography umlaut/ß gate",
+      "ref_subitems": [],
+      "stage": "A1-EXPAND",
+      "family": "pragmatics_register",
+      "function_refs": [
+        "fn-pragmatics-register",
+        "fn-request",
+        "fn-self-intro"
+      ],
+      "source_basis": "CEFR_A1_polite_address_and_service_register_can_do;Goethe_A1_scope_calibration_not_copied;DE_register_pragmatics_micro_point",
+      "source_status": "sufficient_for_cefr_native_german_planning",
+      "count_status": "countable",
+      "examples": [
+        {
+          "surface": "Ich heiße Anna.",
+          "source_item_id": "frame:authored-orth-090-001",
+          "note_zh_tw": "這句用來看德文特殊拼字：ä/ö/ü 或 ß 會影響讀音、輸入和查字典，A1 先能辨認。"
+        },
+        {
+          "surface": "Möchten Sie Kaffee?",
+          "source_item_id": "frame:authored-orth-090-002",
+          "note_zh_tw": "這句用來看德文特殊拼字：ä/ö/ü 或 ß 會影響讀音、輸入和查字典，A1 先能辨認。"
+        },
+        {
+          "surface": "Die Straße ist rechts.",
+          "source_item_id": "frame:authored-orth-090-003",
+          "note_zh_tw": "這句用來看德文特殊拼字：ä/ö/ü 或 ß 會影響讀音、輸入和查字典，A1 先能辨認。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_091",
+      "title_zh_tw": "Perfekt recognition only in fixed travel chunks（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nPerfekt 可在旅遊固定句中出現，但主動產出留到後面。 這些是 A1 可能看見、但不要求主動自由產出的邊界項。\n\n· 形式\n辨認 haben/sein + 過去分詞的固定旅遊句，例如 Haben Sie reserviert?、Ich bin angekommen。\n\n· 常見使用場景\n閱讀旅遊固定句或服務場景時可能遇到；先辨認，不急著自由造句。\n\n· 相近用法與容易混淆\n能看懂不代表要立刻學完整過去式；先保留為固定句。\n\n· 注意\n能看懂不代表要立刻學完整過去式；先保留為固定句。",
+      "ref_id": "de-gramx-a1-091",
+      "ref_item": "Perfekt recognition only in fixed travel chunks",
+      "ref_subitems": [],
+      "stage": "A1-EXPAND",
+      "family": "boundary_gated",
+      "function_refs": [
+        "fn-past-basic",
+        "fn-future-basic",
+        "fn-ability"
+      ],
+      "source_basis": "CEFR_A1_formulaic_recognition_boundary_only;Goethe_A1_scope_calibration_not_copied;DE_boundary_gated_micro_point",
+      "source_status": "boundary_deferred_review",
+      "count_status": "deferred_boundary",
+      "examples": [
+        {
+          "surface": "Haben Sie reserviert?",
+          "source_item_id": "frame:authored-perfekt-001",
+          "note_zh_tw": "這句是延伸辨認例。看到「Perfekt recognition only in fixed travel chunks」相關形式時先能理解，不要求在 A1 自由造句。"
+        },
+        {
+          "surface": "Ich bin angekommen.",
+          "source_item_id": "frame:authored-perfekt-002",
+          "note_zh_tw": "這句是延伸辨認例。看到「Perfekt recognition only in fixed travel chunks」相關形式時先能理解，不要求在 A1 自由造句。"
+        },
+        {
+          "surface": "Ich habe meinen Schlüssel verloren.",
+          "source_item_id": "frame:de-frame-a1-072",
+          "note_zh_tw": "這句是延伸辨認例。看到「Perfekt recognition only in fixed travel chunks」相關形式時先能理解，不要求在 A1 自由造句。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_092",
+      "title_zh_tw": "separable verbs as chunks only（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n可分動詞先辨認句尾前綴，不要求自由拆組。 這些是 A1 可能看見、但不要求主動自由產出的邊界項。\n\n· 形式\n辨認句尾前綴，例如 rufe ... an、fährt ... ab、steige ... ein。\n\n· 常見使用場景\n閱讀旅遊固定句或服務場景時可能遇到；先辨認，不急著自由造句。\n\n· 相近用法與容易混淆\n不要漏掉句尾前綴；an/ab/ein 常承載動詞意思的一部分。\n\n· 注意\n不要漏掉句尾前綴；an/ab/ein 常承載動詞意思的一部分。",
+      "ref_id": "de-gramx-a1-092",
+      "ref_item": "separable verbs as chunks only",
+      "ref_subitems": [],
+      "stage": "A1-EXPAND",
+      "family": "boundary_gated",
+      "function_refs": [
+        "fn-past-basic",
+        "fn-future-basic",
+        "fn-ability"
+      ],
+      "source_basis": "CEFR_A1_formulaic_recognition_boundary_only;Goethe_A1_scope_calibration_not_copied;DE_boundary_gated_micro_point",
+      "source_status": "boundary_deferred_review",
+      "count_status": "deferred_boundary",
+      "examples": [
+        {
+          "surface": "Ich rufe Sie an.",
+          "source_item_id": "frame:authored-separable-001",
+          "note_zh_tw": "這句是延伸辨認例。看到「separable verbs as chunks only」相關形式時先能理解，不要求在 A1 自由造句。"
+        },
+        {
+          "surface": "Der Bus fährt ab.",
+          "source_item_id": "frame:authored-separable-002",
+          "note_zh_tw": "這句是延伸辨認例。看到「separable verbs as chunks only」相關形式時先能理解，不要求在 A1 自由造句。"
+        },
+        {
+          "surface": "Ich steige hier ein.",
+          "source_item_id": "frame:authored-separable-003",
+          "note_zh_tw": "這句是延伸辨認例。看到「separable verbs as chunks only」相關形式時先能理解，不要求在 A1 自由造句。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_093",
+      "title_zh_tw": "future with present tense plus time adverb（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nA1 常用現在式加時間副詞說未來，例如 Morgen fahre ich ...。 這些是 A1 可能看見、但不要求主動自由產出的邊界項。\n\n· 形式\n用現在式加時間副詞表未來：morgen、heute Abend、am Montag 等時間詞給出未來感。\n\n· 常見使用場景\n閱讀旅遊固定句或服務場景時可能遇到；先辨認，不急著自由造句。\n\n· 相近用法與容易混淆\n德文 A1 不一定用 werden 說未來；時間副詞常已足夠。\n\n· 注意\n德文 A1 不一定用 werden 說未來；時間副詞常已足夠。",
+      "ref_id": "de-gramx-a1-093",
+      "ref_item": "future with present tense plus time adverb",
+      "ref_subitems": [],
+      "stage": "A1-EXPAND",
+      "family": "boundary_gated",
+      "function_refs": [
+        "fn-past-basic",
+        "fn-future-basic",
+        "fn-ability"
+      ],
+      "source_basis": "CEFR_A1_formulaic_recognition_boundary_only;Goethe_A1_scope_calibration_not_copied;DE_boundary_gated_micro_point",
+      "source_status": "boundary_deferred_review",
+      "count_status": "deferred_boundary",
+      "examples": [
+        {
+          "surface": "Heute Abend komme ich.",
+          "source_item_id": "frame:authored-future-present-001",
+          "note_zh_tw": "這句是延伸辨認例。看到「future with present tense plus time adverb」相關形式時先能理解，不要求在 A1 自由造句。"
+        },
+        {
+          "surface": "Der Flug ist morgen.",
+          "source_item_id": "frame:de-frame-a1-071",
+          "note_zh_tw": "這句是延伸辨認例。看到「future with present tense plus time adverb」相關形式時先能理解，不要求在 A1 自由造句。"
+        },
+        {
+          "surface": "Morgen habe ich einen Termin.",
+          "source_item_id": "frame:de-frame-a1-110",
+          "note_zh_tw": "這句是延伸辨認例。看到「future with present tense plus time adverb」相關形式時先能理解，不要求在 A1 自由造句。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_094",
+      "title_zh_tw": "subordinate weil recognition only if needed（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\nweil 子句是延伸辨認；看到時先知道它引出原因。 這些是 A1 可能看見、但不要求主動自由產出的邊界項。\n\n· 形式\n看到 weil 後面是一個原因子句，動詞常在子句末；A1 先辨認原因關係。\n\n· 常見使用場景\n閱讀旅遊固定句或服務場景時可能遇到；先辨認，不急著自由造句。\n\n· 相近用法與容易混淆\n不要把 weil 子句當主句語序來模仿；主動產出可延後。\n\n· 注意\n不要把 weil 子句當主句語序來模仿；主動產出可延後。",
+      "ref_id": "de-gramx-a1-094",
+      "ref_item": "subordinate weil recognition only if needed",
+      "ref_subitems": [],
+      "stage": "A1-EXPAND",
+      "family": "boundary_gated",
+      "function_refs": [
+        "fn-past-basic",
+        "fn-future-basic",
+        "fn-ability"
+      ],
+      "source_basis": "CEFR_A1_formulaic_recognition_boundary_only;Goethe_A1_scope_calibration_not_copied;DE_boundary_gated_micro_point",
+      "source_status": "boundary_deferred_review",
+      "count_status": "deferred_boundary",
+      "examples": [
+        {
+          "surface": "Ich komme später, weil der Bus spät ist.",
+          "source_item_id": "frame:authored-weil-001",
+          "note_zh_tw": "這句是延伸辨認例。看到「subordinate weil recognition only if needed」相關形式時先能理解，不要求在 A1 自由造句。"
+        },
+        {
+          "surface": "Ich lerne Deutsch, weil ich in Berlin wohne.",
+          "source_item_id": "frame:authored-weil-002",
+          "note_zh_tw": "這句是延伸辨認例。看到「subordinate weil recognition only if needed」相關形式時先能理解，不要求在 A1 自由造句。"
+        },
+        {
+          "surface": "Ich bleibe hier, weil es regnet.",
+          "source_item_id": "frame:authored-weil-003",
+          "note_zh_tw": "這句是延伸辨認例。看到「subordinate weil recognition only if needed」相關形式時先能理解，不要求在 A1 自由造句。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "de_grammar_expanded_095",
+      "title_zh_tw": "adjective endings beyond simple predicative deferred（德文 A1）",
+      "explanation_md_zh_tw": "· 用法說明\n形容詞詞尾變化先延後；A1 先會 Das ist teuer 這類表語形容詞。 這些是 A1 可能看見、但不要求主動自由產出的邊界項。\n\n· 形式\n看到 kleine/rote/kleinen 這類名詞前形容詞詞尾時先能標記，不要求自由套表。\n\n· 常見使用場景\n閱讀旅遊固定句或服務場景時可能遇到；先辨認，不急著自由造句。\n\n· 相近用法與容易混淆\n不要把 Das ist teuer 和 der kleine Kaffee 混成同一規則；前者先學，後者延後。\n\n· 注意\n不要把 Das ist teuer 和 der kleine Kaffee 混成同一規則；前者先學，後者延後。",
+      "ref_id": "de-gramx-a1-095",
+      "ref_item": "adjective endings beyond simple predicative deferred",
+      "ref_subitems": [],
+      "stage": "A1-EXPAND",
+      "family": "boundary_gated",
+      "function_refs": [
+        "fn-past-basic",
+        "fn-future-basic",
+        "fn-ability"
+      ],
+      "source_basis": "CEFR_A1_formulaic_recognition_boundary_only;Goethe_A1_scope_calibration_not_copied;DE_boundary_gated_micro_point",
+      "source_status": "boundary_deferred_review",
+      "count_status": "deferred_boundary",
+      "examples": [
+        {
+          "surface": "Das kleine Hotel ist hier.",
+          "source_item_id": "frame:authored-adj-ending-001",
+          "note_zh_tw": "這句是延伸辨認例。看到「adjective endings beyond simple predicative deferred」相關形式時先能理解，不要求在 A1 自由造句。"
+        },
+        {
+          "surface": "Ich nehme die rote Tasche.",
+          "source_item_id": "frame:authored-adj-ending-002",
+          "note_zh_tw": "這句是延伸辨認例。看到「adjective endings beyond simple predicative deferred」相關形式時先能理解，不要求在 A1 自由造句。"
+        },
+        {
+          "surface": "Ich möchte den kleinen Kaffee.",
+          "source_item_id": "frame:authored-adj-ending-003",
+          "note_zh_tw": "這句是延伸辨認例。看到「adjective endings beyond simple predicative deferred」相關形式時先能理解，不要求在 A1 自由造句。"
+        }
+      ],
+      "external_source": "CEFR A1 / Goethe A1 scope calibration, not copied",
+      "source_locator": "expanded/de_A1_EXPANDED_GRAMMAR_MICROPOINTS_20260622.tsv",
+      "author_id": "a1_expanded_grammar_author_de_20260622",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    }
+  ]
+}

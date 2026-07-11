@@ -1,0 +1,344 @@
+{
+  "language": "ko",
+  "readings": [
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-001-a2_app_booking_confirmation",
+      "source_scenario_id": "a2_app_booking_confirmation",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "앱 예약 확인하기. 앱 예약 시간과 장소를 확인해 보세요. 앱 예약 시간과 장소를 확인해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_app_booking_confirmation",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-002-a2_ask_ingredient_preference",
+      "source_scenario_id": "a2_ask_ingredient_preference",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "재료 선호 말하기. 일반적인 재료가 들어가는지 묻고, 선호에 맞게 선택해 보세요. 일반적인 재료가 들어가는지 묻고, 선호에 맞게 선택해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_ask_ingredient_preference",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-003-a2_ask_late_checkout",
+      "source_scenario_id": "a2_ask_late_checkout",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "늦은 체크아웃 물어보기. Ask if late checkout is possible and confirm the allowed time. 체크아웃을 조금 늦출 수 있는지 묻고, 가능한 시간을 확인해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_ask_late_checkout",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-004-a2_ask_recommendation_budget",
+      "source_scenario_id": "a2_ask_recommendation_budget",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "예산 안에서 추천받기. 작은 예산 안에서 추천을 부탁하고, 원하는 조건을 짧게 말해 보세요. 작은 예산 안에서 추천을 부탁하고, 원하는 조건을 짧게 말해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_ask_recommendation_budget",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-005-a2_ask_transfer_platform",
+      "source_scenario_id": "a2_ask_transfer_platform",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "환승 플랫폼 묻기. Ask for a transfer point and confirm a short two-step direction. 환승할 곳과 플랫폼을 물어보고, 짧게 확인해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_ask_transfer_platform",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-006-a2_change_delivery_pickup_time",
+      "source_scenario_id": "a2_change_delivery_pickup_time",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "픽업 시간 바꾸기. 픽업 시간을 정중하게 바꾸고 새 시간을 확인해 보세요. 픽업 시간을 정중하게 바꾸고 새 시간을 확인해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_change_delivery_pickup_time",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-007-a2_change_ticket_time",
+      "source_scenario_id": "a2_change_ticket_time",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "표 시간 바꾸기. Make a polite time-change request and confirm a simple alternative time. 매표소에서 표 시간을 바꾸고 싶어요. 새 시간을 짧게 확인해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_change_ticket_time",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-008-a2_compare_two_menu_options",
+      "source_scenario_id": "a2_compare_two_menu_options",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "메뉴 두 가지 비교하기. 메뉴 두 가지의 차이를 듣고, 원하는 쪽을 골라 확인해 보세요. 메뉴 두 가지의 차이를 듣고, 원하는 쪽을 골라 확인해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_compare_two_menu_options",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-009-a2_confirm_date_time_place",
+      "source_scenario_id": "a2_confirm_date_time_place",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "날짜, 시간, 장소 확인하기. Understand a short message and confirm the key details. 친구가 보낸 짧은 메시지를 보고 날짜, 시간, 장소를 확인해요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_confirm_date_time_place",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-010-a2_decline_with_reason",
+      "source_scenario_id": "a2_decline_with_reason",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "간단한 이유로 정중히 거절하기. 친구의 제안을 부드럽게 거절하고, 간단한 이유와 다음 기회를 말해 보세요. 친구의 초대를 거절해야 할 때, 짧고 따뜻하게 이유를 말해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_decline_with_reason",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-011-a2_describe_weekend_activity",
+      "source_scenario_id": "a2_describe_weekend_activity",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "주말에 한 일 말하기. 주말에 한 일을 한두 문장으로 짧게 말해 보세요. 친구가 주말 이야기를 물어봐요. 짧은 과거 표현으로 답해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_describe_weekend_activity",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-012-a2_exchange_wrong_item",
+      "source_scenario_id": "a2_exchange_wrong_item",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "잘못 받은 물건 바꾸기. 주문한 것과 다른 물건을 받았을 때 정중하게 바꿔 달라고 해 보세요. 주문한 것과 다른 물건을 받았을 때 정중하게 바꿔 달라고 해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_exchange_wrong_item",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-013-a2_explain_simple_delay_reason",
+      "source_scenario_id": "a2_explain_simple_delay_reason",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "조금 늦는 이유 말하기. Apologize, give one simple reason, and estimate the delay. 친구가 어디쯤인지 물어봐요. 늦는 이유를 짧게 말해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_explain_simple_delay_reason",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-014-a2_fill_simple_form_help",
+      "source_scenario_id": "a2_fill_simple_form_help",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "간단한 양식 도움 요청하기. 민감하지 않은 간단한 항목을 어디에 쓰는지 물어보세요. 민감하지 않은 간단한 항목을 어디에 쓰는지 물어보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_fill_simple_form_help",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-015-a2_invite_friend_activity",
+      "source_scenario_id": "a2_invite_friend_activity",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "친구에게 활동 제안하기. 친구에게 평범한 활동을 제안하고, 시간까지 짧게 정해 보세요. 친구에게 산책이나 카페 같은 간단한 활동을 자연스럽게 제안해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_invite_friend_activity",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-016-a2_lost_item_followup_message",
+      "source_scenario_id": "a2_lost_item_followup_message",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "잃어버린 물건 문의하기. 평범한 분실물에 대해 짧게 문의하고 특징을 말해 보세요. 평범한 분실물에 대해 짧게 문의하고 특징을 말해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_lost_item_followup_message",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-017-a2_luggage_storage_pickup",
+      "source_scenario_id": "a2_luggage_storage_pickup",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "짐 맡기고 찾는 시간 확인하기. Ask to store luggage and confirm pickup time/receipt. 역 보관소에서 짐을 맡기고, 언제 찾을 수 있는지 확인해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_luggage_storage_pickup",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-018-a2_make_simple_plan_sequence",
+      "source_scenario_id": "a2_make_simple_plan_sequence",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "두 단계 계획 세우기. 친구와 두 단계 계획을 세우고, 먼저/그다음 순서를 확인해 보세요. 친구와 간단한 계획을 만들어요. 먼저 할 일과 그다음 할 일을 짧게 말해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_make_simple_plan_sequence",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-019-a2_plan_tomorrow_morning",
+      "source_scenario_id": "a2_plan_tomorrow_morning",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "내일 아침 계획 말하기. Say a near-future plan with one simple sequence. 친구가 내일 아침 계획을 물어봐요. 무엇을 먼저 할지 짧게 말해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_plan_tomorrow_morning",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-020-a2_report_room_problem",
+      "source_scenario_id": "a2_report_room_problem",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "객실 문제 말하기. Report a simple room problem and confirm what hotel staff will do next. 객실에 작은 문제가 있을 때 짧게 설명하고, 직원의 다음 조치를 확인해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_report_room_problem",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-021-a2_request_room_change",
+      "source_scenario_id": "a2_request_room_change",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "객실 변경 요청하기. Ask for a room change with a simple reason and confirm the move timing. 간단한 이유를 말하며 방을 바꿀 수 있는지 묻고, 가능한 대안을 확인해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_request_room_change",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-022-a2_reschedule_meeting_time",
+      "source_scenario_id": "a2_reschedule_meeting_time",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "약속 시간 바꾸기. Ask to change a time and confirm the new time. 오늘 약속 시간이 조금 어려워졌어요. 다른 시간으로 바꿀 수 있는지 물어보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_reschedule_meeting_time",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-023-a2_transport_delay_announcement",
+      "source_scenario_id": "a2_transport_delay_announcement",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "교통 지연 안내 이해하기. Understand a delay duration and choose a simple next step. 안내 방송을 듣고 얼마나 늦는지 확인한 뒤, 기다릴지 다른 방법을 쓸지 말해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_transport_delay_announcement",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    },
+    {
+      "atoms": [],
+      "content_id": "ko_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ko-a2-024-a2_understand_hotel_notice",
+      "source_scenario_id": "a2_understand_hotel_notice",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "호텔 안내문 이해하기. Understand a short hotel notice and confirm time, place, and simple rule details. 호텔 안내문에서 시간과 규칙을 확인하고, 내가 어떻게 하면 되는지 말해 보세요.",
+      "target_freeze": {
+        "learning_object_id": "ko-a2-scenario-a2_understand_hotel_notice",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      }
+    }
+  ],
+  "review_ceiling": "native_pending",
+  "schema_version": "ko_a2_current_flow_runtime_readings.v1",
+  "visibility": "production"
+}

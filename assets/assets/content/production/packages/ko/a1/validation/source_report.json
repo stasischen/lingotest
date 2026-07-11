@@ -1,0 +1,48 @@
+{
+  "schema_version": "a1_runtime_source_report.v1",
+  "runtime_id": "a1_v2_20260619",
+  "language": "ko",
+  "review_ceiling": "native_pending",
+  "visibility": "production",
+  "promotion": "owner_decision_20260619_native_waived",
+  "source_commits": {
+    "release_aggregator": "521237a4900a835e7b34a5dad25ebac246622aac",
+    "content_repo": "b4826151a97bc32fb77982bfec8da87bc13a72eb"
+  },
+  "module_report": {
+    "language": "ko",
+    "reading_assets": 27,
+    "reading_rows": 147,
+    "reading_segmentation_rows": 27,
+    "reading_root": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_target_freeze\\reading_surface_drafts_20260615",
+    "scenario_packs": 20,
+    "scenario_source": "D:\\Githubs\\lingo\\content-ko\\content_v2\\inventory\\content_assets\\dialogue\\current_flow\\a1_friend_reigns\\scenario_packs",
+    "dialogue_segmentation_rows": 747,
+    "dialogue_segmentation": "D:\\Githubs\\lingo\\content-ko\\content\\review\\a1_dialogue_segmentation_20260618\\ko_dialogue_lemma_segmentation_20260618.json",
+    "productive_items": 15,
+    "productive_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_function_productive_20260617\\productive_practice_20260617.json",
+    "i18n_files": 5,
+    "i18n_entries": 335,
+    "i18n_root": "D:\\Githubs\\lingo\\content-ko\\content_v2\\i18n\\zh_tw\\learning_library",
+    "gloss_entries": 539,
+    "suppressed_gloss_entries": 65,
+    "a2_provenance_entries": 0,
+    "gloss_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_dictionary_gloss_20260618\\ko_a1_gloss.json",
+    "grammar_nodes": 9,
+    "grammar_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_grammar_knowledge_20260618\\ko_grammar_knowledge.json",
+    "module_count": 11,
+    "modules": [
+      "dialogue_segmentation",
+      "dialogue_surface_projection",
+      "dictionary_gloss",
+      "grammar_knowledge",
+      "i18n_zh_tw",
+      "productive_practice",
+      "reading_segmentation",
+      "readings",
+      "readings_index",
+      "scenarios",
+      "scenarios_index"
+    ]
+  }
+}

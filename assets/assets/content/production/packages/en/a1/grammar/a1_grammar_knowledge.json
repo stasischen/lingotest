@@ -1,0 +1,1013 @@
+{
+  "schema_version": "a1_grammar_knowledge_sidecar.v1",
+  "language": "en",
+  "status": "review_staging_native_pending",
+  "created_at": "2026-06-18",
+  "author_id": "phase3_grammar_knowledge_author_en_20260618",
+  "authoring_basis": "external denominator row plus grounded reading_surface_drafts_20260615 examples",
+  "production_promotion_allowed": false,
+  "native_status": "native_pending",
+  "nodes": [
+    {
+      "learning_object_id": "en_grammar_present_be",
+      "title_zh_tw": "present simple of be（am, is, are）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「present simple of be」。 先用它說身分、狀態、位置或「是什麼」。遇到兩種形式時，先看例句是在說固定身分還是當下狀態。 這次先認得：am、is、are。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.present_be",
+      "ref_item": "present simple of be",
+      "ref_subitems": [
+        "am",
+        "is",
+        "are"
+      ],
+      "examples": [
+        {
+          "surface": "I am ready, and my name card is on the board.",
+          "source_item_id": "article:en_reading_present_be_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「am、is」，呈現「present simple of be」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Her pens are blue and black.",
+          "source_item_id": "article:en_reading_present_be_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「are」，呈現「present simple of be」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I am in class with a red bag.",
+          "source_item_id": "article:en_reading_present_be_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「am」，呈現「present simple of be」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Mia is at the front table.",
+          "source_item_id": "article:en_reading_present_be_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「is」，呈現「present simple of be」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_present_be_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_present_be_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_articles",
+      "title_zh_tw": "indefinite and definite articles（a, an, the）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「indefinite and definite articles」。 它放在名詞前面，幫你分辨「一個」和「已經知道的那個」。英文冠詞不分陰陽性。 這次先認得：a、an、the。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.articles",
+      "ref_item": "indefinite and definite articles",
+      "ref_subitems": [
+        "a",
+        "an",
+        "the"
+      ],
+      "examples": [
+        {
+          "surface": "An apple is inside the box.",
+          "source_item_id": "article:en_reading_articles_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「an、the」，呈現「indefinite and definite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Tom brings a small box to class.",
+          "source_item_id": "article:en_reading_articles_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「a」，呈現「indefinite and definite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "The apple is for his teacher.",
+          "source_item_id": "article:en_reading_articles_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「the」，呈現「indefinite and definite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "He puts the box on a desk.",
+          "source_item_id": "article:en_reading_articles_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「a、the」，呈現「indefinite and definite articles」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_articles_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_articles_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_plural_nouns",
+      "title_zh_tw": "regular plural nouns（s）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「regular plural nouns」。 它用字尾或複數形式表示一個以上的人事物，例如 cups、bags、keys。 這次先認得：s。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.plural_nouns",
+      "ref_item": "regular plural nouns",
+      "ref_subitems": [
+        "s"
+      ],
+      "examples": [
+        {
+          "surface": "Her keys are under the bags.",
+          "source_item_id": "article:en_reading_plural_nouns_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「bags、keys」，呈現「regular plural nouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Three cups are near the sink.",
+          "source_item_id": "article:en_reading_plural_nouns_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「cups」，呈現「regular plural nouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Two bags are by the door.",
+          "source_item_id": "article:en_reading_plural_nouns_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「bags」，呈現「regular plural nouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "She washes the cups and moves the bags.",
+          "source_item_id": "article:en_reading_plural_nouns_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「cups、bags」，呈現「regular plural nouns」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_plural_nouns_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_plural_nouns_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_demonstratives",
+      "title_zh_tw": "this/that/these/those（this, that, these, those）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「this/that/these/those」。 它用來指「這個/那個」。先從近的、遠的、單數、複數判斷。 這次先認得：this、that、these、those。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.demonstratives",
+      "ref_item": "this/that/these/those",
+      "ref_subitems": [
+        "this",
+        "that",
+        "these",
+        "those"
+      ],
+      "examples": [
+        {
+          "surface": "Later, these cups and those plates are ready.",
+          "source_item_id": "article:en_reading_demonstratives_a1_v1:u008",
+          "note_zh_tw": "這句直接使用「these、those」，呈現「this/that/these/those」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "This cup is for tea.",
+          "source_item_id": "article:en_reading_demonstratives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「this」，呈現「this/that/these/those」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "That cup is for cold water.",
+          "source_item_id": "article:en_reading_demonstratives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「that」，呈現「this/that/these/those」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "She puts this cup by the kettle.",
+          "source_item_id": "article:en_reading_demonstratives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「this」，呈現「this/that/these/those」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_demonstratives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_demonstratives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_possessive_adjectives",
+      "title_zh_tw": "possessive adjectives（my, your, his, her）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「possessive adjectives」。 它用來說「我的/你的/某人的」。先看誰擁有後面的東西。 這次先認得：my、your、his、her。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.possessive_adjectives",
+      "ref_item": "possessive adjectives",
+      "ref_subitems": [
+        "my",
+        "your",
+        "his",
+        "her"
+      ],
+      "examples": [
+        {
+          "surface": "I sit at my desk before class.",
+          "source_item_id": "article:en_reading_possessive_adjectives_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「my」，呈現「possessive adjectives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sam drops his pen on the floor.",
+          "source_item_id": "article:en_reading_possessive_adjectives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「his」，呈現「possessive adjectives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Mia opens her book and sees it.",
+          "source_item_id": "article:en_reading_possessive_adjectives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「her」，呈現「possessive adjectives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I say, \"Your pen is here, Sam.\"",
+          "source_item_id": "article:en_reading_possessive_adjectives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「your」，呈現「possessive adjectives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_possessive_adjectives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_possessive_adjectives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_possessive_s",
+      "title_zh_tw": "possessive 's（'s）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「possessive 's」。 它用來把名字或名詞後面加上 's，表示「某人的」。先看 's 前面是哪個人或東西，再看後面的名詞是什麼。 這次先認得：'s。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.possessive_s",
+      "ref_item": "possessive 's",
+      "ref_subitems": [
+        "'s"
+      ],
+      "examples": [
+        {
+          "surface": "Mia's phone is on the bus seat.",
+          "source_item_id": "article:en_reading_possessive_s_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「目標形式」，呈現「possessive 's」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Tom's bag is beside the seat.",
+          "source_item_id": "article:en_reading_possessive_s_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「目標形式」，呈現「possessive 's」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_possessive_s_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_possessive_s_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_present_simple",
+      "title_zh_tw": "present simple statements（go, eat, work）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「present simple statements」。 它用來說平常會做的事、事實或習慣。先注意主詞和動詞現在式怎麼搭配。 這次先認得：go、eat、work。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.present_simple",
+      "ref_item": "present simple statements",
+      "ref_subitems": [
+        "go",
+        "eat",
+        "work"
+      ],
+      "examples": [
+        {
+          "surface": "Ben goes to the cafe at eight.",
+          "source_item_id": "article:en_reading_present_simple_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「go」，呈現「present simple statements」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "He works near the window.",
+          "source_item_id": "article:en_reading_present_simple_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「work」，呈現「present simple statements」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "At noon, he eats soup with rice.",
+          "source_item_id": "article:en_reading_present_simple_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「eat」，呈現「present simple statements」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "After lunch, he works for one more hour.",
+          "source_item_id": "article:en_reading_present_simple_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「work」，呈現「present simple statements」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_present_simple_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_present_simple_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_present_simple_questions_negatives",
+      "title_zh_tw": "present simple questions and negatives（do, does, do not, does not）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「present simple questions and negatives」。 它用來問日常動作或習慣，也用 do not / does not 說「不」。問句常用 Do / Does 開頭；否定句用 do not / does not 放在主要動詞前。 這次先認得：do、does、do not、does not。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.present_simple_questions_negatives",
+      "ref_item": "present simple questions and negatives",
+      "ref_subitems": [
+        "do",
+        "does",
+        "do not",
+        "does not"
+      ],
+      "examples": [
+        {
+          "surface": "Tom does not see a spoon.",
+          "source_item_id": "article:en_reading_present_simple_questions_negatives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「does、does not」，呈現「present simple questions and negatives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I do not have one in my bag.",
+          "source_item_id": "article:en_reading_present_simple_questions_negatives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「do、do not」，呈現「present simple questions and negatives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Do you need a spoon, Tom?",
+          "source_item_id": "article:en_reading_present_simple_questions_negatives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「do」，呈現「present simple questions and negatives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Does Mia have a spoon?",
+          "source_item_id": "article:en_reading_present_simple_questions_negatives_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「does」，呈現「present simple questions and negatives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_present_simple_questions_negatives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_present_simple_questions_negatives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_question_words",
+      "title_zh_tw": "basic wh- questions（what, where, when, how）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「basic wh- questions」。 它用來問具體資訊，不是 yes/no 問句。先看句首的 what、where、when、how，判斷是在問事情、地點、時間或方式。 這次先認得：what、where、when、how。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.question_words",
+      "ref_item": "basic wh- questions",
+      "ref_subitems": [
+        "what",
+        "where",
+        "when",
+        "how"
+      ],
+      "examples": [
+        {
+          "surface": "Mia asks, \"What train goes to Park Street?\"",
+          "source_item_id": "article:en_reading_question_words_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「what」，呈現「basic wh- questions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Dan asks, \"Where is platform two?\"",
+          "source_item_id": "article:en_reading_question_words_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「where」，呈現「basic wh- questions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Mia asks, \"When does the train leave?\"",
+          "source_item_id": "article:en_reading_question_words_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「when」，呈現「basic wh- questions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Dan asks, \"How do we buy tickets?\"",
+          "source_item_id": "article:en_reading_question_words_a1_v1:u007",
+          "note_zh_tw": "這句直接使用「how」，呈現「basic wh- questions」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_question_words_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_question_words_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_imperatives",
+      "title_zh_tw": "basic imperatives（please, go, take）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「basic imperatives」。 它用來請別人做事或給東西。A1 先學禮貌、短句、情境清楚的用法。 這次先認得：please、go、take。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.imperatives",
+      "ref_item": "basic imperatives",
+      "ref_subitems": [
+        "please",
+        "go",
+        "take"
+      ],
+      "examples": [
+        {
+          "surface": "Please take a small cup.",
+          "source_item_id": "article:en_reading_imperatives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「please、take」，呈現「basic imperatives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Go to the sunny window.",
+          "source_item_id": "article:en_reading_imperatives_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「go」，呈現「basic imperatives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Take two seeds from the bowl.",
+          "source_item_id": "article:en_reading_imperatives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「take」，呈現「basic imperatives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Please water the seeds slowly.",
+          "source_item_id": "article:en_reading_imperatives_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「please」，呈現「basic imperatives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_imperatives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_imperatives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_can_ability",
+      "title_zh_tw": "can/can't for ability（can, can't）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「can/can't for ability」。 它用來說「會/能不能」。先看能力詞後面接的是哪個動作。 這次先認得：can、can't。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.can_ability",
+      "ref_item": "can/can't for ability",
+      "ref_subitems": [
+        "can",
+        "can't"
+      ],
+      "examples": [
+        {
+          "surface": "He can't ride the big bike yet.",
+          "source_item_id": "article:en_reading_can_ability_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「can't」，呈現「can/can't for ability」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "He can run to the tree.",
+          "source_item_id": "article:en_reading_can_ability_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「can」，呈現「can/can't for ability」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "He can jump over a small line.",
+          "source_item_id": "article:en_reading_can_ability_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「can」，呈現「can/can't for ability」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "His sister can ride it slowly.",
+          "source_item_id": "article:en_reading_can_ability_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「can」，呈現「can/can't for ability」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_can_ability_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_can_ability_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_prepositions_place_time",
+      "title_zh_tw": "basic prepositions of place and time（in, on, at, next to）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「basic prepositions of place and time」。 它用來說簡單的位置或時間，例如在某處、在某個時間、在某物旁邊。 這次先認得：in、on、at、next to。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.prepositions_place_time",
+      "ref_item": "basic prepositions of place and time",
+      "ref_subitems": [
+        "in",
+        "on",
+        "at",
+        "next to"
+      ],
+      "examples": [
+        {
+          "surface": "At nine, Sara is in the kitchen.",
+          "source_item_id": "article:en_reading_prepositions_place_time_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「in、at」，呈現「basic prepositions of place and time」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Her cup is on the table.",
+          "source_item_id": "article:en_reading_prepositions_place_time_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「on」，呈現「basic prepositions of place and time」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "A chair is next to the door.",
+          "source_item_id": "article:en_reading_prepositions_place_time_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「next to」，呈現「basic prepositions of place and time」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "At ten, she puts tea in the cup.",
+          "source_item_id": "article:en_reading_prepositions_place_time_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「in、at」，呈現「basic prepositions of place and time」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_prepositions_place_time_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_prepositions_place_time_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_adjectives",
+      "title_zh_tw": "basic adjectives（small, clean, big）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「basic adjectives」。 它用來描述人或東西的樣子，例如大小、顏色、狀態。先看形容詞修飾哪個名詞。 這次先認得：small、clean、big。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.adjectives",
+      "ref_item": "basic adjectives",
+      "ref_subitems": [
+        "small",
+        "clean",
+        "big"
+      ],
+      "examples": [
+        {
+          "surface": "Maya goes to a small cafe before class.",
+          "source_item_id": "article:en_reading_adjectives_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「small」，呈現「basic adjectives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "The clean table by the door is free.",
+          "source_item_id": "article:en_reading_adjectives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「clean」，呈現「basic adjectives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Her big bag fits under the chair.",
+          "source_item_id": "article:en_reading_adjectives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「big」，呈現「basic adjectives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "She opens a small book.",
+          "source_item_id": "article:en_reading_adjectives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「small」，呈現「basic adjectives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_adjectives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_adjectives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_comparatives",
+      "title_zh_tw": "comparative adjectives（closer than, bigger than）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「comparative adjectives」。 它用來比較兩個人事物。先找出誰跟誰比、哪一個更大/更近/更好。 這次先認得：closer than、bigger than。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.comparatives",
+      "ref_item": "comparative adjectives",
+      "ref_subitems": [
+        "closer than",
+        "bigger than"
+      ],
+      "examples": [
+        {
+          "surface": "This cafe is closer than the station cafe.",
+          "source_item_id": "article:en_reading_comparatives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「closer than」，呈現「comparative adjectives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "The back table is bigger than our table at home.",
+          "source_item_id": "article:en_reading_comparatives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「bigger than」，呈現「comparative adjectives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_comparatives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_comparatives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_conjunctions",
+      "title_zh_tw": "and/but/or/because（and, but, or, because）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「and/but/or/because」。 它用來把兩個短句或詞組接起來，表示加上、選擇、轉折或原因。 這次先認得：and、but、or、because。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.conjunctions",
+      "ref_item": "and/but/or/because",
+      "ref_subitems": [
+        "and",
+        "but",
+        "or",
+        "because"
+      ],
+      "examples": [
+        {
+          "surface": "I want coffee, but I need water first.",
+          "source_item_id": "article:en_reading_conjunctions_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「but」，呈現「and/but/or/because」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I am late because the train is slow.",
+          "source_item_id": "article:en_reading_conjunctions_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「because」，呈現「and/but/or/because」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I can take the bus or walk.",
+          "source_item_id": "article:en_reading_conjunctions_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「or」，呈現「and/but/or/because」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I call my friend and say sorry.",
+          "source_item_id": "article:en_reading_conjunctions_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「and」，呈現「and/but/or/because」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_conjunctions_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_conjunctions_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_frequency_adverbs",
+      "title_zh_tw": "adverbs of frequency（always, usually, sometimes）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「adverbs of frequency」。 它用來說動作發生的頻率，例如總是、通常、常常。 這次先認得：always、usually、sometimes。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.frequency_adverbs",
+      "ref_item": "adverbs of frequency",
+      "ref_subitems": [
+        "always",
+        "usually",
+        "sometimes"
+      ],
+      "examples": [
+        {
+          "surface": "I always eat breakfast at home.",
+          "source_item_id": "article:en_reading_frequency_adverbs_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「always」，呈現「adverbs of frequency」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I usually go to school at eight.",
+          "source_item_id": "article:en_reading_frequency_adverbs_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「usually」，呈現「adverbs of frequency」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "We sometimes buy water before class.",
+          "source_item_id": "article:en_reading_frequency_adverbs_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「sometimes」，呈現「adverbs of frequency」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_frequency_adverbs_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_frequency_adverbs_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_future_will",
+      "title_zh_tw": "will future（will call, will meet）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「will future」。 它用來說接下來要做的事。先看表示未來的詞和後面的動作連在一起。 這次先認得：will call、will meet。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.future_will",
+      "ref_item": "will future",
+      "ref_subitems": [
+        "will call",
+        "will meet"
+      ],
+      "examples": [
+        {
+          "surface": "I will call you at three.",
+          "source_item_id": "article:en_reading_future_will_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「will call」，呈現「will future」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "We will meet at the cafe.",
+          "source_item_id": "article:en_reading_future_will_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「will meet」，呈現「will future」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_future_will_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_future_will_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_going_to",
+      "title_zh_tw": "going to future plans（am going to, are going to）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「going to future plans」。 它用來說接下來要做的事。先看表示未來的詞和後面的動作連在一起。 這次先認得：am going to、are going to。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.going_to",
+      "ref_item": "going to future plans",
+      "ref_subitems": [
+        "am going to",
+        "are going to"
+      ],
+      "examples": [
+        {
+          "surface": "I am going to take a taxi.",
+          "source_item_id": "article:en_reading_going_to_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「am going to」，呈現「going to future plans」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "We are going to eat lunch near the station.",
+          "source_item_id": "article:en_reading_going_to_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「are going to」，呈現「going to future plans」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "After lunch, we are going to study.",
+          "source_item_id": "article:en_reading_going_to_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「are going to」，呈現「going to future plans」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Tonight I am going to sleep early.",
+          "source_item_id": "article:en_reading_going_to_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「am going to」，呈現「going to future plans」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_going_to_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_going_to_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_have_got",
+      "title_zh_tw": "have got / possession（have got, has got）",
+      "explanation_md_zh_tw": "這個節點教英文 A1 的 have got / has got 表示「有、擁有」。I/you/we/they 常用 have got；he/she/it 常用 has got。讀例句時，先看誰擁有，再看 have got / has got 後面的東西。",
+      "explanation_source": "authored",
+      "ref_id": "EN.grammar.have_got",
+      "ref_item": "have got / possession",
+      "ref_subitems": [
+        "have got",
+        "has got"
+      ],
+      "examples": [
+        {
+          "surface": "I have got a small bag today.",
+          "source_item_id": "article:en_reading_have_got_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「have got」，呈現「have got / possession」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "My friend has got a train ticket.",
+          "source_item_id": "article:en_reading_have_got_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「has got」，呈現「have got / possession」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "We have got water and sandwiches.",
+          "source_item_id": "article:en_reading_have_got_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「have got」，呈現「have got / possession」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "She has got a blue phone.",
+          "source_item_id": "article:en_reading_have_got_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「has got」，呈現「have got / possession」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_have_got_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_have_got_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_much_many",
+      "title_zh_tw": "quantifiers much/many/a lot of/a little/a few（much, How many, a lot of, a little）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「quantifiers much/many/a lot of/a little/a few」。 它用來說多、少、一些或很多。先看它是在修飾數量，還是在修飾程度。 這次先認得：much、How many、a lot of、a little、a few。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.much_many",
+      "ref_item": "quantifiers much/many/a lot of/a little/a few",
+      "ref_subitems": [
+        "much",
+        "How many",
+        "a lot of",
+        "a little",
+        "a few"
+      ],
+      "examples": [
+        {
+          "surface": "So I buy a few apples and a little cheese.",
+          "source_item_id": "article:en_reading_much_many_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「a little、a few」，呈現「quantifiers much/many/a lot of/a little/a few」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "There is a lot of bread too.",
+          "source_item_id": "article:en_reading_much_many_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「a lot of」，呈現「quantifiers much/many/a lot of/a little/a few」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I do not have much money today.",
+          "source_item_id": "article:en_reading_much_many_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「much」，呈現「quantifiers much/many/a lot of/a little/a few」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "\"How many bags do I need?\" I ask.",
+          "source_item_id": "article:en_reading_much_many_a1_v1:u007",
+          "note_zh_tw": "這句直接使用「How many」，呈現「quantifiers much/many/a lot of/a little/a few」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_much_many_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_much_many_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_object_pronouns",
+      "title_zh_tw": "object pronouns（me, him, them）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「object pronouns」。 它用短代詞代替動作影響到的人或物，例如 me、him、them。 這次先認得：me、him、them。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.object_pronouns",
+      "ref_item": "object pronouns",
+      "ref_subitems": [
+        "me",
+        "him",
+        "them"
+      ],
+      "examples": [
+        {
+          "surface": "Please call me after class.",
+          "source_item_id": "article:en_reading_object_pronouns_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「me」，呈現「object pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I wave to him.",
+          "source_item_id": "article:en_reading_object_pronouns_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「him」，呈現「object pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "We meet them there.",
+          "source_item_id": "article:en_reading_object_pronouns_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「them」，呈現「object pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I thank him.",
+          "source_item_id": "article:en_reading_object_pronouns_a1_v1:u007",
+          "note_zh_tw": "這句直接使用「him」，呈現「object pronouns」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_object_pronouns_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_object_pronouns_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_past_be",
+      "title_zh_tw": "past be: was/were（was, were）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「past be: was/were」。 它用來說已經發生的事。先看昨天、剛才這類時間詞，以及動詞的過去形式。 這次先認得：was、were。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.past_be",
+      "ref_item": "past be: was/were",
+      "ref_subitems": [
+        "was",
+        "were"
+      ],
+      "examples": [
+        {
+          "surface": "I was at the cafe yesterday.",
+          "source_item_id": "article:en_reading_past_be_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「was」，呈現「past be: was/were」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "My friends were late.",
+          "source_item_id": "article:en_reading_past_be_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「were」，呈現「past be: was/were」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "The train was slow.",
+          "source_item_id": "article:en_reading_past_be_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「was」，呈現「past be: was/were」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I was tired but fine.",
+          "source_item_id": "article:en_reading_past_be_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「was」，呈現「past be: was/were」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_past_be_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_past_be_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_past_simple",
+      "title_zh_tw": "past simple（bought, walked）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「past simple」。 它用來說已經發生的事。先看昨天、剛才這類時間詞，以及動詞的過去形式。 這次先認得：bought、walked。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.past_simple",
+      "ref_item": "past simple",
+      "ref_subitems": [
+        "bought",
+        "walked"
+      ],
+      "examples": [
+        {
+          "surface": "Yesterday I bought a ticket at the station.",
+          "source_item_id": "article:en_reading_past_simple_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「bought」，呈現「past simple」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I walked to the platform.",
+          "source_item_id": "article:en_reading_past_simple_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「walked」，呈現「past simple」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_past_simple_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_past_simple_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_present_continuous",
+      "title_zh_tw": "present continuous（am waiting, is buying）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「present continuous」。 它用來說「正在做」。例句要同時有 be 動詞和正在進行的動作。 這次先認得：am waiting、is buying。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.present_continuous",
+      "ref_item": "present continuous",
+      "ref_subitems": [
+        "am waiting",
+        "is buying"
+      ],
+      "examples": [
+        {
+          "surface": "I am waiting at the station now.",
+          "source_item_id": "article:en_reading_present_continuous_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「am waiting」，呈現「present continuous」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sara is buying coffee near the door.",
+          "source_item_id": "article:en_reading_present_continuous_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「is buying」，呈現「present continuous」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_present_continuous_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_present_continuous_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_some_any_count",
+      "title_zh_tw": "some/any with countable and uncountable nouns（some, any）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「some/any with countable and uncountable nouns」。 它用來說「一些」或問/否定句裡的「任何」。先看 some 常在肯定句，any 常在問句或否定句。 這次先認得：some、any。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.some_any_count",
+      "ref_item": "some/any with countable and uncountable nouns",
+      "ref_subitems": [
+        "some",
+        "any"
+      ],
+      "examples": [
+        {
+          "surface": "I have some bread and some cheese.",
+          "source_item_id": "article:en_reading_some_any_count_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「some」，呈現「some/any with countable and uncountable nouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "I ask, \"Do we have any eggs?\"",
+          "source_item_id": "article:en_reading_some_any_count_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「any」，呈現「some/any with countable and uncountable nouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "My sister says, \"No, we do not have any.\"",
+          "source_item_id": "article:en_reading_some_any_count_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「any」，呈現「some/any with countable and uncountable nouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "We need some milk, so I go to the shop.",
+          "source_item_id": "article:en_reading_some_any_count_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「some」，呈現「some/any with countable and uncountable nouns」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_some_any_count_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_some_any_count_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "en_grammar_there_is_are",
+      "title_zh_tw": "there is / there are（There is, There are）",
+      "explanation_md_zh_tw": "這個節點教 英文 A1 的「there is / there are」。 它用來說「有/存在」。先分清楚後面是一個東西，還是很多東西。 這次先認得：There is、There are。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "EN.grammar.there_is_are",
+      "ref_item": "there is / there are",
+      "ref_subitems": [
+        "There is",
+        "There are"
+      ],
+      "examples": [
+        {
+          "surface": "There is a blue bag on one bed.",
+          "source_item_id": "article:en_reading_there_is_are_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「There is」，呈現「there is / there are」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "There are two beds in his room.",
+          "source_item_id": "article:en_reading_there_is_are_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「There are」，呈現「there is / there are」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "There are clean towels by the door.",
+          "source_item_id": "article:en_reading_there_is_are_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「There are」，呈現「there is / there are」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "English Grammar Profile A1",
+      "source_locator": "https://englishprofile.org/",
+      "source_reading_asset_id": "en_reading_there_is_are_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-en\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\en_reading_there_is_are_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_en_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    }
+  ]
+}

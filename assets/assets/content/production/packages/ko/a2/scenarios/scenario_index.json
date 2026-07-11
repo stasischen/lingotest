@@ -1,0 +1,245 @@
+{
+  "scenarios": [
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": true,
+      "native_review_state": "native_pending",
+      "review_slice": "digital_documents",
+      "scenario_id": "a2_app_booking_confirmation",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_app_booking_confirmation.ko.v1.json",
+      "title": "앱 예약 확인하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": "food_shopping",
+      "scenario_id": "a2_ask_ingredient_preference",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_ingredient_preference.ko.v1.json",
+      "title": "재료 선호 말하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_ask_late_checkout",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_late_checkout.ko.v1.json",
+      "title": "늦은 체크아웃 물어보기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": "food_shopping",
+      "scenario_id": "a2_ask_recommendation_budget",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_recommendation_budget.ko.v1.json",
+      "title": "예산 안에서 추천받기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_ask_transfer_platform",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_transfer_platform.ko.v1.json",
+      "title": "환승 플랫폼 묻기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": "digital_documents",
+      "scenario_id": "a2_change_delivery_pickup_time",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_change_delivery_pickup_time.ko.v1.json",
+      "title": "픽업 시간 바꾸기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_change_ticket_time",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_change_ticket_time.ko.v1.json",
+      "title": "표 시간 바꾸기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": "food_shopping",
+      "scenario_id": "a2_compare_two_menu_options",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_compare_two_menu_options.ko.v1.json",
+      "title": "메뉴 두 가지 비교하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_confirm_date_time_place",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_confirm_date_time_place.ko.v1.json",
+      "title": "날짜, 시간, 장소 확인하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": "daily_social",
+      "scenario_id": "a2_decline_with_reason",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_decline_with_reason.ko.v1.json",
+      "title": "간단한 이유로 정중히 거절하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": "daily_social",
+      "scenario_id": "a2_describe_weekend_activity",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_describe_weekend_activity.ko.v1.json",
+      "title": "주말에 한 일 말하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": true,
+      "native_review_state": "native_pending",
+      "review_slice": "food_shopping",
+      "scenario_id": "a2_exchange_wrong_item",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_exchange_wrong_item.ko.v1.json",
+      "title": "잘못 받은 물건 바꾸기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_explain_simple_delay_reason",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_explain_simple_delay_reason.ko.v1.json",
+      "title": "조금 늦는 이유 말하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": "digital_documents",
+      "scenario_id": "a2_fill_simple_form_help",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_fill_simple_form_help.ko.v1.json",
+      "title": "간단한 양식 도움 요청하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": "daily_social",
+      "scenario_id": "a2_invite_friend_activity",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_invite_friend_activity.ko.v1.json",
+      "title": "친구에게 활동 제안하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": true,
+      "native_review_state": "native_pending",
+      "review_slice": "digital_documents",
+      "scenario_id": "a2_lost_item_followup_message",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_lost_item_followup_message.ko.v1.json",
+      "title": "잃어버린 물건 문의하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_luggage_storage_pickup",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_luggage_storage_pickup.ko.v1.json",
+      "title": "짐 맡기고 찾는 시간 확인하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": "daily_social",
+      "scenario_id": "a2_make_simple_plan_sequence",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_make_simple_plan_sequence.ko.v1.json",
+      "title": "두 단계 계획 세우기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": true,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_plan_tomorrow_morning",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_plan_tomorrow_morning.ko.v1.json",
+      "title": "내일 아침 계획 말하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": true,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_report_room_problem",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_report_room_problem.ko.v1.json",
+      "title": "객실 문제 말하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_request_room_change",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_request_room_change.ko.v1.json",
+      "title": "객실 변경 요청하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_reschedule_meeting_time",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_reschedule_meeting_time.ko.v1.json",
+      "title": "약속 시간 바꾸기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": false,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_transport_delay_announcement",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_transport_delay_announcement.ko.v1.json",
+      "title": "교통 지연 안내 이해하기",
+      "turn_count": 4
+    },
+    {
+      "choice_count": 12,
+      "en_th_parity_scenario": true,
+      "native_review_state": "native_pending",
+      "review_slice": null,
+      "scenario_id": "a2_understand_hotel_notice",
+      "source_path": "content-ko/content/core/content_assets/scenario_packs/current_flow/a2/a2_understand_hotel_notice.ko.v1.json",
+      "title": "호텔 안내문 이해하기",
+      "turn_count": 4
+    }
+  ],
+  "schema_version": "ko_a2_current_flow_production_scenario_index.v1"
+}

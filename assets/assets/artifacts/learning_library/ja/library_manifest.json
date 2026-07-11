@@ -1,0 +1,42 @@
+{
+  "lang": "ja",
+  "version": "r250-pilot",
+  "modules": [
+    "core",
+    "i18n"
+  ],
+  "files": {
+    "core": [
+      "sources_index.json",
+      "content_sources.json",
+      "sentences.json",
+      "knowledge.json",
+      "topics.json",
+      "vocab_sets.json",
+      "links.json",
+      "grammar_mappings.json",
+      "vocab_taxonomy.json",
+      "learning_summaries.json"
+    ],
+    "i18n": {
+      "zh_tw": [
+        "sources.json",
+        "content_sources.json",
+        "sentences.json",
+        "knowledge.json",
+        "topics.json",
+        "vocab_sets.json",
+        "vocab_taxonomy_i18n.json",
+        "learning_summaries.json"
+      ]
+    }
+  },
+  "metadata": {
+    "r_stage": "R250",
+    "pilot": true,
+    "content_count": 4,
+    "unit_count": 38
+  },
+  "contract": "learning_library.package.v1",
+  "package_tier": "full"
+}

@@ -1,0 +1,4753 @@
+{
+  "schema_version": "a1_runtime_scenario_packs.v1",
+  "language": "zh",
+  "review_ceiling": "native_pending",
+  "promotion": "owner_decision_20260619_native_waived",
+  "scenario_packs": [
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "convenience_payment_card_cash",
+      "brief_id": "ml0_a1_004_convenience_payment_card_cash",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#ml0-a1-004",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/convenience_payment_card_cash.zh.v1.json",
+      "title": "在便利商店付款",
+      "setting_label": "便利商店櫃台",
+      "wrap_title": "付款完成",
+      "wrap_friend": "你已經用簡短自然的中文回答付款方式，也完成了結帳收尾。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在便利商店櫃台結帳。用簡短中文回答要刷卡還是付現，並完成交易。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "客人"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "payment_method_question",
+          "act_slots": {
+            "topic": "payment_method",
+            "keyword": "刷卡",
+            "gloss": "pay by card"
+          },
+          "learning_role": "listen_only",
+          "surface": "請問刷卡還是付現？",
+          "speak": "請問刷卡還是付現？",
+          "translation": "請問刷卡還是付現？",
+          "friend": "這次要用卡付款；直接回答刷卡，謝謝。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "刷卡，謝謝。",
+                "translation": "刷卡，謝謝。",
+                "speak": "刷卡，謝謝。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "會員卡可以嗎？",
+                "translation": "會員卡可以嗎？",
+                "speak": "會員卡可以嗎？",
+                "contrast_type": "member_card_not_payment_method",
+                "feedback": "會員卡不是付款方式；店員問刷卡還是付現，要回答刷卡。"
+              },
+              {
+                "id": "c3",
+                "surface": "可以用會員卡嗎？",
+                "translation": "可以用會員卡嗎？",
+                "speak": "可以用會員卡嗎？",
+                "contrast_type": "asks_about_member_card",
+                "feedback": "這是在問會員卡，不是選付款方式；要用信用卡付款時說刷卡，謝謝。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "cashier_instruction",
+          "act_slots": {
+            "topic": "card_payment",
+            "keyword": "感應",
+            "gloss": "tap"
+          },
+          "learning_role": "listen_only",
+          "surface": "好，請在這裡感應。",
+          "speak": "好，請在這裡感應。",
+          "translation": "好，請在這裡感應。",
+          "friend": "聽到付款指示時，用好的確認即可。",
+          "inline_explain": "刷卡 = 用卡付款。付現 = 用現金付款。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "好的。",
+                "translation": "好的。",
+                "speak": "好的。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "請問在哪裡付現？",
+                "translation": "請問在哪裡付現？",
+                "speak": "請問在哪裡付現？",
+                "contrast_type": "switches_to_cash_after_card_instruction",
+                "feedback": "前面已選刷卡，店員也請你感應；現在問付現會讓店員不清楚你要怎麼付款。"
+              },
+              {
+                "id": "c3",
+                "surface": "我要付現。",
+                "translation": "我要付現。",
+                "speak": "我要付現。",
+                "contrast_type": "changes_payment_method",
+                "feedback": "你前面選刷卡，現在改成付現會讓店員困惑。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "receipt_prompt",
+          "act_slots": {
+            "topic": "receipt",
+            "keyword": "發票",
+            "gloss": "receipt"
+          },
+          "learning_role": "listen_only",
+          "surface": "需要發票嗎？",
+          "speak": "需要發票嗎？",
+          "translation": "需要發票嗎？",
+          "friend": "如果不要，用不用，謝謝就很自然。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "不用，謝謝。",
+                "translation": "不用，謝謝。",
+                "speak": "不用，謝謝。"
+              },
+              {
+                "id": "c2",
+                "surface": "發票可以刷卡嗎？",
+                "translation": "發票可以刷卡嗎？",
+                "speak": "發票可以刷卡嗎？",
+                "contrast_type": "payment_question_not_receipt_answer",
+                "feedback": "店員問需不需要發票，不是在問付款方式。"
+              },
+              {
+                "id": "c3",
+                "surface": "發票在哪裡？",
+                "translation": "發票在哪裡？",
+                "speak": "發票在哪裡？",
+                "contrast_type": "premature_question",
+                "feedback": "店員只是問需不需要，不是已經給發票。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "transaction_close",
+          "act_slots": {
+            "topic": "closing",
+            "keyword": "謝謝",
+            "gloss": "thanks"
+          },
+          "learning_role": "listen_only",
+          "surface": "好了，謝謝。",
+          "speak": "好了，謝謝。",
+          "translation": "好了，謝謝。",
+          "friend": "結帳完成時，回謝謝就可以。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "謝謝。",
+                "translation": "謝謝。",
+                "speak": "謝謝。"
+              },
+              {
+                "id": "c2",
+                "surface": "好了嗎？",
+                "translation": "好了嗎？",
+                "speak": "好了嗎？",
+                "contrast_type": "asks_after_completion",
+                "feedback": "店員已經說好了，這時簡短道謝即可。"
+              },
+              {
+                "id": "c3",
+                "surface": "我還要感應。",
+                "translation": "我還要感應。",
+                "speak": "我還要感應。",
+                "contrast_type": "unnecessary_repeat",
+                "feedback": "付款已完成，不需要再感應一次。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh_payment_card_cash"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh_short_confirmation_hao_de"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief ml0_a1_004_convenience_payment_card_cash; KO packs and other language packs were not used as source strings.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, or frontend in this authoring lane.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning convenience-store terms such as 發票 and 感應; native review should confirm this locale choice.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained.",
+        "zh_v2_author_pass8_20260617": "Resolved pass7 judge blockers in t1/t3 by removing the illogical accepted card-cash answer and replacing natural alternate answers with member-card/payment-method and receipt/payment near-misses. AI-authored; native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "core_repair_repeat_slowly",
+      "brief_id": "ml3_a1_014_core_repair_repeat_slowly",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml3-a1-014-ask-to-repeat-or-speak-slowly",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/core_repair_repeat_slowly.zh.v1.json",
+      "title": "請對方再說一次",
+      "setting_label": "服務櫃台",
+      "wrap_title": "順利修復對話",
+      "wrap_friend": "你用中文請對方重複、說慢一點，然後回答簡單問題。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在櫃台沒聽懂一句簡短問題。先請對方再說一次，再請對方說慢一點，最後回答。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "客人"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "unclear_service_question",
+          "act_slots": {
+            "topic": "bag",
+            "keyword": "袋子",
+            "gloss": "bag"
+          },
+          "learning_role": "listen_only",
+          "surface": "需要袋子嗎？",
+          "speak": "需要袋子嗎？",
+          "translation": "需要袋子嗎？",
+          "friend": {
+            "hint": "沒聽懂時，先請對方再說一次。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "不好意思，可以再說一次嗎？",
+                "translation": "不好意思，可以再說一次嗎？",
+                "speak": "不好意思，可以再說一次嗎？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "你需要袋子。",
+                "translation": "你需要袋子。",
+                "speak": "你需要袋子。",
+                "contrast_type": "wrong_subject",
+                "feedback": "你沒聽懂時，要請對方再說一次，不是替店員回答。"
+              },
+              {
+                "id": "r1c",
+                "surface": "袋子在哪裡？",
+                "translation": "袋子在哪裡？",
+                "speak": "袋子在哪裡？",
+                "contrast_type": "asks_location_not_repair",
+                "feedback": "你還沒聽清楚問題；先請對方再說一次。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "question_repeated",
+          "act_slots": {
+            "topic": "bag",
+            "keyword": "袋子",
+            "gloss": "bag"
+          },
+          "learning_role": "listen_only",
+          "surface": "需要袋子嗎？",
+          "speak": "需要袋子嗎？",
+          "translation": "需要袋子嗎？",
+          "friend": {
+            "hint": "還是太快時，請對方說慢一點。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "請說慢一點。",
+                "translation": "請說慢一點。",
+                "speak": "請說慢一點。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "請再說快一點。",
+                "translation": "請再說快一點。",
+                "speak": "請再說快一點。",
+                "contrast_type": "wrong_speed_request",
+                "feedback": "你想聽慢一點，不是快一點。"
+              },
+              {
+                "id": "r2c",
+                "surface": "我聽得懂一點。",
+                "translation": "我聽得懂一點。",
+                "speak": "我聽得懂一點。",
+                "contrast_type": "states_ability_not_request",
+                "feedback": "這沒有請對方放慢速度。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "slow_restatement",
+          "act_slots": {
+            "topic": "bag",
+            "keyword": "需要",
+            "gloss": "need"
+          },
+          "learning_role": "listen_only",
+          "surface": "好。需要袋子嗎？",
+          "speak": "好。需要袋子嗎？",
+          "translation": "好。需要袋子嗎？",
+          "friend": {
+            "hint": "現在聽懂了，這次你不需要袋子；回答不用，謝謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "不用，謝謝。",
+                "translation": "不用，謝謝。",
+                "speak": "不用，謝謝。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "我要袋子嗎？",
+                "translation": "我要袋子嗎？",
+                "speak": "我要袋子嗎？",
+                "contrast_type": "question_instead_of_answer",
+                "feedback": "店員問你需不需要袋子；這句變成反問，不是回答。"
+              },
+              {
+                "id": "r3c",
+                "surface": "你需要袋子。",
+                "translation": "你需要袋子。",
+                "speak": "你需要袋子。",
+                "contrast_type": "wrong_subject",
+                "feedback": "要回答自己需不需要，不是說店員需要袋子。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "service_close",
+          "act_slots": {
+            "topic": "close",
+            "keyword": "好",
+            "gloss": "okay"
+          },
+          "learning_role": "listen_only",
+          "surface": "好，這樣就可以了。",
+          "speak": "好，這樣就可以了。",
+          "translation": "好，這樣就可以了。",
+          "friend": {
+            "hint": "最後道謝。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "謝謝。",
+                "translation": "謝謝。",
+                "speak": "謝謝。"
+              },
+              {
+                "id": "r4b",
+                "surface": "再說一次，謝謝。",
+                "translation": "再說一次，謝謝。",
+                "speak": "再說一次，謝謝。",
+                "contrast_type": "repair_after_completion",
+                "feedback": "對方已經回答清楚，這時道謝即可。"
+              },
+              {
+                "id": "r4c",
+                "surface": "不用袋子。",
+                "translation": "不用袋子。",
+                "speak": "不用袋子。",
+                "contrast_type": "late_answer",
+                "feedback": "袋子問題已回答，結尾用謝謝更自然。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.repair.keyi_zai_shuo_yici.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh.repair.qing_shuo_man_yidian.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-3 neutral brief ml3_a1_014_core_repair_repeat_slowly; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, frontend, review artifacts, or legacy content.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning service-counter phrasing; native review should confirm whether 不好意思 is preferred before repair requests in this setting.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "daily_meet_friend",
+      "brief_id": "ml2_a1_010_daily_meet_friend",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml2-a1-010-meet-a-friend",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/daily_meet_friend.zh.v1.json",
+      "title": "和朋友見面",
+      "setting_label": "咖啡店門口",
+      "wrap_title": "見面完成",
+      "wrap_friend": "你用自然的中文和朋友打招呼、確認計畫，並說可以走了。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在咖啡店門口和朋友見面。用朋友之間自然簡短的中文確認對方和計畫。",
+      "roles": {
+        "npc": {
+          "label": "朋友"
+        },
+        "learner": {
+          "label": "朋友"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "friend_greeting",
+          "act_slots": {
+            "topic": "greeting",
+            "keyword": "嗨",
+            "gloss": "hi"
+          },
+          "learning_role": "listen_only",
+          "surface": "嗨，你到了！",
+          "speak": "嗨，你到了！",
+          "translation": "嗨，你到了！",
+          "friend": {
+            "hint": "朋友之間可以用嗨，再叫名字。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "嗨，小安！",
+                "translation": "嗨，小安！",
+                "speak": "嗨，小安！",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "您好，小安。",
+                "translation": "您好，小安。",
+                "speak": "您好，小安。",
+                "contrast_type": "too_formal_for_friend",
+                "feedback": "朋友見面用嗨比較自然，不需要您好。"
+              },
+              {
+                "id": "r1c",
+                "surface": "嗨，我是小安。",
+                "translation": "嗨，我是小安。",
+                "speak": "嗨，我是小安。",
+                "contrast_type": "wrong_identity",
+                "feedback": "小安是朋友，不是你自己。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "confirm_plan",
+          "act_slots": {
+            "topic": "meeting_plan",
+            "keyword": "美術館",
+            "gloss": "art museum"
+          },
+          "learning_role": "listen_only",
+          "surface": "我們去美術館，對嗎？",
+          "speak": "我們去美術館，對嗎？",
+          "translation": "我們去美術館，對嗎？",
+          "friend": {
+            "hint": "計畫正確時，用短句確認。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "對，去美術館。",
+                "translation": "對，去美術館。",
+                "speak": "對，去美術館。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "對，在美術館。",
+                "translation": "對，在美術館。",
+                "speak": "對，在美術館。",
+                "contrast_type": "location_not_plan",
+                "feedback": "這像回答地點；對方是在確認要去美術館。"
+              },
+              {
+                "id": "r2c",
+                "surface": "我去美術館嗎？",
+                "translation": "我去美術館嗎？",
+                "speak": "我去美術館嗎？",
+                "contrast_type": "question_instead_of_confirmation",
+                "feedback": "對方在確認計畫，直接說對，去美術館。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "readiness_question",
+          "act_slots": {
+            "topic": "ready",
+            "keyword": "準備好了",
+            "gloss": "ready"
+          },
+          "learning_role": "listen_only",
+          "surface": "你準備好了嗎？",
+          "speak": "你準備好了嗎？",
+          "translation": "你準備好了嗎？",
+          "friend": {
+            "hint": "準備好了可說好了。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "好了。",
+                "translation": "好了。",
+                "speak": "好了。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "好了嗎？",
+                "translation": "好了嗎？",
+                "speak": "好了嗎？",
+                "contrast_type": "repeats_readiness_question",
+                "feedback": "朋友問你準備好了嗎；這句只是反問，沒有回答自己準備好了。"
+              },
+              {
+                "id": "r3c",
+                "surface": "你準備好了。",
+                "translation": "你準備好了。",
+                "speak": "你準備好了。",
+                "contrast_type": "wrong_subject",
+                "feedback": "要說自己準備好了，不是說對方。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "next_step",
+          "act_slots": {
+            "topic": "go",
+            "keyword": "走吧",
+            "gloss": "let's go"
+          },
+          "learning_role": "listen_only",
+          "surface": "太好了。走吧？",
+          "speak": "太好了。走吧？",
+          "translation": "太好了。走吧？",
+          "friend": {
+            "hint": "朋友之間可以直接說走吧。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "走吧。",
+                "translation": "走吧。",
+                "speak": "走吧。"
+              },
+              {
+                "id": "r4b",
+                "surface": "你先走吧。",
+                "translation": "你先走吧。",
+                "speak": "你先走吧。",
+                "contrast_type": "opposite_action",
+                "feedback": "這表示不一起走；朋友問走吧時，回走吧。"
+              },
+              {
+                "id": "r4c",
+                "surface": "去哪裡？",
+                "translation": "去哪裡？",
+                "speak": "去哪裡？",
+                "contrast_type": "misses_known_plan",
+                "feedback": "前面已確認去美術館，現在不需要再問去哪裡。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.friend.hai_name.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "zh.friend.zouba.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-2 neutral brief ml2_a1_010_daily_meet_friend; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, frontend, review artifacts, or legacy content.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning everyday friend speech; native review should confirm 小安 as a neutral placeholder name.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained.",
+        "zh_v2_author_pass8_20260617": "Resolved pass7 t3 readiness blocker by replacing a natural negative readiness answer with a repeated-question near-miss while keeping the intended goal as ready-to-go. AI-authored; native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "daily_schedule_time",
+      "brief_id": "ml0_a1_005_daily_schedule_time",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#ml0-a1-005",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/daily_schedule_time.zh.v1.json",
+      "title": "約見面時間",
+      "setting_label": "朋友約見面",
+      "wrap_title": "時間確認好了",
+      "wrap_friend": "你已經用簡短自然的中文回答時間，也確認了見面安排。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你正在和朋友約見面時間。用簡短中文回答幾點，並確認安排。",
+      "roles": {
+        "npc": {
+          "label": "朋友"
+        },
+        "learner": {
+          "label": "你"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "ask_time",
+          "act_slots": {
+            "topic": "meeting_time",
+            "keyword": "幾點",
+            "gloss": "what time"
+          },
+          "learning_role": "listen_only",
+          "surface": "我們幾點見？",
+          "speak": "我們幾點見？",
+          "translation": "我們幾點見？",
+          "friend": "朋友之間可以這樣簡短問時間。回答一個時間即可。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "三點可以。",
+                "translation": "三點可以。",
+                "speak": "三點可以。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "三點在哪裡？",
+                "translation": "三點在哪裡？",
+                "speak": "三點在哪裡？",
+                "contrast_type": "asks_place_not_time",
+                "feedback": "對方問幾點見；先回答時間。"
+              },
+              {
+                "id": "c3",
+                "surface": "今天可以。",
+                "translation": "今天可以。",
+                "speak": "今天可以。",
+                "contrast_type": "day_answer_when_time_requested",
+                "feedback": "這回答日期可不可以，沒有說幾點。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "availability_check",
+          "act_slots": {
+            "topic": "availability",
+            "keyword": "可以",
+            "gloss": "okay"
+          },
+          "learning_role": "listen_only",
+          "surface": "今天可以嗎？",
+          "speak": "今天可以嗎？",
+          "translation": "今天可以嗎？",
+          "friend": "如果今天可以，直接說可以，今天可以。",
+          "inline_explain": "三點可以表示三點這個時間可以。今天可以表示今天能見面。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "可以，今天可以。",
+                "translation": "可以，今天可以。",
+                "speak": "可以，今天可以。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "明天可以。",
+                "translation": "明天可以。",
+                "speak": "明天可以。",
+                "contrast_type": "wrong_day",
+                "feedback": "對方問今天可不可以；明天不是今天。"
+              },
+              {
+                "id": "c3",
+                "surface": "明天三點可以。",
+                "translation": "明天三點可以。",
+                "speak": "明天三點可以。",
+                "contrast_type": "wrong_day_with_time",
+                "feedback": "對方問今天可不可以；明天不是今天。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "plan_confirmation",
+          "act_slots": {
+            "topic": "confirmed_plan",
+            "keyword": "那",
+            "gloss": "then"
+          },
+          "learning_role": "listen_only",
+          "surface": "好，那三點見。",
+          "speak": "好，那三點見。",
+          "translation": "好，那三點見。",
+          "friend": "安排正確時，用好，三點見簡短確認。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "好，三點見。",
+                "translation": "好，三點見。",
+                "speak": "好，三點見。"
+              },
+              {
+                "id": "c2",
+                "surface": "好，那四點見。",
+                "translation": "好，那四點見。",
+                "speak": "好，那四點見。",
+                "contrast_type": "wrong_time",
+                "feedback": "對方確認三點，四點不對。"
+              },
+              {
+                "id": "c3",
+                "surface": "三點可以嗎？",
+                "translation": "三點可以嗎？",
+                "speak": "三點可以嗎？",
+                "contrast_type": "question_after_confirmation",
+                "feedback": "對方已經確認三點，不需要再問。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "casual_close",
+          "act_slots": {
+            "topic": "closing",
+            "keyword": "待會",
+            "gloss": "later"
+          },
+          "learning_role": "listen_only",
+          "surface": "待會見！",
+          "speak": "待會見！",
+          "translation": "待會見！",
+          "friend": "朋友道別時，也可以回待會見。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "好，待會見！",
+                "translation": "好，待會見！",
+                "speak": "好，待會見！"
+              },
+              {
+                "id": "c2",
+                "surface": "好，三點可以。",
+                "translation": "好，三點可以。",
+                "speak": "好，三點可以。",
+                "contrast_type": "repeats_plan_at_closing",
+                "feedback": "時間已經確認，結尾用待會見更自然。"
+              },
+              {
+                "id": "c3",
+                "surface": "我現在到了嗎？",
+                "translation": "我現在到了嗎？",
+                "speak": "我現在到了嗎？",
+                "contrast_type": "confusing_question",
+                "feedback": "這不是自然的道別回應。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh_schedule_three_oclock"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh_schedule_today_ok"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief ml0_a1_005_daily_schedule_time; KO packs and other language packs were not used as source strings.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, or frontend in this authoring lane.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with casual friend register and same-day planning closure.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "daily_self_intro",
+      "brief_id": "ml3_a1_012_daily_self_intro",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml3-a1-012-daily-self-introduction",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/daily_self_intro.zh.v1.json",
+      "title": "簡短自我介紹",
+      "setting_label": "語言交換活動",
+      "wrap_title": "介紹完成",
+      "wrap_friend": "你用自然的中文打招呼、說名字，並回答自己正在學什麼。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在語言交換活動第一次見到新朋友。只說名字和正在學的語言，不分享電話、地址或工作資訊。",
+      "roles": {
+        "npc": {
+          "label": "新朋友"
+        },
+        "learner": {
+          "label": "新參加者"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "first_meeting_greeting",
+          "act_slots": {
+            "topic": "greeting",
+            "keyword": "你好",
+            "gloss": "hello"
+          },
+          "learning_role": "listen_only",
+          "surface": "你好，很高興認識你。",
+          "speak": "你好，很高興認識你。",
+          "translation": "你好，很高興認識你。",
+          "friend": {
+            "hint": "先打招呼，再說自己的名字。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "你好，我叫小林。",
+                "translation": "你好，我叫小林。",
+                "speak": "你好，我叫小林。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "你好，我叫你小林。",
+                "translation": "你好，我叫你小林。",
+                "speak": "你好，我叫你小林。",
+                "contrast_type": "wrong_subject",
+                "feedback": "這變成替對方取名字；自我介紹要說我叫小林。"
+              },
+              {
+                "id": "r1c",
+                "surface": "小林，謝謝。",
+                "translation": "小林，謝謝。",
+                "speak": "小林，謝謝。",
+                "contrast_type": "missing_self_introduction",
+                "feedback": "只有名字和謝謝，不像完整自我介紹。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "language_learning_question",
+          "act_slots": {
+            "topic": "learning_language",
+            "keyword": "學",
+            "gloss": "learn"
+          },
+          "learning_role": "listen_only",
+          "surface": "你在學什麼語言？",
+          "speak": "你在學什麼語言？",
+          "translation": "你在學什麼語言？",
+          "friend": {
+            "hint": "簡短說我在學中文。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "我在學中文。",
+                "translation": "我在學中文。",
+                "speak": "我在學中文。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "我會說中文。",
+                "translation": "我會說中文。",
+                "speak": "我會說中文。",
+                "contrast_type": "overclaims_ability",
+                "feedback": "對方問在學什麼語言；說在學中文更合適。"
+              },
+              {
+                "id": "r2c",
+                "surface": "我在學中文嗎？",
+                "translation": "我在學中文嗎？",
+                "speak": "我在學中文嗎？",
+                "contrast_type": "question_instead_of_answer",
+                "feedback": "對方問你在學什麼語言；這句變成反問，不是回答。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "friendly_close_prompt",
+          "act_slots": {
+            "topic": "close",
+            "keyword": "認識",
+            "gloss": "meet"
+          },
+          "learning_role": "listen_only",
+          "surface": "太好了，歡迎你。",
+          "speak": "太好了，歡迎你。",
+          "translation": "太好了，歡迎你。",
+          "friend": {
+            "hint": "用簡短謝謝回應。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "謝謝，我也很高興。",
+                "translation": "謝謝，我也很高興。",
+                "speak": "謝謝，我也很高興。"
+              },
+              {
+                "id": "r3b",
+                "surface": "我也歡迎你。",
+                "translation": "我也歡迎你。",
+                "speak": "我也歡迎你。",
+                "contrast_type": "role_reversal",
+                "feedback": "對方在歡迎你；自然回應是道謝，不是反過來歡迎對方。"
+              },
+              {
+                "id": "r3c",
+                "surface": "不用歡迎我。",
+                "translation": "不用歡迎我。",
+                "speak": "不用歡迎我。",
+                "contrast_type": "rejects_welcome",
+                "feedback": "對方是在友善歡迎你；這樣拒絕不自然，簡短道謝更合適。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "social_close",
+          "act_slots": {
+            "topic": "close",
+            "keyword": "一起",
+            "gloss": "together"
+          },
+          "learning_role": "listen_only",
+          "surface": "等一下我們一起練習。",
+          "speak": "等一下我們一起練習。",
+          "translation": "等一下我們一起練習。",
+          "friend": {
+            "hint": "最後簡短回應好。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "好，謝謝。",
+                "translation": "好，謝謝。",
+                "speak": "好，謝謝。"
+              },
+              {
+                "id": "r4b",
+                "surface": "現在不要練習。",
+                "translation": "現在不要練習。",
+                "speak": "現在不要練習。",
+                "contrast_type": "opposite_response",
+                "feedback": "這拒絕了對方安排；若同意，說好，謝謝。"
+              },
+              {
+                "id": "r4c",
+                "surface": "我自己練習。",
+                "translation": "我自己練習。",
+                "speak": "我自己練習。",
+                "contrast_type": "rejects_together_activity",
+                "feedback": "對方說一起練習；這句變成自己練習，不是同意一起。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.self_intro.nihao_wo_jiao.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh.self_intro.wo_zai_xue.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-3 neutral brief ml3_a1_012_daily_self_intro; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, frontend, review artifacts, or legacy content.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning everyday wording; native review should confirm whether 小林 and 中文 fit the desired learner baseline.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "digital_battery_charging",
+      "brief_id": "ml5_a1_018_digital_battery_charging",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml5-a1-018-ask-permission-to-charge-a-phone",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/digital_battery_charging.zh.v1.json",
+      "title": "詢問能不能充手機",
+      "setting_label": "咖啡店櫃台",
+      "wrap_title": "手機可以充電",
+      "wrap_friend": "你已經禮貌詢問能不能充手機，找到插座，並道謝。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在咖啡店或大廳。先問可不可以充手機，再問插座在哪裡，確認位置並道謝。",
+      "roles": {
+        "npc": {
+          "label": "工作人員"
+        },
+        "learner": {
+          "label": "客人"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "service_offer",
+          "act_slots": {
+            "topic": "help offer",
+            "keyword": "幫忙",
+            "gloss": "help"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，需要幫忙嗎？",
+          "speak": "您好，需要幫忙嗎？",
+          "translation": "您好，需要幫忙嗎？",
+          "friend": "在服務情境，用 請問我可以... 很自然。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "請問我可以在這裡充手機嗎？",
+                "translation": "請問我可以在這裡充手機嗎？",
+                "speak": "請問我可以在這裡充手機嗎？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "我的手機可以在這裡嗎？",
+                "translation": "我的手機可以在這裡嗎？",
+                "speak": "我的手機可以在這裡嗎？",
+                "contrast_type": "missing_action",
+                "feedback": "少了充手機，店員不一定懂你要做什麼。"
+              },
+              {
+                "id": "c3",
+                "surface": "請問我可以充電器嗎？",
+                "translation": "請問我可以充電器嗎？",
+                "speak": "請問我可以充電器嗎？",
+                "contrast_type": "wrong_object_structure",
+                "feedback": "充電器是物品；要說充手機或充電。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "permission_granted",
+          "act_slots": {
+            "topic": "permission",
+            "keyword": "可以",
+            "gloss": "can"
+          },
+          "learning_role": "listen_only",
+          "surface": "可以，沒問題。",
+          "speak": "可以，沒問題。",
+          "translation": "可以，沒問題。",
+          "friend": "得到同意後，問插座在哪裡。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "插座在哪裡？",
+                "translation": "插座在哪裡？",
+                "speak": "插座在哪裡？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "手機在哪裡？",
+                "translation": "手機在哪裡？",
+                "speak": "手機在哪裡？",
+                "contrast_type": "wrong_object_location",
+                "feedback": "你要找插座，不是手機。"
+              },
+              {
+                "id": "c3",
+                "surface": "可以在窗邊嗎？",
+                "translation": "可以在窗邊嗎？",
+                "speak": "可以在窗邊嗎？",
+                "contrast_type": "guesses_location",
+                "feedback": "你還不知道位置，應該問插座在哪裡。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "outlet_location",
+          "act_slots": {
+            "topic": "outlet location",
+            "keyword": "窗邊",
+            "gloss": "by the window"
+          },
+          "learning_role": "listen_only",
+          "surface": "插座在窗邊的桌子旁邊。",
+          "speak": "插座在窗邊的桌子旁邊。",
+          "translation": "插座在窗邊的桌子旁邊。",
+          "friend": "確認位置時，用 窗邊那裡嗎 很簡單。",
+          "inline_explain": "插座 = 可以充電的孔。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "窗邊那裡嗎？",
+                "translation": "窗邊那裡嗎？",
+                "speak": "窗邊那裡嗎？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "窗外那裡嗎？",
+                "translation": "窗外那裡嗎？",
+                "speak": "窗外那裡嗎？",
+                "contrast_type": "wrong_location_detail",
+                "feedback": "店員說窗邊，不是窗外。"
+              },
+              {
+                "id": "c3",
+                "surface": "桌子上面嗎？",
+                "translation": "桌子上面嗎？",
+                "speak": "桌子上面嗎？",
+                "contrast_type": "wrong_preposition",
+                "feedback": "店員說桌子旁邊，不是桌上。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "location_confirmed",
+          "act_slots": {
+            "topic": "confirmation",
+            "keyword": "對",
+            "gloss": "yes"
+          },
+          "learning_role": "listen_only",
+          "surface": "對，就在那裡。",
+          "speak": "對，就在那裡。",
+          "translation": "對，就在那裡。",
+          "friend": "位置確認後，用謝謝收尾。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "好的，謝謝。",
+                "translation": "好的，謝謝。",
+                "speak": "好的，謝謝。"
+              },
+              {
+                "id": "c2",
+                "surface": "好，我在門口充。",
+                "translation": "好，我在門口充。",
+                "speak": "好，我在門口充。",
+                "contrast_type": "wrong_location_after_confirmation",
+                "feedback": "店員確認的是窗邊那裡，不是門口。"
+              },
+              {
+                "id": "c3",
+                "surface": "還是不可以嗎？",
+                "translation": "還是不可以嗎？",
+                "speak": "還是不可以嗎？",
+                "contrast_type": "opposite_understanding",
+                "feedback": "店員說對，就在那裡，表示可以。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.permission.keyi_chong_shouji"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh.location.chazuo_zai_nali"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-5 neutral brief ml5_a1_018_digital_battery_charging; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, or frontend in this authoring lane.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning `充手機` and `插座`; broader Mandarin speakers should still understand the flow.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "digital_wifi_connect",
+      "brief_id": "ml4_a1_017_digital_wifi_connect",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml4-a1-017-ask-for-wi-fi-and-say-it-will-not-connect",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/digital_wifi_connect.zh.v1.json",
+      "title": "詢問 Wi-Fi 密碼",
+      "setting_label": "咖啡店櫃台",
+      "wrap_title": "Wi-Fi 協助完成",
+      "wrap_friend": "你已經詢問 Wi-Fi 密碼、試著連線，並簡單說明手機連不上。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在咖啡店或飯店大廳。詢問 Wi-Fi 密碼，試著連線，並說手機連不上。",
+      "roles": {
+        "npc": {
+          "label": "工作人員"
+        },
+        "learner": {
+          "label": "客人"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "service_offer",
+          "act_slots": {
+            "topic": "help offer",
+            "keyword": "幫忙",
+            "gloss": "help"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，需要幫忙嗎？",
+          "speak": "您好，需要幫忙嗎？",
+          "translation": "您好，需要幫忙嗎？",
+          "friend": "在服務櫃台，可以直接問 Wi-Fi 密碼。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "請問 Wi-Fi 密碼是什麼？",
+                "translation": "請問 Wi-Fi 密碼是什麼？",
+                "speak": "請問 Wi-Fi 密碼是什麼？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "請問 Wi-Fi 在哪裡？",
+                "translation": "請問 Wi-Fi 在哪裡？",
+                "speak": "請問 Wi-Fi 在哪裡？",
+                "contrast_type": "imprecise_request",
+                "feedback": "Wi-Fi 不是一個地點；通常要問密碼。"
+              },
+              {
+                "id": "c3",
+                "surface": "我可以改網路嗎？",
+                "translation": "我可以改網路嗎？",
+                "speak": "我可以改網路嗎？",
+                "contrast_type": "wrong_action_not_password_request",
+                "feedback": "客人通常不能改店家的網路；本回合要問 Wi-Fi 密碼。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "password_given",
+          "act_slots": {
+            "topic": "password",
+            "keyword": "密碼",
+            "gloss": "password"
+          },
+          "learning_role": "listen_only",
+          "surface": "密碼是 cafe2026。",
+          "speak": "密碼是 cafe 二零二六。",
+          "translation": "密碼是 cafe2026。",
+          "friend": "聽到密碼後，這次要先說你會試著連線。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "謝謝，我試試看。",
+                "translation": "謝謝，我試試看。",
+                "speak": "謝謝，我試試看。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "謝謝，我改密碼。",
+                "translation": "謝謝，我改密碼。",
+                "speak": "謝謝，我改密碼。",
+                "contrast_type": "wrong_action_after_password",
+                "feedback": "店員給的是 Wi-Fi 密碼；你不能改店家的密碼。"
+              },
+              {
+                "id": "c3",
+                "surface": "密碼是 Wi-Fi 嗎？",
+                "translation": "密碼是 Wi-Fi 嗎？",
+                "speak": "密碼是 Wi-Fi 嗎？",
+                "contrast_type": "confuses_network_and_password",
+                "feedback": "Wi-Fi 是網路名稱，密碼是用來連線的字。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "connection_check",
+          "act_slots": {
+            "topic": "connection status",
+            "keyword": "可以用",
+            "gloss": "works"
+          },
+          "learning_role": "listen_only",
+          "surface": "可以用了嗎？",
+          "speak": "可以用了嗎？",
+          "translation": "可以用了嗎？",
+          "friend": "連不上時，用 連不上 很簡單。",
+          "inline_explain": "連不上 = 無法連線。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "還是不行，連不上。",
+                "translation": "還是不行，連不上。",
+                "speak": "還是不行，連不上。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "可以用了嗎？",
+                "translation": "可以用了嗎？",
+                "speak": "可以用了嗎？",
+                "contrast_type": "repeats_question",
+                "feedback": "店員問你能不能用了；這句只是重複問題，沒有回答。"
+              },
+              {
+                "id": "c3",
+                "surface": "我不知道密碼。",
+                "translation": "我不知道密碼。",
+                "speak": "我不知道密碼。",
+                "contrast_type": "old_problem",
+                "feedback": "密碼已經知道，現在問題是連不上。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "simple_retry_instruction",
+          "act_slots": {
+            "topic": "retry",
+            "keyword": "再試",
+            "gloss": "try again"
+          },
+          "learning_role": "listen_only",
+          "surface": "請等一下，再試一次。",
+          "speak": "請等一下，再試一次。",
+          "translation": "請等一下，再試一次。",
+          "friend": "得到簡單指示後，用好的，謝謝收尾。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "好的，謝謝。",
+                "translation": "好的，謝謝。",
+                "speak": "好的，謝謝。"
+              },
+              {
+                "id": "c2",
+                "surface": "好，我再問一次。",
+                "translation": "好，我再問一次。",
+                "speak": "好，我再問一次。",
+                "contrast_type": "wrong_action",
+                "feedback": "店員要你再試一次，不是再問一次。"
+              },
+              {
+                "id": "c3",
+                "surface": "請等我一下。",
+                "translation": "請等我一下。",
+                "speak": "請等我一下。",
+                "contrast_type": "role_reversal",
+                "feedback": "這像你叫店員等；自然回應是好的，謝謝。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.wifi.qingwen_mima"
+        },
+        {
+          "after_turn": "t3",
+          "pattern_id": "zh.digital.lian_bu_shang"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-4 neutral brief ml4_a1_017_digital_wifi_connect; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, or frontend in this authoring lane.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin; keeps Wi-Fi as a common written loan form, with Taiwan-leaning service phrasing and broader Mandarin-compatible 密碼/連不上.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained.",
+        "zh_v2_author_pass2_20260617": "Author pass 2: resolved judge-flagged valid alternate answers by making the learner goal explicit and/or rewriting choices to a single intended correct answer. AI-authored; native_pending ceiling retained.",
+        "zh_v2_author_pass8_20260617": "Resolved pass7 t1 blocker by replacing the natural internet-use permission request with a wrong-action network-change near-miss. AI-authored; native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "food_bill_payment",
+      "brief_id": "ml2_a1_011_food_bill_payment",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml2-a1-011-pay-the-bill",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/food_bill_payment.zh.v1.json",
+      "title": "餐廳結帳",
+      "setting_label": "咖啡店櫃台",
+      "wrap_title": "付款完成",
+      "wrap_friend": "你用自然的中文請結帳、回答付款方式，並禮貌收尾。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在台灣常見的咖啡店或簡單餐廳結帳。回答刷卡或現金，最後道謝。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "客人"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "payment_attention",
+          "act_slots": {
+            "topic": "attention",
+            "keyword": "請說",
+            "gloss": "go ahead"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，請說。",
+          "speak": "您好，請說。",
+          "translation": "您好，請說。",
+          "friend": {
+            "hint": "要結帳時，可以說我要結帳。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "我要結帳，謝謝。",
+                "translation": "我要結帳，謝謝。",
+                "speak": "我要結帳，謝謝。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "結帳在哪裡？",
+                "translation": "結帳在哪裡？",
+                "speak": "結帳在哪裡？",
+                "contrast_type": "asks_location_not_request",
+                "feedback": "這是在問地點，不是請店員幫你結帳。"
+              },
+              {
+                "id": "r1c",
+                "surface": "帳單在哪裡？",
+                "translation": "帳單在哪裡？",
+                "speak": "帳單在哪裡？",
+                "contrast_type": "asks_location_not_request",
+                "feedback": "這是在問帳單位置，不是請店員結帳。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "payment_method_prompt",
+          "act_slots": {
+            "topic": "payment_method",
+            "keyword": "刷卡",
+            "gloss": "pay by card"
+          },
+          "learning_role": "listen_only",
+          "surface": "好的。刷卡還是現金？",
+          "speak": "好的。刷卡還是現金？",
+          "translation": "好的。刷卡還是現金？",
+          "friend": {
+            "hint": "這次的 learner goal 是刷卡付款；直接回答刷卡，謝謝。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "刷卡，謝謝。",
+                "translation": "刷卡，謝謝。",
+                "speak": "刷卡，謝謝。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "現金刷卡，謝謝。",
+                "translation": "現金刷卡，謝謝。",
+                "speak": "現金刷卡，謝謝。",
+                "contrast_type": "mixes_payment_methods",
+                "feedback": "現金和刷卡是兩種付款方式；要用卡就只說刷卡，謝謝。"
+              },
+              {
+                "id": "r2c",
+                "surface": "卡片是現金嗎？",
+                "translation": "卡片是現金嗎？",
+                "speak": "卡片是現金嗎？",
+                "contrast_type": "confuses_card_and_cash",
+                "feedback": "刷卡和現金是兩種付款方式；要用卡就回答刷卡。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "receipt_prompt",
+          "act_slots": {
+            "topic": "receipt",
+            "keyword": "發票",
+            "gloss": "receipt/invoice"
+          },
+          "learning_role": "listen_only",
+          "surface": "需要發票嗎？",
+          "speak": "需要發票嗎？",
+          "translation": "需要發票嗎？",
+          "friend": {
+            "hint": "這次要拿發票；直接回答要，謝謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "要，謝謝。",
+                "translation": "要，謝謝。",
+                "speak": "要，謝謝。"
+              },
+              {
+                "id": "r3b",
+                "surface": "我要發票嗎？",
+                "translation": "我要發票嗎？",
+                "speak": "我要發票嗎？",
+                "contrast_type": "question_instead_of_answer",
+                "feedback": "店員問你要不要發票；這句變成反問，不是回答。"
+              },
+              {
+                "id": "r3c",
+                "surface": "發票可以刷卡嗎？",
+                "translation": "發票可以刷卡嗎？",
+                "speak": "發票可以刷卡嗎？",
+                "contrast_type": "payment_question_not_yes_no",
+                "feedback": "店員問要不要發票，不是在問付款方式。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "payment_close",
+          "act_slots": {
+            "topic": "close",
+            "keyword": "發票",
+            "gloss": "receipt"
+          },
+          "learning_role": "listen_only",
+          "surface": "這是您的發票，謝謝。",
+          "speak": "這是您的發票，謝謝。",
+          "translation": "這是您的發票，謝謝。",
+          "friend": {
+            "hint": "最後用謝謝收尾。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "謝謝。",
+                "translation": "謝謝。",
+                "speak": "謝謝。"
+              },
+              {
+                "id": "r4b",
+                "surface": "發票在這裡嗎？",
+                "translation": "發票在這裡嗎？",
+                "speak": "發票在這裡嗎？",
+                "contrast_type": "asks_after_receiving",
+                "feedback": "店員已經把發票給你了，簡短道謝即可。"
+              },
+              {
+                "id": "r4c",
+                "surface": "還沒結帳。",
+                "translation": "還沒結帳。",
+                "speak": "還沒結帳。",
+                "contrast_type": "contradicts_completion",
+                "feedback": "前面已完成付款並拿到發票。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.payment.wo_yao_jiezhang.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh.payment.shuaka_xiexie.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-2 neutral brief ml2_a1_011_food_bill_payment; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, frontend, review artifacts, or legacy content.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning payment terms such as 刷卡 and 發票; native review should confirm whether receipt wording should be 發票 or 收據 for the exact venue.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained.",
+        "zh_v2_author_pass2_20260617": "Author pass 2: resolved judge-flagged valid alternate answers by making the learner goal explicit and/or rewriting choices to a single intended correct answer. AI-authored; native_pending ceiling retained.",
+        "zh_v2_author_pass8_20260617": "Resolved pass7 t2 blocker by replacing a natural card-handover answer with a payment-method mixing near-miss. AI-authored; native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "food_coffee_ordering",
+      "brief_id": "ml0_a1_001_food_coffee_ordering",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#ml0-a1-001",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/food_coffee_ordering.zh.v1.json",
+      "title": "點一杯咖啡",
+      "setting_label": "咖啡店櫃台",
+      "wrap_title": "點餐完成",
+      "wrap_friend": "你已經用簡短自然的中文點了一杯飲料，也回答了服務人員的選項問題。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在咖啡店櫃台。用簡短、禮貌的中文點一杯飲料，並回答要在店裡喝還是帶走。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "客人"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "service_opening",
+          "act_slots": {
+            "topic": "drink_order",
+            "keyword": "喝",
+            "gloss": "drink"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，請問要喝什麼？",
+          "speak": "您好，請問要喝什麼？",
+          "translation": "您好，請問要喝什麼？",
+          "friend": "這次要點一杯熱拿鐵；說清楚品項和數量會比較自然。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "一杯熱拿鐵，謝謝。",
+                "translation": "一杯熱拿鐵，謝謝。",
+                "speak": "一杯熱拿鐵，謝謝。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "熱拿鐵是什麼？",
+                "translation": "熱拿鐵是什麼？",
+                "speak": "熱拿鐵是什麼？",
+                "contrast_type": "asks_definition_not_order",
+                "feedback": "店員問你要喝什麼；這是在問飲料是什麼，不是在點餐。"
+              },
+              {
+                "id": "c3",
+                "surface": "熱拿鐵在哪裡？",
+                "translation": "熱拿鐵在哪裡？",
+                "speak": "熱拿鐵在哪裡？",
+                "contrast_type": "asks_location_not_order",
+                "feedback": "店員問你要喝什麼；這是在問位置，不是在點一杯。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "choice_question",
+          "act_slots": {
+            "topic": "service_option",
+            "keyword": "帶走",
+            "gloss": "to go"
+          },
+          "learning_role": "listen_only",
+          "surface": "在這裡喝，還是帶走？",
+          "speak": "在這裡喝，還是帶走？",
+          "translation": "在這裡喝，還是帶走？",
+          "friend": "這次的 learner goal 是外帶，所以要回答帶走。",
+          "inline_explain": "帶走 = 外帶；這一回合練習說外帶。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "帶走，謝謝。",
+                "translation": "帶走，謝謝。",
+                "speak": "帶走，謝謝。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "在這裡等，謝謝。",
+                "translation": "在這裡等，謝謝。",
+                "speak": "在這裡等，謝謝。",
+                "contrast_type": "answers_pickup_not_dining_option",
+                "feedback": "店員問內用或外帶，不是問你在哪裡等。"
+              },
+              {
+                "id": "c3",
+                "surface": "帶走嗎？",
+                "translation": "帶走嗎？",
+                "speak": "帶走嗎？",
+                "contrast_type": "question_instead_of_answer",
+                "feedback": "這是在反問店員；要直接回答帶走，謝謝。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "confirmation",
+          "act_slots": {
+            "topic": "order_confirmation",
+            "keyword": "九十元",
+            "gloss": "90 dollars"
+          },
+          "learning_role": "listen_only",
+          "surface": "好的，一共九十元。",
+          "speak": "好的，一共九十元。",
+          "translation": "好的，一共九十元。",
+          "friend": "聽到金額後，簡短確認即可。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "好的。",
+                "translation": "好的。",
+                "speak": "好的。"
+              },
+              {
+                "id": "c2",
+                "surface": "九十號嗎？",
+                "translation": "九十號嗎？",
+                "speak": "九十號嗎？",
+                "contrast_type": "mishears_price_as_order_number",
+                "feedback": "店員說九十元是金額，不是在叫號碼。"
+              },
+              {
+                "id": "c3",
+                "surface": "可以便宜一點嗎？",
+                "translation": "可以便宜一點嗎？",
+                "speak": "可以便宜一點嗎？",
+                "contrast_type": "negotiation_not_simple_confirmation",
+                "feedback": "A1 點餐付款先簡短確認即可。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "pickup_instruction",
+          "act_slots": {
+            "topic": "pickup",
+            "keyword": "稍等",
+            "gloss": "wait briefly"
+          },
+          "learning_role": "listen_only",
+          "surface": "請在旁邊稍等一下。",
+          "speak": "請在旁邊稍等一下。",
+          "translation": "請在旁邊稍等一下。",
+          "friend": "店員已經請你稍等。用謝謝收尾很自然。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "謝謝。",
+                "translation": "謝謝。",
+                "speak": "謝謝。"
+              },
+              {
+                "id": "c2",
+                "surface": "我要在門口等嗎？",
+                "translation": "我要在門口等嗎？",
+                "speak": "我要在門口等嗎？",
+                "contrast_type": "wrong_waiting_location",
+                "feedback": "店員說在旁邊稍等，不是到門口等。"
+              },
+              {
+                "id": "c3",
+                "surface": "請快一點。",
+                "translation": "請快一點。",
+                "speak": "請快一點。",
+                "contrast_type": "impolite_closing",
+                "feedback": "語氣太急；自然結尾是謝謝。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh_one_drink_please"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh_to_go_thanks"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief ml0_a1_001_food_coffee_ordering; existing KO/JA/EN/TH and legacy-language text were not used as source strings.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, or frontend in this authoring lane.",
+        "chinese_voice_note": "Uses broadly understood Mandarin in Traditional characters to align with ui_language zh_tw; avoids mixing simplified/regional wording inside learner targets.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained.",
+        "zh_v2_author_pass2_20260617": "Author pass 2: resolved judge-flagged valid alternate answers by making the learner goal explicit and/or rewriting choices to a single intended correct answer. AI-authored; native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "food_restaurant_ordering",
+      "brief_id": "ml1_a1_006_food_restaurant_ordering",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml1-a1-006-restaurant-ordering",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/food_restaurant_ordering.zh.v1.json",
+      "title": "在餐廳點餐",
+      "setting_label": "餐廳座位",
+      "wrap_title": "點餐完成",
+      "wrap_friend": "你用自然的中文表示可以點餐、點了一道餐，並確認訂單。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在台灣常見的簡單餐廳。用短句回答店員，點一道餐並確認。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "客人"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "readiness_check",
+          "act_slots": {
+            "topic": "order_readiness",
+            "keyword": "準備好",
+            "gloss": "ready"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，準備好點餐了嗎？",
+          "speak": "您好，準備好點餐了嗎？",
+          "translation": "您好，準備好點餐了嗎？",
+          "friend": {
+            "hint": "對方問準備好了嗎；先回答可以點餐，不要先報人數。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "好了，可以點餐。",
+                "translation": "好了，可以點餐。",
+                "speak": "好了，可以點餐。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "您準備好了。",
+                "translation": "您準備好了。",
+                "speak": "您準備好了。",
+                "contrast_type": "wrong_subject",
+                "feedback": "店員問你準備好了嗎；要回答自己可以點餐。"
+              },
+              {
+                "id": "r1c",
+                "surface": "好了，請點餐。",
+                "translation": "好了，請點餐。",
+                "speak": "好了，請點餐。",
+                "contrast_type": "role_reversal",
+                "feedback": "這像叫店員點餐；客人要說自己可以點餐。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_order",
+          "act_slots": {
+            "topic": "meal_order",
+            "keyword": "想要",
+            "gloss": "would like"
+          },
+          "learning_role": "listen_only",
+          "surface": "今天想吃什麼？",
+          "speak": "今天想吃什麼？",
+          "translation": "今天想吃什麼？",
+          "friend": {
+            "hint": "用我想要一份...就能點一道餐。"
+          },
+          "inline_explain": {
+            "pattern_id": "zh.restaurant.wo_xiang_yao_yi_fen.v1",
+            "formula_ref": null,
+            "title": "我想要一份...",
+            "explain": "我想要一份... 是點一道餐的簡短自然說法。",
+            "items": [
+              {
+                "surface": "我想要一份牛肉麵。",
+                "translation": "我想要一份牛肉麵。",
+                "speak": "我想要一份牛肉麵。"
+              },
+              {
+                "surface": "我要一份水餃，謝謝。",
+                "translation": "我要一份水餃，謝謝。",
+                "speak": "我要一份水餃，謝謝。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "我想要一份牛肉麵，謝謝。",
+                "translation": "我想要一份牛肉麵，謝謝。",
+                "speak": "我想要一份牛肉麵，謝謝。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "我想要牛肉麵嗎？",
+                "translation": "我想要牛肉麵嗎？",
+                "speak": "我想要牛肉麵嗎？",
+                "contrast_type": "question_instead_of_order",
+                "feedback": "點餐要直接說我想要一份牛肉麵。"
+              },
+              {
+                "id": "r2c",
+                "surface": "我想要一份麵，謝謝。",
+                "translation": "我想要一份麵，謝謝。",
+                "speak": "我想要一份麵，謝謝。",
+                "contrast_type": "missing_key_item",
+                "feedback": "太不明確，少了牛肉麵。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "order_confirmation",
+          "act_slots": {
+            "topic": "confirm_order",
+            "keyword": "對嗎",
+            "gloss": "right"
+          },
+          "learning_role": "listen_only",
+          "surface": "一份牛肉麵，對嗎？",
+          "speak": "一份牛肉麵，對嗎？",
+          "translation": "一份牛肉麵，對嗎？",
+          "friend": {
+            "hint": "訂單正確時，說對，謝謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "對，謝謝。",
+                "translation": "對，謝謝。",
+                "speak": "對，謝謝。"
+              },
+              {
+                "id": "r3b",
+                "surface": "不是，兩份牛肉麵。",
+                "translation": "不是，兩份牛肉麵。",
+                "speak": "不是，兩份牛肉麵。",
+                "contrast_type": "wrong_quantity",
+                "feedback": "店員確認一份；兩份不對。"
+              },
+              {
+                "id": "r3c",
+                "surface": "對，一杯牛肉麵。",
+                "translation": "對，一杯牛肉麵。",
+                "speak": "對，一杯牛肉麵。",
+                "contrast_type": "wrong_measure_word",
+                "feedback": "牛肉麵不用一杯。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "service_close",
+          "act_slots": {
+            "topic": "order_accepted",
+            "keyword": "稍等",
+            "gloss": "wait briefly"
+          },
+          "learning_role": "listen_only",
+          "surface": "好的，請稍等一下。",
+          "speak": "好的，請稍等一下。",
+          "translation": "好的，請稍等一下。",
+          "friend": {
+            "hint": "點餐完成，用謝謝收尾。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "謝謝。",
+                "translation": "謝謝。",
+                "speak": "謝謝。"
+              },
+              {
+                "id": "r4b",
+                "surface": "還要點嗎？",
+                "translation": "還要點嗎？",
+                "speak": "還要點嗎？",
+                "contrast_type": "role_confusion",
+                "feedback": "這像服務生問客人，不是客人回應。"
+              },
+              {
+                "id": "r4c",
+                "surface": "我不用等。",
+                "translation": "我不用等。",
+                "speak": "我不用等。",
+                "contrast_type": "contradicts_instruction",
+                "feedback": "店員請稍等，回謝謝即可。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.restaurant.ready_to_order.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh.restaurant.wo_xiang_yao_yi_fen.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-1 neutral brief ml1_a1_006_food_restaurant_ordering; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, frontend, review artifacts, or legacy content.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning restaurant terms such as 牛肉麵 and 外帶; native review should check if the dish choice is too Taiwan-specific for a broader Mandarin lane.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained.",
+        "zh_v2_author_pass2_20260617": "Author pass 2: resolved judge-flagged valid alternate answers by making the learner goal explicit and/or rewriting choices to a single intended correct answer. AI-authored; native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "hotel_checkout",
+      "brief_id": "ml4_a1_016_hotel_checkout",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml4-a1-016-hotel-checkout",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/hotel_checkout.zh.v1.json",
+      "title": "在飯店辦理退房",
+      "setting_label": "飯店櫃台",
+      "wrap_title": "退房完成",
+      "wrap_friend": "你已經說明要退房、提供房號、交回房卡，並禮貌道謝。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在飯店櫃台退房。說明要退房、提供房號、交回房卡，最後道謝。",
+      "roles": {
+        "npc": {
+          "label": "櫃台人員"
+        },
+        "learner": {
+          "label": "住客"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "front_desk_offer",
+          "act_slots": {
+            "topic": "checkout opening",
+            "keyword": "幫忙",
+            "gloss": "help"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，請問需要幫忙嗎？",
+          "speak": "您好，請問需要幫忙嗎？",
+          "translation": "您好，請問需要幫忙嗎？",
+          "friend": "這次要直接辦理退房；可以說我要退房。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "您好，我要退房。",
+                "translation": "您好，我要退房。",
+                "speak": "您好，我要退房。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "您好，我要入住。",
+                "translation": "您好，我要入住。",
+                "speak": "您好，我要入住。",
+                "contrast_type": "opposite_hotel_action",
+                "feedback": "入住和退房相反；本情境是退房。"
+              },
+              {
+                "id": "c3",
+                "surface": "我可以住房嗎？",
+                "translation": "我可以住房嗎？",
+                "speak": "我可以住房嗎？",
+                "contrast_type": "wrong_hotel_action",
+                "feedback": "住房或入住和退房相反；本情境是退房。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "room_number_request",
+          "act_slots": {
+            "topic": "room number",
+            "keyword": "房號",
+            "gloss": "room number"
+          },
+          "learning_role": "listen_only",
+          "surface": "好的，請問房號？",
+          "speak": "好的，請問房號？",
+          "translation": "好的，請問房號？",
+          "friend": "回答房號時，說 房間是 + 數字。",
+          "inline_explain": "房間是二零四號 = Room 204.",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "房間是二零四號。",
+                "translation": "房間是二零四號。",
+                "speak": "房間是二零四號。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "房間是二零五號。",
+                "translation": "房間是二零五號。",
+                "speak": "房間是二零五號。",
+                "contrast_type": "wrong_room_number",
+                "feedback": "房號錯了；要說二零四號。"
+              },
+              {
+                "id": "c3",
+                "surface": "二零四在哪裡？",
+                "translation": "二零四在哪裡？",
+                "speak": "二零四在哪裡？",
+                "contrast_type": "asks_location_not_room_number",
+                "feedback": "櫃台問你的房號，不是在問房間位置。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "key_card_request",
+          "act_slots": {
+            "topic": "key card handover",
+            "keyword": "房卡",
+            "gloss": "room card"
+          },
+          "learning_role": "listen_only",
+          "surface": "謝謝。請把房卡給我。",
+          "speak": "謝謝。請把房卡給我。",
+          "translation": "謝謝。請把房卡給我。",
+          "friend": "交東西時，用 房卡在這裡 很自然。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "好，房卡在這裡。",
+                "translation": "好，房卡在這裡。",
+                "speak": "好，房卡在這裡。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "房卡給我嗎？",
+                "translation": "房卡給我嗎？",
+                "speak": "房卡給我嗎？",
+                "contrast_type": "role_confusion",
+                "feedback": "櫃台請你把房卡給他，不是請櫃台把房卡給你。"
+              },
+              {
+                "id": "c3",
+                "surface": "房卡是二零四號。",
+                "translation": "房卡是二零四號。",
+                "speak": "房卡是二零四號。",
+                "contrast_type": "wrong_information",
+                "feedback": "房卡不是房號回答；要把房卡給櫃台。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "checkout_complete",
+          "act_slots": {
+            "topic": "completion",
+            "keyword": "完成",
+            "gloss": "complete"
+          },
+          "learning_role": "listen_only",
+          "surface": "好了，退房完成了。",
+          "speak": "好了，退房完成了。",
+          "translation": "好了，退房完成了。",
+          "friend": "退房完成後，用謝謝您收尾。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "謝謝您。",
+                "translation": "謝謝您。",
+                "speak": "謝謝您。"
+              },
+              {
+                "id": "c2",
+                "surface": "退房完成了嗎？",
+                "translation": "退房完成了嗎？",
+                "speak": "退房完成了嗎？",
+                "contrast_type": "asks_after_completion",
+                "feedback": "櫃台已說完成了，這時道謝即可。"
+              },
+              {
+                "id": "c3",
+                "surface": "我還要住房。",
+                "translation": "我還要住房。",
+                "speak": "我還要住房。",
+                "contrast_type": "opposite_action",
+                "feedback": "這和退房完成相反。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.hotel.wo_yao_tuifang"
+        },
+        {
+          "after_turn": "t3",
+          "pattern_id": "zh.handover.fangka_zai_zheli"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-4 neutral brief ml4_a1_016_hotel_checkout; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, or frontend in this authoring lane.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning hotel terms such as 飯店 and 房卡; native review should confirm broader Mandarin compatibility.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "hotel_wifi_breakfast",
+      "brief_id": "ml1_a1_008_hotel_wifi_breakfast",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml1-a1-008-hotel-wi-fi-and-breakfast",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/hotel_wifi_breakfast.zh.v1.json",
+      "title": "飯店 Wi-Fi 和早餐",
+      "setting_label": "飯店櫃台",
+      "wrap_title": "資訊問到了",
+      "wrap_friend": "你用中文問到 Wi-Fi 密碼和早餐資訊，並確認了時間地點。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在飯店櫃台。詢問 Wi-Fi 密碼和早餐時間地點，聽懂簡短回答後道謝。",
+      "roles": {
+        "npc": {
+          "label": "櫃台人員"
+        },
+        "learner": {
+          "label": "房客"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "front_desk_opening",
+          "act_slots": {
+            "topic": "offer_help",
+            "keyword": "幫忙",
+            "gloss": "help"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，需要幫忙嗎？",
+          "speak": "您好，需要幫忙嗎？",
+          "translation": "您好，需要幫忙嗎？",
+          "friend": {
+            "hint": "這次的目標是問密碼寫在哪裡，不是請櫃台直接念密碼。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "請問 Wi-Fi 密碼在哪裡？",
+                "translation": "請問 Wi-Fi 密碼在哪裡？",
+                "speak": "請問 Wi-Fi 密碼在哪裡？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "請問 Wi-Fi 在哪張卡？",
+                "translation": "請問 Wi-Fi 在哪張卡？",
+                "speak": "請問 Wi-Fi 在哪張卡？",
+                "contrast_type": "imprecise_location_question",
+                "feedback": "你想找的是密碼的位置；Wi-Fi 本身不在卡上。"
+              },
+              {
+                "id": "r1c",
+                "surface": "Wi-Fi 密碼在房卡上。",
+                "translation": "Wi-Fi 密碼在房卡上。",
+                "speak": "Wi-Fi 密碼在房卡上。",
+                "contrast_type": "guesses_wrong_password_location",
+                "feedback": "這是在猜密碼位置，不是向櫃台詢問密碼在哪裡。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "wifi_answer",
+          "act_slots": {
+            "topic": "wifi_location",
+            "keyword": "房卡套",
+            "gloss": "room-card sleeve"
+          },
+          "learning_role": "listen_only",
+          "surface": "密碼在房卡套上。",
+          "speak": "密碼在房卡套上。",
+          "translation": "密碼在房卡套上。",
+          "friend": {
+            "hint": "房卡套就是裝房卡的紙套。"
+          },
+          "inline_explain": {
+            "pattern_id": "zh.hotel.fangka_tao.v1",
+            "formula_ref": null,
+            "title": "在房卡套上",
+            "explain": "在...上 表示資訊印在那個物品上。",
+            "items": [
+              {
+                "surface": "密碼在房卡套上。",
+                "translation": "密碼在房卡套上。",
+                "speak": "密碼在房卡套上。"
+              },
+              {
+                "surface": "密碼在這裡。",
+                "translation": "密碼在這裡。",
+                "speak": "密碼在這裡。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "在房卡套上，謝謝。",
+                "translation": "在房卡套上，謝謝。",
+                "speak": "在房卡套上，謝謝。"
+              },
+              {
+                "id": "r2b",
+                "surface": "在房卡上，謝謝。",
+                "translation": "在房卡上，謝謝。",
+                "speak": "在房卡上，謝謝。",
+                "contrast_type": "wrong_location_detail",
+                "feedback": "店員說房卡套，不是房卡本身。"
+              },
+              {
+                "id": "r2c",
+                "surface": "密碼是房卡套嗎？",
+                "translation": "密碼是房卡套嗎？",
+                "speak": "密碼是房卡套嗎？",
+                "contrast_type": "confuses_container_with_password",
+                "feedback": "房卡套是密碼的位置，不是密碼。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "prompt_more_help",
+          "act_slots": {
+            "topic": "more_help",
+            "keyword": "還需要",
+            "gloss": "still need"
+          },
+          "learning_role": "listen_only",
+          "surface": "還需要其他幫忙嗎？",
+          "speak": "還需要其他幫忙嗎？",
+          "translation": "還需要其他幫忙嗎？",
+          "friend": {
+            "hint": "接著問早餐時間。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "早餐幾點開始？",
+                "translation": "早餐幾點開始？",
+                "speak": "早餐幾點開始？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "早餐在哪裡開始？",
+                "translation": "早餐在哪裡開始？",
+                "speak": "早餐在哪裡開始？",
+                "contrast_type": "location_question_only",
+                "feedback": "少了幾點；本回合要問早餐時間。"
+              },
+              {
+                "id": "r3c",
+                "surface": "Wi-Fi 幾點開始？",
+                "translation": "Wi-Fi 幾點開始？",
+                "speak": "Wi-Fi 幾點開始？",
+                "contrast_type": "wrong_topic_uses_time_pattern",
+                "feedback": "這用了幾點，但問的是 Wi-Fi；本回合要問早餐幾點開始。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "breakfast_answer",
+          "act_slots": {
+            "topic": "breakfast_time_place",
+            "keyword": "七點",
+            "gloss": "seven o'clock"
+          },
+          "learning_role": "listen_only",
+          "surface": "早上七點開始，在二樓。",
+          "speak": "早上七點開始，在二樓。",
+          "translation": "早上七點開始，在二樓。",
+          "friend": {
+            "hint": "確認關鍵資訊：早上七點，二樓。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "早上七點，在二樓。謝謝。",
+                "translation": "早上七點，在二樓。謝謝。",
+                "speak": "早上七點，在二樓。謝謝。"
+              },
+              {
+                "id": "r4b",
+                "surface": "早上七點，在一樓。謝謝。",
+                "translation": "早上七點，在一樓。謝謝。",
+                "speak": "早上七點，在一樓。謝謝。",
+                "contrast_type": "wrong_floor",
+                "feedback": "樓層錯了；店員說二樓。"
+              },
+              {
+                "id": "r4c",
+                "surface": "晚上七點，在二樓。謝謝。",
+                "translation": "晚上七點，在二樓。謝謝。",
+                "speak": "晚上七點，在二樓。謝謝。",
+                "contrast_type": "wrong_time_of_day",
+                "feedback": "早餐是早上七點，不是晚上。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "front_desk_close",
+            "learning_role": "context_support",
+            "surface": "不客氣。",
+            "speak": "不客氣。",
+            "translation": "不客氣。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.hotel_wifi_mima_zai_nali.v1"
+        },
+        {
+          "after_turn": "t3",
+          "pattern_id": "zh.hotel_zaocan_jidian.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-1 neutral brief ml1_a1_008_hotel_wifi_breakfast; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, frontend, review artifacts, or legacy content.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning hotel terms such as 房卡套 and 飯店; native review should check whether broader Mandarin should use 酒店 or 房卡 instead.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained.",
+        "zh_v2_author_pass2_20260617": "Author pass 2: resolved judge-flagged valid alternate answers by making the learner goal explicit and/or rewriting choices to a single intended correct answer. AI-authored; native_pending ceiling retained.",
+        "zh_v2_author_pass8_20260617": "Resolved pass7 t3 blocker by replacing a natural breakfast-availability follow-up with a wrong-topic time-pattern near-miss. AI-authored; native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "problem_lost_item",
+      "brief_id": "ml5_a1_020_problem_lost_item",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml5-a1-020-say-a-small-item-is-lost",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/problem_lost_item.zh.v1.json",
+      "title": "說小物品不見了",
+      "setting_label": "服務櫃台",
+      "wrap_title": "失物詢問完成",
+      "wrap_friend": "你已經說明物品不見了、回答可能地點，並聽懂下一步去哪裡問。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在服務櫃台。說一個小物品不見了，回答可能在哪裡不見，聽懂下一步去哪裡問，最後道謝。",
+      "roles": {
+        "npc": {
+          "label": "工作人員"
+        },
+        "learner": {
+          "label": "客人"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "service_offer",
+          "act_slots": {
+            "topic": "help offer",
+            "keyword": "幫忙",
+            "gloss": "help"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，需要幫忙嗎？",
+          "speak": "您好，需要幫忙嗎？",
+          "translation": "您好，需要幫忙嗎？",
+          "friend": "低風險小物品可以說 我的...不見了。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "我的帽子不見了。",
+                "translation": "我的帽子不見了。",
+                "speak": "我的帽子不見了。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "我的帽子在哪裡？",
+                "translation": "我的帽子在哪裡？",
+                "speak": "我的帽子在哪裡？",
+                "contrast_type": "asks_location_before_reporting",
+                "feedback": "你還不知道位置；先說帽子不見了。"
+              },
+              {
+                "id": "c3",
+                "surface": "我找到了帽子。",
+                "translation": "我找到了帽子。",
+                "speak": "我找到了帽子。",
+                "contrast_type": "opposite_problem",
+                "feedback": "這表示已找到，不是遺失。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "lost_location_question",
+          "act_slots": {
+            "topic": "lost location",
+            "keyword": "哪裡",
+            "gloss": "where"
+          },
+          "learning_role": "listen_only",
+          "surface": "可能在哪裡不見的？",
+          "speak": "可能在哪裡不見的？",
+          "translation": "可能在哪裡不見的？",
+          "friend": "回答簡單地點即可，不需要解釋細節。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "可能在咖啡店。",
+                "translation": "可能在咖啡店。",
+                "speak": "可能在咖啡店。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "可能是咖啡。",
+                "translation": "可能是咖啡。",
+                "speak": "可能是咖啡。",
+                "contrast_type": "wrong_noun",
+                "feedback": "咖啡不是地點；要說可能在咖啡店。"
+              },
+              {
+                "id": "c3",
+                "surface": "可能在昨天。",
+                "translation": "可能在昨天。",
+                "speak": "可能在昨天。",
+                "contrast_type": "time_not_place",
+                "feedback": "對方問在哪裡，不是什麼時候。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "next_desk_location",
+          "act_slots": {
+            "topic": "next step",
+            "keyword": "失物招領",
+            "gloss": "lost and found"
+          },
+          "learning_role": "listen_only",
+          "surface": "請到左邊的失物招領處問問。",
+          "speak": "請到左邊的失物招領處問問。",
+          "translation": "請到左邊的失物招領處問問。",
+          "friend": "聽到下一步後，確認位置。",
+          "inline_explain": "失物招領處 = 詢問遺失物品的地方。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "左邊的失物招領處嗎？",
+                "translation": "左邊的失物招領處嗎？",
+                "speak": "左邊的失物招領處嗎？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "右邊的失物招領處嗎？",
+                "translation": "右邊的失物招領處嗎？",
+                "speak": "右邊的失物招領處嗎？",
+                "contrast_type": "wrong_direction",
+                "feedback": "店員說左邊，不是右邊。"
+              },
+              {
+                "id": "c3",
+                "surface": "左邊的櫃台嗎？",
+                "translation": "左邊的櫃台嗎？",
+                "speak": "左邊的櫃台嗎？",
+                "contrast_type": "wrong_place_detail",
+                "feedback": "店員說失物招領處，不只是櫃台。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "next_step_confirmed",
+          "act_slots": {
+            "topic": "confirmation",
+            "keyword": "對",
+            "gloss": "yes"
+          },
+          "learning_role": "listen_only",
+          "surface": "對，請在那裡問。",
+          "speak": "對，請在那裡問。",
+          "translation": "對，請在那裡問。",
+          "friend": "最後用好的，謝謝收尾。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "好的，謝謝。",
+                "translation": "好的，謝謝。",
+                "speak": "好的，謝謝。"
+              },
+              {
+                "id": "c2",
+                "surface": "在這裡問嗎？",
+                "translation": "在這裡問嗎？",
+                "speak": "在這裡問嗎？",
+                "contrast_type": "wrong_location_confirmation",
+                "feedback": "店員說在那裡問，不是在這裡。"
+              },
+              {
+                "id": "c3",
+                "surface": "好，我在右邊問。",
+                "translation": "好，我在右邊問。",
+                "speak": "好，我在右邊問。",
+                "contrast_type": "wrong_direction",
+                "feedback": "方向錯了；應該去左邊。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.problem.bujian_le"
+        },
+        {
+          "after_turn": "t3",
+          "pattern_id": "zh.service.shiwu_zhaoling"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-5 neutral brief ml5_a1_020_problem_lost_item; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, or frontend in this authoring lane.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-compatible `不見了` and `失物招領處`; avoids police, theft, identity, compensation, and money-dispute framing.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "shopping_ask_price",
+      "brief_id": "ml2_a1_009_shopping_ask_price",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml2-a1-009-shopping-ask-price",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/shopping_ask_price.zh.v1.json",
+      "title": "問商品價格",
+      "setting_label": "小店櫃台",
+      "wrap_title": "聽懂價格",
+      "wrap_friend": "你用自然的中文詢問商品價格，聽懂價格後簡短回應。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在台灣常見的小店或攤位。用短句問這個東西多少錢，聽懂價格後回應。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "客人"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "shop_greeting",
+          "act_slots": {
+            "topic": "attention",
+            "keyword": "需要幫忙",
+            "gloss": "need help"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，需要幫忙嗎？",
+          "speak": "您好，需要幫忙嗎？",
+          "translation": "您好，需要幫忙嗎？",
+          "friend": {
+            "hint": "先用不好意思叫住店員，再問價格。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "不好意思，這個多少錢？",
+                "translation": "不好意思，這個多少錢？",
+                "speak": "不好意思，這個多少錢？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "不好意思，這個幾點？",
+                "translation": "不好意思，這個幾點？",
+                "speak": "不好意思，這個幾點？",
+                "contrast_type": "wrong_question_word",
+                "feedback": "幾點問時間；買東西要問多少錢。"
+              },
+              {
+                "id": "r1c",
+                "surface": "不好意思，這個很貴嗎？",
+                "translation": "不好意思，這個很貴嗎？",
+                "speak": "不好意思，這個很貴嗎？",
+                "contrast_type": "asks_opinion_not_price",
+                "feedback": "這是在問貴不貴，不是問價格。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "price_answer",
+          "act_slots": {
+            "topic": "price",
+            "keyword": "八十塊",
+            "gloss": "eighty dollars"
+          },
+          "learning_role": "listen_only",
+          "surface": "這個八十塊。",
+          "speak": "這個八十塊。",
+          "translation": "這個八十塊。",
+          "friend": {
+            "hint": "要買時可以說好，我要這個。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "好，我要這個。",
+                "translation": "好，我要這個。",
+                "speak": "好，我要這個。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "好，我要兩個。",
+                "translation": "好，我要兩個。",
+                "speak": "好，我要兩個。",
+                "contrast_type": "wrong_quantity",
+                "feedback": "店員只說這個八十塊；目標是買這一個。"
+              },
+              {
+                "id": "r2c",
+                "surface": "好，我要那個。",
+                "translation": "好，我要那個。",
+                "speak": "好，我要那個。",
+                "contrast_type": "switches_item_after_price",
+                "feedback": "店員剛說的是這個的價格；本回合目標是買這個。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "confirm_purchase",
+          "act_slots": {
+            "topic": "confirm_item",
+            "keyword": "這個",
+            "gloss": "this one"
+          },
+          "learning_role": "listen_only",
+          "surface": "這個，對嗎？",
+          "speak": "這個，對嗎？",
+          "translation": "這個，對嗎？",
+          "friend": {
+            "hint": "商品正確時，直接說對，謝謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "對，謝謝。",
+                "translation": "對，謝謝。",
+                "speak": "對，謝謝。"
+              },
+              {
+                "id": "r3b",
+                "surface": "不是，那個。",
+                "translation": "不是，那個。",
+                "speak": "不是，那個。",
+                "contrast_type": "opposite_item",
+                "feedback": "店員確認這個；目標是確認這個沒錯。"
+              },
+              {
+                "id": "r3c",
+                "surface": "對，多少錢？",
+                "translation": "對，多少錢？",
+                "speak": "對，多少錢？",
+                "contrast_type": "repeats_price_question",
+                "feedback": "價格前面已經說了，現在只要確認。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "service_close",
+          "act_slots": {
+            "topic": "close",
+            "keyword": "謝謝",
+            "gloss": "thanks"
+          },
+          "learning_role": "listen_only",
+          "surface": "好的，謝謝。",
+          "speak": "好的，謝謝。",
+          "translation": "好的，謝謝。",
+          "friend": {
+            "hint": "最後簡短道謝即可。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "謝謝。",
+                "translation": "謝謝。",
+                "speak": "謝謝。"
+              },
+              {
+                "id": "r4b",
+                "surface": "還沒好嗎？",
+                "translation": "還沒好嗎？",
+                "speak": "還沒好嗎？",
+                "contrast_type": "asks_after_completion",
+                "feedback": "店員已完成交易，簡短道謝即可。"
+              },
+              {
+                "id": "r4c",
+                "surface": "我不要了。",
+                "translation": "我不要了。",
+                "speak": "我不要了。",
+                "contrast_type": "cancels_after_purchase",
+                "feedback": "前面已確認購買，現在取消不符合目標。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.shopping.zhege_duoshao_qian.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh.shopping.wo_yao_zhege.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-2 neutral brief ml2_a1_009_shopping_ask_price; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, frontend, review artifacts, or legacy content.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning retail wording such as 塊 for dollars; native review should confirm whether a broader Mandarin lane should prefer 元.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "social_running_late",
+      "brief_id": "ml5_a1_019_social_running_late",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml5-a1-019-say-you-are-running-late",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/social_running_late.zh.v1.json",
+      "title": "說自己會晚到",
+      "setting_label": "傳訊息給朋友",
+      "wrap_title": "晚到訊息完成",
+      "wrap_friend": "你已經告訴朋友會晚到、說幾分鐘、謝謝對方，並自然收尾。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你要跟朋友見面，但會晚到。簡單說抱歉、晚一點到、幾分鐘、謝謝和待會見。",
+      "roles": {
+        "npc": {
+          "label": "朋友"
+        },
+        "learner": {
+          "label": "你"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "friend_check",
+          "act_slots": {
+            "topic": "arrival",
+            "keyword": "哪裡",
+            "gloss": "where"
+          },
+          "learning_role": "listen_only",
+          "surface": "你在哪裡？",
+          "speak": "你在哪裡？",
+          "translation": "你在哪裡？",
+          "friend": "朋友訊息可以簡單說 不好意思，我會晚一點到。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "不好意思，我會晚一點到。",
+                "translation": "不好意思，我會晚一點到。",
+                "speak": "不好意思，我會晚一點到。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "不好意思，我已經到了。",
+                "translation": "不好意思，我已經到了。",
+                "speak": "不好意思，我已經到了。",
+                "contrast_type": "opposite_status",
+                "feedback": "這表示已到，不是會晚到。"
+              },
+              {
+                "id": "c3",
+                "surface": "我晚一點在哪裡？",
+                "translation": "我晚一點在哪裡？",
+                "speak": "我晚一點在哪裡？",
+                "contrast_type": "confusing_question",
+                "feedback": "對方問你在哪裡；自然先道歉並說會晚到。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "minutes_question",
+          "act_slots": {
+            "topic": "time estimate",
+            "keyword": "分鐘",
+            "gloss": "minutes"
+          },
+          "learning_role": "listen_only",
+          "surface": "幾分鐘？",
+          "speak": "幾分鐘？",
+          "translation": "幾分鐘？",
+          "friend": "用 大概十分鐘 回答很簡單。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "大概十分鐘。",
+                "translation": "大概十分鐘。",
+                "speak": "大概十分鐘。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "十分。",
+                "translation": "十分。",
+                "speak": "十分。",
+                "contrast_type": "missing_minutes_word",
+                "feedback": "少了分鐘，中文不完整。"
+              },
+              {
+                "id": "c3",
+                "surface": "大概十點。",
+                "translation": "大概十點。",
+                "speak": "大概十點。",
+                "contrast_type": "time_not_duration",
+                "feedback": "對方問幾分鐘，不是幾點。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "friend_waits",
+          "act_slots": {
+            "topic": "waiting",
+            "keyword": "等",
+            "gloss": "wait"
+          },
+          "learning_role": "listen_only",
+          "surface": "好，我等你。",
+          "speak": "好，我等你。",
+          "translation": "好，我等你。",
+          "friend": "朋友願意等時，直接說謝謝你等我。",
+          "inline_explain": "等你 = 在那裡等你。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "謝謝你等我。",
+                "translation": "謝謝你等我。",
+                "speak": "謝謝你等我。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "不用等我。",
+                "translation": "不用等我。",
+                "speak": "不用等我。",
+                "contrast_type": "opposite_request",
+                "feedback": "這表示請對方不要等；目標是感謝對方等。"
+              },
+              {
+                "id": "c3",
+                "surface": "我等你。",
+                "translation": "我等你。",
+                "speak": "我等你。",
+                "contrast_type": "role_reversal",
+                "feedback": "現在是對方等你，不是你等對方。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "friend_close",
+          "act_slots": {
+            "topic": "close",
+            "keyword": "見",
+            "gloss": "see"
+          },
+          "learning_role": "listen_only",
+          "surface": "待會見。",
+          "speak": "待會見。",
+          "translation": "待會見。",
+          "friend": "朋友結尾可以直接回待會見。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "好，待會見。",
+                "translation": "好，待會見。",
+                "speak": "好，待會見。"
+              },
+              {
+                "id": "c2",
+                "surface": "好，十分鐘。",
+                "translation": "好，十分鐘。",
+                "speak": "好，十分鐘。",
+                "contrast_type": "repeats_delay_at_closing",
+                "feedback": "延遲時間已說過，結尾用待會見更自然。"
+              },
+              {
+                "id": "c3",
+                "surface": "你等我嗎？",
+                "translation": "你等我嗎？",
+                "speak": "你等我嗎？",
+                "contrast_type": "question_after_agreement",
+                "feedback": "對方已說會等，現在不用再問。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.friend.wan_yidian_dao"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh.time.dagai_shi_fenzhong"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-5 neutral brief ml5_a1_019_social_running_late; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, or frontend in this authoring lane.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning friend-chat `不好意思` and `待會見`, avoiding live-location or conflict framing.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_hotel_checkin",
+      "brief_id": "ml0_a1_002_travel_hotel_checkin",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#ml0-a1-002",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_hotel_checkin.zh.v1.json",
+      "title": "在飯店辦理入住",
+      "setting_label": "飯店櫃台",
+      "wrap_title": "入住完成",
+      "wrap_friend": "你已經說明有預訂，也提供了姓名，完成入住開場。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你到飯店櫃台辦理入住。用簡短中文說你有預訂，並回答姓名問題。",
+      "roles": {
+        "npc": {
+          "label": "櫃台人員"
+        },
+        "learner": {
+          "label": "住客"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "front_desk_greeting",
+          "act_slots": {
+            "topic": "check_in",
+            "keyword": "預訂",
+            "gloss": "reservation"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，請問有預訂嗎？",
+          "speak": "您好，請問有預訂嗎？",
+          "translation": "您好，請問有預訂嗎？",
+          "friend": "飯店櫃台通常用您好和請問。回答時說明有預訂即可。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "有，我有預訂。",
+                "translation": "有，我有預訂。",
+                "speak": "有，我有預訂。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "有，我要預訂。",
+                "translation": "有，我要預訂。",
+                "speak": "有，我要預訂。",
+                "contrast_type": "wrong_tense",
+                "feedback": "這像現在要訂；店員問你有沒有已經預訂。"
+              },
+              {
+                "id": "c3",
+                "surface": "有，我有房間。",
+                "translation": "有，我有房間。",
+                "speak": "有，我有房間。",
+                "contrast_type": "unnatural_reservation_answer",
+                "feedback": "中文可理解但不自然；入住時說有預訂。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "name_request",
+          "act_slots": {
+            "topic": "guest_name",
+            "keyword": "貴姓",
+            "gloss": "surname"
+          },
+          "learning_role": "listen_only",
+          "surface": "請問貴姓？",
+          "speak": "請問貴姓？",
+          "translation": "請問您姓什麼？",
+          "friend": "貴姓是服務情境中禮貌地問姓氏的說法。",
+          "inline_explain": "請問貴姓？= 請問您姓什麼？",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "我姓陳。",
+                "translation": "我姓陳。",
+                "speak": "我姓陳。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "我叫陳。",
+                "translation": "我叫陳。",
+                "speak": "我叫陳。",
+                "contrast_type": "name_not_surname",
+                "feedback": "對方問貴姓，回答我姓陳更自然。"
+              },
+              {
+                "id": "c3",
+                "surface": "我姓房間二零四。",
+                "translation": "我姓房間二零四。",
+                "speak": "我姓房間二零四。",
+                "contrast_type": "wrong_information",
+                "feedback": "這把房號當姓氏，不對。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "reservation_confirmation",
+          "act_slots": {
+            "topic": "reservation_found",
+            "keyword": "找到了",
+            "gloss": "found"
+          },
+          "learning_role": "listen_only",
+          "surface": "謝謝，我找到您的預訂了。",
+          "speak": "謝謝，我找到您的預訂了。",
+          "translation": "謝謝，我找到您的預訂了。",
+          "friend": "聽懂櫃台確認即可，用簡短回應。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "謝謝。",
+                "translation": "謝謝。",
+                "speak": "謝謝。"
+              },
+              {
+                "id": "c2",
+                "surface": "找到我的預訂嗎？",
+                "translation": "找到我的預訂嗎？",
+                "speak": "找到我的預訂嗎？",
+                "contrast_type": "asks_after_confirmation",
+                "feedback": "櫃台已說找到預訂，這時道謝即可。"
+              },
+              {
+                "id": "c3",
+                "surface": "不是我的預訂。",
+                "translation": "不是我的預訂。",
+                "speak": "不是我的預訂。",
+                "contrast_type": "contradicts_confirmation",
+                "feedback": "櫃台已確認是你的預訂。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "key_direction",
+          "act_slots": {
+            "topic": "room_key",
+            "keyword": "房卡",
+            "gloss": "room card"
+          },
+          "learning_role": "listen_only",
+          "surface": "這是您的房卡，房間是二零四號。",
+          "speak": "這是您的房卡，房間是二零四號。",
+          "translation": "這是您的房卡，房間是二零四號。",
+          "friend": "你拿到房卡了。用謝謝收尾。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "謝謝您。",
+                "translation": "謝謝您。",
+                "speak": "謝謝您。"
+              },
+              {
+                "id": "c2",
+                "surface": "房間在哪張卡？",
+                "translation": "房間在哪張卡？",
+                "speak": "房間在哪張卡？",
+                "contrast_type": "unnatural_question",
+                "feedback": "櫃台已給房卡和房號，直接道謝即可。"
+              },
+              {
+                "id": "c3",
+                "surface": "二零五號，謝謝。",
+                "translation": "二零五號，謝謝。",
+                "speak": "二零五號，謝謝。",
+                "contrast_type": "wrong_room_number",
+                "feedback": "房號錯了；櫃台說二零四號。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh_have_reservation"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh_surname_answer"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief ml0_a1_002_travel_hotel_checkin; existing KO/JA/EN/TH and legacy-language text were not used as source strings.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, or frontend in this authoring lane.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin service register; native review should confirm hotel terminology such as 預訂 and 房卡 for the target locale.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_restroom_directions",
+      "brief_id": "ml0_a1_003_travel_restroom_directions",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#ml0-a1-003",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_restroom_directions.zh.v1.json",
+      "title": "問洗手間在哪裡",
+      "setting_label": "公共場所",
+      "wrap_title": "找到方向",
+      "wrap_friend": "你已經禮貌地問了洗手間位置，也聽懂了簡短方向。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在公共場所，需要問洗手間在哪裡。用簡短、禮貌的中文問路，並確認方向。",
+      "roles": {
+        "npc": {
+          "label": "工作人員"
+        },
+        "learner": {
+          "label": "訪客"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "attention_prompt",
+          "act_slots": {
+            "topic": "help_available",
+            "keyword": "幫忙",
+            "gloss": "help"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，需要幫忙嗎？",
+          "speak": "您好，需要幫忙嗎？",
+          "translation": "您好，需要幫忙嗎？",
+          "friend": "這次要問洗手間的位置；先禮貌開口，再問在哪裡。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "不好意思，洗手間在哪裡？",
+                "translation": "不好意思，洗手間在哪裡？",
+                "speak": "不好意思，洗手間在哪裡？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "不好意思，洗手間幾點？",
+                "translation": "不好意思，洗手間幾點？",
+                "speak": "不好意思，洗手間幾點？",
+                "contrast_type": "wrong_question_word",
+                "feedback": "洗手間不是時間安排；要問位置，說洗手間在哪裡。"
+              },
+              {
+                "id": "c3",
+                "surface": "不好意思，我在哪裡？",
+                "translation": "不好意思，我在哪裡？",
+                "speak": "不好意思，我在哪裡？",
+                "contrast_type": "too_general_question",
+                "feedback": "問題太泛，不是問洗手間的位置。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "direction",
+          "act_slots": {
+            "topic": "simple_route",
+            "keyword": "往前走 左轉",
+            "gloss": "go straight, turn left"
+          },
+          "learning_role": "listen_only",
+          "surface": "往前走，然後左轉。",
+          "speak": "往前走，然後左轉。",
+          "translation": "往前走，然後左轉。",
+          "friend": "方向很短：往前走，然後左轉。",
+          "inline_explain": "往前走 = go straight；左轉 = turn left。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "往前走再左轉，對嗎？",
+                "translation": "往前走再左轉，對嗎？",
+                "speak": "往前走再左轉，對嗎？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "往前走再右轉，對嗎？",
+                "translation": "往前走再右轉，對嗎？",
+                "speak": "往前走再右轉，對嗎？",
+                "contrast_type": "wrong_direction",
+                "feedback": "方向錯了；店員說左轉。"
+              },
+              {
+                "id": "c3",
+                "surface": "左轉再往前走，對嗎？",
+                "translation": "左轉再往前走，對嗎？",
+                "speak": "左轉再往前走，對嗎？",
+                "contrast_type": "wrong_sequence",
+                "feedback": "順序錯了；先往前走，再左轉。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "confirmation",
+          "act_slots": {
+            "topic": "direction_confirmed",
+            "keyword": "對",
+            "gloss": "yes"
+          },
+          "learning_role": "listen_only",
+          "surface": "對，就在左邊。",
+          "speak": "對，就在左邊。",
+          "translation": "對，就在左邊。",
+          "friend": "對方確認你的理解。接著道謝即可。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "謝謝。",
+                "translation": "謝謝。",
+                "speak": "謝謝。"
+              },
+              {
+                "id": "c2",
+                "surface": "在右邊嗎？",
+                "translation": "在右邊嗎？",
+                "speak": "在右邊嗎？",
+                "contrast_type": "wrong_side",
+                "feedback": "店員說左邊，不是右邊。"
+              },
+              {
+                "id": "c3",
+                "surface": "我再往前走嗎？",
+                "translation": "我再往前走嗎？",
+                "speak": "我再往前走嗎？",
+                "contrast_type": "unnecessary_extra_step",
+                "feedback": "店員已確認就在左邊，簡短道謝即可。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "closing",
+          "act_slots": {
+            "topic": "polite_close",
+            "keyword": "不客氣",
+            "gloss": "you are welcome"
+          },
+          "learning_role": "listen_only",
+          "surface": "不客氣。",
+          "speak": "不客氣。",
+          "translation": "不客氣。",
+          "friend": "情境完成。你已經問到方向了。",
+          "reply_set": {
+            "correct": [
+              "c1",
+              "c2"
+            ],
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "再見。",
+                "translation": "再見。",
+                "speak": "再見。"
+              },
+              {
+                "id": "c2",
+                "surface": "謝謝你。",
+                "translation": "謝謝你。",
+                "speak": "謝謝你。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c3",
+                "surface": "我再問一次。",
+                "translation": "我再問一次。",
+                "speak": "我再問一次。",
+                "contrast_type": "unnecessary_repeat",
+                "feedback": "方向已確認，不需要再問。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh_excuse_me_where_is"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh_direction_confirmation"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief ml0_a1_003_travel_restroom_directions; existing KO/JA/EN/TH and legacy-language text were not used as source strings.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, or frontend in this authoring lane.",
+        "chinese_voice_note": "Uses 洗手間 as a broadly understandable public-venue term and keeps directions short for A1.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_station_directions",
+      "brief_id": "ml1_a1_007_travel_station_directions",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml1-a1-007-station-or-exit-directions",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_station_directions.zh.v1.json",
+      "title": "在車站問路",
+      "setting_label": "捷運站大廳",
+      "wrap_title": "方向聽懂了",
+      "wrap_friend": "你用中文問到二號月台，也確認了直走右轉的方向。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在台灣常見的捷運或車站大廳。禮貌詢問二號月台，並確認簡短方向。",
+      "roles": {
+        "npc": {
+          "label": "站務人員"
+        },
+        "learner": {
+          "label": "旅客"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "attention_opening",
+          "act_slots": {
+            "topic": "offer_help",
+            "keyword": "請說",
+            "gloss": "go ahead"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，請說。",
+          "speak": "您好，請說。",
+          "translation": "您好，請說。",
+          "friend": {
+            "hint": "問路先用請問，再說要找的地方。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "請問二號月台在哪裡？",
+                "translation": "請問二號月台在哪裡？",
+                "speak": "請問二號月台在哪裡？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "請問二號出口在哪裡？",
+                "translation": "請問二號出口在哪裡？",
+                "speak": "請問二號出口在哪裡？",
+                "contrast_type": "wrong_place_type",
+                "feedback": "出口和月台不同；目標是問二號月台。"
+              },
+              {
+                "id": "r1c",
+                "surface": "請問月台幾號？",
+                "translation": "請問月台幾號？",
+                "speak": "請問月台幾號？",
+                "contrast_type": "asks_number_not_location",
+                "feedback": "你已知道二號月台，要問在哪裡。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "give_direction",
+          "act_slots": {
+            "topic": "short_direction",
+            "keyword": "直走",
+            "gloss": "go straight"
+          },
+          "learning_role": "listen_only",
+          "surface": "往前直走，然後右轉。",
+          "speak": "往前直走，然後右轉。",
+          "translation": "往前直走，然後右轉。",
+          "friend": {
+            "hint": "抓住直走和右轉兩個方向詞。"
+          },
+          "inline_explain": {
+            "pattern_id": "zh.station.zhizou_youzhuan.v1",
+            "formula_ref": null,
+            "title": "直走 / 右轉",
+            "explain": "直走是往前走，右轉是往右邊轉。",
+            "items": [
+              {
+                "surface": "往前直走。",
+                "translation": "往前直走。",
+                "speak": "往前直走。"
+              },
+              {
+                "surface": "然後右轉。",
+                "translation": "然後右轉。",
+                "speak": "然後右轉。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "直走，然後右轉。",
+                "translation": "直走，然後右轉。",
+                "speak": "直走，然後右轉。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "直走，然後左轉。",
+                "translation": "直走，然後左轉。",
+                "speak": "直走，然後左轉。",
+                "contrast_type": "wrong_direction",
+                "feedback": "店員說右轉，不是左轉。"
+              },
+              {
+                "id": "r2c",
+                "surface": "右轉，然後直走。",
+                "translation": "右轉，然後直走。",
+                "speak": "右轉，然後直走。",
+                "contrast_type": "wrong_sequence",
+                "feedback": "順序錯了；先直走，再右轉。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "platform_detail",
+          "act_slots": {
+            "topic": "platform_location",
+            "keyword": "手扶梯",
+            "gloss": "escalator"
+          },
+          "learning_role": "listen_only",
+          "surface": "再搭手扶梯下去。",
+          "speak": "再搭手扶梯下去。",
+          "translation": "再搭手扶梯下去。",
+          "friend": {
+            "hint": "聽懂後可以簡短確認並道謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "好，謝謝。",
+                "translation": "好，謝謝。",
+                "speak": "好，謝謝。"
+              },
+              {
+                "id": "r3b",
+                "surface": "搭電梯下去嗎？",
+                "translation": "搭電梯下去嗎？",
+                "speak": "搭電梯下去嗎？",
+                "contrast_type": "wrong_transport_detail",
+                "feedback": "店員說手扶梯，不是電梯。"
+              },
+              {
+                "id": "r3c",
+                "surface": "先下去再右轉嗎？",
+                "translation": "先下去再右轉嗎？",
+                "speak": "先下去再右轉嗎？",
+                "contrast_type": "wrong_sequence",
+                "feedback": "前面已說先直走右轉，再下去。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "close_help",
+          "act_slots": {
+            "topic": "closing",
+            "keyword": "不客氣",
+            "gloss": "you are welcome"
+          },
+          "learning_role": "listen_only",
+          "surface": "不客氣。",
+          "speak": "不客氣。",
+          "translation": "不客氣。",
+          "friend": {
+            "hint": "問路結尾再道謝即可。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "謝謝。",
+                "translation": "謝謝。",
+                "speak": "謝謝。"
+              },
+              {
+                "id": "r4b",
+                "surface": "好，我去二號出口。",
+                "translation": "好，我去二號出口。",
+                "speak": "好，我去二號出口。",
+                "contrast_type": "wrong_destination",
+                "feedback": "你要去二號月台，不是二號出口。"
+              },
+              {
+                "id": "r4c",
+                "surface": "還要右轉嗎？",
+                "translation": "還要右轉嗎？",
+                "speak": "還要右轉嗎？",
+                "contrast_type": "repeats_previous_instruction",
+                "feedback": "方向已說明，結尾道謝即可。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.station_qingwen_yuetai.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh.station_zhizou_youzhuan.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-1 neutral brief ml1_a1_007_travel_station_directions; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, frontend, review artifacts, or legacy content.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning transit terms such as 月台, 站務人員, 手扶梯; native review should check if the scene should be rail station or MRT.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_taxi_destination",
+      "brief_id": "ml4_a1_015_travel_taxi_destination",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml4-a1-015-taxi-destination",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_taxi_destination.zh.v1.json",
+      "title": "在計程車說目的地",
+      "setting_label": "計程車",
+      "wrap_title": "目的地確認好了",
+      "wrap_friend": "你已經說出目的地、確認正確，也聽懂大概時間並禮貌收尾。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你上了計程車。用簡短中文說目的地、確認，並聽懂大概時間。",
+      "roles": {
+        "npc": {
+          "label": "司機"
+        },
+        "learner": {
+          "label": "乘客"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "destination_question",
+          "act_slots": {
+            "topic": "destination",
+            "keyword": "去哪裡",
+            "gloss": "where to"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，要去哪裡？",
+          "speak": "您好，要去哪裡？",
+          "translation": "您好，要去哪裡？",
+          "friend": "在台灣計程車情境，乘客可以用 到 + 地點 + 謝謝。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "到星光飯店，謝謝。",
+                "translation": "到星光飯店，謝謝。",
+                "speak": "到星光飯店，謝謝。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "星光飯店在哪裡？",
+                "translation": "星光飯店在哪裡？",
+                "speak": "星光飯店在哪裡？",
+                "contrast_type": "asks_location_not_destination",
+                "feedback": "司機問要去哪裡，直接說到星光飯店。"
+              },
+              {
+                "id": "c3",
+                "surface": "去飯店，謝謝。",
+                "translation": "去飯店，謝謝。",
+                "speak": "去飯店，謝謝。",
+                "contrast_type": "too_vague_destination",
+                "feedback": "飯店太不明確，要說星光飯店。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "destination_confirmation",
+          "act_slots": {
+            "topic": "confirm destination",
+            "keyword": "對嗎",
+            "gloss": "right"
+          },
+          "learning_role": "listen_only",
+          "surface": "星光飯店，對嗎？",
+          "speak": "星光飯店，對嗎？",
+          "translation": "星光飯店，對嗎？",
+          "friend": "目的地正確時，用 對，沒錯 確認即可。",
+          "inline_explain": "對，沒錯 = yes, that's right.",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "對，沒錯。",
+                "translation": "對，沒錯。",
+                "speak": "對，沒錯。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "不是，星光車站。",
+                "translation": "不是，星光車站。",
+                "speak": "不是，星光車站。",
+                "contrast_type": "wrong_destination",
+                "feedback": "目的地變成車站，不是飯店。"
+              },
+              {
+                "id": "c3",
+                "surface": "星光飯店在哪裡？",
+                "translation": "星光飯店在哪裡？",
+                "speak": "星光飯店在哪裡？",
+                "contrast_type": "question_instead_of_confirmation",
+                "feedback": "司機在確認目的地，回答對，沒錯。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "duration_notice",
+          "act_slots": {
+            "topic": "short duration",
+            "keyword": "分鐘",
+            "gloss": "minutes"
+          },
+          "learning_role": "listen_only",
+          "surface": "好，大概十分鐘。",
+          "speak": "好，大概十分鐘。",
+          "translation": "好，大概十分鐘。",
+          "friend": "聽到時間後，用 好的 表示知道了。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "好的。",
+                "translation": "好的。",
+                "speak": "好的。"
+              },
+              {
+                "id": "c2",
+                "surface": "十塊嗎？",
+                "translation": "十塊嗎？",
+                "speak": "十塊嗎？",
+                "contrast_type": "mishears_minutes_as_money",
+                "feedback": "十分鐘是時間，不是金額。"
+              },
+              {
+                "id": "c3",
+                "surface": "太久了。",
+                "translation": "太久了。",
+                "speak": "太久了。",
+                "contrast_type": "complaint_not_acknowledgement",
+                "feedback": "A1 情境中簡短確認即可。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "arrival_notice",
+          "act_slots": {
+            "topic": "arrival",
+            "keyword": "到了",
+            "gloss": "arrived"
+          },
+          "learning_role": "listen_only",
+          "surface": "到了。",
+          "speak": "到了。",
+          "translation": "到了。",
+          "friend": "到達時，用謝謝收尾即可。",
+          "reply_set": {
+            "correct": "c1",
+            "choices": [
+              {
+                "id": "c1",
+                "surface": "謝謝您。",
+                "translation": "謝謝您。",
+                "speak": "謝謝您。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "c2",
+                "surface": "到了嗎？",
+                "translation": "到了嗎？",
+                "speak": "到了嗎？",
+                "contrast_type": "asks_after_arrival",
+                "feedback": "司機已說到了，這時道謝即可。"
+              },
+              {
+                "id": "c3",
+                "surface": "再去星光飯店。",
+                "translation": "再去星光飯店。",
+                "speak": "再去星光飯店。",
+                "contrast_type": "repeats_completed_destination",
+                "feedback": "已經到目的地，不需要再說一次。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.taxi.dao_destination_xiexie"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh.confirm.dui_meicuo"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-4 neutral brief ml4_a1_015_travel_taxi_destination; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, or frontend in this authoring lane.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning taxi terms such as 計程車 and 飯店; native review should confirm broader Mandarin compatibility.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_ticket_buying",
+      "brief_id": "ml3_a1_013_travel_ticket_buying",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml3-a1-013-buy-a-ticket",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-zh",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_ticket_buying.zh.v1.json",
+      "title": "買一張車票",
+      "setting_label": "車站售票窗口",
+      "wrap_title": "車票買好了",
+      "wrap_friend": "你用中文買一張到台中的車票、確認資訊，並禮貌收尾。",
+      "language": "zh",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "ai_semantic_reviewed_native_pending",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在台灣車站售票窗口。買一張到台中的車票，確認後付款或道謝。",
+      "roles": {
+        "npc": {
+          "label": "售票員"
+        },
+        "learner": {
+          "label": "旅客"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "ticket_counter_offer",
+          "act_slots": {
+            "topic": "help",
+            "keyword": "您好",
+            "gloss": "hello"
+          },
+          "learning_role": "listen_only",
+          "surface": "您好，請問要去哪裡？",
+          "speak": "您好，請問要去哪裡？",
+          "translation": "您好，請問要去哪裡？",
+          "friend": {
+            "hint": "說一張到目的地的票。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "我要一張到台中的票。",
+                "translation": "我要一張到台中的票。",
+                "speak": "我要一張到台中的票。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "台中在哪裡？",
+                "translation": "台中在哪裡？",
+                "speak": "台中在哪裡？",
+                "contrast_type": "asks_location_not_ticket",
+                "feedback": "售票員問你要去哪裡買票；這是在問城市位置，不是在買票。"
+              },
+              {
+                "id": "r1c",
+                "surface": "我要一張台北的票。",
+                "translation": "我要一張台北的票。",
+                "speak": "我要一張台北的票。",
+                "contrast_type": "wrong_destination",
+                "feedback": "目的地錯了；目標是台中。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ticket_confirm",
+          "act_slots": {
+            "topic": "confirmation",
+            "keyword": "台中",
+            "gloss": "Taichung"
+          },
+          "learning_role": "listen_only",
+          "surface": "一張到台中，對嗎？",
+          "speak": "一張到台中，對嗎？",
+          "translation": "一張到台中，對嗎？",
+          "friend": {
+            "hint": "確認正確即可。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "對，謝謝。",
+                "translation": "對，謝謝。",
+                "speak": "對，謝謝。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "不是，到台北。",
+                "translation": "不是，到台北。",
+                "speak": "不是，到台北。",
+                "contrast_type": "wrong_destination",
+                "feedback": "店員確認台中；台北不對。"
+              },
+              {
+                "id": "r2c",
+                "surface": "對，兩張。",
+                "translation": "對，兩張。",
+                "speak": "對，兩張。",
+                "contrast_type": "wrong_quantity",
+                "feedback": "店員確認一張，不是兩張。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "ticket_price_prompt",
+          "act_slots": {
+            "topic": "payment",
+            "keyword": "元",
+            "gloss": "dollars"
+          },
+          "learning_role": "listen_only",
+          "surface": "一共三百元。",
+          "speak": "一共三百元。",
+          "translation": "一共三百元。",
+          "friend": {
+            "hint": "這次的 learner goal 是用卡付款，所以簡短說刷卡。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "刷卡，謝謝。",
+                "translation": "刷卡，謝謝。",
+                "speak": "刷卡，謝謝。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "卡片在哪裡？",
+                "translation": "卡片在哪裡？",
+                "speak": "卡片在哪裡？",
+                "contrast_type": "wrong_payment_response",
+                "feedback": "售票員說價格後，你要說付款方式，不是問卡片在哪裡。"
+              },
+              {
+                "id": "r3c",
+                "surface": "車票在哪裡刷？",
+                "translation": "車票在哪裡刷？",
+                "speak": "車票在哪裡刷？",
+                "contrast_type": "asks_ticket_swipe_not_payment",
+                "feedback": "售票員說價格後，要回答付款方式；不是問車票在哪裡刷。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "ticket_handover",
+          "act_slots": {
+            "topic": "handover",
+            "keyword": "月台",
+            "gloss": "platform"
+          },
+          "learning_role": "listen_only",
+          "surface": "這是您的車票。三號月台。",
+          "speak": "這是您的車票。三號月台。",
+          "translation": "這是您的車票。三號月台。",
+          "friend": {
+            "hint": "用謝謝收尾。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "謝謝。",
+                "translation": "謝謝。",
+                "speak": "謝謝。"
+              },
+              {
+                "id": "r4b",
+                "surface": "三號車票，謝謝。",
+                "translation": "三號車票，謝謝。",
+                "speak": "三號車票，謝謝。",
+                "contrast_type": "confuses_platform_with_ticket",
+                "feedback": "三號是月台，不是車票種類。"
+              },
+              {
+                "id": "r4c",
+                "surface": "二號月台在哪裡？",
+                "translation": "二號月台在哪裡？",
+                "speak": "二號月台在哪裡？",
+                "contrast_type": "wrong_platform_followup",
+                "feedback": "售票員說三號月台，不是二號月台。"
+              }
+            ]
+          },
+          "closing": true
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "zh.ticket.wo_yao_yi_zhang_dao.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "zh.confirm.dui_xiexie.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-3 neutral brief ml3_a1_013_travel_ticket_buying; KO and other target-language packs were not used as translation sources.",
+        "review_policy": "AI-authored candidate only; keep review_state=draft, review_status_framework_state=candidate_needs_review, native_review_state=native_pending until tracked review evidence exists.",
+        "canonical_policy": "Staging current-flow candidate only. Do not add to manifests, production exports, schema, runtime, frontend, review artifacts, or legacy content.",
+        "chinese_voice_note": "Uses Traditional-character Mandarin with Taiwan-leaning transit choices such as 台中, 元, and 月台; native review should check whether 車票/票 wording fits the exact transit mode.",
+        "zh_v2_author_pass_20260617": "Distractors revised as Traditional Chinese in-scenario near-misses; prompt/correct copies and prior-correct distractor reuse removed. AI-authored, native_pending ceiling retained.",
+        "zh_v2_author_pass2_20260617": "Author pass 2: resolved judge-flagged valid alternate answers by making the learner goal explicit and/or rewriting choices to a single intended correct answer. AI-authored; native_pending ceiling retained."
+      }
+    }
+  ]
+}

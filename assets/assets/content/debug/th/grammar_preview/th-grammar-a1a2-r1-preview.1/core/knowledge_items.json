@@ -1,0 +1,2516 @@
+{
+  "build_id": "th-grammar-a1a2-r1-preview.1",
+  "content_version": "r1",
+  "items": [
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ไม่ใช่โรงแรมนี้",
+          "ไม่ใช่ชื่อของฉัน",
+          "ไม่ใช่กาแฟ"
+        ],
+        "display": "ไม่ใช่ + noun phrase",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:ไม่",
+            "lemma": "ไม่",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:v:ใช่",
+            "lemma": "ใช่",
+            "pos": "v"
+          },
+          {
+            "slot": "NOUN_PHRASE"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "ไม่ใช่ + noun phrase",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-019.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-019.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-019.03"
+      ],
+      "id": "th:grammar:a1_identity_negation_mai_chai",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "identity_negation",
+      "surface": "ไม่ใช่ + N",
+      "tags": [
+        "negation",
+        "identity",
+        "correction"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-019"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ฝนตกก็เลยรอ",
+          "รถบัสช้าก็เลยนั่งแท็กซี่",
+          "กาแฟหมดก็เลยสั่งชา"
+        ],
+        "display": "reason clause + ก็เลย + result predicate",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "REASON_CLAUSE"
+          },
+          {
+            "atom_id": "th:p:ก็",
+            "lemma": "ก็",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:เลย",
+            "lemma": "เลย",
+            "pos": "p"
+          },
+          {
+            "slot": "RESULT_PREDICATE"
+          }
+        ],
+        "type": "discourse_frame"
+      },
+      "display_surface": "reason clause + ก็เลย + result predicate",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-014.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-014.02",
+        "sent.th.phase2.grammar.th-a2-gram-auth-014.03"
+      ],
+      "id": "th:grammar:a2_result_connector_ko_loei",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "result_connector",
+      "surface": "ก็เลย + V",
+      "tags": [
+        "reason_result",
+        "spoken_connector",
+        "consequence"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-014"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ใช่ไหม",
+          "ใช่ไหมคะ",
+          "ใช่ไหมครับ"
+        ],
+        "display": "ใช่ + ไหม",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:v:ใช่",
+            "lemma": "ใช่",
+            "pos": "v"
+          },
+          {
+            "atom_id": "th:p:ไหม",
+            "lemma": "ไหม",
+            "pos": "p"
+          }
+        ],
+        "type": "atom_sequence_pattern"
+      },
+      "display_surface": "ใช่ไหม",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-020.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-020.02"
+      ],
+      "id": "th:grammar:confirmation_chai_mai",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question_particle",
+      "surface": "ใช่ไหม",
+      "tags": [
+        "confirmation",
+        "question_particle",
+        "spoken_politeness"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-020"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "อยากกิน",
+          "อยากพัก"
+        ],
+        "display": "อยาก + V",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:v:อยาก",
+            "lemma": "อยาก",
+            "pos": "v"
+          },
+          {
+            "pos": "v",
+            "slot": "V"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "อยาก + V",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-021.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-021.02"
+      ],
+      "id": "th:grammar:want_to_yaak",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "desire",
+      "surface": "อยาก + V",
+      "tags": [
+        "desire",
+        "basic_needs",
+        "verb_frame"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-021"
+    },
+    {
+      "canonical_pattern": {
+        "alternatives": [
+          {
+            "attested_surface_forms": [
+              "แต่"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "atom_id": "th:conj:แต่",
+                "lemma": "แต่",
+                "pos": "conj"
+              }
+            ]
+          },
+          {
+            "attested_surface_forms": [
+              "แต่ว่า"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "atom_id": "th:conj:แต่",
+                "lemma": "แต่",
+                "pos": "conj"
+              },
+              {
+                "atom_id": "th:p:ว่า",
+                "lemma": "ว่า",
+                "pos": "p"
+              }
+            ]
+          }
+        ],
+        "display": "แต่ / แต่ว่า",
+        "type": "alternative_atom_sequence_pattern"
+      },
+      "display_surface": "แต่ / แต่ว่า",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-015.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-015.02"
+      ],
+      "id": "th:grammar:contrast_tae",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "connector",
+      "surface": "แต่ / แต่ว่า",
+      "tags": [
+        "contrast",
+        "connector",
+        "spoken_linking"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-015"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "กาแฟหรือชา",
+          "ข้างในหรือข้างนอก"
+        ],
+        "display": "A หรือ B",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "A"
+          },
+          {
+            "atom_id": "th:conj:หรือ",
+            "lemma": "หรือ",
+            "pos": "conj"
+          },
+          {
+            "slot": "B"
+          }
+        ],
+        "type": "atom_sequence_pattern"
+      },
+      "display_surface": "หรือ",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-016.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-016.02"
+      ],
+      "id": "th:grammar:alternative_rue",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "connector",
+      "surface": "หรือ",
+      "tags": [
+        "alternative",
+        "choice_question",
+        "connector"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-016"
+    },
+    {
+      "canonical_pattern": {
+        "alternatives": [
+          {
+            "attested_surface_forms": [
+              "ขอบคุณครับ",
+              "รับกาแฟไหมครับ"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "slot": "statement_or_question"
+              },
+              {
+                "atom_id": "th:p:ครับ",
+                "lemma": "ครับ",
+                "pos": "p"
+              }
+            ]
+          },
+          {
+            "attested_surface_forms": [
+              "ขอบคุณค่ะ"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "slot": "statement"
+              },
+              {
+                "atom_id": "th:p:ค่ะ",
+                "lemma": "ค่ะ",
+                "pos": "p"
+              }
+            ]
+          },
+          {
+            "attested_surface_forms": [
+              "ไหมคะ"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "slot": "question"
+              },
+              {
+                "atom_id": "th:p:คะ",
+                "lemma": "คะ",
+                "pos": "p"
+              }
+            ]
+          }
+        ],
+        "display": "statement/question + ครับ; statement + ค่ะ; question + คะ",
+        "type": "alternative_atom_sequence_pattern"
+      },
+      "display_surface": "ครับ / ค่ะ / คะ",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-001.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-001.02"
+      ],
+      "id": "th:grammar:polite_particles_khrap_kha",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "sentence_final_particle",
+      "surface": "ครับ / ค่ะ / คะ",
+      "tags": [
+        "politeness",
+        "sentence_final_particle",
+        "service_interaction"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-001"
+    },
+    {
+      "canonical_pattern": {
+        "alternatives": [
+          {
+            "attested_surface_forms": [
+              "มีน้ำไหม",
+              "รับกาแฟไหม"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "slot": "statement"
+              },
+              {
+                "atom_id": "th:p:ไหม",
+                "lemma": "ไหม",
+                "pos": "p"
+              }
+            ]
+          },
+          {
+            "attested_surface_forms": [
+              "เอาน้ำมั้ย"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "slot": "statement"
+              },
+              {
+                "atom_id": "th:p:มั้ย",
+                "lemma": "มั้ย",
+                "pos": "p"
+              }
+            ]
+          }
+        ],
+        "display": "statement + ไหม",
+        "type": "alternative_atom_sequence_pattern"
+      },
+      "display_surface": "ไหม / มั้ย",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-002.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-002.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-002.03"
+      ],
+      "id": "th:grammar:yes_no_particle_mai",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question_particle",
+      "surface": "ไหม / มั้ย",
+      "tags": [
+        "yes_no_question",
+        "question_particle",
+        "spoken_question"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-002"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ไม่แพง",
+          "ไม่กิน"
+        ],
+        "display": "ไม่ + V/Adj",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:ไม่",
+            "lemma": "ไม่",
+            "pos": "p"
+          },
+          {
+            "slot": "V_OR_ADJ"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "ไม่ + V/Adj",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-003.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-003.02"
+      ],
+      "id": "th:grammar:negation_mai",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "negation",
+      "surface": "ไม่ + V/Adj",
+      "tags": [
+        "negation",
+        "verb_frame",
+        "adjective_predicate"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-003"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "มีห้องว่าง",
+          "มีบัตร"
+        ],
+        "display": "มี + N",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:v:มี",
+            "lemma": "มี",
+            "pos": "v"
+          },
+          {
+            "slot": "N"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "มี",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-004.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-004.02"
+      ],
+      "id": "th:grammar:existence_possession_mii",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "existence_possession",
+      "surface": "มี",
+      "tags": [
+        "existence",
+        "possession",
+        "availability"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-004"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "อยู่ที่ไหน",
+          "ไปที่ไหน"
+        ],
+        "display": "place/action + ที่ไหน",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "place_or_action_frame"
+          },
+          {
+            "atom_id": "th:pron:ที่ไหน",
+            "lemma": "ที่ไหน",
+            "pos": "pron"
+          }
+        ],
+        "type": "atom_sequence_pattern"
+      },
+      "display_surface": "ที่ไหน",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-005.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-005.02"
+      ],
+      "id": "th:grammar:place_question_thi_nai",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question_word",
+      "surface": "ที่ไหน",
+      "tags": [
+        "question_word",
+        "location",
+        "place"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-005"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "เอาอะไร",
+          "อันนี้คืออะไร"
+        ],
+        "display": "verb/noun frame + อะไร",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "verb_or_noun_frame"
+          },
+          {
+            "atom_id": "th:pron:อะไร",
+            "lemma": "อะไร",
+            "pos": "pron"
+          }
+        ],
+        "type": "atom_sequence_pattern"
+      },
+      "display_surface": "อะไร",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-006.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-006.02"
+      ],
+      "id": "th:grammar:object_question_arai",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question_word",
+      "surface": "อะไร",
+      "tags": [
+        "question_word",
+        "object_question",
+        "clarification"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-006"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "คือใคร",
+          "ของใคร"
+        ],
+        "display": "person/owner frame + ใคร",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "person_or_owner_frame"
+          },
+          {
+            "atom_id": "th:pron:ใคร",
+            "lemma": "ใคร",
+            "pos": "pron"
+          }
+        ],
+        "type": "atom_sequence_pattern"
+      },
+      "display_surface": "ใคร",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-007.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-007.02"
+      ],
+      "id": "th:grammar:person_question_khrai",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question_word",
+      "surface": "ใคร",
+      "tags": [
+        "question_word",
+        "person_question",
+        "ownership"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-007"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ราคาเท่าไหร่",
+          "ทั้งหมดเท่าไหร่"
+        ],
+        "display": "price/amount frame + เท่าไหร่",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "price_or_amount_frame"
+          },
+          {
+            "atom_id": "th:pron:เท่าไหร่",
+            "lemma": "เท่าไหร่",
+            "pos": "pron"
+          }
+        ],
+        "type": "atom_sequence_pattern"
+      },
+      "display_surface": "เท่าไหร่",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-008.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-008.02"
+      ],
+      "id": "th:grammar:price_quantity_question_thao_rai",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question_word",
+      "surface": "เท่าไหร่",
+      "tags": [
+        "question_word",
+        "price",
+        "amount"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-008"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "กระเป๋าของฉัน",
+          "บัตรของคุณ"
+        ],
+        "display": "N + ของ + owner",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "N"
+          },
+          {
+            "atom_id": "th:p:ของ",
+            "lemma": "ของ",
+            "pos": "p"
+          },
+          {
+            "slot": "OWNER"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "ของ + owner",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-009.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-009.02"
+      ],
+      "id": "th:grammar:possessive_linker_khong",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "possessive_linker",
+      "surface": "ของ",
+      "tags": [
+        "possession",
+        "association",
+        "linker"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-009"
+    },
+    {
+      "canonical_pattern": {
+        "alternatives": [
+          {
+            "atom_id": "th:clf:คน",
+            "lemma": "คน",
+            "pos": "clf",
+            "slot": "people"
+          },
+          {
+            "atom_id": "th:clf:แก้ว",
+            "lemma": "แก้ว",
+            "pos": "clf",
+            "slot": "drinks"
+          },
+          {
+            "atom_id": "th:clf:ใบ",
+            "lemma": "ใบ",
+            "pos": "clf",
+            "slot": "flat_items/cards/tickets"
+          },
+          {
+            "atom_id": "th:clf:จาน",
+            "lemma": "จาน",
+            "pos": "clf",
+            "slot": "dishes"
+          }
+        ],
+        "attested_surface_forms": [
+          "สองคน",
+          "สองแก้ว",
+          "หนึ่งใบ",
+          "หนึ่งจาน"
+        ],
+        "display": "N + number + classifier",
+        "type": "classifier_pattern"
+      },
+      "display_surface": "number + classifier",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-010.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-010.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-010.03",
+        "sent.th.phase2.grammar.th-a1-gram-auth-010.04"
+      ],
+      "id": "th:grammar:basic_classifiers",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "classifier",
+      "surface": "คน / แก้ว / ใบ / จาน",
+      "tags": [
+        "classifier",
+        "quantity",
+        "ordering"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-010"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "อันนี้แพง",
+          "อาหารนี้ดี"
+        ],
+        "display": "N + Adj",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "N"
+          },
+          {
+            "slot": "ADJ"
+          }
+        ],
+        "type": "predicate_pattern"
+      },
+      "display_surface": "N + adjective",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-011.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-011.02"
+      ],
+      "id": "th:grammar:adjective_predicate_no_copula",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "adjective_predicate",
+      "surface": "Adj predicate",
+      "tags": [
+        "adjective",
+        "predicate",
+        "no_copula"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-011"
+    },
+    {
+      "canonical_pattern": {
+        "alternatives": [
+          {
+            "attested_surface_forms": [
+              "ผมเป็นนักเรียน"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "slot": "SUBJECT"
+              },
+              {
+                "atom_id": "th:v:เป็น",
+                "lemma": "เป็น",
+                "pos": "v"
+              },
+              {
+                "slot": "IDENTITY_OR_CATEGORY"
+              }
+            ]
+          },
+          {
+            "attested_surface_forms": [
+              "นี่คือโรงแรม"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "slot": "SUBJECT"
+              },
+              {
+                "atom_id": "th:v:คือ",
+                "lemma": "คือ",
+                "pos": "v"
+              },
+              {
+                "slot": "DEFINITION_OR_CLARIFICATION"
+              }
+            ]
+          }
+        ],
+        "display": "subject + เป็น/คือ + identity or category",
+        "type": "alternative_frame_pattern"
+      },
+      "display_surface": "เป็น / คือ",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-012.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-012.02"
+      ],
+      "id": "th:grammar:identity_copula_pen_khue",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "identity_copula",
+      "surface": "เป็น / คือ",
+      "tags": [
+        "identity",
+        "copula",
+        "category"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-012"
+    },
+    {
+      "canonical_pattern": {
+        "alternatives": [
+          {
+            "attested_surface_forms": [
+              "ช่วยพูดช้าๆ ได้ไหม"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "atom_id": "th:v:ช่วย",
+                "lemma": "ช่วย",
+                "pos": "v"
+              },
+              {
+                "slot": "V"
+              },
+              {
+                "atom_id": "th:v:ได้",
+                "lemma": "ได้",
+                "pos": "v"
+              },
+              {
+                "atom_id": "th:p:ไหม",
+                "lemma": "ไหม",
+                "pos": "p"
+              }
+            ]
+          },
+          {
+            "attested_surface_forms": [
+              "ช่วยเรียกแท็กซี่หน่อย"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "atom_id": "th:v:ช่วย",
+                "lemma": "ช่วย",
+                "pos": "v"
+              },
+              {
+                "slot": "V"
+              },
+              {
+                "atom_id": "th:p:หน่อย",
+                "lemma": "หน่อย",
+                "pos": "p"
+              }
+            ]
+          }
+        ],
+        "display": "ช่วย + V + ได้ไหม; ช่วย + V + หน่อย",
+        "type": "alternative_frame_pattern"
+      },
+      "display_surface": "ช่วย + V + ได้ไหม; ช่วย + V + หน่อย",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-013.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-013.02"
+      ],
+      "id": "th:grammar:polite_request_chuai",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "request_frame",
+      "surface": "ช่วย + V + ได้ไหม / ช่วย + V + หน่อย",
+      "tags": [
+        "request",
+        "politeness",
+        "service_help"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-013"
+    },
+    {
+      "canonical_pattern": {
+        "alternatives": [
+          {
+            "atom_id": "th:pron:ผม",
+            "lemma": "ผม",
+            "pos": "pron",
+            "scope": "speaker_reference"
+          },
+          {
+            "atom_id": "th:pron:ฉัน",
+            "lemma": "ฉัน",
+            "pos": "pron",
+            "scope": "speaker_reference"
+          },
+          {
+            "atom_id": "th:pron:ดิฉัน",
+            "lemma": "ดิฉัน",
+            "pos": "pron",
+            "scope": "formal_speaker_reference"
+          },
+          {
+            "atom_id": "th:pron:คุณ",
+            "lemma": "คุณ",
+            "pos": "pron",
+            "scope": "listener_reference_or_polite_address"
+          },
+          {
+            "atom_id": "th:pron:เขา",
+            "lemma": "เขา",
+            "pos": "pron",
+            "scope": "third_person_reference"
+          },
+          {
+            "atom_id": "th:pron:เรา",
+            "lemma": "เรา",
+            "pos": "pron",
+            "scope": "we_or_contextual_i"
+          }
+        ],
+        "attested_surface_forms": [
+          "ผมชื่อแดน",
+          "คุณพักที่นี่ไหม",
+          "เขาเป็นเพื่อนฉัน",
+          "เราไปด้วยกัน"
+        ],
+        "display": "ผม; ฉัน; ดิฉัน; คุณ; เขา; เรา",
+        "type": "pronoun_set_with_pragmatics_guardrail"
+      },
+      "display_surface": "learner-safe pronouns and address terms",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-014.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-014.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-014.03",
+        "sent.th.phase2.grammar.th-a1-gram-auth-014.04",
+        "sent.th.phase2.grammar.th-a1-gram-auth-014.05"
+      ],
+      "id": "th:grammar:learner_safe_pronouns",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "pronoun_pragmatics_guardrail",
+      "surface": "ผม / ฉัน / ดิฉัน / คุณ / เขา / เรา",
+      "tags": [
+        "pronouns",
+        "address",
+        "pragmatics_guardrail"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-014"
+    },
+    {
+      "canonical_pattern": {
+        "alternatives": [
+          {
+            "atom_id": "th:adv:วันนี้",
+            "lemma": "วันนี้",
+            "pos": "adv",
+            "slot": "today"
+          },
+          {
+            "atom_id": "th:adv:พรุ่งนี้",
+            "lemma": "พรุ่งนี้",
+            "pos": "adv",
+            "slot": "tomorrow"
+          },
+          {
+            "atom_id": "th:adv:เมื่อวาน",
+            "lemma": "เมื่อวาน",
+            "pos": "adv",
+            "slot": "yesterday"
+          },
+          {
+            "atom_id": "th:adv:ตอนนี้",
+            "lemma": "ตอนนี้",
+            "pos": "adv",
+            "slot": "now"
+          }
+        ],
+        "attested_surface_forms": [
+          "วันนี้ผมอยู่กรุงเทพฯ",
+          "พรุ่งนี้ฉันไปเชียงใหม่",
+          "เมื่อวานฝนตก",
+          "ตอนนี้ร้านเปิด"
+        ],
+        "display": "time word + clause, without verb inflection",
+        "type": "time_marker_pattern"
+      },
+      "display_surface": "time word + clause",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-015.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-015.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-015.03",
+        "sent.th.phase2.grammar.th-a1-gram-auth-015.04"
+      ],
+      "id": "th:grammar:time_reference_no_inflection",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "time_reference",
+      "surface": "วันนี้ / พรุ่งนี้ / เมื่อวาน / ตอนนี้",
+      "tags": [
+        "time_reference",
+        "no_verb_inflection",
+        "schedule"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-015"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ผมกินข้าว",
+          "คุณอ่านเมนู"
+        ],
+        "display": "S + V + O",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "SUBJECT"
+          },
+          {
+            "slot": "VERB"
+          },
+          {
+            "slot": "OBJECT"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "S + V + O",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-016.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-016.02"
+      ],
+      "id": "th:grammar:basic_svo_word_order",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "basic_word_order",
+      "surface": "S + V + O",
+      "tags": [
+        "word_order",
+        "statement",
+        "basic_clause"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-016"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ห้องเล็ก",
+          "กาแฟร้อน"
+        ],
+        "display": "N + Adj",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "N"
+          },
+          {
+            "slot": "ADJ"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "N + adjective",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-017.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-017.02"
+      ],
+      "id": "th:grammar:noun_adjective_order",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "noun_modifier_order",
+      "surface": "N + adj",
+      "tags": [
+        "noun_phrase",
+        "adjective_order",
+        "description"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-017"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "สะดวกมาก",
+          "ชอบมาก"
+        ],
+        "display": "Adj or stative/preference verb + มาก",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "ADJ_OR_STATIVE_OR_PREFERENCE_VERB"
+          },
+          {
+            "atom_id": "th:adv:มาก",
+            "lemma": "มาก",
+            "pos": "adv"
+          }
+        ],
+        "type": "degree_pattern"
+      },
+      "display_surface": "Adj/stative or preference verb + มาก",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-018.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-018.02"
+      ],
+      "id": "th:grammar:degree_adverb_mak",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "degree_adverb",
+      "surface": "มาก",
+      "tags": [
+        "degree",
+        "intensifier",
+        "description"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-018"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "เอาน้ำ",
+          "เอาอันนี้"
+        ],
+        "display": "เอา + N/อันนี้",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:v:เอา",
+            "lemma": "เอา",
+            "pos": "v"
+          },
+          {
+            "slot": "N_OR_DEMONSTRATIVE"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "เอา + noun/demonstrative",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-022.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-022.02"
+      ],
+      "id": "th:grammar:take_want_item_ao",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "ordering_choice_frame",
+      "surface": "เอา + N",
+      "tags": [
+        "ordering",
+        "shopping",
+        "choice"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-022"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ชอบกาแฟ",
+          "ชอบกินข้าว"
+        ],
+        "display": "ชอบ + N/V",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:v:ชอบ",
+            "lemma": "ชอบ",
+            "pos": "v"
+          },
+          {
+            "slot": "N_OR_VERB_PHRASE"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "ชอบ + noun/verb phrase",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-023.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-023.02"
+      ],
+      "id": "th:grammar:like_frame_chop",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "preference_frame",
+      "surface": "ชอบ + N/V",
+      "tags": [
+        "likes",
+        "preference",
+        "personal_information"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-023"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "นั่งได้",
+          "จ่ายได้"
+        ],
+        "display": "V + ได้",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "V"
+          },
+          {
+            "atom_id": "th:v:ได้",
+            "lemma": "ได้",
+            "pos": "v"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "V + ได้",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-024.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-024.02"
+      ],
+      "id": "th:grammar:basic_can_doable_dai",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "ability_doable_frame",
+      "surface": "V + ได้",
+      "tags": [
+        "ability",
+        "doable",
+        "service_question"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-024"
+    },
+    {
+      "canonical_pattern": {
+        "alternatives": [
+          {
+            "attested_surface_forms": [
+              "อันนี้"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "atom_id": "th:clf:อัน",
+                "lemma": "อัน",
+                "pos": "clf"
+              },
+              {
+                "atom_id": "th:det:นี้",
+                "lemma": "นี้",
+                "pos": "det"
+              }
+            ]
+          },
+          {
+            "attested_surface_forms": [
+              "อันนั้น"
+            ],
+            "lemma_or_atom_sequence": [
+              {
+                "atom_id": "th:clf:อัน",
+                "lemma": "อัน",
+                "pos": "clf"
+              },
+              {
+                "atom_id": "th:det:นั้น",
+                "lemma": "นั้น",
+                "pos": "det"
+              }
+            ]
+          }
+        ],
+        "display": "อัน + demonstrative",
+        "type": "demonstrative_object_pattern"
+      },
+      "display_surface": "อันนี้; อันนั้น; อัน",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-025.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-025.02"
+      ],
+      "id": "th:grammar:demonstrative_object_an_nii_nan",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "demonstrative_object_reference",
+      "surface": "อันนี้ / อันนั้น / อัน",
+      "tags": [
+        "demonstrative",
+        "object_reference",
+        "shopping"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-025"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "จะไป",
+          "จะกิน"
+        ],
+        "display": "จะ + V",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:จะ",
+            "lemma": "จะ",
+            "pos": "p"
+          },
+          {
+            "slot": "V"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "จะ + V",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-026.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-026.02"
+      ],
+      "id": "th:grammar:basic_future_marker_ja",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "basic_future_plan_marker",
+      "surface": "จะ + V",
+      "tags": [
+        "future",
+        "plan",
+        "time_reference"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-026"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "จ่ายแล้ว",
+          "กินแล้ว"
+        ],
+        "display": "V + แล้ว",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "V"
+          },
+          {
+            "atom_id": "th:p:แล้ว",
+            "lemma": "แล้ว",
+            "pos": "p"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "V + แล้ว",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-027.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-027.02"
+      ],
+      "id": "th:grammar:basic_completion_marker_laeo",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "basic_completion_marker",
+      "surface": "V + แล้ว",
+      "tags": [
+        "completion",
+        "already_done",
+        "service_status"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-027"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ไปพรุ่งนี้ดีกว่า",
+          "เอาอันนี้ดีกว่า"
+        ],
+        "display": "option/action + ดีกว่า",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "OPTION_OR_ACTION"
+          },
+          {
+            "atom_id": "th:adj:ดี",
+            "lemma": "ดี",
+            "pos": "adj"
+          },
+          {
+            "atom_id": "th:p:กว่า",
+            "lemma": "กว่า",
+            "pos": "p"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "clause/option + ดีกว่า",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-002.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-002.02"
+      ],
+      "id": "th:grammar:preference_suggestion_dii_kwaa",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "preference_suggestion_frame",
+      "surface": "ดีกว่า",
+      "tags": [
+        "preference",
+        "suggestion",
+        "comparison_related"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-002"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "จะเช็กเอาต์",
+          "จะกลับมา"
+        ],
+        "display": "จะ + V",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:จะ",
+            "lemma": "จะ",
+            "pos": "p"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "จะ + V",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-003.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-003.02"
+      ],
+      "id": "th:grammar:a2_future_plan_marker_ja",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "future_plan_marker",
+      "surface": "จะ + V",
+      "tags": [
+        "future",
+        "plan",
+        "arrangement"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-003"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "จองแล้ว",
+          "ส่งอีเมลแล้ว"
+        ],
+        "display": "V/clause + แล้ว",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "V_OR_CLAUSE"
+          },
+          {
+            "atom_id": "th:p:แล้ว",
+            "lemma": "แล้ว",
+            "pos": "p"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "clause/V + แล้ว",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-004.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-004.02"
+      ],
+      "id": "th:grammar:a2_completion_marker_laeo",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "completion_result_marker",
+      "surface": "แล้ว",
+      "tags": [
+        "completion",
+        "confirmation",
+        "status_update"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-004"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "กำลังรอ",
+          "กำลังไป"
+        ],
+        "display": "กำลัง + V",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:กำลัง",
+            "lemma": "กำลัง",
+            "pos": "p"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "กำลัง + V",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-005.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-005.02"
+      ],
+      "id": "th:grammar:progressive_marker_kamlang",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "progressive_marker",
+      "surface": "กำลัง + V",
+      "tags": [
+        "progressive",
+        "current_action",
+        "status_update"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-005"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "กรอกแบบฟอร์มก่อน แล้วรอเรียกชื่อ",
+          "หลังจากนั้นไปที่ช่องสอง"
+        ],
+        "display": "step/clause + ก่อน; แล้ว + step/clause; หลังจากนั้น + step/clause; ต่อไป + step/clause",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:ก่อน",
+            "lemma": "ก่อน",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:แล้ว",
+            "lemma": "แล้ว",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:หลังจากนั้น",
+            "lemma": "หลังจากนั้น",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:ต่อไป",
+            "lemma": "ต่อไป",
+            "pos": "p"
+          }
+        ],
+        "type": "connector_set"
+      },
+      "display_surface": "ก่อน / แล้ว / หลังจากนั้น / ต่อไป",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-006.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-006.02"
+      ],
+      "id": "th:grammar:a2_sequence_connectors_basic",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "sequence_connectors",
+      "surface": "ก่อน; แล้ว; หลังจากนั้น; ต่อไป",
+      "tags": [
+        "sequence",
+        "instructions",
+        "service_steps"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-006"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "เพราะฝนตก เลยไปช้า",
+          "ดังนั้นต้องรออีกนิด"
+        ],
+        "display": "เพราะ + reason; reason/result + เลย + result; ดังนั้น + result",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:เพราะ",
+            "lemma": "เพราะ",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:เลย",
+            "lemma": "เลย",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:ดังนั้น",
+            "lemma": "ดังนั้น",
+            "pos": "p"
+          }
+        ],
+        "type": "connector_set"
+      },
+      "display_surface": "เพราะ / เลย / ดังนั้น",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-007.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-007.02"
+      ],
+      "id": "th:grammar:a2_reason_result_connectors_basic",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "reason_result_connectors",
+      "surface": "เพราะ; เลย; ดังนั้น",
+      "tags": [
+        "reason",
+        "result",
+        "connectors"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-007"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "จ่ายด้วยบัตรได้",
+          "ขอฝากกระเป๋าได้ไหม"
+        ],
+        "display": "V + ได้; ขอ + V + ได้ไหม",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          },
+          {
+            "atom_id": "th:p:ได้",
+            "lemma": "ได้",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:v:ขอ",
+            "lemma": "ขอ",
+            "pos": "v"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          },
+          {
+            "atom_id": "th:p:ได้",
+            "lemma": "ได้",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:ไหม",
+            "lemma": "ไหม",
+            "pos": "p"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "V + ได้ / ขอ + V + ได้ไหม",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-008.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-008.02"
+      ],
+      "id": "th:grammar:a2_ability_permission_frame_dai",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "ability_permission_frame",
+      "surface": "V + ได้; ขอ + V + ได้ไหม",
+      "tags": [
+        "ability",
+        "permission",
+        "request"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-008"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ต้องแสดงพาสปอร์ต",
+          "ห้ามสูบบุหรี่",
+          "ไม่ต้องจ่ายเพิ่ม"
+        ],
+        "display": "ต้อง + V; ห้าม + V; ไม่ต้อง + V",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:ต้อง",
+            "lemma": "ต้อง",
+            "pos": "p"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          },
+          {
+            "atom_id": "th:p:ห้าม",
+            "lemma": "ห้าม",
+            "pos": "p"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          },
+          {
+            "atom_id": "th:p:ไม่",
+            "lemma": "ไม่",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:ต้อง",
+            "lemma": "ต้อง",
+            "pos": "p"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "type": "modal_set"
+      },
+      "display_surface": "ต้อง / ห้าม / ไม่ต้อง",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-009.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-009.02"
+      ],
+      "id": "th:grammar:a2_obligation_prohibition_basic",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "obligation_prohibition_frame",
+      "surface": "ต้อง; ห้าม; ไม่ต้อง",
+      "tags": [
+        "obligation",
+        "prohibition",
+        "service_rules"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-009"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ถ้าฝนตก ผมจะโทรหา",
+          "ถ้าเต็ม เราไปที่อื่นได้"
+        ],
+        "display": "ถ้า + condition, result",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:ถ้า",
+            "lemma": "ถ้า",
+            "pos": "p"
+          },
+          {
+            "slot": "CONDITION_CLAUSE"
+          },
+          {
+            "slot": "RESULT_CLAUSE"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "ถ้า + condition, result",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-010.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-010.02"
+      ],
+      "id": "th:grammar:a2_conditional_frame_thaa",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "conditional_frame",
+      "surface": "ถ้า...",
+      "tags": [
+        "condition",
+        "alternative",
+        "service_constraint"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-010"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "จากโรงแรมไปสนามบิน",
+          "ลงที่สถานีหน้า"
+        ],
+        "display": "place/route particles: ที่, ใน, ถึง, จาก, ไป, ลงที่",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:ที่",
+            "lemma": "ที่",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:ใน",
+            "lemma": "ใน",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:ถึง",
+            "lemma": "ถึง",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:จาก",
+            "lemma": "จาก",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:ไป",
+            "lemma": "ไป",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:v:ลง",
+            "lemma": "ลง",
+            "pos": "v"
+          },
+          {
+            "atom_id": "th:p:ที่",
+            "lemma": "ที่",
+            "pos": "p"
+          }
+        ],
+        "type": "particle_set"
+      },
+      "display_surface": "ที่ / ใน / ถึง / จาก / ไป / ลงที่",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-011.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-011.02"
+      ],
+      "id": "th:grammar:a2_location_route_particles_basic",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "location_route_particles",
+      "surface": "ที่;ใน;ถึง;จาก;ไป;ลงที่",
+      "tags": [
+        "location",
+        "route",
+        "transport"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-011"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "สิบกว่าคน",
+          "สองชั่วโมงกว่า"
+        ],
+        "display": "number/unit + กว่า",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "NUMBER_OR_UNIT_PHRASE"
+          },
+          {
+            "atom_id": "th:p:กว่า",
+            "lemma": "กว่า",
+            "pos": "p"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "number/unit + กว่า",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-012.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-012.02"
+      ],
+      "id": "th:grammar:a2_quantity_approximation_kwaa",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "quantity_approximation",
+      "surface": "number/unit + กว่า",
+      "tags": [
+        "approximation",
+        "quantity",
+        "time"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-012"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "เพราะรถติด",
+          "เพราะว่าร้านปิด"
+        ],
+        "display": "เพราะ / เพราะว่า + reason",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:เพราะ",
+            "lemma": "เพราะ",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:เพราะว่า",
+            "lemma": "เพราะว่า",
+            "pos": "p"
+          },
+          {
+            "slot": "REASON_CLAUSE"
+          }
+        ],
+        "type": "connector_variants"
+      },
+      "display_surface": "เพราะ / เพราะว่า",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-013.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-013.02"
+      ],
+      "id": "th:grammar:a2_because_connector_variants",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "because_connector_variants",
+      "surface": "เพราะ;เพราะว่า",
+      "tags": [
+        "reason",
+        "because",
+        "explanation"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-013"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "เคยไป",
+          "เคยกิน"
+        ],
+        "display": "เคย + V",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:เคย",
+            "lemma": "เคย",
+            "pos": "p"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "เคย + V",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-017.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-017.02"
+      ],
+      "id": "th:grammar:a2_experience_marker_khoei",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "experience_marker",
+      "surface": "เคย + V",
+      "tags": [
+        "experience",
+        "past_experience",
+        "travel_food"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-017"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "เพิ่งถึง",
+          "เพิ่งส่ง"
+        ],
+        "display": "เพิ่ง + V",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:เพิ่ง",
+            "lemma": "เพิ่ง",
+            "pos": "p"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "เพิ่ง + V",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-018.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-018.02"
+      ],
+      "id": "th:grammar:a2_recent_action_marker_phoeng",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "recent_action_marker",
+      "surface": "เพิ่ง + V",
+      "tags": [
+        "recent_past",
+        "status_update",
+        "service_update"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-018"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "กำลังจะออก",
+          "กำลังจะถึง"
+        ],
+        "display": "กำลังจะ + V",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:กำลัง",
+            "lemma": "กำลัง",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:จะ",
+            "lemma": "จะ",
+            "pos": "p"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "กำลังจะ + V",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-019.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-019.02"
+      ],
+      "id": "th:grammar:a2_imminent_plan_kamlang_ja",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "imminent_plan_frame",
+      "surface": "กำลังจะ + V",
+      "tags": [
+        "imminent_future",
+        "about_to",
+        "travel_schedule"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-019"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ยังไม่ได้จ่าย",
+          "ยังไม่พร้อม"
+        ],
+        "display": "ยังไม่ + V/adj",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:ยัง",
+            "lemma": "ยัง",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:ไม่",
+            "lemma": "ไม่",
+            "pos": "p"
+          },
+          {
+            "slot": "V_OR_ADJECTIVE"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "ยังไม่ + V/adj",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-020.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-020.02"
+      ],
+      "id": "th:grammar:a2_not_yet_frame_yang_mai",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "not_yet_negative_frame",
+      "surface": "ยังไม่ + V/adj",
+      "tags": [
+        "not_yet",
+        "incomplete_status",
+        "service_status"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-020"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ควรจองก่อน",
+          "ควรจะไปเช้า"
+        ],
+        "display": "ควร / ควรจะ + V",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:p:ควร",
+            "lemma": "ควร",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:จะ",
+            "lemma": "จะ",
+            "pos": "p"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "type": "modal_set"
+      },
+      "display_surface": "ควร / ควรจะ + V",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-021.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-021.02"
+      ],
+      "id": "th:grammar:a2_should_frame_khuan",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "should_advice_frame",
+      "surface": "ควร;ควรจะ",
+      "tags": [
+        "advice",
+        "recommendation",
+        "low_risk"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-021"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "เอากระเป๋าไป",
+          "เอาใบเสร็จมา"
+        ],
+        "display": "เอา + object + ไป / มา",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:v:เอา",
+            "lemma": "เอา",
+            "pos": "v"
+          },
+          {
+            "slot": "OBJECT"
+          },
+          {
+            "atom_id": "th:v:ไป",
+            "lemma": "ไป",
+            "pos": "v"
+          },
+          {
+            "atom_id": "th:v:มา",
+            "lemma": "มา",
+            "pos": "v"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "เอา + object + ไป / มา",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-022.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-022.02"
+      ],
+      "id": "th:grammar:a2_directional_serial_ao_pai_ma",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "directional_serial_verb_frame",
+      "surface": "เอา...ไป;เอา...มา",
+      "tags": [
+        "serial_verbs",
+        "direction",
+        "handoff"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-022"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ไปตลาดมา",
+          "ไปพิพิธภัณฑ์มา"
+        ],
+        "display": "ไป + place + มา",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:v:ไป",
+            "lemma": "ไป",
+            "pos": "v"
+          },
+          {
+            "slot": "PLACE"
+          },
+          {
+            "atom_id": "th:v:มา",
+            "lemma": "มา",
+            "pos": "v"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "ไป + place + มา",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-023.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-023.02"
+      ],
+      "id": "th:grammar:a2_round_trip_pai_ma",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "round_trip_experience_frame",
+      "surface": "ไป...มา",
+      "tags": [
+        "past_event",
+        "outing",
+        "return"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-023"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ร้านที่อยู่ใกล้สถานี",
+          "ห้องที่จองไว้"
+        ],
+        "display": "N + ที่ + clause",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "NOUN"
+          },
+          {
+            "atom_id": "th:p:ที่",
+            "lemma": "ที่",
+            "pos": "p"
+          },
+          {
+            "slot": "MODIFIER_CLAUSE"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "N + ที่ + clause",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-024.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-024.02"
+      ],
+      "id": "th:grammar:a2_relative_clause_thii",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "relative_clause_modifier",
+      "surface": "N + ที่ + clause",
+      "tags": [
+        "relative_clause",
+        "identification",
+        "modifier"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-024"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ไปบ่อยๆ",
+          "กินทุกวัน",
+          "บางครั้งนั่งรถเมล์"
+        ],
+        "display": "frequency adverb + clause",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:adv:บ่อยๆ",
+            "lemma": "บ่อยๆ",
+            "pos": "adv"
+          },
+          {
+            "atom_id": "th:adv:ทุกวัน",
+            "lemma": "ทุกวัน",
+            "pos": "adv"
+          },
+          {
+            "atom_id": "th:adv:บางครั้ง",
+            "lemma": "บางครั้ง",
+            "pos": "adv"
+          }
+        ],
+        "type": "adverb_set"
+      },
+      "display_surface": "บ่อยๆ / ทุกวัน / บางครั้ง",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-025.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-025.02"
+      ],
+      "id": "th:grammar:a2_frequency_adverbs_basic",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "frequency_adverbs",
+      "surface": "บ่อยๆ;ทุกวัน;บางครั้ง",
+      "tags": [
+        "frequency",
+        "routine",
+        "habit"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-025"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ถูกที่สุด",
+          "ใกล้ที่สุด"
+        ],
+        "display": "Adj + ที่สุด",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "ADJECTIVE"
+          },
+          {
+            "atom_id": "th:adv:ที่สุด",
+            "lemma": "ที่สุด",
+            "pos": "adv"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "Adj + ที่สุด",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-026.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-026.02"
+      ],
+      "id": "th:grammar:a2_superlative_frame_thii_sut",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "superlative_frame",
+      "surface": "Adj + ที่สุด",
+      "tags": [
+        "superlative",
+        "ranking",
+        "comparison"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-026"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "เมื่อวานไปตลาดมา แล้วรู้สึกเหนื่อย",
+          "เมื่อวานฝนตก แล้วรู้สึกหนาว"
+        ],
+        "display": "เมื่อวาน + event; แล้ว + next/evaluation; รู้สึก + feeling",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:adv:เมื่อวาน",
+            "lemma": "เมื่อวาน",
+            "pos": "adv"
+          },
+          {
+            "slot": "PAST_EVENT_CLAUSE"
+          },
+          {
+            "atom_id": "th:p:แล้ว",
+            "lemma": "แล้ว",
+            "pos": "p"
+          },
+          {
+            "slot": "NEXT_OR_EVALUATION_CLAUSE"
+          },
+          {
+            "atom_id": "th:v:รู้สึก",
+            "lemma": "รู้สึก",
+            "pos": "v"
+          },
+          {
+            "slot": "FEELING_ADJECTIVE"
+          }
+        ],
+        "type": "discourse_frame"
+      },
+      "display_surface": "เมื่อวาน + event; แล้ว + next/evaluation; รู้สึก + feeling",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-027.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-027.02"
+      ],
+      "id": "th:grammar:a2_past_event_narrative_basic",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "past_event_narrative_frame",
+      "surface": "เมื่อวาน...;แล้ว...;รู้สึก...",
+      "tags": [
+        "past_event",
+        "short_narrative",
+        "feeling"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-027"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ปวดหัว",
+          "ปวดท้อง",
+          "ไม่สบาย"
+        ],
+        "display": "ปวด + body part; ไม่ + สบาย",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:v:ปวด",
+            "lemma": "ปวด",
+            "pos": "v"
+          },
+          {
+            "slot": "BODY_PART"
+          },
+          {
+            "atom_id": "th:p:ไม่",
+            "lemma": "ไม่",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:adj:สบาย",
+            "lemma": "สบาย",
+            "pos": "adj"
+          }
+        ],
+        "type": "frame_set"
+      },
+      "display_surface": "ปวด + body part / ไม่สบาย",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-028.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-028.02"
+      ],
+      "id": "th:grammar:a2_basic_symptom_description",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "basic_symptom_description_frame",
+      "surface": "ปวดหัว;ปวดท้อง;ไม่สบาย",
+      "tags": [
+        "symptom_description",
+        "low_stakes_health",
+        "no_medical_advice"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-028"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "ถูกกว่า",
+          "เร็วกว่า",
+          "สะดวกกว่า"
+        ],
+        "display": "A + adj/adv + กว่า + B",
+        "lemma_or_atom_sequence": [
+          {
+            "slot": "COMPARISON_SUBJECT"
+          },
+          {
+            "slot": "GRADABLE_PREDICATE"
+          },
+          {
+            "atom_id": "th:p:กว่า",
+            "lemma": "กว่า",
+            "pos": "p"
+          },
+          {
+            "slot": "COMPARISON_TARGET"
+          }
+        ],
+        "type": "frame_pattern"
+      },
+      "display_surface": "A + adj/adv + กว่า + B",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-001.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-001.02",
+        "sent.th.phase2.grammar.th-a2-gram-auth-001.03"
+      ],
+      "excluded_scope": [
+        "number-plus approximate more-than",
+        "duration-plus approximate more-than",
+        "time-condition frame",
+        "suggestion frame"
+      ],
+      "id": "th:grammar:a2_comparative_frame_kwaa",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "comparative_frame",
+      "surface": "A + adj/adv + กว่า + B",
+      "tags": [
+        "comparison",
+        "comparative",
+        "concrete_options"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-001"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "กาแฟและชา",
+          "ไปกับเพื่อน",
+          "ขอถุงด้วย"
+        ],
+        "display": "X และ Y / X กับ Y / V ด้วย",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:conj:และ",
+            "lemma": "และ",
+            "pos": "conj"
+          },
+          {
+            "atom_id": "th:p:กับ",
+            "lemma": "กับ",
+            "pos": "p"
+          },
+          {
+            "atom_id": "th:p:ด้วย",
+            "lemma": "ด้วย",
+            "pos": "p"
+          }
+        ],
+        "type": "connector_set"
+      },
+      "display_surface": "และ / กับ / ด้วย",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-028.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-028.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-028.03"
+      ],
+      "id": "th:grammar:a1_additive_comitative_connectors",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "additive_comitative_connectors",
+      "surface": "และ;กับ;ด้วย",
+      "tags": [
+        "coordination",
+        "comitative",
+        "additive"
+      ],
+      "target_inventory_id": "th-a1-gram-auth-028"
+    },
+    {
+      "canonical_pattern": {
+        "attested_surface_forms": [
+          "รถออกเมื่อไหร่",
+          "ทำไมร้านปิด",
+          "ไปสถานียังไง",
+          "กรอกแบบฟอร์มนี้อย่างไร"
+        ],
+        "display": "question clause + เมื่อไหร่ / ทำไม + clause / clause + ยังไง|อย่างไร",
+        "lemma_or_atom_sequence": [
+          {
+            "atom_id": "th:adv:เมื่อไหร่",
+            "lemma": "เมื่อไหร่",
+            "pos": "adv"
+          },
+          {
+            "atom_id": "th:adv:ทำไม",
+            "lemma": "ทำไม",
+            "pos": "adv"
+          },
+          {
+            "atom_id": "th:adv:ยังไง",
+            "lemma": "ยังไง",
+            "pos": "adv"
+          },
+          {
+            "atom_id": "th:adv:อย่างไร",
+            "lemma": "อย่างไร",
+            "pos": "adv"
+          }
+        ],
+        "type": "question_word_set"
+      },
+      "display_surface": "เมื่อไหร่ / ทำไม / ยังไง / อย่างไร",
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-029.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-029.02",
+        "sent.th.phase2.grammar.th-a2-gram-auth-029.03",
+        "sent.th.phase2.grammar.th-a2-gram-auth-029.04"
+      ],
+      "id": "th:grammar:a2_wh_time_reason_manner_questions",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "wh_time_reason_manner_questions",
+      "surface": "เมื่อไหร่;ทำไม;ยังไง;อย่างไร",
+      "tags": [
+        "wh_question",
+        "schedule",
+        "reason",
+        "manner",
+        "register"
+      ],
+      "target_inventory_id": "th-a2-gram-auth-029"
+    }
+  ],
+  "language": "th",
+  "package_id": "th-grammar-a1a2",
+  "schema_version": "grammar_runtime_preview_knowledge_items.v1"
+}

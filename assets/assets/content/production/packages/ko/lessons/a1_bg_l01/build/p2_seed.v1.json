@@ -1,0 +1,184 @@
+{
+  "p2_seed_cards": [
+    {
+      "item_id": "a1_bg_l01_student_polite_g1",
+      "mastery_key": "a1_bg_l01_student_polite_g1",
+      "front_ko": "저는 학생이에요.",
+      "back_ko": "저는 학생이에요.",
+      "answer_i18n": {
+        "zh_tw": "我是學生。",
+        "en": "I am a student."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "自我介紹最常用的日常語法。",
+        "en": "The most common everyday way to introduce yourself."
+      },
+      "source_preset_id": "student_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_here_cafe_polite_g1",
+      "mastery_key": "a1_bg_l01_here_cafe_polite_g1",
+      "front_ko": "여기는 카페예요.",
+      "back_ko": "여기는 카페예요.",
+      "answer_i18n": {
+        "zh_tw": "這裡是咖啡廳。",
+        "en": "This place is a cafe."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "介紹地點時常用這裡(여기)、那裡(거기/저기)。",
+        "en": "Use here (여기), there (거기), or over there (저기) to describe locations."
+      },
+      "source_preset_id": "here_cafe_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_read_book_polite_g1",
+      "mastery_key": "a1_bg_l01_read_book_polite_g1",
+      "front_ko": "책을 읽어요.",
+      "back_ko": "책을 읽어요.",
+      "answer_i18n": {
+        "zh_tw": "讀書。",
+        "en": "Read a book."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "動詞읽다是有收音的，接어요。",
+        "en": "Verb 읽다 has a batchim, so it takes 어요."
+      },
+      "source_preset_id": "read_book_polite_g1"
+    },
+    {
+      "item_id": "a1_bg_l01_do_exercise_polite_g1",
+      "mastery_key": "a1_bg_l01_do_exercise_polite_g1",
+      "front_ko": "운동을 해요.",
+      "back_ko": "운동을 해요.",
+      "answer_i18n": {
+        "zh_tw": "運動。",
+        "en": "Exercise."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "大部分하다結尾的動詞，해요體都換成해요。",
+        "en": "Most verbs ending in 하다 change to 해요 in polite form."
+      },
+      "source_preset_id": "do_exercise_polite_g1"
+    },
+    {
+      "item_id": "a1_bg_l01_this_apple_polite",
+      "mastery_key": "a1_bg_l01_this_apple_polite",
+      "front_ko": "이건 사과예요.",
+      "back_ko": "이건 사과예요.",
+      "answer_i18n": {
+        "zh_tw": "這是蘋果。",
+        "en": "This is an apple."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "指示離說話者近的人事物。",
+        "en": "This (이) is used for things near the speaker."
+      },
+      "source_preset_id": "this_apple_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_that_book_polite",
+      "mastery_key": "a1_bg_l01_that_book_polite",
+      "front_ko": "그건 책이에요.",
+      "back_ko": "그건 책이에요.",
+      "answer_i18n": {
+        "zh_tw": "那是書。",
+        "en": "That is a book."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "指示離聽者近或剛才提到的對象。",
+        "en": "That (그) is used for things near the listener or previously mentioned."
+      },
+      "source_preset_id": "that_book_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_that_over_there_apple_polite",
+      "mastery_key": "a1_bg_l01_that_over_there_apple_polite",
+      "front_ko": "저건 사과예요.",
+      "back_ko": "저건 사과예요.",
+      "answer_i18n": {
+        "zh_tw": "那邊那個是蘋果。",
+        "en": "That over there is an apple."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "指示離說話者和聽者都遠的人事物。",
+        "en": "That over there (저) is used for things far from both speaker and listener."
+      },
+      "source_preset_id": "that_over_there_apple_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_this_phone_polite",
+      "mastery_key": "a1_bg_l01_this_phone_polite",
+      "front_ko": "이건 핸드폰이에요.",
+      "back_ko": "이건 핸드폰이에요.",
+      "answer_i18n": {
+        "zh_tw": "這是手機。",
+        "en": "This is a phone."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "注意 핸드폰 有收音，接 이에요。",
+        "en": "Note that 핸드폰 ends with a batchim, so it uses 이에요."
+      },
+      "source_preset_id": "this_phone_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_time_polite",
+      "mastery_key": "a1_bg_l01_time_polite",
+      "front_ko": "지금 몇 시예요?",
+      "back_ko": "지금 몇 시예요?",
+      "answer_i18n": {
+        "zh_tw": "現在幾點？",
+        "en": "What time is it now?"
+      },
+      "usage_note_i18n": {
+        "zh_tw": "詢問目前的時間。",
+        "en": "Asking for the current time."
+      },
+      "source_preset_id": "time_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_go_cafe_polite",
+      "mastery_key": "a1_bg_l01_go_cafe_polite",
+      "front_ko": "카페에 가요.",
+      "back_ko": "카페에 가요.",
+      "answer_i18n": {
+        "zh_tw": "去咖啡廳。",
+        "en": "Go to a cafe."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "日常對話最常用的해요體。",
+        "en": "The most common polite ending in daily life."
+      },
+      "source_preset_id": "go_cafe_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_drink_coffee_polite",
+      "mastery_key": "a1_bg_l01_drink_coffee_polite",
+      "front_ko": "커피를 마셔요.",
+      "back_ko": "커피를 마셔요.",
+      "answer_i18n": {
+        "zh_tw": "喝咖啡。",
+        "en": "Drink coffee."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "動詞마시다接아요/어요變成마셔요。",
+        "en": "Verb 마시다 becomes 마셔요 in polite form."
+      },
+      "source_preset_id": "drink_coffee_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_eat_bread_polite",
+      "mastery_key": "a1_bg_l01_eat_bread_polite",
+      "front_ko": "빵을 먹어요.",
+      "back_ko": "빵을 먹어요.",
+      "answer_i18n": {
+        "zh_tw": "吃麵包。",
+        "en": "Eat bread."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "動詞먹다接어요變成먹어요。",
+        "en": "Verb 먹다 becomes 먹어요 in polite form."
+      },
+      "source_preset_id": "eat_bread_polite"
+    }
+  ]
+}

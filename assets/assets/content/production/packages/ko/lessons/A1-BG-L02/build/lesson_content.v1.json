@@ -1,0 +1,1380 @@
+{
+  "version": "unit_blueprint_v0.1",
+  "unit": {
+    "unit_id": "A1-BG-L02",
+    "title_i18n": {
+      "zh_tw": "文法 02：三大核心助詞 (은/는, 이/가, 을/를)",
+      "en": "Grammar 02: The Three Core Particles (은/는, 이/가, 을/를)"
+    },
+    "theme_i18n": {
+      "zh_tw": "誰在說話、誰在做事、動作的對象",
+      "en": "Who is talking, who is doing, and the object of action"
+    },
+    "target_language": "ko",
+    "learner_locale_source": "zh_tw",
+    "level": "A1",
+    "output_ratio_target": 0.55,
+    "can_do_i18n": [
+      {
+        "zh_tw": "你能區分 은/는 和 이/가 的使用場景 (主題 vs 主語)。",
+        "en": "Distinguish between 은/는 and 이/가 (Topic vs Subject)."
+      },
+      {
+        "zh_tw": "你能正確在受詞後加上 을/를。",
+        "en": "Correctly apply the object markers 을/를."
+      },
+      {
+        "zh_tw": "你能區分『我是學生』(一般介紹) 和『我才是學生』(指名主角) 的差別。",
+        "en": "Tell the difference between 'I am a student' (intro) and 'I (am the one who) am a student' (focus)."
+      },
+      {
+        "zh_tw": "你能正確造出包含主語、受詞、動詞的簡單動作句。",
+        "en": "Build basic sentence structures including subject, object, and verb."
+      }
+    ],
+    "grammar_cluster": [
+      "은/는",
+      "이/가",
+      "을/를"
+    ]
+  },
+  "sequence": [
+    {
+      "id": "A1-BG-L02-L1",
+      "candidate_type": "lesson",
+      "content_form": "dialogue",
+      "learning_role": "immersion_input",
+      "skill_focus": [
+        "listening",
+        "reading"
+      ],
+      "output_mode": "none",
+      "duration_min": 6,
+      "payload": {
+        "what_to_notice_i18n": [
+          {
+            "zh_tw": "注意指名「誰」要請客時用 누가/제가，以及切換到「午餐」這個新話題時用 점심은。",
+            "en": "Notice how 누가/제가 is used to spotlight 'who' pays, and how 은/는 shifts the topic to lunch."
+          }
+        ],
+        "dialogue_turns": [
+          {
+            "speaker": "A",
+            "text": "우리 커피 마셔요. 누가 사요?",
+            "zh_tw": "我們喝咖啡吧。誰要請客？",
+            "en": "Let's drink coffee. Who's paying?"
+          },
+          {
+            "speaker": "B",
+            "text": "제가 사요! 제가 오늘 기분이 좋아요.",
+            "zh_tw": "我來請！我今天心情很好。",
+            "en": "I'll pay! I'm in a good mood today."
+          },
+          {
+            "speaker": "A",
+            "text": "아, 진짜요? 고마워요! 그럼 점심은 제가 사요.",
+            "zh_tw": "啊，真的嗎？謝謝！那午飯（的話）就由我來請。",
+            "en": "Ah, really? Thanks! Then as for lunch, I'll pay."
+          }
+        ],
+        "dialogue_scenes": [
+          {
+            "scene_id": "cafe_payment",
+            "title_i18n": {
+              "zh_tw": "誰要請客？(Cafe Payment)",
+              "en": "Who's paying? (Cafe Payment)"
+            },
+            "turns": [
+              {
+                "speaker": "A",
+                "text": "우리 커피 마셔요. 누가 사요?",
+                "translations_i18n": {
+                  "zh_tw": "我們喝咖啡吧。誰要請客？",
+                  "en": "Let's drink coffee. Who's paying?"
+                },
+                "slot_values": {
+                  "interrogative": "누가"
+                },
+                "register": "polite"
+              },
+              {
+                "speaker": "B",
+                "text": "제가 사요! 제가 오늘 기분이 좋아요.",
+                "translations_i18n": {
+                  "zh_tw": "我來請！我今天心情很好。",
+                  "en": "I'll pay! I'm in a good mood today."
+                },
+                "slot_values": {
+                  "subject_focus": "제가"
+                },
+                "register": "polite"
+              },
+              {
+                "speaker": "A",
+                "text": "아, 진짜요? 고마워요! 그럼 점심은 제가 사요.",
+                "translations_i18n": {
+                  "zh_tw": "啊，真的嗎？謝謝！那午飯（的話）就由我來請。",
+                  "en": "Ah, really? Thanks! Then as for lunch, I'll pay."
+                },
+                "slot_values": {
+                  "topic_shift": "점심은",
+                  "subject_focus": "제가"
+                },
+                "register": "polite"
+              }
+            ]
+          }
+        ]
+      },
+      "expected_output_i18n": {
+        "zh_tw": "能在對話中辨識出指名主角 (이/가) 與切換話題 (은/는) 的功能。",
+        "en": "Identify subject spotlighting (이/가) and topic shifting (은/는) in conversation."
+      },
+      "title_i18n": {
+        "zh_tw": "L1 聽聽看：誰要請客？",
+        "en": "L1 Listening: Who's paying?"
+      }
+    },
+    {
+      "id": "A1-BG-L02-L2",
+      "candidate_type": "lesson",
+      "content_form": "pattern_lab",
+      "learning_role": "immersion_input",
+      "skill_focus": [
+        "reading"
+      ],
+      "duration_min": 5,
+      "title_i18n": {
+        "zh_tw": "L2 核心操作：主角 (이/가) vs 話題 (은/는)",
+        "en": "L2 Core Lab: Subject (이/가) vs Topic (은/는)"
+      },
+      "payload": {
+        "pattern_builder_demos": [
+          {
+            "builder_id": "subject-description-pairs",
+            "controls": [
+              {
+                "control_id": "target",
+                "label_i18n": {
+                  "zh_tw": "描述對象",
+                  "en": "Target"
+                },
+                "options": [
+                  {
+                    "value": "apple",
+                    "label_i18n": {
+                      "zh_tw": "蘋果 (사과)",
+                      "en": "Apple"
+                    }
+                  },
+                  {
+                    "value": "coffee",
+                    "label_i18n": {
+                      "zh_tw": "咖啡 (커피)",
+                      "en": "Coffee"
+                    }
+                  },
+                  {
+                    "value": "movie",
+                    "label_i18n": {
+                      "zh_tw": "電影 (영화)",
+                      "en": "Movie"
+                    }
+                  },
+                  {
+                    "value": "weather",
+                    "label_i18n": {
+                      "zh_tw": "天氣 (날씨)",
+                      "en": "Weather"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "state",
+                "label_i18n": {
+                  "zh_tw": "狀態",
+                  "en": "State"
+                },
+                "options": [
+                  {
+                    "value": "pos",
+                    "label_i18n": {
+                      "zh_tw": "正面 (好/吃...)",
+                      "en": "Positive"
+                    }
+                  },
+                  {
+                    "value": "neg",
+                    "label_i18n": {
+                      "zh_tw": "負面 (糟/貴...)",
+                      "en": "Negative"
+                    }
+                  }
+                ]
+              }
+            ],
+            "register_templates": {
+              "formal": "{target_marked} {predicate_stem}습니다.",
+              "polite": "{target_marked} {predicate_stem}어요.",
+              "casual": "{target_marked} {predicate_stem}어."
+            },
+            "translation_templates": {
+              "formal": {
+                "zh_tw": "{zh_tw_target}{zh_tw_state}。",
+                "en": "{en_target} is {en_state}."
+              },
+              "polite": {
+                "zh_tw": "{zh_tw_target}{zh_tw_state}。",
+                "en": "{en_target} is {en_state}."
+              },
+              "casual": {
+                "zh_tw": "{zh_tw_target}{zh_tw_state}。",
+                "en": "{en_target} is {en_state}."
+              }
+            },
+            "dynamic_token_rules": [
+              {
+                "token": "target_marked",
+                "source_control_id": "target",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "apple": "사과는",
+                    "coffee": "커피는",
+                    "movie": "영화는",
+                    "weather": "날씨는"
+                  },
+                  "polite": {
+                    "apple": "사과는",
+                    "coffee": "커피는",
+                    "movie": "영화는",
+                    "weather": "날씨는"
+                  },
+                  "casual": {
+                    "apple": "사과는",
+                    "coffee": "커피는",
+                    "movie": "영화는",
+                    "weather": "날씨는"
+                  }
+                }
+              },
+              {
+                "token": "predicate_stem",
+                "source_control_id": "target",
+                "secondary_control_id": "state",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "apple:pos": "맛있",
+                    "apple:neg": "맛없",
+                    "coffee:pos": "쌉",
+                    "coffee:neg": "비쌉",
+                    "movie:pos": "재미있",
+                    "movie:neg": "재미없",
+                    "weather:pos": "좋",
+                    "weather:neg": "나쁩"
+                  },
+                  "polite": {
+                    "apple:pos": "맛있",
+                    "apple:neg": "맛없",
+                    "coffee:pos": "싸",
+                    "coffee:neg": "비싸",
+                    "movie:pos": "재미있",
+                    "movie:neg": "재미없",
+                    "weather:pos": "좋",
+                    "weather:neg": "나쁘"
+                  },
+                  "casual": {
+                    "apple:pos": "맛있",
+                    "apple:neg": "맛없",
+                    "coffee:pos": "싸",
+                    "coffee:neg": "비싸",
+                    "movie:pos": "재미있",
+                    "movie:neg": "재미없",
+                    "weather:pos": "좋",
+                    "weather:neg": "나쁘"
+                  }
+                }
+              },
+              {
+                "token": "zh_tw_target",
+                "source_control_id": "target",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "apple": "蘋果",
+                    "coffee": "咖啡",
+                    "movie": "電影",
+                    "weather": "天氣"
+                  },
+                  "polite": {
+                    "apple": "蘋果",
+                    "coffee": "咖啡",
+                    "movie": "電影",
+                    "weather": "天氣"
+                  },
+                  "casual": {
+                    "apple": "蘋果",
+                    "coffee": "咖啡",
+                    "movie": "電影",
+                    "weather": "天氣"
+                  }
+                }
+              },
+              {
+                "token": "zh_tw_state",
+                "source_control_id": "target",
+                "secondary_control_id": "state",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "apple:pos": "好吃",
+                    "apple:neg": "難吃",
+                    "coffee:pos": "便宜",
+                    "coffee:neg": "貴",
+                    "movie:pos": "有趣",
+                    "movie:neg": "無聊",
+                    "weather:pos": "好",
+                    "weather:neg": "糟糕"
+                  },
+                  "polite": {
+                    "apple:pos": "好吃",
+                    "apple:neg": "難吃",
+                    "coffee:pos": "便宜",
+                    "coffee:neg": "貴",
+                    "movie:pos": "有趣",
+                    "movie:neg": "無聊",
+                    "weather:pos": "好",
+                    "weather:neg": "糟糕"
+                  },
+                  "casual": {
+                    "apple:pos": "好吃",
+                    "apple:neg": "難吃",
+                    "coffee:pos": "便宜",
+                    "coffee:neg": "貴",
+                    "movie:pos": "有趣",
+                    "movie:neg": "無聊",
+                    "weather:pos": "好",
+                    "weather:neg": "糟糕"
+                  }
+                }
+              },
+              {
+                "token": "en_target",
+                "source_control_id": "target",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "apple": "Apple",
+                    "coffee": "Coffee",
+                    "movie": "Movie",
+                    "weather": "Weather"
+                  },
+                  "polite": {
+                    "apple": "Apple",
+                    "coffee": "Coffee",
+                    "movie": "Movie",
+                    "weather": "Weather"
+                  },
+                  "casual": {
+                    "apple": "Apple",
+                    "coffee": "Coffee",
+                    "movie": "Movie",
+                    "weather": "Weather"
+                  }
+                }
+              },
+              {
+                "token": "en_state",
+                "source_control_id": "target",
+                "secondary_control_id": "state",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "apple:pos": "delicious",
+                    "apple:neg": "not delicious",
+                    "coffee:pos": "cheap",
+                    "coffee:neg": "expensive",
+                    "movie:pos": "interesting",
+                    "movie:neg": "boring",
+                    "weather:pos": "good",
+                    "weather:neg": "bad"
+                  },
+                  "polite": {
+                    "apple:pos": "delicious",
+                    "apple:neg": "not delicious",
+                    "coffee:pos": "cheap",
+                    "coffee:neg": "expensive",
+                    "movie:pos": "interesting",
+                    "movie:neg": "boring",
+                    "weather:pos": "good",
+                    "weather:neg": "bad"
+                  },
+                  "casual": {
+                    "apple:pos": "delicious",
+                    "apple:neg": "not delicious",
+                    "coffee:pos": "cheap",
+                    "coffee:neg": "expensive",
+                    "movie:pos": "interesting",
+                    "movie:neg": "boring",
+                    "weather:pos": "good",
+                    "weather:neg": "bad"
+                  }
+                }
+              }
+            ],
+            "review_export_presets": [
+              {
+                "preset_id": "apple_good_polite",
+                "item_id": "a1_bg_l02_apple_good_polite",
+                "mastery_key": "a1_bg_l02_apple_good_polite",
+                "control_values": {
+                  "target": "apple",
+                  "state": "pos",
+                  "register": "polite"
+                },
+                "ko_surface": "사과는 맛있어요.",
+                "meaning_i18n": {
+                  "zh_tw": "蘋果好吃。",
+                  "en": "Apple is delicious."
+                },
+                "chunks": [
+                  "사과는",
+                  "맛있어요."
+                ],
+                "distractors": [
+                  "맛없어요.",
+                  "사과가"
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "使用 은/는 引出話題及描述狀態。",
+                  "en": "Use 은/는 to introduce a topic and describe its state."
+                }
+              },
+              {
+                "preset_id": "coffee_expensive_polite",
+                "item_id": "a1_bg_l02_coffee_expensive_polite",
+                "mastery_key": "a1_bg_l02_coffee_expensive_polite",
+                "control_values": {
+                  "target": "coffee",
+                  "state": "neg",
+                  "register": "polite"
+                },
+                "ko_surface": "커피는 비싸요.",
+                "meaning_i18n": {
+                  "zh_tw": "咖啡很貴。",
+                  "en": "Coffee is expensive."
+                },
+                "chunks": [
+                  "커피는",
+                  "비싸요."
+                ],
+                "distractors": [
+                  "싸요.",
+                  "커피가"
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "話題標記 은/는 用於對比或強調。",
+                  "en": "Topic marker 은/는 used for contrast or emphasis."
+                }
+              },
+              {
+                "preset_id": "movie_boring_polite",
+                "item_id": "a1_bg_l02_movie_boring_polite",
+                "mastery_key": "a1_bg_l02_movie_boring_polite",
+                "control_values": {
+                  "target": "movie",
+                  "state": "neg",
+                  "register": "polite"
+                },
+                "ko_surface": "영화는 재미없어요.",
+                "meaning_i18n": {
+                  "zh_tw": "電影很無聊。",
+                  "en": "The movie is boring."
+                },
+                "chunks": [
+                  "영화는",
+                  "재미없어요."
+                ],
+                "distractors": [
+                  "재미있어요.",
+                  "영화가"
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "形容詞（狀態動詞）的日常語氣用法。",
+                  "en": "Common polite usage for state verbs (adjectives)."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A1-BG-L02-L3",
+      "candidate_type": "lesson",
+      "content_form": "pattern_lab",
+      "learning_role": "immersion_input",
+      "skill_focus": [
+        "reading"
+      ],
+      "duration_min": 5,
+      "title_i18n": {
+        "zh_tw": "L3 再看一組：受詞 (을/를) vs 對比 (은/는)",
+        "en": "L3 Logic Lab: Object (을/를) vs Contrast (은/는)"
+      },
+      "payload": {
+        "pattern_builder_demos": [
+          {
+            "builder_id": "verb-object-logic",
+            "controls": [
+              {
+                "control_id": "verb",
+                "label_i18n": {
+                  "zh_tw": "動作",
+                  "en": "Action"
+                },
+                "options": [
+                  {
+                    "value": "eat",
+                    "label_i18n": {
+                      "zh_tw": "吃 (먹다)",
+                      "en": "Eat"
+                    }
+                  },
+                  {
+                    "value": "drink",
+                    "label_i18n": {
+                      "zh_tw": "喝 (마시다)",
+                      "en": "Drink"
+                    }
+                  },
+                  {
+                    "value": "see",
+                    "label_i18n": {
+                      "zh_tw": "看 (보다)",
+                      "en": "See/Watch"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "object",
+                "label_i18n": {
+                  "zh_tw": "對象",
+                  "en": "Object"
+                },
+                "options": [
+                  {
+                    "value": "obj1",
+                    "label_i18n": {
+                      "zh_tw": "選項 1",
+                      "en": "Option 1"
+                    }
+                  },
+                  {
+                    "value": "obj2",
+                    "label_i18n": {
+                      "zh_tw": "選項 2",
+                      "en": "Option 2"
+                    }
+                  },
+                  {
+                    "value": "obj3",
+                    "label_i18n": {
+                      "zh_tw": "選項 3",
+                      "en": "Option 3"
+                    }
+                  }
+                ]
+              }
+            ],
+            "register_templates": {
+              "formal": "{object_marked} {verb_stem}습니다.",
+              "polite": "{object_marked} {verb_stem}어요.",
+              "casual": "{object_marked} {verb_stem}어."
+            },
+            "translation_templates": {
+              "formal": {
+                "zh_tw": "{zh_tw_verb}{zh_tw_object}。",
+                "en": "{en_verb} the {en_object}."
+              },
+              "polite": {
+                "zh_tw": "{zh_tw_verb}{zh_tw_object}。",
+                "en": "{en_verb} the {en_object}."
+              },
+              "casual": {
+                "zh_tw": "{zh_tw_verb}{zh_tw_object}。",
+                "en": "{en_verb} the {en_object}."
+              }
+            },
+            "dynamic_token_rules": [
+              {
+                "token": "object_marked",
+                "source_control_id": "verb",
+                "secondary_control_id": "object",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "eat:obj1": "밥을",
+                    "eat:obj2": "빵을",
+                    "eat:obj3": "사과를",
+                    "drink:obj1": "물을",
+                    "drink:obj2": "커피를",
+                    "drink:obj3": "우유를",
+                    "see:obj1": "영화를",
+                    "see:obj2": "티비를",
+                    "see:obj3": "유튜브를"
+                  },
+                  "polite": {
+                    "eat:obj1": "밥을",
+                    "eat:obj2": "빵을",
+                    "eat:obj3": "사과를",
+                    "drink:obj1": "물을",
+                    "drink:obj2": "커피를",
+                    "drink:obj3": "우유를",
+                    "see:obj1": "영화를",
+                    "see:obj2": "티비를",
+                    "see:obj3": "유튜브를"
+                  },
+                  "casual": {
+                    "eat:obj1": "밥을",
+                    "eat:obj2": "빵을",
+                    "eat:obj3": "사과를",
+                    "drink:obj1": "물을",
+                    "drink:obj2": "커피를",
+                    "drink:obj3": "우유를",
+                    "see:obj1": "영화를",
+                    "see:obj2": "티비를",
+                    "see:obj3": "유튜브를"
+                  }
+                }
+              },
+              {
+                "token": "verb_stem",
+                "source_control_id": "verb",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "eat": "먹",
+                    "drink": "마십",
+                    "see": "봅"
+                  },
+                  "polite": {
+                    "eat": "먹",
+                    "drink": "마셔",
+                    "see": "봐"
+                  },
+                  "casual": {
+                    "eat": "먹",
+                    "drink": "마셔",
+                    "see": "봐"
+                  }
+                }
+              },
+              {
+                "token": "zh_tw_object",
+                "source_control_id": "verb",
+                "secondary_control_id": "object",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "eat:obj1": "飯",
+                    "eat:obj2": "麵包",
+                    "eat:obj3": "蘋果",
+                    "drink:obj1": "水",
+                    "drink:obj2": "咖啡",
+                    "drink:obj3": "牛奶",
+                    "see:obj1": "電影",
+                    "see:obj2": "電視",
+                    "see:obj3": "YouTube"
+                  },
+                  "polite": {
+                    "eat:obj1": "飯",
+                    "eat:obj2": "麵包",
+                    "eat:obj3": "蘋果",
+                    "drink:obj1": "水",
+                    "drink:obj2": "咖啡",
+                    "drink:obj3": "牛奶",
+                    "see:obj1": "電影",
+                    "see:obj2": "電視",
+                    "see:obj3": "YouTube"
+                  },
+                  "casual": {
+                    "eat:obj1": "飯",
+                    "eat:obj2": "麵包",
+                    "eat:obj3": "蘋果",
+                    "drink:obj1": "水",
+                    "drink:obj2": "咖啡",
+                    "drink:obj3": "牛奶",
+                    "see:obj1": "電影",
+                    "see:obj2": "電視",
+                    "see:obj3": "YouTube"
+                  }
+                }
+              },
+              {
+                "token": "en_object",
+                "source_control_id": "verb",
+                "secondary_control_id": "object",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "eat:obj1": "meal",
+                    "eat:obj2": "bread",
+                    "eat:obj3": "apple",
+                    "drink:obj1": "water",
+                    "drink:obj2": "coffee",
+                    "drink:obj3": "milk",
+                    "see:obj1": "movie",
+                    "see:obj2": "TV",
+                    "see:obj3": "YouTube"
+                  },
+                  "polite": {
+                    "eat:obj1": "meal",
+                    "eat:obj2": "bread",
+                    "eat:obj3": "apple",
+                    "drink:obj1": "water",
+                    "drink:obj2": "coffee",
+                    "drink:obj3": "milk",
+                    "see:obj1": "movie",
+                    "see:obj2": "TV",
+                    "see:obj3": "YouTube"
+                  },
+                  "casual": {
+                    "eat:obj1": "meal",
+                    "eat:obj2": "bread",
+                    "eat:obj3": "apple",
+                    "drink:obj1": "water",
+                    "drink:obj2": "coffee",
+                    "drink:obj3": "milk",
+                    "see:obj1": "movie",
+                    "see:obj2": "TV",
+                    "see:obj3": "YouTube"
+                  }
+                }
+              },
+              {
+                "token": "zh_tw_verb",
+                "source_control_id": "verb",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "eat": "吃",
+                    "drink": "喝",
+                    "see": "看"
+                  },
+                  "polite": {
+                    "eat": "吃",
+                    "drink": "喝",
+                    "see": "看"
+                  },
+                  "casual": {
+                    "eat": "吃",
+                    "drink": "喝",
+                    "see": "看"
+                  }
+                }
+              },
+              {
+                "token": "en_verb",
+                "source_control_id": "verb",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "eat": "Eat",
+                    "drink": "Drink",
+                    "see": "See"
+                  },
+                  "polite": {
+                    "eat": "Eat",
+                    "drink": "Drink",
+                    "see": "See"
+                  },
+                  "casual": {
+                    "eat": "Eat",
+                    "drink": "Drink",
+                    "see": "See"
+                  }
+                }
+              }
+            ],
+            "review_export_presets": [
+              {
+                "preset_id": "eat_meal_polite",
+                "item_id": "a1_bg_l02_eat_meal_polite",
+                "mastery_key": "a1_bg_l02_eat_meal_polite",
+                "control_values": {
+                  "verb": "eat",
+                  "object": "obj1",
+                  "register": "polite"
+                },
+                "ko_surface": "밥을 먹어요.",
+                "meaning_i18n": {
+                  "zh_tw": "吃正餐。",
+                  "en": "Eat a meal."
+                },
+                "chunks": [
+                  "밥을",
+                  "먹어요."
+                ],
+                "distractors": [
+                  "빵을",
+                  "마셔요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "使用 을/를 標記動作的主體受詞。",
+                  "en": "Use 을/를 to mark the object of an action."
+                }
+              },
+              {
+                "preset_id": "drink_coffee_polite",
+                "item_id": "a1_bg_l02_drink_coffee_polite",
+                "mastery_key": "a1_bg_l02_drink_coffee_polite",
+                "control_values": {
+                  "verb": "drink",
+                  "object": "obj2",
+                  "register": "polite"
+                },
+                "ko_surface": "커피를 마셔요.",
+                "meaning_i18n": {
+                  "zh_tw": "喝咖啡。",
+                  "en": "Drink coffee."
+                },
+                "chunks": [
+                  "커피를",
+                  "마셔요."
+                ],
+                "distractors": [
+                  "물을",
+                  "먹어요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "子音結尾用 을，母音結尾用 를。",
+                  "en": "Use 을 for nouns ending in a consonant, 를 for vowels."
+                }
+              },
+              {
+                "preset_id": "see_movie_polite",
+                "item_id": "a1_bg_l02_see_movie_polite",
+                "mastery_key": "a1_bg_l02_see_movie_polite",
+                "control_values": {
+                  "verb": "see",
+                  "object": "obj1",
+                  "register": "polite"
+                },
+                "ko_surface": "영화를 봐요.",
+                "meaning_i18n": {
+                  "zh_tw": "看電影。",
+                  "en": "Watch a movie."
+                },
+                "chunks": [
+                  "영화를",
+                  "봐요."
+                ],
+                "distractors": [
+                  "티비를",
+                  "먹어요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "動詞 보다 接아요變成 봐요。",
+                  "en": "Verb 보다 becomes 봐요 in polite form."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A1-BG-L02-G1",
+      "candidate_type": "lesson",
+      "content_form": "grammar_summary",
+      "explanation_md_i18n": {
+        "zh_tw": "這一節總結了韓文中最重要的三個助詞：은/는、이/가、을/를。掌握這三個，就能看懂大部分的基礎句子結構。",
+        "en": "This section summarizes the three most important particles in Korean: 은/는, 이/가, and 을/를. Mastering these three will allow you to understand most basic sentence structures."
+      },
+      "learning_role": "explicit_rule",
+      "skill_focus": [
+        "reading"
+      ],
+      "expected_output_i18n": {
+        "zh_tw": "能快速理解 은/는、이/가、을/를 的基本用法差異。",
+        "en": "Quickly understand the basic usage differences between 은/는, 이/가, and 을/를."
+      },
+      "payload": {
+        "summary_items": [
+          {
+            "target": "名詞 + 은/는",
+            "explain_i18n": {
+              "zh_tw": "標記「話題」。用於介紹、對比或描述一般狀態。",
+              "en": "Topic marker. Used for introduction, contrast, or general description."
+            }
+          },
+          {
+            "target": "名詞 + 이/가",
+            "explain_i18n": {
+              "zh_tw": "標記「主語」。用於指名誰是主角，或強調主語本身。",
+              "en": "Subject marker. Used to spotlight the subject or designate 'who' is performing the action."
+            }
+          },
+          {
+            "target": "名詞 + 을/를",
+            "explain_i18n": {
+              "zh_tw": "標記「受詞」。用於動作的目標或對象。",
+              "en": "Object marker. Used for the target of a verb's action."
+            }
+          }
+        ]
+      },
+      "title_i18n": {
+        "zh_tw": "G1 要點總結：核心三大助詞",
+        "en": "G1 Summary: The Three Core Particles"
+      }
+    },
+    {
+      "id": "A1-BG-L02-G2",
+      "candidate_type": "lesson",
+      "content_form": "grammar_note",
+      "learning_role": "explicit_rule",
+      "skill_focus": [
+        "reading"
+      ],
+      "expected_output_i18n": {
+        "zh_tw": "理解韓文助詞與情境（聚光燈、話題、受詞）的聯繫。",
+        "en": "Understand the relationship between Korean particles and contexts (spotlight, topic, object)."
+      },
+      "payload": {
+        "sections": [
+          {
+            "title_i18n": {
+              "zh_tw": "主角 (이/가) vs 話題 (은/는)",
+              "en": "Subject (이/가) vs Topic (은/는)"
+            },
+            "explanation_md_i18n": {
+              "zh_tw": "想像你在看一部戲。`이/가` 就像聚光燈，正打在剛出場的主角身上。而 `은/는` 則是在介紹這部戲的背景話題。\n\n- `제가 사요`：是我要請客！(强调 **我** 是請客的那個人)\n- `커피는 비싸요`：關於咖啡嘛，它很貴。(以 **咖啡** 為話題進行描述)",
+              "en": "Imagine a play. `이/가` is like a spotlight on the main character who just entered. `은/는` is more about the context or background topic.\n\n- `제가 사요`: *I* am the one paying! (Spotlight on **me**)\n- `커피는 비싸요`: As for coffee, it is expensive. (Describing **coffee** as a topic)"
+            }
+          },
+          {
+            "title_i18n": {
+              "zh_tw": "誰被動作了？(을/를)",
+              "en": "Who is the Target? (을/를)"
+            },
+            "explanation_md_i18n": {
+              "zh_tw": "當你有一個動作（動詞）時，那個「被打中」的對象就是受詞。受詞後面要加 `을/를`。\n\n- `밥을 먹어요`：吃飯。(飯是「吃」的對象)\n- `커피를 마셔요`：喝咖啡。(咖啡是「喝」的對象)",
+              "en": "When you have an action (verb), the target getting 'hit' by that action is the object. Tag it with `을/를`.\n\n- `밥을 먹어요`: Eat a meal. (Meal is the object of 'eat')\n- `커피를 마셔요`: Drink coffee. (Coffee is the object of 'drink')"
+            }
+          }
+        ]
+      },
+      "title_i18n": {
+        "zh_tw": "G2 幫你整理：韓文助詞的邏輯",
+        "en": "G2 Logic: Korean Particles Explained"
+      }
+    },
+    {
+      "id": "A1-BG-L02-P1",
+      "candidate_type": "lesson",
+      "content_form": "practice_card",
+      "learning_role": "controlled_output",
+      "skill_focus": [
+        "reading"
+      ],
+      "output_mode": "chunk_assembly",
+      "duration_min": 5,
+      "title_i18n": {
+        "zh_tw": "P1 實戰演練：助詞挑戰",
+        "en": "P1 Practice: Particle Challenge"
+      },
+      "summary_i18n": {
+        "zh_tw": "根據對話情境選擇正確的助詞。",
+        "en": "Select the correct particle based on the context."
+      },
+      "projection_type": "chunk_assembly",
+      "projection_source": {
+        "status": "merged_v1",
+        "last_generated": "P1_V1_MERGE"
+      },
+      "payload": {
+        "tasks": [
+          {
+            "item_id": "a1_bg_l02_apple_good_polite",
+            "mastery_key": "a1_bg_l02_apple_good_polite",
+            "ko_surface": "사과는 맛있어요.",
+            "target_examples": [
+              "사과는 맛있어요."
+            ],
+            "target_examples_zh_tw": [
+              "蘋果好吃。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "蘋果好吃。",
+              "en": "Apple is delicious."
+            },
+            "chunks": [
+              "사과는",
+              "맛있어요."
+            ],
+            "distractors": [
+              "맛없어요.",
+              "사과가"
+            ],
+            "source_preset_id": "apple_good_polite"
+          },
+          {
+            "item_id": "a1_bg_l02_coffee_expensive_polite",
+            "mastery_key": "a1_bg_l02_coffee_expensive_polite",
+            "ko_surface": "커피는 비싸요.",
+            "target_examples": [
+              "커피는 비싸요."
+            ],
+            "target_examples_zh_tw": [
+              "咖啡很貴。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "咖啡很貴。",
+              "en": "Coffee is expensive."
+            },
+            "chunks": [
+              "커피는",
+              "비싸요."
+            ],
+            "distractors": [
+              "싸요.",
+              "커피가"
+            ],
+            "source_preset_id": "coffee_expensive_polite"
+          },
+          {
+            "item_id": "a1_bg_l02_drink_coffee_polite",
+            "mastery_key": "a1_bg_l02_drink_coffee_polite",
+            "ko_surface": "커피를 마셔요.",
+            "target_examples": [
+              "커피를 마셔요."
+            ],
+            "target_examples_zh_tw": [
+              "喝咖啡。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "喝咖啡。",
+              "en": "Drink coffee."
+            },
+            "chunks": [
+              "커피를",
+              "마셔요."
+            ],
+            "distractors": [
+              "물을",
+              "먹어요."
+            ],
+            "source_preset_id": "drink_coffee_polite"
+          },
+          {
+            "item_id": "a1_bg_l02_eat_meal_polite",
+            "mastery_key": "a1_bg_l02_eat_meal_polite",
+            "ko_surface": "밥을 먹어요.",
+            "target_examples": [
+              "밥을 먹어요."
+            ],
+            "target_examples_zh_tw": [
+              "吃正餐。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "吃正餐。",
+              "en": "Eat a meal."
+            },
+            "chunks": [
+              "밥을",
+              "먹어요."
+            ],
+            "distractors": [
+              "빵을",
+              "마셔요."
+            ],
+            "source_preset_id": "eat_meal_polite"
+          },
+          {
+            "item_id": "a1_bg_l02_movie_boring_polite",
+            "mastery_key": "a1_bg_l02_movie_boring_polite",
+            "ko_surface": "영화는 재미없어요.",
+            "target_examples": [
+              "영화는 재미없어요."
+            ],
+            "target_examples_zh_tw": [
+              "電影很無聊。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "電影很無聊。",
+              "en": "The movie is boring."
+            },
+            "chunks": [
+              "영화는",
+              "재미없어요."
+            ],
+            "distractors": [
+              "재미있어요.",
+              "영화가"
+            ],
+            "source_preset_id": "movie_boring_polite"
+          },
+          {
+            "item_id": "a1_bg_l02_see_movie_polite",
+            "mastery_key": "a1_bg_l02_see_movie_polite",
+            "ko_surface": "영화를 봐요.",
+            "target_examples": [
+              "영화를 봐요."
+            ],
+            "target_examples_zh_tw": [
+              "看電影。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "看電影。",
+              "en": "Watch a movie."
+            },
+            "chunks": [
+              "영화를",
+              "봐요."
+            ],
+            "distractors": [
+              "티비를",
+              "먹어요."
+            ],
+            "source_preset_id": "see_movie_polite"
+          }
+        ]
+      },
+      "adapter_hints": {
+        "content_renderer_key": "practice_card",
+        "interaction_renderer_key": "chunk_assembly"
+      }
+    },
+    {
+      "id": "A1-BG-L02-P2",
+      "content_form": "practice_card",
+      "learning_role": "controlled_output",
+      "projection_type": "flashcard_review",
+      "projection_source": {
+        "status": "merged_v1",
+        "last_generated": "P2_V1_MERGE"
+      },
+      "payload": {
+        "cards": [
+          {
+            "item_id": "a1_bg_l02_apple_good_polite",
+            "mastery_key": "a1_bg_l02_apple_good_polite",
+            "front_ko": "사과는 맛있어요.",
+            "back_ko": "사과는 맛있어요.",
+            "answer_i18n": {
+              "zh_tw": "蘋果好吃。",
+              "en": "Apple is delicious."
+            },
+            "prompt_i18n": {
+              "zh_tw": "觀察助詞 은/는：這是在描述話題還是強調主角？",
+              "en": "Focus on 은/는: Topic or subject spotlight?"
+            },
+            "note_i18n": {
+              "zh_tw": "一般描述「蘋果好吃」時，用話題標記 은/는。",
+              "en": "Generally describing 'Apple is delicious' uses the topic marker 은/는."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "使用 은/는 引出話題及描述狀態。",
+              "en": "Use 은/는 to introduce a topic and describe its state."
+            },
+            "source_preset_id": "apple_good_polite"
+          },
+          {
+            "item_id": "a1_bg_l02_coffee_expensive_polite",
+            "mastery_key": "a1_bg_l02_coffee_expensive_polite",
+            "front_ko": "커피는 비싸요.",
+            "back_ko": "커피는 비싸요.",
+            "answer_i18n": {
+              "zh_tw": "咖啡很貴。",
+              "en": "Coffee is expensive."
+            },
+            "prompt_i18n": {
+              "zh_tw": "思考「咖啡」放在這裡的功能是？",
+              "en": "What is the function of 'coffee' here?"
+            },
+            "note_i18n": {
+              "zh_tw": "提出「咖啡」作為話題來討論其屬性（貴）。",
+              "en": "Introducing 'coffee' as the topic to discuss its attribute (expensive)."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "話題標記 은/는 用於對比或強調。",
+              "en": "Topic marker 은/는 used for contrast or emphasis."
+            },
+            "source_preset_id": "coffee_expensive_polite"
+          },
+          {
+            "item_id": "a1_bg_l02_drink_coffee_polite",
+            "mastery_key": "a1_bg_l02_drink_coffee_polite",
+            "front_ko": "커피를 마셔요.",
+            "back_ko": "커피를 마셔요.",
+            "answer_i18n": {
+              "zh_tw": "喝咖啡。",
+              "en": "Drink coffee."
+            },
+            "prompt_i18n": {
+              "zh_tw": "觀察「咖啡」後面的助詞。為什麼是用 를？",
+              "en": "Note the particle after 'coffee'. Why 를?"
+            },
+            "note_i18n": {
+              "zh_tw": "「咖啡」結尾是母音，所以受詞標記用 를。",
+              "en": "'Coffee' ends in a vowel, so use 를 for the object marker."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "子音結尾用 을，母音結尾用 를。",
+              "en": "Use 을 for nouns ending in a consonant, 를 for vowels."
+            },
+            "source_preset_id": "drink_coffee_polite"
+          },
+          {
+            "item_id": "a1_bg_l02_eat_meal_polite",
+            "mastery_key": "a1_bg_l02_eat_meal_polite",
+            "front_ko": "밥을 먹어요.",
+            "back_ko": "밥을 먹어요.",
+            "answer_i18n": {
+              "zh_tw": "吃正餐。",
+              "en": "Eat a meal."
+            },
+            "prompt_i18n": {
+              "zh_tw": "找出這句話的「受詞」。",
+              "en": "Identify the 'object' in this sentence."
+            },
+            "note_i18n": {
+              "zh_tw": "「飯」是「吃」這個動作的對象，所以加 을。",
+              "en": "'Meal' is the object of 'eat', so add 을."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "使用 을/를 標記動作的主體受詞。",
+              "en": "Use 을/를 to mark the object of an action."
+            },
+            "source_preset_id": "eat_meal_polite"
+          },
+          {
+            "item_id": "a1_bg_l02_movie_boring_polite",
+            "mastery_key": "a1_bg_l02_movie_boring_polite",
+            "front_ko": "영화는 재미없어요.",
+            "back_ko": "영화는 재미없어요.",
+            "answer_i18n": {
+              "zh_tw": "電影很無聊。",
+              "en": "The movie is boring."
+            },
+            "prompt_i18n": {
+              "zh_tw": "這是在對「電影」進行話題描述嗎？",
+              "en": "Is this a topic-based description of the movie?"
+            },
+            "note_i18n": {
+              "zh_tw": "對電影進行主觀評價，通常用話題助詞。",
+              "en": "Giving a subjective evaluation of a movie usually uses topic particles."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "形容詞（狀態動詞）的日常語氣用法。",
+              "en": "Common polite usage for state verbs (adjectives)."
+            },
+            "source_preset_id": "movie_boring_polite"
+          },
+          {
+            "item_id": "a1_bg_l02_see_movie_polite",
+            "mastery_key": "a1_bg_l02_see_movie_polite",
+            "front_ko": "영화를 봐요.",
+            "back_ko": "영화를 봐요.",
+            "answer_i18n": {
+              "zh_tw": "看電影。",
+              "en": "Watch a movie."
+            },
+            "prompt_i18n": {
+              "zh_tw": "觀察「電影」與「看」的關係。",
+              "en": "Observe the relationship between 'movie' and 'watch'."
+            },
+            "note_i18n": {
+              "zh_tw": "「電影」是看的對象。注意 보다 變為 봐요。",
+              "en": "'Movie' is the target of watching. Note 보다 becomes 봐요."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "動詞 보다 接아요變成 봐요。",
+              "en": "Verb 보다 becomes 봐요 in polite form."
+            },
+            "source_preset_id": "see_movie_polite"
+          },
+          {
+            "item_id": "hand_authored_01",
+            "source": "hand_authored_override",
+            "front_ko": "누가 사요?",
+            "answer_i18n": {
+              "zh_tw": "誰要請客？",
+              "en": "Who is paying?"
+            },
+            "note_i18n": {
+              "zh_tw": "疑問詞누구搭配主語助詞時變為 누가，表示強力指名對象。",
+              "en": "Interrogative 누구 becomes 누가 with subject marker, spotlighting the target."
+            }
+          },
+          {
+            "item_id": "hand_authored_02",
+            "source": "hand_authored_override",
+            "front_ko": "제가 사요.",
+            "answer_i18n": {
+              "zh_tw": "我來請客。",
+              "en": "I am paying."
+            },
+            "note_i18n": {
+              "zh_tw": "저搭配主語助詞時變為 제가，指名主角「是我」。",
+              "en": "저 becomes 제가 with subject marker, spotlighting 'I' as the actor."
+            }
+          }
+        ]
+      },
+      "output_mode": "flashcard_review"
+    },
+    {
+      "id": "A1-BG-L02-R1",
+      "candidate_type": "lesson",
+      "content_form": "review_card",
+      "learning_role": "review_retrieval",
+      "payload": {
+        "prompts_i18n": [
+          {
+            "zh_tw": "這節課學到的三個核心助詞分別是什麼？它們各司其職什麼功能？",
+            "en": "What are the three core particles we learned? What is each of their functions?"
+          },
+          {
+            "zh_tw": "「是我請客」跟「我(身為話題)在吃飯」，用的助詞一樣嗎？",
+            "en": "Is the particle for 'I pay' same as 'I (as topic) am eating'?"
+          },
+          {
+            "zh_tw": "收尾是子音（如 밥）和母音（如 커피）時，受詞助詞該怎麼選？",
+            "en": "How do you choose the object marker if the noun ends in a consonant (밥) or a vowel (커피)?"
+          },
+          {
+            "zh_tw": "請試著解釋 이/가 的「聚光燈」效果是什麼意思。",
+            "en": "Try to explain what the 'spotlight' effect of 이/가 means."
+          }
+        ]
+      },
+      "adapter_hints": {
+        "content_renderer_key": "review_card",
+        "interaction_renderer_key": "review_retrieval"
+      },
+      "title_i18n": {
+        "zh_tw": "R1 課程小結：助詞大三元",
+        "en": "R1 Wrap-Up: The Particle Trinity"
+      },
+      "output_mode": "review_retrieval"
+    }
+  ]
+}

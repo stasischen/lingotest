@@ -1,0 +1,126 @@
+{
+  "schema_version": "a1_runtime_scenario_index.v1",
+  "language": "th",
+  "scenarios": [
+    {
+      "scenario_id": "convenience_payment_card_cash",
+      "title": "จ่ายเงินที่ร้านสะดวกซื้อ",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\convenience_payment_card_cash.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "core_repair_repeat_slowly",
+      "title": "ขอให้พูดอีกครั้ง",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\core_repair_repeat_slowly.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "daily_meet_friend",
+      "title": "เจอเพื่อน",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\daily_meet_friend.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "daily_schedule_time",
+      "title": "นัดเวลาเจอกัน",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\daily_schedule_time.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "daily_self_intro",
+      "title": "แนะนำตัว",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\daily_self_intro.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "digital_battery_charging",
+      "title": "ขอชาร์จมือถือ",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\digital_battery_charging.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "digital_wifi_connect",
+      "title": "ถามรหัสไวไฟและบอกว่าต่อไม่ได้",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\digital_wifi_connect.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "food_bill_payment",
+      "title": "จ่ายบิล",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\food_bill_payment.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "food_coffee_ordering",
+      "title": "สั่งกาแฟ",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\food_coffee_ordering.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "food_restaurant_ordering",
+      "title": "สั่งอาหารในร้านอาหาร",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\food_restaurant_ordering.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "hotel_checkout",
+      "title": "เช็กเอาต์ที่โรงแรม",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\hotel_checkout.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "hotel_wifi_breakfast",
+      "title": "ถามเรื่องไวไฟและอาหารเช้า",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\hotel_wifi_breakfast.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "problem_lost_item",
+      "title": "บอกว่าของหาย",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\problem_lost_item.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "shopping_ask_price",
+      "title": "ถามราคา",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\shopping_ask_price.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "social_running_late",
+      "title": "บอกว่าจะไปช้า",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\social_running_late.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "travel_hotel_checkin",
+      "title": "เช็กอินที่โรงแรม",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\travel_hotel_checkin.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "travel_restroom_directions",
+      "title": "ถามทางไปห้องน้ำ",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\travel_restroom_directions.th.v1.json",
+      "turn_count": 3
+    },
+    {
+      "scenario_id": "travel_station_directions",
+      "title": "ถามทางไปทางออกสถานี",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\travel_station_directions.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "travel_taxi_destination",
+      "title": "บอกปลายทางในแท็กซี่",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\travel_taxi_destination.th.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "travel_ticket_buying",
+      "title": "ซื้อตั๋ว",
+      "path": "D:\\Githubs\\lingo\\content-th\\content\\core\\content_assets\\scenario_packs\\current_flow\\travel_ticket_buying.th.v1.json",
+      "turn_count": 4
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "a1_candidate_runtime_manifest.v1",
+  "runtime_id": "a1_v2_20260619",
+  "lang": "en",
+  "learner_locale": "zh_tw",
+  "review_ceiling": "native_pending",
+  "visibility": "production",
+  "promotion": "owner_decision_20260619_native_waived",
+  "source_commits": {
+    "release_aggregator": "a988d208f39b80ff53b10933fa70af32cb21d5fa",
+    "content_repo": "711d9928c3c749d7f68482f27768acf965516406"
+  },
+  "counts": {
+    "scenarios": 0,
+    "source_rows": 290,
+    "segmentation_rows": 44,
+    "i18n_rows": 6,
+    "dictionary_gloss": 463,
+    "grammar_nodes": 26,
+    "grammar_nodes_total": 26,
+    "grammar_nodes_countable": 26,
+    "grammar_nodes_boundary": 0,
+    "productive_items": 0
+  },
+  "modules": {
+    "dictionary_gloss": "dictionary/a1_gloss.json",
+    "grammar_knowledge": "grammar/a1_grammar_knowledge.json",
+    "i18n_zh_tw": "i18n/zh_tw.json",
+    "reading_segmentation": "segmentation/reading_lemma_segmentation.json",
+    "readings": "readings/readings.json",
+    "readings_index": "readings/reading_index.json"
+  }
+}

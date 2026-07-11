@@ -1,0 +1,562 @@
+{
+  "schema_version": "a1_function_productive_sidecar.v1",
+  "language": "fr",
+  "status": "review_staging_native_pending",
+  "task_id": "A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION",
+  "created_for": "Task B A1 function productive layer",
+  "branch": "codex/a1-function-productive",
+  "author_pass": {
+    "identity": "worker_b_author_pass_fr_20260617",
+    "method": "constructed-response sidecar generated from existing native target-language scenario replies; no source dialogue schema edits",
+    "artifact": "content/review/a1_function_productive_20260617/productive_practice_20260617.json"
+  },
+  "judge_pass": {
+    "identity": "worker_b_judge_pass_fr_20260617",
+    "independent_from_author": true,
+    "artifact": "A1_FUNCTION_PRODUCTIVE_JUDGE_FR_20260617.md",
+    "minimum_score_required": 4,
+    "scores": {
+      "production_elicitation": 4,
+      "a1_level": 4,
+      "accepted_answer_naturalness": 4,
+      "free_pass_resistance": 4
+    },
+    "verdict": "pass_native_pending"
+  },
+  "coverage_rule": {
+    "partial_to_covered": "Function rows may move to covered when a sidecar item references the function ref_id, requires constructed learner production, has a non-MC prompt in the target language, has at least one accepted target-language answer, passes runtime smoke, and an independent judge scores all production axes >=4.",
+    "boundary": "AI-accepted productive evidence only; no native or production promotion."
+  },
+  "items": [
+    {
+      "item_id": "fr_hotel_checkin_productive_20260617",
+      "function_id": "hotel_checkin",
+      "ref_id": "CEFR.A1.hotel_checkin",
+      "ref_item": "can check in at a hotel and give reservation/name details",
+      "scenario_ids": [
+        "travel_hotel_checkin"
+      ],
+      "source_scenario_id": "travel_hotel_checkin",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/travel_hotel_checkin.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "guided_constructed_response",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Bonsoir. Vous avez une réservation ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Bonsoir, j'ai une réservation.",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "travel_hotel_checkin"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_order_drink_productive_20260617",
+      "function_id": "order_drink",
+      "ref_id": "CEFR.A1.order_drink",
+      "ref_item": "can order a simple drink or food item",
+      "scenario_ids": [
+        "food_coffee_ordering",
+        "food_restaurant_ordering"
+      ],
+      "source_scenario_id": "food_coffee_ordering",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/food_coffee_ordering.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "fill_the_turn",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Bonjour. Vous désirez ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Je voudrais un café au lait, s'il vous plaît.",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "food_coffee_ordering"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_ask_directions_productive_20260617",
+      "function_id": "ask_directions",
+      "ref_id": "CEFR.A1.ask_directions",
+      "ref_item": "can ask for and understand simple directions",
+      "scenario_ids": [
+        "travel_restroom_directions",
+        "travel_station_directions"
+      ],
+      "source_scenario_id": "travel_restroom_directions",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/travel_restroom_directions.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "prompt_to_produce",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Oui, je vous écoute.\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Où sont les toilettes, s'il vous plaît ?",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "travel_restroom_directions"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_pay_method_productive_20260617",
+      "function_id": "pay_method",
+      "ref_id": "CEFR.A1.pay_method",
+      "ref_item": "can choose and state a payment method",
+      "scenario_ids": [
+        "convenience_payment_card_cash",
+        "food_bill_payment"
+      ],
+      "source_scenario_id": "convenience_payment_card_cash",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/convenience_payment_card_cash.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "guided_constructed_response",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Ça fait quatre euros. Par carte ou en espèces ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Par carte, s'il vous plaît.",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "convenience_payment_card_cash"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_ask_price_buy_productive_20260617",
+      "function_id": "ask_price_buy",
+      "ref_id": "CEFR.A1.ask_price_buy",
+      "ref_item": "can ask a price and make a simple purchase",
+      "scenario_ids": [
+        "shopping_ask_price"
+      ],
+      "source_scenario_id": "shopping_ask_price",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/shopping_ask_price.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "fill_the_turn",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Vous voulez connaître le prix ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Oui. C'est combien ?",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "shopping_ask_price"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_arrange_time_productive_20260617",
+      "function_id": "arrange_time",
+      "ref_id": "CEFR.A1.arrange_time",
+      "ref_item": "can arrange a simple time or meeting",
+      "scenario_ids": [
+        "daily_schedule_time",
+        "daily_meet_friend"
+      ],
+      "source_scenario_id": "daily_schedule_time",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/daily_schedule_time.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "prompt_to_produce",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"On se retrouve à quelle heure ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "À trois heures.",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "daily_schedule_time"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_self_intro_productive_20260617",
+      "function_id": "self_intro",
+      "ref_id": "CEFR.A1.self_intro",
+      "ref_item": "can introduce themselves and give basic personal information",
+      "scenario_ids": [
+        "daily_self_intro"
+      ],
+      "source_scenario_id": "daily_self_intro",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/daily_self_intro.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "guided_constructed_response",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Salut, moi c'est Camille. Et toi ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Salut, moi c'est Alex.",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "daily_self_intro"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_buy_ticket_productive_20260617",
+      "function_id": "buy_ticket",
+      "ref_id": "CEFR.A1.buy_ticket",
+      "ref_item": "can buy a simple travel ticket",
+      "scenario_ids": [
+        "travel_ticket_buying"
+      ],
+      "source_scenario_id": "travel_ticket_buying",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/travel_ticket_buying.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "fill_the_turn",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Bonjour. Vous allez où ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Un billet pour Lyon, s'il vous plaît.",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "travel_ticket_buying"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_repair_repeat_productive_20260617",
+      "function_id": "repair_repeat",
+      "ref_id": "CEFR.A1.repair_repeat",
+      "ref_item": "can ask someone to repeat or speak slowly",
+      "scenario_ids": [
+        "core_repair_repeat_slowly"
+      ],
+      "source_scenario_id": "core_repair_repeat_slowly",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/core_repair_repeat_slowly.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "prompt_to_produce",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"C'est pour emporter ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Vous pouvez répéter, s'il vous plaît ?",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "core_repair_repeat_slowly"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_taxi_destination_productive_20260617",
+      "function_id": "taxi_destination",
+      "ref_id": "CEFR.A1.taxi_destination",
+      "ref_item": "can state a destination in a taxi",
+      "scenario_ids": [
+        "travel_taxi_destination"
+      ],
+      "source_scenario_id": "travel_taxi_destination",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/travel_taxi_destination.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "guided_constructed_response",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Bonjour, on va où ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "À l'hôtel Central, s'il vous plaît.",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "travel_taxi_destination"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_hotel_checkout_productive_20260617",
+      "function_id": "hotel_checkout",
+      "ref_id": "CEFR.A1.hotel_checkout",
+      "ref_item": "can check out of a hotel and return a key/card",
+      "scenario_ids": [
+        "hotel_checkout"
+      ],
+      "source_scenario_id": "hotel_checkout",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/hotel_checkout.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "fill_the_turn",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Bonjour. Vous souhaitez faire le départ ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Je voudrais faire le départ.",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "hotel_checkout"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_wifi_help_productive_20260617",
+      "function_id": "wifi_help",
+      "ref_id": "CEFR.A1.wifi_help",
+      "ref_item": "can ask for Wi-Fi information and report a connection problem",
+      "scenario_ids": [
+        "digital_wifi_connect",
+        "hotel_wifi_breakfast"
+      ],
+      "source_scenario_id": "digital_wifi_connect",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/digital_wifi_connect.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "prompt_to_produce",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Pour le wifi, je vous écoute.\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Quel est le mot de passe wifi ?",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "digital_wifi_connect"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_charge_phone_productive_20260617",
+      "function_id": "charge_phone",
+      "ref_id": "CEFR.A1.charge_phone",
+      "ref_item": "can ask permission to charge a phone",
+      "scenario_ids": [
+        "digital_battery_charging"
+      ],
+      "source_scenario_id": "digital_battery_charging",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/digital_battery_charging.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "guided_constructed_response",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Bonjour, je peux vous aider ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Je peux charger mon téléphone ici ?",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "digital_battery_charging"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_running_late_productive_20260617",
+      "function_id": "running_late",
+      "ref_id": "CEFR.A1.running_late",
+      "ref_item": "can say they are late and give a simple time estimate",
+      "scenario_ids": [
+        "social_running_late"
+      ],
+      "source_scenario_id": "social_running_late",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/social_running_late.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "fill_the_turn",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Tu arrives bientôt ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "Désolé, je suis en retard.",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "social_running_late"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    },
+    {
+      "item_id": "fr_lost_item_productive_20260617",
+      "function_id": "lost_item",
+      "ref_id": "CEFR.A1.lost_item",
+      "ref_item": "can say an item is lost and ask where to go",
+      "scenario_ids": [
+        "problem_lost_item"
+      ],
+      "source_scenario_id": "problem_lost_item",
+      "source_scenario_path": "content/core/content_assets/scenario_packs/current_flow/problem_lost_item.fr.v1.json",
+      "source_turn_id": "t1",
+      "exercise_type": "prompt_to_produce",
+      "production_mode": {
+        "response_format": "constructed_text_or_spoken_response",
+        "multiple_acceptable_answers": true,
+        "requires_learner_production": true,
+        "not_multiple_choice": true
+      },
+      "prompt_target_language": "La personne dit : \"Bonjour, je peux vous aider ?\"\nRépondez avec une phrase courte.",
+      "accepted_answers": [
+        {
+          "surface": "J'ai perdu mon sac.",
+          "source_choice_id": "r1a",
+          "source_turn_id": "t1",
+          "source_scenario_id": "problem_lost_item"
+        }
+      ],
+      "runtime_smoke": {
+        "source_scenario_found": true,
+        "source_turn_found": true,
+        "accepted_answer_source": "existing_scenario_correct_reply_choice"
+      },
+      "review_status": "needs_review",
+      "native_review_state": "native_pending"
+    }
+  ]
+}

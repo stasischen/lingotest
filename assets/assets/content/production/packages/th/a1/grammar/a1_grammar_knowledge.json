@@ -1,0 +1,300 @@
+{
+  "schema_version": "a1_grammar_knowledge_sidecar.v1",
+  "language": "th",
+  "status": "review_staging_native_pending",
+  "created_at": "2026-06-18",
+  "author_id": "phase3_grammar_knowledge_author_th_20260618",
+  "authoring_basis": "external denominator row plus grounded reading_surface_drafts_20260615 examples",
+  "production_promotion_allowed": false,
+  "native_status": "native_pending",
+  "nodes": [
+    {
+      "learning_object_id": "th_grammar_svo",
+      "title_zh_tw": "basic SVO word order（ผม, ฉัน）",
+      "explanation_md_zh_tw": "這個節點教 泰文 A1 的「basic SVO word order」。 泰文基本語序常是「主詞 + 動詞 + 受詞/補語」，例如先說ผม/ฉัน，再說做什麼、對什麼做。 這次先認得：ผม、ฉัน。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "TH.grammar.svo",
+      "ref_item": "basic SVO word order",
+      "ref_subitems": [
+        "ผม",
+        "ฉัน"
+      ],
+      "examples": [
+        {
+          "surface": "ลูกชายพูดว่า ผมช่วยยกน้ำครับ",
+          "source_item_id": "article:th_reading_svo_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ผม」，呈現「basic SVO word order」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ลูกสาวพูดว่า ฉันช่วยวางจานค่ะ",
+          "source_item_id": "article:th_reading_svo_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「ฉัน」，呈現「basic SVO word order」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Constructed Thai A1 reference",
+      "source_locator": "CEFR Companion Volume A1 + Thai beginner grammar reference; see th_grammar.jsonl notes",
+      "source_reading_asset_id": "th_reading_svo_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-th\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\th_reading_svo_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_th_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "th_grammar_polite_particles",
+      "title_zh_tw": "polite particles ครับ/ค่ะ（ครับ, ค่ะ）",
+      "explanation_md_zh_tw": "這個節點教 泰文 A1 的「polite particles ครับ/ค่ะ」。 這是泰文句尾禮貌詞。ครับ 常由男性說話者使用，ค่ะ 常由女性說話者使用，用來讓句子更有禮貌。 這次先認得：ครับ、ค่ะ。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "TH.grammar.polite_particles",
+      "ref_item": "polite particles ครับ/ค่ะ",
+      "ref_subitems": [
+        "ครับ",
+        "ค่ะ"
+      ],
+      "examples": [
+        {
+          "surface": "ตอนเช้า ผมเข้าไปร้านกาแฟครับ",
+          "source_item_id": "article:th_reading_polite_particles_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「ครับ」，呈現「polite particles ครับ/ค่ะ」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "พนักงานตอบว่า ได้ค่ะ แล้วชงกาแฟให้",
+          "source_item_id": "article:th_reading_polite_particles_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「ค่ะ」，呈現「polite particles ครับ/ค่ะ」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ผมพูดว่า ขอกาแฟหนึ่งแก้วครับ",
+          "source_item_id": "article:th_reading_polite_particles_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ครับ」，呈現「polite particles ครับ/ค่ะ」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ผมรับกาแฟและพูดว่า ขอบคุณครับ",
+          "source_item_id": "article:th_reading_polite_particles_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「ครับ」，呈現「polite particles ครับ/ค่ะ」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Constructed Thai A1 reference",
+      "source_locator": "CEFR Companion Volume A1 + Thai beginner grammar reference; see th_grammar.jsonl notes",
+      "source_reading_asset_id": "th_reading_polite_particles_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-th\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\th_reading_polite_particles_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_th_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "th_grammar_questions",
+      "title_zh_tw": "basic yes/no and wh questions（ไหม, ที่ไหน）",
+      "explanation_md_zh_tw": "這個節點教 泰文 A1 的「basic yes/no and wh questions」。 它用來問問題。先記住問人、地點、時間、數量或 yes/no 時句子怎麼開頭或結尾。 這次先認得：ไหม、ที่ไหน。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "TH.grammar.questions",
+      "ref_item": "basic yes/no and wh questions",
+      "ref_subitems": [
+        "ไหม",
+        "ที่ไหน"
+      ],
+      "examples": [
+        {
+          "surface": "เธอถามพนักงานว่า ห้องน้ำอยู่ที่ไหนคะ",
+          "source_item_id": "article:th_reading_questions_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ที่ไหน」，呈現「basic yes/no and wh questions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "พนักงานชี้ไปทางซ้ายและถามว่า ต้องการแผนที่ไหมครับ",
+          "source_item_id": "article:th_reading_questions_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「ไหม」，呈現「basic yes/no and wh questions」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Constructed Thai A1 reference",
+      "source_locator": "CEFR Companion Volume A1 + Thai beginner grammar reference; see th_grammar.jsonl notes",
+      "source_reading_asset_id": "th_reading_questions_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-th\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\th_reading_questions_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_th_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "th_grammar_negation",
+      "title_zh_tw": "basic negation ไม่（ไม่）",
+      "explanation_md_zh_tw": "這個節點教 泰文 A1 的「basic negation ไม่」。 它用來說「不/沒有」。重點是把否定標記放在例句中的正確位置。 這次先認得：ไม่。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "TH.grammar.negation",
+      "ref_item": "basic negation ไม่",
+      "ref_subitems": [
+        "ไม่"
+      ],
+      "examples": [
+        {
+          "surface": "ผมไม่ไปสวนและไม่ขี่จักรยานครับ",
+          "source_item_id": "article:th_reading_negation_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ไม่」，呈現「basic negation ไม่」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ผมอยู่บ้าน เพราะไม่อยากเปียก",
+          "source_item_id": "article:th_reading_negation_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「ไม่」，呈現「basic negation ไม่」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Constructed Thai A1 reference",
+      "source_locator": "CEFR Companion Volume A1 + Thai beginner grammar reference; see th_grammar.jsonl notes",
+      "source_reading_asset_id": "th_reading_negation_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-th\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\th_reading_negation_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_th_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "th_grammar_classifiers",
+      "title_zh_tw": "basic classifiers（คน, ใบ）",
+      "explanation_md_zh_tw": "這個節點教 泰文 A1 的「basic classifiers」。 泰文數東西常需要量詞，常見順序是「名詞 + 數字 + 量詞」，例如 คน 用於人、ใบ 可用於袋子等物品。 這次先認得：คน、ใบ。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "TH.grammar.classifiers",
+      "ref_item": "basic classifiers",
+      "ref_subitems": [
+        "คน",
+        "ใบ"
+      ],
+      "examples": [
+        {
+          "surface": "เพื่อนหนึ่งคนถือถุงใบนั้นให้",
+          "source_item_id": "article:th_reading_classifiers_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「คน、ใบ」，呈現「basic classifiers」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ตอนบ่าย ฉันไปร้านขนมกับเพื่อนสองคน",
+          "source_item_id": "article:th_reading_classifiers_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「คน」，呈現「basic classifiers」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ในร้านมีลูกค้าอีกสามคน",
+          "source_item_id": "article:th_reading_classifiers_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「คน」，呈現「basic classifiers」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ฉันซื้อขนมและขอถุงหนึ่งใบ",
+          "source_item_id": "article:th_reading_classifiers_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「ใบ」，呈現「basic classifiers」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Constructed Thai A1 reference",
+      "source_locator": "CEFR Companion Volume A1 + Thai beginner grammar reference; see th_grammar.jsonl notes",
+      "source_reading_asset_id": "th_reading_classifiers_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-th\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\th_reading_classifiers_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_th_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "th_grammar_time_expressions",
+      "title_zh_tw": "basic time expressions（วันนี้, พรุ่งนี้）",
+      "explanation_md_zh_tw": "這個節點教 泰文 A1 的「basic time expressions」。 今天、明天這類時間詞說動作發生的時間，常放在句首或動作前，幫你先知道時間再看動作。 這次先認得：วันนี้、พรุ่งนี้。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "TH.grammar.time_expressions",
+      "ref_item": "basic time expressions",
+      "ref_subitems": [
+        "วันนี้",
+        "พรุ่งนี้"
+      ],
+      "examples": [
+        {
+          "surface": "วันนี้ฉันทำงานที่ร้านกาแฟตั้งแต่เช้า",
+          "source_item_id": "article:th_reading_time_expressions_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「วันนี้」，呈現「basic time expressions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ตอนเย็น ฉันดูตารางงานของพรุ่งนี้",
+          "source_item_id": "article:th_reading_time_expressions_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「พรุ่งนี้」，呈現「basic time expressions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "วันนี้ลูกค้าเยอะ ฉันจึงเตรียมน้ำและขนมเพิ่ม",
+          "source_item_id": "article:th_reading_time_expressions_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「วันนี้」，呈現「basic time expressions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "พรุ่งนี้ฉันหยุดงานและจะไปตลาดกับแม่",
+          "source_item_id": "article:th_reading_time_expressions_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「พรุ่งนี้」，呈現「basic time expressions」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Constructed Thai A1 reference",
+      "source_locator": "CEFR Companion Volume A1 + Thai beginner grammar reference; see th_grammar.jsonl notes",
+      "source_reading_asset_id": "th_reading_time_expressions_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-th\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\th_reading_time_expressions_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_th_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "th_grammar_existential",
+      "title_zh_tw": "มี existential/possession（มี）",
+      "explanation_md_zh_tw": "這個節點教 泰文 A1 的「มี existential/possession」。 มี可以說「有/存在」，也可以說某人「擁有」某物。先看句子是在說某處有東西，還是某人有東西。 這次先認得：มี。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "TH.grammar.existential",
+      "ref_item": "มี existential/possession",
+      "ref_subitems": [
+        "มี"
+      ],
+      "examples": [
+        {
+          "surface": "ในห้องมีโต๊ะเล็กและเตียงหนึ่งเตียง",
+          "source_item_id": "article:th_reading_existential_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「มี」，呈現「มี existential/possession」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "บนโต๊ะมีน้ำสองขวด",
+          "source_item_id": "article:th_reading_existential_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「มี」，呈現「มี existential/possession」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ฉันมีกระเป๋าสีดำหนึ่งใบ",
+          "source_item_id": "article:th_reading_existential_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「มี」，呈現「มี existential/possession」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ในกระเป๋ามีกุญแจและโทรศัพท์ ฉันจึงพักได้สบาย",
+          "source_item_id": "article:th_reading_existential_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「มี」，呈現「มี existential/possession」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Constructed Thai A1 reference",
+      "source_locator": "CEFR Companion Volume A1 + Thai beginner grammar reference; see th_grammar.jsonl notes",
+      "source_reading_asset_id": "th_reading_existential_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-th\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\th_reading_existential_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_th_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "th_grammar_serial_verbs",
+      "title_zh_tw": "basic serial verb/request patterns（ไป, เอา）",
+      "explanation_md_zh_tw": "這個節點教 泰文 A1 的「basic serial verb/request patterns」。 泰文可以把兩個動詞連在一起說一個連續動作或請求，例如「去拿」「拿去放」。先看第一個動作後面接著做什麼。 這次先認得：ไป、เอา。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "TH.grammar.serial_verbs",
+      "ref_item": "basic serial verb/request patterns",
+      "ref_subitems": [
+        "ไป",
+        "เอา"
+      ],
+      "examples": [
+        {
+          "surface": "ผมเอากระเป๋าไปใส่ของ",
+          "source_item_id": "article:th_reading_serial_verbs_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ไป、เอา」，呈現「basic serial verb/request patterns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ตอนเช้า ผมไปตลาดกับพ่อครับ",
+          "source_item_id": "article:th_reading_serial_verbs_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「ไป」，呈現「basic serial verb/request patterns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "พ่อให้ผมไปเอาข้าวและน้ำที่ร้าน",
+          "source_item_id": "article:th_reading_serial_verbs_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「ไป、เอา」，呈現「basic serial verb/request patterns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ผมเอาของกลับมาที่รถ",
+          "source_item_id": "article:th_reading_serial_verbs_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「เอา」，呈現「basic serial verb/request patterns」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Constructed Thai A1 reference",
+      "source_locator": "CEFR Companion Volume A1 + Thai beginner grammar reference; see th_grammar.jsonl notes",
+      "source_reading_asset_id": "th_reading_serial_verbs_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-th\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\th_reading_serial_verbs_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_th_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    }
+  ]
+}

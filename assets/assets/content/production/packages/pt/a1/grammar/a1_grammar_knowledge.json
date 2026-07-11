@@ -1,0 +1,644 @@
+{
+  "schema_version": "a1_grammar_knowledge_sidecar.v1",
+  "language": "pt",
+  "status": "review_staging_native_pending",
+  "created_at": "2026-06-18",
+  "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+  "authoring_basis": "external denominator row plus grounded reading_surface_drafts_20260615 examples",
+  "production_promotion_allowed": false,
+  "native_status": "native_pending",
+  "nodes": [
+    {
+      "learning_object_id": "pt_grammar_articles",
+      "title_zh_tw": "artigos definidos e indefinidos（o, a, um, uma）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「artigos definidos e indefinidos」。 它幫你在名詞前面標出「一個」或「這個/那個」，也常跟性別、單複數一起變。 這次先認得：o、a、um、uma。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.articles",
+      "ref_item": "artigos definidos e indefinidos",
+      "ref_subitems": [
+        "o",
+        "a",
+        "um",
+        "uma"
+      ],
+      "examples": [
+        {
+          "surface": "Ela pega o caderno e a caneta.",
+          "source_item_id": "article:pt_reading_articles_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「o、a」，呈現「artigos definidos e indefinidos」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Na mesa, há um livro e uma folha.",
+          "source_item_id": "article:pt_reading_articles_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「um、uma」，呈現「artigos definidos e indefinidos」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "O professor mostra uma foto da turma.",
+          "source_item_id": "article:pt_reading_articles_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「o、uma」，呈現「artigos definidos e indefinidos」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ana escreve um nome na folha.",
+          "source_item_id": "article:pt_reading_articles_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「um」，呈現「artigos definidos e indefinidos」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_articles_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_articles_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_gender_number",
+      "title_zh_tw": "gender and number（amigo, amiga, amigos）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「gender and number」。 它幫你看出名詞是陰性/陽性或單數/複數，周圍的冠詞、形容詞也要跟著配合。 這次先認得：amigo、amiga、amigos。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.gender_number",
+      "ref_item": "gender and number",
+      "ref_subitems": [
+        "amigo",
+        "amiga",
+        "amigos"
+      ],
+      "examples": [
+        {
+          "surface": "Lucas fala com a amiga e com o amigo.",
+          "source_item_id": "article:pt_reading_gender_number_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「amigo、amiga」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Os amigos jogam perto do banco.",
+          "source_item_id": "article:pt_reading_gender_number_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「amigos」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ele espera seu amigo Pedro no portão.",
+          "source_item_id": "article:pt_reading_gender_number_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「amigo」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "A amiga Marina chega com água.",
+          "source_item_id": "article:pt_reading_gender_number_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「amiga」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_gender_number_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_gender_number_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_present_regular",
+      "title_zh_tw": "present regular verbs（falo, como, abro）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「present regular verbs」。 它用來說現在正在/平常會做的事。先看主詞不同時，規則動詞現在式字尾怎麼變。 這次先認得：falo、como、abro。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.present_regular",
+      "ref_item": "present regular verbs",
+      "ref_subitems": [
+        "falo",
+        "como",
+        "abro"
+      ],
+      "examples": [
+        {
+          "surface": "Como pão com queijo antes da aula.",
+          "source_item_id": "article:pt_reading_present_regular_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「como、antes」，呈現「present regular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Falo uma frase nova para Marta.",
+          "source_item_id": "article:pt_reading_present_regular_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「falo、frase」，呈現「present regular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Depois, abro o caderno azul.",
+          "source_item_id": "article:pt_reading_present_regular_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「abro」，呈現「present regular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Falo devagar com minha vizinha Marta.",
+          "source_item_id": "article:pt_reading_present_regular_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「falo」，呈現「present regular verbs」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_present_regular_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_present_regular_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_ser_estar",
+      "title_zh_tw": "ser and estar（sou, estou）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「ser and estar」。 先用它說身分、狀態、位置或「是什麼」。遇到兩種形式時，先看例句是在說固定身分還是當下狀態。 這次先認得：sou、estou。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.ser_estar",
+      "ref_item": "ser and estar",
+      "ref_subitems": [
+        "sou",
+        "estou"
+      ],
+      "examples": [
+        {
+          "surface": "Sou de Curitiba, mas estou em São Paulo agora.",
+          "source_item_id": "article:pt_reading_ser_estar_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「sou、estou」，呈現「ser and estar」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sou aluno de português básico.",
+          "source_item_id": "article:pt_reading_ser_estar_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「sou」，呈現「ser and estar」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Estou na sala número dois.",
+          "source_item_id": "article:pt_reading_ser_estar_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「estou」，呈現「ser and estar」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Estou um pouco nervoso no começo.",
+          "source_item_id": "article:pt_reading_ser_estar_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「estou」，呈現「ser and estar」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_ser_estar_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_ser_estar_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_ter_ir",
+      "title_zh_tw": "ter and ir（tenho, vou）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「ter and ir」。 這兩個常用動詞很重要：ter 說「有」，ir 說「去」或接下來要做。先看句子是在說擁有、行程，還是移動。 這次先認得：tenho、vou。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.ter_ir",
+      "ref_item": "ter and ir",
+      "ref_subitems": [
+        "tenho",
+        "vou"
+      ],
+      "examples": [
+        {
+          "surface": "Hoje tenho aula às oito.",
+          "source_item_id": "article:pt_reading_ter_ir_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「tenho」，呈現「ter and ir」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Vou de ônibus até a escola.",
+          "source_item_id": "article:pt_reading_ter_ir_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「vou」，呈現「ter and ir」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Tenho uma mochila pequena e um lanche.",
+          "source_item_id": "article:pt_reading_ter_ir_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「tenho」，呈現「ter and ir」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "No caminho, tenho dez minutos livres.",
+          "source_item_id": "article:pt_reading_ter_ir_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「tenho」，呈現「ter and ir」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_ter_ir_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_ter_ir_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_negation",
+      "title_zh_tw": "não（não）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「não」。 它用來說「不/沒有」。重點是把否定標記放在例句中的正確位置。 這次先認得：não。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.negation",
+      "ref_item": "não",
+      "ref_subitems": [
+        "não"
+      ],
+      "examples": [
+        {
+          "surface": "Ele não acha a xícara azul.",
+          "source_item_id": "article:pt_reading_negation_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「não」，呈現「não」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "A xícara não está na mesa.",
+          "source_item_id": "article:pt_reading_negation_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「não」，呈現「não」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ele não abre o armário errado.",
+          "source_item_id": "article:pt_reading_negation_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「não」，呈現「não」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sua irmã diz: não, está perto da pia.",
+          "source_item_id": "article:pt_reading_negation_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「não」，呈現「não」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_negation_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_negation_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_questions",
+      "title_zh_tw": "basic questions（onde, quando, quanto）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「basic questions」。 它用來問問題。先記住問人、地點、時間、數量或 yes/no 時句子怎麼開頭或結尾。 這次先認得：onde、quando、quanto。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.questions",
+      "ref_item": "basic questions",
+      "ref_subitems": [
+        "onde",
+        "quando",
+        "quanto"
+      ],
+      "examples": [
+        {
+          "surface": "Ela pergunta: onde fica a plataforma três?",
+          "source_item_id": "article:pt_reading_questions_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「onde」，呈現「basic questions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Bianca pergunta: quando sai o trem?",
+          "source_item_id": "article:pt_reading_questions_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「quando」，呈現「basic questions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ela pergunta: quanto custa a passagem?",
+          "source_item_id": "article:pt_reading_questions_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「quanto」，呈現「basic questions」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_questions_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_questions_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_pronouns",
+      "title_zh_tw": "personal pronouns（eu, você, ele）",
+      "explanation_md_zh_tw": "這個節點教巴西葡萄牙文 A1 的人稱代詞 eu、você、ele。eu 是我，você 是你/您，ele 是他；它們放在句中幫你看出誰在做動作或處於某個狀態。讀例句時先找代詞，再看後面的動詞。",
+      "explanation_source": "authored",
+      "ref_id": "PT.grammar.pronouns",
+      "ref_item": "personal pronouns",
+      "ref_subitems": [
+        "eu",
+        "você",
+        "ele"
+      ],
+      "examples": [
+        {
+          "surface": "Eu digo que sim, ele é meu colega.",
+          "source_item_id": "article:pt_reading_pronouns_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「eu、ele」，呈現「personal pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Você está na mesa da janela, diz Lia.",
+          "source_item_id": "article:pt_reading_pronouns_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「você」，呈現「personal pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Eu chego cedo ao café.",
+          "source_item_id": "article:pt_reading_pronouns_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「eu」，呈現「personal pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Eu deixo meu livro na mesa.",
+          "source_item_id": "article:pt_reading_pronouns_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「eu」，呈現「personal pronouns」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_pronouns_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_pronouns_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_possessives",
+      "title_zh_tw": "possessives（meu, sua）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「possessives」。 它用來說「我的/你的/某人的」。先看誰擁有後面的東西。 這次先認得：meu、sua。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.possessives",
+      "ref_item": "possessives",
+      "ref_subitems": [
+        "meu",
+        "sua"
+      ],
+      "examples": [
+        {
+          "surface": "Ana pega sua caneta e escreve meu número.",
+          "source_item_id": "article:pt_reading_possessives_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「meu、sua」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "No curso, eu procuro meu crachá.",
+          "source_item_id": "article:pt_reading_possessives_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「meu」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Meu nome está no crachá azul.",
+          "source_item_id": "article:pt_reading_possessives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「meu」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Minha colega Ana mostra sua bolsa.",
+          "source_item_id": "article:pt_reading_possessives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「sua」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_possessives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_possessives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_ha_tem",
+      "title_zh_tw": "há/tem existential（tem, há）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「há/tem existential」。 它用來說「有/存在」。先分清楚後面是一個東西，還是很多東西。 這次先認得：tem、há。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.ha_tem",
+      "ref_item": "há/tem existential",
+      "ref_subitems": [
+        "tem",
+        "há"
+      ],
+      "examples": [
+        {
+          "surface": "Tem pão quente no balcão.",
+          "source_item_id": "article:pt_reading_ha_tem_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「tem」，呈現「há/tem existential」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Na placa, há café sem açúcar.",
+          "source_item_id": "article:pt_reading_ha_tem_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「há」，呈現「há/tem existential」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Também tem bolo de fubá perto do caixa.",
+          "source_item_id": "article:pt_reading_ha_tem_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「tem」，呈現「há/tem existential」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Júlia pergunta se tem suco natural.",
+          "source_item_id": "article:pt_reading_ha_tem_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「tem」，呈現「há/tem existential」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_ha_tem_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_ha_tem_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_future_basic",
+      "title_zh_tw": "ir + infinitive（vou）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「ir + infinitive」。 它用來說接下來要做的事。先看表示未來的詞和後面的動作連在一起。 這次先認得：vou。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.ir_infinitive",
+      "ref_item": "ir + infinitive",
+      "ref_subitems": [
+        "vou"
+      ],
+      "examples": [
+        {
+          "surface": "De manhã, vou estudar português em casa.",
+          "source_item_id": "article:pt_reading_future_basic_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「vou」，呈現「ir + infinitive」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Depois vou ligar para a minha irmã.",
+          "source_item_id": "article:pt_reading_future_basic_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「vou」，呈現「ir + infinitive」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "À tarde, vou comprar pão e leite.",
+          "source_item_id": "article:pt_reading_future_basic_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「vou」，呈現「ir + infinitive」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "À noite, vou jantar com a minha família.",
+          "source_item_id": "article:pt_reading_future_basic_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「vou」，呈現「ir + infinitive」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_future_basic_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_future_basic_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_past_basic",
+      "title_zh_tw": "pretérito perfeito basics（ontem）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「pretérito perfeito basics」。 它用來說已經發生的事。先看昨天、剛才這類時間詞，以及動詞的過去形式。 這次先認得：ontem。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.preterito_perfeito",
+      "ref_item": "pretérito perfeito basics",
+      "ref_subitems": [
+        "ontem"
+      ],
+      "examples": [
+        {
+          "surface": "Ontem fui ao mercado cedo.",
+          "source_item_id": "article:pt_reading_past_basic_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「ontem」，呈現「pretérito perfeito basics」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ontem foi um dia calmo.",
+          "source_item_id": "article:pt_reading_past_basic_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「ontem」，呈現「pretérito perfeito basics」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_past_basic_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_past_basic_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_prepositions",
+      "title_zh_tw": "prepositions（em, a, de, com）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「prepositions」。 它通常放在名詞片語前面，用來表示位置、方向、來源、所屬、材料或和誰一起。 這次先認得：em、a、de、com。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.prepositions",
+      "ref_item": "prepositions",
+      "ref_subitems": [
+        "em",
+        "a",
+        "de",
+        "com"
+      ],
+      "examples": [
+        {
+          "surface": "Ela sai de casa com sua irmã.",
+          "source_item_id": "article:pt_reading_prepositions_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「de、com」，呈現「prepositions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Nina mora em Belo Horizonte.",
+          "source_item_id": "article:pt_reading_prepositions_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「em」，呈現「prepositions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "As duas vão a pé até a escola.",
+          "source_item_id": "article:pt_reading_prepositions_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「a」，呈現「prepositions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Na mochila, Nina leva um livro de português.",
+          "source_item_id": "article:pt_reading_prepositions_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「de」，呈現「prepositions」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_prepositions_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_prepositions_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_connectors",
+      "title_zh_tw": "e/mas/porque（e, mas, porque）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「e/mas/porque」。 它用來把兩個短句接起來，表示加上、轉折或原因。 這次先認得：e、mas、porque。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.connectors",
+      "ref_item": "e/mas/porque",
+      "ref_subitems": [
+        "e",
+        "mas",
+        "porque"
+      ],
+      "examples": [
+        {
+          "surface": "Ele pega arroz e feijão.",
+          "source_item_id": "article:pt_reading_connectors_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「e」，呈現「e/mas/porque」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "A panela está limpa, mas a colher sumiu.",
+          "source_item_id": "article:pt_reading_connectors_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「mas」，呈現「e/mas/porque」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Caio procura na gaveta porque precisa mexer o arroz.",
+          "source_item_id": "article:pt_reading_connectors_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「porque」，呈現「e/mas/porque」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ele acha a colher e liga o fogão.",
+          "source_item_id": "article:pt_reading_connectors_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「e」，呈現「e/mas/porque」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_connectors_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_connectors_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_demonstratives",
+      "title_zh_tw": "este/esse（este, esse）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「este/esse」。 它用來指「這個/那個」。先從近的、遠的、單數、複數判斷。 這次先認得：este、esse。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.demonstratives",
+      "ref_item": "este/esse",
+      "ref_subitems": [
+        "este",
+        "esse"
+      ],
+      "examples": [
+        {
+          "surface": "A funcionária diz: este formulário é para alunos novos.",
+          "source_item_id": "article:pt_reading_demonstratives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「este」，呈現「este/esse」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Paulo pergunta: esse campo é para meu telefone?",
+          "source_item_id": "article:pt_reading_demonstratives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「esse」，呈現「este/esse」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ela responde: sim, esse campo é importante.",
+          "source_item_id": "article:pt_reading_demonstratives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「esse」，呈現「este/esse」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Depois, ela mostra outro papel: este recibo fica com você.",
+          "source_item_id": "article:pt_reading_demonstratives_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「este」，呈現「este/esse」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_demonstratives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_demonstratives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "pt_grammar_quantifiers",
+      "title_zh_tw": "muito/pouco（muito, pouco）",
+      "explanation_md_zh_tw": "這個節點教 巴西葡萄牙文 A1 的「muito/pouco」。 它用來說多、少、一些或很多。先看它是在修飾數量，還是在修飾程度。 這次先認得：muito、pouco。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "PT.grammar.quantifiers",
+      "ref_item": "muito/pouco",
+      "ref_subitems": [
+        "muito",
+        "pouco"
+      ],
+      "examples": [
+        {
+          "surface": "Ela tem muito tempo de manhã.",
+          "source_item_id": "article:pt_reading_quantifiers_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「muito」，呈現「muito/pouco」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Mas tem pouco tempo depois do almoço.",
+          "source_item_id": "article:pt_reading_quantifiers_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「pouco」，呈現「muito/pouco」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sofia lê muito devagar para entender.",
+          "source_item_id": "article:pt_reading_quantifiers_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「muito」，呈現「muito/pouco」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ela escreve pouco no começo.",
+          "source_item_id": "article:pt_reading_quantifiers_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「pouco」，呈現「muito/pouco」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Brazilian Portuguese A1 syllabus proxy",
+      "source_locator": "https://www.kcl.ac.uk/study-legacy/assets/pdf/modern-language-centre/portuguese-brazilian-level-1-syllabus-18.pdf",
+      "source_reading_asset_id": "pt_reading_quantifiers_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\pt_reading_quantifiers_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_pt_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    }
+  ]
+}

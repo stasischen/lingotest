@@ -1,0 +1,425 @@
+{
+  "language": "de",
+  "nodes": [
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我錯過了火車。",
+          "source_item_id": "grammar:de-a2-gram-0001#example-1",
+          "surface": "Ich habe den Zug verpasst."
+        },
+        {
+          "note_zh_tw": "我昨天到了。",
+          "source_item_id": "grammar:de-a2-gram-0001#example-2",
+          "surface": "Ich bin gestern angekommen."
+        }
+      ],
+      "explanation": "Perfekt 是德文日常口語中說已完成事件的常用形式。A2 先處理短事件，例如錯過火車、到達、寄出文件，再注意多數動作用 haben，移動或狀態變化常用 sein。",
+      "form_pattern_zh_tw": "haben/sein + 過去分詞",
+      "grammar_id": "de-a2-gram-0001",
+      "learning_object_id": "de-a2-gram-0001",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "haben/sein Perfekt for one short recent personal or service event"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我明天九點來。",
+          "source_item_id": "grammar:de-a2-gram-0002#example-1",
+          "surface": "Ich komme morgen um neun."
+        },
+        {
+          "note_zh_tw": "我們星期五見面。",
+          "source_item_id": "grammar:de-a2-gram-0002#example-2",
+          "surface": "Wir treffen uns am Freitag."
+        }
+      ],
+      "explanation": "德文說近期安排時，現在式加明確時間常已足夠表達未來意思。A2 學習者可先用這個自然結構說明明天、星期五、九點等安排，避免把簡單計畫都說成笨重的未來式。",
+      "form_pattern_zh_tw": "現在式 + 明確時間",
+      "grammar_id": "de-a2-gram-0002",
+      "learning_object_id": "de-a2-gram-0002",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "present-tense German plan with time adverbial for near-future arrangement"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我會晚一點到，因為火車誤點。",
+          "source_item_id": "grammar:de-a2-gram-0003#example-1",
+          "surface": "Ich komme später, weil der Zug Verspätung hat."
+        },
+        {
+          "note_zh_tw": "我待在家，因為我生病了。",
+          "source_item_id": "grammar:de-a2-gram-0003#example-2",
+          "surface": "Ich bleibe zu Hause, weil ich krank bin."
+        }
+      ],
+      "explanation": "weil 子句讓 A2 學習者能說明遲到、取消、不能來等原因。重點是 weil 後面的子句語序不同，變位動詞通常放到最後；這會讓德文原因句更自然。",
+      "form_pattern_zh_tw": "主句 + weil + 主詞 + 其他成分 + 變位動詞",
+      "grammar_id": "de-a2-gram-0003",
+      "learning_object_id": "de-a2-gram-0003",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "short weil reason clause with finite verb placement pending native review"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "火車比公車快。",
+          "source_item_id": "grammar:de-a2-gram-0004#example-1",
+          "surface": "Der Zug ist schneller als der Bus."
+        },
+        {
+          "note_zh_tw": "這間飯店比另一間便宜。",
+          "source_item_id": "grammar:de-a2-gram-0004#example-2",
+          "surface": "Dieses Hotel ist günstiger als das andere."
+        }
+      ],
+      "explanation": "德文比較兩個選項時，常用形容詞比較級加 als。A2 先用 schneller als、günstiger als 這類實用句，比較交通、飯店或價格。",
+      "form_pattern_zh_tw": "形容詞比較級 + als + 比較對象",
+      "grammar_id": "de-a2-gram-0004",
+      "learning_object_id": "de-a2-gram-0004",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "German comparative adjective form for two concrete options"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我可以改預約時間嗎？",
+          "source_item_id": "grammar:de-a2-gram-0005#example-1",
+          "surface": "Kann ich den Termin ändern?"
+        },
+        {
+          "note_zh_tw": "可以請您給我收據嗎？",
+          "source_item_id": "grammar:de-a2-gram-0005#example-2",
+          "surface": "Könnte ich bitte eine Quittung bekommen?"
+        }
+      ],
+      "explanation": "kann ich 較直接，könnte ich 較委婉，都能用來問自己是否可以做某事或請求服務。A2 先用它們處理改預約、拿收據等服務需求。",
+      "form_pattern_zh_tw": "Kann/Könnte ich + 原形動詞...?",
+      "grammar_id": "de-a2-gram-0005",
+      "learning_object_id": "de-a2-gram-0005",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "könnte or kann ich request form for change, help, or confirmation"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我已經付款了。",
+          "source_item_id": "grammar:de-a2-gram-0006#example-1",
+          "surface": "Ich habe bezahlt."
+        },
+        {
+          "note_zh_tw": "我到了。",
+          "source_item_id": "grammar:de-a2-gram-0006#example-2",
+          "surface": "Ich bin angekommen."
+        }
+      ],
+      "explanation": "Perfekt 回報已完成事件時，要選對 haben 或 sein。A2 先用 bezahlt 配 haben、angekommen 配 sein，建立服務和旅行情境中的常見搭配。",
+      "form_pattern_zh_tw": "haben/sein + 過去分詞",
+      "grammar_id": "de-a2-gram-0006",
+      "learning_object_id": "de-a2-gram-0006",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "Perfekt auxiliary choice for short service-event reports"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我買了票。",
+          "source_item_id": "grammar:de-a2-gram-0007#example-1",
+          "surface": "Ich habe das Ticket gekauft."
+        },
+        {
+          "note_zh_tw": "我們晚到了。",
+          "source_item_id": "grammar:de-a2-gram-0007#example-2",
+          "surface": "Wir sind spät angekommen."
+        }
+      ],
+      "explanation": "德文 Perfekt 的語序和英文不同：haben/sein 變位後靠前，過去分詞常在句尾。A2 先用買票、晚到這類短句練句尾分詞位置。",
+      "form_pattern_zh_tw": "主詞 + haben/sein + 其他成分 + 過去分詞",
+      "grammar_id": "de-a2-gram-0007",
+      "learning_object_id": "de-a2-gram-0007",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "past participle placement in short main clauses"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "課程明天開始。",
+          "source_item_id": "grammar:de-a2-gram-0008#example-1",
+          "surface": "Der Kurs beginnt morgen."
+        },
+        {
+          "note_zh_tw": "我星期一打電話給您。",
+          "source_item_id": "grammar:de-a2-gram-0008#example-2",
+          "surface": "Ich rufe Sie am Montag an."
+        }
+      ],
+      "explanation": "德文常用現在式加明確時間表示已安排的未來事件。A2 可用它確認約會、交通和服務安排。練習時把時間點、日期或時間範圍說完整，讓對方能清楚知道安排發生在什麼時候。",
+      "form_pattern_zh_tw": "現在式 + 未來時間片語",
+      "grammar_id": "de-a2-gram-0008",
+      "learning_object_id": "de-a2-gram-0008",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "present tense for fixed future arrangements with time phrase"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我想更改預約時間。",
+          "source_item_id": "grammar:de-a2-gram-0009#example-1",
+          "surface": "Ich möchte den Termin ändern."
+        },
+        {
+          "note_zh_tw": "您可以幫我嗎？",
+          "source_item_id": "grammar:de-a2-gram-0009#example-2",
+          "surface": "Können Sie mir helfen?"
+        }
+      ],
+      "explanation": "德文情態動詞請求要注意兩個動詞的位置。A2 先掌握 möchte/kann/könnte 變位，主要動詞保持原形並常放句尾；問句時變位情態動詞可在句首。",
+      "form_pattern_zh_tw": "陳述句：情態動詞第二位置 + 主要動詞句尾；是非問句：情態動詞句首 + 主詞 + 主要動詞句尾",
+      "grammar_id": "de-a2-gram-0009",
+      "learning_object_id": "de-a2-gram-0009",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "modal verb position in polite service requests"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "您有預訂嗎？",
+          "source_item_id": "grammar:de-a2-gram-0010#example-1",
+          "surface": "Haben Sie eine Reservierung?"
+        },
+        {
+          "note_zh_tw": "火車準時嗎？",
+          "source_item_id": "grammar:de-a2-gram-0010#example-2",
+          "surface": "Ist der Zug pünktlich?"
+        }
+      ],
+      "explanation": "德文是非問句通常把變位動詞放在句首。A2 可用它確認時間、地點、預訂或服務是否可行。練習時先抓出要確認的關鍵資訊，再用短問句重述一次，讓對方可以回答是或不是。",
+      "form_pattern_zh_tw": "變位動詞 + 主詞 + 其他成分?",
+      "grammar_id": "de-a2-gram-0010",
+      "learning_object_id": "de-a2-gram-0010",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "yes-no question word order for confirmation checks"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "預約什麼時候開始？",
+          "source_item_id": "grammar:de-a2-gram-0011#example-1",
+          "surface": "Wann beginnt der Termin?"
+        },
+        {
+          "note_zh_tw": "入口在哪裡？",
+          "source_item_id": "grammar:de-a2-gram-0011#example-2",
+          "surface": "Wo ist der Eingang?"
+        }
+      ],
+      "explanation": "德文疑問詞要對準資訊類型：wann 問時間，wo 問地點。A2 先把疑問詞放句首，後面接變位動詞和主詞。",
+      "form_pattern_zh_tw": "疑問詞 + 變位動詞 + 主詞...?",
+      "grammar_id": "de-a2-gram-0011",
+      "learning_object_id": "de-a2-gram-0011",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "wh-question targeting time and place in routine exchanges"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我晚一點到，因為公車晚了。",
+          "source_item_id": "grammar:de-a2-gram-0012#example-1",
+          "surface": "Ich komme später, weil der Bus spät ist."
+        },
+        {
+          "note_zh_tw": "我晚一點到，因為公車晚了。",
+          "source_item_id": "grammar:de-a2-gram-0012#example-2",
+          "surface": "Ich komme später, denn der Bus ist spät."
+        }
+      ],
+      "explanation": "weil 和 denn 都能引出原因，但語序不同。A2 先對照兩個短句：weil 子句中變位動詞到句尾，denn 後面則像一般主句語序。",
+      "form_pattern_zh_tw": "weil + 子句動詞句尾；denn + 主句語序",
+      "grammar_id": "de-a2-gram-0012",
+      "learning_object_id": "de-a2-gram-0012",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "word order after short reason connector in simple explanations"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "你好，我會晚一點到，然後再打電話。",
+          "source_item_id": "grammar:de-a2-gram-0013#example-1",
+          "surface": "Hallo, ich komme später und rufe dann an."
+        },
+        {
+          "note_zh_tw": "我先寄表格，明天再帶護照。",
+          "source_item_id": "grammar:de-a2-gram-0013#example-2",
+          "surface": "Ich schicke das Formular zuerst und bringe den Pass morgen mit."
+        }
+      ],
+      "explanation": "A2 德文需要能在簡短訊息中說明事情的先後順序。學習者可用 und、dann、zuerst、morgen 這類連接詞和時間詞，說清楚先做什麼、接著做什麼。",
+      "form_pattern_zh_tw": "第一個動作 + und/dann/zuerst + 下一個動作",
+      "grammar_id": "de-a2-gram-0013",
+      "learning_object_id": "de-a2-gram-0013",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "short ordered action sequence in a service note"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我寧願搭早一點的火車。",
+          "source_item_id": "grammar:de-a2-gram-0014#example-1",
+          "surface": "Ich nehme lieber den früheren Zug."
+        },
+        {
+          "note_zh_tw": "我們寧願訂比較安靜的房間。",
+          "source_item_id": "grammar:de-a2-gram-0014#example-2",
+          "surface": "Wir buchen lieber das ruhigere Zimmer."
+        }
+      ],
+      "explanation": "德文表達兩個選項中的偏好時，可用 lieber 加動詞。A2 可先用它在交通、住宿或服務選項中說明自己比較想選哪一個。",
+      "form_pattern_zh_tw": "lieber + 變位動詞 + 選項",
+      "grammar_id": "de-a2-gram-0014",
+      "learning_object_id": "de-a2-gram-0014",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "preference with lieber for two concrete options"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我沒有帶身分證件。",
+          "source_item_id": "grammar:de-a2-gram-0015#example-1",
+          "surface": "Ich habe keinen Ausweis dabei."
+        },
+        {
+          "note_zh_tw": "沒有空房。",
+          "source_item_id": "grammar:de-a2-gram-0015#example-2",
+          "surface": "Es gibt kein freies Zimmer."
+        }
+      ],
+      "explanation": "kein 用來表示某個物品、文件或可用選項不存在或缺少。A2 學習者需要用它說明沒有帶證件、沒有空房、沒有可用選項等服務情境。",
+      "form_pattern_zh_tw": "kein/keinen/keine + 名詞",
+      "grammar_id": "de-a2-gram-0015",
+      "learning_object_id": "de-a2-gram-0015",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_DE_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "kein inflection for unavailable item or missing document"
+    }
+  ]
+}

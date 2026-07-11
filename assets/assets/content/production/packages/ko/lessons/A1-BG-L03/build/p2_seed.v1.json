@@ -1,0 +1,124 @@
+{
+  "p2_seed_cards": [
+    {
+      "item_id": "a1_bg_l03_go_school_polite",
+      "mastery_key": "a1_bg_l03_go_school_polite",
+      "front_ko": "학교에 가요.",
+      "back_ko": "학교에 가요.",
+      "answer_i18n": {
+        "zh_tw": "去學校。",
+        "en": "I'm going to school."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "에 用來標記移動的目的地（去、來）。",
+        "en": "에 marks the destination for motion verbs (go, come)."
+      },
+      "source_preset_id": "go_school_polite"
+    },
+    {
+      "item_id": "a1_bg_l03_be_home_polite",
+      "mastery_key": "a1_bg_l03_be_home_polite",
+      "front_ko": "집에 있어요.",
+      "back_ko": "집에 있어요.",
+      "answer_i18n": {
+        "zh_tw": "在家。",
+        "en": "I'm at home."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "에 用來標記存在的地點（在、不在）。",
+        "en": "에 marks the location of existence (be, not be)."
+      },
+      "source_preset_id": "be_home_polite"
+    },
+    {
+      "item_id": "a1_bg_l03_come_office_formal",
+      "mastery_key": "a1_bg_l03_come_office_formal",
+      "front_ko": "회사에 옵니다.",
+      "back_ko": "회사에 옵니다.",
+      "answer_i18n": {
+        "zh_tw": "來公司。",
+        "en": "I'm coming to the office."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "正式語氣的「來某地」。",
+        "en": "Formal version of 'coming to a place'."
+      },
+      "source_preset_id": "come_office_formal"
+    },
+    {
+      "item_id": "a1_bg_l03_study_school_polite",
+      "mastery_key": "a1_bg_l03_study_school_polite",
+      "front_ko": "학교에서 공부해요.",
+      "back_ko": "학교에서 공부해요.",
+      "answer_i18n": {
+        "zh_tw": "在學校學習。",
+        "en": "I study at school."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "에서 用來標記動作發生的場所。",
+        "en": "에서 marks the location where an action is happening."
+      },
+      "source_preset_id": "study_school_polite"
+    },
+    {
+      "item_id": "a1_bg_l03_meet_3pm_polite",
+      "mastery_key": "a1_bg_l03_meet_3pm_polite",
+      "front_ko": "3시에 카페에서 만나요.",
+      "back_ko": "3시에 카페에서 만나요.",
+      "answer_i18n": {
+        "zh_tw": "3點在咖啡廳見面。",
+        "en": "I meet my friends at the cafe at 3:00."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "結合了時間標籤 에 和動作場所 에서。",
+        "en": "Combines time marker 에 with action location marker 에서."
+      },
+      "source_preset_id": "meet_3pm_polite"
+    },
+    {
+      "item_id": "a1_bg_l03_exercise_park_weekend",
+      "mastery_key": "a1_bg_l03_exercise_park_weekend",
+      "front_ko": "주말에 공원에서 운동해요.",
+      "back_ko": "주말에 공원에서 운동해요.",
+      "answer_i18n": {
+        "zh_tw": "週末在公園運動。",
+        "en": "I exercise at the park on the weekend."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "表示週末在某個場地活動。",
+        "en": "Indicates activity at a location during the weekend."
+      },
+      "source_preset_id": "exercise_park_weekend"
+    },
+    {
+      "item_id": "a1_bg_l03_work_office_polite",
+      "mastery_key": "a1_bg_l03_work_office_polite",
+      "front_ko": "회사에서 일해요.",
+      "back_ko": "회사에서 일해요.",
+      "answer_i18n": {
+        "zh_tw": "在公司工作。",
+        "en": "I'm working at the office."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "在公司工作，強調動作場所，用 에서。",
+        "en": "Working at the office, emphasize the location of action, use 에서."
+      },
+      "source_preset_id": "work_office_polite"
+    },
+    {
+      "item_id": "a1_bg_l03_buy_mart_polite",
+      "mastery_key": "a1_bg_l03_buy_mart_polite",
+      "front_ko": "마트에서 사요.",
+      "back_ko": "마트에서 사요.",
+      "answer_i18n": {
+        "zh_tw": "在超市買東西。",
+        "en": "I'm buying things at the supermarket."
+      },
+      "usage_note_i18n": {
+        "zh_tw": "在超市買東西，強調動作場所，用 에서。",
+        "en": "Buying things at the supermarket, emphasize the location of action, use 에서."
+      },
+      "source_preset_id": "buy_mart_polite"
+    }
+  ]
+}

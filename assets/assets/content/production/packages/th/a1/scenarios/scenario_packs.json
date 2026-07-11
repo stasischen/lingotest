@@ -1,0 +1,5030 @@
+{
+  "schema_version": "a1_runtime_scenario_packs.v1",
+  "language": "th",
+  "review_ceiling": "native_pending",
+  "promotion": "owner_decision_20260619_native_waived",
+  "scenario_packs": [
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "convenience_payment_card_cash",
+      "brief_id": "ml0_a1_004_convenience_payment_card_cash",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#brief-ml0-a1-004-convenience-store-payment",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/convenience_payment_card_cash.th.v1.json",
+      "title": "จ่ายเงินที่ร้านสะดวกซื้อ",
+      "setting_label": "เคาน์เตอร์ร้านสะดวกซื้อ",
+      "wrap_title": "จ่ายเงินที่เคาน์เตอร์ได้แล้ว",
+      "wrap_friend": "คุณบอกวิธีจ่ายเงิน ทำตามคำบอกเรื่องบัตร และตอบเรื่องถุงได้ด้วยประโยคสั้น ๆ",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國便利商店櫃台付款。聽店員問什麼，選一句自然接得上的泰文。",
+      "roles": {
+        "npc": {
+          "label": "พนักงาน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "payment_method_question",
+          "act_slots": {
+            "topic": "วิธีจ่ายเงิน",
+            "keyword": "เงินสดหรือบัตร",
+            "gloss": "現金或卡片"
+          },
+          "learning_role": "listen_only",
+          "surface": "ทั้งหมดหนึ่งร้อยยี่สิบบาทค่ะ จ่ายเงินสดหรือบัตรคะ",
+          "speak": "ทั้งหมดหนึ่งร้อยยี่สิบบาทค่ะ จ่ายเงินสดหรือบัตรคะ",
+          "translation": "總共一百二十泰銖。付現金還是刷卡？",
+          "friend": {
+            "hint": "店員在問付款方式。要刷卡時，可以短短說「บัตรค่ะ」。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.store.payment.card_cash.v1",
+            "formula_ref": null,
+            "title": "เงินสด / บัตร",
+            "explain": "「เงินสด」是現金，「บัตร」是卡片。回答時加上 `ค่ะ` 保持禮貌。",
+            "items": [
+              {
+                "surface": "บัตรค่ะ",
+                "translation": "用卡。",
+                "speak": "บัตรค่ะ"
+              },
+              {
+                "surface": "เงินสดค่ะ",
+                "translation": "現金。",
+                "speak": "เงินสดค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "บัตรค่ะ",
+                "translation": "用卡。",
+                "speak": "บัตรค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "แตะบัตรตรงนี้ไหมคะ",
+                "translation": "是在這裡感應卡片嗎？",
+                "speak": "แตะบัตรตรงนี้ไหมคะ",
+                "contrast_type": "next_step_before_payment_choice",
+                "feedback": "這句在問刷卡動作，但店員先問付款方式。先回答「บัตรค่ะ」。"
+              },
+              {
+                "id": "r1c",
+                "surface": "จ่ายบัตรได้ไหมคะ",
+                "translation": "可以刷卡嗎？",
+                "speak": "จ่ายบัตรได้ไหมคะ",
+                "contrast_type": "question_instead_of_answer",
+                "feedback": "這句也跟刷卡有關，但店員問你選現金或卡片。直接回答「บัตรค่ะ」更自然。"
+              },
+              {
+                "id": "r1d",
+                "surface": "เงินสดค่ะ",
+                "translation": "現金。",
+                "speak": "เงินสดค่ะ",
+                "contrast_type": "wrong_payment_method",
+                "feedback": "這也是付款方式，但這一輪要練習刷卡時的回答。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "payment_instruction",
+          "act_slots": {
+            "topic": "แตะบัตร",
+            "keyword": "แตะบัตร",
+            "gloss": "感應卡片"
+          },
+          "learning_role": "listen_only",
+          "surface": "แตะบัตรตรงนี้นะคะ",
+          "speak": "แตะบัตรตรงนี้นะคะ",
+          "translation": "請在這裡感應卡片。",
+          "friend": {
+            "hint": "店員要你在這裡感應卡片。簡短回答「ได้ค่ะ」就可以。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ได้ค่ะ",
+                "translation": "好的。",
+                "speak": "ได้ค่ะ"
+              },
+              {
+                "id": "r2b",
+                "surface": "ตรงนี้ใช่ไหมคะ",
+                "translation": "是這裡嗎？",
+                "speak": "ตรงนี้ใช่ไหมคะ",
+                "contrast_type": "overchecking_instruction",
+                "feedback": "可以確認位置，但這裡店員已經指給你看了。簡短說「ได้ค่ะ」就好。"
+              },
+              {
+                "id": "r2c",
+                "surface": "เท่าไหร่คะ",
+                "translation": "多少錢？",
+                "speak": "เท่าไหร่คะ",
+                "contrast_type": "wrong_act_price_question",
+                "feedback": "價格剛剛已經說了。這裡先照店員指示付款。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "bag_question",
+          "act_slots": {
+            "topic": "ถุง",
+            "keyword": "รับถุงไหม",
+            "gloss": "要袋子嗎"
+          },
+          "learning_role": "listen_only",
+          "surface": "รับถุงไหมคะ",
+          "speak": "รับถุงไหมคะ",
+          "translation": "需要袋子嗎？",
+          "friend": {
+            "hint": "ถุง 是袋子。不要袋子時，可以說「ไม่รับค่ะ」。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ไม่รับค่ะ",
+                "translation": "不用袋子。",
+                "speak": "ไม่รับค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "รับค่ะ",
+                "translation": "要袋子。",
+                "speak": "รับค่ะ",
+                "contrast_type": "opposite_bag_choice",
+                "feedback": "這是相反的袋子回答。這一輪要練習不要袋子，所以說「ไม่รับค่ะ」。"
+              },
+              {
+                "id": "r3c",
+                "surface": "มีถุงไหมคะ",
+                "translation": "有袋子嗎？",
+                "speak": "มีถุงไหมคะ",
+                "contrast_type": "asks_availability_instead_of_answering_bag",
+                "feedback": "這句是在問有沒有袋子。店員問你要不要袋子，要直接回答「ไม่รับค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "transaction_close",
+          "act_slots": {
+            "topic": "จบการจ่ายเงิน",
+            "keyword": "เรียบร้อย",
+            "gloss": "完成"
+          },
+          "learning_role": "listen_only",
+          "surface": "เรียบร้อยค่ะ ขอบคุณค่ะ",
+          "speak": "เรียบร้อยค่ะ ขอบคุณค่ะ",
+          "translation": "好了，謝謝。",
+          "friend": {
+            "hint": "交易結束了。用謝謝收尾就好。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ขอบคุณค่ะ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณค่ะ"
+              },
+              {
+                "id": "r4b",
+                "surface": "รับของได้เลยค่ะ",
+                "translation": "可以拿商品了。",
+                "speak": "รับของได้เลยค่ะ",
+                "contrast_type": "staff_role_echo_at_close",
+                "feedback": "這像店員說的話。客人結帳完成時說「ขอบคุณค่ะ」更自然。"
+              },
+              {
+                "id": "r4c",
+                "surface": "เรียบร้อยค่ะ",
+                "translation": "好了。",
+                "speak": "เรียบร้อยค่ะ",
+                "contrast_type": "echoes_staff_closing",
+                "feedback": "意思接近，但像是在重複店員的話。客人收尾說「ขอบคุณค่ะ」更自然。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "handover",
+            "learning_role": "listen_only",
+            "surface": "รับของได้เลยค่ะ",
+            "speak": "รับของได้เลยค่ะ",
+            "translation": "可以拿商品了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.store.payment.card_cash.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief, not Korean surface text.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Pilot uses ค่ะ/คะ consistently in the service payment scenario and avoids slash-form TTS."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "core_repair_repeat_slowly",
+      "brief_id": "ml3_a1_014_core_repair_repeat_slowly",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml3-a1-014-ask-to-repeat-or-speak-slowly",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/core_repair_repeat_slowly.th.v1.json",
+      "title": "ขอให้พูดอีกครั้ง",
+      "setting_label": "เคาน์เตอร์ร้านกาแฟ",
+      "wrap_title": "ถามซ้ำได้แล้ว",
+      "wrap_friend": "คุณขอให้พูดอีกครั้ง ขอให้พูดช้าลง แล้วตอบคำถามง่าย ๆ ได้",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在咖啡店櫃台沒聽清楚問題。選自然、簡短的泰文修復句。",
+      "roles": {
+        "npc": {
+          "label": "พนักงาน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "ask_counter_question",
+          "learning_role": "listen_only",
+          "surface": "ทานที่นี่หรือกลับบ้านครับ",
+          "speak": "ทานที่นี่ / หรือกลับบ้านครับ",
+          "translation": "內用還是外帶？",
+          "friend": {
+            "hint": "你沒聽清楚。先請對方再說一次。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "ขอโทษครับ พูดอีกครั้งได้ไหมครับ",
+                "translation": "不好意思，可以再說一次嗎？",
+                "speak": "ขอโทษครับ / พูดอีกครั้งได้ไหมครับ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ขอโทษครับ ไม่เข้าใจครับ",
+                "translation": "不好意思，我不懂。",
+                "speak": "ขอโทษครับ / ไม่เข้าใจครับ",
+                "contrast_type": "states_problem_without_repeat_request",
+                "feedback": "這有說沒聽懂，但還沒有請對方再說一次。"
+              },
+              {
+                "id": "r1c",
+                "surface": "ได้ยินไม่ชัดครับ",
+                "translation": "我聽不清楚。",
+                "speak": "ได้ยินไม่ชัดครับ",
+                "contrast_type": "states_hearing_problem_without_request",
+                "feedback": "這說明聽不清楚，但本輪要請對方再說一次。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "repeat_question",
+          "learning_role": "listen_only",
+          "surface": "ทานที่นี่หรือกลับบ้านครับ",
+          "speak": "ทานที่นี่ / หรือกลับบ้านครับ",
+          "translation": "內用還是外帶？",
+          "friend": {
+            "hint": "還是太快。請對方說慢一點。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.repair.slowly.v1",
+            "formula_ref": null,
+            "title": "พูดช้า ๆ",
+            "explain": "ใช้ขอให้คู่สนทนาพูดช้าลงแบบสุภาพ",
+            "items": [
+              {
+                "surface": "พูดช้า ๆ ได้ไหมครับ",
+                "translation": "可以說慢一點嗎？",
+                "speak": "พูดช้า ๆ / ได้ไหมครับ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "พูดช้า ๆ ได้ไหมครับ",
+                "translation": "可以說慢一點嗎？",
+                "speak": "พูดช้า ๆ / ได้ไหมครับ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "อีกครั้งครับ",
+                "translation": "再一次。",
+                "speak": "อีกครั้งครับ",
+                "contrast_type": "too_fragmentary_repair_request",
+                "feedback": "意思接近，但太短。請對方重複時說完整的「พูดช้า ๆ ได้ไหมครับ」。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ไม่เข้าใจครับ",
+                "translation": "我不懂。",
+                "speak": "ไม่เข้าใจครับ",
+                "contrast_type": "states_problem_not_request",
+                "feedback": "這句只說你不懂，沒有請對方怎麼幫忙。這裡要請他說慢一點。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "slow_restate",
+          "learning_role": "listen_only",
+          "surface": "ทานที่นี่ไหม หรือกลับบ้าน",
+          "speak": "ทานที่นี่ไหม / หรือกลับบ้าน",
+          "translation": "內用嗎？還是外帶？",
+          "friend": {
+            "hint": "現在問題清楚了。選一個簡短回答。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "กลับบ้านครับ ขอบคุณครับ",
+                "translation": "外帶，謝謝。",
+                "speak": "กลับบ้านครับ / ขอบคุณครับ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "พูดอีกครั้งได้ไหมครับ",
+                "translation": "可以再說一次嗎？",
+                "speak": "พูดอีกครั้ง / ได้ไหมครับ",
+                "contrast_type": "repair_repeated_after_prompt_clear",
+                "feedback": "這次問題已經清楚，可以回答了。"
+              },
+              {
+                "id": "r4c",
+                "surface": "ทานที่นี่ครับ",
+                "translation": "內用。",
+                "speak": "ทานที่นี่ครับ",
+                "contrast_type": "opposite_service_choice",
+                "feedback": "這也是回答內用或外帶，但這一輪要練習外帶，所以說「กลับบ้านครับ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "service_close",
+          "learning_role": "listen_only",
+          "surface": "โอเค เรียบร้อยครับ",
+          "speak": "โอเค / เรียบร้อยครับ",
+          "translation": "好的，完成了。",
+          "friend": {
+            "hint": "問題已經解決。最後道謝。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ขอบคุณครับ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณครับ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "พูดอีกครั้งได้ไหมครับ",
+                "translation": "可以再說一次嗎？",
+                "speak": "พูดอีกครั้ง / ได้ไหมครับ",
+                "contrast_type": "repair_after_understood",
+                "feedback": "問題已經解決了。這裡簡短道謝即可。"
+              },
+              {
+                "id": "r4c",
+                "surface": "เข้าใจแล้วครับ",
+                "translation": "我懂了。",
+                "speak": "เข้าใจแล้วครับ",
+                "contrast_type": "acknowledges_instead_of_thanks",
+                "feedback": "意思可以，但對方完成服務後，用「ขอบคุณครับ」收尾更自然。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "core_repair_repeat_slowly_complete",
+            "learning_role": "listen_only",
+            "surface": "โอเค เรียบร้อยครับ",
+            "speak": "โอเค / เรียบร้อยครับ",
+            "translation": "好的，完成了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.repair.repeat.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.repair.slowly.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "th.repair.answer_after_repair.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-3 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "register_note": "Polite Thai repair phrases for a cafe counter; slash segmentation supports TTS."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "daily_meet_friend",
+      "brief_id": "ml2_a1_010_daily_meet_friend",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml2-a1-010-meet-a-friend",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/daily_meet_friend.th.v1.json",
+      "title": "เจอเพื่อน",
+      "setting_label": "หน้าร้านกาแฟ",
+      "wrap_title": "เจอเพื่อนแล้ว",
+      "wrap_friend": "คุณทักเพื่อน ยืนยันแผน ตอบว่าพร้อม และไปต่อได้",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在咖啡店門口和朋友碰面。選自然、簡短的泰文。",
+      "roles": {
+        "npc": {
+          "label": "เพื่อน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "friend_greeting",
+          "learning_role": "listen_only",
+          "surface": "มาแล้วเหรอ",
+          "speak": "มาแล้วเหรอ",
+          "translation": "你來了啊？",
+          "friend": {
+            "hint": "朋友用輕鬆語氣打招呼。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "หวัดดี ดีใจที่เจอนะ",
+                "translation": "嗨，很高興見到你。",
+                "speak": "หวัดดี / ดีใจที่เจอนะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "มาแล้ว",
+                "translation": "來了。",
+                "speak": "มาแล้ว",
+                "contrast_type": "answers_arrival_without_greeting",
+                "feedback": "意思相關，但太短。朋友見面時先打招呼會自然些。"
+              },
+              {
+                "id": "r1c",
+                "surface": "เจอกันพรุ่งนี้นะ",
+                "translation": "明天見。",
+                "speak": "เจอกันพรุ่งนี้นะ",
+                "contrast_type": "wrong_meeting_time",
+                "feedback": "你們現在已經見面了，不是約明天。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "confirm_plan",
+          "learning_role": "listen_only",
+          "surface": "เราไปดูหนังกันใช่ไหม",
+          "speak": "เราไปดูหนังกัน / ใช่ไหม",
+          "translation": "我們要去看電影，對嗎？",
+          "friend": {
+            "hint": "朋友在確認計畫。用ใช่簡短回答。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.friend.plan_confirm.v1",
+            "formula_ref": null,
+            "title": "ใช่",
+            "explain": "ใช้ตอบยืนยันแผนกับเพื่อนแบบสั้นและธรรมชาติ",
+            "items": [
+              {
+                "surface": "ใช่ ไปกัน",
+                "translation": "對，走吧。",
+                "speak": "ใช่ / ไปกัน"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ใช่ ไปกัน",
+                "translation": "對，走吧。",
+                "speak": "ใช่ / ไปกัน",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ไปพรุ่งนี้ไหม",
+                "translation": "明天去嗎？",
+                "speak": "ไปพรุ่งนี้ไหม",
+                "contrast_type": "changes_plan_day",
+                "feedback": "朋友問的是現在的電影計畫。這句把時間改成明天。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ไปที่ร้านกาแฟกันใช่ไหม",
+                "translation": "是去咖啡店，對嗎？",
+                "speak": "ไปที่ร้านกาแฟกันใช่ไหม",
+                "contrast_type": "wrong_plan_detail",
+                "feedback": "朋友確認的是看電影，不是去咖啡店。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "ask_ready",
+          "learning_role": "listen_only",
+          "surface": "พร้อมหรือยัง",
+          "speak": "พร้อมหรือยัง",
+          "translation": "準備好了嗎？",
+          "friend": {
+            "hint": "朋友問你準備好了沒。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "พร้อมแล้ว ไปกัน",
+                "translation": "準備好了，走吧。",
+                "speak": "พร้อมแล้ว / ไปกัน",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "ยังไม่พร้อม",
+                "translation": "還沒準備好。",
+                "speak": "ยังไม่พร้อม",
+                "contrast_type": "opposite_readiness",
+                "feedback": "朋友問準備好了嗎；這句意思相反。"
+              },
+              {
+                "id": "r4c",
+                "surface": "รออีกห้านาทีนะ",
+                "translation": "再等五分鐘喔。",
+                "speak": "รออีกห้านาทีนะ",
+                "contrast_type": "delays_when_ready_expected",
+                "feedback": "這會讓朋友再等。準備好了時說「พร้อมแล้ว ไปกัน」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "suggest_ticket_step",
+          "learning_role": "listen_only",
+          "surface": "ไปซื้อตั๋วก่อนนะ",
+          "speak": "ไปซื้อตั๋ว / ก่อนนะ",
+          "translation": "先去買票吧。",
+          "friend": {
+            "hint": "朋友บอกขั้นตอนต่อไป。ตอบรับแผนสั้น ๆ。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "โอเค ไปซื้อตั๋วกัน",
+                "translation": "好，一起去買票吧。",
+                "speak": "โอเค / ไปซื้อตั๋วกัน",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "รอเดี๋ยวนะ",
+                "translation": "等一下喔。",
+                "speak": "รอเดี๋ยวนะ",
+                "contrast_type": "delay_at_closing",
+                "feedback": "朋友說先去買票。要ตอบรับ下一步，用「โอเค ไปซื้อตั๋วกัน」。"
+              },
+              {
+                "id": "r4c",
+                "surface": "ดูหนังพรุ่งนี้ไหม",
+                "translation": "明天看電影嗎？",
+                "speak": "ดูหนังพรุ่งนี้ไหม",
+                "contrast_type": "changes_plan_time_at_close",
+                "feedback": "這會改成明天。現在只是答應先去買票。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "meeting_complete",
+            "learning_role": "listen_only",
+            "surface": "คุณเจอเพื่อนแล้ว และพร้อมไปต่อ",
+            "speak": "คุณเจอเพื่อนแล้ว / และพร้อมไปต่อ",
+            "translation": "你見到朋友，也準備好出發了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.friend.greeting.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "th.friend.ready_go.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-2 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "register_note": "Friendly Thai with casual particles kept light; service-register choices are distractors."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "daily_schedule_time",
+      "brief_id": "ml0_a1_005_daily_schedule_time",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#brief-ml0-a1-005-scheduling-a-time",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/daily_schedule_time.th.v1.json",
+      "title": "นัดเวลาเจอกัน",
+      "setting_label": "นัดกับเพื่อน",
+      "wrap_title": "นัดเวลาได้แล้ว",
+      "wrap_friend": "คุณเสนอเวลา ตอบเรื่องสถานที่ และปิดบทสนทนาแบบเป็นกันเองได้ด้วยประโยคสั้น ๆ",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在和泰國朋友約時間。聽對方問什麼，選一句自然接得上的泰文。",
+      "roles": {
+        "npc": {
+          "label": "เพื่อน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "ask_time",
+          "act_slots": {
+            "topic": "นัดเวลา",
+            "keyword": "กี่โมง",
+            "gloss": "幾點"
+          },
+          "learning_role": "listen_only",
+          "surface": "พรุ่งนี้เจอกันกี่โมงดี",
+          "speak": "พรุ่งนี้เจอกันกี่โมงดี",
+          "translation": "明天幾點見好呢？",
+          "friend": {
+            "hint": "對方在問時間。可以用「บ่ายสามโมงดีไหม」提議下午三點。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.schedule.time_suggestion.v1",
+            "formula_ref": null,
+            "title": "กี่โมง / บ่ายสามโมง",
+            "explain": "「กี่โมง」是幾點。「บ่ายสามโมง」是下午三點。",
+            "items": [
+              {
+                "surface": "กี่โมง",
+                "translation": "幾點",
+                "speak": "กี่โมง"
+              },
+              {
+                "surface": "บ่ายสามโมง",
+                "translation": "下午三點",
+                "speak": "บ่ายสามโมง"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "บ่ายสามโมงดีไหม",
+                "translation": "下午三點好嗎？",
+                "speak": "บ่ายสามโมงดีไหม",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ที่สถานีดีไหม",
+                "translation": "在車站好嗎？",
+                "speak": "ที่สถานีดีไหม",
+                "contrast_type": "location_answer_when_time_requested",
+                "feedback": "這是在說地點。對方現在問的是幾點。"
+              },
+              {
+                "id": "r1c",
+                "surface": "วันนี้ไม่ได้",
+                "translation": "今天不行。",
+                "speak": "วันนี้ไม่ได้",
+                "contrast_type": "wrong_act_refusal",
+                "feedback": "這像是在拒絕。這裡要先回答或提議時間。"
+              },
+              {
+                "id": "r1d",
+                "surface": "พรุ่งนี้ได้",
+                "translation": "明天可以。",
+                "speak": "พรุ่งนี้ได้",
+                "contrast_type": "wrong_day_time_answer",
+                "feedback": "日期已經知道是明天。現在要說幾點。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "confirm_place",
+          "act_slots": {
+            "topic": "ยืนยันสถานที่",
+            "keyword": "สถานี",
+            "gloss": "車站"
+          },
+          "learning_role": "listen_only",
+          "surface": "บ่ายสามได้ เจอที่สถานีนะ",
+          "speak": "บ่ายสามได้ เจอที่สถานีนะ",
+          "translation": "下午三點可以，在車站見喔。",
+          "friend": {
+            "hint": "時間確定了，對方又說地點。可以簡短確認。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ได้ เจอกันที่สถานี",
+                "translation": "可以，在車站見。",
+                "speak": "ได้ เจอกันที่สถานี"
+              },
+              {
+                "id": "r2b",
+                "surface": "บ่ายสามที่ไหนดี",
+                "translation": "下午三點在哪裡好？",
+                "speak": "บ่ายสามที่ไหนดี",
+                "contrast_type": "asks_instead_of_confirms_place",
+                "feedback": "這句還在問地點。對方已經說在車站，這裡要確認「เจอกันที่สถานี」。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ที่สถานีไหนนะ",
+                "translation": "是哪個車站呢？",
+                "speak": "ที่สถานีไหนนะ",
+                "contrast_type": "asks_detail_instead_of_confirming",
+                "feedback": "這句可問細節，但對方剛說在車站。此輪要確認「ได้ เจอกันที่สถานี」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "plan_confirmation",
+          "act_slots": {
+            "topic": "ยืนยันนัด",
+            "keyword": "พรุ่งนี้บ่ายสาม",
+            "gloss": "明天下午三點"
+          },
+          "learning_role": "listen_only",
+          "surface": "โอเค เจอกันพรุ่งนี้บ่ายสาม",
+          "speak": "โอเค เจอกันพรุ่งนี้บ่ายสาม",
+          "translation": "好，明天下午三點見。",
+          "friend": {
+            "hint": "對方在總結約定。用一句「แล้วเจอกัน」收尾很自然。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "โอเค แล้วเจอกัน",
+                "translation": "好，到時見。",
+                "speak": "โอเค แล้วเจอกัน",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "พรุ่งนี้บ่ายสองได้ไหม",
+                "translation": "明天下午兩點可以嗎？",
+                "speak": "พรุ่งนี้บ่ายสองได้ไหม",
+                "contrast_type": "wrong_time_revision",
+                "feedback": "這句改成下午兩點，和已確認的下午三點不同。沒問題時說「โอเค แล้วเจอกัน」。"
+              },
+              {
+                "id": "r3c",
+                "surface": "ไปไม่ได้",
+                "translation": "不能去。",
+                "speak": "ไปไม่ได้",
+                "contrast_type": "wrong_act_refusal",
+                "feedback": "這樣會突然取消。約定沒問題時，簡短確認即可。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "closing",
+          "act_slots": {
+            "topic": "จบบทสนทนา",
+            "keyword": "เจอกัน",
+            "gloss": "見面"
+          },
+          "learning_role": "listen_only",
+          "surface": "โอเค เจอกันพรุ่งนี้นะ",
+          "speak": "โอเค / เจอกันพรุ่งนี้นะ",
+          "translation": "好，明天見。",
+          "friend": {
+            "hint": "對話結束了。照樣回一句到時見就可以。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "เจอกัน",
+                "translation": "到時見。",
+                "speak": "เจอกัน"
+              },
+              {
+                "id": "r4b",
+                "surface": "พรุ่งนี้บ่ายสามใช่ไหม",
+                "translation": "是明天下午三點，對嗎？",
+                "speak": "พรุ่งนี้บ่ายสามใช่ไหม",
+                "contrast_type": "reconfirms_plan_after_closing",
+                "feedback": "時間已經確認แล้ว。對方在收尾，簡短回「เจอกัน」就好。"
+              },
+              {
+                "id": "r4c",
+                "surface": "พรุ่งนี้ได้",
+                "translation": "明天可以。",
+                "speak": "พรุ่งนี้ได้",
+                "contrast_type": "overly_redundant_answer",
+                "feedback": "日期和時間都確定了。直接說到時見比較自然。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "plan_set",
+            "learning_role": "listen_only",
+            "surface": "นัดเวลาเรียบร้อยแล้ว",
+            "speak": "นัดเวลาเรียบร้อยแล้ว",
+            "translation": "時間約好了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.schedule.time_suggestion.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief, not Korean surface text.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Uses casual friend speech without slash-form polite-particle alternatives."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "daily_self_intro",
+      "brief_id": "ml3_a1_012_daily_self_intro",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml3-a1-012-daily-self-introduction",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/daily_self_intro.th.v1.json",
+      "title": "แนะนำตัว",
+      "setting_label": "โต๊ะแลกเปลี่ยนภาษา",
+      "wrap_title": "แนะนำตัวแล้ว",
+      "wrap_friend": "คุณบอกชื่อ บอกว่ากำลังเรียนภาษาไทย และทักทายกลับโดยไม่ให้ข้อมูลส่วนตัว",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在語言交換桌第一次見到新朋友。選自然、簡短的泰文。",
+      "roles": {
+        "npc": {
+          "label": "เพื่อนใหม่"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "first_meeting_greeting",
+          "learning_role": "listen_only",
+          "surface": "สวัสดี เราชื่อมายา คุณชื่ออะไร",
+          "speak": "สวัสดี / เราชื่อมายา / คุณชื่ออะไร",
+          "translation": "你好，我叫 Maya。你叫什麼名字？",
+          "friend": {
+            "hint": "對方先介紹自己。用ชื่อ加名字簡短回答。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "สวัสดี ผมชื่ออเล็กซ์ครับ",
+                "translation": "你好，我叫 Alex。",
+                "speak": "สวัสดี / ผมชื่ออเล็กซ์ครับ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ผมชื่ออเล็กซ์ครับ",
+                "translation": "我叫 Alex。",
+                "speak": "ผมชื่ออเล็กซ์ครับ",
+                "contrast_type": "missing_greeting_in_intro",
+                "feedback": "這句有名字，但少了回應對方問候的「สวัสดี」。完整說「สวัสดี ผมชื่ออเล็กซ์ครับ」。"
+              },
+              {
+                "id": "r1c",
+                "surface": "ผมเป็นนักเรียนครับ",
+                "translation": "我是學生。",
+                "speak": "ผมเป็นนักเรียนครับ",
+                "contrast_type": "identity_detail_without_name",
+                "feedback": "這也是自我介紹相關資訊，但對方問名字。先說「สวัสดี ผมชื่ออเล็กซ์ครับ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_learning_language",
+          "learning_role": "listen_only",
+          "surface": "คุณเรียนภาษาไทยอยู่ใช่ไหม",
+          "speak": "คุณเรียนภาษาไทยอยู่ / ใช่ไหม",
+          "translation": "你在學泰文，對嗎？",
+          "friend": {
+            "hint": "對方問你是不是在學泰文。用ใช่回答。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.self_intro.learning_language.v1",
+            "formula_ref": null,
+            "title": "กำลังเรียน...",
+            "explain": "ใช้บอกภาษาที่กำลังเรียนแบบสั้นและสุภาพ",
+            "items": [
+              {
+                "surface": "ใช่ครับ ผมเรียนภาษาไทยอยู่",
+                "translation": "是的，我正在學泰文。",
+                "speak": "ใช่ครับ / ผมเรียนภาษาไทยอยู่"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ใช่ครับ ผมเรียนภาษาไทยอยู่",
+                "translation": "是的，我正在學泰文。",
+                "speak": "ใช่ครับ / ผมเรียนภาษาไทยอยู่",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ผมเรียนภาษาอังกฤษครับ",
+                "translation": "我正在學英文。",
+                "speak": "ผมเรียนภาษาอังกฤษครับ",
+                "contrast_type": "wrong_language_answer",
+                "feedback": "對方問的是不是在學泰文。要確認「ใช่ครับ ผมเรียนภาษาไทยอยู่」。"
+              },
+              {
+                "id": "r2c",
+                "surface": "เรียนอยู่นิดหน่อยครับ",
+                "translation": "正在學一點。",
+                "speak": "เรียนอยู่ / นิดหน่อยครับ",
+                "contrast_type": "vague_answer_to_yes_no_question",
+                "feedback": "意思接近，但沒有清楚回答ใช่ไหม。這裡用「ใช่ครับ ผมเรียนภาษาไทยอยู่」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "friendly_close",
+          "learning_role": "listen_only",
+          "surface": "ดีเลย ยินดีที่ได้รู้จัก",
+          "speak": "ดีเลย / ยินดีที่ได้รู้จัก",
+          "translation": "很好。很高興認識你。",
+          "friend": {
+            "hint": "對方友善收尾。用เช่นกันครับ回應。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ยินดีที่ได้รู้จักเช่นกันครับ",
+                "translation": "我也很高興認識你。",
+                "speak": "ยินดีที่ได้รู้จัก / เช่นกันครับ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "เช่นกันครับ",
+                "translation": "我也是。",
+                "speak": "เช่นกันครับ",
+                "contrast_type": "too_short_mutual_greeting",
+                "feedback": "這句能回應，但較短。初次見面練習中，用「ยินดีที่ได้รู้จักเช่นกันครับ」更完整。"
+              },
+              {
+                "id": "r4c",
+                "surface": "ครับ ยินดีครับ",
+                "translation": "好的，很高興。",
+                "speak": "ครับ / ยินดีครับ",
+                "contrast_type": "less_natural_mutual_greeting",
+                "feedback": "這聽起來不完整。回「ยินดีที่ได้รู้จักเช่นกันครับ」更自然清楚。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "friendly_continue",
+          "learning_role": "listen_only",
+          "surface": "ดีเลย เริ่มกันเลยนะ",
+          "speak": "ดีเลย / เริ่มกันเลยนะ",
+          "translation": "很好，那我們開始吧。",
+          "friend": {
+            "hint": "對方準備開始活動。用簡短友善句回應。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ครับ ขอบคุณครับ",
+                "translation": "好的，謝謝。",
+                "speak": "ครับ / ขอบคุณครับ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "เริ่มอะไรครับ",
+                "translation": "開始什麼？",
+                "speak": "เริ่มอะไรครับ",
+                "contrast_type": "asks_clarification_after_start",
+                "feedback": "對方說可以開始了。這裡不用再問，簡短回「ครับ ขอบคุณครับ」。"
+              },
+              {
+                "id": "r4c",
+                "surface": "ขอเวลาหน่อยครับ",
+                "translation": "請給我一點時間。",
+                "speak": "ขอเวลา / หน่อยครับ",
+                "contrast_type": "delays_start_instead_of_accepting",
+                "feedback": "這是在延後開始。若準備好了，說「ครับ ขอบคุณครับ」。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "daily_self_intro_complete",
+            "learning_role": "listen_only",
+            "surface": "ดีเลย เริ่มกันเลยนะ",
+            "speak": "ดีเลย / เริ่มกันเลยนะ",
+            "translation": "很好，那我們開始吧。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.self_intro.name.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.self_intro.learning_language.v1"
+        },
+        {
+          "after_turn": "t3",
+          "pattern_id": "th.self_intro.nice_to_meet.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-3 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "register_note": "Friendly but polite Thai with masculine polite particle baseline; native review may adapt particles."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "digital_battery_charging",
+      "brief_id": "ml5_a1_018_digital_battery_charging",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml5-a1-018-ask-permission-to-charge-a-phone",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/digital_battery_charging.th.v1.json",
+      "title": "ขอชาร์จมือถือ",
+      "setting_label": "เคาน์เตอร์คาเฟ่",
+      "wrap_title": "ขอชาร์จมือถือได้แล้ว",
+      "wrap_friend": "คุณขออนุญาตชาร์จมือถือ ถามที่อยู่ปลั๊ก ยืนยันตำแหน่ง และขอบคุณพนักงานได้",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國咖啡店想幫手機充電。選自然、簡短的泰文。",
+      "roles": {
+        "npc": {
+          "label": "พนักงาน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "learning_role": "listen_only",
+          "surface": "มีอะไรให้ช่วยไหมครับ",
+          "speak": "มีอะไรให้ช่วยไหมครับ",
+          "translation": "有什麼需要幫忙嗎？",
+          "friend": {
+            "hint": "先禮貌地問能不能充手機。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.digital.charge_permission.v1",
+            "formula_ref": null,
+            "title": "ชาร์จมือถือได้ไหมคะ",
+            "explain": "問可不可以充手機時，可以說 `ชาร์จมือถือได้ไหมคะ`。",
+            "items": [
+              {
+                "surface": "ชาร์จมือถือได้ไหมคะ",
+                "translation": "可以充手機嗎？",
+                "speak": "ชาร์จมือถือได้ไหมคะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "ชาร์จมือถือได้ไหมคะ",
+                "translation": "可以充手機嗎？",
+                "speak": "ชาร์จมือถือได้ไหมคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "มือถือแบตหมดค่ะ",
+                "translation": "手機沒電了。",
+                "speak": "มือถือแบตหมดค่ะ",
+                "contrast_type": "states_problem_without_permission",
+                "feedback": "這說明問題，但還沒有禮貌地問能不能充手機。目標是「ชาร์จมือถือได้ไหมคะ」。"
+              },
+              {
+                "id": "r1c",
+                "surface": "มีปลั๊กว่างไหมคะ",
+                "translation": "有空的插座嗎？",
+                "speak": "มีปลั๊กว่างไหมคะ",
+                "contrast_type": "asks_outlet_availability_not_permission",
+                "feedback": "這和充電有關，但第一步要先問可不可以充手機。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "grant_permission",
+          "learning_role": "listen_only",
+          "surface": "ได้ครับ",
+          "speak": "ได้ครับ",
+          "translation": "可以。",
+          "friend": {
+            "hint": "對方同意了。問插座在哪裡。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.digital.outlet_location.v1",
+            "formula_ref": null,
+            "title": "ปลั๊กอยู่ที่ไหนคะ",
+            "explain": "問插座在哪裡時，可以說 `ปลั๊กอยู่ที่ไหนคะ`。",
+            "items": [
+              {
+                "surface": "ปลั๊กอยู่ที่ไหนคะ",
+                "translation": "插座在哪裡？",
+                "speak": "ปลั๊กอยู่ที่ไหนคะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ปลั๊กอยู่ที่ไหนคะ",
+                "translation": "插座在哪裡？",
+                "speak": "ปลั๊กอยู่ที่ไหนคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ใช้ตรงนี้ได้ไหมคะ",
+                "translation": "可以用這裡嗎？",
+                "speak": "ใช้ตรงนี้ / ได้ไหมคะ",
+                "contrast_type": "asks_specific_spot_before_location",
+                "feedback": "對方已經同意充電，但還沒告訴你插座在哪裡。先問「ปลั๊กอยู่ที่ไหนคะ」。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ปลั๊กว่างไหมคะ",
+                "translation": "插座空著嗎？",
+                "speak": "ปลั๊กว่างไหมคะ",
+                "contrast_type": "asks_availability_after_permission",
+                "feedback": "這還是在問是否可用。現在要知道位置，用「ปลั๊กอยู่ที่ไหนคะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "give_outlet_location",
+          "learning_role": "listen_only",
+          "surface": "อยู่ใต้โต๊ะซ้ายมือครับ",
+          "speak": "อยู่ใต้โต๊ะ ซ้ายมือครับ",
+          "translation": "在左手邊桌子下面。",
+          "friend": {
+            "hint": "確認你聽到的位置。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ใต้โต๊ะซ้ายมือใช่ไหมคะ",
+                "translation": "左手邊桌子下面對嗎？",
+                "speak": "ใต้โต๊ะ ซ้ายมือ ใช่ไหมคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "ใต้โต๊ะขวามือใช่ไหมคะ",
+                "translation": "是在桌子下面右手邊嗎？",
+                "speak": "ใต้โต๊ะขวามือใช่ไหมคะ",
+                "contrast_type": "wrong_side_confirmation",
+                "feedback": "對方說左手邊，不是右手邊。"
+              },
+              {
+                "id": "r3c",
+                "surface": "บนโต๊ะซ้ายมือใช่ไหมคะ",
+                "translation": "是在桌上左手邊嗎？",
+                "speak": "บนโต๊ะซ้ายมือใช่ไหมคะ",
+                "contrast_type": "wrong_location_confirmation",
+                "feedback": "對方說插座在桌子下面，不是在桌上。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "confirm_location",
+          "learning_role": "listen_only",
+          "surface": "ใช่ครับ ใช้ตรงนั้นได้ครับ",
+          "speak": "ใช่ครับ ใช้ตรงนั้นได้ครับ",
+          "translation": "對，可以用那裡。",
+          "friend": {
+            "hint": "對方確認了。簡短道謝即可。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ขอบคุณค่ะ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณค่ะ"
+              },
+              {
+                "id": "r4b",
+                "surface": "โอเคค่ะ",
+                "translation": "OK。",
+                "speak": "โอเคค่ะ",
+                "contrast_type": "acknowledges_without_thanks",
+                "feedback": "可以理解，但得到幫忙後說「ขอบคุณค่ะ」更自然。"
+              },
+              {
+                "id": "r4c",
+                "surface": "เดี๋ยวชาร์จตรงนั้นค่ะ",
+                "translation": "我等一下在那裡充電。",
+                "speak": "เดี๋ยวชาร์จ / ตรงนั้นค่ะ",
+                "contrast_type": "states_action_instead_of_thanks",
+                "feedback": "這是在說接下來要做什麼。得到協助後，收尾用「ขอบคุณค่ะ」。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "charging_help_complete",
+            "learning_role": "listen_only",
+            "surface": "คุณขอชาร์จมือถือและถามที่อยู่ปลั๊กแล้ว",
+            "speak": "คุณขอชาร์จมือถือ และถามที่อยู่ปลั๊กแล้ว",
+            "translation": "你詢問了充電許可，也問了插座位置。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.digital.charge_permission.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.digital.outlet_location.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "th.digital.thanks.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-5 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Uses Thai script, phrase-group spacing, staff ครับ and learner ค่ะ; avoids adapter specs, battery health, electrical safety, and paid charging disputes."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "digital_wifi_connect",
+      "brief_id": "ml4_a1_017_digital_wifi_connect",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml4-a1-017-ask-for-wi-fi-and-say-it-will-not-connect",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/digital_wifi_connect.th.v1.json",
+      "title": "ถามรหัสไวไฟและบอกว่าต่อไม่ได้",
+      "setting_label": "เคาน์เตอร์คาเฟ่",
+      "wrap_title": "ขอความช่วยเหลือเรื่องไวไฟได้แล้ว",
+      "wrap_friend": "คุณถามรหัสไวไฟ ลองเชื่อมต่อ บอกว่าต่อไม่ได้ และขอบคุณพนักงานได้",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國咖啡店或飯店櫃台，需要連Wi-Fi。選自然、簡短的泰文。",
+      "roles": {
+        "npc": {
+          "label": "พนักงาน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "learning_role": "listen_only",
+          "surface": "มีอะไรให้ช่วยไหมครับ",
+          "speak": "มีอะไรให้ช่วยไหมครับ",
+          "translation": "有什麼需要幫忙嗎？",
+          "friend": {
+            "hint": "你需要Wi-Fi密碼。用泰文短句問。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.digital.wifi_password.v1",
+            "formula_ref": null,
+            "title": "รหัสไวไฟคืออะไรคะ",
+            "explain": "問Wi-Fi密碼時，可以說 `รหัสไวไฟคืออะไรคะ`。",
+            "items": [
+              {
+                "surface": "รหัสไวไฟคืออะไรคะ",
+                "translation": "Wi-Fi密碼是什麼？",
+                "speak": "รหัสไวไฟคืออะไรคะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "รหัสไวไฟคืออะไรคะ",
+                "translation": "Wi-Fi密碼是什麼？",
+                "speak": "รหัสไวไฟคืออะไรคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ไวไฟใช้ได้ไหมคะ",
+                "translation": "Wi-Fi可以用嗎？",
+                "speak": "ไวไฟใช้ได้ไหมคะ",
+                "contrast_type": "asks_availability_not_password",
+                "feedback": "這和Wi-Fi有關，但你的目標是問密碼。"
+              },
+              {
+                "id": "r1c",
+                "surface": "ต่อไวไฟไม่ได้ค่ะ",
+                "translation": "連不上Wi-Fi。",
+                "speak": "ต่อไวไฟไม่ได้ค่ะ",
+                "contrast_type": "reports_problem_before_password",
+                "feedback": "還沒拿到密碼就說連不上太早了。先問密碼。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "give_password",
+          "learning_role": "listen_only",
+          "surface": "รหัสคือ cafe123 ครับ",
+          "speak": "รหัสคือ คาเฟ่ หนึ่ง สอง สาม ครับ",
+          "translation": "密碼是 cafe123。",
+          "friend": {
+            "hint": "你拿到密碼了。說謝謝並試試看。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ขอบคุณค่ะ ขอลองก่อนนะคะ",
+                "translation": "謝謝，我先試試看。",
+                "speak": "ขอบคุณค่ะ ขอลองก่อนนะคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ใช้ไวไฟได้ไหมคะ",
+                "translation": "可以用 Wi-Fi 嗎？",
+                "speak": "ใช้ไวไฟได้ไหมคะ",
+                "contrast_type": "asks_permission_after_password_given",
+                "feedback": "對方已經給你密碼了。接下來先道謝並說要試試看。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ต่อไม่ได้ค่ะ",
+                "translation": "連不上。",
+                "speak": "ต่อไม่ได้ค่ะ",
+                "contrast_type": "problem_report_too_early",
+                "feedback": "你還沒試。先謝謝並說要試一下。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "ask_connection_status",
+          "learning_role": "listen_only",
+          "surface": "ใช้ได้ไหมครับ",
+          "speak": "ใช้ได้ไหมครับ",
+          "translation": "可以用了嗎？",
+          "friend": {
+            "hint": "你的手機連不上。用短句說問題。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.digital.wont_connect.v1",
+            "formula_ref": null,
+            "title": "ต่อไม่ได้ค่ะ",
+            "explain": "說網路連不上時，可以說 `ต่อไม่ได้ค่ะ`。",
+            "items": [
+              {
+                "surface": "ขอโทษค่ะ ต่อไม่ได้ค่ะ",
+                "translation": "不好意思，連不上。",
+                "speak": "ขอโทษค่ะ ต่อไม่ได้ค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ขอโทษค่ะ ต่อไม่ได้ค่ะ",
+                "translation": "不好意思，連不上。",
+                "speak": "ขอโทษค่ะ ต่อไม่ได้ค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "ใช้ได้ค่ะ",
+                "translation": "可以用了。",
+                "speak": "ใช้ได้ค่ะ",
+                "contrast_type": "success_answer_when_failure_expected",
+                "feedback": "情境是連不上。需要說問題，而不是說成功。"
+              },
+              {
+                "id": "r3c",
+                "surface": "รหัสไม่ถูกค่ะ",
+                "translation": "密碼不對。",
+                "speak": "รหัสไม่ถูกค่ะ",
+                "contrast_type": "over_specific_failure",
+                "feedback": "可能是密碼問題，但此輪只要簡單說連不上。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "simple_retry_instruction",
+          "learning_role": "listen_only",
+          "surface": "ลองอีกครั้งนะครับ",
+          "speak": "ลองอีกครั้งนะครับ",
+          "translation": "請再試一次。",
+          "friend": {
+            "hint": "對方給簡單建議。說你會再試一次。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "จะลองใหม่ค่ะ",
+                "translation": "我會再試一次。",
+                "speak": "จะลองใหม่ค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "ใช้ได้ค่ะ",
+                "translation": "可以用了。",
+                "speak": "ใช้ได้ค่ะ",
+                "contrast_type": "unsupported_success_after_retry_instruction",
+                "feedback": "對方只是叫你再試一次。先道謝比較自然。"
+              },
+              {
+                "id": "r4c",
+                "surface": "ขอรหัสอีกครั้งค่ะ",
+                "translation": "請再給我一次密碼。",
+                "speak": "ขอรหัส / อีกครั้งค่ะ",
+                "contrast_type": "asks_password_again_after_retry_instruction",
+                "feedback": "對方現在叫你再試一次，不是重新給密碼。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "wifi_help_complete",
+            "learning_role": "listen_only",
+            "surface": "คุณถามรหัสไวไฟและบอกปัญหาแล้ว",
+            "speak": "คุณถามรหัสไวไฟและบอกปัญหาแล้ว",
+            "translation": "你問了Wi-Fi密碼，也說明了問題。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.digital.wifi_password.v1"
+        },
+        {
+          "after_turn": "t3",
+          "pattern_id": "th.digital.wont_connect.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "th.digital.thanks.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-4 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Uses Thai script, phrase-group spacing, staff ครับ and learner ค่ะ; avoids accounts, router settings, security settings, and technical diagnosis."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "food_bill_payment",
+      "brief_id": "ml2_a1_011_food_bill_payment",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml2-a1-011-pay-the-bill",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/food_bill_payment.th.v1.json",
+      "title": "จ่ายบิล",
+      "setting_label": "ร้านอาหารสบาย ๆ",
+      "wrap_title": "จ่ายเงินได้แล้ว",
+      "wrap_friend": "คุณขอเช็กบิล ตอบวิธีจ่ายเงิน และปิดบทสนทนาอย่างสุภาพ",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在餐廳或咖啡店用餐後要結帳。選自然、簡短的泰文。",
+      "roles": {
+        "npc": {
+          "label": "พนักงาน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "check_after_meal",
+          "learning_role": "listen_only",
+          "surface": "ต้องการอะไรเพิ่มไหมคะ",
+          "speak": "ต้องการอะไรเพิ่ม / ไหมคะ",
+          "translation": "還需要什麼嗎？",
+          "friend": {
+            "hint": "店員問還需要什麼。用ขอเช็กบิลค่ะ請結帳。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.restaurant.bill_request.v1",
+            "formula_ref": null,
+            "title": "ขอเช็กบิลค่ะ",
+            "explain": "วลีสั้นและธรรมชาติสำหรับขอจ่ายเงินหลังอาหาร",
+            "items": [
+              {
+                "surface": "ขอเช็กบิลค่ะ",
+                "translation": "請結帳。",
+                "speak": "ขอเช็กบิลค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "ขอเช็กบิลค่ะ",
+                "translation": "請結帳。",
+                "speak": "ขอเช็กบิลค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ขอใบเสร็จค่ะ",
+                "translation": "請給我收據。",
+                "speak": "ขอใบเสร็จค่ะ",
+                "contrast_type": "receipt_before_bill",
+                "feedback": "收據是付款後的事。現在先請店員結帳。"
+              },
+              {
+                "id": "r1c",
+                "surface": "จ่ายบัตรได้ไหมคะ",
+                "translation": "可以刷卡嗎？",
+                "speak": "จ่ายบัตรได้ไหมคะ",
+                "contrast_type": "payment_method_before_bill_total",
+                "feedback": "這也是結帳相關，但你還沒請店員算帳。先說「ขอเช็กบิลค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_payment_method",
+          "learning_role": "listen_only",
+          "surface": "จ่ายบัตรหรือเงินสดคะ",
+          "speak": "จ่ายบัตร / หรือเงินสดคะ",
+          "translation": "刷卡還是現金？",
+          "friend": {
+            "hint": "店員問付款方式。選一種回答。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "จ่ายบัตรค่ะ",
+                "translation": "刷卡。",
+                "speak": "จ่ายบัตรค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ไม่เอาใบเสร็จค่ะ",
+                "translation": "不用收據。",
+                "speak": "ไม่เอาใบเสร็จค่ะ",
+                "contrast_type": "receipt_answer_to_payment_method",
+                "feedback": "這是在回答收據問題。現在店員問的是卡或現金。"
+              },
+              {
+                "id": "r2c",
+                "surface": "จ่ายเงินสดค่ะ",
+                "translation": "付現金。",
+                "speak": "จ่ายเงินสดค่ะ",
+                "contrast_type": "wrong_payment_method",
+                "feedback": "店員問卡或現金；這句也自然，但本輪目標是刷卡。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "confirm_card_payment",
+          "learning_role": "listen_only",
+          "surface": "ชำระด้วยบัตรนะคะ",
+          "speak": "ชำระด้วยบัตร / นะคะ",
+          "translation": "用卡付款，對嗎？",
+          "friend": {
+            "hint": "店員確認刷卡付款。用ใช่ค่ะ回答。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ใช่ค่ะ",
+                "translation": "是的。",
+                "speak": "ใช่ค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "ไม่เอาใบเสร็จค่ะ",
+                "translation": "不用收據。",
+                "speak": "ไม่เอาใบเสร็จค่ะ",
+                "contrast_type": "receipt_answer_to_payment_method",
+                "feedback": "這是在回答收據問題。現在店員問的是卡或現金。"
+              },
+              {
+                "id": "r3c",
+                "surface": "จ่ายเงินสดค่ะ",
+                "translation": "付現金。",
+                "speak": "จ่ายเงินสดค่ะ",
+                "contrast_type": "wrong_payment_method",
+                "feedback": "這和付款有關，但店員確認的是刷卡。目標是簡短確認「ใช่ค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "close_payment",
+          "learning_role": "listen_only",
+          "surface": "เรียบร้อยค่ะ ขอบคุณค่ะ",
+          "speak": "เรียบร้อยค่ะ / ขอบคุณค่ะ",
+          "translation": "好了，謝謝。",
+          "friend": {
+            "hint": "付款完成。用謝謝收尾。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ขอบคุณค่ะ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "ขอใบเสร็จค่ะ",
+                "translation": "請給我收據。",
+                "speak": "ขอใบเสร็จค่ะ",
+                "contrast_type": "extra_receipt_request_at_close",
+                "feedback": "可以另外問收據，但店員已完成交易並道謝；本輪自然收尾是謝謝。"
+              },
+              {
+                "id": "r4c",
+                "surface": "เรียบร้อยค่ะ",
+                "translation": "好了。",
+                "speak": "เรียบร้อยค่ะ",
+                "contrast_type": "echoes_staff_closing",
+                "feedback": "這像店員說的話。客人用「ขอบคุณค่ะ」收尾。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "payment_complete",
+            "learning_role": "listen_only",
+            "surface": "คุณจ่ายเงินและปิดบทสนทนาได้สุภาพ",
+            "speak": "คุณจ่ายเงิน / และปิดบทสนทนาได้สุภาพ",
+            "translation": "你完成付款並禮貌收尾。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.restaurant.bill_request.v1"
+        },
+        {
+          "after_turn": "t3",
+          "pattern_id": "th.payment.card_cash.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-2 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "register_note": "Polite Thai restaurant payment language with ค่ะ as default learner particle."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "food_coffee_ordering",
+      "brief_id": "ml0_a1_001_food_coffee_ordering",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#brief-ml0-a1-001-coffee-ordering",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/food_coffee_ordering.th.v1.json",
+      "title": "สั่งกาแฟ",
+      "setting_label": "เคาน์เตอร์คาเฟ่",
+      "wrap_title": "สั่งกาแฟได้แล้ว",
+      "wrap_friend": "คุณสั่งเครื่องดื่ม ตอบเรื่องกลับบ้าน และปิดบทสนทนาได้ด้วยประโยคสั้น ๆ",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國咖啡店櫃台。聽店員問什麼，選一句自然接得上的泰文。",
+      "roles": {
+        "npc": {
+          "label": "พนักงาน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "service_opening",
+          "act_slots": {
+            "topic": "เริ่มสั่ง",
+            "keyword": "รับอะไร",
+            "gloss": "點餐"
+          },
+          "learning_role": "listen_only",
+          "surface": "สวัสดีค่ะ รับอะไรดีคะ",
+          "speak": "สวัสดีค่ะ รับอะไรดีคะ",
+          "translation": "您好。要點什麼呢？",
+          "friend": {
+            "hint": "店員在問你要什麼。想要某個飲料，可以說「เอา...ค่ะ」。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "เอาอเมริกาโน่เย็นค่ะ",
+                "translation": "我要冰美式。",
+                "speak": "เอาอเมริกาโน่เย็นค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "มีอเมริกาโน่เย็นไหมคะ",
+                "translation": "有冰美式嗎？",
+                "speak": "มีอเมริกาโน่เย็นไหมคะ",
+                "contrast_type": "asks_availability_instead_of_ordering",
+                "feedback": "這句是在問有沒有。店員問你要什麼時，直接點「เอาอเมริกาโน่เย็นค่ะ」。"
+              },
+              {
+                "id": "r1c",
+                "surface": "เอาลาเต้เย็นค่ะ",
+                "translation": "我要冰拿鐵。",
+                "speak": "เอาลาเต้เย็นค่ะ",
+                "contrast_type": "wrong_drink_choice",
+                "feedback": "這也是點飲料，但飲料變成ลาเต้。目標是「เอาอเมริกาโน่เย็นค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "choice_question",
+          "act_slots": {
+            "topic": "內用或外帶",
+            "keyword": "ที่นี่",
+            "gloss": "這裡"
+          },
+          "learning_role": "listen_only",
+          "surface": "ทานที่ร้านหรือกลับบ้านคะ",
+          "speak": "ทานที่ร้านหรือกลับบ้านคะ",
+          "translation": "內用還是外帶？",
+          "friend": {
+            "hint": "ที่ร้าน 是在店裡，กลับบ้าน 是帶回家。選一個回答就好。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.cafe.for_here.to_go.v1",
+            "formula_ref": null,
+            "title": "ที่ร้าน / กลับบ้าน",
+            "explain": "「ที่ร้าน」是在店裡，「กลับบ้าน」是帶回家。",
+            "items": [
+              {
+                "surface": "ที่ร้าน",
+                "translation": "內用",
+                "speak": "ที่ร้าน"
+              },
+              {
+                "surface": "กลับบ้าน",
+                "translation": "外帶",
+                "speak": "กลับบ้าน"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "กลับบ้านค่ะ",
+                "translation": "外帶。",
+                "speak": "กลับบ้านค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ทานที่ร้านค่ะ",
+                "translation": "內用。",
+                "speak": "ทานที่ร้านค่ะ",
+                "contrast_type": "opposite_service_choice",
+                "feedback": "這也是自然回答，但意思是內用。這一輪要練習外帶，所以說「กลับบ้านค่ะ」。"
+              },
+              {
+                "id": "r2c",
+                "surface": "กลับบ้านไหมคะ",
+                "translation": "要外帶嗎？",
+                "speak": "กลับบ้านไหมคะ",
+                "contrast_type": "asks_back_instead_of_choosing",
+                "feedback": "店員要你選內用或外帶，不是要你反問。要外帶說「กลับบ้านค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "confirmation",
+          "act_slots": {
+            "topic": "訂單確認",
+            "keyword": "นะคะ",
+            "gloss": "確認語氣"
+          },
+          "learning_role": "listen_only",
+          "surface": "อเมริกาโน่เย็น กลับบ้านนะคะ",
+          "speak": "อเมริกาโน่เย็น กลับบ้านนะคะ",
+          "translation": "冰美式外帶，對嗎？",
+          "friend": {
+            "hint": "店員在確認訂單。沒問題時，可以簡短說「ใช่ค่ะ」。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ใช่ค่ะ",
+                "translation": "是的。",
+                "speak": "ใช่ค่ะ"
+              },
+              {
+                "id": "r3b",
+                "surface": "อเมริกาโน่ร้อนค่ะ",
+                "translation": "熱美式。",
+                "speak": "อเมริกาโน่ร้อนค่ะ",
+                "contrast_type": "changes_order_temperature",
+                "feedback": "店員確認的是冰美式外帶。這句改成熱飲，和訂單不同。"
+              },
+              {
+                "id": "r3c",
+                "surface": "ที่ร้านค่ะ",
+                "translation": "內用。",
+                "speak": "ที่ร้านค่ะ",
+                "contrast_type": "wrong_order_detail",
+                "feedback": "店員確認的是冰美式外帶。這句改成內用，和訂單細節不一致。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "payment",
+          "act_slots": {
+            "topic": "付款等待",
+            "keyword": "บาท",
+            "gloss": "泰銖"
+          },
+          "learning_role": "listen_only",
+          "surface": "หกสิบบาทค่ะ รอสักครู่นะคะ",
+          "speak": "หกสิบบาทค่ะ รอสักครู่นะคะ",
+          "translation": "六十泰銖。請稍等一下。",
+          "friend": {
+            "hint": "店員說價格，也請你稍等。簡短回答謝謝就可以。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ขอบคุณค่ะ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณค่ะ"
+              },
+              {
+                "id": "r4b",
+                "surface": "หกสิบบาทค่ะ",
+                "translation": "六十泰銖。",
+                "speak": "หกสิบบาทค่ะ",
+                "contrast_type": "echoes_price_instead_of_closing",
+                "feedback": "這是在重複價格。店員請你稍等時，客人說「ขอบคุณค่ะ」比較自然。"
+              },
+              {
+                "id": "r4c",
+                "surface": "ต้องจ่ายตรงนี้ไหมคะ",
+                "translation": "要在這裡付款嗎？",
+                "speak": "ต้องจ่ายตรงนี้ไหมคะ",
+                "contrast_type": "extra_question_after_price",
+                "feedback": "可以理解，但店員已經說價格並請你等。這一輪的自然收尾是「ขอบคุณค่ะ」。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "handover",
+            "learning_role": "listen_only",
+            "surface": "ได้แล้วค่ะ อเมริกาโน่เย็นค่ะ",
+            "speak": "ได้แล้วค่ะ อเมริกาโน่เย็นค่ะ",
+            "translation": "好了。這是冰美式。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.cafe.for_here.to_go.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief, not Korean surface text.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Pilot uses ค่ะ/คะ consistently to avoid slash-form TTS and beginner-input ambiguity."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "food_restaurant_ordering",
+      "brief_id": "ml1_a1_006_food_restaurant_ordering",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml1-a1-006-restaurant-ordering",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/food_restaurant_ordering.th.v1.json",
+      "title": "สั่งอาหารในร้านอาหาร",
+      "setting_label": "ร้านอาหารง่าย ๆ",
+      "wrap_title": "สั่งอาหารได้แล้ว",
+      "wrap_friend": "คุณตอบจำนวนคน สั่งอาหารหนึ่งอย่าง ยืนยันออร์เดอร์ และขอบคุณพนักงานได้ด้วยประโยคสั้น ๆ",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國的簡單餐廳用餐。聽店員問什麼，選一句自然接得上的泰文。",
+      "roles": {
+        "npc": {
+          "label": "พนักงาน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "greet_and_ask_party",
+          "act_slots": {
+            "topic": "จำนวนคน",
+            "keyword": "กี่ท่าน",
+            "gloss": "幾位"
+          },
+          "learning_role": "listen_only",
+          "surface": "สวัสดีครับ มากี่ท่านครับ",
+          "speak": "สวัสดีครับ มากี่ท่านครับ",
+          "translation": "您好，幾位呢？",
+          "friend": {
+            "hint": "店員在確認人數。可以短短回答一位。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.restaurant.party_count.v1",
+            "formula_ref": null,
+            "title": "คนเดียวค่ะ",
+            "explain": "「คนเดียวค่ะ」可以禮貌回答一個人用餐。",
+            "items": [
+              {
+                "surface": "คนเดียวค่ะ",
+                "translation": "一個人。",
+                "speak": "คนเดียวค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "คนเดียวค่ะ",
+                "translation": "一個人。",
+                "speak": "คนเดียวค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "สองคนค่ะ",
+                "translation": "兩位。",
+                "speak": "สองคนค่ะ",
+                "contrast_type": "wrong_party_size",
+                "feedback": "這也是回答人數，但本輪目標是一個人。"
+              },
+              {
+                "id": "r1c",
+                "surface": "นั่งคนเดียวได้ไหมคะ",
+                "translation": "一個人可以坐嗎？",
+                "speak": "นั่งคนเดียว / ได้ไหมคะ",
+                "contrast_type": "asks_seating_instead_of_party_size",
+                "feedback": "這仍在餐廳入座情境，但店員問幾位。直接回答「คนเดียวค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_order",
+          "act_slots": {
+            "topic": "สั่งอาหาร",
+            "keyword": "รับอะไร",
+            "gloss": "要什麼"
+          },
+          "learning_role": "listen_only",
+          "surface": "รับอะไรดีครับ",
+          "speak": "รับอะไรดีครับ",
+          "translation": "要點什麼呢？",
+          "friend": {
+            "hint": "店員在問餐點。用「ขอ...ค่ะ」點一份。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.restaurant.order_one_dish.v1",
+            "formula_ref": null,
+            "title": "ขอ...ค่ะ",
+            "explain": "點餐時可以用「ขอ + 餐點 + ค่ะ」。",
+            "items": [
+              {
+                "surface": "ขอข้าวผัดไก่ค่ะ",
+                "translation": "請給我雞肉炒飯。",
+                "speak": "ขอข้าวผัดไก่ค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ขอข้าวผัดไก่ค่ะ",
+                "translation": "請給我雞肉炒飯。",
+                "speak": "ขอข้าวผัดไก่ค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ข้าวผัดมีไหมคะ",
+                "translation": "有炒飯嗎？",
+                "speak": "ข้าวผัด / มีไหมคะ",
+                "contrast_type": "asks_availability_instead_of_ordering",
+                "feedback": "這是在問有沒有炒飯，還沒有點餐。店員問要什麼時，說「ขอข้าวผัดไก่ค่ะ」。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ขอข้าวผัดค่ะ",
+                "translation": "請給我炒飯。",
+                "speak": "ขอข้าวผัดค่ะ",
+                "contrast_type": "missing_main_detail",
+                "feedback": "這有點餐，但少了「ไก่」。目標是清楚點「ขอข้าวผัดไก่ค่ะ」。"
+              },
+              {
+                "id": "r2d",
+                "surface": "ขอไก่ค่ะ",
+                "translation": "請給我雞肉。",
+                "speak": "ขอไก่ค่ะ",
+                "contrast_type": "incomplete_food_order",
+                "feedback": "這只說雞肉，沒有說主餐。要說完整的「ขอข้าวผัดไก่ค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "confirm_order",
+          "act_slots": {
+            "topic": "ยืนยันอาหาร",
+            "keyword": "ข้าวผัดไก่",
+            "gloss": "雞肉炒飯"
+          },
+          "learning_role": "listen_only",
+          "surface": "ข้าวผัดไก่นะครับ",
+          "speak": "ข้าวผัดไก่นะครับ",
+          "translation": "雞肉炒飯，對嗎？",
+          "friend": {
+            "hint": "店員在確認你的餐點。簡短說對並謝謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ใช่ค่ะ ขอบคุณค่ะ",
+                "translation": "是的，謝謝。",
+                "speak": "ใช่ค่ะ ขอบคุณค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "ไม่ใช่ค่ะ ข้าวผัดหมูค่ะ",
+                "translation": "不是，是豬肉炒飯。",
+                "speak": "ไม่ใช่ค่ะ ข้าวผัดหมูค่ะ",
+                "contrast_type": "changes_order_detail",
+                "feedback": "這會把雞肉炒飯改成豬肉炒飯。餐點正確時要確認。"
+              },
+              {
+                "id": "r3c",
+                "surface": "เอาน้ำเปล่าด้วยค่ะ",
+                "translation": "也要水。",
+                "speak": "เอาน้ำเปล่าด้วยค่ะ",
+                "contrast_type": "adds_item_instead_of_confirming",
+                "feedback": "可以加點，但店員現在確認主餐。先確認「ใช่ค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "order_close",
+          "act_slots": {
+            "topic": "จบการสั่ง",
+            "keyword": "รอสักครู่",
+            "gloss": "稍等"
+          },
+          "learning_role": "listen_only",
+          "surface": "ได้ครับ รอสักครู่นะครับ",
+          "speak": "ได้ครับ รอสักครู่นะครับ",
+          "translation": "好的，請稍等。",
+          "friend": {
+            "hint": "店員請你稍等。簡短答應即可。"
+          },
+          "reply_set": {
+            "correct": "r4b",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ขอบคุณค่ะ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณค่ะ",
+                "contrast_type": "thanks_repeats_prior_confirmation_style",
+                "feedback": "這可以理解，但上一輪已經說ขอบคุณแล้ว。這裡答應等待，用「ได้ค่ะ」。"
+              },
+              {
+                "id": "r4b",
+                "surface": "ได้ค่ะ",
+                "translation": "好的。",
+                "speak": "ได้ค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4c",
+                "surface": "โอเคค่ะ",
+                "translation": "OK。",
+                "speak": "โอเคค่ะ",
+                "contrast_type": "informal_acknowledgement_less_polite_than_thanks",
+                "feedback": "可以理解，但店員請你稍等時，這一步練習簡短答應「ได้ค่ะ」。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "order_understood",
+            "learning_role": "listen_only",
+            "surface": "พนักงานเข้าใจออร์เดอร์แล้ว",
+            "speak": "พนักงานเข้าใจออร์เดอร์แล้ว",
+            "translation": "店員已經理解你的餐點了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.restaurant.party_count.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.restaurant.order_one_dish.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-1 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Uses Thai script with consistent learner polite particle ค่ะ and no slash-form alternatives."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "hotel_checkout",
+      "brief_id": "ml4_a1_016_hotel_checkout",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml4-a1-016-hotel-checkout",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/hotel_checkout.th.v1.json",
+      "title": "เช็กเอาต์ที่โรงแรม",
+      "setting_label": "แผนกต้อนรับโรงแรม",
+      "wrap_title": "เช็กเอาต์ได้แล้ว",
+      "wrap_friend": "คุณขอเช็กเอาต์ บอกเลขห้อง ส่งคีย์การ์ด และขอบคุณพนักงานได้",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國飯店櫃台退房。選自然、簡短的泰文。",
+      "roles": {
+        "npc": {
+          "label": "พนักงานต้อนรับ"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "learning_role": "listen_only",
+          "surface": "สวัสดีครับ มีอะไรให้ช่วยไหมครับ",
+          "speak": "สวัสดีครับ มีอะไรให้ช่วยไหมครับ",
+          "translation": "您好，有什麼需要幫忙嗎？",
+          "friend": {
+            "hint": "你要退房。用泰文說要check out。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.hotel.checkout_request.v1",
+            "formula_ref": null,
+            "title": "จะเช็กเอาต์ค่ะ",
+            "explain": "在飯店退房時，可以說 `จะเช็กเอาต์ค่ะ`。",
+            "items": [
+              {
+                "surface": "จะเช็กเอาต์ค่ะ",
+                "translation": "我要退房。",
+                "speak": "จะเช็กเอาต์ค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "จะเช็กเอาต์ค่ะ",
+                "translation": "我要退房。",
+                "speak": "จะเช็กเอาต์ค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ขอเช็กเอาต์ได้ไหมคะ",
+                "translation": "可以退房嗎？",
+                "speak": "ขอเช็กเอาต์ได้ไหมคะ",
+                "contrast_type": "asks_permission_instead_of_stating_checkout",
+                "feedback": "意思接近，但櫃台問需要什麼時，直接說「จะเช็กเอาต์ค่ะ」。"
+              },
+              {
+                "id": "r1c",
+                "surface": "จะเช็กอินค่ะ",
+                "translation": "我要入住。",
+                "speak": "จะเช็กอินค่ะ",
+                "contrast_type": "opposite_hotel_action",
+                "feedback": "เช็กอิน 是入住，和退房相反。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_room_number",
+          "learning_role": "listen_only",
+          "surface": "ห้องเบอร์อะไรครับ",
+          "speak": "ห้องเบอร์อะไรครับ",
+          "translation": "房號是多少？",
+          "friend": {
+            "hint": "櫃台問房號。直接說房號。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ห้อง 305 ค่ะ",
+                "translation": "305號房。",
+                "speak": "ห้อง สาม ศูนย์ ห้า ค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ห้องสามค่ะ",
+                "translation": "三號房。",
+                "speak": "ห้องสามค่ะ",
+                "contrast_type": "incomplete_room_number",
+                "feedback": "房號需要清楚說 305，不只說三。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ชั้นสามค่ะ",
+                "translation": "三樓。",
+                "speak": "ชั้นสามค่ะ",
+                "contrast_type": "floor_instead_of_room_number",
+                "feedback": "櫃台問房號，不是樓層。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "ask_key_card",
+          "learning_role": "listen_only",
+          "surface": "ขอคีย์การ์ดด้วยครับ",
+          "speak": "ขอคีย์การ์ดด้วยครับ",
+          "translation": "請給我房卡。",
+          "friend": {
+            "hint": "櫃台要房卡。把房卡交給對方。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.hotel.key_handover.v1",
+            "formula_ref": null,
+            "title": "นี่คีย์การ์ดค่ะ",
+            "explain": "交東西給對方時，可以說 `นี่...ค่ะ`。",
+            "items": [
+              {
+                "surface": "นี่คีย์การ์ดค่ะ",
+                "translation": "這是房卡。",
+                "speak": "นี่คีย์การ์ดค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "นี่คีย์การ์ดค่ะ",
+                "translation": "這是房卡。",
+                "speak": "นี่คีย์การ์ดค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "ไม่มีค่ะ",
+                "translation": "沒有。",
+                "speak": "ไม่มีค่ะ",
+                "contrast_type": "refusal_when_key_handover_expected",
+                "feedback": "這是在說沒有。情境需要交出房卡。"
+              },
+              {
+                "id": "r3c",
+                "surface": "นี่บัตรห้องค่ะ",
+                "translation": "這是房卡。",
+                "speak": "นี่บัตรห้องค่ะ",
+                "contrast_type": "less_natural_keycard_wording",
+                "feedback": "意思接近，但飯店房卡更自然說「คีย์การ์ด」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "confirm_checkout",
+          "learning_role": "listen_only",
+          "surface": "เรียบร้อยครับ นี่ใบเสร็จครับ",
+          "speak": "เรียบร้อยครับ นี่ใบเสร็จครับ",
+          "translation": "辦好了。這是收據。",
+          "friend": {
+            "hint": "退房完成。道謝收尾。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ขอบคุณค่ะ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณค่ะ"
+              },
+              {
+                "id": "r4b",
+                "surface": "ขอใบเสร็จได้ไหมคะ",
+                "translation": "可以給我收據嗎？",
+                "speak": "ขอใบเสร็จได้ไหมคะ",
+                "contrast_type": "asks_receipt_after_receipt_given",
+                "feedback": "櫃台已經給ใบเสร็จแล้ว。退房完成時說「ขอบคุณค่ะ」。"
+              },
+              {
+                "id": "r4c",
+                "surface": "เรียบร้อยแล้วใช่ไหมคะ",
+                "translation": "辦好了，對嗎？",
+                "speak": "เรียบร้อยแล้วใช่ไหมคะ",
+                "contrast_type": "reconfirms_after_checkout_complete",
+                "feedback": "櫃台已說เรียบร้อย並給ใบเสร็จ了。退房完成時說「ขอบคุณค่ะ」。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "hotel_checkout_complete",
+            "learning_role": "listen_only",
+            "surface": "คุณเช็กเอาต์เรียบร้อยแล้ว",
+            "speak": "คุณเช็กเอาต์เรียบร้อยแล้ว",
+            "translation": "你完成飯店退房了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.hotel.checkout_request.v1"
+        },
+        {
+          "after_turn": "t3",
+          "pattern_id": "th.hotel.key_handover.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "th.hotel.checkout_thanks.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-4 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Uses Thai script, phrase-group spacing, staff ครับ and learner ค่ะ; avoids deposits, charge disputes, refunds, payment problems, and ID handling."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "hotel_wifi_breakfast",
+      "brief_id": "ml1_a1_008_hotel_wifi_breakfast",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml1-a1-008-hotel-wi-fi-and-breakfast",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/hotel_wifi_breakfast.th.v1.json",
+      "title": "ถามเรื่องไวไฟและอาหารเช้า",
+      "setting_label": "แผนกต้อนรับโรงแรม",
+      "wrap_title": "รู้ข้อมูลไวไฟและอาหารเช้าแล้ว",
+      "wrap_friend": "คุณถามรหัสไวไฟ ถามเวลาอาหารเช้า ยืนยันเวลา และขอบคุณพนักงานได้",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國飯店櫃台。聽櫃台人員回答，選一句自然接得上的泰文。",
+      "roles": {
+        "npc": {
+          "label": "พนักงานต้อนรับ"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "greet_guest",
+          "act_slots": {
+            "topic": "แผนกต้อนรับ",
+            "keyword": "ช่วย",
+            "gloss": "幫忙"
+          },
+          "learning_role": "listen_only",
+          "surface": "สวัสดีครับ มีอะไรให้ช่วยไหมครับ",
+          "speak": "สวัสดีครับ มีอะไรให้ช่วยไหมครับ",
+          "translation": "您好，有什麼需要幫忙嗎？",
+          "friend": {
+            "hint": "你想問Wi-Fi密碼。用短句禮貌地問。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.hotel.wifi_question.v1",
+            "formula_ref": null,
+            "title": "รหัสไวไฟ",
+            "explain": "問Wi-Fi密碼時，可以說「รหัสไวไฟคืออะไรคะ」。",
+            "items": [
+              {
+                "surface": "รหัสไวไฟคืออะไรคะ",
+                "translation": "Wi-Fi密碼是什麼？",
+                "speak": "รหัสไวไฟคืออะไรคะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "รหัสไวไฟคืออะไรคะ",
+                "translation": "Wi-Fi密碼是什麼？",
+                "speak": "รหัสไวไฟคืออะไรคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ไวไฟใช้ได้ไหมคะ",
+                "translation": "Wi-Fi可以用嗎？",
+                "speak": "ไวไฟใช้ได้ไหมคะ",
+                "contrast_type": "asks_wifi_availability_not_password",
+                "feedback": "這也和Wi-Fi有關，但你要問密碼。"
+              },
+              {
+                "id": "r1c",
+                "surface": "รหัสอยู่ที่ไหนคะ",
+                "translation": "密碼在哪裡？",
+                "speak": "รหัสอยู่ที่ไหนคะ",
+                "contrast_type": "asks_location_not_password",
+                "feedback": "意思接近，但櫃台最自然是問「รหัสไวไฟคืออะไรคะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "give_wifi_info",
+          "act_slots": {
+            "topic": "ข้อมูลไวไฟ",
+            "keyword": "บัตรห้อง",
+            "gloss": "房卡"
+          },
+          "learning_role": "listen_only",
+          "surface": "รหัสอยู่บนบัตรห้องครับ",
+          "speak": "รหัสอยู่บนบัตรห้องครับ",
+          "translation": "密碼在房卡上。",
+          "friend": {
+            "hint": "Wi-Fi資訊知道了。接著問早餐時間。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.hotel.breakfast_time.v1",
+            "formula_ref": null,
+            "title": "อาหารเช้ากี่โมง",
+            "explain": "問早餐時間時，可以說「อาหารเช้ากี่โมงคะ」。",
+            "items": [
+              {
+                "surface": "อาหารเช้ากี่โมงคะ",
+                "translation": "早餐幾點？",
+                "speak": "อาหารเช้ากี่โมงคะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ขอบคุณค่ะ อาหารเช้ากี่โมงคะ",
+                "translation": "謝謝。早餐幾點？",
+                "speak": "ขอบคุณค่ะ อาหารเช้ากี่โมงคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "อาหารเช้าอยู่ที่ไหนคะ",
+                "translation": "早餐在哪裡？",
+                "speak": "อาหารเช้าอยู่ที่ไหนคะ",
+                "contrast_type": "asks_place_not_time",
+                "feedback": "這句問地點。此輪要接著問早餐幾點。"
+              },
+              {
+                "id": "r2c",
+                "surface": "รหัสคืออะไรคะ",
+                "translation": "密碼是什麼？",
+                "speak": "รหัสคืออะไรคะ",
+                "contrast_type": "repeats_password_question_after_answer",
+                "feedback": "櫃台已告訴你密碼在房卡上。現在可問早餐時間。"
+              },
+              {
+                "id": "r2d",
+                "surface": "อาหารเช้าเริ่มไหมคะ",
+                "translation": "早餐開始嗎？",
+                "speak": "อาหารเช้าเริ่มไหมคะ",
+                "contrast_type": "unnatural_breakfast_question",
+                "feedback": "這句不太自然。問時間要說「อาหารเช้ากี่โมงคะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "give_breakfast_time",
+          "act_slots": {
+            "topic": "เวลาอาหารเช้า",
+            "keyword": "เจ็ดโมง",
+            "gloss": "七點"
+          },
+          "learning_role": "listen_only",
+          "surface": "อาหารเช้าเริ่มเจ็ดโมงครับ",
+          "speak": "อาหารเช้าเริ่มเจ็ดโมงครับ",
+          "translation": "早餐七點開始。",
+          "friend": {
+            "hint": "櫃台告訴你早餐時間。可以確認並道謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "เจ็ดโมงนะคะ ขอบคุณค่ะ",
+                "translation": "七點對吧，謝謝。",
+                "speak": "เจ็ดโมงนะคะ ขอบคุณค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "เก้าโมงนะคะ",
+                "translation": "九點對吧。",
+                "speak": "เก้าโมงนะคะ",
+                "contrast_type": "wrong_time_confirmation",
+                "feedback": "櫃台說的是七點，不是九點。"
+              },
+              {
+                "id": "r3c",
+                "surface": "เจ็ดโมงที่ไหนคะ",
+                "translation": "七點在哪裡？",
+                "speak": "เจ็ดโมงที่ไหนคะ",
+                "contrast_type": "asks_place_after_time_answer",
+                "feedback": "可以再問地點，但這輪要確認聽到的是七點。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "closing",
+          "act_slots": {
+            "topic": "จบที่ฟรอนต์",
+            "keyword": "อื่น",
+            "gloss": "其他"
+          },
+          "learning_role": "listen_only",
+          "surface": "ต้องการอะไรอีกไหมครับ",
+          "speak": "ต้องการอะไรอีกไหมครับ",
+          "translation": "還需要其他東西嗎？",
+          "friend": {
+            "hint": "資訊都問完了。簡短說不用了並謝謝。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ไม่แล้วค่ะ ขอบคุณค่ะ",
+                "translation": "不用了，謝謝。",
+                "speak": "ไม่แล้วค่ะ ขอบคุณค่ะ"
+              },
+              {
+                "id": "r4b",
+                "surface": "พอแล้วค่ะ",
+                "translation": "夠了。",
+                "speak": "พอแล้วค่ะ",
+                "contrast_type": "blunt_close",
+                "feedback": "意思接近，但飯店櫃台用「ไม่แล้วค่ะ ขอบคุณค่ะ」更自然禮貌。"
+              },
+              {
+                "id": "r4c",
+                "surface": "เก้าโมงนะคะ",
+                "translation": "九點對吧。",
+                "speak": "เก้าโมงนะคะ",
+                "contrast_type": "repeated_wrong_time",
+                "feedback": "早餐時間是七點。結尾時說不用了、謝謝比較自然。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "hotel_info_understood",
+            "learning_role": "listen_only",
+            "surface": "คุณรู้ข้อมูลไวไฟและเวลาอาหารเช้าแล้ว",
+            "speak": "คุณรู้ข้อมูลไวไฟและเวลาอาหารเช้าแล้ว",
+            "translation": "你知道Wi-Fi和早餐時間了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.hotel.wifi_question.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.hotel.breakfast_time.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-1 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Uses Thai script, phrase-group spacing, and consistent learner polite particle ค่ะ."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "problem_lost_item",
+      "brief_id": "ml5_a1_020_problem_lost_item",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml5-a1-020-say-a-small-item-is-lost",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/problem_lost_item.th.v1.json",
+      "title": "บอกว่าของหาย",
+      "setting_label": "เคาน์เตอร์ประชาสัมพันธ์",
+      "wrap_title": "ถามเรื่องของหายได้แล้ว",
+      "wrap_friend": "คุณบอกว่ากระเป๋าใบเล็กหาย บอกสถานที่ง่าย ๆ เข้าใจจุดที่ต้องไปถามต่อ และขอบคุณพนักงานได้",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國服務台找遺失的小物。選自然、簡短的泰文。",
+      "roles": {
+        "npc": {
+          "label": "พนักงาน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "learning_role": "listen_only",
+          "surface": "มีอะไรให้ช่วยไหมครับ",
+          "speak": "มีอะไรให้ช่วยไหมครับ",
+          "translation": "有什麼需要幫忙嗎？",
+          "friend": {
+            "hint": "簡短說你的小包包不見了。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.problem.lost_item.v1",
+            "formula_ref": null,
+            "title": "กระเป๋าใบเล็กหายค่ะ",
+            "explain": "說小包包不見了，可以說 `กระเป๋าใบเล็กหายค่ะ`。",
+            "items": [
+              {
+                "surface": "กระเป๋าใบเล็กหายค่ะ",
+                "translation": "小包包不見了。",
+                "speak": "กระเป๋า ใบเล็ก หายค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "กระเป๋าใบเล็กหายค่ะ",
+                "translation": "小包包不見了。",
+                "speak": "กระเป๋า ใบเล็ก หายค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "หากระเป๋าได้ไหมคะ",
+                "translation": "可以找包包嗎？",
+                "speak": "หากระเป๋าได้ไหมคะ",
+                "contrast_type": "asks_help_not_reporting_loss",
+                "feedback": "意思相關，但要先清楚說小包不見了。"
+              },
+              {
+                "id": "r1c",
+                "surface": "กระเป๋าอยู่ไหนคะ",
+                "translation": "包包在哪裡？",
+                "speak": "กระเป๋าอยู่ไหนคะ",
+                "contrast_type": "asks_location_before_reporting_loss",
+                "feedback": "你還不知道位置。先說「กระเป๋าใบเล็กหายค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_lost_location",
+          "learning_role": "listen_only",
+          "surface": "หายที่ไหนครับ",
+          "speak": "หายที่ไหนครับ",
+          "translation": "在哪裡不見的？",
+          "friend": {
+            "hint": "回答簡單地點，不需要詳細說明。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.problem.simple_place.v1",
+            "formula_ref": null,
+            "title": "ที่คาเฟ่ค่ะ",
+            "explain": "回答地點時，可以用 `ที่ + 地點`。",
+            "items": [
+              {
+                "surface": "ที่คาเฟ่ค่ะ",
+                "translation": "在咖啡店。",
+                "speak": "ที่คาเฟ่ค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ที่คาเฟ่ค่ะ",
+                "translation": "在咖啡店。",
+                "speak": "ที่คาเฟ่ค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ประมาณสิบนาทีค่ะ",
+                "translation": "大約十分鐘。",
+                "speak": "ประมาณ สิบนาทีค่ะ",
+                "contrast_type": "time_estimate_instead_of_lost_location",
+                "feedback": "這是時間估計。對方問的是遺失地點。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ที่นี่ค่ะ",
+                "translation": "在這裡。",
+                "speak": "ที่นี่ค่ะ",
+                "contrast_type": "vague_lost_location",
+                "feedback": "地點太模糊。對方問在哪裡不見，要說明「ที่คาเฟ่ค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "give_next_desk",
+          "learning_role": "listen_only",
+          "surface": "เคาน์เตอร์ของหายอยู่ทางนั้นครับ",
+          "speak": "เคาน์เตอร์ของหาย อยู่ทางนั้นครับ",
+          "translation": "失物櫃台在那邊。",
+          "friend": {
+            "hint": "確認你聽到的方向。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ทางนั้นใช่ไหมคะ",
+                "translation": "那邊對嗎？",
+                "speak": "ทางนั้น ใช่ไหมคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "ตรงนี้ใช่ไหมคะ",
+                "translation": "是這裡嗎？",
+                "speak": "ตรงนี้ใช่ไหมคะ",
+                "contrast_type": "wrong_place_confirmation",
+                "feedback": "對方說เคาน์เตอร์ของหายอยู่ทางนั้น，不是這裡。要確認「ทางนั้นใช่ไหมคะ」。"
+              },
+              {
+                "id": "r3c",
+                "surface": "เคาน์เตอร์นี้ใช่ไหมคะ",
+                "translation": "是這個櫃台嗎？",
+                "speak": "เคาน์เตอร์นี้ใช่ไหมคะ",
+                "contrast_type": "wrong_counter_confirmation",
+                "feedback": "對方說失物櫃台在那邊，不是這個櫃台。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "confirm_next_step",
+          "learning_role": "listen_only",
+          "surface": "ใช่ครับ ถามที่นั่นได้ครับ",
+          "speak": "ใช่ครับ ถามที่นั่นได้ครับ",
+          "translation": "對，可以在那裡問。",
+          "friend": {
+            "hint": "對方給了下一步。道謝即可。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ขอบคุณค่ะ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณค่ะ"
+              },
+              {
+                "id": "r4b",
+                "surface": "ถามที่นั่นใช่ไหมคะ",
+                "translation": "是在那裡問，對嗎？",
+                "speak": "ถามที่นั่นใช่ไหมคะ",
+                "contrast_type": "reconfirms_after_confirmation",
+                "feedback": "對方已確認了。現在道謝即可。"
+              },
+              {
+                "id": "r4c",
+                "surface": "ไปทางนั้นค่ะ",
+                "translation": "往那邊走。",
+                "speak": "ไปทางนั้นค่ะ",
+                "contrast_type": "staff_role_echo",
+                "feedback": "這像工作人員說的話。你是客人，得到幫忙後說謝謝。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "lost_item_help_complete",
+            "learning_role": "listen_only",
+            "surface": "คุณบอกว่าของหายและรู้ว่าจะไปถามที่ไหนแล้ว",
+            "speak": "คุณบอกว่า ของหาย และรู้ว่าจะไปถามที่ไหนแล้ว",
+            "translation": "你說明了遺失物，也知道下一步去哪裡問。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.problem.lost_item.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.problem.simple_place.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "th.problem.thanks.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-5 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Uses Thai script, phrase-group spacing, staff ครับ and learner ค่ะ; avoids police reports, theft accusations, passports, credit-card emergencies, identity proof, compensation, and money disputes."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "shopping_ask_price",
+      "brief_id": "ml2_a1_009_shopping_ask_price",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml2-a1-009-shopping-ask-price",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/shopping_ask_price.th.v1.json",
+      "title": "ถามราคา",
+      "setting_label": "ร้านเล็ก",
+      "wrap_title": "ถามราคาได้แล้ว",
+      "wrap_friend": "คุณเรียกพนักงาน ถามราคาของหนึ่งชิ้น ฟังราคา และตอบสั้น ๆ ได้",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在小店想問一件商品的價格。選自然、簡短的泰文。",
+      "roles": {
+        "npc": {
+          "label": "พนักงานขาย"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "shop_greeting",
+          "learning_role": "listen_only",
+          "surface": "สวัสดีค่ะ ดูได้เลยค่ะ",
+          "speak": "สวัสดีค่ะ / ดูได้เลยค่ะ",
+          "translation": "你好，可以慢慢看。",
+          "friend": {
+            "hint": "店員在招呼。直接用禮貌句問這個多少錢。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.shopping.price_question.v1",
+            "formula_ref": null,
+            "title": "อันนี้ราคาเท่าไหร่คะ",
+            "explain": "ใช้ถามราคาของของที่อยู่ตรงหน้าแบบสุภาพ",
+            "items": [
+              {
+                "surface": "อันนี้ราคาเท่าไหร่คะ",
+                "translation": "這個價格多少？",
+                "speak": "อันนี้ราคาเท่าไหร่คะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1c",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "ขอดูอันนี้ได้ไหมคะ",
+                "translation": "可以看這個嗎？",
+                "speak": "ขอดูอันนี้ได้ไหมคะ",
+                "contrast_type": "asks_to_look_instead_of_price",
+                "feedback": "這句可以在店裡用，但還沒有問價格。要問「อันนี้ราคาเท่าไหร่คะ」。"
+              },
+              {
+                "id": "r1b",
+                "surface": "มีสีอื่นไหมคะ",
+                "translation": "有其他顏色嗎？",
+                "speak": "มีสีอื่น / ไหมคะ",
+                "contrast_type": "asks_color_instead_of_price",
+                "feedback": "這是在問顏色。現在要問這個多少錢。"
+              },
+              {
+                "id": "r1c",
+                "surface": "อันนี้ราคาเท่าไหร่คะ",
+                "translation": "這個價格多少？",
+                "speak": "อันนี้ราคาเท่าไหร่คะ",
+                "learning_role": "production_target"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "give_price",
+          "learning_role": "listen_only",
+          "surface": "ห้าสิบบาทค่ะ",
+          "speak": "ห้าสิบบาทค่ะ",
+          "translation": "五十泰銖。",
+          "friend": {
+            "hint": "店員說價格。要買時說เอาอันนี้ค่ะ。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.shopping.buy_this.v1",
+            "formula_ref": null,
+            "title": "เอาอันนี้ค่ะ",
+            "explain": "ใช้บอกว่าจะซื้อของชิ้นนี้",
+            "items": [
+              {
+                "surface": "เอาอันนี้ค่ะ",
+                "translation": "我要這個。",
+                "speak": "เอาอันนี้ค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "เอาอันนี้ค่ะ",
+                "translation": "我要這個。",
+                "speak": "เอาอันนี้ค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "แพงไปค่ะ",
+                "translation": "太貴了。",
+                "speak": "แพงไปค่ะ",
+                "contrast_type": "declines_instead_of_buying",
+                "feedback": "這表示不買。要買時說「เอาอันนี้ค่ะ」。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ลดได้ไหมคะ",
+                "translation": "可以便宜一點嗎？",
+                "speak": "ลดได้ไหมคะ",
+                "contrast_type": "bargains_instead_of_accepting_price",
+                "feedback": "這是在殺價。此輪目標是聽到價格後決定買。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "ask_bag",
+          "learning_role": "listen_only",
+          "surface": "ใส่ถุงไหมคะ",
+          "speak": "ใส่ถุง / ไหมคะ",
+          "translation": "要裝袋嗎？",
+          "friend": {
+            "hint": "店員問要不要袋子。不要袋子時說ไม่ต้องค่ะ ขอบคุณค่ะ。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ไม่ต้องค่ะ ขอบคุณค่ะ",
+                "translation": "不用，謝謝。",
+                "speak": "ไม่ต้องค่ะ / ขอบคุณค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "อันนี้เท่าไหร่คะ",
+                "translation": "這個多少錢？",
+                "speak": "อันนี้ / เท่าไหร่คะ",
+                "contrast_type": "repeats_price_question_after_price",
+                "feedback": "價格已經說了。現在店員問要不要袋子。"
+              },
+              {
+                "id": "r3c",
+                "surface": "จ่ายบัตรได้ไหมคะ",
+                "translation": "可以刷卡嗎？",
+                "speak": "จ่ายบัตร / ได้ไหมคะ",
+                "contrast_type": "payment_question_when_bag_prompted",
+                "feedback": "這是在問付款方式。店員現在問要不要袋子。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "ask_payment_method",
+          "learning_role": "listen_only",
+          "surface": "จ่ายเงินสดหรือบัตรคะ",
+          "speak": "จ่ายเงินสด / หรือบัตรคะ",
+          "translation": "付現金還是刷卡？",
+          "friend": {
+            "hint": "店員問付款方式。ตอบแบบสั้น ๆ。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "เงินสดค่ะ",
+                "translation": "現金。",
+                "speak": "เงินสดค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "จ่ายตรงนี้ไหมคะ",
+                "translation": "在這裡付嗎？",
+                "speak": "จ่ายตรงนี้ / ไหมคะ",
+                "contrast_type": "asks_location_instead_of_method",
+                "feedback": "店員問現金或刷卡，不是在問在哪裡付。"
+              },
+              {
+                "id": "r4c",
+                "surface": "ไม่เอาแล้วค่ะ",
+                "translation": "不要了。",
+                "speak": "ไม่เอาแล้วค่ะ",
+                "contrast_type": "cancels_purchase",
+                "feedback": "這會取消購買，和目標不一致。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "price_understood",
+            "learning_role": "listen_only",
+            "surface": "คุณฟังราคาแล้วตอบได้ชัดเจน",
+            "speak": "คุณฟังราคา / แล้วตอบได้ชัดเจน",
+            "translation": "你聽懂價格並清楚回應了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.shopping.attention.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.shopping.price_question.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-2 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "register_note": "Polite customer Thai using ค่ะ as the default learner particle."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "social_running_late",
+      "brief_id": "ml5_a1_019_social_running_late",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml5-a1-019-say-you-are-running-late",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/social_running_late.th.v1.json",
+      "title": "บอกว่าจะไปช้า",
+      "setting_label": "ข้อความถึงเพื่อน",
+      "wrap_title": "บอกเพื่อนว่าจะไปช้าได้แล้ว",
+      "wrap_friend": "คุณขอโทษ บอกว่าจะไปช้า ให้เวลาประมาณ ขอบคุณเพื่อน และปิดบทสนทนาได้",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你要傳訊息給泰國朋友說會晚到。選自然、簡短的泰文。",
+      "roles": {
+        "npc": {
+          "label": "เพื่อน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "ask_delay_status",
+          "learning_role": "listen_only",
+          "surface": "ใกล้ถึงหรือยัง",
+          "speak": "ใกล้ถึงหรือยัง",
+          "translation": "快到了嗎？",
+          "friend": {
+            "hint": "用朋友間自然泰文說抱歉，會晚到。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.social.running_late.v1",
+            "formula_ref": null,
+            "title": "จะไปช้านิดหน่อยค่ะ",
+            "explain": "說會晚一點，可以說 `จะไปช้านิดหน่อยค่ะ`。",
+            "items": [
+              {
+                "surface": "ขอโทษนะคะ จะไปช้านิดหน่อยค่ะ",
+                "translation": "不好意思，我會晚一點。",
+                "speak": "ขอโทษนะคะ จะไปช้านิดหน่อยค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "ขอโทษนะคะ จะไปช้านิดหน่อยค่ะ",
+                "translation": "不好意思，我會晚一點。",
+                "speak": "ขอโทษนะคะ จะไปช้านิดหน่อยค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ใกล้ถึงแล้วค่ะ",
+                "translation": "快到了。",
+                "speak": "ใกล้ถึงแล้วค่ะ",
+                "contrast_type": "says_near_when_late",
+                "feedback": "朋友問快到了嗎；這句沒有說會晚到。"
+              },
+              {
+                "id": "r1c",
+                "surface": "รอหน่อยนะคะ",
+                "translation": "請等一下喔。",
+                "speak": "รอหน่อยนะคะ",
+                "contrast_type": "too_vague_late_notice",
+                "feedback": "意思相關，但最好清楚道歉並說會晚一點。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_minutes",
+          "learning_role": "listen_only",
+          "surface": "อีกกี่นาที",
+          "speak": "อีกกี่นาที",
+          "translation": "還要幾分鐘？",
+          "friend": {
+            "hint": "給簡短時間估計，不需要說精準位置。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.social.minutes_estimate.v1",
+            "formula_ref": null,
+            "title": "ประมาณสิบนาทีค่ะ",
+            "explain": "用 `ประมาณ` 來說大約的時間。",
+            "items": [
+              {
+                "surface": "ประมาณสิบนาทีค่ะ",
+                "translation": "大約十分鐘。",
+                "speak": "ประมาณ สิบนาทีค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ประมาณสิบนาทีค่ะ",
+                "translation": "大約十分鐘。",
+                "speak": "ประมาณ สิบนาทีค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "อีกหนึ่งชั่วโมงค่ะ",
+                "translation": "還要一小時。",
+                "speak": "อีกหนึ่งชั่วโมงค่ะ",
+                "contrast_type": "wrong_delay_length",
+                "feedback": "這和預期十分鐘不符，會讓朋友以為你很晚才到。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ใกล้ถึงแล้วค่ะ",
+                "translation": "快到了。",
+                "speak": "ใกล้ถึงแล้วค่ะ",
+                "contrast_type": "vague_time_estimate",
+                "feedback": "朋友問幾分鐘。要給明確時間。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "accept_waiting",
+          "learning_role": "listen_only",
+          "surface": "โอเค เดี๋ยวรอนะ",
+          "speak": "โอเค เดี๋ยวรอนะ",
+          "translation": "好，我等你。",
+          "friend": {
+            "hint": "朋友願意等。簡短道謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ขอบคุณนะคะ",
+                "translation": "謝謝你。",
+                "speak": "ขอบคุณนะคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "เดี๋ยวโทรหาค่ะ",
+                "translation": "等一下打給你。",
+                "speak": "เดี๋ยวโทรหา / ค่ะ",
+                "contrast_type": "new_action_instead_of_thanks",
+                "feedback": "เพื่อนบอกว่าจะรอแล้ว。這裡自然回應是「ขอบคุณนะคะ」。"
+              },
+              {
+                "id": "r3c",
+                "surface": "อีกสิบนาทีค่ะ",
+                "translation": "還要十分鐘。",
+                "speak": "อีกสิบนาทีค่ะ",
+                "contrast_type": "repeats_time_after_acceptance",
+                "feedback": "時間已說過，朋友也說會等。現在道謝較自然。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "close_see_you_soon",
+          "learning_role": "listen_only",
+          "surface": "เจอกันเร็ว ๆ นี้นะ",
+          "speak": "เจอกัน เร็ว ๆ นี้นะ",
+          "translation": "待會見。",
+          "friend": {
+            "hint": "用朋友間自然的收尾。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ค่ะ เจอกันค่ะ",
+                "translation": "好，待會見。",
+                "speak": "ค่ะ เจอกันค่ะ"
+              },
+              {
+                "id": "r4b",
+                "surface": "ขอบคุณสำหรับความช่วยเหลือค่ะ",
+                "translation": "謝謝您的幫忙。",
+                "speak": "ขอบคุณ สำหรับความช่วยเหลือค่ะ",
+                "contrast_type": "over_formal_service_thanks_in_friend_context",
+                "feedback": "這像服務情境的正式道謝。朋友訊息用自然收尾即可。"
+              },
+              {
+                "id": "r4c",
+                "surface": "รออีกสิบนาทีนะคะ",
+                "translation": "再等十分鐘喔。",
+                "speak": "รออีกสิบนาทีนะคะ",
+                "contrast_type": "extends_wait_at_close",
+                "feedback": "朋友已經收尾了。簡短說到時見即可。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "late_message_complete",
+            "learning_role": "listen_only",
+            "surface": "คุณบอกเพื่อนว่าจะไปช้าและบอกเวลาแล้ว",
+            "speak": "คุณบอกเพื่อน ว่าจะไปช้า และบอกเวลาแล้ว",
+            "translation": "你告訴朋友會晚到，也給了時間。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.social.running_late.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.social.minutes_estimate.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "th.social.close.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-5 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Uses Thai script, phrase-group spacing, and friend-context language; avoids exact live location, safety incidents, blame, or conflict."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_hotel_checkin",
+      "brief_id": "ml0_a1_002_travel_hotel_checkin",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#brief-ml0-a1-002-hotel-check-in",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_hotel_checkin.th.v1.json",
+      "title": "เช็กอินที่โรงแรม",
+      "setting_label": "เคาน์เตอร์โรงแรม",
+      "wrap_title": "เช็กอินที่โรงแรมได้แล้ว",
+      "wrap_friend": "คุณบอกว่าจะเช็กอิน ให้ชื่อ และตอบรับข้อมูลห้องได้ด้วยประโยคสั้น ๆ",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國飯店櫃台。辦理入住、說名字，並聽懂下一步。",
+      "roles": {
+        "npc": {
+          "label": "พนักงานต้อนรับ"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "front_desk_greeting",
+          "act_slots": {
+            "topic": "入住開場",
+            "keyword": "เช็กอิน",
+            "gloss": "入住"
+          },
+          "learning_role": "listen_only",
+          "surface": "สวัสดีค่ะ เช็กอินใช่ไหมคะ",
+          "speak": "สวัสดีค่ะ เช็กอินใช่ไหมคะ",
+          "translation": "您好。是要辦理入住嗎？",
+          "friend": {
+            "hint": "櫃台在確認你是不是要入住。可以直接說要入住。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "มาเช็กอินค่ะ",
+                "translation": "我來辦理入住。",
+                "speak": "มาเช็กอินค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "จองไว้แล้วค่ะ",
+                "translation": "我已經訂房了。",
+                "speak": "จองไว้แล้วค่ะ",
+                "contrast_type": "reservation_status_without_checkin_act",
+                "feedback": "這句有關訂房，但沒有清楚說要辦入住。櫃台問是否 check in，用「มาเช็กอินค่ะ」更準確。"
+              },
+              {
+                "id": "r1c",
+                "surface": "ขอดูห้องได้ไหมคะ",
+                "translation": "可以先看房間嗎？",
+                "speak": "ขอดูห้องได้ไหมคะ",
+                "contrast_type": "asks_to_see_room_instead_of_checking_in",
+                "feedback": "這仍在飯店櫃台，但不是回答要辦入住。要先說「มาเช็กอินค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "name_request",
+          "act_slots": {
+            "topic": "訂房姓名",
+            "keyword": "ชื่อ",
+            "gloss": "名字"
+          },
+          "learning_role": "listen_only",
+          "surface": "ขอชื่อที่จองไว้ด้วยค่ะ",
+          "speak": "ขอชื่อที่จองไว้ด้วยค่ะ",
+          "translation": "請給我訂房姓名。",
+          "friend": {
+            "hint": "櫃台在問訂房名字。用短句說「名字是...」。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.hotel.name_is.v1",
+            "formula_ref": null,
+            "title": "ชื่อ + name",
+            "explain": "「ชื่อ...」可以用來說名字。飯店櫃台常用短句就能溝通。",
+            "items": [
+              {
+                "surface": "ชื่อหลินค่ะ",
+                "translation": "名字是林。",
+                "speak": "ชื่อหลินค่ะ"
+              },
+              {
+                "surface": "จองชื่อหลินค่ะ",
+                "translation": "用林的名字訂的。",
+                "speak": "จองชื่อหลินค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ชื่อหลินค่ะ",
+                "translation": "名字是林。",
+                "speak": "ชื่อหลินค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "จองไว้แล้วค่ะ",
+                "translation": "我已經訂房了。",
+                "speak": "จองไว้แล้วค่ะ",
+                "contrast_type": "reservation_status_not_booking_name",
+                "feedback": "這句說有訂房，但櫃台現在要訂房姓名。回答「ชื่อหลินค่ะ」較清楚。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ชื่ออะไรคะ",
+                "translation": "叫什麼名字？",
+                "speak": "ชื่ออะไรคะ",
+                "contrast_type": "asks_name_instead_of_giving_booking_name",
+                "feedback": "櫃台是在問你的訂房姓名，不是要你反問。直接說「ชื่อหลินค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "reservation_confirmation",
+          "act_slots": {
+            "topic": "訂房確認",
+            "keyword": "คืน",
+            "gloss": "晚"
+          },
+          "learning_role": "listen_only",
+          "surface": "พบแล้วค่ะ พักหนึ่งคืนใช่ไหมคะ",
+          "speak": "พบแล้วค่ะ พักหนึ่งคืนใช่ไหมคะ",
+          "translation": "找到了。是一晚，對嗎？",
+          "friend": {
+            "hint": "櫃台在確認資料。正確的話，簡短說是。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ใช่ค่ะ",
+                "translation": "是的。",
+                "speak": "ใช่ค่ะ"
+              },
+              {
+                "id": "r3b",
+                "surface": "สองคืนค่ะ",
+                "translation": "兩晚。",
+                "speak": "สองคืนค่ะ",
+                "contrast_type": "wrong_stay_length",
+                "feedback": "櫃台確認的是一晚。說「สองคืนค่ะ」會改成兩晚。資料正確時說「ใช่ค่ะ」。"
+              },
+              {
+                "id": "r3c",
+                "surface": "หนึ่งห้องค่ะ",
+                "translation": "一間房。",
+                "speak": "หนึ่งห้องค่ะ",
+                "contrast_type": "room_count_instead_of_stay_confirmation",
+                "feedback": "這是在說房間數。櫃台確認的是住一晚，資料正確時說「ใช่ค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "key_direction",
+          "act_slots": {
+            "topic": "房卡樓層",
+            "keyword": "ชั้น",
+            "gloss": "樓層"
+          },
+          "learning_role": "listen_only",
+          "surface": "นี่คีย์การ์ดค่ะ ห้องอยู่ชั้นสามนะคะ",
+          "speak": "นี่คีย์การ์ดค่ะ ห้องอยู่ชั้นสามนะคะ",
+          "translation": "這是房卡。房間在三樓。",
+          "friend": {
+            "hint": "你拿到房卡了。簡短說謝謝就可以。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ขอบคุณค่ะ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณค่ะ"
+              },
+              {
+                "id": "r4b",
+                "surface": "ขอคีย์การ์ดอีกใบได้ไหมคะ",
+                "translation": "可以再給一張房卡嗎？",
+                "speak": "ขอคีย์การ์ดอีกใบได้ไหมคะ",
+                "contrast_type": "extra_key_request_instead_of_thanks",
+                "feedback": "這是在提出額外要求。收到房卡和樓層資訊後，先說「ขอบคุณค่ะ」較自然。"
+              },
+              {
+                "id": "r4c",
+                "surface": "ห้องอยู่ชั้นไหนคะ",
+                "translation": "房間在幾樓？",
+                "speak": "ห้องอยู่ชั้นไหนคะ",
+                "contrast_type": "asks_floor_after_floor_given",
+                "feedback": "櫃台剛說房間在三樓。資訊已經足夠時，收尾說「ขอบคุณค่ะ」。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "front_desk_close",
+            "learning_role": "context_support",
+            "surface": "อาหารเช้าอยู่ที่ล็อบบี้ เจ็ดโมงถึงสิบโมงค่ะ",
+            "speak": "อาหารเช้าอยู่ที่ล็อบบี้ เจ็ดโมงถึงสิบโมงค่ะ",
+            "translation": "早餐在大廳，七點到十點。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.hotel.name_is.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief, not Korean surface text.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Pilot uses ค่ะ/คะ consistently to avoid slash-form TTS and beginner-input ambiguity."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_restroom_directions",
+      "brief_id": "ml0_a1_003_travel_restroom_directions",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#brief-ml0-a1-003-asking-for-restroom-directions",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_restroom_directions.th.v1.json",
+      "title": "ถามทางไปห้องน้ำ",
+      "setting_label": "ในคาเฟ่",
+      "wrap_title": "ถามทางไปห้องน้ำได้แล้ว",
+      "wrap_friend": "คุณเรียกพนักงาน ถามห้องน้ำ และตอบรับทิศทางได้ด้วยประโยคสั้น ๆ",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國的咖啡店或公共場所。禮貌開口，問洗手間在哪裡。",
+      "roles": {
+        "npc": {
+          "label": "พนักงาน"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "attention_response",
+          "act_slots": {
+            "topic": "開口求助",
+            "keyword": "ช่วย",
+            "gloss": "幫忙"
+          },
+          "learning_role": "listen_only",
+          "surface": "มีอะไรให้ช่วยไหมคะ",
+          "speak": "มีอะไรให้ช่วยไหมคะ",
+          "translation": "需要幫忙嗎？",
+          "friend": {
+            "hint": "對方問你需要什麼。直接問洗手間在哪裡。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "ห้องน้ำอยู่ที่ไหนคะ",
+                "translation": "洗手間在哪裡？",
+                "speak": "ห้องน้ำอยู่ที่ไหนคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ขอไปห้องน้ำได้ไหมคะ",
+                "translation": "可以去洗手間嗎？",
+                "speak": "ขอไปห้องน้ำได้ไหมคะ",
+                "contrast_type": "permission_not_location",
+                "feedback": "這句是在問可不可以去。你需要知道位置，所以問「ห้องน้ำอยู่ที่ไหนคะ」。"
+              },
+              {
+                "id": "r1c",
+                "surface": "ห้องน้ำอยู่ข้างหน้าไหมคะ",
+                "translation": "洗手間在前面嗎？",
+                "speak": "ห้องน้ำอยู่ข้างหน้าไหมคะ",
+                "contrast_type": "guesses_location",
+                "feedback": "這句先猜位置。還不知道方向時，開放問「อยู่ที่ไหนคะ」比較自然。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "simple_direction",
+          "act_slots": {
+            "topic": "方向",
+            "keyword": "ตรงไป",
+            "gloss": "直走"
+          },
+          "learning_role": "listen_only",
+          "surface": "ตรงไป แล้วเลี้ยวขวาค่ะ",
+          "speak": "ตรงไป แล้วเลี้ยวขวาค่ะ",
+          "translation": "直走，然後右轉。",
+          "friend": {
+            "hint": "ตรงไป 是直走，เลี้ยวขวา 是右轉。你可以確認右邊。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.directions.straight_right.v1",
+            "formula_ref": null,
+            "title": "ตรงไป / เลี้ยวขวา",
+            "explain": "「ตรงไป」是直走，「เลี้ยวขวา」是右轉。",
+            "items": [
+              {
+                "surface": "ตรงไป",
+                "translation": "直走",
+                "speak": "ตรงไป"
+              },
+              {
+                "surface": "เลี้ยวขวา",
+                "translation": "右轉",
+                "speak": "เลี้ยวขวา"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "เลี้ยวขวาใช่ไหมคะ",
+                "translation": "是右轉，對嗎？",
+                "speak": "เลี้ยวขวาใช่ไหมคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "เลี้ยวซ้ายใช่ไหมคะ",
+                "translation": "是左轉，對嗎？",
+                "speak": "เลี้ยวซ้ายใช่ไหมคะ",
+                "contrast_type": "wrong_direction_confirmation",
+                "feedback": "對方說右轉，不是左轉。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ตรงไปใช่ไหมคะ",
+                "translation": "是直走，對嗎？",
+                "speak": "ตรงไปใช่ไหมคะ",
+                "contrast_type": "confirms_only_first_direction",
+                "feedback": "對方說直走後還要右轉。這裡要確認「เลี้ยวขวาใช่ไหมคะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "direction_confirmation",
+          "act_slots": {
+            "topic": "確認方向",
+            "keyword": "ด้านขวา",
+            "gloss": "右側"
+          },
+          "learning_role": "listen_only",
+          "surface": "ใช่ค่ะ เลี้ยวขวาค่ะ",
+          "speak": "ใช่ค่ะ เลี้ยวขวาค่ะ",
+          "translation": "是的，右轉。",
+          "friend": {
+            "hint": "你確認方向了。最後說謝謝就好。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ขอบคุณค่ะ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณค่ะ"
+              },
+              {
+                "id": "r3b",
+                "surface": "เลี้ยวซ้ายใช่ไหมคะ",
+                "translation": "是左轉，對嗎？",
+                "speak": "เลี้ยวซ้ายใช่ไหมคะ",
+                "contrast_type": "wrong_direction_confirmation",
+                "feedback": "對方說右轉，不是左轉。已經確認完時，說「ขอบคุณค่ะ」即可。"
+              },
+              {
+                "id": "r3c",
+                "surface": "ตรงไปอีกใช่ไหมคะ",
+                "translation": "再直走，對嗎？",
+                "speak": "ตรงไปอีกใช่ไหมคะ",
+                "contrast_type": "unneeded_reconfirmation_after_answer",
+                "feedback": "對方已確認右轉。這裡說謝謝即可。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "helper_close",
+            "learning_role": "listen_only",
+            "surface": "ไม่เป็นไรค่ะ",
+            "speak": "ไม่เป็นไรค่ะ",
+            "translation": "不客氣。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.directions.straight_right.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief, not Korean surface text.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Pilot uses ค่ะ/คะ consistently to avoid slash-form TTS and beginner-input ambiguity."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_station_directions",
+      "brief_id": "ml1_a1_007_travel_station_directions",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml1-a1-007-station-or-exit-directions",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_station_directions.th.v1.json",
+      "title": "ถามทางไปทางออกสถานี",
+      "setting_label": "สถานีรถไฟฟ้า",
+      "wrap_title": "รู้ทางไปทางออกแล้ว",
+      "wrap_friend": "คุณถามหาทางออก ยืนยันทิศทางสั้น ๆ และขอบคุณเจ้าหน้าที่ได้",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國車站裡找出口。聽對方的方向提示，選一句自然接得上的泰文。",
+      "roles": {
+        "npc": {
+          "label": "เจ้าหน้าที่"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "act_slots": {
+            "topic": "ขอความช่วยเหลือ",
+            "keyword": "ช่วย",
+            "gloss": "幫忙"
+          },
+          "learning_role": "listen_only",
+          "surface": "มีอะไรให้ช่วยไหมครับ",
+          "speak": "มีอะไรให้ช่วยไหมครับ",
+          "translation": "有什麼需要幫忙嗎？",
+          "friend": {
+            "hint": "可以問你要找的出口在哪裡。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.station.exit_question.v1",
+            "formula_ref": null,
+            "title": "อยู่ที่ไหน",
+            "explain": "問地點時，可以用「...อยู่ที่ไหนคะ」。",
+            "items": [
+              {
+                "surface": "ทางออกสองอยู่ที่ไหนคะ",
+                "translation": "2號出口在哪裡？",
+                "speak": "ทางออกสองอยู่ที่ไหนคะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "ขอโทษค่ะ ทางออกสองอยู่ที่ไหนคะ",
+                "translation": "不好意思，2號出口在哪裡？",
+                "speak": "ขอโทษค่ะ ทางออกสองอยู่ที่ไหนคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ทางออกอยู่ที่ไหนคะ",
+                "translation": "出口在哪裡？",
+                "speak": "ทางออกอยู่ที่ไหนคะ",
+                "contrast_type": "missing_exit_number",
+                "feedback": "意思接近，但要找二號出口時，說清楚「ทางออกสอง」。"
+              },
+              {
+                "id": "r1c",
+                "surface": "ทางออกสองไปทางไหนคะ",
+                "translation": "二號出口往哪裡走？",
+                "speak": "ทางออกสองไปทางไหนคะ",
+                "contrast_type": "less_natural_direction_question",
+                "feedback": "意思接近，但問位置用「อยู่ที่ไหนคะ」更簡單自然。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "give_direction",
+          "act_slots": {
+            "topic": "ทิศทาง",
+            "keyword": "ตรงไป เลี้ยวขวา",
+            "gloss": "直走右轉"
+          },
+          "learning_role": "listen_only",
+          "surface": "ตรงไป แล้วเลี้ยวขวาครับ",
+          "speak": "ตรงไป แล้วเลี้ยวขวาครับ",
+          "translation": "直走，然後右轉。",
+          "friend": {
+            "hint": "對方說直走再右轉。可以確認方向。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.station.simple_direction.v1",
+            "formula_ref": null,
+            "title": "ตรงไป / เลี้ยวขวา",
+            "explain": "「ตรงไป」是直走。「เลี้ยวขวา」是右轉。",
+            "items": [
+              {
+                "surface": "ตรงไป",
+                "translation": "直走",
+                "speak": "ตรงไป"
+              },
+              {
+                "surface": "เลี้ยวขวา",
+                "translation": "右轉",
+                "speak": "เลี้ยวขวา"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ตรงไป แล้วเลี้ยวขวาใช่ไหมคะ",
+                "translation": "直走，然後右轉對嗎？",
+                "speak": "ตรงไป แล้วเลี้ยวขวาใช่ไหมคะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ตรงไป แล้วเลี้ยวซ้ายใช่ไหมคะ",
+                "translation": "直走，然後左轉對嗎？",
+                "speak": "ตรงไป แล้วเลี้ยวซ้ายใช่ไหมคะ",
+                "contrast_type": "wrong_direction_confirmation",
+                "feedback": "對方說的是右轉，不是左轉。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ตรงไปอย่างเดียวใช่ไหมคะ",
+                "translation": "只要直走，對嗎？",
+                "speak": "ตรงไปอย่างเดียวใช่ไหมคะ",
+                "contrast_type": "misses_turn_instruction",
+                "feedback": "對方說直走後右轉，不是只直走。"
+              },
+              {
+                "id": "r2d",
+                "surface": "ทางขวาใช่ไหมคะ",
+                "translation": "是在右邊，對嗎？",
+                "speak": "ทางขวาใช่ไหมคะ",
+                "contrast_type": "partial_direction_confirmation",
+                "feedback": "只確認右邊，漏掉先直走。完整確認較好。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "confirm_exit",
+          "act_slots": {
+            "topic": "ยืนยันทางออก",
+            "keyword": "ทางออกสอง",
+            "gloss": "2號出口"
+          },
+          "learning_role": "listen_only",
+          "surface": "ใช่ครับ ทางออกสองอยู่ทางขวา",
+          "speak": "ใช่ครับ ทางออกสองอยู่ทางขวา",
+          "translation": "是的。2號出口在右邊。",
+          "friend": {
+            "hint": "出口位置確認了。可以道謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ขอบคุณค่ะ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "ทางออกสองอยู่ที่ไหนคะ",
+                "translation": "2號出口在哪裡？",
+                "speak": "ทางออกสองอยู่ที่ไหนคะ",
+                "contrast_type": "repeated_location_question",
+                "feedback": "對方已經告訴你方向了。現在道謝比較自然。"
+              },
+              {
+                "id": "r3c",
+                "surface": "ทางออกสองอยู่ทางซ้ายใช่ไหมคะ",
+                "translation": "二號出口在左邊，對嗎？",
+                "speak": "ทางออกสองอยู่ทางซ้ายใช่ไหมคะ",
+                "contrast_type": "wrong_side_confirmation",
+                "feedback": "對方說在右邊，不是左邊。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "closing",
+          "act_slots": {
+            "topic": "จบการบอกทาง",
+            "keyword": "ยินดี",
+            "gloss": "不客氣"
+          },
+          "learning_role": "listen_only",
+          "surface": "ยินดีครับ",
+          "speak": "ยินดีครับ",
+          "translation": "不客氣。",
+          "friend": {
+            "hint": "對話結束了。可以再簡短回應。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ขอบคุณอีกครั้งค่ะ",
+                "translation": "再次謝謝。",
+                "speak": "ขอบคุณอีกครั้งค่ะ"
+              },
+              {
+                "id": "r4b",
+                "surface": "เลี้ยวซ้ายใช่ไหมคะ",
+                "translation": "是左轉，對嗎？",
+                "speak": "เลี้ยวซ้าย / ใช่ไหมคะ",
+                "contrast_type": "wrong_direction_recheck_after_closing",
+                "feedback": "對方已經說不客氣了，而且方向不是左轉。這裡再簡短道謝即可。"
+              },
+              {
+                "id": "r4c",
+                "surface": "ทางออกสองใช่ไหมคะ",
+                "translation": "是二號出口，對嗎？",
+                "speak": "ทางออกสองใช่ไหมคะ",
+                "contrast_type": "reconfirms_after_closing",
+                "feedback": "方向已確認，對方說不客氣。這裡道謝即可。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "direction_understood",
+            "learning_role": "listen_only",
+            "surface": "คุณรู้ทางไปทางออกแล้ว",
+            "speak": "คุณรู้ทางไปทางออกแล้ว",
+            "translation": "你知道出口方向了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.station.exit_question.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.station.simple_direction.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-1 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Uses Thai script with spaced phrase groups and consistent learner polite particle ค่ะ."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_taxi_destination",
+      "brief_id": "ml4_a1_015_travel_taxi_destination",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml4-a1-015-taxi-destination",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_taxi_destination.th.v1.json",
+      "title": "บอกปลายทางในแท็กซี่",
+      "setting_label": "ในแท็กซี่",
+      "wrap_title": "บอกปลายทางได้แล้ว",
+      "wrap_friend": "คุณบอกปลายทาง ยืนยันกับคนขับ เข้าใจเวลาสั้น ๆ และขอบคุณได้",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在泰國搭計程車。聽司機說話，選一句自然接得上的泰文。",
+      "roles": {
+        "npc": {
+          "label": "คนขับ"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "ask_destination",
+          "learning_role": "listen_only",
+          "surface": "ไปที่ไหนครับ",
+          "speak": "ไปที่ไหนครับ",
+          "translation": "要去哪裡？",
+          "friend": {
+            "hint": "司機問目的地。用泰文說去這間飯店。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.taxi.destination_request.v1",
+            "formula_ref": null,
+            "title": "ไปโรงแรมนี้ค่ะ",
+            "explain": "搭計程車時，用 `ไป` 加目的地很自然。",
+            "items": [
+              {
+                "surface": "ไปโรงแรมนี้ค่ะ",
+                "translation": "去這間飯店。",
+                "speak": "ไปโรงแรมนี้ค่ะ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "ไปโรงแรมนี้ค่ะ",
+                "translation": "去這間飯店。",
+                "speak": "ไปโรงแรมนี้ค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ไปโรงแรมได้ไหมคะ",
+                "translation": "可以去飯店嗎？",
+                "speak": "ไปโรงแรมได้ไหมคะ",
+                "contrast_type": "asks_permission_not_destination",
+                "feedback": "意思接近，但司機問去哪裡，要直接說目的地。"
+              },
+              {
+                "id": "r1c",
+                "surface": "โรงแรมอยู่ที่ไหนคะ",
+                "translation": "飯店在哪裡？",
+                "speak": "โรงแรมอยู่ที่ไหนคะ",
+                "contrast_type": "asks_location_instead_of_destination",
+                "feedback": "在計程車上要告訴司機去哪裡，不是問飯店在哪。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "confirm_destination",
+          "learning_role": "listen_only",
+          "surface": "โรงแรมนี้นะครับ",
+          "speak": "โรงแรมนี้นะครับ",
+          "translation": "這間飯店對吧？",
+          "friend": {
+            "hint": "司機確認目的地。簡短回答是的。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ใช่ค่ะ",
+                "translation": "是的。",
+                "speak": "ใช่ค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ไม่ค่ะ ยกเลิกค่ะ",
+                "translation": "不用，取消。",
+                "speak": "ไม่ค่ะ ยกเลิกค่ะ",
+                "contrast_type": "cancel_when_confirmation_expected",
+                "feedback": "司機確認的是正確目的地，這裡不需要取消。"
+              },
+              {
+                "id": "r2c",
+                "surface": "ไม่ใช่ค่ะ โรงแรมหน้า",
+                "translation": "不是，是前面的飯店。",
+                "speak": "ไม่ใช่ค่ะ / โรงแรมหน้า",
+                "contrast_type": "changes_destination_after_confirmation",
+                "feedback": "司機確認的是這間飯店。目的地正確時，回答「ใช่ค่ะ」。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "give_duration",
+          "learning_role": "listen_only",
+          "surface": "ประมาณสิบนาทีครับ",
+          "speak": "ประมาณสิบนาทีครับ",
+          "translation": "大約十分鐘。",
+          "friend": {
+            "hint": "聽到車程時間。表示知道並道謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "โอเคค่ะ ขอบคุณค่ะ",
+                "translation": "好的，謝謝。",
+                "speak": "โอเคค่ะ ขอบคุณค่ะ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "นานไหมคะ",
+                "translation": "會很久嗎？",
+                "speak": "นานไหมคะ",
+                "contrast_type": "asks_duration_after_estimate",
+                "feedback": "司機已說約十分鐘。這裡確認並道謝較自然。"
+              },
+              {
+                "id": "r3c",
+                "surface": "สิบบาทใช่ไหมคะ",
+                "translation": "是十泰銖嗎？",
+                "speak": "สิบบาทใช่ไหมคะ",
+                "contrast_type": "confuses_minutes_with_price",
+                "feedback": "司機說的是十分鐘，不是十泰銖。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "arrival",
+          "learning_role": "listen_only",
+          "surface": "ถึงแล้วครับ",
+          "speak": "ถึงแล้วครับ",
+          "translation": "到了。",
+          "friend": {
+            "hint": "已經到目的地。下車時自然道謝。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ขอบคุณค่ะ",
+                "translation": "謝謝。",
+                "speak": "ขอบคุณค่ะ"
+              },
+              {
+                "id": "r4b",
+                "surface": "ถึงโรงแรมแล้วใช่ไหมคะ",
+                "translation": "到飯店了，對嗎？",
+                "speak": "ถึงโรงแรมแล้วใช่ไหมคะ",
+                "contrast_type": "reconfirms_arrival_instead_of_thanks",
+                "feedback": "司機已說到了。下車時自然說「ขอบคุณค่ะ」。"
+              },
+              {
+                "id": "r4c",
+                "surface": "จอดตรงนี้ได้ไหมคะ",
+                "translation": "可以停這裡嗎？",
+                "speak": "จอดตรงนี้ได้ไหมคะ",
+                "contrast_type": "late_stop_request_after_arrival",
+                "feedback": "司機已經說到了。這裡不用再請他停車，說「ขอบคุณค่ะ」即可。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "taxi_destination_complete",
+            "learning_role": "listen_only",
+            "surface": "คุณบอกปลายทางและมาถึงแล้ว",
+            "speak": "คุณบอกปลายทางและมาถึงแล้ว",
+            "translation": "你說出目的地並到達了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.taxi.destination_request.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.taxi.confirm_yes.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "th.taxi.thanks.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-4 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "thai_voice_note": "Uses Thai script, phrase-group spacing, staff ครับ and learner ค่ะ; avoids fare, route, safety, and payment details."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_ticket_buying",
+      "brief_id": "ml3_a1_013_travel_ticket_buying",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml3-a1-013-buy-a-ticket",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-th",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_ticket_buying.th.v1.json",
+      "title": "ซื้อตั๋ว",
+      "setting_label": "เคาน์เตอร์ตั๋วรถไฟ",
+      "wrap_title": "ซื้อตั๋วได้แล้ว",
+      "wrap_friend": "คุณบอกปลายทาง ยืนยันจำนวนตั๋ว และขอบคุณเจ้าหน้าที่",
+      "language": "th",
+      "ui_language": "zh_tw",
+      "source_status": "ai_semantic_reviewed_native_pending",
+      "review_state": "ai_reviewed",
+      "review_status_framework_state": "candidate_runtime_verified",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在火車售票櫃台買一張票。選自然、簡短的泰文。",
+      "roles": {
+        "npc": {
+          "label": "เจ้าหน้าที่"
+        },
+        "learner": {
+          "label": "คุณ"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "learning_role": "listen_only",
+          "surface": "ไปไหนครับ",
+          "speak": "ไปไหนครับ",
+          "translation": "要去哪裡？",
+          "friend": {
+            "hint": "售票員問目的地。說ขอตั๋วหนึ่งใบไป加地名。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "ขอตั๋วหนึ่งใบไปสถานีกลางครับ",
+                "translation": "請給我一張到中央車站的票。",
+                "speak": "ขอตั๋วหนึ่งใบ / ไปสถานีกลางครับ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ไปสถานีกลางครับ",
+                "translation": "去中央車站。",
+                "speak": "ไปสถานีกลางครับ",
+                "contrast_type": "destination_without_ticket_quantity",
+                "feedback": "目的地對，但買票時還要說一張票。"
+              },
+              {
+                "id": "r1c",
+                "surface": "ขอตั๋วไปสนามบินครับ",
+                "translation": "我要去機場的票。",
+                "speak": "ขอตั๋วไปสนามบินครับ",
+                "contrast_type": "wrong_destination",
+                "feedback": "這也是買票句，但目的地錯了。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "confirm_destination_quantity",
+          "learning_role": "listen_only",
+          "surface": "หนึ่งใบไปสถานีกลางนะครับ",
+          "speak": "หนึ่งใบ / ไปสถานีกลางนะครับ",
+          "translation": "一張到中央車站，對嗎？",
+          "friend": {
+            "hint": "售票員確認資訊。用ใช่ครับ簡短回答。"
+          },
+          "inline_explain": {
+            "pattern_id": "th.ticket.confirm.v1",
+            "formula_ref": null,
+            "title": "ใช่ครับ",
+            "explain": "ใช้ตอบยืนยันกับเจ้าหน้าที่แบบสั้นและสุภาพ",
+            "items": [
+              {
+                "surface": "ใช่ครับ",
+                "translation": "是的。",
+                "speak": "ใช่ครับ"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ใช่ครับ",
+                "translation": "是的。",
+                "speak": "ใช่ครับ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "ไม่เอาแล้วครับ",
+                "translation": "不用了。",
+                "speak": "ไม่เอาแล้วครับ",
+                "contrast_type": "cancel_when_confirmation_expected",
+                "feedback": "售票員確認的是正確資訊；這裡不該取消。"
+              },
+              {
+                "id": "r2c",
+                "surface": "สองใบไปสนามบินครับ",
+                "translation": "兩張到機場。",
+                "speak": "สองใบ / ไปสนามบินครับ",
+                "contrast_type": "wrong_quantity_and_destination",
+                "feedback": "這改變了張數和目的地，和前一句不一致。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "handover_ticket",
+          "learning_role": "listen_only",
+          "surface": "สามสิบบาท ชานชาลาสองครับ",
+          "speak": "สามสิบบาท / ชานชาลาสองครับ",
+          "translation": "三十泰銖。二號月台。",
+          "friend": {
+            "hint": "售票員說價格和月台。付款並道謝。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "นี่ครับ ขอบคุณครับ",
+                "translation": "給你，謝謝。",
+                "speak": "นี่ครับ / ขอบคุณครับ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "ชานชาลาสองใช่ไหมครับ",
+                "translation": "是二號月台，對嗎？",
+                "speak": "ชานชาลาสองใช่ไหมครับ",
+                "contrast_type": "confirms_platform_instead_of_paying",
+                "feedback": "可以確認月台，但現在還要付款並道謝。"
+              },
+              {
+                "id": "r4c",
+                "surface": "สามสิบบาทใช่ไหมครับ",
+                "translation": "是三十泰銖，對嗎？",
+                "speak": "สามสิบบาทใช่ไหมครับ",
+                "contrast_type": "reconfirms_price_instead_of_paying",
+                "feedback": "售票員已說價格。這裡給錢並道謝。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "ticket_handover",
+          "learning_role": "listen_only",
+          "surface": "นี่ตั๋วครับ ชานชาลาสอง",
+          "speak": "นี่ตั๋วครับ / ชานชาลาสอง",
+          "translation": "這是票。二號月台。",
+          "friend": {
+            "hint": "拿到票後，確認月台資訊。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ชานชาลาสองครับ",
+                "translation": "二號月台。",
+                "speak": "ชานชาลาสองครับ",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "ชานชาลาสามใช่ไหมครับ",
+                "translation": "是三號月台，對嗎？",
+                "speak": "ชานชาลาสามใช่ไหมครับ",
+                "contrast_type": "wrong_platform_confirmation",
+                "feedback": "票上是二號月台，不是三號。"
+              },
+              {
+                "id": "r4c",
+                "surface": "ตั๋วหนึ่งใบครับ",
+                "translation": "一張票。",
+                "speak": "ตั๋วหนึ่งใบครับ",
+                "contrast_type": "repeats_purchase_after_ticket_given",
+                "feedback": "票已經給你了。這裡要確認月台資訊。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "travel_ticket_buying_complete",
+            "learning_role": "listen_only",
+            "surface": "นี่ตั๋วครับ ชานชาลาสอง",
+            "speak": "นี่ตั๋วครับ / ชานชาลาสอง",
+            "translation": "這是票。二號月台。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "th.ticket.destination_quantity.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "th.ticket.confirm_yes.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "th.ticket.platform_confirmation.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-3 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI semantic review findings repaired on 2026-06-28; native human review remains pending.",
+        "register_note": "Polite Thai ticket-counter register with simple destination and quantity."
+      }
+    }
+  ]
+}

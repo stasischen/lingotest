@@ -1,0 +1,676 @@
+{
+  "schema_version": "a1_runtime_i18n_zh_tw.v1",
+  "language": "de",
+  "learner_locale": "zh_tw",
+  "source_root": "D:\\Githubs\\lingo\\content-de\\content_v2\\i18n\\zh_tw\\learning_library",
+  "files": {
+    "knowledge.json": {
+      "schema_version": "learning_library_i18n_knowledge.v1",
+      "entries": {}
+    },
+    "manifest.json": {
+      "schema_version": "learning_library_i18n_manifest.v1",
+      "locale": "zh_tw",
+      "files": {
+        "sources": "sources.json",
+        "sentences": "sentences.json",
+        "knowledge": "knowledge.json",
+        "topics": "topics.json"
+      }
+    },
+    "sentences.json": {
+      "schema_version": "learning_library_i18n_sentences.v1",
+      "entries": {
+        "src.de.dialogue.convenience_payment_card_cash": {
+          "sentences": {
+            "sent.src.de.dialogue.convenience_payment_card_cash.t1_npc": {
+              "translation": "您用卡付款還是付現？"
+            },
+            "sent.src.de.dialogue.convenience_payment_card_cash.t1_learner": {
+              "translation": "刷卡，麻煩您。"
+            },
+            "sent.src.de.dialogue.convenience_payment_card_cash.t2_npc": {
+              "translation": "請在這裡插卡。"
+            },
+            "sent.src.de.dialogue.convenience_payment_card_cash.t2_learner": {
+              "translation": "好的，了解。"
+            },
+            "sent.src.de.dialogue.convenience_payment_card_cash.t3_npc": {
+              "translation": "您要收據嗎？"
+            },
+            "sent.src.de.dialogue.convenience_payment_card_cash.t3_learner": {
+              "translation": "不用，謝謝。"
+            },
+            "sent.src.de.dialogue.convenience_payment_card_cash.t4_npc": {
+              "translation": "謝謝您。祝您今天愉快。"
+            },
+            "sent.src.de.dialogue.convenience_payment_card_cash.t4_learner": {
+              "translation": "謝謝，您也是。"
+            }
+          }
+        },
+        "src.de.dialogue.core_repair_repeat_slowly": {
+          "sentences": {
+            "sent.src.de.dialogue.core_repair_repeat_slowly.t1_npc": {
+              "translation": "您要袋子嗎？"
+            },
+            "sent.src.de.dialogue.core_repair_repeat_slowly.t1_learner": {
+              "translation": "可以請您再說一次嗎？"
+            },
+            "sent.src.de.dialogue.core_repair_repeat_slowly.t2_npc": {
+              "translation": "您要袋子嗎？"
+            },
+            "sent.src.de.dialogue.core_repair_repeat_slowly.t2_learner": {
+              "translation": "請您說慢一點。"
+            },
+            "sent.src.de.dialogue.core_repair_repeat_slowly.t3_npc": {
+              "translation": "當然。您要袋子嗎？"
+            },
+            "sent.src.de.dialogue.core_repair_repeat_slowly.t3_learner": {
+              "translation": "不用，謝謝。"
+            },
+            "sent.src.de.dialogue.core_repair_repeat_slowly.t4_npc": {
+              "translation": "好的。"
+            },
+            "sent.src.de.dialogue.core_repair_repeat_slowly.t4_learner": {
+              "translation": "謝謝。"
+            }
+          }
+        },
+        "src.de.dialogue.daily_meet_friend": {
+          "sentences": {
+            "sent.src.de.dialogue.daily_meet_friend.t1_npc": {
+              "translation": "嗨！你來了。"
+            },
+            "sent.src.de.dialogue.daily_meet_friend.t1_learner": {
+              "translation": "嗨，Lukas！"
+            },
+            "sent.src.de.dialogue.daily_meet_friend.t2_npc": {
+              "translation": "我們去博物館，對吧？"
+            },
+            "sent.src.de.dialogue.daily_meet_friend.t2_learner": {
+              "translation": "對，去博物館。"
+            },
+            "sent.src.de.dialogue.daily_meet_friend.t3_npc": {
+              "translation": "你準備好了嗎？"
+            },
+            "sent.src.de.dialogue.daily_meet_friend.t3_learner": {
+              "translation": "對，我準備好了。"
+            },
+            "sent.src.de.dialogue.daily_meet_friend.t4_npc": {
+              "translation": "太好了。走吧？"
+            },
+            "sent.src.de.dialogue.daily_meet_friend.t4_learner": {
+              "translation": "走吧。"
+            }
+          }
+        },
+        "src.de.dialogue.daily_schedule_time": {
+          "sentences": {
+            "sent.src.de.dialogue.daily_schedule_time.t1_npc": {
+              "translation": "我們什麼時候見面？"
+            },
+            "sent.src.de.dialogue.daily_schedule_time.t1_learner": {
+              "translation": "三點。"
+            },
+            "sent.src.de.dialogue.daily_schedule_time.t2_npc": {
+              "translation": "這樣你可以嗎？"
+            },
+            "sent.src.de.dialogue.daily_schedule_time.t2_learner": {
+              "translation": "可以，這樣可以。"
+            },
+            "sent.src.de.dialogue.daily_schedule_time.t3_npc": {
+              "translation": "太好了，那就三點。"
+            },
+            "sent.src.de.dialogue.daily_schedule_time.t3_learner": {
+              "translation": "太好了。"
+            },
+            "sent.src.de.dialogue.daily_schedule_time.t4_npc": {
+              "translation": "待會見！"
+            },
+            "sent.src.de.dialogue.daily_schedule_time.t4_learner": {
+              "translation": "待會見！"
+            }
+          }
+        },
+        "src.de.dialogue.daily_self_intro": {
+          "sentences": {
+            "sent.src.de.dialogue.daily_self_intro.t1_npc": {
+              "translation": "你好，我是 Mia。"
+            },
+            "sent.src.de.dialogue.daily_self_intro.t1_learner": {
+              "translation": "你好，我是 Lukas。"
+            },
+            "sent.src.de.dialogue.daily_self_intro.t2_npc": {
+              "translation": "你在學哪種語言？"
+            },
+            "sent.src.de.dialogue.daily_self_intro.t2_learner": {
+              "translation": "我在學德語。"
+            },
+            "sent.src.de.dialogue.daily_self_intro.t3_npc": {
+              "translation": "很高興認識你。"
+            },
+            "sent.src.de.dialogue.daily_self_intro.t3_learner": {
+              "translation": "我也很高興。"
+            },
+            "sent.src.de.dialogue.daily_self_intro.t4_npc": {
+              "translation": "歡迎加入這個小組！"
+            },
+            "sent.src.de.dialogue.daily_self_intro.t4_learner": {
+              "translation": "謝謝！"
+            }
+          }
+        },
+        "src.de.dialogue.digital_battery_charging": {
+          "sentences": {
+            "sent.src.de.dialogue.digital_battery_charging.t1_npc": {
+              "translation": "您好。請問有什麼可以幫您？"
+            },
+            "sent.src.de.dialogue.digital_battery_charging.t1_learner": {
+              "translation": "我可以在這裡充手機嗎？"
+            },
+            "sent.src.de.dialogue.digital_battery_charging.t2_npc": {
+              "translation": "可以，當然。"
+            },
+            "sent.src.de.dialogue.digital_battery_charging.t2_learner": {
+              "translation": "插座在哪裡？"
+            },
+            "sent.src.de.dialogue.digital_battery_charging.t3_npc": {
+              "translation": "插座在窗邊的桌子那裡。"
+            },
+            "sent.src.de.dialogue.digital_battery_charging.t3_learner": {
+              "translation": "窗邊的桌子那裡嗎？"
+            },
+            "sent.src.de.dialogue.digital_battery_charging.t4_npc": {
+              "translation": "對，就在那裡。"
+            },
+            "sent.src.de.dialogue.digital_battery_charging.t4_learner": {
+              "translation": "謝謝您。"
+            }
+          }
+        },
+        "src.de.dialogue.digital_wifi_connect": {
+          "sentences": {
+            "sent.src.de.dialogue.digital_wifi_connect.t1_npc": {
+              "translation": "您好。請問有什麼可以幫您？"
+            },
+            "sent.src.de.dialogue.digital_wifi_connect.t1_learner": {
+              "translation": "Wi-Fi 密碼是什麼？"
+            },
+            "sent.src.de.dialogue.digital_wifi_connect.t2_npc": {
+              "translation": "密碼是 haus2026。"
+            },
+            "sent.src.de.dialogue.digital_wifi_connect.t2_learner": {
+              "translation": "謝謝，我試試看。"
+            },
+            "sent.src.de.dialogue.digital_wifi_connect.t3_npc": {
+              "translation": "可以用嗎？"
+            },
+            "sent.src.de.dialogue.digital_wifi_connect.t3_learner": {
+              "translation": "不，連不上。"
+            },
+            "sent.src.de.dialogue.digital_wifi_connect.t4_npc": {
+              "translation": "請一分鐘後再試一次。"
+            },
+            "sent.src.de.dialogue.digital_wifi_connect.t4_learner": {
+              "translation": "好的，謝謝。"
+            }
+          }
+        },
+        "src.de.dialogue.food_bill_payment": {
+          "sentences": {
+            "sent.src.de.dialogue.food_bill_payment.t1_npc": {
+              "translation": "您好，請說？"
+            },
+            "sent.src.de.dialogue.food_bill_payment.t1_learner": {
+              "translation": "請結帳。"
+            },
+            "sent.src.de.dialogue.food_bill_payment.t2_npc": {
+              "translation": "好的。您刷卡還是付現？"
+            },
+            "sent.src.de.dialogue.food_bill_payment.t2_learner": {
+              "translation": "刷卡，謝謝。"
+            },
+            "sent.src.de.dialogue.food_bill_payment.t3_npc": {
+              "translation": "您要收據嗎？"
+            },
+            "sent.src.de.dialogue.food_bill_payment.t3_learner": {
+              "translation": "要，謝謝。"
+            },
+            "sent.src.de.dialogue.food_bill_payment.t4_npc": {
+              "translation": "這是您的收據。祝您有美好的一天。"
+            },
+            "sent.src.de.dialogue.food_bill_payment.t4_learner": {
+              "translation": "謝謝，您也是。"
+            }
+          }
+        },
+        "src.de.dialogue.food_coffee_ordering": {
+          "sentences": {
+            "sent.src.de.dialogue.food_coffee_ordering.t1_npc": {
+              "translation": "您好。您想喝什麼？"
+            },
+            "sent.src.de.dialogue.food_coffee_ordering.t1_learner": {
+              "translation": "一杯咖啡，謝謝。"
+            },
+            "sent.src.de.dialogue.food_coffee_ordering.t2_npc": {
+              "translation": "要外帶嗎？"
+            },
+            "sent.src.de.dialogue.food_coffee_ordering.t2_learner": {
+              "translation": "是的，麻煩您。"
+            },
+            "sent.src.de.dialogue.food_coffee_ordering.t3_npc": {
+              "translation": "總共三歐元。"
+            },
+            "sent.src.de.dialogue.food_coffee_ordering.t3_learner": {
+              "translation": "好的。"
+            },
+            "sent.src.de.dialogue.food_coffee_ordering.t4_npc": {
+              "translation": "請在那邊稍等。"
+            },
+            "sent.src.de.dialogue.food_coffee_ordering.t4_learner": {
+              "translation": "謝謝。"
+            }
+          }
+        },
+        "src.de.dialogue.food_restaurant_ordering": {
+          "sentences": {
+            "sent.src.de.dialogue.food_restaurant_ordering.t1_npc": {
+              "translation": "晚上好。您們是兩位嗎？"
+            },
+            "sent.src.de.dialogue.food_restaurant_ordering.t1_learner": {
+              "translation": "是的，我們兩位。"
+            },
+            "sent.src.de.dialogue.food_restaurant_ordering.t2_npc": {
+              "translation": "您想吃什麼？"
+            },
+            "sent.src.de.dialogue.food_restaurant_ordering.t2_learner": {
+              "translation": "我想要一份湯，謝謝。"
+            },
+            "sent.src.de.dialogue.food_restaurant_ordering.t3_npc": {
+              "translation": "一份湯，對嗎？"
+            },
+            "sent.src.de.dialogue.food_restaurant_ordering.t3_learner": {
+              "translation": "是的，謝謝。"
+            },
+            "sent.src.de.dialogue.food_restaurant_ordering.t4_npc": {
+              "translation": "好的。餐點馬上來。"
+            },
+            "sent.src.de.dialogue.food_restaurant_ordering.t4_learner": {
+              "translation": "謝謝。"
+            }
+          }
+        },
+        "src.de.dialogue.hotel_checkout": {
+          "sentences": {
+            "sent.src.de.dialogue.hotel_checkout.t1_npc": {
+              "translation": "早安。請問有什麼可以幫您？"
+            },
+            "sent.src.de.dialogue.hotel_checkout.t1_learner": {
+              "translation": "我想退房。"
+            },
+            "sent.src.de.dialogue.hotel_checkout.t2_npc": {
+              "translation": "好的。請問您的房號？"
+            },
+            "sent.src.de.dialogue.hotel_checkout.t2_learner": {
+              "translation": "204 號房。"
+            },
+            "sent.src.de.dialogue.hotel_checkout.t3_npc": {
+              "translation": "謝謝。您有房卡嗎？"
+            },
+            "sent.src.de.dialogue.hotel_checkout.t3_learner": {
+              "translation": "有，房卡在這裡。"
+            },
+            "sent.src.de.dialogue.hotel_checkout.t4_npc": {
+              "translation": "謝謝。退房已完成。"
+            },
+            "sent.src.de.dialogue.hotel_checkout.t4_learner": {
+              "translation": "非常謝謝。"
+            }
+          }
+        },
+        "src.de.dialogue.hotel_wifi_breakfast": {
+          "sentences": {
+            "sent.src.de.dialogue.hotel_wifi_breakfast.t1_npc": {
+              "translation": "晚上好。需要什麼協助？"
+            },
+            "sent.src.de.dialogue.hotel_wifi_breakfast.t1_learner": {
+              "translation": "Wi-Fi 密碼是什麼？"
+            },
+            "sent.src.de.dialogue.hotel_wifi_breakfast.t2_npc": {
+              "translation": "寫在房卡上。"
+            },
+            "sent.src.de.dialogue.hotel_wifi_breakfast.t2_learner": {
+              "translation": "在房卡上，謝謝。"
+            },
+            "sent.src.de.dialogue.hotel_wifi_breakfast.t3_npc": {
+              "translation": "您還需要其他東西嗎？"
+            },
+            "sent.src.de.dialogue.hotel_wifi_breakfast.t3_learner": {
+              "translation": "早餐什麼時候供應？"
+            },
+            "sent.src.de.dialogue.hotel_wifi_breakfast.t4_npc": {
+              "translation": "七點開始，在二樓。"
+            },
+            "sent.src.de.dialogue.hotel_wifi_breakfast.t4_learner": {
+              "translation": "七點開始，在二樓。謝謝。"
+            }
+          }
+        },
+        "src.de.dialogue.problem_lost_item": {
+          "sentences": {
+            "sent.src.de.dialogue.problem_lost_item.t1_npc": {
+              "translation": "您好。請問有什麼可以幫您？"
+            },
+            "sent.src.de.dialogue.problem_lost_item.t1_learner": {
+              "translation": "我的帽子不見了。"
+            },
+            "sent.src.de.dialogue.problem_lost_item.t2_npc": {
+              "translation": "您在哪裡弄丟的？"
+            },
+            "sent.src.de.dialogue.problem_lost_item.t2_learner": {
+              "translation": "可能在咖啡店。"
+            },
+            "sent.src.de.dialogue.problem_lost_item.t3_npc": {
+              "translation": "請到左邊的失物招領處問問。"
+            },
+            "sent.src.de.dialogue.problem_lost_item.t3_learner": {
+              "translation": "左邊的失物招領處嗎？"
+            },
+            "sent.src.de.dialogue.problem_lost_item.t4_npc": {
+              "translation": "對，沒錯。請在那裡問。"
+            },
+            "sent.src.de.dialogue.problem_lost_item.t4_learner": {
+              "translation": "好的，謝謝您。"
+            }
+          }
+        },
+        "src.de.dialogue.shopping_ask_price": {
+          "sentences": {
+            "sent.src.de.dialogue.shopping_ask_price.t1_npc": {
+              "translation": "您好。我可以幫您嗎？"
+            },
+            "sent.src.de.dialogue.shopping_ask_price.t1_learner": {
+              "translation": "不好意思，這個多少錢？"
+            },
+            "sent.src.de.dialogue.shopping_ask_price.t2_npc": {
+              "translation": "這個八歐元。"
+            },
+            "sent.src.de.dialogue.shopping_ask_price.t2_learner": {
+              "translation": "好的，我買這個。"
+            },
+            "sent.src.de.dialogue.shopping_ask_price.t3_npc": {
+              "translation": "這個，對嗎？"
+            },
+            "sent.src.de.dialogue.shopping_ask_price.t3_learner": {
+              "translation": "是的，謝謝。"
+            },
+            "sent.src.de.dialogue.shopping_ask_price.t4_npc": {
+              "translation": "好的，謝謝。"
+            },
+            "sent.src.de.dialogue.shopping_ask_price.t4_learner": {
+              "translation": "謝謝。"
+            }
+          }
+        },
+        "src.de.dialogue.social_running_late": {
+          "sentences": {
+            "sent.src.de.dialogue.social_running_late.t1_npc": {
+              "translation": "嘿，你在哪？"
+            },
+            "sent.src.de.dialogue.social_running_late.t1_learner": {
+              "translation": "抱歉，我會晚一點到。"
+            },
+            "sent.src.de.dialogue.social_running_late.t2_npc": {
+              "translation": "幾分鐘？"
+            },
+            "sent.src.de.dialogue.social_running_late.t2_learner": {
+              "translation": "還要十分鐘。"
+            },
+            "sent.src.de.dialogue.social_running_late.t3_npc": {
+              "translation": "好，我等你。"
+            },
+            "sent.src.de.dialogue.social_running_late.t3_learner": {
+              "translation": "謝謝你等我。"
+            },
+            "sent.src.de.dialogue.social_running_late.t4_npc": {
+              "translation": "待會見。"
+            },
+            "sent.src.de.dialogue.social_running_late.t4_learner": {
+              "translation": "謝謝，待會見。"
+            }
+          }
+        },
+        "src.de.dialogue.travel_hotel_checkin": {
+          "sentences": {
+            "sent.src.de.dialogue.travel_hotel_checkin.t1_npc": {
+              "translation": "晚安。您有預訂嗎？"
+            },
+            "sent.src.de.dialogue.travel_hotel_checkin.t1_learner": {
+              "translation": "是的，我有預訂。"
+            },
+            "sent.src.de.dialogue.travel_hotel_checkin.t2_npc": {
+              "translation": "是用哪個名字預訂的？"
+            },
+            "sent.src.de.dialogue.travel_hotel_checkin.t2_learner": {
+              "translation": "用 Chen 這個名字。"
+            },
+            "sent.src.de.dialogue.travel_hotel_checkin.t3_npc": {
+              "translation": "謝謝。我找到您的預訂了。"
+            },
+            "sent.src.de.dialogue.travel_hotel_checkin.t3_learner": {
+              "translation": "謝謝。"
+            },
+            "sent.src.de.dialogue.travel_hotel_checkin.t4_npc": {
+              "translation": "這是您的房卡。204 號房。"
+            },
+            "sent.src.de.dialogue.travel_hotel_checkin.t4_learner": {
+              "translation": "非常謝謝。"
+            }
+          }
+        },
+        "src.de.dialogue.travel_restroom_directions": {
+          "sentences": {
+            "sent.src.de.dialogue.travel_restroom_directions.t1_npc": {
+              "translation": "您好。我可以幫您嗎？"
+            },
+            "sent.src.de.dialogue.travel_restroom_directions.t1_learner": {
+              "translation": "不好意思，洗手間在哪裡？"
+            },
+            "sent.src.de.dialogue.travel_restroom_directions.t2_npc": {
+              "translation": "直走，然後左邊。"
+            },
+            "sent.src.de.dialogue.travel_restroom_directions.t2_learner": {
+              "translation": "直走然後左邊嗎？"
+            },
+            "sent.src.de.dialogue.travel_restroom_directions.t3_npc": {
+              "translation": "對，沒錯。"
+            },
+            "sent.src.de.dialogue.travel_restroom_directions.t3_learner": {
+              "translation": "謝謝。"
+            },
+            "sent.src.de.dialogue.travel_restroom_directions.t4_npc": {
+              "translation": "不客氣。"
+            },
+            "sent.src.de.dialogue.travel_restroom_directions.t4_learner": {
+              "translation": "再見。"
+            }
+          }
+        },
+        "src.de.dialogue.travel_station_directions": {
+          "sentences": {
+            "sent.src.de.dialogue.travel_station_directions.t1_npc": {
+              "translation": "您好，請說。"
+            },
+            "sent.src.de.dialogue.travel_station_directions.t1_learner": {
+              "translation": "不好意思，二號月台在哪裡？"
+            },
+            "sent.src.de.dialogue.travel_station_directions.t2_npc": {
+              "translation": "請直走，然後往右。"
+            },
+            "sent.src.de.dialogue.travel_station_directions.t2_learner": {
+              "translation": "直走，然後往右。"
+            },
+            "sent.src.de.dialogue.travel_station_directions.t3_npc": {
+              "translation": "然後走樓梯。"
+            },
+            "sent.src.de.dialogue.travel_station_directions.t3_learner": {
+              "translation": "好的，謝謝。"
+            },
+            "sent.src.de.dialogue.travel_station_directions.t4_npc": {
+              "translation": "不客氣。"
+            },
+            "sent.src.de.dialogue.travel_station_directions.t4_learner": {
+              "translation": "謝謝。"
+            }
+          }
+        },
+        "src.de.dialogue.travel_taxi_destination": {
+          "sentences": {
+            "sent.src.de.dialogue.travel_taxi_destination.t1_npc": {
+              "translation": "您好。您想去哪裡？"
+            },
+            "sent.src.de.dialogue.travel_taxi_destination.t1_learner": {
+              "translation": "到阿德勒飯店，謝謝。"
+            },
+            "sent.src.de.dialogue.travel_taxi_destination.t2_npc": {
+              "translation": "到阿德勒飯店，對嗎？"
+            },
+            "sent.src.de.dialogue.travel_taxi_destination.t2_learner": {
+              "translation": "對，沒錯。"
+            },
+            "sent.src.de.dialogue.travel_taxi_destination.t3_npc": {
+              "translation": "好的。大約需要十分鐘。"
+            },
+            "sent.src.de.dialogue.travel_taxi_destination.t3_learner": {
+              "translation": "了解。"
+            },
+            "sent.src.de.dialogue.travel_taxi_destination.t4_npc": {
+              "translation": "我們到了。"
+            },
+            "sent.src.de.dialogue.travel_taxi_destination.t4_learner": {
+              "translation": "非常謝謝。再見。"
+            }
+          }
+        },
+        "src.de.dialogue.travel_ticket_buying": {
+          "sentences": {
+            "sent.src.de.dialogue.travel_ticket_buying.t1_npc": {
+              "translation": "您好，請說？"
+            },
+            "sent.src.de.dialogue.travel_ticket_buying.t1_learner": {
+              "translation": "請給我一張到柏林的票。"
+            },
+            "sent.src.de.dialogue.travel_ticket_buying.t2_npc": {
+              "translation": "一張到柏林的票，對嗎？"
+            },
+            "sent.src.de.dialogue.travel_ticket_buying.t2_learner": {
+              "translation": "是的，沒錯。"
+            },
+            "sent.src.de.dialogue.travel_ticket_buying.t3_npc": {
+              "translation": "一共十二歐元。"
+            },
+            "sent.src.de.dialogue.travel_ticket_buying.t3_learner": {
+              "translation": "刷卡，謝謝。"
+            },
+            "sent.src.de.dialogue.travel_ticket_buying.t4_npc": {
+              "translation": "這是您的車票。三號月台。"
+            },
+            "sent.src.de.dialogue.travel_ticket_buying.t4_learner": {
+              "translation": "謝謝。"
+            }
+          }
+        }
+      }
+    },
+    "sources.json": {
+      "schema_version": "learning_library_i18n_sources.v1",
+      "entries": {
+        "src.de.dialogue.convenience_payment_card_cash": {
+          "title": "An der Kasse bezahlen",
+          "summary": ""
+        },
+        "src.de.dialogue.core_repair_repeat_slowly": {
+          "title": "Um Wiederholung bitten",
+          "summary": ""
+        },
+        "src.de.dialogue.daily_meet_friend": {
+          "title": "Einen Freund treffen",
+          "summary": ""
+        },
+        "src.de.dialogue.daily_schedule_time": {
+          "title": "Eine Uhrzeit ausmachen",
+          "summary": ""
+        },
+        "src.de.dialogue.daily_self_intro": {
+          "title": "Sich vorstellen",
+          "summary": ""
+        },
+        "src.de.dialogue.digital_battery_charging": {
+          "title": "Das Handy aufladen",
+          "summary": ""
+        },
+        "src.de.dialogue.digital_wifi_connect": {
+          "title": "Nach dem WLAN-Passwort fragen",
+          "summary": ""
+        },
+        "src.de.dialogue.food_bill_payment": {
+          "title": "Die Rechnung bezahlen",
+          "summary": ""
+        },
+        "src.de.dialogue.food_coffee_ordering": {
+          "title": "Einen Kaffee bestellen",
+          "summary": ""
+        },
+        "src.de.dialogue.food_restaurant_ordering": {
+          "title": "Im Restaurant bestellen",
+          "summary": ""
+        },
+        "src.de.dialogue.hotel_checkout": {
+          "title": "Im Hotel auschecken",
+          "summary": ""
+        },
+        "src.de.dialogue.hotel_wifi_breakfast": {
+          "title": "WLAN und Frühstück im Hotel",
+          "summary": ""
+        },
+        "src.de.dialogue.problem_lost_item": {
+          "title": "Sagen, dass ein Gegenstand verloren ist",
+          "summary": ""
+        },
+        "src.de.dialogue.shopping_ask_price": {
+          "title": "Nach dem Preis fragen",
+          "summary": ""
+        },
+        "src.de.dialogue.social_running_late": {
+          "title": "Sagen, dass du dich verspätest",
+          "summary": ""
+        },
+        "src.de.dialogue.travel_hotel_checkin": {
+          "title": "Im Hotel einchecken",
+          "summary": ""
+        },
+        "src.de.dialogue.travel_restroom_directions": {
+          "title": "Nach der Toilette fragen",
+          "summary": ""
+        },
+        "src.de.dialogue.travel_station_directions": {
+          "title": "Am Bahnhof nach dem Weg fragen",
+          "summary": ""
+        },
+        "src.de.dialogue.travel_taxi_destination": {
+          "title": "Im Taxi das Ziel sagen",
+          "summary": ""
+        },
+        "src.de.dialogue.travel_ticket_buying": {
+          "title": "Eine Fahrkarte kaufen",
+          "summary": ""
+        }
+      }
+    },
+    "topics.json": {
+      "schema_version": "learning_library_i18n_topics.v1",
+      "entries": {}
+    }
+  }
+}

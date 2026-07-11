@@ -1,0 +1,2583 @@
+{
+  "version": "unit_blueprint_v0.1",
+  "unit": {
+    "unit_id": "a1_bg_l01",
+    "title_i18n": {
+      "zh_tw": "Beginner Grammar Lesson 01 · 第一次見面先把語氣說對",
+      "en": "Beginner Grammar Lesson 01 · Choose the right speech level in a first meeting"
+    },
+    "theme_i18n": {
+      "zh_tw": "正式 / 日常 / 朋友語氣",
+      "en": "Formal / everyday / casual speech levels"
+    },
+    "target_language": "ko",
+    "learner_locale_source": "zh_tw",
+    "level": "A1",
+    "can_do_i18n": [
+      {
+        "zh_tw": "能先分出正式、日常、朋友三種說法",
+        "en": "Tell formal, everyday, and casual speech apart."
+      },
+      {
+        "zh_tw": "能把同一句切成 different speech level 版本",
+        "en": "Switch the same sentence into different speech levels."
+      },
+      {
+        "zh_tw": "能在第一次見面先穩定用 해요體 開口",
+        "en": "Start a first meeting safely with 해요체."
+      }
+    ]
+  },
+  "sequence": [
+    {
+      "id": "A1-BG-L01-L1",
+      "content_form": "dialogue",
+      "learning_role": "immersion_input",
+      "skill_focus": [
+        "listening",
+        "reading"
+      ],
+      "output_mode": "none",
+      "title_i18n": {
+        "zh_tw": "L1 聽聽看：我是 Yuna",
+        "en": "L1 Listening: I am Yuna"
+      },
+      "expected_output_i18n": {
+        "zh_tw": "能聽出不同的語尾結束方式（입니다/예요/야）。",
+        "en": "Distinguish between different sentence endings (입니다/예요/야)."
+      },
+      "payload": {
+        "what_to_notice_i18n": [
+          {
+            "zh_tw": "先不要急著背整句，先盯住句尾：`입니다 / 예요 / 야`。",
+            "en": "Do not try to memorize the full sentence first. Focus on the ending: `입니다 / 예요 / 야`."
+          },
+          {
+            "zh_tw": "這一節要先聽出：同樣是「我是 Yuna」，語尾一換，禮貌度就跟著換。",
+            "en": "In this section, hear how the same idea changes in politeness when the ending changes."
+          },
+          {
+            "zh_tw": "先把語尾禮貌度聽開，比一開始硬背規則更重要。",
+            "en": "At this stage, hearing the politeness level in the ending matters more than memorizing rules."
+          }
+        ],
+        "dialogue_turns": [
+          {
+            "speaker": "A",
+            "text": "안녕하세요. 저는 유나입니다.",
+            "zh_tw": "您好，我是 Yuna。",
+            "en": "Hello. I am Yuna."
+          },
+          {
+            "speaker": "B",
+            "text": "안녕하세요. 저는 민수입니다.",
+            "zh_tw": "您好，我是敏秀。",
+            "en": "Hello. I am Minsu."
+          },
+          {
+            "speaker": "A",
+            "text": "만나서 반갑습니다.",
+            "zh_tw": "很高興見到您。",
+            "en": "Nice to meet you."
+          },
+          {
+            "speaker": "A",
+            "text": "안녕하세요? 저는 유나예요.",
+            "zh_tw": "你好，我是 Yuna。",
+            "en": "Hi, I am Yuna."
+          },
+          {
+            "speaker": "B",
+            "text": "안녕하세요. 저는 민수예요.",
+            "zh_tw": "你好，我是敏秀。",
+            "en": "Hi, I am Minsu."
+          },
+          {
+            "speaker": "A",
+            "text": "아, 그래요? 반가워요.",
+            "zh_tw": "啊，是嗎？很高興認識你。",
+            "en": "Oh, really? Nice to meet you."
+          },
+          {
+            "speaker": "A",
+            "text": "안녕? 나는 유나야.",
+            "zh_tw": "嗨，我是 Yuna。",
+            "en": "Hey, I am Yuna."
+          },
+          {
+            "speaker": "B",
+            "text": "안녕. 나는 민수야.",
+            "zh_tw": "嗨，我是敏秀。",
+            "en": "Hey, I am Minsu."
+          },
+          {
+            "speaker": "A",
+            "text": "반가워.",
+            "zh_tw": "很高興認識你。",
+            "en": "Nice to meet you."
+          }
+        ],
+        "lesson_support_module": {
+          "module_id": "CT-KO-BEG-001",
+          "title_i18n": {
+            "zh_tw": "先記這三個就夠",
+            "en": "These three are enough for now"
+          },
+          "why_here_i18n": {
+            "zh_tw": "這一課先不要想太複雜。先記：正式場合用 `입니다`，日常對話用 `요`，朋友互動用 `야`。",
+            "en": "Do not overcomplicate this lesson. Start with this: use `입니다` in formal situations, `요` in everyday conversation, and `야` with close friends."
+          },
+          "items": [
+            {
+              "target": "`입니다`",
+              "explain_i18n": {
+                "zh_tw": "正式場合先用這個。",
+                "en": "Use this first in formal situations."
+              }
+            },
+            {
+              "target": "`요`",
+              "explain_i18n": {
+                "zh_tw": "日常最常用，也最安全。",
+                "en": "This is the most common and safest everyday choice."
+              }
+            },
+            {
+              "target": "`야`",
+              "explain_i18n": {
+                "zh_tw": "朋友之間常用。",
+                "en": "This is common between close friends."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "A1-BG-L01-L2",
+      "content_form": "pattern_lab",
+      "learning_role": "immersion_input",
+      "payload": {
+        "intro_i18n": {
+          "zh_tw": "先看熟這三種句子就好。生活裡真的很常用。",
+          "en": "Just get familiar with these three sentence types first. They show up a lot in real life."
+        },
+        "pattern_builder_demos": [
+          {
+            "builder_id": "thing-demonstrative-support",
+            "controls": [
+              {
+                "control_id": "demo_base",
+                "label_i18n": {
+                  "zh_tw": "指示詞",
+                  "en": "demonstrative"
+                },
+                "options": [
+                  {
+                    "value": "이",
+                    "gloss_i18n": {
+                      "zh_tw": "這個",
+                      "en": "this"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "이",
+                      "en": "이"
+                    }
+                  },
+                  {
+                    "value": "그",
+                    "gloss_i18n": {
+                      "zh_tw": "那個",
+                      "en": "that"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "그",
+                      "en": "그"
+                    }
+                  },
+                  {
+                    "value": "저",
+                    "gloss_i18n": {
+                      "zh_tw": "那邊那個",
+                      "en": "that over there"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "저",
+                      "en": "저"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "thing",
+                "label_i18n": {
+                  "zh_tw": "名詞",
+                  "en": "noun"
+                },
+                "options": [
+                  {
+                    "value": "사과",
+                    "gloss_i18n": {
+                      "zh_tw": "蘋果",
+                      "en": "an apple"
+                    },
+                    "ending_type": "vowel",
+                    "label_i18n": {
+                      "zh_tw": "사과",
+                      "en": "사과"
+                    }
+                  },
+                  {
+                    "value": "책",
+                    "gloss_i18n": {
+                      "zh_tw": "書",
+                      "en": "a book"
+                    },
+                    "ending_type": "batchim",
+                    "label_i18n": {
+                      "zh_tw": "책",
+                      "en": "책"
+                    }
+                  },
+                  {
+                    "value": "핸드폰",
+                    "gloss_i18n": {
+                      "zh_tw": "手機",
+                      "en": "a phone"
+                    },
+                    "ending_type": "batchim",
+                    "label_i18n": {
+                      "zh_tw": "핸드폰",
+                      "en": "핸드폰"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "register",
+                "label_i18n": {
+                  "zh_tw": "語氣",
+                  "en": "speech level"
+                },
+                "options": [
+                  {
+                    "value": "formal",
+                    "gloss_i18n": {
+                      "zh_tw": "正式",
+                      "en": "formal"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "합니다체",
+                      "en": "합니다체"
+                    }
+                  },
+                  {
+                    "value": "polite",
+                    "gloss_i18n": {
+                      "zh_tw": "日常",
+                      "en": "everyday"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "해요체",
+                      "en": "해요체"
+                    }
+                  },
+                  {
+                    "value": "casual",
+                    "gloss_i18n": {
+                      "zh_tw": "朋友",
+                      "en": "casual"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "반말",
+                      "en": "반말"
+                    }
+                  }
+                ]
+              }
+            ],
+            "register_templates": {
+              "formal": "{surface_head} {thing}{copula}",
+              "polite": "{surface_head} {thing}{copula}",
+              "casual": "{surface_head} {thing}{copula}"
+            },
+            "translation_templates": {
+              "formal": {
+                "zh_tw": "{demo_base}是{thing}",
+                "en": "{demo_base} is {thing}."
+              },
+              "polite": {
+                "zh_tw": "{demo_base}是{thing}",
+                "en": "{demo_base} is {thing}."
+              },
+              "casual": {
+                "zh_tw": "{demo_base}是{thing}",
+                "en": "{demo_base} is {thing}."
+              }
+            },
+            "dynamic_token_rules": [
+              {
+                "token": "surface_head",
+                "source_control_id": "demo_base",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "이": "이것은",
+                    "그": "그것은",
+                    "저": "저것은"
+                  },
+                  "polite": {
+                    "이": "이건",
+                    "그": "그건",
+                    "저": "저건"
+                  },
+                  "casual": {
+                    "이": "이거",
+                    "그": "그거",
+                    "저": "저거"
+                  }
+                }
+              },
+              {
+                "token": "copula",
+                "source_control_id": "thing",
+                "map_by_register_and_ending": {
+                  "formal": {
+                    "vowel": "입니다.",
+                    "batchim": "입니다."
+                  },
+                  "polite": {
+                    "vowel": "예요.",
+                    "batchim": "이에요."
+                  },
+                  "casual": {
+                    "vowel": "야.",
+                    "batchim": "이야."
+                  }
+                }
+              }
+            ],
+            "title_i18n": {
+              "zh_tw": "句子 1：這是什麼",
+              "en": "Sentence 1: What is this?"
+            },
+            "review_export_presets": [
+              {
+                "preset_id": "this_apple_polite",
+                "item_id": "a1_bg_l01_this_apple_polite",
+                "mastery_key": "a1_bg_l01_this_apple_polite",
+                "control_values": {
+                  "demo_base": "이",
+                  "thing": "사과",
+                  "register": "polite"
+                },
+                "ko_surface": "이건 사과예요.",
+                "meaning_i18n": {
+                  "zh_tw": "這是蘋果。",
+                  "en": "This is an apple."
+                },
+                "chunks": [
+                  "이건",
+                  "사과예요."
+                ],
+                "distractors": [
+                  "책이에요.",
+                  "저건"
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "指示離說話者近的人事物。",
+                  "en": "This (이) is used for things near the speaker."
+                }
+              },
+              {
+                "preset_id": "that_book_polite",
+                "item_id": "a1_bg_l01_that_book_polite",
+                "mastery_key": "a1_bg_l01_that_book_polite",
+                "control_values": {
+                  "demo_base": "그",
+                  "thing": "책",
+                  "register": "polite"
+                },
+                "ko_surface": "그건 책이에요.",
+                "meaning_i18n": {
+                  "zh_tw": "那是書。",
+                  "en": "That is a book."
+                },
+                "chunks": [
+                  "그건",
+                  "책이에요."
+                ],
+                "distractors": [
+                  "사과예요.",
+                  "이건"
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "指示離聽者近或剛才提到的對象。",
+                  "en": "That (그) is used for things near the listener or previously mentioned."
+                }
+              },
+              {
+                "preset_id": "that_over_there_apple_polite",
+                "item_id": "a1_bg_l01_that_over_there_apple_polite",
+                "mastery_key": "a1_bg_l01_that_over_there_apple_polite",
+                "control_values": {
+                  "demo_base": "저",
+                  "thing": "사과",
+                  "register": "polite"
+                },
+                "ko_surface": "저건 사과예요.",
+                "meaning_i18n": {
+                  "zh_tw": "那邊那個是蘋果。",
+                  "en": "That over there is an apple."
+                },
+                "chunks": [
+                  "저건",
+                  "사과예요."
+                ],
+                "distractors": [
+                  "이건",
+                  "책이에요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "指示離說話者和聽者都遠的人事物。",
+                  "en": "That over there (저) is used for things far from both speaker and listener."
+                }
+              },
+              {
+                "preset_id": "this_phone_polite",
+                "item_id": "a1_bg_l01_this_phone_polite",
+                "mastery_key": "a1_bg_l01_this_phone_polite",
+                "control_values": {
+                  "demo_base": "이",
+                  "thing": "핸드폰",
+                  "register": "polite"
+                },
+                "ko_surface": "이건 핸드폰이에요.",
+                "meaning_i18n": {
+                  "zh_tw": "這是手機。",
+                  "en": "This is a phone."
+                },
+                "chunks": [
+                  "이건",
+                  "핸드폰이에요."
+                ],
+                "distractors": [
+                  "그건",
+                  "사과예요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "注意 핸드폰 有收音，接 이에요。",
+                  "en": "Note that 핸드폰 ends with a batchim, so it uses 이에요."
+                }
+              }
+            ]
+          },
+          {
+            "builder_id": "time-question-support",
+            "controls": [
+              {
+                "control_id": "time_anchor",
+                "label_i18n": {
+                  "zh_tw": "時間詞",
+                  "en": "time phrase"
+                },
+                "options": [
+                  {
+                    "value": "지금",
+                    "gloss_i18n": {
+                      "zh_tw": "現在",
+                      "en": "now"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "지금",
+                      "en": "지금"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "register",
+                "label_i18n": {
+                  "zh_tw": "語氣",
+                  "en": "speech level"
+                },
+                "options": [
+                  {
+                    "value": "formal",
+                    "gloss_i18n": {
+                      "zh_tw": "正式",
+                      "en": "formal"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "합니다체",
+                      "en": "합니다체"
+                    }
+                  },
+                  {
+                    "value": "polite",
+                    "gloss_i18n": {
+                      "zh_tw": "日常",
+                      "en": "polite"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "해요체",
+                      "en": "해요체"
+                    }
+                  },
+                  {
+                    "value": "casual",
+                    "gloss_i18n": {
+                      "zh_tw": "朋友",
+                      "en": "casual"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "반말",
+                      "en": "반말"
+                    }
+                  }
+                ]
+              }
+            ],
+            "register_templates": {
+              "formal": "{time_anchor} 몇 시입니까?",
+              "polite": "{time_anchor} 몇 시예요?",
+              "casual": "{time_anchor} 몇 시야?"
+            },
+            "translation_templates": {
+              "formal": {
+                "zh_tw": "現在幾點？",
+                "en": "What time is it now?"
+              },
+              "polite": {
+                "zh_tw": "現在幾點？",
+                "en": "What time is it now?"
+              },
+              "casual": {
+                "zh_tw": "現在幾點？",
+                "en": "What time is it now?"
+              }
+            },
+            "title_i18n": {
+              "zh_tw": "句子 2：現在幾點",
+              "en": "Sentence 2: What time is it now?"
+            },
+            "review_export_presets": [
+              {
+                "preset_id": "time_polite",
+                "item_id": "a1_bg_l01_time_polite",
+                "mastery_key": "a1_bg_l01_time_polite",
+                "control_values": {
+                  "time_anchor": "지금",
+                  "register": "polite"
+                },
+                "ko_surface": "지금 몇 시예요?",
+                "meaning_i18n": {
+                  "zh_tw": "現在幾點？",
+                  "en": "What time is it now?"
+                },
+                "chunks": [
+                  "지금",
+                  "몇",
+                  "시예요?"
+                ],
+                "distractors": [
+                  "학생이에요?"
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "詢問目前的時間。",
+                  "en": "Asking for the current time."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A1-BG-L01-L3",
+      "content_form": "pattern_lab",
+      "learning_role": "structure_pattern",
+      "payload": {
+        "intro_i18n": {
+          "zh_tw": "動詞也會跟著換語氣。先選動詞，再換它常接的地點、交通、吃喝和活動。",
+          "en": "Verb sentences change too. Pick a verb first, then swap the place, transport, food, drink, or activity that goes with it."
+        },
+        "pattern_builder_demos": [
+          {
+            "builder_id": "basic-verb-slot-switch",
+            "controls": [
+              {
+                "control_id": "verb_pack",
+                "label_i18n": {
+                  "zh_tw": "動詞",
+                  "en": "verb"
+                },
+                "options": [
+                  {
+                    "value": "go",
+                    "label_i18n": {
+                      "zh_tw": "가다",
+                      "en": "가다"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "去",
+                      "en": "go"
+                    }
+                  },
+                  {
+                    "value": "ride",
+                    "label_i18n": {
+                      "zh_tw": "타다",
+                      "en": "타다"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "搭",
+                      "en": "ride"
+                    }
+                  },
+                  {
+                    "value": "eat",
+                    "label_i18n": {
+                      "zh_tw": "먹다",
+                      "en": "먹다"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "吃",
+                      "en": "eat"
+                    }
+                  },
+                  {
+                    "value": "drink",
+                    "label_i18n": {
+                      "zh_tw": "마시다",
+                      "en": "마시다"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "喝",
+                      "en": "drink"
+                    }
+                  },
+                  {
+                    "value": "watch",
+                    "label_i18n": {
+                      "zh_tw": "보다",
+                      "en": "보다"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "看",
+                      "en": "watch"
+                    }
+                  },
+                  {
+                    "value": "do",
+                    "label_i18n": {
+                      "zh_tw": "하다",
+                      "en": "하다"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "做",
+                      "en": "do"
+                    }
+                  },
+                  {
+                    "value": "listen",
+                    "label_i18n": {
+                      "zh_tw": "듣다",
+                      "en": "듣다"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "聽",
+                      "en": "listen"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "slot_phrase",
+                "label_i18n": {
+                  "zh_tw": "相關名詞",
+                  "en": "related phrase"
+                },
+                "options": [
+                  {
+                    "value": "학교",
+                    "label_i18n": {
+                      "zh_tw": "학교",
+                      "en": "학교"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "學校",
+                      "en": "to school"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "학교에"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "go"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "집",
+                    "label_i18n": {
+                      "zh_tw": "집",
+                      "en": "집"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "家",
+                      "en": "home"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "집에"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "go"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "회사",
+                    "label_i18n": {
+                      "zh_tw": "회사",
+                      "en": "회사"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "公司",
+                      "en": "to the office"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "회사에"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "go"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "카페",
+                    "label_i18n": {
+                      "zh_tw": "카페",
+                      "en": "카페"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "咖啡廳",
+                      "en": "to a cafe"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "카페에"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "go"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "지하철",
+                    "label_i18n": {
+                      "zh_tw": "지하철",
+                      "en": "지하철"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "地鐵",
+                      "en": "the subway"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "지하철을"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "ride"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "버스",
+                    "label_i18n": {
+                      "zh_tw": "버스",
+                      "en": "버스"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "公車",
+                      "en": "the bus"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "버스를"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "ride"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "택시",
+                    "label_i18n": {
+                      "zh_tw": "택시",
+                      "en": "택시"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "計程車",
+                      "en": "a taxi"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "택시를"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "ride"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "밥",
+                    "label_i18n": {
+                      "zh_tw": "밥",
+                      "en": "밥"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "飯",
+                      "en": "a meal"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "밥을"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "eat"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "빵",
+                    "label_i18n": {
+                      "zh_tw": "빵",
+                      "en": "빵"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "麵包",
+                      "en": "bread"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "빵을"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "eat"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "김밥",
+                    "label_i18n": {
+                      "zh_tw": "김밥",
+                      "en": "김밥"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "紫菜飯捲",
+                      "en": "gimbap"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "김밥을"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "eat"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "커피",
+                    "label_i18n": {
+                      "zh_tw": "커피",
+                      "en": "커피"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "咖啡",
+                      "en": "coffee"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "커피를"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "drink"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "물",
+                    "label_i18n": {
+                      "zh_tw": "물",
+                      "en": "물"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "水",
+                      "en": "water"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "물을"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "drink"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "차",
+                    "label_i18n": {
+                      "zh_tw": "차",
+                      "en": "차"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "茶",
+                      "en": "tea"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "차를"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "drink"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "영화",
+                    "label_i18n": {
+                      "zh_tw": "영화",
+                      "en": "영화"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "電影",
+                      "en": "a movie"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "영화를"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "watch"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "드라마",
+                    "label_i18n": {
+                      "zh_tw": "드라마",
+                      "en": "드라마"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "韓劇",
+                      "en": "a drama"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "드라마를"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "watch"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "운동",
+                    "label_i18n": {
+                      "zh_tw": "운동",
+                      "en": "운동"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "運動",
+                      "en": "exercise"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "운동을"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "do"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "공부",
+                    "label_i18n": {
+                      "zh_tw": "공부",
+                      "en": "공부"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "學習",
+                      "en": "study"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "공부를"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "do"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "노래",
+                    "label_i18n": {
+                      "zh_tw": "노래",
+                      "en": "노래"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "歌",
+                      "en": "a song"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "노래를"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "listen"
+                      ]
+                    }
+                  },
+                  {
+                    "value": "음악",
+                    "label_i18n": {
+                      "zh_tw": "음악",
+                      "en": "음악"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "音樂",
+                      "en": "music"
+                    },
+                    "sentence_values": {
+                      "slot_surface": "음악을"
+                    },
+                    "available_when": {
+                      "verb_pack": [
+                        "listen"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "register",
+                "label_i18n": {
+                  "zh_tw": "語氣",
+                  "en": "speech level"
+                },
+                "options": [
+                  {
+                    "value": "formal",
+                    "gloss_i18n": {
+                      "zh_tw": "正式",
+                      "en": "formal"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "합니다체",
+                      "en": "합니다체"
+                    }
+                  },
+                  {
+                    "value": "polite",
+                    "gloss_i18n": {
+                      "zh_tw": "日常",
+                      "en": "everyday"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "해요체",
+                      "en": "해요체"
+                    }
+                  },
+                  {
+                    "value": "casual",
+                    "gloss_i18n": {
+                      "zh_tw": "朋友",
+                      "en": "casual"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "반말",
+                      "en": "반말"
+                    }
+                  }
+                ]
+              }
+            ],
+            "register_templates": {
+              "formal": "{slot_surface} {verb_form}",
+              "polite": "{slot_surface} {verb_form}",
+              "casual": "{slot_surface} {verb_form}"
+            },
+            "translation_templates": {
+              "formal": {
+                "zh_tw": "{verb_pack}{slot_phrase}",
+                "en": "{verb_pack} {slot_phrase}"
+              },
+              "polite": {
+                "zh_tw": "{verb_pack}{slot_phrase}",
+                "en": "{verb_pack} {slot_phrase}"
+              },
+              "casual": {
+                "zh_tw": "{verb_pack}{slot_phrase}",
+                "en": "{verb_pack} {slot_phrase}"
+              }
+            },
+            "dynamic_token_rules": [
+              {
+                "token": "verb_form",
+                "source_control_id": "verb_pack",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "go": "갑니다.",
+                    "ride": "탑니다.",
+                    "eat": "먹습니다.",
+                    "drink": "마십니다.",
+                    "watch": "봅니다.",
+                    "do": "합니다.",
+                    "listen": "듣습니다."
+                  },
+                  "polite": {
+                    "go": "가요.",
+                    "ride": "타요.",
+                    "eat": "먹어요.",
+                    "drink": "마셔요.",
+                    "watch": "봐요.",
+                    "do": "해요.",
+                    "listen": "들어요."
+                  },
+                  "casual": {
+                    "go": "가.",
+                    "ride": "타.",
+                    "eat": "먹어.",
+                    "drink": "마셔.",
+                    "watch": "봐.",
+                    "do": "해.",
+                    "listen": "들어."
+                  }
+                }
+              }
+            ],
+            "title_i18n": {
+              "zh_tw": "句子 1：動詞也會跟著換",
+              "en": "Sentence 1: Verb endings change too"
+            },
+            "review_export_presets": [
+              {
+                "preset_id": "go_cafe_polite",
+                "item_id": "a1_bg_l01_go_cafe_polite",
+                "mastery_key": "a1_bg_l01_go_cafe_polite",
+                "control_values": {
+                  "verb_pack": "go",
+                  "slot_phrase": "카페",
+                  "register": "polite"
+                },
+                "ko_surface": "카페에 가요.",
+                "meaning_i18n": {
+                  "zh_tw": "去咖啡廳。",
+                  "en": "Go to a cafe."
+                },
+                "chunks": [
+                  "카페에",
+                  "가요."
+                ],
+                "distractors": [
+                  "학교에",
+                  "마셔요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "日常對話最常用的해요體。",
+                  "en": "The most common polite ending in daily life."
+                }
+              },
+              {
+                "preset_id": "drink_coffee_polite",
+                "item_id": "a1_bg_l01_drink_coffee_polite",
+                "mastery_key": "a1_bg_l01_drink_coffee_polite",
+                "control_values": {
+                  "verb_pack": "drink",
+                  "slot_phrase": "커피",
+                  "register": "polite"
+                },
+                "ko_surface": "커피를 마셔요.",
+                "meaning_i18n": {
+                  "zh_tw": "喝咖啡。",
+                  "en": "Drink coffee."
+                },
+                "chunks": [
+                  "커피를",
+                  "마셔요."
+                ],
+                "distractors": [
+                  "물을",
+                  "먹어요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "動詞마시다接아요/어요變成마셔요。",
+                  "en": "Verb 마시다 becomes 마셔요 in polite form."
+                }
+              },
+              {
+                "preset_id": "eat_bread_polite",
+                "item_id": "a1_bg_l01_eat_bread_polite",
+                "mastery_key": "a1_bg_l01_eat_bread_polite",
+                "control_values": {
+                  "verb_pack": "eat",
+                  "slot_phrase": "빵",
+                  "register": "polite"
+                },
+                "ko_surface": "빵을 먹어요.",
+                "meaning_i18n": {
+                  "zh_tw": "吃麵包。",
+                  "en": "Eat bread."
+                },
+                "chunks": [
+                  "빵을",
+                  "먹어요."
+                ],
+                "distractors": [
+                  "김밥을",
+                  "마셔요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "動詞먹다接어요變成먹어요。",
+                  "en": "Verb 먹다 becomes 먹어요 in polite form."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A1-BG-L01-G1",
+      "content_form": "pattern_lab",
+      "learning_role": "structure_pattern",
+      "payload": {
+        "pattern_builder_demos": [
+          {
+            "builder_id": "identity-register-switch",
+            "controls": [
+              {
+                "control_id": "speaker",
+                "options": [
+                  {
+                    "value": "저는",
+                    "label_i18n": {
+                      "zh_tw": "저는",
+                      "en": "저는"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "我"
+                    }
+                  },
+                  {
+                    "value": "나는",
+                    "label_i18n": {
+                      "zh_tw": "나는",
+                      "en": "나는"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "我"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "identity",
+                "options": [
+                  {
+                    "value": "학생",
+                    "ending_type": "batchim",
+                    "label_i18n": {
+                      "zh_tw": "학생",
+                      "en": "학생"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "學生"
+                    }
+                  },
+                  {
+                    "value": "의사",
+                    "ending_type": "vowel",
+                    "label_i18n": {
+                      "zh_tw": "의사",
+                      "en": "의사"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "醫生"
+                    }
+                  },
+                  {
+                    "value": "회사원",
+                    "ending_type": "batchim",
+                    "label_i18n": {
+                      "zh_tw": "회사원",
+                      "en": "회사원"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "上班族"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "register",
+                "options": [
+                  {
+                    "value": "formal",
+                    "label_i18n": {
+                      "zh_tw": "합니다체",
+                      "en": "합니다체"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "正式"
+                    }
+                  },
+                  {
+                    "value": "polite",
+                    "label_i18n": {
+                      "zh_tw": "해요체",
+                      "en": "해요체"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "日常"
+                    }
+                  },
+                  {
+                    "value": "casual",
+                    "label_i18n": {
+                      "zh_tw": "반말",
+                      "en": "반말"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "朋友"
+                    }
+                  }
+                ]
+              }
+            ],
+            "register_templates": {
+              "formal": "{speaker} {identity}{copula}",
+              "polite": "{speaker} {identity}{copula}",
+              "casual": "{speaker} {identity}{copula}"
+            },
+            "translation_templates": {
+              "formal": {
+                "zh_tw": "我是{identity}",
+                "en": "I am {identity}."
+              },
+              "polite": {
+                "zh_tw": "我是{identity}",
+                "en": "I am {identity}."
+              },
+              "casual": {
+                "zh_tw": "我是{identity}",
+                "en": "I am {identity}."
+              }
+            },
+            "control_rules": {
+              "speaker_by_register": {
+                "formal": "저는",
+                "polite": "저는",
+                "casual": "나는"
+              }
+            },
+            "dynamic_token_rules": [
+              {
+                "token": "copula",
+                "source_control_id": "identity",
+                "map_by_register_and_ending": {
+                  "formal": {
+                    "vowel": "입니다.",
+                    "batchim": "입니다."
+                  },
+                  "polite": {
+                    "vowel": "예요.",
+                    "batchim": "이에요."
+                  },
+                  "casual": {
+                    "vowel": "야.",
+                    "batchim": "이야."
+                  }
+                }
+              }
+            ],
+            "title_i18n": {
+              "zh_tw": "句型 1：同一句先切三種語氣",
+              "en": "Pattern 1: Switch one sentence across three speech levels"
+            },
+            "review_export_presets": [
+              {
+                "preset_id": "student_polite",
+                "item_id": "a1_bg_l01_student_polite_g1",
+                "mastery_key": "a1_bg_l01_student_polite_g1",
+                "control_values": {
+                  "speaker": "저는",
+                  "identity": "학생",
+                  "register": "polite"
+                },
+                "ko_surface": "저는 학생이에요.",
+                "meaning_i18n": {
+                  "zh_tw": "我是學生。",
+                  "en": "I am a student."
+                },
+                "chunks": [
+                  "저는",
+                  "학생이에요."
+                ],
+                "distractors": [
+                  "회사원이에요.",
+                  "나는"
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "自我介紹最常用的日常語法。",
+                  "en": "The most common everyday way to introduce yourself."
+                }
+              }
+            ]
+          },
+          {
+            "builder_id": "time-question-switch",
+            "controls": [
+              {
+                "control_id": "register",
+                "options": [
+                  {
+                    "value": "formal",
+                    "label_i18n": {
+                      "zh_tw": "합니다체",
+                      "en": "합니다체"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "正式"
+                    }
+                  },
+                  {
+                    "value": "polite",
+                    "label_i18n": {
+                      "zh_tw": "해요체",
+                      "en": "해요체"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "日常"
+                    }
+                  },
+                  {
+                    "value": "casual",
+                    "label_i18n": {
+                      "zh_tw": "반말",
+                      "en": "반말"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "朋友"
+                    }
+                  }
+                ]
+              }
+            ],
+            "register_templates": {
+              "formal": "지금 몇 시입니까?",
+              "polite": "지금 몇 시예요?",
+              "casual": "지금 몇 시야?"
+            },
+            "translation_templates": {
+              "formal": {
+                "zh_tw": "現在幾點？",
+                "en": "What time is it now?"
+              },
+              "polite": {
+                "zh_tw": "現在幾點？",
+                "en": "What time is it now?"
+              },
+              "casual": {
+                "zh_tw": "現在幾點？",
+                "en": "What time is it now?"
+              }
+            },
+            "title_i18n": {
+              "zh_tw": "句型 2：問時間也一起換語氣",
+              "en": "Pattern 2: Change the speech level when asking the time"
+            },
+            "review_export_presets": []
+          },
+          {
+            "builder_id": "place-topic-switch",
+            "controls": [
+              {
+                "control_id": "place_demo",
+                "options": [
+                  {
+                    "value": "여기",
+                    "ending_type": "vowel",
+                    "label_i18n": {
+                      "zh_tw": "여기",
+                      "en": "여기"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "這裡"
+                    }
+                  },
+                  {
+                    "value": "거기",
+                    "ending_type": "vowel",
+                    "label_i18n": {
+                      "zh_tw": "거기",
+                      "en": "거기"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "那裡"
+                    }
+                  },
+                  {
+                    "value": "저기",
+                    "ending_type": "vowel",
+                    "label_i18n": {
+                      "zh_tw": "저기",
+                      "en": "저기"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "那邊"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "place_noun",
+                "options": [
+                  {
+                    "value": "카페",
+                    "ending_type": "vowel",
+                    "label_i18n": {
+                      "zh_tw": "카페",
+                      "en": "카페"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "咖啡廳"
+                    }
+                  },
+                  {
+                    "value": "역",
+                    "ending_type": "batchim",
+                    "label_i18n": {
+                      "zh_tw": "역",
+                      "en": "역"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "車站"
+                    }
+                  },
+                  {
+                    "value": "숙소",
+                    "ending_type": "vowel",
+                    "label_i18n": {
+                      "zh_tw": "숙소",
+                      "en": "숙소"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "住宿"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "register",
+                "options": [
+                  {
+                    "value": "formal",
+                    "label_i18n": {
+                      "zh_tw": "합니다체",
+                      "en": "합니다체"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "正式"
+                    }
+                  },
+                  {
+                    "value": "polite",
+                    "label_i18n": {
+                      "zh_tw": "해요체",
+                      "en": "해요체"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "日常"
+                    }
+                  },
+                  {
+                    "value": "casual",
+                    "label_i18n": {
+                      "zh_tw": "반말",
+                      "en": "반말"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "朋友"
+                    }
+                  }
+                ]
+              }
+            ],
+            "register_templates": {
+              "formal": "{place_demo}는 {place_noun}{copula}",
+              "polite": "{place_demo}는 {place_noun}{copula}",
+              "casual": "{place_demo}는 {place_noun}{copula}"
+            },
+            "translation_templates": {
+              "formal": {
+                "zh_tw": "{place_demo}是{place_noun}",
+                "en": "{place_demo} is {place_noun}."
+              },
+              "polite": {
+                "zh_tw": "{place_demo}是{place_noun}",
+                "en": "{place_demo} is {place_noun}."
+              },
+              "casual": {
+                "zh_tw": "{place_demo}是{place_noun}",
+                "en": "{place_demo} is {place_noun}."
+              }
+            },
+            "dynamic_token_rules": [
+              {
+                "token": "copula",
+                "source_control_id": "place_noun",
+                "map_by_register_and_ending": {
+                  "formal": {
+                    "vowel": "입니다.",
+                    "batchim": "입니다."
+                  },
+                  "polite": {
+                    "vowel": "예요.",
+                    "batchim": "이에요."
+                  },
+                  "casual": {
+                    "vowel": "야.",
+                    "batchim": "이야."
+                  }
+                }
+              }
+            ],
+            "title_i18n": {
+              "zh_tw": "句型 3：同樣的判斷句，也能跟著換語氣",
+              "en": "Pattern 3: The same statement can also switch speech level"
+            },
+            "review_export_presets": [
+              {
+                "preset_id": "here_cafe_polite",
+                "item_id": "a1_bg_l01_here_cafe_polite_g1",
+                "mastery_key": "a1_bg_l01_here_cafe_polite_g1",
+                "control_values": {
+                  "place_demo": "여기",
+                  "place_noun": "카페",
+                  "register": "polite"
+                },
+                "ko_surface": "여기는 카페예요.",
+                "meaning_i18n": {
+                  "zh_tw": "這裡是咖啡廳。",
+                  "en": "This place is a cafe."
+                },
+                "chunks": [
+                  "여기는",
+                  "카페예요."
+                ],
+                "distractors": [
+                  "역이에요.",
+                  "학생이에요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "介紹地點時常用這裡(여기)、那裡(거기/저기)。",
+                  "en": "Use here (여기), there (거기), or over there (저기) to describe locations."
+                }
+              }
+            ]
+          },
+          {
+            "builder_id": "core-verb-ending-switch",
+            "controls": [
+              {
+                "control_id": "verb_pack",
+                "label_i18n": {
+                  "zh_tw": "動詞",
+                  "en": "verb"
+                },
+                "options": [
+                  {
+                    "value": "go_school",
+                    "gloss_i18n": {
+                      "zh_tw": "學校",
+                      "en": "school"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "가다",
+                      "en": "가다"
+                    }
+                  },
+                  {
+                    "value": "read_book",
+                    "gloss_i18n": {
+                      "zh_tw": "讀書",
+                      "en": "read a book"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "읽다",
+                      "en": "읽다"
+                    }
+                  },
+                  {
+                    "value": "do_exercise",
+                    "gloss_i18n": {
+                      "zh_tw": "運動",
+                      "en": "exercise"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "하다",
+                      "en": "하다"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "register",
+                "label_i18n": {
+                  "zh_tw": "語氣",
+                  "en": "speech level"
+                },
+                "options": [
+                  {
+                    "value": "formal",
+                    "gloss_i18n": {
+                      "zh_tw": "正式",
+                      "en": "formal"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "합니다體",
+                      "en": "합니다체"
+                    }
+                  },
+                  {
+                    "value": "polite",
+                    "gloss_i18n": {
+                      "zh_tw": "日常",
+                      "en": "everyday"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "해요體",
+                      "en": "해요체"
+                    }
+                  },
+                  {
+                    "value": "casual",
+                    "gloss_i18n": {
+                      "zh_tw": "朋友",
+                      "en": "casual"
+                    },
+                    "label_i18n": {
+                      "zh_tw": "반말",
+                      "en": "반말"
+                    }
+                  }
+                ]
+              }
+            ],
+            "register_templates": {
+              "formal": "{sentence}",
+              "polite": "{sentence}",
+              "casual": "{sentence}"
+            },
+            "translation_templates": {
+              "formal": {
+                "zh_tw": "{verb_pack}",
+                "en": "{verb_pack}"
+              },
+              "polite": {
+                "zh_tw": "{verb_pack}",
+                "en": "{verb_pack}"
+              },
+              "casual": {
+                "zh_tw": "{verb_pack}",
+                "en": "{verb_pack}"
+              }
+            },
+            "dynamic_token_rules": [
+              {
+                "token": "sentence",
+                "source_control_id": "verb_pack",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "go_school": "학교에 갑니다.",
+                    "read_book": "책을 읽습니다.",
+                    "do_exercise": "운동을 합니다."
+                  },
+                  "polite": {
+                    "go_school": "학교에 가요.",
+                    "read_book": "책을 읽어요.",
+                    "do_exercise": "운동을 해요."
+                  },
+                  "casual": {
+                    "go_school": "학교에 가.",
+                    "read_book": "책을 읽어.",
+                    "do_exercise": "운동을 해."
+                  }
+                }
+              }
+            ],
+            "title_i18n": {
+              "zh_tw": "句型 4：動詞句尾也會一起換",
+              "en": "Pattern 4: Verb endings change too"
+            },
+            "review_export_presets": [
+              {
+                "preset_id": "read_book_polite_g1",
+                "item_id": "a1_bg_l01_read_book_polite_g1",
+                "mastery_key": "a1_bg_l01_read_book_polite_g1",
+                "control_values": {
+                  "verb_pack": "read_book",
+                  "register": "polite"
+                },
+                "ko_surface": "책을 읽어요.",
+                "meaning_i18n": {
+                  "zh_tw": "讀書。",
+                  "en": "Read a book."
+                },
+                "chunks": [
+                  "책을",
+                  "읽어요."
+                ],
+                "distractors": [
+                  "봐요.",
+                  "커피를"
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "動詞읽다是有收音的，接어요。",
+                  "en": "Verb 읽다 has a batchim, so it takes 어요."
+                }
+              },
+              {
+                "preset_id": "do_exercise_polite_g1",
+                "item_id": "a1_bg_l01_do_exercise_polite_g1",
+                "mastery_key": "a1_bg_l01_do_exercise_polite_g1",
+                "control_values": {
+                  "verb_pack": "do_exercise",
+                  "register": "polite"
+                },
+                "ko_surface": "운동을 해요.",
+                "meaning_i18n": {
+                  "zh_tw": "運動。",
+                  "en": "Exercise."
+                },
+                "chunks": [
+                  "운동을",
+                  "해요."
+                ],
+                "distractors": [
+                  "공부를",
+                  "마셔요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "大部分하다結尾的動詞，해요體都換成해요。",
+                  "en": "Most verbs ending in 하다 change to 해요 in polite form."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A1-BG-L01-G2",
+      "content_form": "grammar_note",
+      "learning_role": "structure_grammar",
+      "payload": {
+        "sections": [
+          {
+            "title_i18n": {
+              "zh_tw": "1. 先抓這一個重點",
+              "en": "1. What to learn first in this lesson"
+            },
+            "explanation_md_i18n": {
+              "zh_tw": "先別把這課想成什麼「韓語敬語大全」。那樣一開始壓力太大。\n\n你現在先抓住一件事就夠了：**同一句話，會因為你在跟誰說話，句尾跟著換。**\n\n這課先只管三種最常先碰到的說法：\n\n- `~습니다 / ~ㅂ니다`：比較正式\n- `~아요 / ~어요 / ~해요`：平常最常用，也最安全\n- `~야 / ~이야`：熟了之後才比較自然的朋友說法\n\n所以你現在真的不用急著背一堆術語。先養成一個反應就好：**我現在是在跟誰講話？**",
+              "en": "This lesson is **not** trying to teach the whole Korean honorific system at once.\n\nStart with one practical idea: **the ending changes depending on who you are speaking to**.\n\nLesson 01 only covers the three speech endings you will meet first: formal `~습니다 / ~ㅂ니다`, everyday polite `~아요 / ~어요 / ~해요`, and casual `~야 / ~이야`.\n\nThe core goal is not memorizing terminology. It is learning to ask yourself: **Who am I speaking to right now?**"
+            }
+          },
+          {
+            "title_i18n": {
+              "zh_tw": "2. 三種說法先怎麼認",
+              "en": "2. How the three styles differ"
+            },
+            "points_i18n": [
+              {
+                "zh_tw": "`~습니다 / ~ㅂ니다`：你可以先把它聽成「比較正式的版本」。櫃台、公告、面試、比較正式的自我介紹，很常聽到這種感覺。",
+                "en": "`~습니다 / ~ㅂ니다`: the most formal. Common at counters, in notices, interviews, formal self-introductions, and broadcast-style speech."
+              },
+              {
+                "zh_tw": "`~아요 / ~어요 / ~해요`：這個你先當主力就好。第一次見面、旅行、問路、買東西、跟不熟的人講話，大多先用這個最穩。",
+                "en": "`~아요 / ~어요 / ~해요`: the most common everyday choice. Use this first in travel, first meetings, asking for directions, shopping, and conversations with people you do not know well."
+              },
+              {
+                "zh_tw": "`~야 / ~이야`：這個不是不能學，是先拿來認得出來。真的對熟朋友、家人、晚輩再用比較自然；一開始就對剛認識的人用，通常會太快。",
+                "en": "`~야 / ~이야`: casual friend speech. Usually for close friends, family, or younger people. Using this right away with a newly met adult is usually too fast."
+              }
+            ]
+          },
+          {
+            "title_i18n": {
+              "zh_tw": "3. 先練哪一個最划算",
+              "en": "3. Which one to remember first"
+            },
+            "explanation_md_i18n": {
+              "zh_tw": "如果你現在才剛開始，真的不用三種平均用力。\n\n比較划算的順序是：\n\n1. **先把 `~아요/어요/해요` 練穩**\n2. 再慢慢聽得出 `~습니다/ㅂ니다` 比較正式\n3. 最後先做到「看到 `~야/이야` 不會慌」就夠了\n\n為什麼這樣排？因為 `~요` 體就是你最早真的會拿去生活裡用的版本。你在 L1 聽到中間那段最自然，原因就在這裡。",
+              "en": "If you are a beginner, do not train all three evenly first.\n\nA more useful order is:\n\n1. **Stabilize `~아요/어요/해요` first**\n2. Learn to recognize that `~습니다/ㅂ니다` sounds more formal\n3. Only then get used to seeing `~야/이야`; you do not need to use it on strangers right away\n\nWhy? Because the `~요` style is the version you will actually use first in real life."
+            }
+          },
+          {
+            "title_i18n": {
+              "zh_tw": "4. 這幾個地方最容易卡住",
+              "en": "4. The parts people mix up most easily"
+            },
+            "points_i18n": [
+              {
+                "zh_tw": "`저` vs `나`：先簡單記就好。`저` 比較客氣，第一次見面先拿這個；`나` 比較近，多半跟朋友語氣一起出現。",
+                "en": "`저` vs `나`: `저` is more polite and is the safer first choice in new meetings; `나` is closer and usually appears in casual speech."
+              },
+              {
+                "zh_tw": "`예요` vs `이에요`：這個超常卡。沒有收音大多用 `예요`，有收音用 `이에요`。先記這條就很夠用了。",
+                "en": "`예요` vs `이에요`: this is one of the most common beginner mistakes in noun sentences. Use `예요` after vowel-ending nouns and `이에요` after batchim nouns."
+              },
+              {
+                "zh_tw": "`가요 / 가`、`읽어요 / 읽어`：不要以為只有名詞句會變。動詞句尾也會一起換，這就是我們後面為什麼又拉一組動詞出來看。",
+                "en": "`가요 / 가`, `읽어요 / 읽어`: verb endings change too, not only noun sentences."
+              }
+            ]
+          },
+          {
+            "title_i18n": {
+              "zh_tw": "5. 你就把它當同一句的三個版本",
+              "en": "5. Contrast set: the same sentence, only the speech level changes"
+            },
+            "explanation_md_i18n": {
+              "zh_tw": "| 場景感 | 韓文 | 中文 |\n|---|---|---|\n| 比較正式 | `저는 학생입니다.` | 我是學生。 |\n| 平常最好用 | `저는 학생이에요.` | 我是學生。 |\n| 熟朋友 | `나는 학생이야.` | 我是學生。 |\n\n你現在先不要把它想成三條分開背的文法。**就把它當同一句在不同距離下換三個版本**，比較好記，也比較像真的在講話。",
+              "en": "| Social distance | Korean | English |\n|---|---|---|\n| Very formal | `저는 학생입니다.` | I am a student. |\n| Everyday safe choice | `저는 학생이에요.` | I am a student. |\n| Close-friend style | `나는 학생이야.` | I am a student. |\n\nDo not memorize these as three unrelated grammar items. Think of them as **three versions of the same sentence at different social distances**."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "A1-BG-L01-P1",
+      "content_form": "practice_card",
+      "learning_role": "controlled_output",
+      "payload": {
+        "tasks": [
+          {
+            "item_id": "a1_bg_l01_do_exercise_polite_g1",
+            "mastery_key": "a1_bg_l01_do_exercise_polite_g1",
+            "ko_surface": "운동을 해요.",
+            "target_examples": [
+              "운동을 해요."
+            ],
+            "target_examples_zh_tw": [
+              "運動。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "運動。",
+              "en": "Exercise."
+            },
+            "chunks": [
+              "운동을",
+              "해요."
+            ],
+            "distractors": [
+              "공부를",
+              "마셔요."
+            ],
+            "source_preset_id": "do_exercise_polite_g1"
+          },
+          {
+            "item_id": "a1_bg_l01_drink_coffee_polite",
+            "mastery_key": "a1_bg_l01_drink_coffee_polite",
+            "ko_surface": "커피를 마셔요.",
+            "target_examples": [
+              "커피를 마셔요."
+            ],
+            "target_examples_zh_tw": [
+              "喝咖啡。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "喝咖啡。",
+              "en": "Drink coffee."
+            },
+            "chunks": [
+              "커피를",
+              "마셔요."
+            ],
+            "distractors": [
+              "물을",
+              "먹어요."
+            ],
+            "source_preset_id": "drink_coffee_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_eat_bread_polite",
+            "mastery_key": "a1_bg_l01_eat_bread_polite",
+            "ko_surface": "빵을 먹어요.",
+            "target_examples": [
+              "빵을 먹어요."
+            ],
+            "target_examples_zh_tw": [
+              "吃麵包。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "吃麵包。",
+              "en": "Eat bread."
+            },
+            "chunks": [
+              "빵을",
+              "먹어요."
+            ],
+            "distractors": [
+              "김밥을",
+              "마셔요."
+            ],
+            "source_preset_id": "eat_bread_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_go_cafe_polite",
+            "mastery_key": "a1_bg_l01_go_cafe_polite",
+            "ko_surface": "카페에 가요.",
+            "target_examples": [
+              "카페에 가요."
+            ],
+            "target_examples_zh_tw": [
+              "去咖啡廳。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "去咖啡廳。",
+              "en": "Go to a cafe."
+            },
+            "chunks": [
+              "카페에",
+              "가요."
+            ],
+            "distractors": [
+              "학교에",
+              "마셔요."
+            ],
+            "source_preset_id": "go_cafe_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_here_cafe_polite_g1",
+            "mastery_key": "a1_bg_l01_here_cafe_polite_g1",
+            "ko_surface": "여기는 카페예요.",
+            "target_examples": [
+              "여기는 카페예요."
+            ],
+            "target_examples_zh_tw": [
+              "這裡是咖啡廳。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "這裡是咖啡廳。",
+              "en": "This place is a cafe."
+            },
+            "chunks": [
+              "여기는",
+              "카페예요."
+            ],
+            "distractors": [
+              "역이에요.",
+              "학생이에요."
+            ],
+            "source_preset_id": "here_cafe_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_read_book_polite_g1",
+            "mastery_key": "a1_bg_l01_read_book_polite_g1",
+            "ko_surface": "책을 읽어요.",
+            "target_examples": [
+              "책을 읽어요."
+            ],
+            "target_examples_zh_tw": [
+              "讀書。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "讀書。",
+              "en": "Read a book."
+            },
+            "chunks": [
+              "책을",
+              "읽어요."
+            ],
+            "distractors": [
+              "봐요.",
+              "커피를"
+            ],
+            "source_preset_id": "read_book_polite_g1"
+          },
+          {
+            "item_id": "a1_bg_l01_student_polite_g1",
+            "mastery_key": "a1_bg_l01_student_polite_g1",
+            "ko_surface": "저는 학생이에요.",
+            "target_examples": [
+              "저는 학생이에요."
+            ],
+            "target_examples_zh_tw": [
+              "我是學生。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "我是學生。",
+              "en": "I am a student."
+            },
+            "chunks": [
+              "저는",
+              "학생이에요."
+            ],
+            "distractors": [
+              "회사원이에요.",
+              "나는"
+            ],
+            "source_preset_id": "student_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_that_book_polite",
+            "mastery_key": "a1_bg_l01_that_book_polite",
+            "ko_surface": "그건 책이에요.",
+            "target_examples": [
+              "그건 책이에요."
+            ],
+            "target_examples_zh_tw": [
+              "那是書。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "那是書。",
+              "en": "That is a book."
+            },
+            "chunks": [
+              "그건",
+              "책이에요."
+            ],
+            "distractors": [
+              "사과예요.",
+              "이건"
+            ],
+            "source_preset_id": "that_book_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_that_over_there_apple_polite",
+            "mastery_key": "a1_bg_l01_that_over_there_apple_polite",
+            "ko_surface": "저건 사과예요.",
+            "target_examples": [
+              "저건 사과예요."
+            ],
+            "target_examples_zh_tw": [
+              "那邊那個是蘋果。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "那邊那個是蘋果。",
+              "en": "That over there is an apple."
+            },
+            "chunks": [
+              "저건",
+              "사과예요."
+            ],
+            "distractors": [
+              "이건",
+              "책이에요."
+            ],
+            "source_preset_id": "that_over_there_apple_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_this_apple_polite",
+            "mastery_key": "a1_bg_l01_this_apple_polite",
+            "ko_surface": "이건 사과예요.",
+            "target_examples": [
+              "이건 사과예요."
+            ],
+            "target_examples_zh_tw": [
+              "這是蘋果。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "這是蘋果。",
+              "en": "This is an apple."
+            },
+            "chunks": [
+              "이건",
+              "사과예요."
+            ],
+            "distractors": [
+              "책이에요.",
+              "저건"
+            ],
+            "source_preset_id": "this_apple_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_this_phone_polite",
+            "mastery_key": "a1_bg_l01_this_phone_polite",
+            "ko_surface": "이건 핸드폰이에요.",
+            "target_examples": [
+              "이건 핸드폰이에요."
+            ],
+            "target_examples_zh_tw": [
+              "這是手機。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "這是手機。",
+              "en": "This is a phone."
+            },
+            "chunks": [
+              "이건",
+              "핸드폰이에요."
+            ],
+            "distractors": [
+              "그건",
+              "사과예요."
+            ],
+            "source_preset_id": "this_phone_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_time_polite",
+            "mastery_key": "a1_bg_l01_time_polite",
+            "ko_surface": "지금 몇 시예요?",
+            "target_examples": [
+              "지금 몇 시예요?"
+            ],
+            "target_examples_zh_tw": [
+              "現在幾點？"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "現在幾點？",
+              "en": "What time is it now?"
+            },
+            "chunks": [
+              "지금",
+              "몇",
+              "시예요?"
+            ],
+            "distractors": [
+              "학생이에요?"
+            ],
+            "source_preset_id": "time_polite"
+          }
+        ]
+      },
+      "projection_source": {
+        "status": "merged_v1",
+        "last_generated": "P1_V1_MERGE"
+      },
+      "output_mode": "chunk_assembly"
+    },
+    {
+      "id": "A1-BG-L01-P2",
+      "content_form": "practice_card",
+      "learning_role": "controlled_output",
+      "payload": {
+        "cards": [
+          {
+            "item_id": "a1_bg_l01_do_exercise_polite_g1",
+            "mastery_key": "a1_bg_l01_do_exercise_polite_g1",
+            "front_ko": "운동을 해요.",
+            "back_ko": "운동을 해요.",
+            "answer_i18n": {
+              "zh_tw": "運動。",
+              "en": "Exercise."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "大部分하다結尾的動詞，해요體都換成해요。",
+              "en": "Most verbs ending in 하다 change to 해요 in polite form."
+            },
+            "source_preset_id": "do_exercise_polite_g1"
+          },
+          {
+            "item_id": "a1_bg_l01_drink_coffee_polite",
+            "mastery_key": "a1_bg_l01_drink_coffee_polite",
+            "front_ko": "커피를 마셔요.",
+            "back_ko": "커피를 마셔요.",
+            "answer_i18n": {
+              "zh_tw": "喝咖啡。",
+              "en": "Drink coffee."
+            },
+            "prompt_i18n": {
+              "zh_tw": "先聽句子，再想它在說什麼。",
+              "en": "Listen first, then think about what the sentence says."
+            },
+            "note_i18n": {
+              "zh_tw": "`마시다` 在 해요체 會變成 `마셔요`。",
+              "en": "`마시다` changes to `마셔요` in 해요체."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "動詞마시다接아요/어요變成마셔요。",
+              "en": "Verb 마시다 becomes 마셔요 in polite form."
+            },
+            "source_preset_id": "drink_coffee_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_eat_bread_polite",
+            "mastery_key": "a1_bg_l01_eat_bread_polite",
+            "front_ko": "빵을 먹어요.",
+            "back_ko": "빵을 먹어요.",
+            "answer_i18n": {
+              "zh_tw": "吃麵包。",
+              "en": "Eat bread."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "動詞먹다接어요變成먹어요。",
+              "en": "Verb 먹다 becomes 먹어요 in polite form."
+            },
+            "source_preset_id": "eat_bread_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_go_cafe_polite",
+            "mastery_key": "a1_bg_l01_go_cafe_polite",
+            "front_ko": "카페에 가요.",
+            "back_ko": "카페에 가요.",
+            "answer_i18n": {
+              "zh_tw": "去咖啡廳。",
+              "en": "Go to a cafe."
+            },
+            "prompt_i18n": {
+              "zh_tw": "先聽句子，再想完整意思。",
+              "en": "Listen to the sentence first, then think of the full meaning."
+            },
+            "note_i18n": {
+              "zh_tw": "名詞在選項裡先看本體，句子裡再補助詞。",
+              "en": "Show the noun stem in the selector first, then add the particle in the sentence."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "日常對話最常用的해요體。",
+              "en": "The most common polite ending in daily life."
+            },
+            "source_preset_id": "go_cafe_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_here_cafe_polite_g1",
+            "mastery_key": "a1_bg_l01_here_cafe_polite_g1",
+            "front_ko": "여기는 카페예요.",
+            "back_ko": "여기는 카페예요.",
+            "answer_i18n": {
+              "zh_tw": "這裡是咖啡廳。",
+              "en": "This place is a cafe."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "介紹地點時常用這裡(여기)、那裡(거기/저기)。",
+              "en": "Use here (여기), there (거기), or over there (저기) to describe locations."
+            },
+            "source_preset_id": "here_cafe_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_read_book_polite_g1",
+            "mastery_key": "a1_bg_l01_read_book_polite_g1",
+            "front_ko": "책을 읽어요.",
+            "back_ko": "책을 읽어요.",
+            "answer_i18n": {
+              "zh_tw": "讀書。",
+              "en": "Read a book."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "動詞읽다是有收音的，接어요。",
+              "en": "Verb 읽다 has a batchim, so it takes 어요."
+            },
+            "source_preset_id": "read_book_polite_g1"
+          },
+          {
+            "item_id": "a1_bg_l01_student_polite_g1",
+            "mastery_key": "a1_bg_l01_student_polite_g1",
+            "front_ko": "저는 학생이에요.",
+            "back_ko": "저는 학생이에요.",
+            "answer_i18n": {
+              "zh_tw": "我是學生。",
+              "en": "I am a student."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "自我介紹最常用的日常語法。",
+              "en": "The most common everyday way to introduce yourself."
+            },
+            "source_preset_id": "student_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_that_book_polite",
+            "mastery_key": "a1_bg_l01_that_book_polite",
+            "front_ko": "그건 책이에요.",
+            "back_ko": "그건 책이에요.",
+            "answer_i18n": {
+              "zh_tw": "那是書。",
+              "en": "That is a book."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "指示離聽者近或剛才提到的對象。",
+              "en": "That (그) is used for things near the listener or previously mentioned."
+            },
+            "source_preset_id": "that_book_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_that_over_there_apple_polite",
+            "mastery_key": "a1_bg_l01_that_over_there_apple_polite",
+            "front_ko": "저건 사과예요.",
+            "back_ko": "저건 사과예요.",
+            "answer_i18n": {
+              "zh_tw": "那邊那個是蘋果。",
+              "en": "That over there is an apple."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "指示離說話者和聽者都遠的人事物。",
+              "en": "That over there (저) is used for things far from both speaker and listener."
+            },
+            "source_preset_id": "that_over_there_apple_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_this_apple_polite",
+            "mastery_key": "a1_bg_l01_this_apple_polite",
+            "front_ko": "이건 사과예요.",
+            "back_ko": "이건 사과예요.",
+            "answer_i18n": {
+              "zh_tw": "這是蘋果。",
+              "en": "This is an apple."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "指示離說話者近的人事物。",
+              "en": "This (이) is used for things near the speaker."
+            },
+            "source_preset_id": "this_apple_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_this_phone_polite",
+            "mastery_key": "a1_bg_l01_this_phone_polite",
+            "front_ko": "이건 핸드폰이에요.",
+            "back_ko": "이건 핸드폰이에요.",
+            "answer_i18n": {
+              "zh_tw": "這是手機。",
+              "en": "This is a phone."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "注意 핸드폰 有收音，接 이에요。",
+              "en": "Note that 핸드폰 ends with a batchim, so it uses 이에요."
+            },
+            "source_preset_id": "this_phone_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_time_polite",
+            "mastery_key": "a1_bg_l01_time_polite",
+            "front_ko": "지금 몇 시예요?",
+            "back_ko": "지금 몇 시예요?",
+            "answer_i18n": {
+              "zh_tw": "現在幾點？",
+              "en": "What time is it now?"
+            },
+            "prompt_i18n": {
+              "zh_tw": "先聽這句，想想它在問什麼。",
+              "en": "Listen first and think about what this question is asking."
+            },
+            "note_i18n": {
+              "zh_tw": "這句很適合練語氣切換：입니까 / 예요 / 야。",
+              "en": "This is a good sentence for practicing 입니까 / 예요 / 야."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "詢問目前的時間。",
+              "en": "Asking for the current time."
+            },
+            "source_preset_id": "time_polite"
+          },
+          {
+            "item_id": "a1_bg_l01_yuna_polite",
+            "source": "hand_authored_override",
+            "front_ko": "저는 유나예요.",
+            "prompt_i18n": {
+              "zh_tw": "先聽這句，想想它是什麼意思。",
+              "en": "Listen to this sentence first and think about what it means."
+            },
+            "answer_i18n": {
+              "zh_tw": "我是 Yuna。",
+              "en": "I am Yuna."
+            },
+            "back_ko": "저는 유나예요.",
+            "note_i18n": {
+              "zh_tw": "第一次見面先用 해요體 最安全。",
+              "en": "In a first meeting, 해요체 is the safest starting point."
+            }
+          }
+        ]
+      },
+      "projection_source": {
+        "status": "merged_v1",
+        "last_generated": "P2_V1_MERGE"
+      },
+      "output_mode": "flashcard_review"
+    },
+    {
+      "id": "A1-BG-L01-R1",
+      "content_form": "review_card",
+      "learning_role": "review_retrieval",
+      "payload": {
+        "hint_policy": "先自己想，卡住再看提示。",
+        "reference_answers_ko": [
+          "처음 만나면 해요체를 먼저 써요.",
+          "저는 회사원입니다. / 저는 회사원래요. / 나는 회사원이야.",
+          "의사에는 받침이 없어서 예요를 써요.",
+          "동사도 같이 바뀌어요. 예를 들면 가요 / 가, 읽어요 / 읽어."
+        ],
+        "prompts_i18n": [
+          {
+            "zh_tw": "第一次見面時，你最先該用哪一種句尾？為什麼？",
+            "en": "Which ending should you use first in a first meeting, and why?"
+          },
+          {
+            "zh_tw": "把「我是上班族」切成正式、日常、朋友三種說法。",
+            "en": "Turn “I am an office worker” into formal, everyday, and casual versions."
+          },
+          {
+            "zh_tw": "為什麼 `의사예요` 不是 `의사이에요`？",
+            "en": "Why is it `의사예요`, not `의사이에요`?"
+          },
+          {
+            "zh_tw": "動詞句也會跟著變。請舉一組例子。",
+            "en": "Verb sentences change too. Give one example."
+          }
+        ]
+      },
+      "output_mode": "review_retrieval"
+    }
+  ]
+}

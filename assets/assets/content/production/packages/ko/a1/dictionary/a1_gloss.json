@@ -1,0 +1,7439 @@
+{
+  "schema_version": "a1_dictionary_gloss_sidecar.v1",
+  "language": "ko",
+  "generated_on": "2026-06-18",
+  "status": "author_complete_native_pending",
+  "native_status": "native_pending",
+  "author_role": "AUTHOR",
+  "judge_status": "not_judged_by_author",
+  "source_inputs": [
+    "content/review/a1_dialogue_segmentation_20260618/ko_dialogue_lemma_segmentation_20260618.json",
+    "content_v2/review/a1_target_freeze/reading_surface_drafts_20260615/segmentation/*.segmentation_staging.json"
+  ],
+  "coverage": {
+    "distinct_atom_ids": 539,
+    "glossed_entries": 539,
+    "dialogue_only": 283,
+    "reading_only": 107,
+    "reading_and_dialogue": 149,
+    "deliberate_exemptions": 0
+  },
+  "entries": [
+    {
+      "atom_id": "ko:adv:같이",
+      "lemma": "같이",
+      "pos": "ADV",
+      "zh_tw": "一起",
+      "example": "옆 친구가 웃으며 같이 앉아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:거의",
+      "lemma": "거의",
+      "pos": "ADV",
+      "zh_tw": "幾乎；快要",
+      "example": "휴대폰 배터리가 거의 없어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:곧",
+      "lemma": "곧",
+      "pos": "ADV",
+      "zh_tw": "很快；馬上",
+      "example": "고마워요. 곧 갈게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:그래서",
+      "lemma": "그래서",
+      "pos": "ADV",
+      "zh_tw": "所以",
+      "example": "그래서 커피를 안 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:그럼",
+      "lemma": "그럼",
+      "pos": "adv",
+      "zh_tw": "那麼；那就",
+      "example": "그럼 10시 20분 열차를 탈게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:그리고",
+      "lemma": "그리고",
+      "pos": "ADV",
+      "zh_tw": "然後；還有",
+      "example": "그리고 \"작은 빵도 주세요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:꼭",
+      "lemma": "꼭",
+      "pos": "adv",
+      "zh_tw": "一定",
+      "example": "오늘 꼭 와야 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:너무",
+      "lemma": "너무",
+      "pos": "adv",
+      "zh_tw": "太；非常",
+      "example": "이건 너무 비싸요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:다",
+      "lemma": "다",
+      "pos": "ADV",
+      "zh_tw": "全部；都",
+      "example": "감사합니다. 다 썼어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:다시",
+      "lemma": "다시",
+      "pos": "adv",
+      "zh_tw": "再；重新",
+      "example": "다시 예약했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:더",
+      "lemma": "더",
+      "pos": "ADV",
+      "zh_tw": "更",
+      "example": "아니요, 세 곳 더 가야 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:덜",
+      "lemma": "덜",
+      "pos": "ADV",
+      "zh_tw": "比較不；少一點",
+      "example": "네, 국수가 덜 매워요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:또",
+      "lemma": "또",
+      "pos": "ADV",
+      "zh_tw": "又；另外",
+      "example": "또 궁금하신 점 있으세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:많이",
+      "lemma": "많이",
+      "pos": "adv",
+      "zh_tw": "很多；大量地",
+      "example": "빵도 많이 안 먹어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:매일",
+      "lemma": "매일",
+      "pos": "adv",
+      "zh_tw": "每天",
+      "example": "저는 이 가족 사진을 매일 봐요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:먼저",
+      "lemma": "먼저",
+      "pos": "ADV",
+      "zh_tw": "先",
+      "example": "친구가 먼저 들어와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:못",
+      "lemma": "못",
+      "pos": "adv",
+      "zh_tw": "不能；沒能",
+      "example": "비가 와서 밖에 못 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:바로",
+      "lemma": "바로",
+      "pos": "ADV",
+      "zh_tw": "立刻；正好",
+      "example": "방은 조용해서 민수는 바로 쉬어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:새로",
+      "lemma": "새로",
+      "pos": "adv",
+      "zh_tw": "重新；新地",
+      "example": "방을 새로 예약할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:안",
+      "lemma": "안",
+      "pos": "adv",
+      "zh_tw": "不；沒",
+      "example": "빵도 많이 안 먹어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:안녕히",
+      "lemma": "안녕히",
+      "pos": "adv",
+      "zh_tw": "平安地；用於道別",
+      "example": "헤어질 때 \"안녕히 가세요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:어서",
+      "lemma": "어서",
+      "pos": "adv",
+      "zh_tw": "快；請進的歡迎語",
+      "example": "어서 오세요. 몇 분이세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:얼마나",
+      "lemma": "얼마나",
+      "pos": "adv",
+      "zh_tw": "多麼；多久",
+      "example": "얼마나 늦을 것 같아요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:없이",
+      "lemma": "없이",
+      "pos": "adv",
+      "zh_tw": "沒有；不加",
+      "example": "알겠습니다. 양파 없이 준비해 드릴게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:왜",
+      "lemma": "왜",
+      "pos": "adv",
+      "zh_tw": "為什麼",
+      "example": "왜요? 무슨 일 있어요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:이따",
+      "lemma": "이따",
+      "pos": "adv",
+      "zh_tw": "等一下；稍後",
+      "example": "좋아요. 이따 봐요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:일찍",
+      "lemma": "일찍",
+      "pos": "ADV",
+      "zh_tw": "早一點",
+      "example": "약속 장소에 오 분 일찍 도착해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:잘",
+      "lemma": "잘",
+      "pos": "ADV",
+      "zh_tw": "好好地；擅長",
+      "example": "잘 찾으시길 바랍니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:잠시",
+      "lemma": "잠시",
+      "pos": "ADV",
+      "zh_tw": "暫時；一下子",
+      "example": "네, 잠시만 기다려 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:절대",
+      "lemma": "절대",
+      "pos": "adv",
+      "zh_tw": "絕對",
+      "example": "아니요, 절대 안 돼요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:조금",
+      "lemma": "조금",
+      "pos": "ADV",
+      "zh_tw": "一點點",
+      "example": "우리는 학교와 회사 이야기를 조금 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:조심히",
+      "lemma": "조심히",
+      "pos": "adv",
+      "zh_tw": "小心地",
+      "example": "조심히 가세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:조용히",
+      "lemma": "조용히",
+      "pos": "adv",
+      "zh_tw": "安靜地",
+      "example": "그래서 집에서 조용히 쉬어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:지금",
+      "lemma": "지금",
+      "pos": "adv",
+      "zh_tw": "現在",
+      "example": "지금 바로 출발한다고 했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:쭉",
+      "lemma": "쭉",
+      "pos": "adv",
+      "zh_tw": "一直；筆直地",
+      "example": "이 길로 쭉 가서 왼쪽으로 가세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:천천히",
+      "lemma": "천천히",
+      "pos": "adv",
+      "zh_tw": "慢慢地",
+      "example": "택시는 역 앞에서 천천히 서요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:총",
+      "lemma": "총",
+      "pos": "adv",
+      "zh_tw": "總共",
+      "example": "총 4,500원입니다. 결제는 어떻게 하시겠어요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:adv:혹시",
+      "lemma": "혹시",
+      "pos": "ADV",
+      "zh_tw": "或許；如果",
+      "example": "혹시 늦으면 메시지할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:aux:blank",
+      "lemma": "ᆫ",
+      "pos": "aux",
+      "zh_tw": "-ㄴ/-은 修飾詞尾；此列為切分片段",
+      "example": "문 옆에 흰 모자가 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:게요",
+      "lemma": "ᆯ게요",
+      "pos": "aux",
+      "zh_tw": "表示自己要做的禮貌句尾 -ㄹ게요",
+      "example": "네, 사고 신고서를 쓸게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:겠",
+      "lemma": "겠",
+      "pos": "aux",
+      "zh_tw": "禮貌意願或推測 -겠-",
+      "example": "알겠습니다. 여기서 기다릴게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:군요",
+      "lemma": "군요",
+      "pos": "aux",
+      "zh_tw": "表示發現或感嘆的句尾",
+      "example": "체크아웃은 아침 아홉 시군요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:까요",
+      "lemma": "ᆯ까요",
+      "pos": "aux",
+      "zh_tw": "提議或詢問的句尾 -ㄹ까요",
+      "example": "4번 출구로 갈까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:나요",
+      "lemma": "나요",
+      "pos": "aux",
+      "zh_tw": "柔和提問句尾",
+      "example": "보상도 같이 받을 수 있나요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:네요",
+      "lemma": "네요",
+      "pos": "aux",
+      "zh_tw": "表示發現或感嘆的句尾",
+      "example": "입구에서 환불을 받으면 되네요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:는군요",
+      "lemma": "는군요",
+      "pos": "aux",
+      "zh_tw": "表示發現的句尾",
+      "example": "십 분 정도 걸리는군요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:는다는",
+      "lemma": "는다는",
+      "pos": "aux",
+      "zh_tw": "引用「說/表示會...」的連體形式",
+      "example": "기차가 늦는다는 거죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:는데",
+      "lemma": "는데",
+      "pos": "aux",
+      "zh_tw": "背景說明「...，可是/而」",
+      "example": "공항에 가는데 어디서 갈아타요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:니",
+      "lemma": "니",
+      "pos": "aux",
+      "zh_tw": "因為/看了之後的連接語尾",
+      "example": "확인해 보니 다른 방 하나가 있습니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:니다",
+      "lemma": "ᆸ니다",
+      "pos": "aux",
+      "zh_tw": "正式禮貌句尾 -ㅂ니다/-습니다",
+      "example": "빵을 받고 \"감사합니다\"라고 인사해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:다고",
+      "lemma": "ᆫ다고",
+      "pos": "aux",
+      "zh_tw": "引用「說...」",
+      "example": "지금 바로 출발한다고 했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:다는",
+      "lemma": "다는",
+      "pos": "aux",
+      "zh_tw": "引用內容修飾名詞",
+      "example": "그 표가 어제였다는 거죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:데",
+      "lemma": "ᆫ데",
+      "pos": "aux",
+      "zh_tw": "背景或轉折「...，但」",
+      "example": "미안한데 시간을 바꿀 수 있을까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:라고",
+      "lemma": "라고",
+      "pos": "aux",
+      "zh_tw": "引用「叫做/說」",
+      "example": "선생님은 물을 마시라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:라는",
+      "lemma": "라는",
+      "pos": "aux",
+      "zh_tw": "叫做...的；名為...的",
+      "example": "그 방이 만 원 안이라는 거죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:래요",
+      "lemma": "ᆯ래요",
+      "pos": "aux",
+      "zh_tw": "想要/要不要的句尾 -ㄹ래요",
+      "example": "오늘 오후에 같이 산책할래요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:려고",
+      "lemma": "려고",
+      "pos": "aux",
+      "zh_tw": "為了要；打算",
+      "example": "친구에게 전화하려고 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:세요",
+      "lemma": "세요",
+      "pos": "aux",
+      "zh_tw": "尊敬命令或請求句尾",
+      "example": "헤어질 때 \"안녕히 가세요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:어다",
+      "lemma": "어다",
+      "pos": "aux",
+      "zh_tw": "做完帶來/給出的連接",
+      "example": "수건을 가져다주시는 거죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:어도",
+      "lemma": "어도",
+      "pos": "aux",
+      "zh_tw": "即使；可以...也",
+      "example": "보관증을 버려도 돼요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:어서",
+      "lemma": "어서",
+      "pos": "aux",
+      "zh_tw": "因為/然後的連接語尾",
+      "example": "하늘이 맑아서 창문을 열어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:어야",
+      "lemma": "어야",
+      "pos": "aux",
+      "zh_tw": "必須；要...才行",
+      "example": "병원에 가야 해서 옮길게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:어요",
+      "lemma": "어요",
+      "pos": "aux",
+      "zh_tw": "非正式禮貌句尾",
+      "example": "우리는 학교와 회사 이야기를 조금 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:에요",
+      "lemma": "에요",
+      "pos": "aux",
+      "zh_tw": "是...（이에요/예요 的形式）",
+      "example": "저는 한국에서 온 학생이에요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:예요",
+      "lemma": "예요",
+      "pos": "aux",
+      "zh_tw": "是...（禮貌）",
+      "example": "저는 \"민수예요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:으며",
+      "lemma": "으며",
+      "pos": "aux",
+      "zh_tw": "一邊...一邊；並且",
+      "example": "선생님이 웃으며 인사해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:으면",
+      "lemma": "으면",
+      "pos": "aux",
+      "zh_tw": "如果",
+      "example": "입구에서 환불을 받으면 되네요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:으세요",
+      "lemma": "으세요",
+      "pos": "aux",
+      "zh_tw": "尊敬命令或請求句尾",
+      "example": "3시 출발 표로 변경해 드리면 맞으세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:으시",
+      "lemma": "으시",
+      "pos": "aux",
+      "zh_tw": "尊敬詞素",
+      "example": "찾으실 때 이 보관증을 보여 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:을게요",
+      "lemma": "을게요",
+      "pos": "aux",
+      "zh_tw": "表示自己要做的禮貌句尾",
+      "example": "네, 오늘 밤에 세탁물을 찾을게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:을까요",
+      "lemma": "을까요",
+      "pos": "aux",
+      "zh_tw": "提議或詢問「要不要...？」",
+      "example": "4시로 바꿀 수 있을까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:aux:죠",
+      "lemma": "죠",
+      "pos": "aux",
+      "zh_tw": "確認或同意的句尾「對吧」",
+      "example": "여권을 보여 드리면 되죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:count:개",
+      "lemma": "개",
+      "pos": "COUNT",
+      "zh_tw": "個",
+      "example": "친구 한 명은 빵 한 개를 골라요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:count:권",
+      "lemma": "권",
+      "pos": "COUNT",
+      "zh_tw": "여권「護照」的後半片段",
+      "example": "네, 여기 여권이 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:count:도",
+      "lemma": "도",
+      "pos": "COUNT",
+      "zh_tw": "也；同樣（助詞，POS 待修）",
+      "example": "오후 네 시에 친구도 카페에 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:count:명",
+      "lemma": "명",
+      "pos": "COUNT",
+      "zh_tw": "名；位（人數）",
+      "example": "세 명은 음식을 나누어 먹어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:count:번",
+      "lemma": "번",
+      "pos": "COUNT",
+      "zh_tw": "號；次",
+      "example": "4번 출구로 갈까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:count:분",
+      "lemma": "분",
+      "pos": "COUNT",
+      "zh_tw": "位；分鐘",
+      "example": "약속 장소에 오 분 일찍 도착해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:count:시",
+      "lemma": "시",
+      "pos": "COUNT",
+      "zh_tw": "點鐘；尊敬詞素視上下文",
+      "example": "오후 네 시에 친구도 카페에 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:count:알",
+      "lemma": "알",
+      "pos": "COUNT",
+      "zh_tw": "알겠습니다 中「知道／明白」的詞根片段",
+      "example": "알겠습니다. 여기서 기다릴게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:count:잔",
+      "lemma": "잔",
+      "pos": "COUNT",
+      "zh_tw": "杯",
+      "example": "커피 두 잔 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:count:장",
+      "lemma": "장",
+      "pos": "COUNT",
+      "zh_tw": "張",
+      "example": "역 안에서 서울역 표를 한 장 사요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:count:층",
+      "lemma": "층",
+      "pos": "COUNT",
+      "zh_tw": "樓層",
+      "example": "네, 내일 아침에 2층 식당으로 갈게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:count:호",
+      "lemma": "호",
+      "pos": "COUNT",
+      "zh_tw": "號（房號）",
+      "example": "302호예요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:count:호선",
+      "lemma": "호선",
+      "pos": "COUNT",
+      "zh_tw": "號線",
+      "example": "안내 말씀드립니다. 2호선 열차가 약 10분 늦게 도착합니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:det:그",
+      "lemma": "그",
+      "pos": "DET",
+      "zh_tw": "那個；該",
+      "example": "그다음에 카페에서 공부하려고 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:det:네",
+      "lemma": "네",
+      "pos": "DET",
+      "zh_tw": "四（固有數詞，用於時間）",
+      "example": "오후 네 시에 친구도 카페에 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:det:다른",
+      "lemma": "다른",
+      "pos": "DET",
+      "zh_tw": "其他的",
+      "example": "민수는 다른 카드를 보고 \"제 카드예요?\"라고 물어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:det:두",
+      "lemma": "두",
+      "pos": "DET",
+      "zh_tw": "兩個",
+      "example": "카페에 친구 두 명이 먼저 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:det:몇",
+      "lemma": "몇",
+      "pos": "DET",
+      "zh_tw": "幾；多少",
+      "example": "괜찮아요. 몇 시가 좋아요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:det:무슨",
+      "lemma": "무슨",
+      "pos": "DET",
+      "zh_tw": "什麼樣的",
+      "example": "왜요? 무슨 일 있어요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:det:새",
+      "lemma": "새",
+      "pos": "DET",
+      "zh_tw": "新的",
+      "example": "저는 새 교실에 들어가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:det:세",
+      "lemma": "세",
+      "pos": "DET",
+      "zh_tw": "三個",
+      "example": "세 명은 음식을 나누어 먹어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:det:이",
+      "lemma": "이",
+      "pos": "DET",
+      "zh_tw": "這個",
+      "example": "저는 학생이고 아침에 학교에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:det:저",
+      "lemma": "저",
+      "pos": "DET",
+      "zh_tw": "那個；我（저）視上下文",
+      "example": "저는 수업 후에 카페에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:det:한",
+      "lemma": "한",
+      "pos": "DET",
+      "zh_tw": "一個；某個",
+      "example": "역 안에서 서울역 표를 한 장 사요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:e:게",
+      "lemma": "게",
+      "pos": "E",
+      "zh_tw": "使...地；副詞化/連接詞尾",
+      "example": "목도 조금 아파서 말을 작게 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:고",
+      "lemma": "고",
+      "pos": "E",
+      "zh_tw": "並且；然後",
+      "example": "저는 학생이고 아침에 학교에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:기",
+      "lemma": "기",
+      "pos": "E",
+      "zh_tw": "名詞化詞尾",
+      "example": "학교에 가기 전에 물을 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:는",
+      "lemma": "는",
+      "pos": "E",
+      "zh_tw": "主題/修飾詞尾",
+      "example": "우리는 학교와 회사 이야기를 조금 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:러",
+      "lemma": "러",
+      "pos": "E",
+      "zh_tw": "去做...",
+      "example": "기차를 타고 친구를 만나러 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:면",
+      "lemma": "면",
+      "pos": "E",
+      "zh_tw": "如果",
+      "example": "친구가 오면 저는 집을 천천히 보여 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:서",
+      "lemma": "서",
+      "pos": "E",
+      "zh_tw": "在……；位於（앞에서 中的位置標記）",
+      "example": "택시는 역 앞에서 천천히 서요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:습니다",
+      "lemma": "습니다",
+      "pos": "E",
+      "zh_tw": "正式禮貌句尾",
+      "example": "교실 문에 \"수업 시간에는 책을 읽습니다\"라고 써 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:아",
+      "lemma": "아",
+      "pos": "E",
+      "zh_tw": "啊；喔（感嘆詞）",
+      "example": "아, 네.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:어",
+      "lemma": "어",
+      "pos": "E",
+      "zh_tw": "連接/句尾 -어",
+      "example": "계산대 앞에서 직원에게 물건을 보여 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:었",
+      "lemma": "었",
+      "pos": "E",
+      "zh_tw": "過去式詞素",
+      "example": "어제 기다렸어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:은",
+      "lemma": "은",
+      "pos": "E",
+      "zh_tw": "主題/修飾詞尾",
+      "example": "제 가방은 의자 옆에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:을",
+      "lemma": "을",
+      "pos": "E",
+      "zh_tw": "受詞/將來修飾詞尾",
+      "example": "친구와 공원에서 물을 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:지",
+      "lemma": "지",
+      "pos": "E",
+      "zh_tw": "否定或連接詞尾",
+      "example": "늦지 않았어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:e:지만",
+      "lemma": "지만",
+      "pos": "E",
+      "zh_tw": "但是",
+      "example": "우리 집은 작지만 편해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:intj:뭐",
+      "lemma": "뭐",
+      "pos": "intj",
+      "zh_tw": "什麼",
+      "example": "뭐 필요하세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:intj:아니",
+      "lemma": "아니",
+      "pos": "INTJ",
+      "zh_tw": "不是；或者不是",
+      "example": "직원은 \"아니에요, 이 카드예요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:intj:아니요",
+      "lemma": "아니요",
+      "pos": "INTJ",
+      "zh_tw": "不是；不用",
+      "example": "아니요, 기차 시간을 바꿀게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:intj:와",
+      "lemma": "와",
+      "pos": "INTJ",
+      "zh_tw": "和；與（連接助詞）",
+      "example": "우리는 학교와 회사 이야기를 조금 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:lingo",
+      "lemma": "lingo",
+      "pos": "n",
+      "zh_tw": "lingo（密碼文字）",
+      "example": "비밀번호는 lingo123이에요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:가게",
+      "lemma": "가게",
+      "pos": "N",
+      "zh_tw": "店；商店",
+      "example": "하나는 봉투를 받고 가게를 나가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:가격",
+      "lemma": "가격",
+      "pos": "N",
+      "zh_tw": "價格",
+      "example": "직원은 가격을 말하고 봉투를 준비해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:가능",
+      "lemma": "가능",
+      "pos": "n",
+      "zh_tw": "可能；可以",
+      "example": "네, 5시는 가능해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:가방",
+      "lemma": "가방",
+      "pos": "N",
+      "zh_tw": "包包",
+      "example": "저는 가방에 물을 넣어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:가족",
+      "lemma": "가족",
+      "pos": "N",
+      "zh_tw": "家人；家庭",
+      "example": "저는 이 가족 사진을 매일 봐요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:가지",
+      "lemma": "가지",
+      "pos": "N",
+      "zh_tw": "가져다주다 中「拿來／帶來」的詞根片段",
+      "example": "수건을 가져다주시는 거죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:n:감사",
+      "lemma": "감사",
+      "pos": "n",
+      "zh_tw": "感謝",
+      "example": "빵을 받고 \"감사합니다\"라고 인사해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:객실",
+      "lemma": "객실",
+      "pos": "n",
+      "zh_tw": "客房",
+      "example": "입구에서 객실 번호만 말하면 되네요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:거",
+      "lemma": "거",
+      "pos": "N",
+      "zh_tw": "東西；事情",
+      "example": "오늘 3시에 보는 거 맞죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:거울",
+      "lemma": "거울",
+      "pos": "N",
+      "zh_tw": "鏡子",
+      "example": "검은 바지도 입고 거울을 봐요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:것",
+      "lemma": "것",
+      "pos": "N",
+      "zh_tw": "東西；事情",
+      "example": "카페 의자 옆에 둔 것 같아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:결제",
+      "lemma": "결제",
+      "pos": "n",
+      "zh_tw": "付款",
+      "example": "지금 바로 결제할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:경찰",
+      "lemma": "경찰",
+      "pos": "N",
+      "zh_tw": "警察",
+      "example": "입구에서 경찰에게 말하면 되네요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:계",
+      "lemma": "계",
+      "pos": "n",
+      "zh_tw": "계세요 中尊敬進行形片段",
+      "example": "무엇을 찾고 계세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:n:계산",
+      "lemma": "계산",
+      "pos": "N",
+      "zh_tw": "結帳；計算",
+      "example": "카드로 계산할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:계산대",
+      "lemma": "계산대",
+      "pos": "n",
+      "zh_tw": "收銀台",
+      "example": "계산대 앞에서 직원에게 물건을 보여 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:계산서",
+      "lemma": "계산서",
+      "pos": "n",
+      "zh_tw": "帳單",
+      "example": "계산서를 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:고기",
+      "lemma": "고기",
+      "pos": "N",
+      "zh_tw": "肉",
+      "example": "고기가 많이 들어가는군요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:곳",
+      "lemma": "곳",
+      "pos": "N",
+      "zh_tw": "地方",
+      "example": "아니요, 세 곳 더 가야 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:공부",
+      "lemma": "공부",
+      "pos": "N",
+      "zh_tw": "讀書；學習",
+      "example": "지금 공부했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:공원",
+      "lemma": "공원",
+      "pos": "N",
+      "zh_tw": "公園",
+      "example": "친구와 공원에서 물을 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:공책",
+      "lemma": "공책",
+      "pos": "N",
+      "zh_tw": "筆記本",
+      "example": "교실에서 공책을 펴요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:공항",
+      "lemma": "공항",
+      "pos": "N",
+      "zh_tw": "機場",
+      "example": "네, 먼저 공항, 그다음 호텔이에요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:과",
+      "lemma": "과",
+      "pos": "N",
+      "zh_tw": "和",
+      "example": "직원에게 이름과 가방 색을 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:교실",
+      "lemma": "교실",
+      "pos": "N",
+      "zh_tw": "教室",
+      "example": "아침에 교실 문이 열려요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:국수",
+      "lemma": "국수",
+      "pos": "n",
+      "zh_tw": "麵",
+      "example": "감사합니다. 국수 하나 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:규정",
+      "lemma": "규정",
+      "pos": "N",
+      "zh_tw": "規定",
+      "example": "환불 규정을 알려 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:그때",
+      "lemma": "그때",
+      "pos": "N",
+      "zh_tw": "那時候",
+      "example": "네, 그때 봐요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:근처",
+      "lemma": "근처",
+      "pos": "N",
+      "zh_tw": "附近",
+      "example": "집 근처 카페에서 만났어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:기분",
+      "lemma": "기분",
+      "pos": "N",
+      "zh_tw": "心情",
+      "example": "하나는 아침에 기분이 좋아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:기차",
+      "lemma": "기차",
+      "pos": "n",
+      "zh_tw": "火車",
+      "example": "기차를 타고 친구를 만나러 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:길",
+      "lemma": "길",
+      "pos": "N",
+      "zh_tw": "路",
+      "example": "직원은 \"이 길로 가세요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:날씨",
+      "lemma": "날씨",
+      "pos": "N",
+      "zh_tw": "天氣",
+      "example": "점심에는 날씨가 조금 더워요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:내",
+      "lemma": "내",
+      "pos": "N",
+      "zh_tw": "내요 中「付錢／繳」的詞根片段",
+      "example": "하나는 카드로 돈을 내요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:n:내일",
+      "lemma": "내일",
+      "pos": "N",
+      "zh_tw": "明天",
+      "example": "네, 내일 아침에 2층 식당으로 갈게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:냄새",
+      "lemma": "냄새",
+      "pos": "N",
+      "zh_tw": "味道；氣味",
+      "example": "오른쪽에는 부엌이 있고 냄새가 좋아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:노트",
+      "lemma": "노트",
+      "pos": "n",
+      "zh_tw": "筆記本",
+      "example": "좋아요. 그 노트로 할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:님",
+      "lemma": "님",
+      "pos": "n",
+      "zh_tw": "先生/女士的尊稱",
+      "example": "선생님이 웃으며 인사해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:다음",
+      "lemma": "다음",
+      "pos": "N",
+      "zh_tw": "下次；下一個",
+      "example": "다음 열차는 10시 20분쯤 도착해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:대답",
+      "lemma": "대답",
+      "pos": "N",
+      "zh_tw": "回答",
+      "example": "상대방: \"어서 오세요. 예약하셨나요?\"\n짧게 대답하세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:대만",
+      "lemma": "대만",
+      "pos": "n",
+      "zh_tw": "台灣",
+      "example": "대만에서 왔어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:도착",
+      "lemma": "도착",
+      "pos": "n",
+      "zh_tw": "到達",
+      "example": "약속 장소에 오 분 일찍 도착해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:돈",
+      "lemma": "돈",
+      "pos": "N",
+      "zh_tw": "錢",
+      "example": "하나는 카드로 돈을 내요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:동생",
+      "lemma": "동생",
+      "pos": "N",
+      "zh_tw": "弟弟/妹妹",
+      "example": "동생은 학생이고 저는 학생이에요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:뒤",
+      "lemma": "뒤",
+      "pos": "N",
+      "zh_tw": "之後；後面",
+      "example": "세 시간 뒤에 체크아웃하네요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:따뜻",
+      "lemma": "따뜻",
+      "pos": "n",
+      "zh_tw": "溫暖",
+      "example": "카페는 따뜻하고 조용해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:때",
+      "lemma": "때",
+      "pos": "n",
+      "zh_tw": "時候",
+      "example": "헤어질 때 \"안녕히 가세요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:리",
+      "lemma": "리",
+      "pos": "n",
+      "zh_tw": "利；人名音節",
+      "example": "왕리로 예약했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:만",
+      "lemma": "만",
+      "pos": "N",
+      "zh_tw": "只；程度限制",
+      "example": "입구에서 객실 번호만 말하면 되네요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:말",
+      "lemma": "말",
+      "pos": "N",
+      "zh_tw": "話；說話",
+      "example": "헤어질 때 \"안녕히 가세요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:말씀",
+      "lemma": "말씀",
+      "pos": "N",
+      "zh_tw": "話語（敬語）",
+      "example": "입구에서 객실 번호만 말씀해 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:머리",
+      "lemma": "머리",
+      "pos": "N",
+      "zh_tw": "頭",
+      "example": "점심 후에 머리가 조금 좋아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:메뉴",
+      "lemma": "메뉴",
+      "pos": "n",
+      "zh_tw": "菜單；餐點",
+      "example": "메뉴를 추천해 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:메시지",
+      "lemma": "메시지",
+      "pos": "n",
+      "zh_tw": "訊息",
+      "example": "혹시 늦으면 메시지할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:모두",
+      "lemma": "모두",
+      "pos": "N",
+      "zh_tw": "全部；大家",
+      "example": "수업이 시작되고 모두 앉아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:모자",
+      "lemma": "모자",
+      "pos": "N",
+      "zh_tw": "帽子",
+      "example": "문 옆에 흰 모자가 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:목",
+      "lemma": "목",
+      "pos": "N",
+      "zh_tw": "喉嚨；脖子",
+      "example": "목이 말라서 물도 필요해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:문",
+      "lemma": "문",
+      "pos": "N",
+      "zh_tw": "門",
+      "example": "학교 문 앞에서 친구를 만나요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:문의",
+      "lemma": "문의",
+      "pos": "n",
+      "zh_tw": "詢問",
+      "example": "네, 거기에서 문의해 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:문제",
+      "lemma": "문제",
+      "pos": "N",
+      "zh_tw": "問題",
+      "example": "그래서 사회 문제에 대해 생각했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:물",
+      "lemma": "물",
+      "pos": "N",
+      "zh_tw": "水",
+      "example": "친구와 공원에서 물을 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:물건",
+      "lemma": "물건",
+      "pos": "N",
+      "zh_tw": "物品",
+      "example": "계산대 앞에서 직원에게 물건을 보여 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:뭐",
+      "lemma": "뭐",
+      "pos": "n",
+      "zh_tw": "什麼",
+      "example": "내일 아침에는 뭐 할 거예요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:미안",
+      "lemma": "미안",
+      "pos": "n",
+      "zh_tw": "抱歉",
+      "example": "미안한데 시간을 바꿀 수 있을까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:민",
+      "lemma": "민",
+      "pos": "n",
+      "zh_tw": "民；人名音節",
+      "example": "저는 \"민수예요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:민수",
+      "lemma": "민수",
+      "pos": "n",
+      "zh_tw": "民洙（人名）",
+      "example": "민수는 사과 세 개를 사요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:민지",
+      "lemma": "민지",
+      "pos": "n",
+      "zh_tw": "敏智（人名）",
+      "example": "민지는 시간을 보고 물을 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:바지",
+      "lemma": "바지",
+      "pos": "N",
+      "zh_tw": "褲子",
+      "example": "학교 앞에서 친구가 검은 바지를 보고 웃어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:박",
+      "lemma": "박",
+      "pos": "n",
+      "zh_tw": "晚（住宿晚數）",
+      "example": "2박 맞으세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:밖",
+      "lemma": "밖",
+      "pos": "N",
+      "zh_tw": "外面",
+      "example": "밖에는 비가 조금 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:밤",
+      "lemma": "밤",
+      "pos": "N",
+      "zh_tw": "晚上",
+      "example": "민수는 밤에 작은 호텔에 도착해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:밥",
+      "lemma": "밥",
+      "pos": "N",
+      "zh_tw": "飯",
+      "example": "점심에는 식당에서 밥을 먹어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:방",
+      "lemma": "방",
+      "pos": "N",
+      "zh_tw": "房間",
+      "example": "방은 조용해서 민수는 바로 쉬어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:배",
+      "lemma": "배",
+      "pos": "N",
+      "zh_tw": "肚子",
+      "example": "오늘 민지는 배가 조금 아파요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:배터리",
+      "lemma": "배터리",
+      "pos": "n",
+      "zh_tw": "電池",
+      "example": "휴대폰 배터리가 거의 없어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:버스",
+      "lemma": "버스",
+      "pos": "N",
+      "zh_tw": "公車；巴士",
+      "example": "버스는 십 분 후에 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:번호",
+      "lemma": "번호",
+      "pos": "N",
+      "zh_tw": "號碼",
+      "example": "직원은 비밀번호를 종이에 써 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:변경",
+      "lemma": "변경",
+      "pos": "n",
+      "zh_tw": "變更",
+      "example": "변경됐습니다. 3시에 타시면 돼요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:병원",
+      "lemma": "병원",
+      "pos": "N",
+      "zh_tw": "醫院",
+      "example": "병원에 가야 해서 옮길게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:보관",
+      "lemma": "보관",
+      "pos": "n",
+      "zh_tw": "保管；寄放",
+      "example": "보관증을 버려도 돼요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:보상",
+      "lemma": "보상",
+      "pos": "n",
+      "zh_tw": "補償",
+      "example": "보상도 같이 받을 수 있나요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:보험",
+      "lemma": "보험",
+      "pos": "n",
+      "zh_tw": "保險",
+      "example": "제 보험을 확인해 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:봉투",
+      "lemma": "봉투",
+      "pos": "n",
+      "zh_tw": "袋子",
+      "example": "하나는 봉투를 받고 가게를 나가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:부엌",
+      "lemma": "부엌",
+      "pos": "N",
+      "zh_tw": "廚房",
+      "example": "화장실은 부엌 옆에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:분실",
+      "lemma": "분실",
+      "pos": "n",
+      "zh_tw": "遺失",
+      "example": "분실 신고를 하고 싶어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:분실물",
+      "lemma": "분실물",
+      "pos": "n",
+      "zh_tw": "遺失物",
+      "example": "수지는 분실물 센터에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:비",
+      "lemma": "비",
+      "pos": "N",
+      "zh_tw": "雨",
+      "example": "비가 와서 집 앞에서 택시를 타요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:비밀",
+      "lemma": "비밀",
+      "pos": "N",
+      "zh_tw": "비밀번호「密碼」中的「秘密」成分",
+      "example": "직원은 비밀번호를 종이에 써 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:n:비밀번호",
+      "lemma": "비밀번호",
+      "pos": "n",
+      "zh_tw": "密碼",
+      "example": "카페 와이파이 비밀번호를 직원에게 물어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:비빔밥",
+      "lemma": "비빔밥",
+      "pos": "n",
+      "zh_tw": "拌飯",
+      "example": "비빔밥이 더 싼 거죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:빵",
+      "lemma": "빵",
+      "pos": "N",
+      "zh_tw": "麵包",
+      "example": "빵을 받고 \"감사합니다\"라고 인사해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:빵집",
+      "lemma": "빵집",
+      "pos": "n",
+      "zh_tw": "麵包店",
+      "example": "수지는 점심에 빵집에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:사고",
+      "lemma": "사고",
+      "pos": "N",
+      "zh_tw": "事故",
+      "example": "네, 사고 신고서를 쓸게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:사과",
+      "lemma": "사과",
+      "pos": "N",
+      "zh_tw": "蘋果",
+      "example": "민수는 사과 세 개를 사요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:사진",
+      "lemma": "사진",
+      "pos": "N",
+      "zh_tw": "照片",
+      "example": "저는 이 가족 사진을 매일 봐요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:사회",
+      "lemma": "사회",
+      "pos": "N",
+      "zh_tw": "社會",
+      "example": "그래서 사회 문제에 대해 생각했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:산책",
+      "lemma": "산책",
+      "pos": "n",
+      "zh_tw": "散步",
+      "example": "좋아요. 같이 산책해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:상대방",
+      "lemma": "상대방",
+      "pos": "N",
+      "zh_tw": "對方",
+      "example": "상대방: \"어서 오세요. 예약하셨나요?\"\n짧게 대답하세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:상황",
+      "lemma": "상황",
+      "pos": "N",
+      "zh_tw": "情況",
+      "example": "응급 상황이면 어디로 가요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:색",
+      "lemma": "색",
+      "pos": "N",
+      "zh_tw": "顏色",
+      "example": "직원에게 이름과 가방 색을 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:샐러드",
+      "lemma": "샐러드",
+      "pos": "n",
+      "zh_tw": "沙拉",
+      "example": "이 샐러드는 몇 층이에요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:생각",
+      "lemma": "생각",
+      "pos": "N",
+      "zh_tw": "想法",
+      "example": "그래서 사회 문제에 대해 생각했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:서울역",
+      "lemma": "서울역",
+      "pos": "N",
+      "zh_tw": "首爾站",
+      "example": "역 안에서 서울역 표를 한 장 사요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:선물",
+      "lemma": "선물",
+      "pos": "N",
+      "zh_tw": "禮物",
+      "example": "친구는 작은 선물을 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:선생",
+      "lemma": "선생",
+      "pos": "N",
+      "zh_tw": "老師",
+      "example": "선생님이 웃으며 인사해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:설명",
+      "lemma": "설명",
+      "pos": "N",
+      "zh_tw": "說明",
+      "example": "환불 규정을 설명해 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:성함",
+      "lemma": "성함",
+      "pos": "n",
+      "zh_tw": "姓名（敬語）",
+      "example": "성함이 어떻게 되세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:세탁물",
+      "lemma": "세탁물",
+      "pos": "n",
+      "zh_tw": "洗好的衣物；送洗衣物",
+      "example": "네, 오늘 밤에 세탁물을 찾을게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:센터",
+      "lemma": "센터",
+      "pos": "n",
+      "zh_tw": "中心",
+      "example": "수지는 분실물 센터에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:셔츠",
+      "lemma": "셔츠",
+      "pos": "n",
+      "zh_tw": "襯衫",
+      "example": "지민은 파란 셔츠 위에 코트를 입어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:수",
+      "lemma": "수",
+      "pos": "N",
+      "zh_tw": "人名「민수」中的音節片段",
+      "example": "저는 \"민수예요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:n:수건",
+      "lemma": "수건",
+      "pos": "n",
+      "zh_tw": "毛巾",
+      "example": "수건을 가져다주시는 거죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:수아",
+      "lemma": "수아",
+      "pos": "n",
+      "zh_tw": "秀娥（人名）",
+      "example": "수아는 따뜻한 물을 천천히 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:수업",
+      "lemma": "수업",
+      "pos": "N",
+      "zh_tw": "課；上課",
+      "example": "저는 수업 후에 카페에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:수지",
+      "lemma": "수지",
+      "pos": "n",
+      "zh_tw": "秀智（人名）",
+      "example": "수지는 \"물 주세요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:수하물",
+      "lemma": "수하물",
+      "pos": "n",
+      "zh_tw": "行李",
+      "example": "공항에서 수하물을 찾을게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:숙제",
+      "lemma": "숙제",
+      "pos": "N",
+      "zh_tw": "作業",
+      "example": "저녁에는 집에 와서 숙제를 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:승강장",
+      "lemma": "승강장",
+      "pos": "n",
+      "zh_tw": "月台",
+      "example": "표 여기 있습니다. 2번 승강장으로 가세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:시간",
+      "lemma": "시간",
+      "pos": "N",
+      "zh_tw": "時間",
+      "example": "표를 보고 기차 시간을 확인해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:시작",
+      "lemma": "시작",
+      "pos": "N",
+      "zh_tw": "開始",
+      "example": "수업이 시작되고 모두 앉아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:시청",
+      "lemma": "시청",
+      "pos": "N",
+      "zh_tw": "市政府",
+      "example": "시청 안에서 만나요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:시청역",
+      "lemma": "시청역",
+      "pos": "n",
+      "zh_tw": "市廳站",
+      "example": "감사합니다. 시청역에서 갈아탈게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:식당",
+      "lemma": "식당",
+      "pos": "N",
+      "zh_tw": "餐廳",
+      "example": "점심에는 식당에서 밥을 먹어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:식사",
+      "lemma": "식사",
+      "pos": "N",
+      "zh_tw": "用餐；餐",
+      "example": "아침 식사는 오전 7시부터 10시까지입니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:신고",
+      "lemma": "신고",
+      "pos": "n",
+      "zh_tw": "申報；報案",
+      "example": "정식으로 신고하겠습니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:신고서",
+      "lemma": "신고서",
+      "pos": "n",
+      "zh_tw": "申報書；報案表",
+      "example": "네, 사고 신고서를 쓸게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:신분증",
+      "lemma": "신분증",
+      "pos": "n",
+      "zh_tw": "身分證件",
+      "example": "신분증을 보여드릴게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:신청",
+      "lemma": "신청",
+      "pos": "n",
+      "zh_tw": "申請",
+      "example": "환불을 신청할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:실용",
+      "lemma": "실용",
+      "pos": "n",
+      "zh_tw": "實用",
+      "example": "실용적인 게 좋아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:씨",
+      "lemma": "씨",
+      "pos": "N",
+      "zh_tw": "先生/小姐（稱呼）",
+      "example": "네, 예약 이름은 민수 씨예요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:아래",
+      "lemma": "아래",
+      "pos": "N",
+      "zh_tw": "下面",
+      "example": "알겠습니다. 아래에 쓸게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:아메리카노",
+      "lemma": "아메리카노",
+      "pos": "n",
+      "zh_tw": "美式咖啡",
+      "example": "아이스 아메리카노 한 잔, 포장 맞으세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:아버지",
+      "lemma": "아버지",
+      "pos": "N",
+      "zh_tw": "爸爸；父親",
+      "example": "아버지는 회사에 가고 어머니는 집에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:아웃",
+      "lemma": "아웃",
+      "pos": "n",
+      "zh_tw": "체크아웃 的後半；退房",
+      "example": "체크아웃을 조금 늦게 할 수 있을까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:아이스",
+      "lemma": "아이스",
+      "pos": "n",
+      "zh_tw": "冰的",
+      "example": "아이스 아메리카노 한 잔, 포장 맞으세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:아침",
+      "lemma": "아침",
+      "pos": "N",
+      "zh_tw": "早上；早餐",
+      "example": "저는 학생이고 아침에 학교에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:아홉",
+      "lemma": "아홉",
+      "pos": "N",
+      "zh_tw": "九",
+      "example": "체크아웃은 아침 아홉 시군요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:안",
+      "lemma": "안",
+      "pos": "n",
+      "zh_tw": "裡面；範圍內",
+      "example": "역 안에서 서울역 표를 한 장 사요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:안내",
+      "lemma": "안내",
+      "pos": "N",
+      "zh_tw": "안내；通知",
+      "example": "안내 말씀드립니다. 2호선 열차가 약 10분 늦게 도착합니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:안내문",
+      "lemma": "안내문",
+      "pos": "n",
+      "zh_tw": "告示；說明文",
+      "example": "안내문을 봐 주세요. 조식은 아침 일곱 시부터 아홉 시까지입니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:안녕",
+      "lemma": "안녕",
+      "pos": "n",
+      "zh_tw": "你好/平安",
+      "example": "지수는 \"안녕하세요\"라고 인사해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:알레르기",
+      "lemma": "알레르기",
+      "pos": "n",
+      "zh_tw": "過敏",
+      "example": "네, 알레르기 약을 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:앞",
+      "lemma": "앞",
+      "pos": "N",
+      "zh_tw": "前面",
+      "example": "학교 문 앞에서 친구를 만나요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:약",
+      "lemma": "약",
+      "pos": "N",
+      "zh_tw": "約；大約",
+      "example": "안내 말씀드립니다. 2호선 열차가 약 10분 늦게 도착합니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:약속",
+      "lemma": "약속",
+      "pos": "N",
+      "zh_tw": "約定；約會",
+      "example": "약속 장소에 오 분 일찍 도착해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:양식",
+      "lemma": "양식",
+      "pos": "N",
+      "zh_tw": "表格",
+      "example": "이 양식을 먼저 작성해 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:양파",
+      "lemma": "양파",
+      "pos": "N",
+      "zh_tw": "洋蔥",
+      "example": "알겠습니다. 양파 없이 준비해 드릴게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:어머니",
+      "lemma": "어머니",
+      "pos": "N",
+      "zh_tw": "媽媽；母親",
+      "example": "아버지는 회사에 가고 어머니는 집에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:어제",
+      "lemma": "어제",
+      "pos": "N",
+      "zh_tw": "昨天",
+      "example": "어제 기다렸어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:엘리베이터",
+      "lemma": "엘리베이터",
+      "pos": "n",
+      "zh_tw": "電梯",
+      "example": "여기 객실 키입니다. 엘리베이터는 오른쪽에 있습니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:여",
+      "lemma": "여",
+      "pos": "n",
+      "zh_tw": "여권 的前半；護照詞素",
+      "example": "네, 여기 여권이 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:여권",
+      "lemma": "여권",
+      "pos": "n",
+      "zh_tw": "護照",
+      "example": "여권을 보여 드리면 되죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:역",
+      "lemma": "역",
+      "pos": "N",
+      "zh_tw": "站",
+      "example": "역 안에서 서울역 표를 한 장 사요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:연결",
+      "lemma": "연결",
+      "pos": "n",
+      "zh_tw": "連線；連接",
+      "example": "연결이 안 돼요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:연락",
+      "lemma": "연락",
+      "pos": "N",
+      "zh_tw": "聯絡",
+      "example": "좋아요. 그럼 11시에 연락할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:연락처",
+      "lemma": "연락처",
+      "pos": "n",
+      "zh_tw": "聯絡方式",
+      "example": "이름과 연락처를 남겨 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:연필",
+      "lemma": "연필",
+      "pos": "N",
+      "zh_tw": "鉛筆",
+      "example": "책상에 공책과 연필이 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:열",
+      "lemma": "열",
+      "pos": "N",
+      "zh_tw": "打開；開啟",
+      "example": "하늘이 맑아서 창문을 열어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:열쇠",
+      "lemma": "열쇠",
+      "pos": "n",
+      "zh_tw": "鑰匙",
+      "example": "직원은 방 카드와 열쇠를 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:열차",
+      "lemma": "열차",
+      "pos": "n",
+      "zh_tw": "列車",
+      "example": "그럼 10시 20분 열차를 탈게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:영수증",
+      "lemma": "영수증",
+      "pos": "N",
+      "zh_tw": "收據",
+      "example": "직원은 영수증을 주고 하나는 확인해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:영화",
+      "lemma": "영화",
+      "pos": "N",
+      "zh_tw": "電影",
+      "example": "어제 영화가 재미있었어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:옆",
+      "lemma": "옆",
+      "pos": "N",
+      "zh_tw": "旁邊",
+      "example": "제 가방은 의자 옆에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:예약",
+      "lemma": "예약",
+      "pos": "n",
+      "zh_tw": "預約",
+      "example": "진료 예약을 하고 싶어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:예정",
+      "lemma": "예정",
+      "pos": "N",
+      "zh_tw": "預定",
+      "example": "오늘 4시에 픽업 예정이에요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:오늘",
+      "lemma": "오늘",
+      "pos": "N",
+      "zh_tw": "今天",
+      "example": "오늘 아침 날씨가 좋아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:오른쪽",
+      "lemma": "오른쪽",
+      "pos": "N",
+      "zh_tw": "右邊",
+      "example": "오른쪽에는 부엌이 있고 냄새가 좋아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:오전",
+      "lemma": "오전",
+      "pos": "N",
+      "zh_tw": "上午",
+      "example": "네, 내일 오전 10시 맞죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:오후",
+      "lemma": "오후",
+      "pos": "N",
+      "zh_tw": "下午",
+      "example": "오후 네 시에 친구도 카페에 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:와이파이",
+      "lemma": "와이파이",
+      "pos": "n",
+      "zh_tw": "Wi-Fi",
+      "example": "카페 와이파이 비밀번호를 직원에게 물어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:왕",
+      "lemma": "왕",
+      "pos": "N",
+      "zh_tw": "王；姓氏",
+      "example": "왕리로 예약했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:왼쪽",
+      "lemma": "왼쪽",
+      "pos": "N",
+      "zh_tw": "左邊",
+      "example": "현관에서 왼쪽에 작은 방이 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:요금",
+      "lemma": "요금",
+      "pos": "N",
+      "zh_tw": "費用",
+      "example": "요금을 깎아 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:우산",
+      "lemma": "우산",
+      "pos": "N",
+      "zh_tw": "雨傘",
+      "example": "하나는 우산을 들어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:우유",
+      "lemma": "우유",
+      "pos": "N",
+      "zh_tw": "牛奶",
+      "example": "학교 앞 가게에서 우유를 사요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:원",
+      "lemma": "원",
+      "pos": "n",
+      "zh_tw": "韓元",
+      "example": "가격은 이천 원이에요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:위",
+      "lemma": "위",
+      "pos": "N",
+      "zh_tw": "上面",
+      "example": "책이 책상 위에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:유나",
+      "lemma": "유나",
+      "pos": "n",
+      "zh_tw": "宥娜（人名）",
+      "example": "저는 유나예요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:은행",
+      "lemma": "은행",
+      "pos": "N",
+      "zh_tw": "銀行",
+      "example": "은행은 11시에 문을 닫아요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:음료",
+      "lemma": "음료",
+      "pos": "N",
+      "zh_tw": "飲料",
+      "example": "주문하신 음료 나왔습니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:음식",
+      "lemma": "음식",
+      "pos": "N",
+      "zh_tw": "食物",
+      "example": "세 명은 음식을 나누어 먹어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:음악",
+      "lemma": "음악",
+      "pos": "N",
+      "zh_tw": "音樂",
+      "example": "수업 후에는 음악을 들어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:응급",
+      "lemma": "응급",
+      "pos": "n",
+      "zh_tw": "緊急",
+      "example": "응급 상황이면 어디로 가요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:의사",
+      "lemma": "의사",
+      "pos": "N",
+      "zh_tw": "醫生",
+      "example": "네, 의사에게 물어볼게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:의자",
+      "lemma": "의자",
+      "pos": "N",
+      "zh_tw": "椅子",
+      "example": "제 가방은 의자 옆에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:이거",
+      "lemma": "이거",
+      "pos": "n",
+      "zh_tw": "這個",
+      "example": "이건 너무 비싸요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:이름",
+      "lemma": "이름",
+      "pos": "N",
+      "zh_tw": "名字",
+      "example": "선생님이 이름을 물어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:이야기",
+      "lemma": "이야기",
+      "pos": "N",
+      "zh_tw": "聊天；故事",
+      "example": "우리는 학교와 회사 이야기를 조금 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:이쪽",
+      "lemma": "이쪽",
+      "pos": "N",
+      "zh_tw": "這邊",
+      "example": "네, 이쪽 플랫폼에서 기다리시면 돼요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:인사",
+      "lemma": "인사",
+      "pos": "N",
+      "zh_tw": "打招呼",
+      "example": "선생님이 웃으며 인사해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:일",
+      "lemma": "일",
+      "pos": "N",
+      "zh_tw": "事情；工作",
+      "example": "친구는 오후에 회사에서 일해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:입",
+      "lemma": "입",
+      "pos": "N",
+      "zh_tw": "입어요 中「穿」的詞根片段",
+      "example": "지민은 파란 셔츠 위에 코트를 입어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:n:입구",
+      "lemma": "입구",
+      "pos": "N",
+      "zh_tw": "入口",
+      "example": "입구에서 환불을 받으면 되네요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:자리",
+      "lemma": "자리",
+      "pos": "N",
+      "zh_tw": "座位",
+      "example": "하나는 자리에 앉아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:작성",
+      "lemma": "작성",
+      "pos": "n",
+      "zh_tw": "填寫；製作",
+      "example": "이 양식을 먼저 작성해 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:장소",
+      "lemma": "장소",
+      "pos": "N",
+      "zh_tw": "地點",
+      "example": "약속 장소에 오 분 일찍 도착해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:저녁",
+      "lemma": "저녁",
+      "pos": "N",
+      "zh_tw": "晚上；晚餐",
+      "example": "저녁에는 집에 와서 숙제를 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:저쪽",
+      "lemma": "저쪽",
+      "pos": "N",
+      "zh_tw": "那邊",
+      "example": "저쪽으로 쭉 가시면 오른쪽에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:적",
+      "lemma": "적",
+      "pos": "N",
+      "zh_tw": "...的；性質",
+      "example": "실용적인 게 좋아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:전",
+      "lemma": "전",
+      "pos": "N",
+      "zh_tw": "之前",
+      "example": "학교에 가기 전에 물을 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:전화",
+      "lemma": "전화",
+      "pos": "N",
+      "zh_tw": "電話",
+      "example": "민수는 휴대폰을 충전하고 친구에게 전화해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:전화번호",
+      "lemma": "전화번호",
+      "pos": "N",
+      "zh_tw": "電話號碼",
+      "example": "네, 이름과 전화번호를 남길게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:점",
+      "lemma": "점",
+      "pos": "N",
+      "zh_tw": "點；方面",
+      "example": "또 궁금하신 점 있으세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:점심",
+      "lemma": "점심",
+      "pos": "N",
+      "zh_tw": "午餐",
+      "example": "점심에는 날씨가 조금 더워요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:정도",
+      "lemma": "정도",
+      "pos": "N",
+      "zh_tw": "程度；大約",
+      "example": "10분 정도면 기다리시겠어요, 아니면 버스를 타시겠어요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:정식",
+      "lemma": "정식",
+      "pos": "n",
+      "zh_tw": "正式",
+      "example": "정식으로 신고하겠습니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:정오",
+      "lemma": "정오",
+      "pos": "n",
+      "zh_tw": "正午",
+      "example": "정오 전에 카드를 보여 드리면 되죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:조식",
+      "lemma": "조식",
+      "pos": "n",
+      "zh_tw": "早餐",
+      "example": "조식은 밤 일곱 시부터 아홉 시까지군요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:조용",
+      "lemma": "조용",
+      "pos": "n",
+      "zh_tw": "安靜",
+      "example": "카페는 따뜻하고 조용해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:종이",
+      "lemma": "종이",
+      "pos": "N",
+      "zh_tw": "紙",
+      "example": "직원은 비밀번호를 종이에 써 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:죄송",
+      "lemma": "죄송",
+      "pos": "n",
+      "zh_tw": "抱歉",
+      "example": "죄송하지만 예약을 취소할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:주",
+      "lemma": "주",
+      "pos": "N",
+      "zh_tw": "줘요／주세요 中「給」的詞根片段",
+      "example": "친구는 작은 선물을 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:n:주말",
+      "lemma": "주말",
+      "pos": "N",
+      "zh_tw": "週末",
+      "example": "주말에 뭐 했어요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:주문",
+      "lemma": "주문",
+      "pos": "n",
+      "zh_tw": "點餐；訂購",
+      "example": "다시 주문할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:준비",
+      "lemma": "준비",
+      "pos": "N",
+      "zh_tw": "準備",
+      "example": "저는 차를 마시고 수업 준비를 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:중",
+      "lemma": "중",
+      "pos": "N",
+      "zh_tw": "之中",
+      "example": "방 두 개 중 하나는 제 방이에요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:증",
+      "lemma": "증",
+      "pos": "n",
+      "zh_tw": "證明文件；單據中的「證」片段",
+      "example": "보관증을 버려도 돼요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:n:지갑",
+      "lemma": "지갑",
+      "pos": "N",
+      "zh_tw": "錢包",
+      "example": "지갑에는 현금도 조금 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:지민",
+      "lemma": "지민",
+      "pos": "n",
+      "zh_tw": "智敏（人名）",
+      "example": "지민은 파란 셔츠 위에 코트를 입어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:지수",
+      "lemma": "지수",
+      "pos": "n",
+      "zh_tw": "智秀（人名）",
+      "example": "지수는 \"고마워요\"라고 말하고 웃어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:지하철",
+      "lemma": "지하철",
+      "pos": "N",
+      "zh_tw": "地下鐵",
+      "example": "지하철역이 어디예요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:직원",
+      "lemma": "직원",
+      "pos": "N",
+      "zh_tw": "員工",
+      "example": "직원은 가격을 말하고 봉투를 준비해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:진료",
+      "lemma": "진료",
+      "pos": "n",
+      "zh_tw": "看診",
+      "example": "진료 예약을 하고 싶어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:짐",
+      "lemma": "짐",
+      "pos": "n",
+      "zh_tw": "行李",
+      "example": "잃어버린 짐을 신고하고 싶어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:집",
+      "lemma": "집",
+      "pos": "N",
+      "zh_tw": "家",
+      "example": "비가 와서 집 앞에서 택시를 타요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:쪽",
+      "lemma": "쪽",
+      "pos": "N",
+      "zh_tw": "邊；方向",
+      "example": "저쪽 테이블 옆이요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:쯤",
+      "lemma": "쯤",
+      "pos": "n",
+      "zh_tw": "左右；大約",
+      "example": "다음 열차는 10시 20분쯤 도착해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:차",
+      "lemma": "차",
+      "pos": "N",
+      "zh_tw": "茶",
+      "example": "저는 차를 마시고 수업 준비를 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:창문",
+      "lemma": "창문",
+      "pos": "N",
+      "zh_tw": "窗戶",
+      "example": "하늘이 맑아서 창문을 열어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:책",
+      "lemma": "책",
+      "pos": "N",
+      "zh_tw": "書",
+      "example": "책이 책상 위에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:책상",
+      "lemma": "책상",
+      "pos": "N",
+      "zh_tw": "書桌",
+      "example": "책이 책상 위에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:처음",
+      "lemma": "처음",
+      "pos": "N",
+      "zh_tw": "第一次",
+      "example": "안녕하세요. 처음 뵙겠습니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:첫날",
+      "lemma": "첫날",
+      "pos": "N",
+      "zh_tw": "第一天",
+      "example": "직원은 \"오늘은 첫날이에요\"라고 확인해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:체크",
+      "lemma": "체크",
+      "pos": "n",
+      "zh_tw": "체크아웃/체크인 的前半；辦理/確認",
+      "example": "체크아웃을 조금 늦게 할 수 있을까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:체크아웃",
+      "lemma": "체크아웃",
+      "pos": "n",
+      "zh_tw": "退房",
+      "example": "체크아웃은 아침 아홉 시군요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:체크인",
+      "lemma": "체크인",
+      "pos": "n",
+      "zh_tw": "入住登記",
+      "example": "체크인을 조금 늦게 할 수 있을까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:추천",
+      "lemma": "추천",
+      "pos": "n",
+      "zh_tw": "推薦",
+      "example": "메뉴를 추천해 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:출구",
+      "lemma": "출구",
+      "pos": "n",
+      "zh_tw": "出口",
+      "example": "4번 출구로 갈까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:출발",
+      "lemma": "출발",
+      "pos": "n",
+      "zh_tw": "出發",
+      "example": "지금 바로 출발한다고 했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:충분",
+      "lemma": "충분",
+      "pos": "n",
+      "zh_tw": "足夠",
+      "example": "네, 이렇게 쓰면 충분해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:충전",
+      "lemma": "충전",
+      "pos": "n",
+      "zh_tw": "充電",
+      "example": "민수는 휴대폰을 충전하고 친구에게 전화해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:취소",
+      "lemma": "취소",
+      "pos": "n",
+      "zh_tw": "取消",
+      "example": "죄송하지만 예약을 취소할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:친구",
+      "lemma": "친구",
+      "pos": "N",
+      "zh_tw": "朋友",
+      "example": "오후 네 시에 친구도 카페에 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:카드",
+      "lemma": "카드",
+      "pos": "N",
+      "zh_tw": "卡片；信用卡",
+      "example": "하나는 카드로 돈을 내요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:카페",
+      "lemma": "카페",
+      "pos": "n",
+      "zh_tw": "咖啡廳",
+      "example": "오후 네 시에 친구도 카페에 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:칸",
+      "lemma": "칸",
+      "pos": "n",
+      "zh_tw": "欄位",
+      "example": "네, 전화번호는 아래 칸이에요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:커피",
+      "lemma": "커피",
+      "pos": "N",
+      "zh_tw": "咖啡",
+      "example": "그래서 커피를 안 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:컵",
+      "lemma": "컵",
+      "pos": "N",
+      "zh_tw": "杯子",
+      "example": "작은 컵으로 바꿔 주시는 거죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:코트",
+      "lemma": "코트",
+      "pos": "n",
+      "zh_tw": "外套",
+      "example": "지민은 파란 셔츠 위에 코트를 입어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:콘센트",
+      "lemma": "콘센트",
+      "pos": "n",
+      "zh_tw": "插座",
+      "example": "콘센트가 어디예요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:키",
+      "lemma": "키",
+      "pos": "N",
+      "zh_tw": "鑰匙；房卡",
+      "example": "방 키 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:택시",
+      "lemma": "택시",
+      "pos": "N",
+      "zh_tw": "計程車",
+      "example": "택시는 역 앞에서 천천히 서요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:테이블",
+      "lemma": "테이블",
+      "pos": "n",
+      "zh_tw": "桌子",
+      "example": "테이블이 어디예요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:토요일",
+      "lemma": "토요일",
+      "pos": "N",
+      "zh_tw": "星期六",
+      "example": "네, 토요일 두 시에 봐요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:통장",
+      "lemma": "통장",
+      "pos": "N",
+      "zh_tw": "存摺",
+      "example": "제 통장을 확인해 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:편안",
+      "lemma": "편안",
+      "pos": "n",
+      "zh_tw": "舒適；安穩",
+      "example": "편안한 시간 되세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:포장",
+      "lemma": "포장",
+      "pos": "n",
+      "zh_tw": "外帶；包裝",
+      "example": "네, 선물 포장도 가능해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:표",
+      "lemma": "표",
+      "pos": "N",
+      "zh_tw": "票",
+      "example": "표를 보고 기차 시간을 확인해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:프런트",
+      "lemma": "프런트",
+      "pos": "n",
+      "zh_tw": "櫃台",
+      "example": "객실 카드는 정오 전에 프런트에 한번 보여 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:플랫폼",
+      "lemma": "플랫폼",
+      "pos": "n",
+      "zh_tw": "月台",
+      "example": "네, 이쪽 플랫폼에서 기다리시면 돼요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:픽업",
+      "lemma": "픽업",
+      "pos": "n",
+      "zh_tw": "接送",
+      "example": "픽업 시간을 바꿀 수 있을까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:필요",
+      "lemma": "필요",
+      "pos": "N",
+      "zh_tw": "需要",
+      "example": "필요한 물건을 하나 골라요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:하나",
+      "lemma": "하나",
+      "pos": "N",
+      "zh_tw": "一個",
+      "example": "하나는 봉투를 받고 가게를 나가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:하늘",
+      "lemma": "하늘",
+      "pos": "N",
+      "zh_tw": "天空",
+      "example": "오후에도 하늘이 맑아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:학교",
+      "lemma": "학교",
+      "pos": "N",
+      "zh_tw": "學校",
+      "example": "우리는 학교와 회사 이야기를 조금 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:학생",
+      "lemma": "학생",
+      "pos": "N",
+      "zh_tw": "學生",
+      "example": "저는 학생이고 아침에 학교에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:한국",
+      "lemma": "한국",
+      "pos": "N",
+      "zh_tw": "韓國",
+      "example": "저는 한국에서 온 학생이에요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:한국어",
+      "lemma": "한국어",
+      "pos": "N",
+      "zh_tw": "韓語",
+      "example": "한국어를 조금 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:행",
+      "lemma": "행",
+      "pos": "n",
+      "zh_tw": "往...方向",
+      "example": "공항행 열차가 어제 왔죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:현관",
+      "lemma": "현관",
+      "pos": "n",
+      "zh_tw": "玄關",
+      "example": "현관에서 왼쪽에 작은 방이 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:현금",
+      "lemma": "현금",
+      "pos": "N",
+      "zh_tw": "現金",
+      "example": "지갑에는 현금도 조금 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:호텔",
+      "lemma": "호텔",
+      "pos": "n",
+      "zh_tw": "飯店",
+      "example": "아침에는 호텔 식당에서 빵을 먹어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:화장실",
+      "lemma": "화장실",
+      "pos": "N",
+      "zh_tw": "洗手間",
+      "example": "화장실은 부엌 옆에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:확인",
+      "lemma": "확인",
+      "pos": "n",
+      "zh_tw": "確認",
+      "example": "표를 보고 기차 시간을 확인해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:환불",
+      "lemma": "환불",
+      "pos": "n",
+      "zh_tw": "退款",
+      "example": "입구에서 환불을 받으면 되네요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:n:회사",
+      "lemma": "회사",
+      "pos": "N",
+      "zh_tw": "公司",
+      "example": "우리는 학교와 회사 이야기를 조금 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:후",
+      "lemma": "후",
+      "pos": "N",
+      "zh_tw": "之後",
+      "example": "저는 수업 후에 카페에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:n:휴대폰",
+      "lemma": "휴대폰",
+      "pos": "n",
+      "zh_tw": "手機",
+      "example": "민수는 휴대폰을 충전하고 친구에게 전화해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:num:1",
+      "lemma": "1",
+      "pos": "num",
+      "zh_tw": "一",
+      "example": "네, 카페 1층으로 갈게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:10",
+      "lemma": "10",
+      "pos": "num",
+      "zh_tw": "十",
+      "example": "10시 20분에 문을 닫아요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:11",
+      "lemma": "11",
+      "pos": "num",
+      "zh_tw": "十一",
+      "example": "좋아요. 그럼 11시에 연락할게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:12000",
+      "lemma": "12,000",
+      "pos": "num",
+      "zh_tw": "一萬二千",
+      "example": "12,000원입니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:123",
+      "lemma": "123",
+      "pos": "num",
+      "zh_tw": "一二三",
+      "example": "비밀번호는 lingo123이에요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:15",
+      "lemma": "15",
+      "pos": "num",
+      "zh_tw": "十五",
+      "example": "15분 정도 걸려요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:2",
+      "lemma": "2",
+      "pos": "num",
+      "zh_tw": "二",
+      "example": "네, 내일 아침에 2층 식당으로 갈게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:20",
+      "lemma": "20",
+      "pos": "num",
+      "zh_tw": "二十",
+      "example": "10시 20분에 문을 닫아요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:3",
+      "lemma": "3",
+      "pos": "num",
+      "zh_tw": "三",
+      "example": "그럼 3시에 봐요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:302",
+      "lemma": "302",
+      "pos": "num",
+      "zh_tw": "三零二",
+      "example": "302호예요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:4",
+      "lemma": "4",
+      "pos": "num",
+      "zh_tw": "四",
+      "example": "그럼 4시에 봐요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:4500",
+      "lemma": "4,500",
+      "pos": "num",
+      "zh_tw": "四千五百",
+      "example": "총 4,500원입니다. 결제는 어떻게 하시겠어요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:5",
+      "lemma": "5",
+      "pos": "num",
+      "zh_tw": "五",
+      "example": "감사합니다. 5시에 갈게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:5000",
+      "lemma": "5,000",
+      "pos": "num",
+      "zh_tw": "五千",
+      "example": "5,000원입니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:7",
+      "lemma": "7",
+      "pos": "num",
+      "zh_tw": "七",
+      "example": "감사합니다. 7시 전에 올게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:삼",
+      "lemma": "삼",
+      "pos": "num",
+      "zh_tw": "三",
+      "example": "삼 층 객실로 가면 되죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:삼십",
+      "lemma": "삼십",
+      "pos": "num",
+      "zh_tw": "三十",
+      "example": "삼십 분 뒤에 옮길 수 있네요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:num:십",
+      "lemma": "십",
+      "pos": "num",
+      "zh_tw": "十",
+      "example": "버스는 십 분 후에 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:num:오",
+      "lemma": "오",
+      "pos": "num",
+      "zh_tw": "五",
+      "example": "약속 장소에 오 분 일찍 도착해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:num:이천",
+      "lemma": "이천",
+      "pos": "num",
+      "zh_tw": "兩千",
+      "example": "가격은 이천 원이에요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:num:일곱",
+      "lemma": "일곱",
+      "pos": "num",
+      "zh_tw": "七",
+      "example": "민수는 아침 일곱 시에 일어나요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:p:blank",
+      "lemma": "ᆯ",
+      "pos": "p",
+      "zh_tw": "-길 中的 -ㄹ 結尾片段；此列為切分片段",
+      "example": "잘 찾으시길 바랍니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:p:가",
+      "lemma": "가",
+      "pos": "P",
+      "zh_tw": "가요 中「去」的詞根切分",
+      "example": "저는 수업 후에 카페에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:p:까지",
+      "lemma": "까지",
+      "pos": "P",
+      "zh_tw": "到...為止",
+      "example": "조식은 밤 일곱 시부터 아홉 시까지군요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:p:라고",
+      "lemma": "라고",
+      "pos": "p",
+      "zh_tw": "引用助詞「說/叫做」",
+      "example": "헤어질 때 \"안녕히 가세요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:p:로",
+      "lemma": "로",
+      "pos": "P",
+      "zh_tw": "用；往；以",
+      "example": "하나는 카드로 돈을 내요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:p:를",
+      "lemma": "를",
+      "pos": "P",
+      "zh_tw": "受詞助詞",
+      "example": "우리는 학교와 회사 이야기를 조금 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:p:부터",
+      "lemma": "부터",
+      "pos": "P",
+      "zh_tw": "從...開始",
+      "example": "조식은 밤 일곱 시부터 아홉 시까지군요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:p:에",
+      "lemma": "에",
+      "pos": "P",
+      "zh_tw": "在；到；於",
+      "example": "오후 네 시에 친구도 카페에 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:p:에게",
+      "lemma": "에게",
+      "pos": "P",
+      "zh_tw": "給；對",
+      "example": "계산대 앞에서 직원에게 물건을 보여 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:p:에서",
+      "lemma": "에서",
+      "pos": "P",
+      "zh_tw": "在；從",
+      "example": "친구는 오후에 회사에서 일해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:p:요",
+      "lemma": "요",
+      "pos": "P",
+      "zh_tw": "禮貌語尾/回應詞尾",
+      "example": "늦어서요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:p:으로",
+      "lemma": "으로",
+      "pos": "P",
+      "zh_tw": "用；往；以",
+      "example": "민수는 카드를 들고 방으로 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:p:의",
+      "lemma": "의",
+      "pos": "P",
+      "zh_tw": "的",
+      "example": "제 가방은 의자 옆에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:p:이요",
+      "lemma": "이요",
+      "pos": "p",
+      "zh_tw": "是...；禮貌回答詞尾",
+      "example": "왼쪽이요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:pron:거기",
+      "lemma": "거기",
+      "pos": "PRON",
+      "zh_tw": "那裡",
+      "example": "네, 거기에서 문의해 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:pron:너",
+      "lemma": "너",
+      "pos": "PRON",
+      "zh_tw": "你（非敬語）；目前僅有 prompt 型證據，暫不作普通顯示列",
+      "example": "상대방: \"네, 무엇을 도와드릴까요?\"\n짧게 대답하세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "no_clean_a1_inventory_example_for_pronoun_surface; prompt-only evidence is not learner-display-grounded",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:pron:무엇",
+      "lemma": "무엇",
+      "pos": "PRON",
+      "zh_tw": "什麼",
+      "example": "안녕하세요. 무엇을 도와드릴까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:pron:어디",
+      "lemma": "어디",
+      "pos": "PRON",
+      "zh_tw": "哪裡",
+      "example": "은행이 어디예요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:pron:얼마",
+      "lemma": "얼마",
+      "pos": "PRON",
+      "zh_tw": "多少錢；多少",
+      "example": "얼마예요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:pron:여기",
+      "lemma": "여기",
+      "pos": "PRON",
+      "zh_tw": "這裡",
+      "example": "알겠습니다. 여기서 기다릴게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:pron:우리",
+      "lemma": "우리",
+      "pos": "PRON",
+      "zh_tw": "我們；我家的",
+      "example": "우리는 학교와 회사 이야기를 조금 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:가깝",
+      "lemma": "가깝",
+      "pos": "v",
+      "zh_tw": "近",
+      "example": "네. 3번 출구가 가까워요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:가볍",
+      "lemma": "가볍",
+      "pos": "v",
+      "zh_tw": "輕；清爽",
+      "example": "국수가 더 가벼운 거죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:가져가",
+      "lemma": "가져가",
+      "pos": "v",
+      "zh_tw": "帶走",
+      "example": "가져갈게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:갈아타",
+      "lemma": "갈아타",
+      "pos": "v",
+      "zh_tw": "轉乘",
+      "example": "네, 기차를 갈아타요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:같",
+      "lemma": "같",
+      "pos": "v",
+      "zh_tw": "像；好像",
+      "example": "카페 의자 옆에 둔 것 같아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:걸리",
+      "lemma": "걸리",
+      "pos": "v",
+      "zh_tw": "花費時間",
+      "example": "십 분 정도 걸리는군요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:걸어가",
+      "lemma": "걸어가",
+      "pos": "v",
+      "zh_tw": "走過去",
+      "example": "수지는 오른쪽으로 걸어가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:검",
+      "lemma": "검",
+      "pos": "v",
+      "zh_tw": "黑；黑色的",
+      "example": "학교 앞에서 친구가 검은 바지를 보고 웃어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:고르",
+      "lemma": "고르",
+      "pos": "v",
+      "zh_tw": "選擇",
+      "example": "필요한 물건을 하나 골라요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:고맙",
+      "lemma": "고맙",
+      "pos": "v",
+      "zh_tw": "謝謝；感謝",
+      "example": "지수는 \"고마워요\"라고 말하고 웃어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:괜찮",
+      "lemma": "괜찮",
+      "pos": "v",
+      "zh_tw": "沒關係；可以",
+      "example": "네, 4시 괜찮아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:궁금하",
+      "lemma": "궁금하",
+      "pos": "v",
+      "zh_tw": "好奇；想知道",
+      "example": "또 궁금하신 점 있으세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:그렇",
+      "lemma": "그렇",
+      "pos": "v",
+      "zh_tw": "那樣；如此",
+      "example": "감사합니다. 그렇게 해 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:기다리",
+      "lemma": "기다리",
+      "pos": "v",
+      "zh_tw": "等待",
+      "example": "알겠습니다. 여기서 기다릴게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:깎",
+      "lemma": "깎",
+      "pos": "v",
+      "zh_tw": "削減；殺價",
+      "example": "가격을 깎아 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:꽂",
+      "lemma": "꽂",
+      "pos": "v",
+      "zh_tw": "插入",
+      "example": "결제 도와드릴게요. 카드는 여기에 꽂아 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:나가",
+      "lemma": "나가",
+      "pos": "v",
+      "zh_tw": "出去",
+      "example": "하나는 봉투를 받고 가게를 나가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:나누",
+      "lemma": "나누",
+      "pos": "v",
+      "zh_tw": "分開；分享",
+      "example": "세 명은 음식을 나누어 먹어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:나오",
+      "lemma": "나오",
+      "pos": "v",
+      "zh_tw": "出來",
+      "example": "주문하신 음료 나왔습니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:남기",
+      "lemma": "남기",
+      "pos": "v",
+      "zh_tw": "留下",
+      "example": "네, 이름과 전화번호를 남길게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:내리",
+      "lemma": "내리",
+      "pos": "v",
+      "zh_tw": "下車；下來",
+      "example": "다음 역에서 내려요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:넣",
+      "lemma": "넣",
+      "pos": "v",
+      "zh_tw": "放入",
+      "example": "저는 가방에 물을 넣어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:놀라",
+      "lemma": "놀라",
+      "pos": "v",
+      "zh_tw": "驚訝",
+      "example": "수지는 역에서 가방이 없어서 놀라요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:늦",
+      "lemma": "늦",
+      "pos": "v",
+      "zh_tw": "晚；遲到",
+      "example": "10분 늦게 도착한다고 했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:늦추",
+      "lemma": "늦추",
+      "pos": "v",
+      "zh_tw": "延後",
+      "example": "체크아웃을 늦추고 싶어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:다르",
+      "lemma": "다르",
+      "pos": "v",
+      "zh_tw": "不同",
+      "example": "두 메뉴가 어떻게 달라요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:닫",
+      "lemma": "닫",
+      "pos": "v",
+      "zh_tw": "關上",
+      "example": "10시 20분에 문을 닫아요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:대하",
+      "lemma": "대하",
+      "pos": "v",
+      "zh_tw": "關於；對待",
+      "example": "그래서 사회 문제에 대해 생각했어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:덥",
+      "lemma": "덥",
+      "pos": "v",
+      "zh_tw": "熱",
+      "example": "점심에는 날씨가 조금 더워요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:도와주",
+      "lemma": "도와주",
+      "pos": "v",
+      "zh_tw": "幫忙",
+      "example": "방에 수건이 없어요. 도와주실 수 있나요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:돕",
+      "lemma": "돕",
+      "pos": "v",
+      "zh_tw": "幫忙",
+      "example": "안녕하세요. 무엇을 도와드릴까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:되",
+      "lemma": "되",
+      "pos": "v",
+      "zh_tw": "-되고 中「變成／發生」的詞根片段",
+      "example": "수업이 시작되고 모두 앉아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ],
+      "display_status": "suppress_fragment_native_pending",
+      "exemption_reason": "grammar_morpheme_or_analyzer_fragment_not_ordinary_learner_dictionary_entry",
+      "learner_dictionary_visibility": "not_shown",
+      "learner_dictionary_message_zh_tw": "不顯示"
+    },
+    {
+      "atom_id": "ko:v:드리",
+      "lemma": "드리",
+      "pos": "v",
+      "zh_tw": "給您；為您做",
+      "example": "여권을 보여 드리면 되죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:드시",
+      "lemma": "드시",
+      "pos": "v",
+      "zh_tw": "吃/喝的尊敬形",
+      "example": "드시고 가세요, 가져가세요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:듣",
+      "lemma": "듣",
+      "pos": "v",
+      "zh_tw": "聽",
+      "example": "수업 후에는 음악을 들어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:들",
+      "lemma": "들",
+      "pos": "v",
+      "zh_tw": "拿著；舉起／提起",
+      "example": "하나는 우산을 들어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:들어가",
+      "lemma": "들어가",
+      "pos": "v",
+      "zh_tw": "進去；含有",
+      "example": "하나는 작은 가게에 들어가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:들어오",
+      "lemma": "들어오",
+      "pos": "v",
+      "zh_tw": "進來",
+      "example": "친구가 먼저 들어와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:뜨겁",
+      "lemma": "뜨겁",
+      "pos": "v",
+      "zh_tw": "燙；熱",
+      "example": "커피가 뜨거워서 물도 조금 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:마르",
+      "lemma": "마르",
+      "pos": "v",
+      "zh_tw": "口渴（목이 마르다）",
+      "example": "목이 말라서 물도 필요해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618;a1_gloss_repair_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:마시",
+      "lemma": "마시",
+      "pos": "v",
+      "zh_tw": "喝",
+      "example": "친구와 공원에서 물을 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:만나",
+      "lemma": "만나",
+      "pos": "v",
+      "zh_tw": "見面",
+      "example": "학교 문 앞에서 친구를 만나요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:만들",
+      "lemma": "만들",
+      "pos": "v",
+      "zh_tw": "製作",
+      "example": "작은 컵은 어디에서 만들어요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:맑",
+      "lemma": "맑",
+      "pos": "v",
+      "zh_tw": "晴朗；清澈",
+      "example": "오후에도 하늘이 맑아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:맞",
+      "lemma": "맞",
+      "pos": "v",
+      "zh_tw": "對；符合",
+      "example": "오늘 3시에 보는 거 맞죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:맡기",
+      "lemma": "맡기",
+      "pos": "v",
+      "zh_tw": "寄放；交給",
+      "example": "아침 7시에 맡기면 되죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:맵",
+      "lemma": "맵",
+      "pos": "v",
+      "zh_tw": "辣",
+      "example": "네, 국수가 덜 매워요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:먹",
+      "lemma": "먹",
+      "pos": "v",
+      "zh_tw": "吃",
+      "example": "세 명은 음식을 나누어 먹어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:모르",
+      "lemma": "모르",
+      "pos": "v",
+      "zh_tw": "不知道",
+      "example": "길을 몰라서 직원에게 물어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:묻",
+      "lemma": "묻",
+      "pos": "v",
+      "zh_tw": "問",
+      "example": "선생님이 이름을 물어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:바꾸",
+      "lemma": "바꾸",
+      "pos": "v",
+      "zh_tw": "更換；改變",
+      "example": "방을 바꿔 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:바라",
+      "lemma": "바라",
+      "pos": "v",
+      "zh_tw": "希望；祝願",
+      "example": "잘 찾으시길 바랍니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:반갑",
+      "lemma": "반갑",
+      "pos": "v",
+      "zh_tw": "高興見到",
+      "example": "저도 반가워요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:받",
+      "lemma": "받",
+      "pos": "v",
+      "zh_tw": "收到",
+      "example": "하나는 봉투를 받고 가게를 나가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:버리",
+      "lemma": "버리",
+      "pos": "v",
+      "zh_tw": "丟掉",
+      "example": "보관증을 버려도 돼요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:보",
+      "lemma": "보",
+      "pos": "v",
+      "zh_tw": "看；見",
+      "example": "표를 보고 기차 시간을 확인해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:보내",
+      "lemma": "보내",
+      "pos": "v",
+      "zh_tw": "送；寄",
+      "example": "네, 객실로 보내드리겠습니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:보이",
+      "lemma": "보이",
+      "pos": "v",
+      "zh_tw": "給...看；看起來",
+      "example": "계산대 앞에서 직원에게 물건을 보여 줘요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:뵈",
+      "lemma": "뵈",
+      "pos": "v",
+      "zh_tw": "拜見；見面（謙讓）",
+      "example": "그럼 오후 3시에 뵐게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:뵙",
+      "lemma": "뵙",
+      "pos": "v",
+      "zh_tw": "拜見（謙讓）",
+      "example": "안녕하세요. 처음 뵙겠습니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:부탁드리",
+      "lemma": "부탁드리",
+      "pos": "v",
+      "zh_tw": "拜託；請求",
+      "example": "그럼 5시로 부탁드려요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:비싸",
+      "lemma": "비싸",
+      "pos": "v",
+      "zh_tw": "貴",
+      "example": "이건 너무 비싸요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:빠르",
+      "lemma": "빠르",
+      "pos": "v",
+      "zh_tw": "快",
+      "example": "기차가 더 빠른 거죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:사",
+      "lemma": "사",
+      "pos": "v",
+      "zh_tw": "買",
+      "example": "역 안에서 서울역 표를 한 장 사요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:쉬",
+      "lemma": "쉬",
+      "pos": "v",
+      "zh_tw": "休息",
+      "example": "민지는 집에서 쉬고 물을 마셔요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:시끄럽",
+      "lemma": "시끄럽",
+      "pos": "v",
+      "zh_tw": "吵",
+      "example": "방이 조금 시끄러워서 바꿀 수 있을까요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:싫",
+      "lemma": "싫",
+      "pos": "v",
+      "zh_tw": "不喜歡；不要",
+      "example": "아니요, 싫어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:싶",
+      "lemma": "싶",
+      "pos": "v",
+      "zh_tw": "想要",
+      "example": "진료 예약을 하고 싶어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:싸",
+      "lemma": "싸",
+      "pos": "v",
+      "zh_tw": "便宜",
+      "example": "비빔밥이 더 싼 거죠?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:쓰",
+      "lemma": "쓰",
+      "pos": "v",
+      "zh_tw": "寫；使用",
+      "example": "교실 문에 \"수업 시간에는 책을 읽습니다\"라고 써 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:아프",
+      "lemma": "아프",
+      "pos": "v",
+      "zh_tw": "痛；不舒服",
+      "example": "오늘 민지는 배가 조금 아파요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:앉",
+      "lemma": "앉",
+      "pos": "v",
+      "zh_tw": "坐",
+      "example": "수업이 시작되고 모두 앉아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:않",
+      "lemma": "않",
+      "pos": "v",
+      "zh_tw": "不；沒有",
+      "example": "늦지 않았어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:알리",
+      "lemma": "알리",
+      "pos": "v",
+      "zh_tw": "告知",
+      "example": "환불 규정을 알려 주세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:어떻",
+      "lemma": "어떻",
+      "pos": "v",
+      "zh_tw": "如何；怎麼樣",
+      "example": "세 시쯤 어때요?",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:어렵",
+      "lemma": "어렵",
+      "pos": "v",
+      "zh_tw": "困難；不方便",
+      "example": "미안하지만 오늘은 어려워요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:없",
+      "lemma": "없",
+      "pos": "v",
+      "zh_tw": "沒有",
+      "example": "수지는 역에서 가방이 없어서 놀라요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:열리",
+      "lemma": "열리",
+      "pos": "v",
+      "zh_tw": "打開",
+      "example": "아침에 교실 문이 열려요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:오",
+      "lemma": "오",
+      "pos": "v",
+      "zh_tw": "來",
+      "example": "오후 네 시에 친구도 카페에 와요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:옮기",
+      "lemma": "옮기",
+      "pos": "v",
+      "zh_tw": "移動；搬到",
+      "example": "병원에 가야 해서 옮길게요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:웃",
+      "lemma": "웃",
+      "pos": "v",
+      "zh_tw": "笑",
+      "example": "선생님이 웃으며 인사해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:이렇",
+      "lemma": "이렇",
+      "pos": "v",
+      "zh_tw": "這樣",
+      "example": "네, 이렇게 쓰면 충분해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:일어나",
+      "lemma": "일어나",
+      "pos": "v",
+      "zh_tw": "起床；發生",
+      "example": "민수는 아침 일곱 시에 일어나요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:읽",
+      "lemma": "읽",
+      "pos": "v",
+      "zh_tw": "讀",
+      "example": "교실 문에 \"수업 시간에는 책을 읽습니다\"라고 써 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:잃어버리",
+      "lemma": "잃어버리",
+      "pos": "v",
+      "zh_tw": "弄丟",
+      "example": "잃어버린 짐을 신고하고 싶어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:있",
+      "lemma": "있",
+      "pos": "v",
+      "zh_tw": "有；在",
+      "example": "제 가방은 의자 옆에 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:작",
+      "lemma": "작",
+      "pos": "v",
+      "zh_tw": "小",
+      "example": "저는 아침에 작은 카페에 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:잠자",
+      "lemma": "잠자",
+      "pos": "v",
+      "zh_tw": "睡覺",
+      "example": "잠자기 전에 조금 쉬어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:재미있",
+      "lemma": "재미있",
+      "pos": "v",
+      "zh_tw": "有趣",
+      "example": "어제 영화가 재미있었어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:적히",
+      "lemma": "적히",
+      "pos": "v",
+      "zh_tw": "被寫著",
+      "example": "객실 카드에 적혀 있습니다.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:좋",
+      "lemma": "좋",
+      "pos": "v",
+      "zh_tw": "好；喜歡",
+      "example": "오늘 아침 날씨가 좋아요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:좋아하",
+      "lemma": "좋아하",
+      "pos": "v",
+      "zh_tw": "喜歡",
+      "example": "버스를 좋아해서요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:짧",
+      "lemma": "짧",
+      "pos": "v",
+      "zh_tw": "短",
+      "example": "상대방: \"어서 오세요. 예약하셨나요?\"\n짧게 대답하세요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:찾",
+      "lemma": "찾",
+      "pos": "v",
+      "zh_tw": "找；取回",
+      "example": "직원은 가방을 찾고 수지는 지갑을 확인해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:춥",
+      "lemma": "춥",
+      "pos": "v",
+      "zh_tw": "冷",
+      "example": "오늘 아침은 조금 추워요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:크",
+      "lemma": "크",
+      "pos": "v",
+      "zh_tw": "大",
+      "example": "제가 주문한 건 작은 컵인데 큰 컵을 받았어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue"
+      ]
+    },
+    {
+      "atom_id": "ko:v:타",
+      "lemma": "타",
+      "pos": "v",
+      "zh_tw": "搭乘",
+      "example": "기차를 타고 친구를 만나러 가요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:파랗",
+      "lemma": "파랗",
+      "pos": "v",
+      "zh_tw": "藍；藍色的",
+      "example": "지민은 파란 셔츠 위에 코트를 입어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:펴",
+      "lemma": "펴",
+      "pos": "v",
+      "zh_tw": "打開；攤開",
+      "example": "교실에서 공책을 펴요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:편하",
+      "lemma": "편하",
+      "pos": "v",
+      "zh_tw": "舒服；方便",
+      "example": "우리 집은 작지만 편해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:하",
+      "lemma": "하",
+      "pos": "v",
+      "zh_tw": "做",
+      "example": "우리는 학교와 회사 이야기를 조금 해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "dialogue",
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:헤어지",
+      "lemma": "헤어지",
+      "pos": "v",
+      "zh_tw": "分開；道別",
+      "example": "헤어질 때 \"안녕히 가세요\"라고 말해요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    },
+    {
+      "atom_id": "ko:v:희",
+      "lemma": "희",
+      "pos": "v",
+      "zh_tw": "白；白色的",
+      "example": "문 옆에 흰 모자가 있어요.",
+      "cefr": "A1",
+      "source": "a1_gloss_author_ko_20260618",
+      "native_status": "native_pending",
+      "source_scopes": [
+        "reading"
+      ]
+    }
+  ]
+}

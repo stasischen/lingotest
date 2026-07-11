@@ -1,0 +1,2027 @@
+{
+  "id": "z-R0eTXKtpo",
+  "metadata": {
+    "title": "Slow Korean Listening for Beginners | Korean Winter Snacks",
+    "channel": "Daily Korean with Jaerim",
+    "thumbnailUrl": "https://img.youtube.com/vi/z-R0eTXKtpo/maxresdefault.jpg",
+    "duration": "04:00",
+    "category": "vlog",
+    "difficulty_level": "v1"
+  },
+  "nodes": {
+    "Start": {
+      "id": "Start",
+      "turns": [
+        {
+          "id": "v_001",
+          "text": {
+            "ko": "안녕하세요 여러분"
+          },
+          "time": {
+            "start": 0,
+            "end": 2201
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:안녕하다+ko:e:세요",
+                "text": "안녕하세요",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:pron:여러분",
+                "text": "여러분",
+                "pos": "pron"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_002",
+          "text": {
+            "ko": "재림이에요"
+          },
+          "time": {
+            "start": 2201,
+            "end": 5121
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:prop:재림+ko:cop:이다+ko:e:에요",
+                "text": "재림이에요",
+                "pos": "prop+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_003",
+          "text": {
+            "ko": "오늘은"
+          },
+          "time": {
+            "start": 5121,
+            "end": 6025
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:오늘+ko:p:은",
+                "text": "오늘은",
+                "pos": "n+p"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_004",
+          "text": {
+            "ko": "한국의 겨울 간식을 소개할게요"
+          },
+          "time": {
+            "start": 6475,
+            "end": 10790
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:한국+ko:p:의",
+                "text": "한국의",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:겨울",
+                "text": "겨울",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:간식+ko:p:을",
+                "text": "간식을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:소개하다+ko:e:ㄹ게요",
+                "text": "소개할게요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_005",
+          "text": {
+            "ko": "바로 붕어빵하고 호떡인데요"
+          },
+          "time": {
+            "start": 11555,
+            "end": 17020
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:바로",
+                "text": "바로",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:n:붕어빵+ko:p:하고",
+                "text": "붕어빵하고",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:호떡+ko:cop:이다+ko:e:는데+ko:e:요",
+                "text": "호떡인데요",
+                "pos": "n+cop+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_006",
+          "text": {
+            "ko": "한국 사람들도 줄을 서서 사요"
+          },
+          "time": {
+            "start": 17725,
+            "end": 22370
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:한국",
+                "text": "한국",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:사람+ko:affix:-들+ko:p:도",
+                "text": "사람들도",
+                "pos": "n+affix+p"
+              },
+              {
+                "id": "ko:n:줄+ko:p:을",
+                "text": "줄을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:서다+ko:e:아서",
+                "text": "서서",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:v:사다+ko:e:아요",
+                "text": "사요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_007",
+          "text": {
+            "ko": "줄을 서요"
+          },
+          "time": {
+            "start": 23283,
+            "end": 24655
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:줄+ko:p:을",
+                "text": "줄을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:서다+ko:e:아요",
+                "text": "서요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_008",
+          "text": {
+            "ko": "그럼 바로 시작할까요?"
+          },
+          "time": {
+            "start": 24655,
+            "end": 27575
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:그럼",
+                "text": "그럼",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adv:바로",
+                "text": "바로",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:시작하다+ko:e:ㄹ까요",
+                "text": "시작할까요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_009",
+          "text": {
+            "ko": "짜잔"
+          },
+          "time": {
+            "start": 28765,
+            "end": 29910
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:intj:짜잔",
+                "text": "짜잔",
+                "pos": "intj"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_010",
+          "text": {
+            "ko": "붕어빵이에요"
+          },
+          "time": {
+            "start": 29910,
+            "end": 31831
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:붕어빵+ko:cop:이다+ko:e:에요",
+                "text": "붕어빵이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_011",
+          "text": {
+            "ko": "붕어빵"
+          },
+          "time": {
+            "start": 31831,
+            "end": 33956
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:붕어빵",
+                "text": "붕어빵",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_012",
+          "text": {
+            "ko": "여기"
+          },
+          "time": {
+            "start": 33956,
+            "end": 35266
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:여기",
+                "text": "여기",
+                "pos": "pron"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_013",
+          "text": {
+            "ko": "물고기 모양이에요"
+          },
+          "time": {
+            "start": 37291,
+            "end": 39485
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:물고기",
+                "text": "물고기",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:모양+ko:cop:이다+ko:e:에요",
+                "text": "모양이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_014",
+          "text": {
+            "ko": "이 물고기 이름은"
+          },
+          "time": {
+            "start": 41530,
+            "end": 44751
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:det:이",
+                "text": "이",
+                "pos": "det"
+              },
+              {
+                "id": "ko:n:물고기",
+                "text": "물고기",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:이름+ko:p:은",
+                "text": "이름은",
+                "pos": "n+p"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_015",
+          "text": {
+            "ko": "붕어예요"
+          },
+          "time": {
+            "start": 45931,
+            "end": 47360
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:붕어+ko:cop:이다+ko:e:에요",
+                "text": "붕어예요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_016",
+          "text": {
+            "ko": "그래서 붕어빵이에요"
+          },
+          "time": {
+            "start": 47360,
+            "end": 52015
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:그래서",
+                "text": "그래서",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:n:붕어빵+ko:cop:이다+ko:e:에요",
+                "text": "붕어빵이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_017",
+          "text": {
+            "ko": "겉은 바삭바삭해요"
+          },
+          "time": {
+            "start": 52015,
+            "end": 55696
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:겉+ko:p:은",
+                "text": "겉은",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:바삭바삭하다+ko:e:어요",
+                "text": "바삭바삭해요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_018",
+          "text": {
+            "ko": "바삭바삭"
+          },
+          "time": {
+            "start": 56116,
+            "end": 57241
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:바삭바삭",
+                "text": "바삭바삭",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_019",
+          "text": {
+            "ko": "그리고"
+          },
+          "time": {
+            "start": 59535,
+            "end": 60660
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:그리고",
+                "text": "그리고",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_020",
+          "text": {
+            "ko": "안에는"
+          },
+          "time": {
+            "start": 63666,
+            "end": 64791
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:안+ko:p:에+ko:p:는",
+                "text": "안에는",
+                "pos": "n+p+p"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_021",
+          "text": {
+            "ko": "이렇게"
+          },
+          "time": {
+            "start": 66366,
+            "end": 67491
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:이렇게",
+                "text": "이렇게",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_022",
+          "text": {
+            "ko": "팥, 팥이"
+          },
+          "time": {
+            "start": 67595,
+            "end": 68720
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:팥",
+                "text": "팥",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:팥+ko:p:이",
+                "text": "팥이",
+                "pos": "n+p"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_023",
+          "text": {
+            "ko": "들어있어요"
+          },
+          "time": {
+            "start": 68720,
+            "end": 69845
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:v:들다+ko:e:어+ko:vx:있다+ko:e:어요",
+                "text": "들어있어요",
+                "pos": "v+e+vx+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_024",
+          "text": {
+            "ko": "팥이"
+          },
+          "time": {
+            "start": 70428,
+            "end": 71553
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:팥+ko:p:이",
+                "text": "팥이",
+                "pos": "n+p"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_025",
+          "text": {
+            "ko": "많이 들어있어요"
+          },
+          "time": {
+            "start": 72316,
+            "end": 73441
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:많이",
+                "text": "많이",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:들다+ko:e:어+ko:vx:있다+ko:e:어요",
+                "text": "들어있어요",
+                "pos": "v+e+vx+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_026",
+          "text": {
+            "ko": "촉촉해요"
+          },
+          "time": {
+            "start": 73996,
+            "end": 76166
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:촉촉하다+ko:e:어요",
+                "text": "촉촉해요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_027",
+          "text": {
+            "ko": "촉촉"
+          },
+          "time": {
+            "start": 76166,
+            "end": 77996
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:촉촉",
+                "text": "촉촉",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_028",
+          "text": {
+            "ko": "촉촉"
+          },
+          "time": {
+            "start": 77996,
+            "end": 79226
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:촉촉",
+                "text": "촉촉",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_029",
+          "text": {
+            "ko": "촉촉"
+          },
+          "time": {
+            "start": 79226,
+            "end": 80391
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:촉촉",
+                "text": "촉촉",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_030",
+          "text": {
+            "ko": "‘겉바속촉’ 이라고 해요"
+          },
+          "time": {
+            "start": 89420,
+            "end": 92420
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:겉바속촉",
+                "text": "겉바속촉",
+                "pos": "n"
+              },
+              {
+                "id": "ko:p:이라고",
+                "text": "이라고",
+                "pos": "p"
+              },
+              {
+                "id": "ko:v:하다+ko:e:어요",
+                "text": "해요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_031",
+          "text": {
+            "ko": "겉바속촉"
+          },
+          "time": {
+            "start": 92420,
+            "end": 94610
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:겉바속촉",
+                "text": "겉바속촉",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_032",
+          "text": {
+            "ko": "한번 먹어볼게요"
+          },
+          "time": {
+            "start": 94610,
+            "end": 97753
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:한번",
+                "text": "한번",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:먹다+ko:e:어+ko:vx:보다+ko:e:ㄹ게요",
+                "text": "먹어볼게요",
+                "pos": "v+e+vx+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_033",
+          "text": {
+            "ko": "정말 맛있어요"
+          },
+          "time": {
+            "start": 102913,
+            "end": 104780
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:정말",
+                "text": "정말",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:맛있다+ko:e:어요",
+                "text": "맛있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_034",
+          "text": {
+            "ko": "팥이 달아요"
+          },
+          "time": {
+            "start": 104781,
+            "end": 107771
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:팥+ko:p:이",
+                "text": "팥이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:달다+ko:e:아요",
+                "text": "달아요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_035",
+          "text": {
+            "ko": "달콤해요"
+          },
+          "time": {
+            "start": 109021,
+            "end": 110220
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:달콤하다+ko:e:어요",
+                "text": "달콤해요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_036",
+          "text": {
+            "ko": "붕어빵은 종류가 많아요"
+          },
+          "time": {
+            "start": 111320,
+            "end": 115166
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:붕어빵+ko:p:은",
+                "text": "붕어빵은",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:종류+ko:p:가",
+                "text": "종류가",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:많다+ko:e:아요",
+                "text": "많아요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_037",
+          "text": {
+            "ko": "팥 붕어빵"
+          },
+          "time": {
+            "start": 115166,
+            "end": 117116
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:팥",
+                "text": "팥",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:붕어빵",
+                "text": "붕어빵",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_038",
+          "text": {
+            "ko": "피자 붕어빵"
+          },
+          "time": {
+            "start": 117186,
+            "end": 119095
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:피자",
+                "text": "피자",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:붕어빵",
+                "text": "붕어빵",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_039",
+          "text": {
+            "ko": "슈크림 붕어빵"
+          },
+          "time": {
+            "start": 119095,
+            "end": 121045
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:슈크림",
+                "text": "슈크림",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:붕어빵",
+                "text": "붕어빵",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_040",
+          "text": {
+            "ko": "김치 붕어빵"
+          },
+          "time": {
+            "start": 121045,
+            "end": 123013
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:김치",
+                "text": "김치",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:붕어빵",
+                "text": "붕어빵",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_041",
+          "text": {
+            "ko": "아주 많아요"
+          },
+          "time": {
+            "start": 123013,
+            "end": 124973
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:아주",
+                "text": "아주",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:많다+ko:e:아요",
+                "text": "많아요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_042",
+          "text": {
+            "ko": "저는 팥 붕어빵을 제일 좋아해요"
+          },
+          "time": {
+            "start": 124973,
+            "end": 129656
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:저+ko:p:는",
+                "text": "저는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:n:팥",
+                "text": "팥",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:붕어빵+ko:p:을",
+                "text": "붕어빵을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adv:제일",
+                "text": "제일",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:좋아하다+ko:e:어요",
+                "text": "좋아해요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_043",
+          "text": {
+            "ko": "오리지널"
+          },
+          "time": {
+            "start": 129656,
+            "end": 131791
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:오리지널",
+                "text": "오리지널",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_044",
+          "text": {
+            "ko": "팥 붕어빵을 제일 좋아해요"
+          },
+          "time": {
+            "start": 131791,
+            "end": 133896
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:팥",
+                "text": "팥",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:붕어빵+ko:p:을",
+                "text": "붕어빵을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adv:제일",
+                "text": "제일",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:좋아하다+ko:e:어요",
+                "text": "좋아해요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_045",
+          "text": {
+            "ko": "제일 맛있어요"
+          },
+          "time": {
+            "start": 133896,
+            "end": 136040
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:제일",
+                "text": "제일",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:맛있다+ko:e:어요",
+                "text": "맛있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_046",
+          "text": {
+            "ko": "짜잔"
+          },
+          "time": {
+            "start": 136620,
+            "end": 138130
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:intj:짜잔",
+                "text": "짜잔",
+                "pos": "intj"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_047",
+          "text": {
+            "ko": "호떡"
+          },
+          "time": {
+            "start": 138130,
+            "end": 139386
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:호떡",
+                "text": "호떡",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_048",
+          "text": {
+            "ko": "호떡이에요"
+          },
+          "time": {
+            "start": 140051,
+            "end": 142202
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:호떡+ko:cop:이다+ko:e:에요",
+                "text": "호떡이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_049",
+          "text": {
+            "ko": "호떡"
+          },
+          "time": {
+            "start": 142203,
+            "end": 143398
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:호떡",
+                "text": "호떡",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_050",
+          "text": {
+            "ko": "호떡은"
+          },
+          "time": {
+            "start": 143398,
+            "end": 144593
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:호떡+ko:p:은",
+                "text": "호떡은",
+                "pos": "n+p"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_051",
+          "text": {
+            "ko": "동그라미"
+          },
+          "time": {
+            "start": 145881,
+            "end": 147076
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:동그라미",
+                "text": "동그라미",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_052",
+          "text": {
+            "ko": "동그라미예요"
+          },
+          "time": {
+            "start": 147976,
+            "end": 150051
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:동그라미+ko:cop:이다+ko:e:에요",
+                "text": "동그라미예요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_053",
+          "text": {
+            "ko": "동그라미 모양이에요"
+          },
+          "time": {
+            "start": 150051,
+            "end": 152924
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:동그라미",
+                "text": "동그라미",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:모양+ko:cop:이다+ko:e:에요",
+                "text": "모양이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_054",
+          "text": {
+            "ko": "동그라미"
+          },
+          "time": {
+            "start": 154201,
+            "end": 154951
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:동그라미",
+                "text": "동그라미",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_055",
+          "text": {
+            "ko": "쫄깃쫄깃"
+          },
+          "time": {
+            "start": 156516,
+            "end": 158516
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:쫄깃쫄깃하다",
+                "text": "쫄깃쫄깃",
+                "pos": "adj"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_056",
+          "text": {
+            "ko": "쫄깃쫄깃해요"
+          },
+          "time": {
+            "start": 159341,
+            "end": 160836
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:쫄깃쫄깃하다+ko:e:어요",
+                "text": "쫄깃쫄깃해요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_057",
+          "text": {
+            "ko": "안에는"
+          },
+          "time": {
+            "start": 160948,
+            "end": 161911
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:안+ko:p:에+ko:p:는",
+                "text": "안에는",
+                "pos": "n+p+p"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_058",
+          "text": {
+            "ko": "꿀"
+          },
+          "time": {
+            "start": 161911,
+            "end": 163386
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:꿀",
+                "text": "꿀",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_059",
+          "text": {
+            "ko": "꿀 있어요"
+          },
+          "time": {
+            "start": 163386,
+            "end": 164861
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:꿀",
+                "text": "꿀",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adj:있다+ko:e:어요",
+                "text": "있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_060",
+          "text": {
+            "ko": "그리고"
+          },
+          "time": {
+            "start": 165111,
+            "end": 166585
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:그리고",
+                "text": "그리고",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_061",
+          "text": {
+            "ko": "견과류"
+          },
+          "time": {
+            "start": 167451,
+            "end": 169436
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:견과류",
+                "text": "견과류",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_062",
+          "text": {
+            "ko": "견과류 있어요"
+          },
+          "time": {
+            "start": 169436,
+            "end": 170866
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:견과류",
+                "text": "견과류",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adj:있다+ko:e:어요",
+                "text": "있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_063",
+          "text": {
+            "ko": "그리고"
+          },
+          "time": {
+            "start": 170866,
+            "end": 172036
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:그리고",
+                "text": "그리고",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_064",
+          "text": {
+            "ko": "설탕도 들어가요"
+          },
+          "time": {
+            "start": 172036,
+            "end": 174816
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:설탕+ko:p:도",
+                "text": "설탕도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:들어가다+ko:e:아요",
+                "text": "들어가요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_065",
+          "text": {
+            "ko": "그래서 달아요"
+          },
+          "time": {
+            "start": 174816,
+            "end": 177736
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:그래서",
+                "text": "그래서",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:달다+ko:e:아요",
+                "text": "달아요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_066",
+          "text": {
+            "ko": "붕어빵보다 호떡이 더 달아요"
+          },
+          "time": {
+            "start": 177736,
+            "end": 183951
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:붕어빵+ko:p:보다",
+                "text": "붕어빵보다",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:호떡+ko:p:이",
+                "text": "호떡이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adv:더",
+                "text": "더",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:달다+ko:e:아요",
+                "text": "달아요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_067",
+          "text": {
+            "ko": "많이 달아요"
+          },
+          "time": {
+            "start": 183951,
+            "end": 185606
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:많이",
+                "text": "많이",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:달다+ko:e:아요",
+                "text": "달아요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_068",
+          "text": {
+            "ko": "먹어 볼까요?"
+          },
+          "time": {
+            "start": 185606,
+            "end": 187006
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:v:먹다+ko:e:어",
+                "text": "먹어",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:vx:보다+ko:e:ㄹ까+ko:e:요",
+                "text": "볼까요",
+                "pos": "vx+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_069",
+          "text": {
+            "ko": "떡이 아주"
+          },
+          "time": {
+            "start": 193125,
+            "end": 195268
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:떡+ko:p:이",
+                "text": "떡이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adv:아주",
+                "text": "아주",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_070",
+          "text": {
+            "ko": "쫄깃쫄깃해요"
+          },
+          "time": {
+            "start": 197201,
+            "end": 199213
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:쫄깃쫄깃하다+ko:e:어요",
+                "text": "쫄깃쫄깃해요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_071",
+          "text": {
+            "ko": "견과류가 있어서"
+          },
+          "time": {
+            "start": 199213,
+            "end": 202486
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:견과류+ko:p:가",
+                "text": "견과류가",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:있다+ko:e:어서",
+                "text": "있어서",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_072",
+          "text": {
+            "ko": "고소해요"
+          },
+          "time": {
+            "start": 202486,
+            "end": 204040
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:고소하다+ko:e:어요",
+                "text": "고소해요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_073",
+          "text": {
+            "ko": "고소하고 달고 아주 맛있어요"
+          },
+          "time": {
+            "start": 204040,
+            "end": 208275
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:고소하다+ko:e:고",
+                "text": "고소하고",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:adj:달다+ko:e:고",
+                "text": "달고",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:adv:아주",
+                "text": "아주",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:맛있다+ko:e:어요",
+                "text": "맛있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_074",
+          "text": {
+            "ko": "여러분"
+          },
+          "time": {
+            "start": 208276,
+            "end": 209191
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:여러분",
+                "text": "여러분",
+                "pos": "pron"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_075",
+          "text": {
+            "ko": "떡 좋아하세요?"
+          },
+          "time": {
+            "start": 210001,
+            "end": 212513
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:떡",
+                "text": "떡",
+                "pos": "n"
+              },
+              {
+                "id": "ko:v:좋아하다+ko:e:세요",
+                "text": "좋아하세요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_076",
+          "text": {
+            "ko": "쫄깃쫄깃"
+          },
+          "time": {
+            "start": 212513,
+            "end": 213916
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:쫄깃쫄깃하다",
+                "text": "쫄깃쫄깃",
+                "pos": "adj"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_077",
+          "text": {
+            "ko": "아, 그리고"
+          },
+          "time": {
+            "start": 213916,
+            "end": 215236
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:intj:아",
+                "text": "아",
+                "pos": "intj"
+              },
+              {
+                "id": "ko:adv:그리고",
+                "text": "그리고",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_078",
+          "text": {
+            "ko": "기름이 조금 많아요"
+          },
+          "time": {
+            "start": 215236,
+            "end": 217500
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:기름+ko:p:이",
+                "text": "기름이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adv:조금",
+                "text": "조금",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:많다+ko:e:아요",
+                "text": "많아요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_079",
+          "text": {
+            "ko": "기름이 많아요"
+          },
+          "time": {
+            "start": 218415,
+            "end": 220481
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:기름+ko:p:이",
+                "text": "기름이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:많다+ko:e:아요",
+                "text": "많아요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_080",
+          "text": {
+            "ko": "여러분"
+          },
+          "time": {
+            "start": 220481,
+            "end": 221536
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:여러분",
+                "text": "여러분",
+                "pos": "pron"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_081",
+          "text": {
+            "ko": "겨울에 한국에 오면"
+          },
+          "time": {
+            "start": 221536,
+            "end": 224208
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:겨울+ko:p:에",
+                "text": "겨울에",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:한국+ko:p:에",
+                "text": "한국에",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:오다+ko:e:면",
+                "text": "오면",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_082",
+          "text": {
+            "ko": "붕어빵하고 호떡 꼭 먹어 보세요"
+          },
+          "time": {
+            "start": 224208,
+            "end": 228751
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:붕어빵+ko:p:하고",
+                "text": "붕어빵하고",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:호떡",
+                "text": "호떡",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adv:꼭",
+                "text": "꼭",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:먹다+ko:e:어",
+                "text": "먹어",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:vx:보다+ko:e:세요",
+                "text": "보세요",
+                "pos": "vx+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_083",
+          "text": {
+            "ko": "여러분 나라에도 겨울 간식이 있어요?"
+          },
+          "time": {
+            "start": 228751,
+            "end": 233295
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:여러분",
+                "text": "여러분",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:n:나라+ko:p:에+ko:p:도",
+                "text": "나라에도",
+                "pos": "n+p+p"
+              },
+              {
+                "id": "ko:n:겨울",
+                "text": "겨울",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:간식+ko:p:이",
+                "text": "간식이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:있다+ko:e:어요",
+                "text": "있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_084",
+          "text": {
+            "ko": "댓글로 저한테 알려주세요!"
+          },
+          "time": {
+            "start": 233295,
+            "end": 236446
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:댓글+ko:p:로",
+                "text": "댓글로",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:pron:저+ko:p:한테",
+                "text": "저한테",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:v:알리다+ko:e:어+ko:vx:주다+ko:e:세요",
+                "text": "알려주세요",
+                "pos": "v+e+vx+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_085",
+          "text": {
+            "ko": "그럼 다음 영상에서 만나요"
+          },
+          "time": {
+            "start": 236446,
+            "end": 239345
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:그럼",
+                "text": "그럼",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:n:다음",
+                "text": "다음",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:영상+ko:p:에서",
+                "text": "영상에서",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:만나다+ko:e:아요",
+                "text": "만나요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_086",
+          "text": {
+            "ko": "안녕"
+          },
+          "time": {
+            "start": 239345,
+            "end": 240651
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:intj:안녕",
+                "text": "안녕",
+                "pos": "intj"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

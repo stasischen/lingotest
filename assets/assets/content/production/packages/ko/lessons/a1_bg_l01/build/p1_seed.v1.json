@@ -1,0 +1,292 @@
+{
+  "p1_seed_tasks": [
+    {
+      "item_id": "a1_bg_l01_student_polite_g1",
+      "mastery_key": "a1_bg_l01_student_polite_g1",
+      "ko_surface": "저는 학생이에요.",
+      "target_examples": [
+        "저는 학생이에요."
+      ],
+      "target_examples_zh_tw": [
+        "我是學生。"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "我是學生。",
+        "en": "I am a student."
+      },
+      "chunks": [
+        "저는",
+        "학생이에요."
+      ],
+      "distractors": [
+        "회사원이에요.",
+        "나는"
+      ],
+      "source_preset_id": "student_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_here_cafe_polite_g1",
+      "mastery_key": "a1_bg_l01_here_cafe_polite_g1",
+      "ko_surface": "여기는 카페예요.",
+      "target_examples": [
+        "여기는 카페예요."
+      ],
+      "target_examples_zh_tw": [
+        "這裡是咖啡廳。"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "這裡是咖啡廳。",
+        "en": "This place is a cafe."
+      },
+      "chunks": [
+        "여기는",
+        "카페예요."
+      ],
+      "distractors": [
+        "역이에요.",
+        "학생이에요."
+      ],
+      "source_preset_id": "here_cafe_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_read_book_polite_g1",
+      "mastery_key": "a1_bg_l01_read_book_polite_g1",
+      "ko_surface": "책을 읽어요.",
+      "target_examples": [
+        "책을 읽어요."
+      ],
+      "target_examples_zh_tw": [
+        "讀書。"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "讀書。",
+        "en": "Read a book."
+      },
+      "chunks": [
+        "책을",
+        "읽어요."
+      ],
+      "distractors": [
+        "봐요.",
+        "커피를"
+      ],
+      "source_preset_id": "read_book_polite_g1"
+    },
+    {
+      "item_id": "a1_bg_l01_do_exercise_polite_g1",
+      "mastery_key": "a1_bg_l01_do_exercise_polite_g1",
+      "ko_surface": "운동을 해요.",
+      "target_examples": [
+        "운동을 해요."
+      ],
+      "target_examples_zh_tw": [
+        "運動。"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "運動。",
+        "en": "Exercise."
+      },
+      "chunks": [
+        "운동을",
+        "해요."
+      ],
+      "distractors": [
+        "공부를",
+        "마셔요."
+      ],
+      "source_preset_id": "do_exercise_polite_g1"
+    },
+    {
+      "item_id": "a1_bg_l01_this_apple_polite",
+      "mastery_key": "a1_bg_l01_this_apple_polite",
+      "ko_surface": "이건 사과예요.",
+      "target_examples": [
+        "이건 사과예요."
+      ],
+      "target_examples_zh_tw": [
+        "這是蘋果。"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "這是蘋果。",
+        "en": "This is an apple."
+      },
+      "chunks": [
+        "이건",
+        "사과예요."
+      ],
+      "distractors": [
+        "책이에요.",
+        "저건"
+      ],
+      "source_preset_id": "this_apple_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_that_book_polite",
+      "mastery_key": "a1_bg_l01_that_book_polite",
+      "ko_surface": "그건 책이에요.",
+      "target_examples": [
+        "그건 책이에요."
+      ],
+      "target_examples_zh_tw": [
+        "那是書。"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "那是書。",
+        "en": "That is a book."
+      },
+      "chunks": [
+        "그건",
+        "책이에요."
+      ],
+      "distractors": [
+        "사과예요.",
+        "이건"
+      ],
+      "source_preset_id": "that_book_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_that_over_there_apple_polite",
+      "mastery_key": "a1_bg_l01_that_over_there_apple_polite",
+      "ko_surface": "저건 사과예요.",
+      "target_examples": [
+        "저건 사과예요."
+      ],
+      "target_examples_zh_tw": [
+        "那邊那個是蘋果。"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "那邊那個是蘋果。",
+        "en": "That over there is an apple."
+      },
+      "chunks": [
+        "저건",
+        "사과예요."
+      ],
+      "distractors": [
+        "이건",
+        "책이에요."
+      ],
+      "source_preset_id": "that_over_there_apple_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_this_phone_polite",
+      "mastery_key": "a1_bg_l01_this_phone_polite",
+      "ko_surface": "이건 핸드폰이에요.",
+      "target_examples": [
+        "이건 핸드폰이에요."
+      ],
+      "target_examples_zh_tw": [
+        "這是手機。"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "這是手機。",
+        "en": "This is a phone."
+      },
+      "chunks": [
+        "이건",
+        "핸드폰이에요."
+      ],
+      "distractors": [
+        "그건",
+        "사과예요."
+      ],
+      "source_preset_id": "this_phone_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_time_polite",
+      "mastery_key": "a1_bg_l01_time_polite",
+      "ko_surface": "지금 몇 시예요?",
+      "target_examples": [
+        "지금 몇 시예요?"
+      ],
+      "target_examples_zh_tw": [
+        "現在幾點？"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "現在幾點？",
+        "en": "What time is it now?"
+      },
+      "chunks": [
+        "지금",
+        "몇",
+        "시예요?"
+      ],
+      "distractors": [
+        "학생이에요?"
+      ],
+      "source_preset_id": "time_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_go_cafe_polite",
+      "mastery_key": "a1_bg_l01_go_cafe_polite",
+      "ko_surface": "카페에 가요.",
+      "target_examples": [
+        "카페에 가요."
+      ],
+      "target_examples_zh_tw": [
+        "去咖啡廳。"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "去咖啡廳。",
+        "en": "Go to a cafe."
+      },
+      "chunks": [
+        "카페에",
+        "가요."
+      ],
+      "distractors": [
+        "학교에",
+        "마셔요."
+      ],
+      "source_preset_id": "go_cafe_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_drink_coffee_polite",
+      "mastery_key": "a1_bg_l01_drink_coffee_polite",
+      "ko_surface": "커피를 마셔요.",
+      "target_examples": [
+        "커피를 마셔요."
+      ],
+      "target_examples_zh_tw": [
+        "喝咖啡。"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "喝咖啡。",
+        "en": "Drink coffee."
+      },
+      "chunks": [
+        "커피를",
+        "마셔요."
+      ],
+      "distractors": [
+        "물을",
+        "먹어요."
+      ],
+      "source_preset_id": "drink_coffee_polite"
+    },
+    {
+      "item_id": "a1_bg_l01_eat_bread_polite",
+      "mastery_key": "a1_bg_l01_eat_bread_polite",
+      "ko_surface": "빵을 먹어요.",
+      "target_examples": [
+        "빵을 먹어요."
+      ],
+      "target_examples_zh_tw": [
+        "吃麵包。"
+      ],
+      "meaning_i18n": {
+        "zh_tw": "吃麵包。",
+        "en": "Eat bread."
+      },
+      "chunks": [
+        "빵을",
+        "먹어요."
+      ],
+      "distractors": [
+        "김밥을",
+        "마셔요."
+      ],
+      "source_preset_id": "eat_bread_polite"
+    }
+  ]
+}

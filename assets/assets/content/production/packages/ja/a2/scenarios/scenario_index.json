@@ -1,0 +1,197 @@
+{
+  "schema_version": "ja_a2_current_flow_preview_scenario_index.v1",
+  "scenarios": [
+    {
+      "scenario_id": "a2_app_booking_confirmation",
+      "title": "アプリ予約を確認する",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_app_booking_confirmation.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_app_booking_confirmation.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_ask_ingredient_preference",
+      "title": "材料の好みを伝える",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_ingredient_preference.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_ingredient_preference.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_ask_late_checkout",
+      "title": "レイトチェックアウトを尋ねる",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_late_checkout.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_late_checkout.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_ask_recommendation_budget",
+      "title": "予算内でおすすめを聞く",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_recommendation_budget.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_recommendation_budget.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_ask_transfer_platform",
+      "title": "乗り換えのホームを聞く",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_transfer_platform.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_transfer_platform.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_change_delivery_pickup_time",
+      "title": "受け取り時間を変える",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_change_delivery_pickup_time.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_change_delivery_pickup_time.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_change_ticket_time",
+      "title": "切符の時間を変える",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_change_ticket_time.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_change_ticket_time.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_compare_two_menu_options",
+      "title": "メニューを二つ比べる",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_compare_two_menu_options.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_compare_two_menu_options.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_confirm_date_time_place",
+      "title": "日にち・時間・場所を確認する",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_confirm_date_time_place.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_confirm_date_time_place.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_decline_with_reason",
+      "title": "理由を添えてやさしく断る",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_decline_with_reason.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_decline_with_reason.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_describe_weekend_activity",
+      "title": "週末にしたことを話す",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_describe_weekend_activity.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_describe_weekend_activity.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_exchange_wrong_item",
+      "title": "違う商品を交換してもらう",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_exchange_wrong_item.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_exchange_wrong_item.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_explain_simple_delay_reason",
+      "title": "少し遅れる理由を話す",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_explain_simple_delay_reason.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_explain_simple_delay_reason.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_fill_simple_form_help",
+      "title": "簡単なフォームを手伝ってもらう",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_fill_simple_form_help.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_fill_simple_form_help.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_invite_friend_activity",
+      "title": "友だちを気軽に誘う",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_invite_friend_activity.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_invite_friend_activity.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_lost_item_followup_message",
+      "title": "忘れ物について連絡する",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_lost_item_followup_message.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_lost_item_followup_message.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_luggage_storage_pickup",
+      "title": "荷物を預けて受け取り時間を確認する",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_luggage_storage_pickup.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_luggage_storage_pickup.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_make_simple_plan_sequence",
+      "title": "二つの流れで予定を決める",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_make_simple_plan_sequence.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_make_simple_plan_sequence.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_plan_tomorrow_morning",
+      "title": "明日の朝の予定を話す",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_plan_tomorrow_morning.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_plan_tomorrow_morning.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_report_room_problem",
+      "title": "部屋の問題を伝える",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_report_room_problem.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_report_room_problem.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_request_room_change",
+      "title": "部屋の変更をお願いする",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_request_room_change.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_request_room_change.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_reschedule_meeting_time",
+      "title": "待ち合わせの時間を変える",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_reschedule_meeting_time.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_reschedule_meeting_time.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_transport_delay_announcement",
+      "title": "交通機関の遅延案内を聞く",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_transport_delay_announcement.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_transport_delay_announcement.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_understand_hotel_notice",
+      "title": "ホテルの案内を理解する",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_understand_hotel_notice.ja.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_understand_hotel_notice.ja.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "a1_candidate_runtime_manifest.v1",
+  "runtime_id": "a1_v2_20260619",
+  "lang": "pt",
+  "learner_locale": "zh_tw",
+  "review_ceiling": "native_pending",
+  "visibility": "production",
+  "promotion": "owner_decision_20260619_native_waived",
+  "source_commits": {
+    "release_aggregator": "521237a4900a835e7b34a5dad25ebac246622aac",
+    "content_repo": "0a19a769c88e0f026b4fc7ad4d60684e86a43c00"
+  },
+  "counts": {
+    "scenarios": 20,
+    "source_rows": 961,
+    "segmentation_rows": 778,
+    "i18n_rows": 40,
+    "dictionary_gloss": 790,
+    "grammar_nodes": 16,
+    "productive_items": 15
+  },
+  "modules": {
+    "dialogue_segmentation": "segmentation/dialogue_lemma_segmentation.json",
+    "dialogue_surface_projection": "scenarios/dialogue_surface_projection.json",
+    "dictionary_gloss": "dictionary/a1_gloss.json",
+    "grammar_knowledge": "grammar/a1_grammar_knowledge.json",
+    "i18n_zh_tw": "i18n/zh_tw.json",
+    "productive_practice": "productive/productive_practice.json",
+    "reading_segmentation": "segmentation/reading_lemma_segmentation.json",
+    "readings": "readings/readings.json",
+    "readings_index": "readings/reading_index.json",
+    "scenarios": "scenarios/scenario_packs.json",
+    "scenarios_index": "scenarios/scenario_index.json"
+  }
+}

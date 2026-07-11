@@ -1,0 +1,322 @@
+{
+  "schema_version": "a1_runtime_reading_index.v1",
+  "language": "th",
+  "assets": [
+    {
+      "surface_id": "th_reading_clothes_colors_a1_v1",
+      "learning_object_id": "th_vocab_clothes_colors",
+      "object_type": null,
+      "controlled_terms": [
+        "เสื้อ",
+        "สีฟ้า",
+        "กางเกง",
+        "สีดำ",
+        "หมวก",
+        "สีขาว"
+      ],
+      "row_count": 8
+    },
+    {
+      "surface_id": "th_reading_daily_routine_a1_v1",
+      "learning_object_id": "th_vocab_daily_routine",
+      "object_type": null,
+      "controlled_terms": [
+        "เช้า",
+        "อาหารเช้า",
+        "โรงเรียน",
+        "บ่าย",
+        "อาหารกลางวัน",
+        "กลับบ้าน"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "th_reading_family_a1_v1",
+      "learning_object_id": "th_vocab_family",
+      "object_type": null,
+      "controlled_terms": [
+        "ครอบครัว",
+        "พ่อ",
+        "แม่",
+        "น้องสาว",
+        "บ้าน"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "th_reading_health_body_a1_v1",
+      "learning_object_id": "th_vocab_health_body",
+      "object_type": null,
+      "controlled_terms": [
+        "ไม่สบาย",
+        "โรงพยาบาล",
+        "หมอ",
+        "น้ำ",
+        "พักผ่อน"
+      ],
+      "row_count": 8
+    },
+    {
+      "surface_id": "th_reading_home_a1_v1",
+      "learning_object_id": "th_vocab_home",
+      "object_type": null,
+      "controlled_terms": [
+        "บ้าน",
+        "เล็ก",
+        "สะอาด",
+        "ห้องนอน",
+        "ห้องน้ำ",
+        "ครัว"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "th_reading_weather_a1_v1",
+      "learning_object_id": "th_vocab_weather",
+      "object_type": null,
+      "controlled_terms": [
+        "อากาศ",
+        "ดี",
+        "ร้อน",
+        "น้ำเย็น"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "th_reading_work_school_a1_v1",
+      "learning_object_id": "th_vocab_work_school",
+      "object_type": null,
+      "controlled_terms": [
+        "นักเรียน",
+        "โรงเรียน",
+        "เพื่อน",
+        "บริษัท",
+        "ทำงาน",
+        "บ่าย"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "th_reading_svo_a1_v1",
+      "learning_object_id": "th_grammar_svo",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "ผม",
+        "ฉัน"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "th_reading_polite_particles_a1_v1",
+      "learning_object_id": "th_grammar_polite_particles",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "ครับ",
+        "ค่ะ"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "th_reading_questions_a1_v1",
+      "learning_object_id": "th_grammar_questions",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "ไหม",
+        "ที่ไหน"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "th_reading_negation_a1_v1",
+      "learning_object_id": "th_grammar_negation",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "ไม่"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "th_reading_classifiers_a1_v1",
+      "learning_object_id": "th_grammar_classifiers",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "คน",
+        "ใบ"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "th_reading_time_expressions_a1_v1",
+      "learning_object_id": "th_grammar_time_expressions",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "วันนี้",
+        "พรุ่งนี้"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "th_reading_existential_a1_v1",
+      "learning_object_id": "th_grammar_existential",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "มี"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "th_reading_serial_verbs_a1_v1",
+      "learning_object_id": "th_grammar_serial_verbs",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "ไป",
+        "เอา"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "th_reading_food_drink_a1_v1",
+      "learning_object_id": "th_vocab_food_drink",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "ข้าว",
+        "น้ำ",
+        "กาแฟ",
+        "ชา",
+        "ขนม"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "th_reading_hotel_a1_v1",
+      "learning_object_id": "th_vocab_hotel",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "โรงแรม",
+        "ห้อง",
+        "กุญแจ",
+        "เตียง",
+        "อาหารเช้า"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "th_reading_directions_places_a1_v1",
+      "learning_object_id": "th_vocab_directions_places",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "ทาง",
+        "ห้องน้ำ",
+        "สถานี",
+        "ซ้าย",
+        "ขวา"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "th_reading_money_payment_a1_v1",
+      "learning_object_id": "th_vocab_money_payment",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "เงิน",
+        "ราคา",
+        "บัตร",
+        "เงินสด",
+        "ใบเสร็จ"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "th_reading_time_schedule_a1_v1",
+      "learning_object_id": "th_vocab_time_schedule",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "เวลา",
+        "ตาราง",
+        "นาที",
+        "เช้า",
+        "เย็น"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "th_reading_self_intro_identity_a1_v1",
+      "learning_object_id": "th_vocab_self_intro_identity",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "ชื่อ",
+        "คนไทย",
+        "นักเรียน",
+        "บ้าน",
+        "เพื่อน"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "th_reading_social_meeting_a1_v1",
+      "learning_object_id": "th_vocab_social_meeting",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "สวัสดี",
+        "เพื่อน",
+        "ยินดี",
+        "ขอบคุณ",
+        "ลาก่อน"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "th_reading_digital_phone_wifi_a1_v1",
+      "learning_object_id": "th_vocab_digital_phone_wifi",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "โทรศัพท์",
+        "แบตเตอรี่",
+        "ชาร์จ",
+        "ไวไฟ",
+        "รหัส"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "th_reading_transport_a1_v1",
+      "learning_object_id": "th_vocab_transport",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "แท็กซี่",
+        "ตั๋ว",
+        "สถานี",
+        "ชานชาลา",
+        "รถไฟ"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "th_reading_shopping_services_a1_v1",
+      "learning_object_id": "th_vocab_shopping_services",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "ร้าน",
+        "ซื้อ",
+        "เสื้อ",
+        "ราคา",
+        "พนักงาน"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "th_reading_lost_items_a1_v1",
+      "learning_object_id": "th_vocab_lost_items",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "หาย",
+        "กระเป๋า",
+        "กุญแจ",
+        "เคาน์เตอร์",
+        "ช่วย"
+      ],
+      "row_count": 6
+    }
+  ],
+  "row_count": 157
+}

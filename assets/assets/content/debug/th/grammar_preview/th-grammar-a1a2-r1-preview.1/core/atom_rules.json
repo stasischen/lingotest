@@ -1,0 +1,2080 @@
+{
+  "build_id": "th-grammar-a1a2-r1-preview.1",
+  "content_version": "r1",
+  "items": [
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a1_identity_negation_mai_chai",
+      "knowledge_id": "th:grammar:a1_identity_negation_mai_chai",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:ไม่",
+            "pos": "p",
+            "surface": "ไม่"
+          },
+          {
+            "atom_id": "th:v:ใช่",
+            "pos": "v",
+            "surface": "ใช่"
+          },
+          {
+            "slot": "NOUN_PHRASE"
+          }
+        ],
+        "surface_forms": [
+          "ไม่ใช่ + noun phrase"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "identity_negation_frame",
+        "grammar_refs": [
+          "th-a1-gram-auth-019"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_result_connector_ko_loei",
+      "knowledge_id": "th:grammar:a2_result_connector_ko_loei",
+      "match": {
+        "atom_sequence": [
+          {
+            "slot": "REASON_CLAUSE"
+          },
+          {
+            "atom_id": "th:p:ก็",
+            "pos": "p",
+            "surface": "ก็"
+          },
+          {
+            "atom_id": "th:p:เลย",
+            "pos": "p",
+            "surface": "เลย"
+          },
+          {
+            "slot": "RESULT_PREDICATE"
+          }
+        ],
+        "surface_forms": [
+          "ก็เลย + result predicate"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "excluded_scope": "standalone เลย must be context reviewed",
+        "function_subtype": "spoken_result_connector",
+        "grammar_refs": [
+          "th-a2-gram-auth-014"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.confirmation_chai_mai",
+      "knowledge_id": "th:grammar:confirmation_chai_mai",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:v:ใช่",
+            "pos": "v",
+            "surface": "ใช่"
+          },
+          {
+            "atom_id": "th:p:ไหม",
+            "pos": "p",
+            "surface": "ไหม"
+          }
+        ],
+        "surface_forms": [
+          "ใช่ไหม"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "confirmation_question_tail",
+        "grammar_refs": [
+          "th-a1-gram-auth-020"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.want_to_yaak",
+      "knowledge_id": "th:grammar:want_to_yaak",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:v:อยาก",
+            "pos": "v",
+            "surface": "อยาก"
+          }
+        ],
+        "surface_forms": [
+          "อยาก"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "desire_verb_frame",
+        "grammar_refs": [
+          "th-a1-gram-auth-021"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.contrast_tae",
+      "knowledge_id": "th:grammar:contrast_tae",
+      "match": {
+        "alternatives": [
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:conj:แต่",
+                "pos": "conj",
+                "surface": "แต่"
+              }
+            ],
+            "surface_forms": [
+              "แต่"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:conj:แต่",
+                "pos": "conj",
+                "surface": "แต่"
+              },
+              {
+                "atom_id": "th:p:ว่า",
+                "pos": "p",
+                "surface": "ว่า"
+              }
+            ],
+            "surface_forms": [
+              "แต่ว่า"
+            ]
+          }
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "contrast_connector",
+        "grammar_refs": [
+          "th-a2-gram-auth-015"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.alternative_rue",
+      "knowledge_id": "th:grammar:alternative_rue",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:conj:หรือ",
+            "pos": "conj",
+            "surface": "หรือ"
+          }
+        ],
+        "surface_forms": [
+          "หรือ"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "alternative_connector",
+        "grammar_refs": [
+          "th-a2-gram-auth-016"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.polite_particles_khrap_kha",
+      "knowledge_id": "th:grammar:polite_particles_khrap_kha",
+      "match": {
+        "alternatives": [
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:p:ครับ",
+                "pos": "p",
+                "surface": "ครับ"
+              }
+            ],
+            "surface_forms": [
+              "ครับ"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:p:ค่ะ",
+                "pos": "p",
+                "surface": "ค่ะ"
+              }
+            ],
+            "surface_forms": [
+              "ค่ะ"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:p:คะ",
+                "pos": "p",
+                "surface": "คะ"
+              }
+            ],
+            "surface_forms": [
+              "คะ"
+            ]
+          }
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "polite_sentence_final_particle",
+        "grammar_refs": [
+          "th-a1-gram-auth-001"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.yes_no_particle_mai",
+      "knowledge_id": "th:grammar:yes_no_particle_mai",
+      "match": {
+        "alternatives": [
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:p:ไหม",
+                "pos": "p",
+                "surface": "ไหม"
+              }
+            ],
+            "surface_forms": [
+              "ไหม"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:p:มั้ย",
+                "pos": "p",
+                "surface": "มั้ย"
+              }
+            ],
+            "surface_forms": [
+              "มั้ย"
+            ]
+          }
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "yes_no_question_particle",
+        "grammar_refs": [
+          "th-a1-gram-auth-002"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.negation_mai",
+      "knowledge_id": "th:grammar:negation_mai",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:ไม่",
+            "pos": "p",
+            "surface": "ไม่"
+          }
+        ],
+        "surface_forms": [
+          "ไม่"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "negation_preverbal_or_preadjectival",
+        "grammar_refs": [
+          "th-a1-gram-auth-003"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.existence_possession_mii",
+      "knowledge_id": "th:grammar:existence_possession_mii",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:v:มี",
+            "pos": "v",
+            "surface": "มี"
+          }
+        ],
+        "surface_forms": [
+          "มี"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "existence_possession_availability",
+        "grammar_refs": [
+          "th-a1-gram-auth-004"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.place_question_thi_nai",
+      "knowledge_id": "th:grammar:place_question_thi_nai",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:pron:ที่ไหน",
+            "pos": "pron",
+            "surface": "ที่ไหน"
+          }
+        ],
+        "surface_forms": [
+          "ที่ไหน"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "place_question_word",
+        "grammar_refs": [
+          "th-a1-gram-auth-005"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.object_question_arai",
+      "knowledge_id": "th:grammar:object_question_arai",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:pron:อะไร",
+            "pos": "pron",
+            "surface": "อะไร"
+          }
+        ],
+        "surface_forms": [
+          "อะไร"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "object_content_question_word",
+        "grammar_refs": [
+          "th-a1-gram-auth-006"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.person_question_khrai",
+      "knowledge_id": "th:grammar:person_question_khrai",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:pron:ใคร",
+            "pos": "pron",
+            "surface": "ใคร"
+          }
+        ],
+        "surface_forms": [
+          "ใคร",
+          "ของใคร"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "person_question_word",
+        "grammar_refs": [
+          "th-a1-gram-auth-007"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.price_quantity_question_thao_rai",
+      "knowledge_id": "th:grammar:price_quantity_question_thao_rai",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:pron:เท่าไหร่",
+            "pos": "pron",
+            "surface": "เท่าไหร่"
+          }
+        ],
+        "surface_forms": [
+          "เท่าไหร่",
+          "ราคาเท่าไหร่",
+          "ทั้งหมดเท่าไหร่"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "price_amount_question_word",
+        "grammar_refs": [
+          "th-a1-gram-auth-008"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.possessive_linker_khong",
+      "knowledge_id": "th:grammar:possessive_linker_khong",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:ของ",
+            "pos": "p",
+            "surface": "ของ"
+          }
+        ],
+        "surface_forms": [
+          "ของ"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "possessive_association_linker",
+        "grammar_refs": [
+          "th-a1-gram-auth-009"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.basic_classifiers",
+      "knowledge_id": "th:grammar:basic_classifiers",
+      "match": {
+        "alternatives": [
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:clf:คน",
+                "pos": "clf",
+                "surface": "คน"
+              }
+            ],
+            "surface_forms": [
+              "คน"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:clf:แก้ว",
+                "pos": "clf",
+                "surface": "แก้ว"
+              }
+            ],
+            "surface_forms": [
+              "แก้ว"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:clf:ใบ",
+                "pos": "clf",
+                "surface": "ใบ"
+              }
+            ],
+            "surface_forms": [
+              "ใบ"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:clf:จาน",
+                "pos": "clf",
+                "surface": "จาน"
+              }
+            ],
+            "surface_forms": [
+              "จาน"
+            ]
+          }
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "basic_classifier",
+        "grammar_refs": [
+          "th-a1-gram-auth-010"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.adjective_predicate_no_copula",
+      "knowledge_id": "th:grammar:adjective_predicate_no_copula",
+      "match": {
+        "alternatives": [
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:adj:ร้อน",
+                "pos": "adj",
+                "surface": "ร้อน"
+              }
+            ],
+            "surface_forms": [
+              "ร้อน"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:adj:ถูก",
+                "pos": "adj",
+                "surface": "ถูก"
+              }
+            ],
+            "surface_forms": [
+              "ถูก"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:adj:แพง",
+                "pos": "adj",
+                "surface": "แพง"
+              }
+            ],
+            "surface_forms": [
+              "แพง"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:adj:ดี",
+                "pos": "adj",
+                "surface": "ดี"
+              }
+            ],
+            "surface_forms": [
+              "ดี"
+            ]
+          }
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "adjective_predicate_no_copula",
+        "grammar_refs": [
+          "th-a1-gram-auth-011"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.identity_copula_pen_khue",
+      "knowledge_id": "th:grammar:identity_copula_pen_khue",
+      "match": {
+        "alternatives": [
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:v:เป็น",
+                "pos": "v",
+                "surface": "เป็น"
+              }
+            ],
+            "surface_forms": [
+              "เป็น"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:v:คือ",
+                "pos": "v",
+                "surface": "คือ"
+              }
+            ],
+            "surface_forms": [
+              "คือ"
+            ]
+          }
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "identity_category_copula",
+        "grammar_refs": [
+          "th-a1-gram-auth-012"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.polite_request_chuai",
+      "knowledge_id": "th:grammar:polite_request_chuai",
+      "match": {
+        "alternatives": [
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:v:ช่วย",
+                "pos": "v",
+                "surface": "ช่วย"
+              },
+              {
+                "slot": "V"
+              },
+              {
+                "atom_id": "th:v:ได้",
+                "pos": "v",
+                "surface": "ได้"
+              },
+              {
+                "atom_id": "th:p:ไหม",
+                "pos": "p",
+                "surface": "ไหม"
+              }
+            ],
+            "surface_forms": [
+              "ช่วย ... ได้ไหม"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:v:ช่วย",
+                "pos": "v",
+                "surface": "ช่วย"
+              },
+              {
+                "slot": "V"
+              },
+              {
+                "atom_id": "th:p:หน่อย",
+                "pos": "p",
+                "surface": "หน่อย"
+              }
+            ],
+            "surface_forms": [
+              "ช่วย ... หน่อย"
+            ]
+          }
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "polite_request_frame",
+        "grammar_refs": [
+          "th-a1-gram-auth-013"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.learner_safe_pronouns",
+      "knowledge_id": "th:grammar:learner_safe_pronouns",
+      "match": {
+        "alternatives": [
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:pron:ผม",
+                "pos": "pron",
+                "surface": "ผม"
+              }
+            ],
+            "surface_forms": [
+              "ผม"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:pron:ฉัน",
+                "pos": "pron",
+                "surface": "ฉัน"
+              }
+            ],
+            "surface_forms": [
+              "ฉัน"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:pron:ดิฉัน",
+                "pos": "pron",
+                "surface": "ดิฉัน"
+              }
+            ],
+            "surface_forms": [
+              "ดิฉัน"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:pron:คุณ",
+                "pos": "pron",
+                "surface": "คุณ"
+              }
+            ],
+            "surface_forms": [
+              "คุณ"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:pron:เขา",
+                "pos": "pron",
+                "surface": "เขา"
+              }
+            ],
+            "surface_forms": [
+              "เขา"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:pron:เรา",
+                "pos": "pron",
+                "surface": "เรา"
+              }
+            ],
+            "surface_forms": [
+              "เรา"
+            ]
+          }
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "learner_safe_pronoun_guardrail",
+        "grammar_refs": [
+          "th-a1-gram-auth-014"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.time_reference_no_inflection",
+      "knowledge_id": "th:grammar:time_reference_no_inflection",
+      "match": {
+        "alternatives": [
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:adv:วันนี้",
+                "pos": "adv",
+                "surface": "วันนี้"
+              }
+            ],
+            "surface_forms": [
+              "วันนี้"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:adv:พรุ่งนี้",
+                "pos": "adv",
+                "surface": "พรุ่งนี้"
+              }
+            ],
+            "surface_forms": [
+              "พรุ่งนี้"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:adv:เมื่อวาน",
+                "pos": "adv",
+                "surface": "เมื่อวาน"
+              }
+            ],
+            "surface_forms": [
+              "เมื่อวาน"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:adv:ตอนนี้",
+                "pos": "adv",
+                "surface": "ตอนนี้"
+              }
+            ],
+            "surface_forms": [
+              "ตอนนี้"
+            ]
+          }
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "time_reference_no_verb_inflection",
+        "grammar_refs": [
+          "th-a1-gram-auth-015"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.basic_svo_word_order",
+      "knowledge_id": "th:grammar:basic_svo_word_order",
+      "match": {
+        "frame_slots": [
+          {
+            "slot": "SUBJECT"
+          },
+          {
+            "slot": "VERB"
+          },
+          {
+            "slot": "OBJECT"
+          }
+        ],
+        "surface_forms": [
+          "S + V + O"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "basic_svo_word_order",
+        "grammar_refs": [
+          "th-a1-gram-auth-016"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.noun_adjective_order",
+      "knowledge_id": "th:grammar:noun_adjective_order",
+      "match": {
+        "frame_slots": [
+          {
+            "slot": "N"
+          },
+          {
+            "slot": "ADJ"
+          }
+        ],
+        "surface_forms": [
+          "N + Adj"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "noun_adjective_modifier_order",
+        "grammar_refs": [
+          "th-a1-gram-auth-017"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.degree_adverb_mak",
+      "knowledge_id": "th:grammar:degree_adverb_mak",
+      "match": {
+        "atom_sequence": [
+          {
+            "slot": "ADJ_OR_STATIVE_OR_PREFERENCE_VERB"
+          },
+          {
+            "atom_id": "th:adv:มาก",
+            "pos": "adv",
+            "surface": "มาก"
+          }
+        ],
+        "surface_forms": [
+          "สะดวกมาก",
+          "ชอบมาก"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "basic_degree_adverb",
+        "grammar_refs": [
+          "th-a1-gram-auth-018"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.take_want_item_ao",
+      "knowledge_id": "th:grammar:take_want_item_ao",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:v:เอา",
+            "pos": "v",
+            "surface": "เอา"
+          },
+          {
+            "slot": "N_OR_DEMONSTRATIVE"
+          }
+        ],
+        "surface_forms": [
+          "เอา + N",
+          "เอาอันนี้"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ordering_choice_frame",
+        "grammar_refs": [
+          "th-a1-gram-auth-022"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.like_frame_chop",
+      "knowledge_id": "th:grammar:like_frame_chop",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:v:ชอบ",
+            "pos": "v",
+            "surface": "ชอบ"
+          },
+          {
+            "slot": "N_OR_VERB_PHRASE"
+          }
+        ],
+        "surface_forms": [
+          "ชอบ + N",
+          "ชอบ + V"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "like_preference_frame",
+        "grammar_refs": [
+          "th-a1-gram-auth-023"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.basic_can_doable_dai",
+      "knowledge_id": "th:grammar:basic_can_doable_dai",
+      "match": {
+        "atom_sequence": [
+          {
+            "slot": "V"
+          },
+          {
+            "atom_id": "th:v:ได้",
+            "pos": "v",
+            "surface": "ได้"
+          }
+        ],
+        "surface_forms": [
+          "V + ได้",
+          "ได้ไหม"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "basic_can_doable",
+        "grammar_refs": [
+          "th-a1-gram-auth-024"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.demonstrative_object_an_nii_nan",
+      "knowledge_id": "th:grammar:demonstrative_object_an_nii_nan",
+      "match": {
+        "alternatives": [
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:clf:อัน",
+                "pos": "clf",
+                "surface": "อัน"
+              },
+              {
+                "atom_id": "th:det:นี้",
+                "pos": "det",
+                "surface": "นี้"
+              }
+            ],
+            "surface_forms": [
+              "อันนี้"
+            ]
+          },
+          {
+            "atom_sequence": [
+              {
+                "atom_id": "th:clf:อัน",
+                "pos": "clf",
+                "surface": "อัน"
+              },
+              {
+                "atom_id": "th:det:นั้น",
+                "pos": "det",
+                "surface": "นั้น"
+              }
+            ],
+            "surface_forms": [
+              "อันนั้น"
+            ]
+          }
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "demonstrative_object_reference",
+        "grammar_refs": [
+          "th-a1-gram-auth-025"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.basic_future_marker_ja",
+      "knowledge_id": "th:grammar:basic_future_marker_ja",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:จะ",
+            "pos": "p",
+            "surface": "จะ"
+          },
+          {
+            "slot": "V"
+          }
+        ],
+        "surface_forms": [
+          "จะ + V"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "basic_future_plan_marker",
+        "grammar_refs": [
+          "th-a1-gram-auth-026"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.basic_completion_marker_laeo",
+      "knowledge_id": "th:grammar:basic_completion_marker_laeo",
+      "match": {
+        "atom_sequence": [
+          {
+            "slot": "V"
+          },
+          {
+            "atom_id": "th:p:แล้ว",
+            "pos": "p",
+            "surface": "แล้ว"
+          }
+        ],
+        "surface_forms": [
+          "V + แล้ว"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "basic_completion_marker",
+        "grammar_refs": [
+          "th-a1-gram-auth-027"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.preference_suggestion_dii_kwaa",
+      "knowledge_id": "th:grammar:preference_suggestion_dii_kwaa",
+      "match": {
+        "atom_sequence": [
+          {
+            "slot": "OPTION_OR_ACTION"
+          },
+          {
+            "atom_id": "th:adj:ดี",
+            "pos": "adj",
+            "surface": "ดี"
+          },
+          {
+            "atom_id": "th:p:กว่า",
+            "pos": "p",
+            "surface": "กว่า"
+          }
+        ],
+        "surface_forms": [
+          "ดีกว่า"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "preference_suggestion_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-002"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_future_plan_marker_ja",
+      "knowledge_id": "th:grammar:a2_future_plan_marker_ja",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:จะ",
+            "pos": "p",
+            "surface": "จะ"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "surface_forms": [
+          "จะ + V"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "future_plan_marker",
+        "grammar_refs": [
+          "th-a2-gram-auth-003"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_completion_marker_laeo",
+      "knowledge_id": "th:grammar:a2_completion_marker_laeo",
+      "match": {
+        "atom_sequence": [
+          {
+            "slot": "V_OR_CLAUSE"
+          },
+          {
+            "atom_id": "th:p:แล้ว",
+            "pos": "p",
+            "surface": "แล้ว"
+          }
+        ],
+        "surface_forms": [
+          "V/clause + แล้ว"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "completion_result_marker",
+        "grammar_refs": [
+          "th-a2-gram-auth-004"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.progressive_marker_kamlang",
+      "knowledge_id": "th:grammar:progressive_marker_kamlang",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:กำลัง",
+            "pos": "p",
+            "surface": "กำลัง"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "surface_forms": [
+          "กำลัง + V"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "progressive_current_action_marker",
+        "grammar_refs": [
+          "th-a2-gram-auth-005"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_sequence_connectors_basic",
+      "knowledge_id": "th:grammar:a2_sequence_connectors_basic",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:ก่อน",
+            "pos": "p",
+            "surface": "ก่อน"
+          },
+          {
+            "atom_id": "th:p:แล้ว",
+            "pos": "p",
+            "surface": "แล้ว"
+          },
+          {
+            "atom_id": "th:p:หลังจากนั้น",
+            "pos": "p",
+            "surface": "หลังจากนั้น"
+          },
+          {
+            "atom_id": "th:p:ต่อไป",
+            "pos": "p",
+            "surface": "ต่อไป"
+          }
+        ],
+        "surface_forms": [
+          "ก่อน",
+          "แล้ว",
+          "หลังจากนั้น",
+          "ต่อไป"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "sequence_connector_set",
+        "grammar_refs": [
+          "th-a2-gram-auth-006"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_reason_result_connectors_basic",
+      "knowledge_id": "th:grammar:a2_reason_result_connectors_basic",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:เพราะ",
+            "pos": "p",
+            "surface": "เพราะ"
+          },
+          {
+            "atom_id": "th:p:เลย",
+            "pos": "p",
+            "surface": "เลย"
+          },
+          {
+            "atom_id": "th:p:ดังนั้น",
+            "pos": "p",
+            "surface": "ดังนั้น"
+          }
+        ],
+        "surface_forms": [
+          "เพราะ",
+          "เลย",
+          "ดังนั้น"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "reason_result_connector_set",
+        "grammar_refs": [
+          "th-a2-gram-auth-007"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_ability_permission_frame_dai",
+      "knowledge_id": "th:grammar:a2_ability_permission_frame_dai",
+      "match": {
+        "atom_sequence": [
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          },
+          {
+            "atom_id": "th:p:ได้",
+            "pos": "p",
+            "surface": "ได้"
+          },
+          {
+            "atom_id": "th:v:ขอ",
+            "pos": "v",
+            "surface": "ขอ"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          },
+          {
+            "atom_id": "th:p:ได้",
+            "pos": "p",
+            "surface": "ได้"
+          },
+          {
+            "atom_id": "th:p:ไหม",
+            "pos": "p",
+            "surface": "ไหม"
+          }
+        ],
+        "surface_forms": [
+          "V + ได้",
+          "ขอ + V + ได้ไหม"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ability_permission_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-008"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_obligation_prohibition_basic",
+      "knowledge_id": "th:grammar:a2_obligation_prohibition_basic",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:ต้อง",
+            "pos": "p",
+            "surface": "ต้อง"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          },
+          {
+            "atom_id": "th:p:ห้าม",
+            "pos": "p",
+            "surface": "ห้าม"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          },
+          {
+            "atom_id": "th:p:ไม่",
+            "pos": "p",
+            "surface": "ไม่"
+          },
+          {
+            "atom_id": "th:p:ต้อง",
+            "pos": "p",
+            "surface": "ต้อง"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "surface_forms": [
+          "ต้อง + V",
+          "ห้าม + V",
+          "ไม่ต้อง + V"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "obligation_prohibition_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-009"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_conditional_frame_thaa",
+      "knowledge_id": "th:grammar:a2_conditional_frame_thaa",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:ถ้า",
+            "pos": "p",
+            "surface": "ถ้า"
+          },
+          {
+            "slot": "CONDITION_CLAUSE"
+          },
+          {
+            "slot": "RESULT_CLAUSE"
+          }
+        ],
+        "surface_forms": [
+          "ถ้า"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "conditional_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-010"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_location_route_particles_basic",
+      "knowledge_id": "th:grammar:a2_location_route_particles_basic",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:ที่",
+            "pos": "p",
+            "surface": "ที่"
+          },
+          {
+            "atom_id": "th:p:ใน",
+            "pos": "p",
+            "surface": "ใน"
+          },
+          {
+            "atom_id": "th:p:ถึง",
+            "pos": "p",
+            "surface": "ถึง"
+          },
+          {
+            "atom_id": "th:p:จาก",
+            "pos": "p",
+            "surface": "จาก"
+          },
+          {
+            "atom_id": "th:p:ไป",
+            "pos": "p",
+            "surface": "ไป"
+          },
+          {
+            "atom_id": "th:v:ลง",
+            "pos": "v",
+            "surface": "ลง"
+          },
+          {
+            "atom_id": "th:p:ที่",
+            "pos": "p",
+            "surface": "ที่"
+          }
+        ],
+        "surface_forms": [
+          "ที่",
+          "ใน",
+          "ถึง",
+          "จาก",
+          "ไป",
+          "ลงที่"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "location_route_particle_set",
+        "grammar_refs": [
+          "th-a2-gram-auth-011"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_quantity_approximation_kwaa",
+      "knowledge_id": "th:grammar:a2_quantity_approximation_kwaa",
+      "match": {
+        "atom_sequence": [
+          {
+            "slot": "NUMBER_OR_UNIT_PHRASE"
+          },
+          {
+            "atom_id": "th:p:กว่า",
+            "pos": "p",
+            "surface": "กว่า"
+          }
+        ],
+        "surface_forms": [
+          "number/unit + กว่า"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "quantity_approximation_marker",
+        "grammar_refs": [
+          "th-a2-gram-auth-012"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_because_connector_variants",
+      "knowledge_id": "th:grammar:a2_because_connector_variants",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:เพราะ",
+            "pos": "p",
+            "surface": "เพราะ"
+          },
+          {
+            "atom_id": "th:p:เพราะว่า",
+            "pos": "p",
+            "surface": "เพราะว่า"
+          },
+          {
+            "slot": "REASON_CLAUSE"
+          }
+        ],
+        "surface_forms": [
+          "เพราะ",
+          "เพราะว่า"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "because_connector_variants",
+        "grammar_refs": [
+          "th-a2-gram-auth-013"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_experience_marker_khoei",
+      "knowledge_id": "th:grammar:a2_experience_marker_khoei",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:เคย",
+            "pos": "p",
+            "surface": "เคย"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "surface_forms": [
+          "เคย + V"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "experience_marker",
+        "grammar_refs": [
+          "th-a2-gram-auth-017"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_recent_action_marker_phoeng",
+      "knowledge_id": "th:grammar:a2_recent_action_marker_phoeng",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:เพิ่ง",
+            "pos": "p",
+            "surface": "เพิ่ง"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "surface_forms": [
+          "เพิ่ง + V"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "recent_action_marker",
+        "grammar_refs": [
+          "th-a2-gram-auth-018"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_imminent_plan_kamlang_ja",
+      "knowledge_id": "th:grammar:a2_imminent_plan_kamlang_ja",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:กำลัง",
+            "pos": "p",
+            "surface": "กำลัง"
+          },
+          {
+            "atom_id": "th:p:จะ",
+            "pos": "p",
+            "surface": "จะ"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "surface_forms": [
+          "กำลังจะ + V"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "imminent_plan_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-019"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_not_yet_frame_yang_mai",
+      "knowledge_id": "th:grammar:a2_not_yet_frame_yang_mai",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:ยัง",
+            "pos": "p",
+            "surface": "ยัง"
+          },
+          {
+            "atom_id": "th:p:ไม่",
+            "pos": "p",
+            "surface": "ไม่"
+          },
+          {
+            "slot": "V_OR_ADJECTIVE"
+          }
+        ],
+        "surface_forms": [
+          "ยังไม่ + V/adj"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "not_yet_negative_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-020"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_should_frame_khuan",
+      "knowledge_id": "th:grammar:a2_should_frame_khuan",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:p:ควร",
+            "pos": "p",
+            "surface": "ควร"
+          },
+          {
+            "atom_id": "th:p:จะ",
+            "pos": "p",
+            "surface": "จะ"
+          },
+          {
+            "slot": "V_OR_VERB_PHRASE"
+          }
+        ],
+        "surface_forms": [
+          "ควร + V",
+          "ควรจะ + V"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "should_advice_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-021"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_directional_serial_ao_pai_ma",
+      "knowledge_id": "th:grammar:a2_directional_serial_ao_pai_ma",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:v:เอา",
+            "pos": "v",
+            "surface": "เอา"
+          },
+          {
+            "slot": "OBJECT"
+          },
+          {
+            "atom_id": "th:v:ไป",
+            "pos": "v",
+            "surface": "ไป"
+          },
+          {
+            "atom_id": "th:v:มา",
+            "pos": "v",
+            "surface": "มา"
+          }
+        ],
+        "surface_forms": [
+          "เอา + object + ไป",
+          "เอา + object + มา"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "directional_serial_verb_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-022"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_round_trip_pai_ma",
+      "knowledge_id": "th:grammar:a2_round_trip_pai_ma",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:v:ไป",
+            "pos": "v",
+            "surface": "ไป"
+          },
+          {
+            "slot": "PLACE"
+          },
+          {
+            "atom_id": "th:v:มา",
+            "pos": "v",
+            "surface": "มา"
+          }
+        ],
+        "surface_forms": [
+          "ไป + place + มา"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "round_trip_experience_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-023"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_relative_clause_thii",
+      "knowledge_id": "th:grammar:a2_relative_clause_thii",
+      "match": {
+        "atom_sequence": [
+          {
+            "slot": "NOUN"
+          },
+          {
+            "atom_id": "th:p:ที่",
+            "pos": "p",
+            "surface": "ที่"
+          },
+          {
+            "slot": "MODIFIER_CLAUSE"
+          }
+        ],
+        "surface_forms": [
+          "N + ที่ + clause"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "relative_clause_modifier",
+        "grammar_refs": [
+          "th-a2-gram-auth-024"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_frequency_adverbs_basic",
+      "knowledge_id": "th:grammar:a2_frequency_adverbs_basic",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:adv:บ่อยๆ",
+            "pos": "adv",
+            "surface": "บ่อยๆ"
+          },
+          {
+            "atom_id": "th:adv:ทุกวัน",
+            "pos": "adv",
+            "surface": "ทุกวัน"
+          },
+          {
+            "atom_id": "th:adv:บางครั้ง",
+            "pos": "adv",
+            "surface": "บางครั้ง"
+          }
+        ],
+        "surface_forms": [
+          "บ่อยๆ",
+          "ทุกวัน",
+          "บางครั้ง"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "frequency_adverb_set",
+        "grammar_refs": [
+          "th-a2-gram-auth-025"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_superlative_frame_thii_sut",
+      "knowledge_id": "th:grammar:a2_superlative_frame_thii_sut",
+      "match": {
+        "atom_sequence": [
+          {
+            "slot": "ADJECTIVE"
+          },
+          {
+            "atom_id": "th:adv:ที่สุด",
+            "pos": "adv",
+            "surface": "ที่สุด"
+          }
+        ],
+        "surface_forms": [
+          "Adj + ที่สุด"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "superlative_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-026"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_past_event_narrative_basic",
+      "knowledge_id": "th:grammar:a2_past_event_narrative_basic",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:adv:เมื่อวาน",
+            "pos": "adv",
+            "surface": "เมื่อวาน"
+          },
+          {
+            "slot": "PAST_EVENT_CLAUSE"
+          },
+          {
+            "atom_id": "th:p:แล้ว",
+            "pos": "p",
+            "surface": "แล้ว"
+          },
+          {
+            "slot": "NEXT_OR_EVALUATION_CLAUSE"
+          },
+          {
+            "atom_id": "th:v:รู้สึก",
+            "pos": "v",
+            "surface": "รู้สึก"
+          },
+          {
+            "slot": "FEELING_ADJECTIVE"
+          }
+        ],
+        "surface_forms": [
+          "เมื่อวาน + event",
+          "แล้ว + next/evaluation",
+          "รู้สึก + feeling"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "past_event_narrative_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-027"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_basic_symptom_description",
+      "knowledge_id": "th:grammar:a2_basic_symptom_description",
+      "match": {
+        "atom_sequence": [
+          {
+            "atom_id": "th:v:ปวด",
+            "pos": "v",
+            "surface": "ปวด"
+          },
+          {
+            "slot": "BODY_PART"
+          },
+          {
+            "atom_id": "th:p:ไม่",
+            "pos": "p",
+            "surface": "ไม่"
+          },
+          {
+            "atom_id": "th:adj:สบาย",
+            "pos": "adj",
+            "surface": "สบาย"
+          }
+        ],
+        "surface_forms": [
+          "ปวดหัว",
+          "ปวดท้อง",
+          "ไม่สบาย"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "basic_symptom_description_frame",
+        "grammar_refs": [
+          "th-a2-gram-auth-028"
+        ],
+        "risk_boundary": "low_stakes_description_only_no_medical_advice"
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_comparative_frame_kwaa",
+      "knowledge_id": "th:grammar:a2_comparative_frame_kwaa",
+      "match": {
+        "atom_sequence": [
+          {
+            "slot": "COMPARISON_SUBJECT"
+          },
+          {
+            "slot": "GRADABLE_PREDICATE"
+          },
+          {
+            "atom_id": "th:p:กว่า",
+            "pos": "p",
+            "surface": "กว่า"
+          },
+          {
+            "optional": true,
+            "slot": "COMPARISON_TARGET"
+          }
+        ],
+        "surface_forms": [
+          "ถูกกว่า",
+          "เร็วกว่า",
+          "สะดวกกว่า"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "excluded_scope_refs": [
+          "th-a2-gram-auth-012",
+          "th-a2-gram-auth-002"
+        ],
+        "function_subtype": "comparative_marker",
+        "grammar_refs": [
+          "th-a2-gram-auth-001"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a1_additive_comitative_connectors",
+      "knowledge_id": "th:grammar:a1_additive_comitative_connectors",
+      "match": {
+        "atom_alternatives": [
+          [
+            {
+              "atom_id": "th:conj:และ",
+              "pos": "conj",
+              "surface": "และ"
+            }
+          ],
+          [
+            {
+              "atom_id": "th:p:กับ",
+              "pos": "p",
+              "surface": "กับ"
+            }
+          ],
+          [
+            {
+              "atom_id": "th:p:ด้วย",
+              "pos": "p",
+              "surface": "ด้วย"
+            }
+          ]
+        ],
+        "surface_forms": [
+          "และ",
+          "กับ",
+          "ด้วย"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "additive_comitative_connector_set",
+        "grammar_refs": [
+          "th-a1-gram-auth-028"
+        ]
+      }
+    },
+    {
+      "enabled": false,
+      "id": "rule.th.phase2.grammar.a2_wh_time_reason_manner_questions",
+      "knowledge_id": "th:grammar:a2_wh_time_reason_manner_questions",
+      "match": {
+        "atom_alternatives": [
+          [
+            {
+              "atom_id": "th:adv:เมื่อไหร่",
+              "pos": "adv",
+              "surface": "เมื่อไหร่"
+            }
+          ],
+          [
+            {
+              "atom_id": "th:adv:ทำไม",
+              "pos": "adv",
+              "surface": "ทำไม"
+            }
+          ],
+          [
+            {
+              "atom_id": "th:adv:ยังไง",
+              "pos": "adv",
+              "surface": "ยังไง"
+            }
+          ],
+          [
+            {
+              "atom_id": "th:adv:อย่างไร",
+              "pos": "adv",
+              "surface": "อย่างไร"
+            }
+          ]
+        ],
+        "surface_forms": [
+          "เมื่อไหร่",
+          "ทำไม",
+          "ยังไง",
+          "อย่างไร"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "wh_time_reason_manner_question_set",
+        "grammar_refs": [
+          "th-a2-gram-auth-029"
+        ],
+        "register_note": "อย่างไร is more formal than ยังไง"
+      }
+    }
+  ],
+  "language": "th",
+  "package_id": "th-grammar-a1a2",
+  "schema_version": "grammar_runtime_preview_atom_rules.v1"
+}

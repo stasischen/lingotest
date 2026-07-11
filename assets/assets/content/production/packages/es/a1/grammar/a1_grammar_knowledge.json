@@ -1,0 +1,742 @@
+{
+  "schema_version": "a1_grammar_knowledge_sidecar.v1",
+  "language": "es",
+  "status": "review_staging_native_pending",
+  "created_at": "2026-06-18",
+  "author_id": "phase3_grammar_knowledge_author_es_20260618",
+  "authoring_basis": "external denominator row plus grounded reading_surface_drafts_20260615 examples",
+  "production_promotion_allowed": false,
+  "native_status": "native_pending",
+  "nodes": [
+    {
+      "learning_object_id": "es_grammar_gender_number_agreement",
+      "title_zh_tw": "gender and number agreement（el, la, los, las）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「gender and number agreement」。 它幫你看出名詞是陰性/陽性或單數/複數，周圍的冠詞、形容詞也要跟著配合。 這次先認得：el、la、los、las。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.gender_number_agreement",
+      "ref_item": "gender and number agreement",
+      "ref_subitems": [
+        "el",
+        "la",
+        "los",
+        "las"
+      ],
+      "examples": [
+        {
+          "surface": "El mercado abre temprano los sábados.",
+          "source_item_id": "article:es_reading_gender_number_agreement_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「el、los」，呈現「gender and number agreement」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ana va con la madre y lleva las bolsas.",
+          "source_item_id": "article:es_reading_gender_number_agreement_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「la、las」，呈現「gender and number agreement」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "La madre compra los tomates para la comida.",
+          "source_item_id": "article:es_reading_gender_number_agreement_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「la、los」，呈現「gender and number agreement」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ana elige las manzanas y el pan.",
+          "source_item_id": "article:es_reading_gender_number_agreement_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「el、las」，呈現「gender and number agreement」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_gender_number_agreement_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_gender_number_agreement_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_articles",
+      "title_zh_tw": "definite and indefinite articles（un, una, el, la）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「definite and indefinite articles」。 它幫你在名詞前面標出「一個」或「這個/那個」，也常跟性別、單複數一起變。 這次先認得：un、una、el、la。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.articles",
+      "ref_item": "definite and indefinite articles",
+      "ref_subitems": [
+        "un",
+        "una",
+        "el",
+        "la"
+      ],
+      "examples": [
+        {
+          "surface": "Pide un café y una tostada.",
+          "source_item_id": "article:es_reading_articles_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「un、una」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "El camarero prepara el café en la barra.",
+          "source_item_id": "article:es_reading_articles_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「el、la」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Marcos entra en una cafetería pequeña.",
+          "source_item_id": "article:es_reading_articles_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「una」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "La tostada está caliente en un plato.",
+          "source_item_id": "article:es_reading_articles_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「un、la」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_articles_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_articles_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_present_regular",
+      "title_zh_tw": "present indicative regular verbs（hablo, como, vivo）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「present indicative regular verbs」。 它用來說現在正在/平常會做的事。先看主詞不同時，規則動詞現在式字尾怎麼變。 這次先認得：hablo、como、vivo。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.present_regular",
+      "ref_item": "present indicative regular verbs",
+      "ref_subitems": [
+        "hablo",
+        "como",
+        "vivo"
+      ],
+      "examples": [
+        {
+          "surface": "Como pan con queso antes de salir.",
+          "source_item_id": "article:es_reading_present_regular_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「como、antes」，呈現「present indicative regular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "En clase hablo poco y escribo mucho.",
+          "source_item_id": "article:es_reading_present_regular_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「hablo、clase」，呈現「present indicative regular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Vivo con mi abuela, y ella también come arroz.",
+          "source_item_id": "article:es_reading_present_regular_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「vivo、come」，呈現「present indicative regular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Por la tarde hablo con Clara por teléfono.",
+          "source_item_id": "article:es_reading_present_regular_a1_v1:u007",
+          "note_zh_tw": "這句直接使用「hablo、tarde」，呈現「present indicative regular verbs」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_present_regular_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_present_regular_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_ser_estar",
+      "title_zh_tw": "ser and estar（soy, estoy）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「ser and estar」。 先用它說身分、狀態、位置或「是什麼」。遇到兩種形式時，先看例句是在說固定身分還是當下狀態。 這次先認得：soy、estoy。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.ser_estar",
+      "ref_item": "ser and estar",
+      "ref_subitems": [
+        "soy",
+        "estoy"
+      ],
+      "examples": [
+        {
+          "surface": "Digo: \"Soy Ana y estoy un poco nerviosa\".",
+          "source_item_id": "article:es_reading_ser_estar_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「soy、estoy」，呈現「ser and estar」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Soy nueva en la clase de español.",
+          "source_item_id": "article:es_reading_ser_estar_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「soy」，呈現「ser and estar」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Estoy en la puerta con mi cuaderno.",
+          "source_item_id": "article:es_reading_ser_estar_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「estoy」，呈現「ser and estar」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "La profesora pregunta quién soy.",
+          "source_item_id": "article:es_reading_ser_estar_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「soy」，呈現「ser and estar」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_ser_estar_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_ser_estar_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_hay",
+      "title_zh_tw": "haber: hay（hay）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「haber: hay」。 它用來說「有/存在」。先分清楚後面是一個東西，還是很多東西。 這次先認得：hay。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.hay",
+      "ref_item": "haber: hay",
+      "ref_subitems": [
+        "hay"
+      ],
+      "examples": [
+        {
+          "surface": "Hay leche, pero no hay huevos.",
+          "source_item_id": "article:es_reading_hay_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「hay」，呈現「haber: hay」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "En la mesa hay dos tomates.",
+          "source_item_id": "article:es_reading_hay_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「hay」，呈現「haber: hay」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "También hay pan en una bolsa.",
+          "source_item_id": "article:es_reading_hay_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「hay」，呈現「haber: hay」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Después hay comida para su hermano.",
+          "source_item_id": "article:es_reading_hay_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「hay」，呈現「haber: hay」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_hay_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_hay_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_tener_ir",
+      "title_zh_tw": "tener and ir（tengo, voy）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「tener and ir」。 這兩個常用動詞很重要：tener 說「有」，ir 說「去」或接下來要做。先看句子是在說擁有、行程，還是移動。 這次先認得：tengo、voy。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.tener_ir",
+      "ref_item": "tener and ir",
+      "ref_subitems": [
+        "tengo",
+        "voy"
+      ],
+      "examples": [
+        {
+          "surface": "Tengo una cita con el médico a las diez.",
+          "source_item_id": "article:es_reading_tener_ir_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「tengo」，呈現「tener and ir」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Voy a la parada con mi madre.",
+          "source_item_id": "article:es_reading_tener_ir_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「voy」，呈現「tener and ir」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Tengo la tarjeta en el bolsillo.",
+          "source_item_id": "article:es_reading_tener_ir_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「tengo」，呈現「tener and ir」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "El autobús llega y voy al centro.",
+          "source_item_id": "article:es_reading_tener_ir_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「voy」，呈現「tener and ir」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_tener_ir_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_tener_ir_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_negation",
+      "title_zh_tw": "basic negation no（no）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「basic negation no」。 它用來說「不/沒有」。重點是把否定標記放在例句中的正確位置。 這次先認得：no。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.negation",
+      "ref_item": "basic negation no",
+      "ref_subitems": [
+        "no"
+      ],
+      "examples": [
+        {
+          "surface": "Hoy Pablo no tiene clase.",
+          "source_item_id": "article:es_reading_negation_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「no」，呈現「basic negation no」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Quiere ir al parque, pero no hace sol.",
+          "source_item_id": "article:es_reading_negation_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「no」，呈現「basic negation no」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Su bicicleta no está lista.",
+          "source_item_id": "article:es_reading_negation_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「no」，呈現「basic negation no」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Pablo no sale de casa.",
+          "source_item_id": "article:es_reading_negation_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「no」，呈現「basic negation no」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_negation_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_negation_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_interrogatives",
+      "title_zh_tw": "interrogatives（qué, dónde, cuándo, cuánto）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「interrogatives」。 它用來問問題。先記住問人、地點、時間、數量或 yes/no 時句子怎麼開頭或結尾。 這次先認得：qué、dónde、cuándo、cuánto。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.interrogatives",
+      "ref_item": "interrogatives",
+      "ref_subitems": [
+        "qué",
+        "dónde",
+        "cuándo",
+        "cuánto"
+      ],
+      "examples": [
+        {
+          "surface": "Pregunta: \"¿Dónde está la taquilla?\"",
+          "source_item_id": "article:es_reading_interrogatives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「dónde」，呈現「interrogatives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "En la taquilla pregunta: \"¿Qué tren va al centro?\"",
+          "source_item_id": "article:es_reading_interrogatives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「qué」，呈現「interrogatives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Marta pregunta: \"¿Cuándo sale el tren?\"",
+          "source_item_id": "article:es_reading_interrogatives_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「cuándo」，呈現「interrogatives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "También pregunta: \"¿Cuánto cuesta el billete?\"",
+          "source_item_id": "article:es_reading_interrogatives_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「cuánto」，呈現「interrogatives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_interrogatives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_interrogatives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_subject_pronouns",
+      "title_zh_tw": "subject pronouns（yo, tú, él）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「subject pronouns」。 它用代詞說出主詞是誰，例如我、你、他/她。A1 先用它看懂誰在做動作。 這次先認得：yo、tú、él。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.subject_pronouns",
+      "ref_item": "subject pronouns",
+      "ref_subitems": [
+        "yo",
+        "tú",
+        "él"
+      ],
+      "examples": [
+        {
+          "surface": "Yo preparo la mochila por la mañana.",
+          "source_item_id": "article:es_reading_subject_pronouns_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「yo」，呈現「subject pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Tú buscas las botellas de agua.",
+          "source_item_id": "article:es_reading_subject_pronouns_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「tú」，呈現「subject pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Él trae las llaves del coche.",
+          "source_item_id": "article:es_reading_subject_pronouns_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「él」，呈現「subject pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Yo pongo pan en la bolsa.",
+          "source_item_id": "article:es_reading_subject_pronouns_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「yo」，呈現「subject pronouns」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_subject_pronouns_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_subject_pronouns_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_possessives",
+      "title_zh_tw": "possessives（mi, tu, su）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「possessives」。 它用來說「我的/你的/某人的」。先看誰擁有後面的東西。 這次先認得：mi、tu、su。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.possessives",
+      "ref_item": "possessives",
+      "ref_subitems": [
+        "mi",
+        "tu",
+        "su"
+      ],
+      "examples": [
+        {
+          "surface": "Mi amiga dice: \"Tu cuaderno está aquí\".",
+          "source_item_id": "article:es_reading_possessives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「mi、tu」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Está debajo de su libro azul.",
+          "source_item_id": "article:es_reading_possessives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「su」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Busco mi cuaderno antes de clase.",
+          "source_item_id": "article:es_reading_possessives_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「mi」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Tomo mi cuaderno y miro mi tarea.",
+          "source_item_id": "article:es_reading_possessives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「mi」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_possessives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_possessives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_demonstratives",
+      "title_zh_tw": "demonstratives（este, esta, ese）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「demonstratives」。 它用來指「這個/那個」。先從近的、遠的、單數、複數判斷。 這次先認得：este、esta、ese。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.demonstratives",
+      "ref_item": "demonstratives",
+      "ref_subitems": [
+        "este",
+        "esta",
+        "ese"
+      ],
+      "examples": [
+        {
+          "surface": "Clara pone este vaso y esta taza juntos.",
+          "source_item_id": "article:es_reading_demonstratives_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「este、esta」，呈現「demonstratives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ese plato grande va a otra mesa.",
+          "source_item_id": "article:es_reading_demonstratives_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「ese」，呈現「demonstratives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Esta mesa está junto a la ventana.",
+          "source_item_id": "article:es_reading_demonstratives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「esta」，呈現「demonstratives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Este vaso es para el agua.",
+          "source_item_id": "article:es_reading_demonstratives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「este」，呈現「demonstratives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_demonstratives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_demonstratives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_gustar",
+      "title_zh_tw": "gustar-type expressions（me gusta, te gusta）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「gustar-type expressions」。 gustar 用來說喜歡，西文常說 me gusta / te gusta，重點是喜歡的東西放在 gusta 後面。 這次先認得：me gusta、te gusta。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.gustar",
+      "ref_item": "gustar-type expressions",
+      "ref_subitems": [
+        "me gusta",
+        "te gusta"
+      ],
+      "examples": [
+        {
+          "surface": "Miro el limón y digo: \"Me gusta este sabor\".",
+          "source_item_id": "article:es_reading_gustar_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「me gusta」，呈現「gustar-type expressions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Daniel pregunta: \"¿Te gusta el chocolate?\"",
+          "source_item_id": "article:es_reading_gustar_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「te gusta」，呈現「gustar-type expressions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Yo respondo: \"Sí, me gusta, pero hoy quiero limón\".",
+          "source_item_id": "article:es_reading_gustar_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「me gusta」，呈現「gustar-type expressions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Daniel dice: \"A mí me gusta el chocolate\".",
+          "source_item_id": "article:es_reading_gustar_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「me gusta」，呈現「gustar-type expressions」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_gustar_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_gustar_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_estar_gerundio",
+      "title_zh_tw": "estar + gerundio（estoy, ando, iendo）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「estar + gerundio」。 它用來說「正在做」。例句要同時有「be/estar」這類助動詞和正在進行的動作。 這次先認得：estoy、ando、iendo。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.estar_gerundio",
+      "ref_item": "estar + gerundio",
+      "ref_subitems": [
+        "estoy",
+        "ando",
+        "iendo"
+      ],
+      "examples": [
+        {
+          "surface": "Estoy cortando pan para la merienda.",
+          "source_item_id": "article:es_reading_estar_gerundio_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ando」，呈現「estar + gerundio」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Mi hermana está comiendo una manzana.",
+          "source_item_id": "article:es_reading_estar_gerundio_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「iendo」，呈現「estar + gerundio」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Mi padre está preparando té.",
+          "source_item_id": "article:es_reading_estar_gerundio_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「ando」，呈現「estar + gerundio」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Yo estoy poniendo vasos en la mesa.",
+          "source_item_id": "article:es_reading_estar_gerundio_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「iendo」，呈現「estar + gerundio」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_estar_gerundio_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_estar_gerundio_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_future_basic",
+      "title_zh_tw": "ir a + infinitive（voy a）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「ir a + infinitive」。 它用來說接下來要做的事。先看表示未來的詞和後面的動作連在一起。 這次先認得：voy a。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.ir_a_infinitive",
+      "ref_item": "ir a + infinitive",
+      "ref_subitems": [
+        "voy a"
+      ],
+      "examples": [
+        {
+          "surface": "Mañana va a trabajar temprano.",
+          "source_item_id": "article:es_reading_future_basic_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「va a」，呈現「ir a + infinitive」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Yo voy a verla a las seis.",
+          "source_item_id": "article:es_reading_future_basic_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「voy a」，呈現「ir a + infinitive」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Vamos a cenar en casa.",
+          "source_item_id": "article:es_reading_future_basic_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「vamos a」，呈現「ir a + infinitive」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Por la tarde va a comprar pan.",
+          "source_item_id": "article:es_reading_future_basic_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「va a」，呈現「ir a + infinitive」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_future_basic_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_future_basic_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_past_basic",
+      "title_zh_tw": "basic past actions（ayer）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「basic past actions」。 它用來說已經發生的事。先看昨天、剛才這類時間詞，以及動詞的過去形式。 這次先認得：ayer。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.past_basic",
+      "ref_item": "basic past actions",
+      "ref_subitems": [
+        "ayer"
+      ],
+      "examples": [
+        {
+          "surface": "Ayer fui al mercado con Luis.",
+          "source_item_id": "article:es_reading_past_basic_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「ayer、fui」，呈現「basic past actions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Compré pan y leche para casa.",
+          "source_item_id": "article:es_reading_past_basic_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「compré」，呈現「basic past actions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Después tomé un café pequeño.",
+          "source_item_id": "article:es_reading_past_basic_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「tomé」，呈現「basic past actions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Por la tarde fui a casa.",
+          "source_item_id": "article:es_reading_past_basic_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「fui」，呈現「basic past actions」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_past_basic_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_past_basic_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_prepositions",
+      "title_zh_tw": "prepositions en/a/de/con（en, a, de, con）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「prepositions en/a/de/con」。 它通常放在名詞片語前面，用來表示位置、方向、來源、所屬、材料或和誰一起。 這次先認得：en、a、de、con。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.prepositions",
+      "ref_item": "prepositions en/a/de/con",
+      "ref_subitems": [
+        "en",
+        "a",
+        "de",
+        "con"
+      ],
+      "examples": [
+        {
+          "surface": "Va a la cocina con su hermano.",
+          "source_item_id": "article:es_reading_prepositions_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「a、con」，呈現「prepositions en/a/de/con」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "En la puerta, se despide de su hermano.",
+          "source_item_id": "article:es_reading_prepositions_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「en、de」，呈現「prepositions en/a/de/con」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sara está en casa por la mañana.",
+          "source_item_id": "article:es_reading_prepositions_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「en」，呈現「prepositions en/a/de/con」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Toma una taza de leche de la nevera.",
+          "source_item_id": "article:es_reading_prepositions_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「de」，呈現「prepositions en/a/de/con」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_prepositions_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_prepositions_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_connectors",
+      "title_zh_tw": "connectors y/pero/porque（y, pero, porque）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「connectors y/pero/porque」。 它用來把兩個短句接起來，表示加上、轉折或原因。 這次先認得：y、pero、porque。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.connectors",
+      "ref_item": "connectors y/pero/porque",
+      "ref_subitems": [
+        "y",
+        "pero",
+        "porque"
+      ],
+      "examples": [
+        {
+          "surface": "Luis quiere salir y jugar al fútbol.",
+          "source_item_id": "article:es_reading_connectors_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「y」，呈現「connectors y/pero/porque」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Mira la ventana, pero llueve mucho.",
+          "source_item_id": "article:es_reading_connectors_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「pero」，呈現「connectors y/pero/porque」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "No sale porque no tiene paraguas.",
+          "source_item_id": "article:es_reading_connectors_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「porque」，呈現「connectors y/pero/porque」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Prepara leche y pan en la cocina.",
+          "source_item_id": "article:es_reading_connectors_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「y」，呈現「connectors y/pero/porque」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_connectors_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_connectors_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "es_grammar_quantifiers",
+      "title_zh_tw": "basic quantifiers（mucho, poco）",
+      "explanation_md_zh_tw": "這個節點教 西班牙文 A1 的「basic quantifiers」。 它用來說多、少、一些或很多。先看它是在修飾數量，還是在修飾程度。 這次先認得：mucho、poco。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ES.grammar.quantifiers",
+      "ref_item": "basic quantifiers",
+      "ref_subitems": [
+        "mucho",
+        "poco"
+      ],
+      "examples": [
+        {
+          "surface": "Guarda mucho pan y poco queso en la mochila.",
+          "source_item_id": "article:es_reading_quantifiers_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「mucho、poco」，呈現「basic quantifiers」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "En la tienda hay mucho pan por la mañana.",
+          "source_item_id": "article:es_reading_quantifiers_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「mucho」，呈現「basic quantifiers」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Rosa compra poco queso porque está sola.",
+          "source_item_id": "article:es_reading_quantifiers_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「poco」，呈現「basic quantifiers」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "También compra mucho pan para la excursión.",
+          "source_item_id": "article:es_reading_quantifiers_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「mucho」，呈現「basic quantifiers」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "PCIC A1 gramática",
+      "source_locator": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_a1-a2.htm",
+      "source_reading_asset_id": "es_reading_quantifiers_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-es\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\es_reading_quantifiers_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_es_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    }
+  ]
+}

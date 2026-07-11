@@ -1,0 +1,412 @@
+{
+  "schema_version": "a1_runtime_reading_index.v1",
+  "language": "pt",
+  "assets": [
+    {
+      "surface_id": "pt_reading_future_basic_a1_v1",
+      "learning_object_id": "pt_grammar_future_basic",
+      "object_type": null,
+      "controlled_terms": [
+        "amanhã",
+        "vou estudar",
+        "vou ligar"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_past_basic_a1_v1",
+      "learning_object_id": "pt_grammar_past_basic",
+      "object_type": null,
+      "controlled_terms": [
+        "ontem",
+        "fui",
+        "comprei"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_clothes_colors_a1_v1",
+      "learning_object_id": "pt_vocab_clothes_colors",
+      "object_type": null,
+      "controlled_terms": [
+        "camisa azul",
+        "calça preta",
+        "chapéu branco"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_daily_routine_a1_v1",
+      "learning_object_id": "pt_vocab_daily_routine",
+      "object_type": null,
+      "controlled_terms": [
+        "café",
+        "escola",
+        "janto"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_family_a1_v1",
+      "learning_object_id": "pt_vocab_family",
+      "object_type": null,
+      "controlled_terms": [
+        "família",
+        "pai",
+        "mãe",
+        "irmã"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_health_body_a1_v1",
+      "learning_object_id": "pt_vocab_health_body",
+      "object_type": null,
+      "controlled_terms": [
+        "dor de cabeça",
+        "dor na garganta",
+        "corpo",
+        "água"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_home_a1_v1",
+      "learning_object_id": "pt_vocab_home",
+      "object_type": null,
+      "controlled_terms": [
+        "casa",
+        "cozinha",
+        "banheiro",
+        "quarto"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_weather_a1_v1",
+      "learning_object_id": "pt_vocab_weather",
+      "object_type": null,
+      "controlled_terms": [
+        "faz sol",
+        "faz calor",
+        "chove"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_work_school_a1_v1",
+      "learning_object_id": "pt_vocab_work_school",
+      "object_type": null,
+      "controlled_terms": [
+        "estudante",
+        "escola",
+        "trabalha",
+        "escritório"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_food_drink_a1_v1",
+      "learning_object_id": "pt_lexis_vocab_food_drink",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "café",
+        "pão",
+        "queijo",
+        "suco",
+        "água",
+        "bolo"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_hotel_a1_v1",
+      "learning_object_id": "pt_lexis_vocab_hotel",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "hotel",
+        "recepção",
+        "quarto",
+        "chave",
+        "café da manhã",
+        "reserva"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_directions_places_a1_v1",
+      "learning_object_id": "pt_lexis_vocab_directions_places",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "praça",
+        "banco",
+        "farmácia",
+        "rua",
+        "direita",
+        "esquerda"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_money_payment_a1_v1",
+      "learning_object_id": "pt_lexis_vocab_money_payment",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "reais",
+        "preço",
+        "dinheiro",
+        "cartão",
+        "troco",
+        "nota"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_time_schedule_a1_v1",
+      "learning_object_id": "pt_lexis_vocab_time_schedule",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "hora",
+        "minutos",
+        "cedo",
+        "tarde",
+        "às oito",
+        "agenda"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_self_intro_identity_a1_v1",
+      "learning_object_id": "pt_lexis_vocab_self_intro_identity",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "nome",
+        "me chamo",
+        "sou",
+        "brasileira",
+        "cidade",
+        "moro"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_social_meeting_a1_v1",
+      "learning_object_id": "pt_lexis_vocab_social_meeting",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "oi",
+        "tudo bem",
+        "prazer",
+        "amiga",
+        "até logo",
+        "obrigado"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_digital_phone_wifi_a1_v1",
+      "learning_object_id": "pt_lexis_vocab_digital_phone_wifi",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "celular",
+        "bateria",
+        "carregador",
+        "tomada",
+        "Wi-Fi",
+        "senha"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_transport_a1_v1",
+      "learning_object_id": "pt_lexis_vocab_transport",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "ônibus",
+        "metrô",
+        "passagem",
+        "estação",
+        "plataforma",
+        "táxi"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_shopping_services_a1_v1",
+      "learning_object_id": "pt_lexis_vocab_shopping_services",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "loja",
+        "camiseta",
+        "tamanho",
+        "provador",
+        "caixa",
+        "sacola"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_lost_items_a1_v1",
+      "learning_object_id": "pt_lexis_vocab_lost_items",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "perdi",
+        "bolsa",
+        "documento",
+        "balcão",
+        "achados e perdidos",
+        "telefone"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_articles_a1_v1",
+      "learning_object_id": "pt_grammar_articles",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "o",
+        "a",
+        "um",
+        "uma"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "pt_reading_gender_number_a1_v1",
+      "learning_object_id": "pt_grammar_gender_number",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "amigo",
+        "amiga",
+        "amigos"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_present_regular_a1_v1",
+      "learning_object_id": "pt_grammar_present_regular",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "falo",
+        "como",
+        "abro"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_ser_estar_a1_v1",
+      "learning_object_id": "pt_grammar_ser_estar",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "sou",
+        "estou"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_ter_ir_a1_v1",
+      "learning_object_id": "pt_grammar_ter_ir",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "tenho",
+        "vou"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_negation_a1_v1",
+      "learning_object_id": "pt_grammar_negation",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "não"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_questions_a1_v1",
+      "learning_object_id": "pt_grammar_questions",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "onde",
+        "quando",
+        "quanto"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_pronouns_a1_v1",
+      "learning_object_id": "pt_grammar_pronouns",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "eu",
+        "você",
+        "ele"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_possessives_a1_v1",
+      "learning_object_id": "pt_grammar_possessives",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "meu",
+        "sua"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_ha_tem_a1_v1",
+      "learning_object_id": "pt_grammar_ha_tem",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "tem",
+        "há"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_prepositions_a1_v1",
+      "learning_object_id": "pt_grammar_prepositions",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "em",
+        "a",
+        "de",
+        "com"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_connectors_a1_v1",
+      "learning_object_id": "pt_grammar_connectors",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "e",
+        "mas",
+        "porque"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_demonstratives_a1_v1",
+      "learning_object_id": "pt_grammar_demonstratives",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "este",
+        "esse"
+      ],
+      "row_count": 7
+    },
+    {
+      "surface_id": "pt_reading_quantifiers_a1_v1",
+      "learning_object_id": "pt_grammar_quantifiers",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "muito",
+        "pouco"
+      ],
+      "row_count": 7
+    }
+  ],
+  "row_count": 217
+}

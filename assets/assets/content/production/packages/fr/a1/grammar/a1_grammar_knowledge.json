@@ -1,0 +1,733 @@
+{
+  "schema_version": "a1_grammar_knowledge_sidecar.v1",
+  "language": "fr",
+  "status": "review_staging_native_pending",
+  "created_at": "2026-06-18",
+  "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+  "authoring_basis": "external denominator row plus grounded reading_surface_drafts_20260615 examples",
+  "production_promotion_allowed": false,
+  "native_status": "native_pending",
+  "nodes": [
+    {
+      "learning_object_id": "fr_grammar_articles",
+      "title_zh_tw": "definite and indefinite articles（le, la, un, une）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「definite and indefinite articles」。 它幫你在名詞前面標出「一個」或「這個/那個」，也常跟性別、單複數一起變。 這次先認得：le、la、un、une。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.articles",
+      "ref_item": "definite and indefinite articles",
+      "ref_subitems": [
+        "le",
+        "la",
+        "un",
+        "une"
+      ],
+      "examples": [
+        {
+          "surface": "Sur la table, il y a un bol et une tasse.",
+          "source_item_id": "article:fr_reading_articles_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「la、un、une」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Le matin, Lina ouvre la porte de la cuisine.",
+          "source_item_id": "article:fr_reading_articles_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「le、la」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Elle prend le bol pour son frère.",
+          "source_item_id": "article:fr_reading_articles_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「le」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Puis elle pose une pomme à côté.",
+          "source_item_id": "article:fr_reading_articles_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「une」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_articles_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_articles_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_partitives",
+      "title_zh_tw": "partitive articles（du, de la）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「partitive articles」。 它用來說「一些/一點」沒有明確數量的東西，常見在食物、飲料或不可數名詞前。 這次先認得：du、de la。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.partitives",
+      "ref_item": "partitive articles",
+      "ref_subitems": [
+        "du",
+        "de la"
+      ],
+      "examples": [
+        {
+          "surface": "Elle met du pain sur la table.",
+          "source_item_id": "article:fr_reading_partitives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「du」，呈現「partitive articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Elle verse de la soupe dans un bol.",
+          "source_item_id": "article:fr_reading_partitives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「de la」，呈現「partitive articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Son frère veut encore du pain.",
+          "source_item_id": "article:fr_reading_partitives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「du」，呈現「partitive articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Nora lui donne de la soupe aussi.",
+          "source_item_id": "article:fr_reading_partitives_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「de la」，呈現「partitive articles」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_partitives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_partitives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_gender_number",
+      "title_zh_tw": "gender and number（un, une, des）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「gender and number」。 它幫你看出名詞是陰性/陽性或單數/複數，周圍的冠詞、形容詞也要跟著配合。 這次先認得：un、une、des。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.gender_number",
+      "ref_item": "gender and number",
+      "ref_subitems": [
+        "un",
+        "une",
+        "des"
+      ],
+      "examples": [
+        {
+          "surface": "Elle prend un cahier bleu.",
+          "source_item_id": "article:fr_reading_gender_number_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「un」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Elle ajoute une gomme rose.",
+          "source_item_id": "article:fr_reading_gender_number_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「une」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sur le bureau, il y a des crayons.",
+          "source_item_id": "article:fr_reading_gender_number_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「des」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Elle met des crayons dans le sac.",
+          "source_item_id": "article:fr_reading_gender_number_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「des」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_gender_number_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_gender_number_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_present_regular",
+      "title_zh_tw": "present -er verbs（je, tu, il）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「present -er verbs」。 它用來說現在正在/平常會做的事。先看主詞不同時，規則動詞現在式字尾怎麼變。 這次先認得：je、tu、il。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.present_regular",
+      "ref_item": "present -er verbs",
+      "ref_subitems": [
+        "je",
+        "tu",
+        "il"
+      ],
+      "examples": [
+        {
+          "surface": "Je travaille au café le samedi matin.",
+          "source_item_id": "article:fr_reading_present_regular_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「je、travaille」，呈現「present -er verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Mon ami arrive et cherche une table.",
+          "source_item_id": "article:fr_reading_present_regular_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「arrive、cherche」，呈現「present -er verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Je lui dis : tu cherches une place ?",
+          "source_item_id": "article:fr_reading_present_regular_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「tu、cherches」，呈現「present -er verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Il commande un thé et un croissant.",
+          "source_item_id": "article:fr_reading_present_regular_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「il、commande」，呈現「present -er verbs」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_present_regular_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_present_regular_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_etre_avoir_aller_faire",
+      "title_zh_tw": "être/avoir/aller/faire（suis, ai, vais, fais）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「être/avoir/aller/faire」。 這些是法文 A1 很常用的不規則動詞：être 說是/狀態，avoir 說有，aller 說去/將要，faire 說做。 這次先認得：suis、ai、vais、fais。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.etre_avoir_aller_faire",
+      "ref_item": "être/avoir/aller/faire",
+      "ref_subitems": [
+        "suis",
+        "ai",
+        "vais",
+        "fais"
+      ],
+      "examples": [
+        {
+          "surface": "Je suis calme et je vais au quai.",
+          "source_item_id": "article:fr_reading_etre_avoir_aller_faire_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「suis、vais」，呈現「être/avoir/aller/faire」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "J'ai mon sac, mais pas mon ticket.",
+          "source_item_id": "article:fr_reading_etre_avoir_aller_faire_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ai」，呈現「être/avoir/aller/faire」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Dans le bus, je fais une liste rapide.",
+          "source_item_id": "article:fr_reading_etre_avoir_aller_faire_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「fais」，呈現「être/avoir/aller/faire」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Je suis en retard ce matin.",
+          "source_item_id": "article:fr_reading_etre_avoir_aller_faire_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「suis」，呈現「être/avoir/aller/faire」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_etre_avoir_aller_faire_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_etre_avoir_aller_faire_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_negation",
+      "title_zh_tw": "ne...pas（ne, pas）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「ne...pas」。 它用來說「不/沒有」。重點是把否定標記放在例句中的正確位置。 這次先認得：ne、pas。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.negation",
+      "ref_item": "ne...pas",
+      "ref_subitems": [
+        "ne",
+        "pas"
+      ],
+      "examples": [
+        {
+          "surface": "Aujourd'hui, Hugo ne va pas au parc.",
+          "source_item_id": "article:fr_reading_negation_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「ne、pas」，呈現「ne...pas」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Il ne prend pas son vélo.",
+          "source_item_id": "article:fr_reading_negation_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ne、pas」，呈現「ne...pas」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Il pleut, et sa sœur ne sort pas.",
+          "source_item_id": "article:fr_reading_negation_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「ne、pas」，呈現「ne...pas」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Hugo ne reste pas triste.",
+          "source_item_id": "article:fr_reading_negation_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「ne、pas」，呈現「ne...pas」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_negation_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_negation_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_questions",
+      "title_zh_tw": "questions intonation / est-ce que / wh（est-ce que, où, quand, combien）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「questions intonation / est-ce que / wh」。 它用來問問題。先記住問人、地點、時間、數量或 yes/no 時句子怎麼開頭或結尾。 這次先認得：est-ce que、où、quand、combien。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.questions",
+      "ref_item": "questions intonation / est-ce que / wh",
+      "ref_subitems": [
+        "est-ce que",
+        "où",
+        "quand",
+        "combien"
+      ],
+      "examples": [
+        {
+          "surface": "Elle demande : où est le quai deux ?",
+          "source_item_id": "article:fr_reading_questions_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「où」，呈現「questions intonation / est-ce que / wh」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Maya demande : quand part le train ?",
+          "source_item_id": "article:fr_reading_questions_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「quand」，呈現「questions intonation / est-ce que / wh」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Puis elle demande : combien coûte le billet ?",
+          "source_item_id": "article:fr_reading_questions_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「combien」，呈現「questions intonation / est-ce que / wh」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "L'agent dit : est-ce que vous payez par carte ?",
+          "source_item_id": "article:fr_reading_questions_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「est-ce que」，呈現「questions intonation / est-ce que / wh」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_questions_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_questions_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_pronouns",
+      "title_zh_tw": "subject and tonic pronouns（je, tu, moi）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「subject and tonic pronouns」。 它用代詞代替人。je/tu/il/elle 常作主詞，moi 這類重讀代詞常在強調或介詞後出現。 這次先認得：je、tu、moi。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.pronouns",
+      "ref_item": "subject and tonic pronouns",
+      "ref_subitems": [
+        "je",
+        "tu",
+        "moi"
+      ],
+      "examples": [
+        {
+          "surface": "Je réponds : moi, c'est Lina.",
+          "source_item_id": "article:fr_reading_pronouns_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「je、moi」，呈現「subject and tonic pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Clara demande : tu habites près d'ici ?",
+          "source_item_id": "article:fr_reading_pronouns_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「tu」，呈現「subject and tonic pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Je suis nouvelle dans la classe.",
+          "source_item_id": "article:fr_reading_pronouns_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「je」，呈現「subject and tonic pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Une fille vient vers moi avec un sourire.",
+          "source_item_id": "article:fr_reading_pronouns_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「moi」，呈現「subject and tonic pronouns」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_pronouns_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_pronouns_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_possessives",
+      "title_zh_tw": "possessive adjectives（mon, ma, mes）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「possessive adjectives」。 它用來說「我的/你的/某人的」。先看誰擁有後面的東西。 這次先認得：mon、ma、mes。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.possessives",
+      "ref_item": "possessive adjectives",
+      "ref_subitems": [
+        "mon",
+        "ma",
+        "mes"
+      ],
+      "examples": [
+        {
+          "surface": "Ma sœur voit mes clés près de la porte.",
+          "source_item_id": "article:fr_reading_possessives_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「ma、mes」，呈現「possessive adjectives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Avant le cours, je cherche mon cahier.",
+          "source_item_id": "article:fr_reading_possessives_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「mon」，呈現「possessive adjectives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ma trousse est ouverte sur la table.",
+          "source_item_id": "article:fr_reading_possessives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ma」，呈現「possessive adjectives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Mes stylos sont sous le livre.",
+          "source_item_id": "article:fr_reading_possessives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「mes」，呈現「possessive adjectives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_possessives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_possessives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_demonstratives",
+      "title_zh_tw": "ce/cette（ce, cette）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「ce/cette」。 它用來說「這個/那個」，在 A1 先注意後面的名詞是陽性還是陰性，例如 ce/cette。 這次先認得：ce、cette。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.demonstratives",
+      "ref_item": "ce/cette",
+      "ref_subitems": [
+        "ce",
+        "cette"
+      ],
+      "examples": [
+        {
+          "surface": "Karim prend cette poire et ce petit sac.",
+          "source_item_id": "article:fr_reading_demonstratives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「ce、cette」，呈現「ce/cette」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Il regarde ce panier de pommes.",
+          "source_item_id": "article:fr_reading_demonstratives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ce」，呈現「ce/cette」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "La vendeuse montre cette poire jaune.",
+          "source_item_id": "article:fr_reading_demonstratives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「cette」，呈現「ce/cette」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sa mère aime cette poire.",
+          "source_item_id": "article:fr_reading_demonstratives_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「cette」，呈現「ce/cette」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_demonstratives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_demonstratives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_future_basic",
+      "title_zh_tw": "futur proche（vais, aller）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「futur proche」。 它用來說接下來要做的事。先看表示未來的詞和後面的動作連在一起。 這次先認得：vais、aller。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.future_proche",
+      "ref_item": "futur proche",
+      "ref_subitems": [
+        "vais",
+        "aller"
+      ],
+      "examples": [
+        {
+          "surface": "Demain, je vais étudier à la maison le matin.",
+          "source_item_id": "article:fr_reading_future_basic_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「vais」，呈現「futur proche」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Après le déjeuner, je vais appeler mon ami Sami.",
+          "source_item_id": "article:fr_reading_future_basic_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「vais」，呈現「futur proche」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Je vais prendre de l'eau, et Sami va prendre un thé.",
+          "source_item_id": "article:fr_reading_future_basic_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「vais」，呈現「futur proche」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Le soir, je vais rentrer à la maison et parler de la classe.",
+          "source_item_id": "article:fr_reading_future_basic_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「vais」，呈現「futur proche」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_future_basic_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_future_basic_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_past_basic",
+      "title_zh_tw": "passé composé basics（hier）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「passé composé basics」。 它用來說已經發生的事。先看昨天、剛才這類時間詞，以及動詞的過去形式。 這次先認得：hier。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.passe_compose",
+      "ref_item": "passé composé basics",
+      "ref_subitems": [
+        "hier"
+      ],
+      "examples": [
+        {
+          "surface": "Hier, je suis allé au marché tôt avec ma mère.",
+          "source_item_id": "article:fr_reading_past_basic_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「hier、Hier、je suis allé」，呈現「passé composé basics」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "J'ai acheté du pain et une bouteille d'eau.",
+          "source_item_id": "article:fr_reading_past_basic_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「acheté」，呈現「passé composé basics」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ma mère a acheté des pommes pour la maison.",
+          "source_item_id": "article:fr_reading_past_basic_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「acheté」，呈現「passé composé basics」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_past_basic_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_past_basic_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_prepositions",
+      "title_zh_tw": "à/de/en/chez（à, de, en, chez）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「à/de/en/chez」。 它通常放在名詞片語前面，用來表示位置、方向、來源、所屬、材料或和誰一起。 這次先認得：à、de、en、chez。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.prepositions",
+      "ref_item": "à/de/en/chez",
+      "ref_subitems": [
+        "à",
+        "de",
+        "en",
+        "chez"
+      ],
+      "examples": [
+        {
+          "surface": "Elle part de la gare à trois heures.",
+          "source_item_id": "article:fr_reading_prepositions_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「à、de」，呈現「à/de/en/chez」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Après l'école, Emma va chez sa tante.",
+          "source_item_id": "article:fr_reading_prepositions_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「chez」，呈現「à/de/en/chez」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Elle monte en bus avec son sac.",
+          "source_item_id": "article:fr_reading_prepositions_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「en」，呈現「à/de/en/chez」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "À l'arrêt, sa tante attend Emma.",
+          "source_item_id": "article:fr_reading_prepositions_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「à」，呈現「à/de/en/chez」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_prepositions_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_prepositions_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_il_y_a",
+      "title_zh_tw": "il y a（il y a）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「il y a」。 它用來說「有/存在」。先分清楚後面是一個東西，還是很多東西。 這次先認得：il y a。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.il_y_a",
+      "ref_item": "il y a",
+      "ref_subitems": [
+        "il y a"
+      ],
+      "examples": [
+        {
+          "surface": "Il y a peu de lumière, alors elle cherche la lampe.",
+          "source_item_id": "article:fr_reading_il_y_a_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「il y a」，呈現「il y a」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Près du lit, il y a un bouton blanc.",
+          "source_item_id": "article:fr_reading_il_y_a_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「il y a」，呈現「il y a」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sur la table, il y a deux verres d'eau.",
+          "source_item_id": "article:fr_reading_il_y_a_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「il y a」，呈現「il y a」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_il_y_a_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_il_y_a_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_cest_il_est",
+      "title_zh_tw": "c'est vs il est（c'est, il est）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「c'est vs il est」。 c'est 常用來介紹或指認「這是/那是」，il est/elle est 常接形容詞或身分來描述人事物。 這次先認得：c'est、il est。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.cest_il_est",
+      "ref_item": "c'est vs il est",
+      "ref_subitems": [
+        "c'est",
+        "il est"
+      ],
+      "examples": [
+        {
+          "surface": "Il est un peu stressé devant le bureau.",
+          "source_item_id": "article:fr_reading_cest_il_est_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「il est」，呈現「c'est vs il est」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "C'est la professeure de français.",
+          "source_item_id": "article:fr_reading_cest_il_est_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「c'est」，呈現「c'est vs il est」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Paul voit un livre : c'est bien son livre.",
+          "source_item_id": "article:fr_reading_cest_il_est_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「c'est」，呈現「c'est vs il est」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Il est content et s'assoit pour le cours.",
+          "source_item_id": "article:fr_reading_cest_il_est_a1_v1:u007",
+          "note_zh_tw": "這句直接使用「il est」，呈現「c'est vs il est」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_cest_il_est_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_cest_il_est_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_connectors",
+      "title_zh_tw": "et/mais/parce que（et, mais, parce que）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「et/mais/parce que」。 它用來把兩個短句接起來，表示加上、轉折或原因。 這次先認得：et、mais、parce que。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.connectors",
+      "ref_item": "et/mais/parce que",
+      "ref_subitems": [
+        "et",
+        "mais",
+        "parce que"
+      ],
+      "examples": [
+        {
+          "surface": "Sofia veut aller au marché et acheter du pain.",
+          "source_item_id": "article:fr_reading_connectors_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「et」，呈現「et/mais/parce que」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Elle prend son sac, mais elle oublie son argent.",
+          "source_item_id": "article:fr_reading_connectors_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「mais」，呈現「et/mais/parce que」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Elle rentre vite parce que le marché ferme tôt.",
+          "source_item_id": "article:fr_reading_connectors_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「parce que」，呈現「et/mais/parce que」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Son frère trouve l'argent et le donne à Sofia.",
+          "source_item_id": "article:fr_reading_connectors_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「et」，呈現「et/mais/parce que」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_connectors_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_connectors_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_numbers_time",
+      "title_zh_tw": "numbers and time expressions（heure, demain）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「numbers and time expressions」。 它用來說數字、時間或數量。先看數字後面接的是時間、人物還是物品。 這次先認得：heure、demain。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.numbers_time",
+      "ref_item": "numbers and time expressions",
+      "ref_subitems": [
+        "heure",
+        "demain"
+      ],
+      "examples": [
+        {
+          "surface": "Le cours commence dans une heure.",
+          "source_item_id": "article:fr_reading_numbers_time_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「heure」，呈現「numbers and time expressions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Demain, le cours commence à neuf heures.",
+          "source_item_id": "article:fr_reading_numbers_time_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「demain」，呈現「numbers and time expressions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Léa écrit l'heure dans son carnet.",
+          "source_item_id": "article:fr_reading_numbers_time_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「heure」，呈現「numbers and time expressions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Elle arrive à l'heure aujourd'hui.",
+          "source_item_id": "article:fr_reading_numbers_time_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「heure」，呈現「numbers and time expressions」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_numbers_time_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_numbers_time_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "fr_grammar_adjectives",
+      "title_zh_tw": "basic adjective agreement（petit, petite）",
+      "explanation_md_zh_tw": "這個節點教 法文 A1 的「basic adjective agreement」。 它用來描述人或東西的樣子，例如大小、顏色、狀態。先看形容詞修飾哪個名詞。 這次先認得：petit、petite。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "FR.grammar.adjectives",
+      "ref_item": "basic adjective agreement",
+      "ref_subitems": [
+        "petit",
+        "petite"
+      ],
+      "examples": [
+        {
+          "surface": "Dans le café, Sara choisit une petite table.",
+          "source_item_id": "article:fr_reading_adjectives_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「petite」，呈現「basic adjective agreement」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Son frère prend un petit verre d'eau.",
+          "source_item_id": "article:fr_reading_adjectives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「petit」，呈現「basic adjective agreement」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "La petite table est près de la fenêtre.",
+          "source_item_id": "article:fr_reading_adjectives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「petite」，呈現「basic adjective agreement」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Le petit verre tombe presque.",
+          "source_item_id": "article:fr_reading_adjectives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「petit」，呈現「basic adjective agreement」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Niveau A1 pour le français / CECRL référentiel",
+      "source_locator": "Beacco et al. 2007; EAQUALS CEFR inventory cross-reference",
+      "source_reading_asset_id": "fr_reading_adjectives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-fr\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\fr_reading_adjectives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_fr_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    }
+  ]
+}

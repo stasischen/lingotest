@@ -1,0 +1,368 @@
+{
+  "language": "th",
+  "readings": [
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-001-a2_app_booking_confirmation",
+      "source_scenario_id": "a2_app_booking_confirmation",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ยืนยันการจองในแอป. จัดการงานดิจิทัลหรือเอกสารง่าย ๆ แบบความเสี่ยงต่ำด้วยประโยคสั้นระดับ A2 ใช้เฉพาะข้อมูลที่จำเป็น ห้ามให้รหัสผ่าน ข้อมูลจ่ายเงิน บัตรประจำตัว หรือข้อมูลกฎหมาย/แพทย์ค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_app_booking_confirmation",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "預約確認為今天下午三點。 / 在咖啡店二樓。"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-002-a2_ask_ingredient_preference",
+      "source_scenario_id": "a2_ask_ingredient_preference",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ถามเรื่องวัตถุดิบที่ชอบ. ถามว่ามีวัตถุดิบทั่วไปไหม แล้วเลือกตามความชอบค่ะ ถามว่ามีวัตถุดิบทั่วไปไหม แล้วเลือกตามความชอบค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_ask_ingredient_preference",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "您想點什麼？ / 有一點。"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-003-a2_ask_late_checkout",
+      "source_scenario_id": "a2_ask_late_checkout",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ถามเรื่องเช็กเอาต์ช้า. Ask if late checkout is possible and confirm the allowed time. ถามว่าสามารถเช็กเอาต์ช้ากว่าเดิมได้ไหม แล้วยืนยันเวลาสุดท้าย",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_ask_late_checkout",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "需要什麼協助嗎？ / 今天可以到下午一點退房。"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-004-a2_ask_recommendation_budget",
+      "source_scenario_id": "a2_ask_recommendation_budget",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ขอคำแนะนำตามงบ. ขอคำแนะนำในงบเล็ก ๆ และบอกความชอบสั้น ๆ ค่ะ ขอคำแนะนำในงบเล็ก ๆ และบอกความชอบสั้น ๆ ค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_ask_recommendation_budget",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "您在找什麼？ / 想要輕巧的，還是實用的？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-005-a2_ask_transfer_platform",
+      "source_scenario_id": "a2_ask_transfer_platform",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ถามชานชาลาที่ต้องเปลี่ยนขบวน. Ask for a transfer point and confirm a short two-step direction. ถามว่าต้องเปลี่ยนขบวนที่ไหน และต้องไปชานชาลาไหน",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_ask_transfer_platform",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "您要去哪裡？ / 在 Central 站下車，然後去 3 號月台。"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-006-a2_change_delivery_pickup_time",
+      "source_scenario_id": "a2_change_delivery_pickup_time",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "เปลี่ยนเวลารับของ. จัดการงานดิจิทัลหรือเอกสารง่าย ๆ แบบความเสี่ยงต่ำด้วยประโยคสั้นระดับ A2 ใช้เฉพาะข้อมูลที่จำเป็น ห้ามให้รหัสผ่าน ข้อมูลจ่ายเงิน บัตรประจำตัว หรือข้อมูลกฎหมาย/แพทย์ค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_change_delivery_pickup_time",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "今天四點取貨。 / 可以，五點可以。"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-007-a2_change_ticket_time",
+      "source_scenario_id": "a2_change_ticket_time",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "เปลี่ยนเวลาตั๋ว. Make a polite time-change request and confirm a new time. ที่เคาน์เตอร์ตั๋ว ขอเปลี่ยนเวลา แล้วตอบรับเวลาใหม่แบบสั้น ๆ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_change_ticket_time",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "您好，需要幫什麼嗎？ / 可以改成今天下午三點的票。"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-008-a2_compare_two_menu_options",
+      "source_scenario_id": "a2_compare_two_menu_options",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "เปรียบเทียบเมนูสองอย่าง. ฟังความต่างของเมนูสองอย่าง แล้วเลือกอย่างที่ชอบค่ะ ฟังความต่างของเมนูสองอย่าง แล้วเลือกอย่างที่ชอบค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_compare_two_menu_options",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "今天可以選泰式拌飯或麵。 / 泰式拌飯有點辣，麵比較清爽。"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-009-a2_confirm_date_time_place",
+      "source_scenario_id": "a2_confirm_date_time_place",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ยืนยันวัน เวลา และสถานที่. Understand a short message and confirm the date, time, and place. อ่านข้อความสั้นจากเพื่อน แล้วยืนยันวัน เวลา และสถานที่ด้วยประโยคสั้น ๆ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_confirm_date_time_place",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "你看到我傳的訊息了嗎？ / 對，那地點是哪裡？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-010-a2_decline_with_reason",
+      "source_scenario_id": "a2_decline_with_reason",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ปฏิเสธพร้อมเหตุผลง่าย ๆ. ปฏิเสธคำชวนของเพื่อนอย่างสุภาพ พร้อมเหตุผลง่าย ๆ หนึ่งข้อ ปฏิเสธคำชวนของเพื่อนอย่างนุ่มนวล พร้อมเหตุผลสั้น ๆ ธรรมดาค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_decline_with_reason",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "今晚要看電影嗎？ / 沒關係。你很忙嗎？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-011-a2_describe_weekend_activity",
+      "source_scenario_id": "a2_describe_weekend_activity",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "เล่าเรื่องที่ทำช่วงสุดสัปดาห์. เล่าสิ่งที่ทำในช่วงสุดสัปดาห์หนึ่งหรือสองอย่าง เล่าให้เพื่อนฟังว่าช่วงสุดสัปดาห์ทำอะไร ด้วยรายละเอียดสั้น ๆ ค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_describe_weekend_activity",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "週末做了什麼？ / 在哪裡見面？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-012-a2_exchange_wrong_item",
+      "source_scenario_id": "a2_exchange_wrong_item",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ขอเปลี่ยนของที่ได้ผิด. บอกอย่างสุภาพว่าได้ของไม่ตรงที่สั่ง และขอเปลี่ยนเป็นของที่ถูกต้องค่ะ บอกอย่างสุภาพว่าได้ของไม่ตรงที่สั่ง และขอเปลี่ยนเป็นของที่ถูกต้องค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_exchange_wrong_item",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "需要幫忙嗎？ / 我確認一下。可以看收據嗎？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-013-a2_explain_simple_delay_reason",
+      "source_scenario_id": "a2_explain_simple_delay_reason",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "บอกเหตุผลง่าย ๆ ว่าจะไปสาย. Apologize, give one simple reason, and estimate the delay. เพื่อนถามว่าคุณอยู่ไหน บอกสั้น ๆ ว่าจะสาย เพราะอะไร และสายประมาณกี่นาที",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_explain_simple_delay_reason",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "你到哪了？快到了嗎？ / 為什麼？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-014-a2_fill_simple_form_help",
+      "source_scenario_id": "a2_fill_simple_form_help",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ขอความช่วยเหลือกับแบบฟอร์มง่าย ๆ. จัดการงานดิจิทัลหรือเอกสารง่าย ๆ แบบความเสี่ยงต่ำด้วยประโยคสั้นระดับ A2 ใช้เฉพาะข้อมูลที่จำเป็น ห้ามให้รหัสผ่าน ข้อมูลจ่ายเงิน บัตรประจำตัว หรือข้อมูลกฎหมาย/แพทย์ค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_fill_simple_form_help",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "請先填這張表。 / 這裡請填姓名。"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-015-a2_invite_friend_activity",
+      "source_scenario_id": "a2_invite_friend_activity",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ชวนเพื่อนไปทำกิจกรรม. ชวนเพื่อนไปกิจกรรมธรรมดา แล้วตกลงเวลาและสถานที่ง่าย ๆ ชวนเพื่อนไปกิจกรรมง่าย ๆ เช่น ดื่มกาแฟหรือเดินเล่น แล้วตกลงแผนค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_invite_friend_activity",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "今天下午要一起喝咖啡嗎？ / 好啊。幾點好？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-016-a2_lost_item_followup_message",
+      "source_scenario_id": "a2_lost_item_followup_message",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ติดตามของที่ลืมไว้. จัดการงานดิจิทัลหรือเอกสารง่าย ๆ แบบความเสี่ยงต่ำด้วยประโยคสั้นระดับ A2 ใช้เฉพาะข้อมูลที่จำเป็น ห้ามให้รหัสผ่าน ข้อมูลจ่ายเงิน บัตรประจำตัว หรือข้อมูลกฎหมาย/แพทย์ค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_lost_item_followup_message",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "您在找什麼？ / 放在哪裡？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-017-a2_luggage_storage_pickup",
+      "source_scenario_id": "a2_luggage_storage_pickup",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ฝากกระเป๋าและถามเวลารับคืน. Ask to store luggage and confirm pickup time/receipt. ฝากกระเป๋าที่สถานี แล้วถามว่าต้องมารับคืนกี่โมงและใช้ใบอะไร",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_luggage_storage_pickup",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "要寄放包包嗎？ / 今天晚上七點前可以來取回。"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-018-a2_make_simple_plan_sequence",
+      "source_scenario_id": "a2_make_simple_plan_sequence",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "วางแผนสองขั้นตอนง่าย ๆ. วางแผนสองขั้นตอนกับเพื่อน และยืนยันลำดับ วางแผนกับเพื่อนสองขั้นตอน: ก่อนทำอย่างหนึ่ง แล้วค่อยทำอีกอย่างค่ะ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_make_simple_plan_sequence",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "我們先在車站見好嗎？ / 接著走去公園嗎？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-019-a2_plan_tomorrow_morning",
+      "source_scenario_id": "a2_plan_tomorrow_morning",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "บอกแผนพรุ่งนี้เช้า. Say a near-future plan with one simple next step and an approximate time. เพื่อนถามแผนพรุ่งนี้เช้า เลือกคำตอบสั้น ๆ ที่บอกว่าจะทำอะไร แล้วทำอะไรต่อ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_plan_tomorrow_morning",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "明天早上你要做什麼？ / 那之後呢？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-020-a2_report_room_problem",
+      "source_scenario_id": "a2_report_room_problem",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "แจ้งปัญหาในห้องพัก. Report a simple room problem and confirm the next step. แจ้งปัญหาเล็ก ๆ ในห้องพัก แล้วฟังว่าพนักงานจะช่วยอย่างไร",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_report_room_problem",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "您好，有什麼可以幫忙嗎？ / 好的，馬上拿毛巾過去。"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-021-a2_request_room_change",
+      "source_scenario_id": "a2_request_room_change",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ขอเปลี่ยนห้องพัก. Ask for a room change with a simple reason and confirm the move timing. บอกเหตุผลง่าย ๆ แล้วถามว่าสามารถเปลี่ยนห้องได้ไหม",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_request_room_change",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "需要什麼協助嗎？ / 確認後，有另一間房。"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-022-a2_reschedule_meeting_time",
+      "source_scenario_id": "a2_reschedule_meeting_time",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ขอเลื่อนเวลานัด. Ask to change a meeting time and confirm the new time. เวลานัดเดิมไม่สะดวกแล้ว ขอเปลี่ยนเวลา เสนอเวลาใหม่ และยืนยันกับเพื่อน",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_reschedule_meeting_time",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "今天下午三點見，對嗎？ / 可以，那想改到幾點？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-023-a2_transport_delay_announcement",
+      "source_scenario_id": "a2_transport_delay_announcement",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "ฟังประกาศรถไฟล่าช้า. Understand the delay duration and make a simple next-step choice. ฟังประกาศว่ารถไฟล่าช้ากี่นาที แล้วเลือกว่าจะรอหรือใช้ทางอื่น",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_transport_delay_announcement",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "廣播：這班車會晚大約十分鐘。 / 如果大約十分鐘，您要等嗎？還是去搭公車？"
+    },
+    {
+      "atoms": [],
+      "content_id": "th_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:th-a2-024-a2_understand_hotel_notice",
+      "source_scenario_id": "a2_understand_hotel_notice",
+      "source_status": "scenario_pack_reviewed",
+      "surface": "เข้าใจประกาศของโรงแรม. Understand a short hotel notice and confirm time, place, and rule details. อ่านหรือฟังประกาศสั้น ๆ ของโรงแรม แล้วยืนยันเวลา สถานที่ และกฎง่าย ๆ",
+      "target_freeze": {
+        "learning_object_id": "th-a2-scenario-a2_understand_hotel_notice",
+        "native_status": "reviewed_from_scenario_pack",
+        "review_status": "approved_for_runtime"
+      },
+      "translation": "請看公告。早餐是早上七點到九點。 / 地點是二樓餐廳。"
+    }
+  ],
+  "review_ceiling": "native_pending",
+  "schema_version": "th_a2_current_flow_runtime_readings.v1",
+  "visibility": "production"
+}

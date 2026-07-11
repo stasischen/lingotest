@@ -1,0 +1,5000 @@
+{
+  "schema_version": "vocab_taxonomy.v1",
+  "pos_groups": [
+    {
+      "id": "noun",
+      "raw_pos_refs": [
+        "N",
+        "PRON",
+        "COUNT",
+        "NUM"
+      ],
+      "category_refs": [
+        "people",
+        "occupations",
+        "body_parts",
+        "health_symptoms",
+        "food_general",
+        "ingredients",
+        "beverages",
+        "places",
+        "buildings",
+        "home_items",
+        "clothing",
+        "weather",
+        "nature",
+        "animals",
+        "transportation",
+        "directions",
+        "clock_time",
+        "calendar_time",
+        "relative_time",
+        "numbers",
+        "money",
+        "shopping",
+        "devices",
+        "online_life",
+        "shapes",
+        "colors",
+        "social_etiquette",
+        "learning",
+        "abstract_concepts"
+      ]
+    },
+    {
+      "id": "verb",
+      "raw_pos_refs": [
+        "V",
+        "VX",
+        "COP"
+      ],
+      "category_refs": [
+        "health_symptoms",
+        "emotions",
+        "cooking_methods",
+        "transportation",
+        "money",
+        "shopping",
+        "online_life",
+        "speech_acts",
+        "preference",
+        "obligation_permission",
+        "food_general",
+        "beverages",
+        "clothing",
+        "buildings",
+        "places",
+        "learning",
+        "abstract_concepts"
+      ]
+    },
+    {
+      "id": "adjective",
+      "raw_pos_refs": [
+        "ADJ"
+      ],
+      "category_refs": [
+        "health_symptoms",
+        "emotions",
+        "personality",
+        "weather",
+        "preference",
+        "shapes",
+        "colors",
+        "sizes",
+        "nature",
+        "learning",
+        "abstract_concepts"
+      ]
+    },
+    {
+      "id": "adverb",
+      "raw_pos_refs": [
+        "ADV"
+      ],
+      "category_refs": [
+        "relative_time"
+      ]
+    },
+    {
+      "id": "determiner",
+      "raw_pos_refs": [
+        "DET"
+      ],
+      "category_refs": []
+    },
+    {
+      "id": "particle",
+      "raw_pos_refs": [
+        "P"
+      ],
+      "category_refs": [
+        "directions"
+      ]
+    },
+    {
+      "id": "ending",
+      "raw_pos_refs": [
+        "E"
+      ],
+      "category_refs": [
+        "obligation_permission"
+      ]
+    },
+    {
+      "id": "expression",
+      "raw_pos_refs": [
+        "INTJ"
+      ],
+      "category_refs": [
+        "social_etiquette",
+        "greetings"
+      ]
+    },
+    {
+      "id": "honorific",
+      "display_name": {
+        "zh_tw": "稱謂/敬稱"
+      },
+      "raw_pos_refs": [
+        "TITLE"
+      ],
+      "category_refs": [
+        "social_etiquette",
+        "people"
+      ]
+    },
+    {
+      "id": "grammar_marker",
+      "raw_pos_refs": [],
+      "category_refs": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "people",
+      "family": "relationships"
+    },
+    {
+      "id": "occupations",
+      "family": "work"
+    },
+    {
+      "id": "body_parts",
+      "family": "health"
+    },
+    {
+      "id": "health_symptoms",
+      "family": "health"
+    },
+    {
+      "id": "emotions",
+      "family": "psychology"
+    },
+    {
+      "id": "personality",
+      "family": "psychology"
+    },
+    {
+      "id": "food_general",
+      "family": "food"
+    },
+    {
+      "id": "ingredients",
+      "family": "food"
+    },
+    {
+      "id": "cooking_methods",
+      "family": "food"
+    },
+    {
+      "id": "beverages",
+      "family": "food"
+    },
+    {
+      "id": "places",
+      "family": "daily_life"
+    },
+    {
+      "id": "buildings",
+      "family": "daily_life"
+    },
+    {
+      "id": "home_items",
+      "family": "daily_life"
+    },
+    {
+      "id": "clothing",
+      "family": "daily_life"
+    },
+    {
+      "id": "weather",
+      "family": "environment"
+    },
+    {
+      "id": "nature",
+      "family": "environment"
+    },
+    {
+      "id": "animals",
+      "family": "environment"
+    },
+    {
+      "id": "transportation",
+      "family": "travel"
+    },
+    {
+      "id": "directions",
+      "family": "travel"
+    },
+    {
+      "id": "clock_time",
+      "family": "time"
+    },
+    {
+      "id": "calendar_time",
+      "family": "time"
+    },
+    {
+      "id": "relative_time",
+      "family": "time"
+    },
+    {
+      "id": "numbers",
+      "family": "math"
+    },
+    {
+      "id": "money",
+      "family": "commerce"
+    },
+    {
+      "id": "shopping",
+      "family": "commerce"
+    },
+    {
+      "id": "devices",
+      "family": "daily_life"
+    },
+    {
+      "id": "online_life",
+      "family": "daily_life"
+    },
+    {
+      "id": "speech_acts",
+      "family": "communication"
+    },
+    {
+      "id": "preference",
+      "family": "psychology"
+    },
+    {
+      "id": "obligation_permission",
+      "family": "grammar_concepts"
+    },
+    {
+      "id": "shapes",
+      "family": "description"
+    },
+    {
+      "id": "colors",
+      "family": "description"
+    },
+    {
+      "id": "sizes",
+      "family": "description"
+    },
+    {
+      "id": "social_etiquette",
+      "family": "communication"
+    },
+    {
+      "id": "learning",
+      "family": "education"
+    },
+    {
+      "id": "abstract_concepts",
+      "family": "logic"
+    }
+  ],
+  "memberships": [
+    {
+      "atom_id": "ko:n:수도",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:작가",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:경찰",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:adj:무섭다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "emotions"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:v:입다",
+      "pos_group": "verb",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:count:킬로미터",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers",
+        "directions"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:adv:제일",
+      "pos_group": "adverb",
+      "category_refs": [
+        "preference",
+        "sizes"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:눈",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:머리",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:사과",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:우유",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:물",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:산",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:바다",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:학교",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:도서관",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:시계",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items",
+        "clock_time"
+      ],
+      "source": "curated"
+    },
+    {
+      "atom_id": "ko:n:사람",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:집",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:문제",
+      "pos_group": "noun",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:속",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts",
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:앞",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions",
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:문화",
+      "pos_group": "noun",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:여자",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:정도",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:뒤",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions",
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:아이",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:시간",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:사실",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:어머니",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:다음",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time",
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:전",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions",
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:세계",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:운동",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:돈",
+      "pos_group": "noun",
+      "category_refs": [
+        "money"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:날",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:여성",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:친구",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:후",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions",
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:관계",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:아버지",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:남자",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:몸",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:얼굴",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:모습",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:이번",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:길",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:생활",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:지금",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions",
+        "clock_time",
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:사이",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:방법",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:우리나라",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:처음",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time",
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:손",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:그때",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:교육",
+      "pos_group": "noun",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:선생님",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:내용",
+      "pos_group": "noun",
+      "category_refs": [
+        "learning",
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:동안",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:힘",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:나라",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:자리",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:학생",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:엄마",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:이유",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:남편",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:밖",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:세상",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:가운데",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:이후",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:밤",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:최근",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:컴퓨터",
+      "pos_group": "noun",
+      "category_refs": [
+        "devices"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:방",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:땅",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:아침",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general",
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:끝",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:입",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:하늘",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:자연",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:밥",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:혼자",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:이제",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:교수",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:술",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:아빠",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:커피",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:회사",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:맛",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:음식",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:요즘",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:고개",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:도시",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:옆",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:모양",
+      "pos_group": "noun",
+      "category_refs": [
+        "shapes",
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:교사",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:방향",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:공부",
+      "pos_group": "noun",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:언니",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:능력",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:자식",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:선생",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:옷",
+      "pos_group": "noun",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:이때",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:과거",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:물건",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:발",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:은행",
+      "pos_group": "noun",
+      "category_refs": [
+        "places",
+        "money"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:오후",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:아저씨",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:옛날",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:병원",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:저녁",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:시험",
+      "pos_group": "noun",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:건강",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:건물",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:부모",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:쌀",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:모두",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:버스",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:제일",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:남성",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:여름",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:값",
+      "pos_group": "noun",
+      "category_refs": [
+        "shopping"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:자동차",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:어린이",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:현재",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:주인",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:선수",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:귀",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:아파트",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:잔",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:위치",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:가격",
+      "pos_group": "noun",
+      "category_refs": [
+        "shopping"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:손님",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:겨울",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:식사",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:텔레비전",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:이웃",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:팔",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:티브이",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:봄",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:오빠",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:나중",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:등",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:새벽",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:직장",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:고기",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:서양",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:냄새",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:달",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature",
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:누나",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:거리",
+      "pos_group": "noun",
+      "category_refs": [
+        "learning",
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:부모님",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:비행기",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:직원",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:가게",
+      "pos_group": "noun",
+      "category_refs": [
+        "places",
+        "shopping"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:자전거",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:드라마",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:가을",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:내일",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:길이",
+      "pos_group": "noun",
+      "category_refs": [
+        "shapes"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:날씨",
+      "pos_group": "noun",
+      "category_refs": [
+        "weather"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:동물",
+      "pos_group": "noun",
+      "category_refs": [
+        "animals"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:미래",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:장소",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:코",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:스스로",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:별",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature",
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:돌",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:식당",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:오랫동안",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:시작",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:일주일",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time",
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:아무것",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:평소",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:과일",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:제목",
+      "pos_group": "noun",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:치료",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:직업",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:방학",
+      "pos_group": "noun",
+      "category_refs": [
+        "places",
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:남쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:색깔",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:짝",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:침대",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:중간",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:스포츠",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:식품",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:선물",
+      "pos_group": "noun",
+      "category_refs": [
+        "shopping"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:지하철",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:도로",
+      "pos_group": "noun",
+      "category_refs": [
+        "places",
+        "relative_time",
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:일요일",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:방문",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:숫자",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:왼쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:택시",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:계산",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:연습",
+      "pos_group": "noun",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:오른쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:대학생",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:백화점",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:고양이",
+      "pos_group": "noun",
+      "category_refs": [
+        "animals"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:흰색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:가수",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:방송국",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:창문",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:여기저기",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:형제",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:호랑이",
+      "pos_group": "noun",
+      "category_refs": [
+        "animals"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:부엌",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:북쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:주",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:배우",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:신발",
+      "pos_group": "noun",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:계단",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:설탕",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:어제",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:점심",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general",
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:요금",
+      "pos_group": "noun",
+      "category_refs": [
+        "money"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:음료",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:의자",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:카메라",
+      "pos_group": "noun",
+      "category_refs": [
+        "devices"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:토요일",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:경찰관",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:버릇",
+      "pos_group": "noun",
+      "category_refs": [
+        "social_etiquette"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:소",
+      "pos_group": "noun",
+      "category_refs": [
+        "animals"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:공항",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:군인",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:달걀",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:인터넷",
+      "pos_group": "noun",
+      "category_refs": [
+        "online_life"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:치마",
+      "pos_group": "noun",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:친척",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:아가씨",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:온도",
+      "pos_group": "noun",
+      "category_refs": [
+        "weather"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:진짜",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:학기",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:계절",
+      "pos_group": "noun",
+      "category_refs": [
+        "weather"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:운동장",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:동쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:운전사",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:열차",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:요즈음",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:바깥",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:바지",
+      "pos_group": "noun",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:빨래",
+      "pos_group": "noun",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:테이블",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:안경",
+      "pos_group": "noun",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:거실",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:이",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:이불",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:겉",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:소주",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:생선",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients",
+        "animals"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:카페",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:닭",
+      "pos_group": "noun",
+      "category_refs": [
+        "animals"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:맥주",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:아버님",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:돼지",
+      "pos_group": "noun",
+      "category_refs": [
+        "animals"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:어머님",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:기차",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:공원",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:날짜",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:채소",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:검은색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:간장",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:서쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:야채",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:경찰서",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:변호사",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:여학생",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:냉장고",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:감기",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:안쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:메시지",
+      "pos_group": "noun",
+      "category_refs": [
+        "online_life"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:월급",
+      "pos_group": "noun",
+      "category_refs": [
+        "money"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:물고기",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients",
+        "animals"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:부탁",
+      "pos_group": "noun",
+      "category_refs": [
+        "social_etiquette"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:첫날",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:안개",
+      "pos_group": "noun",
+      "category_refs": [
+        "weather"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:명절",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:회색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:머리카락",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:모자",
+      "pos_group": "noun",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:소파",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:어린아이",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:센터",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:호수",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:녹색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:연결",
+      "pos_group": "noun",
+      "category_refs": [
+        "online_life"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:음식점",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:과자",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:동전",
+      "pos_group": "noun",
+      "category_refs": [
+        "money"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:전철",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:태풍",
+      "pos_group": "noun",
+      "category_refs": [
+        "weather"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:기숙사",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:엘리베이터",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:월요일",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:중학생",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:뒤쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:속옷",
+      "pos_group": "noun",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:양말",
+      "pos_group": "noun",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:주사",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:건너편",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:주스",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:콜라",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:남학생",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:두부",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:시청",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:우체국",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:레스토랑",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:바깥쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:정류장",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:국수",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:빌딩",
+      "pos_group": "noun",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:점심시간",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:슈퍼마켓",
+      "pos_group": "noun",
+      "category_refs": [
+        "shopping"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:유학생",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:요리사",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:계란",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:아래쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:위쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:음료수",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:지난주",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:기침",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:요일",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:금요일",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:블라우스",
+      "pos_group": "noun",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:수요일",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:앞쪽",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:할인",
+      "pos_group": "noun",
+      "category_refs": [
+        "shopping"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:간식",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:노란색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:사계절",
+      "pos_group": "noun",
+      "category_refs": [
+        "weather"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:세탁기",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items",
+        "devices"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:쇼핑",
+      "pos_group": "noun",
+      "category_refs": [
+        "shopping"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:운동화",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:점심때",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general",
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:빨간색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:정거장",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:와이셔츠",
+      "pos_group": "noun",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:코끼리",
+      "pos_group": "noun",
+      "category_refs": [
+        "animals"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:핸드폰",
+      "pos_group": "noun",
+      "category_refs": [
+        "devices"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:목요일",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:튀김",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:고속버스",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:분홍색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:동물원",
+      "pos_group": "noun",
+      "category_refs": [
+        "animals"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:파란색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:화요일",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:강아지",
+      "pos_group": "noun",
+      "category_refs": [
+        "animals"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:체육관",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:연락처",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:초록색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:보라색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:운동복",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:학생증",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "occupations"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:메일",
+      "pos_group": "noun",
+      "category_refs": [
+        "devices",
+        "online_life"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:편의점",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:하얀색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:영수증",
+      "pos_group": "noun",
+      "category_refs": [
+        "shopping"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:커피숍",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:하늘색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:휴대폰",
+      "pos_group": "noun",
+      "category_refs": [
+        "devices"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:감기약",
+      "pos_group": "noun",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:검정",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:기차역",
+      "pos_group": "noun",
+      "category_refs": [
+        "places",
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:기차표",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:다음날",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:둘째",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:방금",
+      "pos_group": "noun",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:배탈",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:사이다",
+      "pos_group": "noun",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:시간표",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:회사원",
+      "pos_group": "noun",
+      "category_refs": [
+        "occupations",
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:이삿짐",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:일식집",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:환전",
+      "pos_group": "noun",
+      "category_refs": [
+        "money"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:주황색",
+      "pos_group": "noun",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:지하철역",
+      "pos_group": "noun",
+      "category_refs": [
+        "transportation"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:n:한식집",
+      "pos_group": "noun",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "cooking_methods"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:되다",
+      "pos_group": "verb",
+      "category_refs": [
+        "obligation_permission"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:가다",
+      "pos_group": "verb",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:말하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:오다",
+      "pos_group": "verb",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:알다",
+      "pos_group": "verb",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:살다",
+      "pos_group": "verb",
+      "category_refs": [
+        "buildings"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:모르다",
+      "pos_group": "verb",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:만들다",
+      "pos_group": "verb",
+      "category_refs": [
+        "cooking_methods"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:먹다",
+      "pos_group": "verb",
+      "category_refs": [
+        "food_general",
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:듣다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:들다",
+      "pos_group": "verb",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:들어가다",
+      "pos_group": "verb",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:쓰다",
+      "pos_group": "verb",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:사다",
+      "pos_group": "verb",
+      "category_refs": [
+        "shopping"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:짓다",
+      "pos_group": "verb",
+      "category_refs": [
+        "food_general",
+        "cooking_methods"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:묻다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:마시다",
+      "pos_group": "verb",
+      "category_refs": [
+        "beverages"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:좋아하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "preference"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:배우다",
+      "pos_group": "verb",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:올리다",
+      "pos_group": "verb",
+      "category_refs": [
+        "online_life"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:이야기하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:설명하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:바라다",
+      "pos_group": "verb",
+      "category_refs": [
+        "preference"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:팔다",
+      "pos_group": "verb",
+      "category_refs": [
+        "shopping"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:얘기하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:공부하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:들리다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:원하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "preference"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:싸우다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:대답하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:썰다",
+      "pos_group": "verb",
+      "category_refs": [
+        "cooking_methods"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:자르다",
+      "pos_group": "verb",
+      "category_refs": [
+        "cooking_methods"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:도착하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:말씀하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:소개하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:끓이다",
+      "pos_group": "verb",
+      "category_refs": [
+        "cooking_methods"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:물어보다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:고르다",
+      "pos_group": "verb",
+      "category_refs": [
+        "preference"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:고치다",
+      "pos_group": "verb",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:볶다",
+      "pos_group": "verb",
+      "category_refs": [
+        "cooking_methods"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:굽다",
+      "pos_group": "verb",
+      "category_refs": [
+        "cooking_methods"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:섞다",
+      "pos_group": "verb",
+      "category_refs": [
+        "cooking_methods"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:싫어하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "preference"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:신다",
+      "pos_group": "verb",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:크다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:기뻐하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "emotions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:갈아입다",
+      "pos_group": "verb",
+      "category_refs": [
+        "clothing"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:부치다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:축하하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:운동하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:연습하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:미끄러지다",
+      "pos_group": "verb",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:잡수시다",
+      "pos_group": "verb",
+      "category_refs": [
+        "food_general"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:튀기다",
+      "pos_group": "verb",
+      "category_refs": [
+        "cooking_methods"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:찌다",
+      "pos_group": "verb",
+      "category_refs": [
+        "cooking_methods"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:슬퍼하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "emotions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:사과하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "speech_acts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:화나다",
+      "pos_group": "verb",
+      "category_refs": [
+        "emotions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:즐거워하다",
+      "pos_group": "verb",
+      "category_refs": [
+        "emotions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:v:화내다",
+      "pos_group": "verb",
+      "category_refs": [
+        "emotions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:없다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:같다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:크다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "sizes"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:많다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "sizes"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:좋다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "preference"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:다르다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:작다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "sizes"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:길다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "shapes"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:아프다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:적다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "sizes"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:싫다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "preference"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:짧다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "shapes"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:즐겁다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "emotions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:부드럽다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "personality"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:가볍다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "sizes"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:푸르다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:건강하다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "health_symptoms"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:똑같다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:하얗다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:착하다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "personality"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:기쁘다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "emotions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:춥다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "weather"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:무겁다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "sizes"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:특별하다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:궁금하다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "learning"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:반갑다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "emotions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:행복하다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "emotions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:굵다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "sizes"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:붉다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:슬프다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "emotions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:부끄럽다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "personality"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:빨갛다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:귀엽다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "preference"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:답답하다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "personality"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:덥다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "weather"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:노랗다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:파랗다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "colors"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:귀찮다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "preference"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adj:차다",
+      "pos_group": "adjective",
+      "category_refs": [
+        "weather"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adv:다시",
+      "pos_group": "adverb",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adv:지금",
+      "pos_group": "adverb",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adv:이제",
+      "pos_group": "adverb",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adv:먼저",
+      "pos_group": "adverb",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adv:현재",
+      "pos_group": "adverb",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adv:새로",
+      "pos_group": "adverb",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adv:아까",
+      "pos_group": "adverb",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adv:어제",
+      "pos_group": "adverb",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:adv:내일",
+      "pos_group": "adverb",
+      "category_refs": [
+        "relative_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:것",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items",
+        "learning",
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:수",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:년",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:때문",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:씨",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:일",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:중",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:원",
+      "pos_group": "noun",
+      "category_refs": [
+        "money"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:명",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:개",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items",
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:퍼센트",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:가지",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:번",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:시",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:분",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:시간",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:달",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:회",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:미터",
+      "pos_group": "noun",
+      "category_refs": [
+        "ingredients"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:장",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:마리",
+      "pos_group": "noun",
+      "category_refs": [
+        "body_parts",
+        "animals",
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:초",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:도",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:권",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:주",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:군데",
+      "pos_group": "noun",
+      "category_refs": [
+        "places"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:벌",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items",
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:월",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:주일",
+      "pos_group": "noun",
+      "category_refs": [
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:님",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:count:날",
+      "pos_group": "noun",
+      "category_refs": [
+        "nature",
+        "calendar_time"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:하나",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:둘",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:둘째",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:첫째",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:셋",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:셋째",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:삼",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:넷",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:다섯",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:일",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:만",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:열",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:이",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:구",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:사",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:아홉",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:칠",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:백",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:팔",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:여섯",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:육",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:일곱",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:오",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:십",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:천",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:억",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:num:여덟",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:나",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:우리",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:그",
+      "pos_group": "noun",
+      "category_refs": [
+        "people",
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:이",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:그것",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:저",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:너",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:뭐",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:무엇",
+      "pos_group": "noun",
+      "category_refs": [
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:그거",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:여기",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:어디",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:이것",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:거기",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:이거",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:이곳",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:그곳",
+      "pos_group": "noun",
+      "category_refs": [
+        "places",
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:아무",
+      "pos_group": "noun",
+      "category_refs": [
+        "numbers"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:언제",
+      "pos_group": "noun",
+      "category_refs": [
+        "clock_time",
+        "abstract_concepts"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:저희",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:여러분",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:너희",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:저기",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:그분",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:거",
+      "pos_group": "noun",
+      "category_refs": [
+        "home_items",
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:저거",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:저것",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:이분",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:저곳",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:저분",
+      "pos_group": "noun",
+      "category_refs": [
+        "directions"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:pron:제",
+      "pos_group": "noun",
+      "category_refs": [
+        "people"
+      ],
+      "source": "ai_batch_classification"
+    },
+    {
+      "atom_id": "ko:affix:-님",
+      "pos_group": "honorific",
+      "category_refs": [
+        "social_etiquette",
+        "people"
+      ],
+      "source": "curated"
+    }
+  ],
+  "target_language": "ko"
+}

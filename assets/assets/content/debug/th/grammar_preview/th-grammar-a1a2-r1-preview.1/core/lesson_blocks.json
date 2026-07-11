@@ -1,0 +1,707 @@
+{
+  "build_id": "th-grammar-a1a2-r1-preview.1",
+  "content_version": "r1",
+  "items": [
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a1_identity_negation_mai_chai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-019.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-019.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-019.03"
+      ],
+      "knowledge_id": "th:grammar:a1_identity_negation_mai_chai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-019",
+      "target_inventory_id": "th-a1-gram-auth-019"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_result_connector_ko_loei"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-014.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-014.02",
+        "sent.th.phase2.grammar.th-a2-gram-auth-014.03"
+      ],
+      "knowledge_id": "th:grammar:a2_result_connector_ko_loei",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-014",
+      "target_inventory_id": "th-a2-gram-auth-014"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.confirmation_chai_mai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-020.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-020.02"
+      ],
+      "knowledge_id": "th:grammar:confirmation_chai_mai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-020",
+      "target_inventory_id": "th-a1-gram-auth-020"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.want_to_yaak"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-021.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-021.02"
+      ],
+      "knowledge_id": "th:grammar:want_to_yaak",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-021",
+      "target_inventory_id": "th-a1-gram-auth-021"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.contrast_tae"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-015.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-015.02"
+      ],
+      "knowledge_id": "th:grammar:contrast_tae",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-015",
+      "target_inventory_id": "th-a2-gram-auth-015"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.alternative_rue"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-016.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-016.02"
+      ],
+      "knowledge_id": "th:grammar:alternative_rue",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-016",
+      "target_inventory_id": "th-a2-gram-auth-016"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.polite_particles_khrap_kha"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-001.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-001.02"
+      ],
+      "knowledge_id": "th:grammar:polite_particles_khrap_kha",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-001",
+      "target_inventory_id": "th-a1-gram-auth-001"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.yes_no_particle_mai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-002.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-002.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-002.03"
+      ],
+      "knowledge_id": "th:grammar:yes_no_particle_mai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-002",
+      "target_inventory_id": "th-a1-gram-auth-002"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.negation_mai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-003.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-003.02"
+      ],
+      "knowledge_id": "th:grammar:negation_mai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-003",
+      "target_inventory_id": "th-a1-gram-auth-003"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.existence_possession_mii"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-004.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-004.02"
+      ],
+      "knowledge_id": "th:grammar:existence_possession_mii",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-004",
+      "target_inventory_id": "th-a1-gram-auth-004"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.place_question_thi_nai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-005.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-005.02"
+      ],
+      "knowledge_id": "th:grammar:place_question_thi_nai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-005",
+      "target_inventory_id": "th-a1-gram-auth-005"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.object_question_arai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-006.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-006.02"
+      ],
+      "knowledge_id": "th:grammar:object_question_arai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-006",
+      "target_inventory_id": "th-a1-gram-auth-006"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.person_question_khrai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-007.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-007.02"
+      ],
+      "knowledge_id": "th:grammar:person_question_khrai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-007",
+      "target_inventory_id": "th-a1-gram-auth-007"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.price_quantity_question_thao_rai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-008.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-008.02"
+      ],
+      "knowledge_id": "th:grammar:price_quantity_question_thao_rai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-008",
+      "target_inventory_id": "th-a1-gram-auth-008"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.possessive_linker_khong"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-009.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-009.02"
+      ],
+      "knowledge_id": "th:grammar:possessive_linker_khong",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-009",
+      "target_inventory_id": "th-a1-gram-auth-009"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.basic_classifiers"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-010.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-010.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-010.03",
+        "sent.th.phase2.grammar.th-a1-gram-auth-010.04"
+      ],
+      "knowledge_id": "th:grammar:basic_classifiers",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-010",
+      "target_inventory_id": "th-a1-gram-auth-010"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.adjective_predicate_no_copula"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-011.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-011.02"
+      ],
+      "knowledge_id": "th:grammar:adjective_predicate_no_copula",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-011",
+      "target_inventory_id": "th-a1-gram-auth-011"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.identity_copula_pen_khue"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-012.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-012.02"
+      ],
+      "knowledge_id": "th:grammar:identity_copula_pen_khue",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-012",
+      "target_inventory_id": "th-a1-gram-auth-012"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.polite_request_chuai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-013.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-013.02"
+      ],
+      "knowledge_id": "th:grammar:polite_request_chuai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-013",
+      "target_inventory_id": "th-a1-gram-auth-013"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.learner_safe_pronouns"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-014.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-014.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-014.03",
+        "sent.th.phase2.grammar.th-a1-gram-auth-014.04",
+        "sent.th.phase2.grammar.th-a1-gram-auth-014.05"
+      ],
+      "knowledge_id": "th:grammar:learner_safe_pronouns",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-014",
+      "target_inventory_id": "th-a1-gram-auth-014"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.time_reference_no_inflection"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-015.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-015.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-015.03",
+        "sent.th.phase2.grammar.th-a1-gram-auth-015.04"
+      ],
+      "knowledge_id": "th:grammar:time_reference_no_inflection",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-015",
+      "target_inventory_id": "th-a1-gram-auth-015"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.basic_svo_word_order"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-016.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-016.02"
+      ],
+      "knowledge_id": "th:grammar:basic_svo_word_order",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-016",
+      "target_inventory_id": "th-a1-gram-auth-016"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.noun_adjective_order"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-017.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-017.02"
+      ],
+      "knowledge_id": "th:grammar:noun_adjective_order",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-017",
+      "target_inventory_id": "th-a1-gram-auth-017"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.degree_adverb_mak"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-018.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-018.02"
+      ],
+      "knowledge_id": "th:grammar:degree_adverb_mak",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-018",
+      "target_inventory_id": "th-a1-gram-auth-018"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.take_want_item_ao"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-022.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-022.02"
+      ],
+      "knowledge_id": "th:grammar:take_want_item_ao",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-022",
+      "target_inventory_id": "th-a1-gram-auth-022"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.like_frame_chop"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-023.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-023.02"
+      ],
+      "knowledge_id": "th:grammar:like_frame_chop",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-023",
+      "target_inventory_id": "th-a1-gram-auth-023"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.basic_can_doable_dai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-024.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-024.02"
+      ],
+      "knowledge_id": "th:grammar:basic_can_doable_dai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-024",
+      "target_inventory_id": "th-a1-gram-auth-024"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.demonstrative_object_an_nii_nan"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-025.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-025.02"
+      ],
+      "knowledge_id": "th:grammar:demonstrative_object_an_nii_nan",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-025",
+      "target_inventory_id": "th-a1-gram-auth-025"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.basic_future_marker_ja"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-026.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-026.02"
+      ],
+      "knowledge_id": "th:grammar:basic_future_marker_ja",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-026",
+      "target_inventory_id": "th-a1-gram-auth-026"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.basic_completion_marker_laeo"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-027.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-027.02"
+      ],
+      "knowledge_id": "th:grammar:basic_completion_marker_laeo",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-027",
+      "target_inventory_id": "th-a1-gram-auth-027"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.preference_suggestion_dii_kwaa"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-002.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-002.02"
+      ],
+      "knowledge_id": "th:grammar:preference_suggestion_dii_kwaa",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-002",
+      "target_inventory_id": "th-a2-gram-auth-002"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_future_plan_marker_ja"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-003.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-003.02"
+      ],
+      "knowledge_id": "th:grammar:a2_future_plan_marker_ja",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-003",
+      "target_inventory_id": "th-a2-gram-auth-003"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_completion_marker_laeo"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-004.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-004.02"
+      ],
+      "knowledge_id": "th:grammar:a2_completion_marker_laeo",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-004",
+      "target_inventory_id": "th-a2-gram-auth-004"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.progressive_marker_kamlang"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-005.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-005.02"
+      ],
+      "knowledge_id": "th:grammar:progressive_marker_kamlang",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-005",
+      "target_inventory_id": "th-a2-gram-auth-005"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_sequence_connectors_basic"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-006.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-006.02"
+      ],
+      "knowledge_id": "th:grammar:a2_sequence_connectors_basic",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-006",
+      "target_inventory_id": "th-a2-gram-auth-006"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_reason_result_connectors_basic"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-007.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-007.02"
+      ],
+      "knowledge_id": "th:grammar:a2_reason_result_connectors_basic",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-007",
+      "target_inventory_id": "th-a2-gram-auth-007"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_ability_permission_frame_dai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-008.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-008.02"
+      ],
+      "knowledge_id": "th:grammar:a2_ability_permission_frame_dai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-008",
+      "target_inventory_id": "th-a2-gram-auth-008"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_obligation_prohibition_basic"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-009.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-009.02"
+      ],
+      "knowledge_id": "th:grammar:a2_obligation_prohibition_basic",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-009",
+      "target_inventory_id": "th-a2-gram-auth-009"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_conditional_frame_thaa"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-010.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-010.02"
+      ],
+      "knowledge_id": "th:grammar:a2_conditional_frame_thaa",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-010",
+      "target_inventory_id": "th-a2-gram-auth-010"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_location_route_particles_basic"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-011.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-011.02"
+      ],
+      "knowledge_id": "th:grammar:a2_location_route_particles_basic",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-011",
+      "target_inventory_id": "th-a2-gram-auth-011"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_quantity_approximation_kwaa"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-012.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-012.02"
+      ],
+      "knowledge_id": "th:grammar:a2_quantity_approximation_kwaa",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-012",
+      "target_inventory_id": "th-a2-gram-auth-012"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_because_connector_variants"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-013.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-013.02"
+      ],
+      "knowledge_id": "th:grammar:a2_because_connector_variants",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-013",
+      "target_inventory_id": "th-a2-gram-auth-013"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_experience_marker_khoei"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-017.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-017.02"
+      ],
+      "knowledge_id": "th:grammar:a2_experience_marker_khoei",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-017",
+      "target_inventory_id": "th-a2-gram-auth-017"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_recent_action_marker_phoeng"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-018.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-018.02"
+      ],
+      "knowledge_id": "th:grammar:a2_recent_action_marker_phoeng",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-018",
+      "target_inventory_id": "th-a2-gram-auth-018"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_imminent_plan_kamlang_ja"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-019.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-019.02"
+      ],
+      "knowledge_id": "th:grammar:a2_imminent_plan_kamlang_ja",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-019",
+      "target_inventory_id": "th-a2-gram-auth-019"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_not_yet_frame_yang_mai"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-020.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-020.02"
+      ],
+      "knowledge_id": "th:grammar:a2_not_yet_frame_yang_mai",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-020",
+      "target_inventory_id": "th-a2-gram-auth-020"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_should_frame_khuan"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-021.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-021.02"
+      ],
+      "knowledge_id": "th:grammar:a2_should_frame_khuan",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-021",
+      "target_inventory_id": "th-a2-gram-auth-021"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_directional_serial_ao_pai_ma"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-022.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-022.02"
+      ],
+      "knowledge_id": "th:grammar:a2_directional_serial_ao_pai_ma",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-022",
+      "target_inventory_id": "th-a2-gram-auth-022"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_round_trip_pai_ma"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-023.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-023.02"
+      ],
+      "knowledge_id": "th:grammar:a2_round_trip_pai_ma",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-023",
+      "target_inventory_id": "th-a2-gram-auth-023"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_relative_clause_thii"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-024.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-024.02"
+      ],
+      "knowledge_id": "th:grammar:a2_relative_clause_thii",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-024",
+      "target_inventory_id": "th-a2-gram-auth-024"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_frequency_adverbs_basic"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-025.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-025.02"
+      ],
+      "knowledge_id": "th:grammar:a2_frequency_adverbs_basic",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-025",
+      "target_inventory_id": "th-a2-gram-auth-025"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_superlative_frame_thii_sut"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-026.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-026.02"
+      ],
+      "knowledge_id": "th:grammar:a2_superlative_frame_thii_sut",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-026",
+      "target_inventory_id": "th-a2-gram-auth-026"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_past_event_narrative_basic"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-027.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-027.02"
+      ],
+      "knowledge_id": "th:grammar:a2_past_event_narrative_basic",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-027",
+      "target_inventory_id": "th-a2-gram-auth-027"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_basic_symptom_description"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-028.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-028.02"
+      ],
+      "knowledge_id": "th:grammar:a2_basic_symptom_description",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-028",
+      "target_inventory_id": "th-a2-gram-auth-028"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_comparative_frame_kwaa"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-001.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-001.02",
+        "sent.th.phase2.grammar.th-a2-gram-auth-001.03"
+      ],
+      "knowledge_id": "th:grammar:a2_comparative_frame_kwaa",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-001",
+      "target_inventory_id": "th-a2-gram-auth-001"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a1_additive_comitative_connectors"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a1-gram-auth-028.01",
+        "sent.th.phase2.grammar.th-a1-gram-auth-028.02",
+        "sent.th.phase2.grammar.th-a1-gram-auth-028.03"
+      ],
+      "knowledge_id": "th:grammar:a1_additive_comitative_connectors",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a1-gram-auth-028",
+      "target_inventory_id": "th-a1-gram-auth-028"
+    },
+    {
+      "atom_rule_refs": [
+        "rule.th.phase2.grammar.a2_wh_time_reason_manner_questions"
+      ],
+      "example_sentence_refs": [
+        "sent.th.phase2.grammar.th-a2-gram-auth-029.01",
+        "sent.th.phase2.grammar.th-a2-gram-auth-029.02",
+        "sent.th.phase2.grammar.th-a2-gram-auth-029.03",
+        "sent.th.phase2.grammar.th-a2-gram-auth-029.04"
+      ],
+      "knowledge_id": "th:grammar:a2_wh_time_reason_manner_questions",
+      "lesson_block_id": "lesson.th.phase2.grammar.th-a2-gram-auth-029",
+      "target_inventory_id": "th-a2-gram-auth-029"
+    }
+  ],
+  "language": "th",
+  "package_id": "th-grammar-a1a2",
+  "schema_version": "grammar_runtime_preview_lesson_blocks.v1"
+}

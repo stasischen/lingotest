@@ -1,0 +1,70 @@
+{
+  "ranger_togetherness": {
+    "title": "RECIPE: [FRIENDSHIP]",
+    "targetId": "opt_together",
+    "ingredients": [
+      {
+        "id": "opt_alone",
+        "label": "Alone (혼자)",
+        "type": "mood",
+        "color": "0xFFB0BEC5",
+        "icon": "person_off"
+      },
+      {
+        "id": "opt_fast",
+        "label": "Fast (빨리)",
+        "type": "sensory",
+        "color": "0xFFFFCDD2",
+        "icon": "speed"
+      },
+      {
+        "id": "opt_together",
+        "label": "Together (함께)",
+        "type": "mood",
+        "color": "0xFF66BB6A",
+        "icon": "group"
+      }
+    ]
+  },
+  "default": {
+    "title": "RECIPE: [WARMTH]",
+    "targetId": "mood_warmth",
+    "ingredients": [
+      {
+        "id": "mood_calm",
+        "label": "Calm (Blue)",
+        "type": "mood",
+        "color": "0xFF64B5F6",
+        "icon": "water_drop"
+      },
+      {
+        "id": "mood_warmth",
+        "label": "Warmth",
+        "type": "mood",
+        "color": "0xFFFFB74D",
+        "icon": "wb_sunny"
+      },
+      {
+        "id": "mem_swing",
+        "label": "Old Swing",
+        "type": "memory",
+        "color": "0xFFE0E0E0",
+        "icon": "chair_alt"
+      },
+      {
+        "id": "mem_rain",
+        "label": "Rainy Street",
+        "type": "memory",
+        "color": "0xFF90A4AE",
+        "icon": "umbrella"
+      },
+      {
+        "id": "sense_wind",
+        "label": "Wind Whisper",
+        "type": "sensory",
+        "color": "0xFF80CBC4",
+        "icon": "air"
+      }
+    ]
+  }
+}

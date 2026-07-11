@@ -1,0 +1,90 @@
+{
+  "counts": {
+    "dictionary_gloss": 1950,
+    "grammar_nodes": 15,
+    "scenario_packs": 24,
+    "scenario_reply_choices": 288,
+    "scenario_turns": 96,
+    "source_rows": 24
+  },
+  "grammar_fast_lane_source": {
+    "production_promotion_allowed": false,
+    "review_status_promotion_allowed": false,
+    "source_path": "content-pt/content_v2/core/grammar/owner_acceptance_20260704/a2",
+    "source_status": "owner_accepted_grammar_native_pending"
+  },
+  "lang": "pt",
+  "learner_locale": "zh_tw",
+  "modules": {
+    "dictionary_gloss": "dictionary/a2_gloss.json",
+    "grammar_knowledge": "grammar/a2_grammar_knowledge.json",
+    "i18n_zh_tw": "i18n/zh_tw.json",
+    "readings": "readings/readings.json",
+    "readings_i18n": "i18n/readings_zh_tw.json",
+    "scenarios": "scenarios/scenario_packs.json",
+    "scenarios_index": "scenarios/scenario_index.json",
+    "segmentation_sidecars": "segmentation/segmentation_sidecars.json",
+    "smoke_report": "validation/smoke_report.json"
+  },
+  "promotion": "runtime_visible_native_pending_no_production_promotion",
+  "review_ceiling": "native_pending",
+  "runtime_id": "a2_current_flow_20260628",
+  "schema_version": "level_runtime_manifest.v1",
+  "source_artifacts": {
+    "cefr_level": "A2",
+    "frontend_production_write": false,
+    "language": "pt",
+    "modules": {
+      "scenario_index": "scenario_index.json",
+      "scenario_packs": "scenario_packs.json",
+      "segmentation_sidecars": "segmentation_sidecars.json",
+      "smoke_report": "smoke_report.json"
+    },
+    "native_review_worklist": {
+      "markdown_path": "content/review/a2_current_flow_runtime_preview_20260628/PT_A2_NATIVE_REVIEW_WORKLIST_20260628.md",
+      "production_promotion_allowed": false,
+      "promotion_gate_command": "python scripts/ops/validate_pt_a2_native_review_worklist.py --require-complete",
+      "tsv_path": "content/review/a2_current_flow_runtime_preview_20260628/pt_a2_native_review_worklist_20260628.tsv",
+      "validation_command": "python scripts/ops/validate_pt_a2_native_review_worklist.py"
+    },
+    "production_promotion_allowed": false,
+    "scenario_ids": [
+      "a2_app_booking_confirmation",
+      "a2_ask_ingredient_preference",
+      "a2_ask_late_checkout",
+      "a2_ask_recommendation_budget",
+      "a2_ask_transfer_platform",
+      "a2_change_delivery_pickup_time",
+      "a2_change_ticket_time",
+      "a2_compare_two_menu_options",
+      "a2_confirm_date_time_place",
+      "a2_decline_with_reason",
+      "a2_describe_weekend_activity",
+      "a2_exchange_wrong_item",
+      "a2_explain_simple_delay_reason",
+      "a2_fill_simple_form_help",
+      "a2_invite_friend_activity",
+      "a2_lost_item_followup_message",
+      "a2_luggage_storage_pickup",
+      "a2_make_simple_plan_sequence",
+      "a2_plan_tomorrow_morning",
+      "a2_report_room_problem",
+      "a2_request_room_change",
+      "a2_reschedule_meeting_time",
+      "a2_transport_delay_announcement",
+      "a2_understand_hotel_notice"
+    ],
+    "schema_version": "pt_a2_current_flow_preview_runtime_manifest.v1",
+    "status": "pass",
+    "totals": {
+      "atoms": 5580,
+      "candidate_inventory_gap_atoms": 0,
+      "scenario_packs": 24,
+      "segmentation_rows": 768,
+      "source_mismatches": 0,
+      "source_rows_checked": 768
+    }
+  },
+  "source_kind": "runtime_preview",
+  "visibility": "production"
+}

@@ -1,0 +1,640 @@
+{
+  "schema_version": "a1_grammar_knowledge_sidecar.v1",
+  "language": "it",
+  "status": "review_staging_native_pending",
+  "created_at": "2026-06-18",
+  "author_id": "phase3_grammar_knowledge_author_it_20260618",
+  "authoring_basis": "external denominator row plus grounded reading_surface_drafts_20260615 examples",
+  "production_promotion_allowed": false,
+  "native_status": "native_pending",
+  "nodes": [
+    {
+      "learning_object_id": "it_grammar_articles",
+      "title_zh_tw": "definite and indefinite articles（il, la, un, una）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「definite and indefinite articles」。 它幫你在名詞前面標出「一個」或「這個/那個」，也常跟性別、單複數一起變。 這次先認得：il、la、un、una。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.articles",
+      "ref_item": "definite and indefinite articles",
+      "ref_subitems": [
+        "il",
+        "la",
+        "un",
+        "una"
+      ],
+      "examples": [
+        {
+          "surface": "Marco prepara una merenda per la sorella.",
+          "source_item_id": "article:it_reading_articles_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「la、una」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sul tavolo mette il pane e una mela.",
+          "source_item_id": "article:it_reading_articles_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「il、una」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Poi prende un bicchiere, un piatto e la bottiglia d'acqua.",
+          "source_item_id": "article:it_reading_articles_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「la、un」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Il gatto guarda la mela, ma non la tocca.",
+          "source_item_id": "article:it_reading_articles_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「il、la」，呈現「definite and indefinite articles」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_articles_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_articles_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_gender_number",
+      "title_zh_tw": "gender and number（amico, amica, amici）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「gender and number」。 它幫你看出名詞是陰性/陽性或單數/複數，周圍的冠詞、形容詞也要跟著配合。 這次先認得：amico、amica、amici。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.gender_number",
+      "ref_item": "gender and number",
+      "ref_subitems": [
+        "amico",
+        "amica",
+        "amici"
+      ],
+      "examples": [
+        {
+          "surface": "L'amico porta tre panini per gli amici.",
+          "source_item_id": "article:it_reading_gender_number_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「amico、amici」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Arriva anche Sara, la sua amica di classe.",
+          "source_item_id": "article:it_reading_gender_number_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「amica」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Luca aspetta un amico davanti alla scuola.",
+          "source_item_id": "article:it_reading_gender_number_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「amico」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "L'amica porta una bottiglia d'acqua.",
+          "source_item_id": "article:it_reading_gender_number_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「amica」，呈現「gender and number」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_gender_number_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_gender_number_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_present_regular",
+      "title_zh_tw": "present regular verbs（parlo, prendo, dormo）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「present regular verbs」。 它用來說現在正在/平常會做的事。先看主詞不同時，規則動詞現在式字尾怎麼變。 這次先認得：parlo、prendo、dormo。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.present_regular",
+      "ref_item": "present regular verbs",
+      "ref_subitems": [
+        "parlo",
+        "prendo",
+        "dormo"
+      ],
+      "examples": [
+        {
+          "surface": "Quando dormo bene, il giorno dopo prendo l'autobus felice.",
+          "source_item_id": "article:it_reading_present_regular_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「prendo、dormo、bene、felice」，呈現「present regular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Parlo piano, perché lei beve il caffè.",
+          "source_item_id": "article:it_reading_present_regular_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「parlo、beve」，呈現「present regular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ogni mattina parlo con la mamma in cucina.",
+          "source_item_id": "article:it_reading_present_regular_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「parlo」，呈現「present regular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Poi prendo il quaderno e prendo una penna.",
+          "source_item_id": "article:it_reading_present_regular_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「prendo」，呈現「present regular verbs」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_present_regular_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_present_regular_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_essere_avere",
+      "title_zh_tw": "essere and avere（sono, ho）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「essere and avere」。 先用它說身分、狀態、位置或「是什麼」。遇到兩種形式時，先看例句是在說固定身分還是當下狀態。 這次先認得：sono、ho。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.essere_avere",
+      "ref_item": "essere and avere",
+      "ref_subitems": [
+        "sono",
+        "ho"
+      ],
+      "examples": [
+        {
+          "surface": "Sono a casa, ma ho poco tempo.",
+          "source_item_id": "article:it_reading_essere_avere_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「sono、ho」，呈現「essere and avere」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sono stanco e ho fame dopo il lavoro.",
+          "source_item_id": "article:it_reading_essere_avere_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「sono、ho」，呈現「essere and avere」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Ho una zuppa calda sul tavolo.",
+          "source_item_id": "article:it_reading_essere_avere_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「ho」，呈現「essere and avere」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sono felice, perché ho anche pane fresco.",
+          "source_item_id": "article:it_reading_essere_avere_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「sono、ho」，呈現「essere and avere」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_essere_avere_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_essere_avere_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_irregulars",
+      "title_zh_tw": "common irregular verbs（vado, faccio）",
+      "explanation_md_zh_tw": "這個節點教義大利文 A1 的常用不規則動詞。vado 來自 andare，表示「我去」；faccio 來自 fare，表示「我做」。它們不像規則動詞只換固定字尾，所以先把 vado alla...、faccio... 當成高頻整句模式來認。",
+      "explanation_source": "authored",
+      "ref_id": "IT.grammar.irregulars",
+      "ref_item": "common irregular verbs",
+      "ref_subitems": [
+        "vado",
+        "faccio"
+      ],
+      "examples": [
+        {
+          "surface": "Poi vado alla cassa e faccio la fila.",
+          "source_item_id": "article:it_reading_irregulars_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「vado、faccio」，呈現「common irregular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Oggi vado al mercato con una lista.",
+          "source_item_id": "article:it_reading_irregulars_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「vado」，呈現「common irregular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Prima faccio colazione e preparo la borsa.",
+          "source_item_id": "article:it_reading_irregulars_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「faccio」，呈現「common irregular verbs」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Vado a piedi, perché il mercato è vicino.",
+          "source_item_id": "article:it_reading_irregulars_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「vado」，呈現「common irregular verbs」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_irregulars_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_irregulars_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_negation",
+      "title_zh_tw": "non（non）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「non」。 它用來說「不/沒有」。重點是把否定標記放在例句中的正確位置。 這次先認得：non。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.negation",
+      "ref_item": "non",
+      "ref_subitems": [
+        "non"
+      ],
+      "examples": [
+        {
+          "surface": "Giulia vuole studiare, ma non trova il libro.",
+          "source_item_id": "article:it_reading_negation_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「non」，呈現「non」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Guarda sul tavolo e non vede niente.",
+          "source_item_id": "article:it_reading_negation_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「non」，呈現「non」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Non chiama subito la mamma, perché cerca ancora.",
+          "source_item_id": "article:it_reading_negation_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「non」，呈現「non」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Nello zaino non c'è il libro, ma c'è un quaderno.",
+          "source_item_id": "article:it_reading_negation_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「non」，呈現「non」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_negation_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_negation_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_questions",
+      "title_zh_tw": "basic questions（dove, quando, quanto）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「basic questions」。 它用來問問題。先記住問人、地點、時間、數量或 yes/no 時句子怎麼開頭或結尾。 這次先認得：dove、quando、quanto。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.questions",
+      "ref_item": "basic questions",
+      "ref_subitems": [
+        "dove",
+        "quando",
+        "quanto"
+      ],
+      "examples": [
+        {
+          "surface": "Quando esce, sa dove tornare e quanto costa tutto.",
+          "source_item_id": "article:it_reading_questions_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「dove、quando、quanto」，呈現「basic questions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Chiede: dove sono le mascherine?",
+          "source_item_id": "article:it_reading_questions_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「dove」，呈現「basic questions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Il farmacista risponde e Nina chiede quando chiude.",
+          "source_item_id": "article:it_reading_questions_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「quando」，呈現「basic questions」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Poi domanda quanto costa una scatola.",
+          "source_item_id": "article:it_reading_questions_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「quanto」，呈現「basic questions」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_questions_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_questions_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_pronouns",
+      "title_zh_tw": "subject pronouns（io, tu, lui）",
+      "explanation_md_zh_tw": "這個節點教義大利文 A1 的主詞代詞 io、tu、lui。它們說明誰在做動作：io 是我，tu 是你，lui 是他。義大利文常可省略主詞，但 A1 看到這些詞時，先用它們確認動作的主人。",
+      "explanation_source": "authored",
+      "ref_id": "IT.grammar.pronouns",
+      "ref_item": "subject pronouns",
+      "ref_subitems": [
+        "io",
+        "tu",
+        "lui"
+      ],
+      "examples": [
+        {
+          "surface": "Tu porti i piatti, io porto l'acqua.",
+          "source_item_id": "article:it_reading_pronouns_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「io、tu」，呈現「subject pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Lui arriva un po' tardi con il pane.",
+          "source_item_id": "article:it_reading_pronouns_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「lui」，呈現「subject pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Io preparo il tavolo per la cena.",
+          "source_item_id": "article:it_reading_pronouns_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「io」，呈現「subject pronouns」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Io gli dico grazie, e tu apri la porta.",
+          "source_item_id": "article:it_reading_pronouns_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「io、tu」，呈現「subject pronouns」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_pronouns_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_pronouns_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_possessives",
+      "title_zh_tw": "possessives（mio, tua）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「possessives」。 它用來說「我的/你的/某人的」。先看誰擁有後面的東西。 這次先認得：mio、tua。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.possessives",
+      "ref_item": "possessives",
+      "ref_subitems": [
+        "mio",
+        "tua"
+      ],
+      "examples": [
+        {
+          "surface": "Io guardo nella tua borsa, ma non vedo il mio guinzaglio.",
+          "source_item_id": "article:it_reading_possessives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「mio、tua」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Nel parco cerco il mio cane.",
+          "source_item_id": "article:it_reading_possessives_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「mio」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Marta dice: la tua borsa è qui.",
+          "source_item_id": "article:it_reading_possessives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「tua」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Il mio cane corre vicino alla tua bici.",
+          "source_item_id": "article:it_reading_possessives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「mio、tua」，呈現「possessives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_possessives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_possessives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_demonstratives",
+      "title_zh_tw": "questo/quello（questo, quello）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「questo/quello」。 它用來指「這個/那個」。先從近的、遠的、單數、複數判斷。 這次先認得：questo、quello。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.demonstratives",
+      "ref_item": "questo/quello",
+      "ref_subitems": [
+        "questo",
+        "quello"
+      ],
+      "examples": [
+        {
+          "surface": "Lascia quello blu sullo scaffale e paga questo.",
+          "source_item_id": "article:it_reading_demonstratives_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「questo、quello」，呈現「questo/quello」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Dice: questo quaderno è piccolo.",
+          "source_item_id": "article:it_reading_demonstratives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「questo」，呈現「questo/quello」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Poi indica il quaderno blu sullo scaffale: quello è grande.",
+          "source_item_id": "article:it_reading_demonstratives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「quello」，呈現「questo/quello」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "La commessa dice: quello costa due euro.",
+          "source_item_id": "article:it_reading_demonstratives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「quello」，呈現「questo/quello」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_demonstratives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_demonstratives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_ci_sono",
+      "title_zh_tw": "c'è/ci sono（c'è, ci sono）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「c'è/ci sono」。 它用來說「有/存在」。先分清楚後面是一個東西，還是很多東西。 這次先認得：c'è、ci sono。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.ci_sono",
+      "ref_item": "c'è/ci sono",
+      "ref_subitems": [
+        "c'è",
+        "ci sono"
+      ],
+      "examples": [
+        {
+          "surface": "Nel suo zaino c'è una penna, ma ci sono anche matite.",
+          "source_item_id": "article:it_reading_ci_sono_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「c'è、ci sono」，呈現「c'è/ci sono」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sulla cattedra c'è un libro blu.",
+          "source_item_id": "article:it_reading_ci_sono_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「c'è」，呈現「c'è/ci sono」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Vicino alla finestra ci sono tre sedie.",
+          "source_item_id": "article:it_reading_ci_sono_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「ci sono」，呈現「c'è/ci sono」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Elena vede che c'è posto per tutti.",
+          "source_item_id": "article:it_reading_ci_sono_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「c'è」，呈現「c'è/ci sono」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_ci_sono_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_ci_sono_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_past_basic",
+      "title_zh_tw": "passato prossimo basics（ieri）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「passato prossimo basics」。 它用來說已經發生的事。先看昨天、剛才這類時間詞，以及動詞的過去形式。 這次先認得：ieri。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.passato_prossimo",
+      "ref_item": "passato prossimo basics",
+      "ref_subitems": [
+        "ieri"
+      ],
+      "examples": [
+        {
+          "surface": "Ieri Nina è andata al mercato.",
+          "source_item_id": "article:it_reading_past_basic_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「ieri」，呈現「passato prossimo basics」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "È partita presto con sua madre.",
+          "source_item_id": "article:it_reading_past_basic_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「目標形式」，呈現「passato prossimo basics」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_past_basic_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_past_basic_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_future_basic",
+      "title_zh_tw": "present as future（domani）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「present as future」。 它用來說接下來要做的事。先看表示未來的詞和後面的動作連在一起。 這次先認得：domani。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.future_present",
+      "ref_item": "present as future",
+      "ref_subitems": [
+        "domani"
+      ],
+      "examples": [
+        {
+          "surface": "Domani Marco ha una giornata semplice.",
+          "source_item_id": "article:it_reading_future_basic_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「domani」，呈現「present as future」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Domani sera cena presto e riposa.",
+          "source_item_id": "article:it_reading_future_basic_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「domani」，呈現「present as future」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_future_basic_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_future_basic_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_prepositions",
+      "title_zh_tw": "a/in/di/da（a, in, di, da）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「a/in/di/da」。 它通常放在名詞片語前面，用來表示位置、方向、來源、所屬、材料或和誰一起。 這次先認得：a、in、di、da。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.prepositions",
+      "ref_item": "a/in/di/da",
+      "ref_subitems": [
+        "a",
+        "in",
+        "di",
+        "da"
+      ],
+      "examples": [
+        {
+          "surface": "Rosa va a scuola in autobus.",
+          "source_item_id": "article:it_reading_prepositions_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「a、in」，呈現「a/in/di/da」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Porta una borsa di tela da casa.",
+          "source_item_id": "article:it_reading_prepositions_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「di、da」，呈現「a/in/di/da」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "A scuola entra in classe con calma.",
+          "source_item_id": "article:it_reading_prepositions_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「a、in」，呈現「a/in/di/da」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Il libro di italiano è sul banco.",
+          "source_item_id": "article:it_reading_prepositions_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「di」，呈現「a/in/di/da」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_prepositions_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_prepositions_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_connectors",
+      "title_zh_tw": "e/ma/perché（e, ma, perché）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「e/ma/perché」。 它用來把兩個短句接起來，表示加上、轉折或原因。 這次先認得：e、ma、perché。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.connectors",
+      "ref_item": "e/ma/perché",
+      "ref_subitems": [
+        "e",
+        "ma",
+        "perché"
+      ],
+      "examples": [
+        {
+          "surface": "Sara sorride e serve due piatti, perché Marco ha fame.",
+          "source_item_id": "article:it_reading_connectors_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「e、perché」，呈現「e/ma/perché」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Vuole fare presto, ma l'acqua è ancora fredda.",
+          "source_item_id": "article:it_reading_connectors_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ma」，呈現「e/ma/perché」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Sara cucina pasta e verdure per Marco.",
+          "source_item_id": "article:it_reading_connectors_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「e」，呈現「e/ma/perché」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Aggiunge sale e guarda l'orologio.",
+          "source_item_id": "article:it_reading_connectors_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「e」，呈現「e/ma/perché」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_connectors_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_connectors_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "it_grammar_partitives",
+      "title_zh_tw": "basic partitives（del, della）",
+      "explanation_md_zh_tw": "這個節點教 義大利文 A1 的「basic partitives」。 它用來說「一些/一點」沒有明確數量的東西，常見在食物、飲料或不可數名詞前。 這次先認得：del、della。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "IT.grammar.partitives",
+      "ref_item": "basic partitives",
+      "ref_subitems": [
+        "del",
+        "della"
+      ],
+      "examples": [
+        {
+          "surface": "Al bar Irene ordina del pane e della marmellata.",
+          "source_item_id": "article:it_reading_partitives_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「del、della」，呈現「basic partitives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Il cameriere porta del pane caldo.",
+          "source_item_id": "article:it_reading_partitives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「del」，呈現「basic partitives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Irene chiede anche della frutta fresca.",
+          "source_item_id": "article:it_reading_partitives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「della」，呈現「basic partitives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "Mette della marmellata sul pane.",
+          "source_item_id": "article:it_reading_partitives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「della」，呈現「basic partitives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "Profilo della lingua italiana A1",
+      "source_locator": "Council of Europe language profile family; Profilo A1",
+      "source_reading_asset_id": "it_reading_partitives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-it\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\it_reading_partitives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_it_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    }
+  ]
+}

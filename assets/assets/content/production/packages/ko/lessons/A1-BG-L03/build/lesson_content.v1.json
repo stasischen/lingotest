@@ -1,0 +1,1594 @@
+{
+  "version": "1.1.0",
+  "unit": {
+    "unit_id": "A1-BG-L03",
+    "title_i18n": {
+      "zh_tw": "空間與時間定位",
+      "en": "Space and Time Positioning"
+    },
+    "theme_i18n": {
+      "zh_tw": "在哪裡、幾點、在哪裡做事",
+      "en": "Where, what time, and where things happen"
+    },
+    "level": "A1",
+    "grammar_cluster": [
+      "에",
+      "에서",
+      "시간 명사 + 에"
+    ]
+  },
+  "sequence": [
+    {
+      "id": "A1-BG-L03-L1",
+      "candidate_type": "lesson",
+      "content_form": "dialogue",
+      "learning_role": "immersion_input",
+      "skill_focus": [
+        "listening",
+        "reading"
+      ],
+      "payload": {
+        "what_to_notice_i18n": [
+          {
+            "zh_tw": "注意「在哪裡」跟「在哪裡做事」的差別：表示「在某處」用 에，表示「在某處做某事」用 에서。",
+            "en": "Notice the difference between being somewhere and doing something somewhere: 에 있어요 vs 에서 공부해요."
+          },
+          {
+            "zh_tw": "聽聽看「幾點鐘」後面加的 에 助詞。",
+            "en": "Listen for the 에 particle after clock times."
+          }
+        ],
+        "dialogue_turns": [
+          {
+            "speaker": "A",
+            "text": "안녕하세요? 우리 몇 시에 만나요?",
+            "zh_tw": "你好？我們幾點見面？",
+            "en": "Hello? What time do we meet?"
+          },
+          {
+            "speaker": "B",
+            "text": "3시에 만나요. 어디에서 만나요?",
+            "zh_tw": "3點見面。在哪裡見面？",
+            "en": "Meet at 3:00. Where do we meet?"
+          },
+          {
+            "speaker": "A",
+            "text": "카페에서 만나요. 지금 어디에 있어요?",
+            "zh_tw": "在咖啡廳見面。現在在哪裡？",
+            "en": "Meet at the cafe. Where are you now?"
+          },
+          {
+            "speaker": "B",
+            "text": "지금 학교에 있어요. 학교에서 공부해요.",
+            "zh_tw": "現在在學校。在學校學習。",
+            "en": "I'm at school now. I'm studying at school."
+          },
+          {
+            "speaker": "A",
+            "text": "민수 씨, 주말에 뭐 해요?",
+            "zh_tw": "敏秀，週末要做什麼？",
+            "en": "Minsu, what are you doing on the weekend?"
+          },
+          {
+            "speaker": "B",
+            "text": "도서관에 가요. 도서관에서 공부해요.",
+            "zh_tw": "去圖書館。在圖書館學習。",
+            "en": "I'm going to the library. I study at the library."
+          },
+          {
+            "speaker": "A",
+            "text": "아, 그래요? 저는 회사에 가요. 회사에서 일해요.",
+            "zh_tw": "啊，是嗎？我要去公司。在公司工作。",
+            "en": "Oh, really? I'm going to the office. I work at the office."
+          },
+          {
+            "speaker": "B",
+            "text": "그럼 아침에 공원에서 운동해요?",
+            "zh_tw": "那麼早上在公園運動嗎？",
+            "en": "Then do you exercise at the park in the morning?"
+          }
+        ],
+        "surface_ref": "l1_dialogue_surface.v1.json",
+        "dialogue_scene_contract": {
+          "purpose": "L1 serves as immersion. Each line must be traceable to a pattern module."
+        }
+      },
+      "output_mode": "none",
+      "title_i18n": {
+        "zh_tw": "L1 聽聽看：在哪裡做什麼？",
+        "en": "L1 Listening: Doing what where?"
+      },
+      "expected_output_i18n": {
+        "zh_tw": "能辨識出地點助詞 에 與 에서 的不同使用情境。",
+        "en": "Recognize the different contexts for particles 에 and 에서."
+      }
+    },
+    {
+      "id": "A1-BG-L03-L2",
+      "candidate_type": "lesson",
+      "content_form": "pattern_lab",
+      "learning_role": "immersion_input",
+      "payload": {
+        "intro_i18n": {
+          "zh_tw": "單純的「去哪裡」或「在那裡」，我們用 에。點選下方選項看看變化。",
+          "en": "For simple 'going to' or 'being at', we use 에. Tap below to see how it works."
+        },
+        "pattern_builder_demos": [
+          {
+            "builder_id": "destination-existence-switch",
+            "controls": [
+              {
+                "control_id": "place",
+                "label_i18n": {
+                  "zh_tw": "地點",
+                  "en": "place"
+                },
+                "options": [
+                  {
+                    "value": "학교",
+                    "label_i18n": {
+                      "zh_tw": "學校",
+                      "en": "school"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "學校",
+                      "en": "school"
+                    },
+                    "sentence_values": {
+                      "en_place": "school",
+                      "zh_tw_place": "學校"
+                    }
+                  },
+                  {
+                    "value": "집",
+                    "label_i18n": {
+                      "zh_tw": "家",
+                      "en": "home"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "家",
+                      "en": "home"
+                    },
+                    "sentence_values": {
+                      "en_place": "home",
+                      "zh_tw_place": "家"
+                    }
+                  },
+                  {
+                    "value": "카페",
+                    "label_i18n": {
+                      "zh_tw": "咖啡廳",
+                      "en": "cafe"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "咖啡廳",
+                      "en": "cafe"
+                    },
+                    "sentence_values": {
+                      "en_place": "the cafe",
+                      "zh_tw_place": "咖啡廳"
+                    }
+                  },
+                  {
+                    "value": "도서관",
+                    "label_i18n": {
+                      "zh_tw": "圖書館",
+                      "en": "library"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "圖書館",
+                      "en": "library"
+                    },
+                    "sentence_values": {
+                      "en_place": "the library",
+                      "zh_tw_place": "圖書館"
+                    }
+                  },
+                  {
+                    "value": "회사",
+                    "label_i18n": {
+                      "zh_tw": "公司",
+                      "en": "office"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "公司",
+                      "en": "office"
+                    },
+                    "sentence_values": {
+                      "en_place": "the office",
+                      "zh_tw_place": "公司"
+                    }
+                  },
+                  {
+                    "value": "마트",
+                    "label_i18n": {
+                      "zh_tw": "超市",
+                      "en": "supermarket"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "超市",
+                      "en": "supermarket"
+                    },
+                    "sentence_values": {
+                      "en_place": "the supermarket",
+                      "zh_tw_place": "超市"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "verb",
+                "label_i18n": {
+                  "zh_tw": "動作",
+                  "en": "verb"
+                },
+                "options": [
+                  {
+                    "value": "go",
+                    "label_i18n": {
+                      "zh_tw": "가다",
+                      "en": "go to"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "去",
+                      "en": "Go to"
+                    },
+                    "sentence_values": {
+                      "en_prefix": "I'm going to",
+                      "zh_tw_verb": "去"
+                    }
+                  },
+                  {
+                    "value": "come",
+                    "label_i18n": {
+                      "zh_tw": "오다",
+                      "en": "come to"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "來",
+                      "en": "Come to"
+                    },
+                    "sentence_values": {
+                      "en_prefix": "I'm coming to",
+                      "zh_tw_verb": "來"
+                    }
+                  },
+                  {
+                    "value": "be",
+                    "label_i18n": {
+                      "zh_tw": "있다",
+                      "en": "be at"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "在",
+                      "en": "I'm at"
+                    },
+                    "sentence_values": {
+                      "en_prefix": "I'm at",
+                      "zh_tw_verb": "在"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "register",
+                "label_i18n": {
+                  "zh_tw": "語氣",
+                  "en": "speech level"
+                },
+                "options": [
+                  {
+                    "value": "formal",
+                    "label_i18n": {
+                      "zh_tw": "正式",
+                      "en": "formal"
+                    }
+                  },
+                  {
+                    "value": "polite",
+                    "label_i18n": {
+                      "zh_tw": "日常",
+                      "en": "polite"
+                    }
+                  },
+                  {
+                    "value": "casual",
+                    "label_i18n": {
+                      "zh_tw": "朋友",
+                      "en": "casual"
+                    }
+                  }
+                ]
+              }
+            ],
+            "register_templates": {
+              "formal": "{place}에 {verb_form}",
+              "polite": "{place}에 {verb_form}",
+              "casual": "{place}에 {verb_form}"
+            },
+            "translation_templates": {
+              "formal": {
+                "zh_tw": "{zh_tw_verb}{zh_tw_place}。",
+                "en": "{en_prefix} {en_place}."
+              },
+              "polite": {
+                "zh_tw": "{zh_tw_verb}{zh_tw_place}。",
+                "en": "{en_prefix} {en_place}."
+              },
+              "casual": {
+                "zh_tw": "{zh_tw_verb}{zh_tw_place}。",
+                "en": "{en_prefix} {en_place}."
+              }
+            },
+            "dynamic_token_rules": [
+              {
+                "token": "verb_form",
+                "source_control_id": "verb",
+                "map_by_register_and_value": {
+                  "formal": {
+                    "go": "갑니다.",
+                    "come": "옵니다.",
+                    "be": "있습니다."
+                  },
+                  "polite": {
+                    "go": "가요.",
+                    "come": "와요.",
+                    "be": "있어요."
+                  },
+                  "casual": {
+                    "go": "가.",
+                    "come": "와.",
+                    "be": "있어."
+                  }
+                }
+              }
+            ],
+            "title_i18n": {
+              "zh_tw": "句型 1：目的地與靜止地點",
+              "en": "Pattern 1: Destination and Existence"
+            },
+            "inline_hint_i18n": {
+              "zh_tw": "注意到嗎？不管是「去」、「來」某地還是「在」某地，韓文都用 에 來標記那個點。",
+              "en": "Notice how 에 marks the spot for 'going', 'coming', and 'being'."
+            },
+            "review_export_presets": [
+              {
+                "preset_id": "go_school_polite",
+                "item_id": "a1_bg_l03_go_school_polite",
+                "mastery_key": "a1_bg_l03_go_school_polite",
+                "control_values": {
+                  "place": "학교",
+                  "verb": "go",
+                  "register": "polite"
+                },
+                "ko_surface": "학교에 가요.",
+                "meaning_i18n": {
+                  "zh_tw": "去學校。",
+                  "en": "I'm going to school."
+                },
+                "chunks": [
+                  "학교에",
+                  "가요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "distractors": [
+                  "학교에서",
+                  "있어요."
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "에 用來標記移動的目的地（去、來）。",
+                  "en": "에 marks the destination for motion verbs (go, come)."
+                }
+              },
+              {
+                "preset_id": "be_home_polite",
+                "item_id": "a1_bg_l03_be_home_polite",
+                "mastery_key": "a1_bg_l03_be_home_polite",
+                "control_values": {
+                  "place": "집",
+                  "verb": "be",
+                  "register": "polite"
+                },
+                "ko_surface": "집에 있어요.",
+                "meaning_i18n": {
+                  "zh_tw": "在家。",
+                  "en": "I'm at home."
+                },
+                "chunks": [
+                  "집에",
+                  "있어요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "distractors": [
+                  "집에서",
+                  "있어요."
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "에 用來標記存在的地點（在、不在）。",
+                  "en": "에 marks the location of existence (be, not be)."
+                }
+              },
+              {
+                "preset_id": "come_office_formal",
+                "item_id": "a1_bg_l03_come_office_formal",
+                "mastery_key": "a1_bg_l03_come_office_formal",
+                "control_values": {
+                  "place": "회사",
+                  "verb": "come",
+                  "register": "formal"
+                },
+                "ko_surface": "회사에 옵니다.",
+                "meaning_i18n": {
+                  "zh_tw": "來公司。",
+                  "en": "I'm coming to the office."
+                },
+                "chunks": [
+                  "회사에",
+                  "옵니다."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "distractors": [
+                  "회사에서",
+                  "옵니다."
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "正式語氣的「來某地」。",
+                  "en": "Formal version of 'coming to a place'."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "title_i18n": {
+        "zh_tw": "L2 基礎句型：目的地與存在",
+        "en": "L2 Basic Patterns: Destination and Existence"
+      }
+    },
+    {
+      "id": "A1-BG-L03-L3",
+      "candidate_type": "lesson",
+      "content_form": "pattern_lab",
+      "learning_role": "structure_pattern",
+      "payload": {
+        "intro_i18n": {
+          "zh_tw": "當地方變成「做事」的場所時，要用 에서。也可以加入時間點 에。",
+          "en": "Use 에서 when the place is where an action happens. You can also pin it to a time with 에."
+        },
+        "pattern_builder_demos": [
+          {
+            "builder_id": "action-time-switch",
+            "controls": [
+              {
+                "control_id": "place",
+                "label_i18n": {
+                  "zh_tw": "地點",
+                  "en": "place"
+                },
+                "options": [
+                  {
+                    "value": "학교",
+                    "label_i18n": {
+                      "zh_tw": "學校",
+                      "en": "school"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "學校",
+                      "en": "school"
+                    },
+                    "sentence_values": {
+                      "en_place": "at school",
+                      "zh_tw_place": "學校"
+                    }
+                  },
+                  {
+                    "value": "집",
+                    "label_i18n": {
+                      "zh_tw": "家",
+                      "en": "home"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "家",
+                      "en": "home"
+                    },
+                    "sentence_values": {
+                      "en_place": "at home",
+                      "zh_tw_place": "家"
+                    }
+                  },
+                  {
+                    "value": "카페",
+                    "label_i18n": {
+                      "zh_tw": "咖啡廳",
+                      "en": "cafe"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "咖啡廳",
+                      "en": "cafe"
+                    },
+                    "sentence_values": {
+                      "en_place": "at the cafe",
+                      "zh_tw_place": "咖啡廳"
+                    }
+                  },
+                  {
+                    "value": "회사",
+                    "label_i18n": {
+                      "zh_tw": "公司",
+                      "en": "office"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "公司",
+                      "en": "office"
+                    },
+                    "sentence_values": {
+                      "en_place": "at the office",
+                      "zh_tw_place": "公司"
+                    }
+                  },
+                  {
+                    "value": "공원",
+                    "label_i18n": {
+                      "zh_tw": "公園",
+                      "en": "park"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "公園",
+                      "en": "park"
+                    },
+                    "sentence_values": {
+                      "en_place": "at the park",
+                      "zh_tw_place": "公園"
+                    }
+                  },
+                  {
+                    "value": "마트",
+                    "label_i18n": {
+                      "zh_tw": "超市",
+                      "en": "supermarket"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "超市",
+                      "en": "supermarket"
+                    },
+                    "sentence_values": {
+                      "en_place": "at the supermarket",
+                      "zh_tw_place": "超市"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "action",
+                "label_i18n": {
+                  "zh_tw": "動作",
+                  "en": "action"
+                },
+                "options": [
+                  {
+                    "value": "study",
+                    "label_i18n": {
+                      "zh_tw": "공부하다",
+                      "en": "study"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "學習",
+                      "en": "study"
+                    },
+                    "sentence_values": {
+                      "en_action": "I study",
+                      "zh_tw_action": "學習"
+                    }
+                  },
+                  {
+                    "value": "meet",
+                    "label_i18n": {
+                      "zh_tw": "만나다",
+                      "en": "meet"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "見面",
+                      "en": "meet"
+                    },
+                    "sentence_values": {
+                      "en_action": "I meet my friends",
+                      "zh_tw_action": "見面"
+                    }
+                  },
+                  {
+                    "value": "rest",
+                    "label_i18n": {
+                      "zh_tw": "쉬다",
+                      "en": "rest"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "休息",
+                      "en": "rest"
+                    },
+                    "sentence_values": {
+                      "en_action": "I rest",
+                      "zh_tw_action": "休息"
+                    }
+                  },
+                  {
+                    "value": "work",
+                    "label_i18n": {
+                      "zh_tw": "일하다",
+                      "en": "work"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "工作",
+                      "en": "work"
+                    },
+                    "sentence_values": {
+                      "en_action": "I work",
+                      "zh_tw_action": "工作"
+                    }
+                  },
+                  {
+                    "value": "exercise",
+                    "label_i18n": {
+                      "zh_tw": "운동하다",
+                      "en": "exercise"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "運動",
+                      "en": "exercise"
+                    },
+                    "sentence_values": {
+                      "en_action": "I exercise",
+                      "zh_tw_action": "運動"
+                    }
+                  },
+                  {
+                    "value": "buy",
+                    "label_i18n": {
+                      "zh_tw": "사다",
+                      "en": "buy"
+                    },
+                    "gloss_i18n": {
+                      "zh_tw": "買東西",
+                      "en": "buy things"
+                    },
+                    "sentence_values": {
+                      "en_action": "I buy things",
+                      "zh_tw_action": "買東西"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "time",
+                "label_i18n": {
+                  "zh_tw": "時間",
+                  "en": "time"
+                },
+                "options": [
+                  {
+                    "value": "none",
+                    "label_i18n": {
+                      "zh_tw": "(不加時間)",
+                      "en": "(no time)"
+                    },
+                    "sentence_values": {
+                      "time_surface": "",
+                      "zh_tw_time": "",
+                      "en_time": ""
+                    }
+                  },
+                  {
+                    "value": "3pm",
+                    "label_i18n": {
+                      "zh_tw": "3點",
+                      "en": "3:00"
+                    },
+                    "sentence_values": {
+                      "time_surface": "3시에 ",
+                      "zh_tw_time": "3點",
+                      "en_time": " at 3:00"
+                    }
+                  },
+                  {
+                    "value": "morning",
+                    "label_i18n": {
+                      "zh_tw": "早上",
+                      "en": "morning"
+                    },
+                    "sentence_values": {
+                      "time_surface": "아침에 ",
+                      "zh_tw_time": "早上",
+                      "en_time": " in the morning"
+                    }
+                  },
+                  {
+                    "value": "weekend",
+                    "label_i18n": {
+                      "zh_tw": "週末",
+                      "en": "weekend"
+                    },
+                    "sentence_values": {
+                      "time_surface": "주말에 ",
+                      "zh_tw_time": "週末",
+                      "en_time": " on the weekend"
+                    }
+                  }
+                ]
+              },
+              {
+                "control_id": "register",
+                "label_i18n": {
+                  "zh_tw": "語氣",
+                  "en": "speech level"
+                },
+                "options": [
+                  {
+                    "value": "polite",
+                    "label_i18n": {
+                      "zh_tw": "日常",
+                      "en": "polite"
+                    }
+                  },
+                  {
+                    "value": "casual",
+                    "label_i18n": {
+                      "zh_tw": "朋友",
+                      "en": "casual"
+                    }
+                  }
+                ]
+              }
+            ],
+            "register_templates": {
+              "polite": "{time_surface}{place}에서 {verb_form}",
+              "casual": "{time_surface}{place}에서 {verb_form}"
+            },
+            "translation_templates": {
+              "polite": {
+                "zh_tw": "{zh_tw_time}在{zh_tw_place}{zh_tw_action}。",
+                "en": "{en_action} {en_place}{en_time}."
+              },
+              "casual": {
+                "zh_tw": "{zh_tw_time}在{zh_tw_place}{zh_tw_action}。",
+                "en": "{en_action} {en_place}{en_time}."
+              }
+            },
+            "dynamic_token_rules": [
+              {
+                "token": "verb_form",
+                "source_control_id": "action",
+                "map_by_register_and_value": {
+                  "polite": {
+                    "study": "공부해요.",
+                    "meet": "만나요.",
+                    "rest": "쉬어요.",
+                    "work": "일해요.",
+                    "exercise": "운동해요.",
+                    "buy": "사요."
+                  },
+                  "casual": {
+                    "study": "공부해.",
+                    "meet": "만나.",
+                    "rest": "쉬어.",
+                    "work": "일해.",
+                    "exercise": "운동해.",
+                    "buy": "사."
+                  }
+                }
+              },
+              {
+                "token": "time_surface",
+                "source_control_id": "time",
+                "map_by_value": {
+                  "none": "",
+                  "3pm": "3시에 ",
+                  "morning": "아침에 ",
+                  "weekend": "주말에 "
+                }
+              },
+              {
+                "token": "zh_tw_time",
+                "source_control_id": "time",
+                "map_by_value": {
+                  "none": "",
+                  "3pm": "3點",
+                  "morning": "早上",
+                  "weekend": "週末"
+                }
+              },
+              {
+                "token": "en_time",
+                "source_control_id": "time",
+                "map_by_value": {
+                  "none": "",
+                  "3pm": " at 3:00",
+                  "morning": " in the morning",
+                  "weekend": " on the weekend"
+                }
+              },
+              {
+                "token": "zh_tw_place",
+                "source_control_id": "place",
+                "map_by_value": {
+                  "학교": "學校",
+                  "집": "家",
+                  "카페": "咖啡廳",
+                  "회사": "公司",
+                  "공원": "公園",
+                  "마트": "超市"
+                }
+              },
+              {
+                "token": "en_place",
+                "source_control_id": "place",
+                "map_by_value": {
+                  "학교": "at school",
+                  "집": "at home",
+                  "카페": "at the cafe",
+                  "회사": "at the office",
+                  "공원": "at the park",
+                  "마트": "at the supermarket"
+                }
+              },
+              {
+                "token": "zh_tw_action",
+                "source_control_id": "action",
+                "map_by_value": {
+                  "study": "學習",
+                  "meet": "見面",
+                  "rest": "休息",
+                  "work": "工作",
+                  "exercise": "運動",
+                  "buy": "買東西"
+                }
+              },
+              {
+                "token": "en_action",
+                "source_control_id": "action",
+                "map_by_value": {
+                  "study": "I study",
+                  "meet": "I meet my friends",
+                  "rest": "I rest",
+                  "work": "I work",
+                  "exercise": "I exercise",
+                  "buy": "I buy things"
+                }
+              }
+            ],
+            "title_i18n": {
+              "zh_tw": "句型 2：在哪裡做某事",
+              "en": "Pattern 2: Doing something at a place"
+            },
+            "inline_hint_i18n": {
+              "zh_tw": "現在場景變成了「活動的地點」，助詞也跟著升級為 에서 了。順便可以練習加上時間標籤 에。",
+              "en": "Now that the place is an 'action site', the particle upgrades to 에서. You can also add time labels with 에."
+            },
+            "review_export_presets": [
+              {
+                "preset_id": "study_school_polite",
+                "item_id": "a1_bg_l03_study_school_polite",
+                "mastery_key": "a1_bg_l03_study_school_polite",
+                "control_values": {
+                  "place": "학교",
+                  "action": "study",
+                  "time": "none",
+                  "register": "polite"
+                },
+                "ko_surface": "학교에서 공부해요.",
+                "meaning_i18n": {
+                  "zh_tw": "在學校學習。",
+                  "en": "I study at school."
+                },
+                "chunks": [
+                  "학교에서",
+                  "공부해요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "distractors": [
+                  "학교에",
+                  "가요."
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "에서 用來標記動作發生的場所。",
+                  "en": "에서 marks the location where an action is happening."
+                }
+              },
+              {
+                "preset_id": "meet_3pm_polite",
+                "item_id": "a1_bg_l03_meet_3pm_polite",
+                "mastery_key": "a1_bg_l03_meet_3pm_polite",
+                "control_values": {
+                  "place": "카페",
+                  "action": "meet",
+                  "time": "3pm",
+                  "register": "polite"
+                },
+                "ko_surface": "3시에 카페에서 만나요.",
+                "meaning_i18n": {
+                  "zh_tw": "3點在咖啡廳見面。",
+                  "en": "I meet my friends at the cafe at 3:00."
+                },
+                "chunks": [
+                  "3시에",
+                  "카페에서",
+                  "만나요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "distractors": [
+                  "카페에",
+                  "있어요."
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "結合了時間標籤 에 和動作場所 에서。",
+                  "en": "Combines time marker 에 with action location marker 에서."
+                }
+              },
+              {
+                "preset_id": "exercise_park_weekend",
+                "item_id": "a1_bg_l03_exercise_park_weekend",
+                "mastery_key": "a1_bg_l03_exercise_park_weekend",
+                "control_values": {
+                  "place": "공원",
+                  "action": "exercise",
+                  "time": "weekend",
+                  "register": "polite"
+                },
+                "ko_surface": "주말에 공원에서 운동해요.",
+                "meaning_i18n": {
+                  "zh_tw": "週末在公園運動。",
+                  "en": "I exercise at the park on the weekend."
+                },
+                "chunks": [
+                  "주말에",
+                  "공원에서",
+                  "운동해요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "distractors": [
+                  "공원에",
+                  "있어요."
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "表示週末在某個場地活動。",
+                  "en": "Indicates activity at a location during the weekend."
+                }
+              },
+              {
+                "preset_id": "work_office_polite",
+                "item_id": "a1_bg_l03_work_office_polite",
+                "mastery_key": "a1_bg_l03_work_office_polite",
+                "control_values": {
+                  "place": "회사",
+                  "action": "work",
+                  "time": "none",
+                  "register": "polite"
+                },
+                "ko_surface": "회사에서 일해요.",
+                "meaning_i18n": {
+                  "zh_tw": "在公司工作。",
+                  "en": "I'm working at the office."
+                },
+                "chunks": [
+                  "회사에서",
+                  "일해요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "distractors": [
+                  "회사에",
+                  "있어요."
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "在公司工作，強調動作場所，用 에서。",
+                  "en": "Working at the office, emphasize the location of action, use 에서."
+                }
+              },
+              {
+                "preset_id": "buy_mart_polite",
+                "item_id": "a1_bg_l03_buy_mart_polite",
+                "mastery_key": "a1_bg_l03_buy_mart_polite",
+                "control_values": {
+                  "place": "마트",
+                  "action": "buy",
+                  "time": "none",
+                  "register": "polite"
+                },
+                "ko_surface": "마트에서 사요.",
+                "meaning_i18n": {
+                  "zh_tw": "在超市買東西。",
+                  "en": "I'm buying things at the supermarket."
+                },
+                "chunks": [
+                  "마트에서",
+                  "사요."
+                ],
+                "review_modes": [
+                  "chunk_assembly",
+                  "flashcard_review"
+                ],
+                "distractors": [
+                  "마트에",
+                  "가요."
+                ],
+                "usage_note_i18n": {
+                  "zh_tw": "在超市買東西，強調動作場所，用 에서。",
+                  "en": "Buying things at the supermarket, emphasize the location of action, use 에서."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "title_i18n": {
+        "zh_tw": "L3 進階句型：動作場所與時間",
+        "en": "L3 Advanced Patterns: Action Location and Time"
+      }
+    },
+    {
+      "id": "A1-BG-L03-G1",
+      "candidate_type": "lesson",
+      "content_form": "grammar_summary",
+      "explanation_md_i18n": {
+        "zh_tw": "在這一節中，我們比較了表示場所與時間的助詞 에 以及表示動作地點的 에서。理解這兩者的差異對描述日常生活非常重要。",
+        "en": "In this section, we compare the particles 에 (place/time) and 에서 (action location). Understanding the difference between these two is crucial for describing daily life."
+      },
+      "learning_role": "explicit_rule",
+      "skill_focus": [
+        "reading"
+      ],
+      "expected_output_i18n": {
+        "zh_tw": "能辨別 에 (場所/時間) 與 에서 (動作地點) 的基本用法。",
+        "en": "Distinguish between the basic uses of 에 (place/time) and 에서 (action location)."
+      },
+      "payload": {
+        "summary_items": [
+          {
+            "target": "場所 + 에",
+            "explain_i18n": {
+              "zh_tw": "目的地 (가요/와요) 或 靜止在那裡 (있어요/없어요)。",
+              "en": "Destination (go/come) or static location (be at)."
+            }
+          },
+          {
+            "target": "場所 + 에서",
+            "explain_i18n": {
+              "zh_tw": "在那裡「做事」(學習、工作、見面)。",
+              "en": "Where an action (study, work, meet) happens."
+            }
+          },
+          {
+            "target": "時間 + 에",
+            "explain_i18n": {
+              "zh_tw": "在「幾點」或「什麼時候」做事。",
+              "en": "When something happens (time anchor)."
+            }
+          }
+        ]
+      },
+      "title_i18n": {
+        "zh_tw": "G1 要點總結：에 vs 에서",
+        "en": "G1 Summary: 에 vs 에서"
+      }
+    },
+    {
+      "id": "A1-BG-L03-G2",
+      "candidate_type": "lesson",
+      "content_form": "grammar_note",
+      "learning_role": "explicit_rule",
+      "skill_focus": [
+        "reading"
+      ],
+      "expected_output_i18n": {
+        "zh_tw": "掌握地點助詞的「點」與「舞台」邏輯，並理解時間座標的概念。",
+        "en": "Master the 'point' vs 'stage' logic for place particles and understand the time coordinate concept."
+      },
+      "payload": {
+        "sections": [
+          {
+            "title_i18n": {
+              "zh_tw": "想像一個「舞台」",
+              "en": "Imagine a Stage"
+            },
+            "explanation_md_i18n": {
+              "zh_tw": "想像一下：에 像是一個點。你只是朝著它走，或是只是停在那裡。但 에서 像是一個舞台，你正在上面「演出」某個動作。\n\n- `학교에 있어요`：我人在學校。(單純在那裡)\n- `학교에서 공부해요`：我在學校讀書。(在那裡活動)",
+              "en": "Think of 에 as a point. You're either heading toward it or just staying there. But 에서 is like a stage where you're 'acting out' a verb.\n\n- `학교에 있어요`: I am at school. (Just existence)\n- `학교에서 공부해요`: I study at school. (Activity happening there)"
+            }
+          },
+          {
+            "title_i18n": {
+              "zh_tw": "時間也是一個「點」",
+              "en": "Time is Also a Point"
+            },
+            "explanation_md_i18n": {
+              "zh_tw": "在韓文裡，時間點被看作是穩定的「座標」。所以我們用 에 來標記那個特定的時刻。\n\n- `3시에 만나요`：在 3 點這個「點」見面。",
+              "en": "In Korean, time is treated as a stable coordinate. So we use 에 to pin events to a specific moment.\n\n- `3시에 만나요`: Meet at the 'point' of 3 o'clock."
+            }
+          }
+        ]
+      },
+      "title_i18n": {
+        "zh_tw": "G2 幫你整理：場所與時間的邏輯",
+        "en": "G2 Logic: Space and Time"
+      }
+    },
+    {
+      "id": "A1-BG-L03-P1",
+      "content_form": "practice_card",
+      "learning_role": "controlled_output",
+      "projection_type": "chunk_assembly",
+      "projection_source": {
+        "status": "merged_v1",
+        "last_generated": "P1_V1_MERGE"
+      },
+      "payload": {
+        "tasks": [
+          {
+            "item_id": "a1_bg_l03_be_home_polite",
+            "mastery_key": "a1_bg_l03_be_home_polite",
+            "ko_surface": "집에 있어요.",
+            "target_examples": [
+              "집에 있어요."
+            ],
+            "target_examples_zh_tw": [
+              "在家。"
+            ],
+            "chunks": [
+              "집에",
+              "있어요."
+            ],
+            "meaning_i18n": {
+              "zh_tw": "在家。",
+              "en": "I'm at home."
+            },
+            "context_i18n": {
+              "zh_tw": "場合：朋友打電話問你在哪，你單純回答位置"
+            },
+            "prompt_i18n": {
+              "zh_tw": "請組出最自然的一句：在家。"
+            },
+            "distractors": [
+              "집에서",
+              "加요."
+            ],
+            "source_preset_id": "be_home_polite"
+          },
+          {
+            "item_id": "a1_bg_l03_buy_mart_polite",
+            "mastery_key": "a1_bg_l03_buy_mart_polite",
+            "ko_surface": "마트에서 사요.",
+            "target_examples": [
+              "마트에서 사요."
+            ],
+            "target_examples_zh_tw": [
+              "在超市買東西。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "在超市買東西。",
+              "en": "I'm buying things at the supermarket."
+            },
+            "chunks": [
+              "마트에서",
+              "사요."
+            ],
+            "distractors": [
+              "마트에",
+              "가요."
+            ],
+            "source_preset_id": "buy_mart_polite"
+          },
+          {
+            "item_id": "a1_bg_l03_come_office_formal",
+            "mastery_key": "a1_bg_l03_come_office_formal",
+            "ko_surface": "회사에 옵니다.",
+            "target_examples": [
+              "회사에 옵니다."
+            ],
+            "target_examples_zh_tw": [
+              "來公司。"
+            ],
+            "meaning_i18n": {
+              "zh_tw": "來公司。",
+              "en": "I'm coming to the office."
+            },
+            "chunks": [
+              "회사에",
+              "옵니다."
+            ],
+            "distractors": [
+              "회사에서",
+              "옵니다."
+            ],
+            "source_preset_id": "come_office_formal"
+          },
+          {
+            "item_id": "a1_bg_l03_exercise_park_weekend",
+            "mastery_key": "a1_bg_l03_exercise_park_weekend",
+            "ko_surface": "주말에 공원에서 운동해요.",
+            "target_examples": [
+              "주말에 공원에서 운동해요."
+            ],
+            "target_examples_zh_tw": [
+              "週末在公園運動。"
+            ],
+            "chunks": [
+              "주말에",
+              "공원에서",
+              "운동해요."
+            ],
+            "meaning_i18n": {
+              "zh_tw": "週末在公園運動。",
+              "en": "I exercise at the park on the weekend."
+            },
+            "context_i18n": {
+              "zh_tw": "場合：聊聊早上的規律活動"
+            },
+            "prompt_i18n": {
+              "zh_tw": "請組出最自然的一句：早上在公園運動。"
+            },
+            "distractors": [
+              "공원에",
+              "있어요."
+            ],
+            "source_preset_id": "exercise_park_weekend"
+          },
+          {
+            "item_id": "a1_bg_l03_go_school_polite",
+            "mastery_key": "a1_bg_l03_go_school_polite",
+            "ko_surface": "학교에 가요.",
+            "target_examples": [
+              "학교에 가요."
+            ],
+            "target_examples_zh_tw": [
+              "去學校。"
+            ],
+            "chunks": [
+              "학교에",
+              "가요."
+            ],
+            "meaning_i18n": {
+              "zh_tw": "去學校。",
+              "en": "I'm going to school."
+            },
+            "context_i18n": {
+              "zh_tw": "場合：跟朋友說你要去的地點"
+            },
+            "prompt_i18n": {
+              "zh_tw": "請組出最自然的一句：去超市。"
+            },
+            "distractors": [
+              "학교에서",
+              "있어요."
+            ],
+            "source_preset_id": "go_school_polite"
+          },
+          {
+            "item_id": "a1_bg_l03_meet_3pm_polite",
+            "mastery_key": "a1_bg_l03_meet_3pm_polite",
+            "ko_surface": "3시에 카페에서 만나요.",
+            "target_examples": [
+              "3시에 카페에서 만나요."
+            ],
+            "target_examples_zh_tw": [
+              "3點在咖啡廳見面。"
+            ],
+            "chunks": [
+              "3시에",
+              "카페에서",
+              "만나요."
+            ],
+            "meaning_i18n": {
+              "zh_tw": "3點在咖啡廳見面。",
+              "en": "I meet my friends at the cafe at 3:00."
+            },
+            "context_i18n": {
+              "zh_tw": "場合：跟新認識的朋友相約見面時間"
+            },
+            "prompt_i18n": {
+              "zh_tw": "請組出最自然的一句：3 點見面。"
+            },
+            "distractors": [
+              "카페에",
+              "있어요."
+            ],
+            "source_preset_id": "meet_3pm_polite"
+          },
+          {
+            "item_id": "a1_bg_l03_study_school_polite",
+            "mastery_key": "a1_bg_l03_study_school_polite",
+            "ko_surface": "학교에서 공부해요.",
+            "target_examples": [
+              "학교에서 공부해요."
+            ],
+            "target_examples_zh_tw": [
+              "在學校學習。"
+            ],
+            "chunks": [
+              "학교에서",
+              "공부해요."
+            ],
+            "meaning_i18n": {
+              "zh_tw": "在學校學習。",
+              "en": "I study at school."
+            },
+            "context_i18n": {
+              "zh_tw": "場合：跟同學在圖書館門口，決定要在哪看書"
+            },
+            "prompt_i18n": {
+              "zh_tw": "請組出最自然的一句：在圖書館學習。"
+            },
+            "distractors": [
+              "학교에",
+              "가요."
+            ],
+            "source_preset_id": "study_school_polite"
+          },
+          {
+            "item_id": "a1_bg_l03_work_office_polite",
+            "mastery_key": "a1_bg_l03_work_office_polite",
+            "ko_surface": "회사에서 일해요.",
+            "target_examples": [
+              "회사에서 일해요."
+            ],
+            "target_examples_zh_tw": [
+              "在公司工作。"
+            ],
+            "chunks": [
+              "회사에서",
+              "일해요."
+            ],
+            "meaning_i18n": {
+              "zh_tw": "在公司工作。",
+              "en": "I'm working at the office."
+            },
+            "context_i18n": {
+              "zh_tw": "場合：同事問你在哪裡，你說明人在哪裡工作"
+            },
+            "prompt_i18n": {
+              "zh_tw": "請組出最自然的一句：在公司工作。"
+            },
+            "distractors": [
+              "회사에",
+              "있어요."
+            ],
+            "source_preset_id": "work_office_polite"
+          }
+        ]
+      },
+      "output_mode": "chunk_assembly"
+    },
+    {
+      "id": "A1-BG-L03-P2",
+      "content_form": "practice_card",
+      "learning_role": "controlled_output",
+      "projection_type": "flashcard_review",
+      "projection_source": {
+        "status": "merged_v1",
+        "last_generated": "P2_V1_MERGE"
+      },
+      "payload": {
+        "cards": [
+          {
+            "item_id": "a1_bg_l03_be_home_polite",
+            "mastery_key": "a1_bg_l03_be_home_polite",
+            "front_ko": "집에 있어요.",
+            "back_ko": "집에 있어요.",
+            "answer_i18n": {
+              "zh_tw": "在家。",
+              "en": "I'm at home."
+            },
+            "prompt_i18n": {
+              "zh_tw": "「在家」是一般的狀態還是正在家裡工作？",
+              "en": "Is 'at home' a static state or active work?"
+            },
+            "note_i18n": {
+              "zh_tw": "只是單純在那裡，不涉及「工作」這個動作，所以用 에。",
+              "en": "Since it's just about being there, not 'working', use 에."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "エ用來標記存在的地點（在、不在）。",
+              "en": "에 marks the location of existence (be, not be)."
+            },
+            "source_preset_id": "be_home_polite"
+          },
+          {
+            "item_id": "a1_bg_l03_buy_mart_polite",
+            "mastery_key": "a1_bg_l03_buy_mart_polite",
+            "front_ko": "마트에서 사요.",
+            "back_ko": "마트에서 사요.",
+            "answer_i18n": {
+              "zh_tw": "在超市買東西。",
+              "en": "I'm buying things at the supermarket."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "在超市買東西，強調動作場所，用 에서。",
+              "en": "Buying things at the supermarket, emphasize the location of action, use 에서."
+            },
+            "source_preset_id": "buy_mart_polite"
+          },
+          {
+            "item_id": "a1_bg_l03_come_office_formal",
+            "mastery_key": "a1_bg_l03_come_office_formal",
+            "front_ko": "회사에 옵니다.",
+            "back_ko": "회사에 옵니다.",
+            "answer_i18n": {
+              "zh_tw": "來公司。",
+              "en": "I'm coming to the office."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "正式語氣的「來某地」。",
+              "en": "Formal version of 'coming to a place'."
+            },
+            "source_preset_id": "come_office_formal"
+          },
+          {
+            "item_id": "a1_bg_l03_exercise_park_weekend",
+            "mastery_key": "a1_bg_l03_exercise_park_weekend",
+            "front_ko": "주말에 공원에서 운동해요.",
+            "back_ko": "주말에 공원에서 운동해요.",
+            "answer_i18n": {
+              "zh_tw": "週末在公園運動。",
+              "en": "I exercise at the park on the weekend."
+            },
+            "prompt_i18n": {
+              "zh_tw": "觀察時間標記：週末要加什麼助詞？",
+              "en": "Focus on time marking: Which particle for 'weekend'?"
+            },
+            "note_i18n": {
+              "zh_tw": "週末被視為一個時間座標，使用 에。",
+              "en": "The weekend is treated as a time coordinate, using 에."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "表示週末在某個場地活動。",
+              "en": "Indicates activity at a location during the weekend."
+            },
+            "source_preset_id": "exercise_park_weekend"
+          },
+          {
+            "item_id": "a1_bg_l03_go_school_polite",
+            "mastery_key": "a1_bg_l03_go_school_polite",
+            "front_ko": "학교에 가요.",
+            "back_ko": "학교에 가요.",
+            "answer_i18n": {
+              "zh_tw": "去學校。",
+              "en": "I'm going to school."
+            },
+            "prompt_i18n": {
+              "zh_tw": "觀察助詞 에：這是目的地還是動作地點？",
+              "en": "Focus on 에: Destination or action site?"
+            },
+            "note_i18n": {
+              "zh_tw": "用助詞 에 來標記你要移動到的目的地。",
+              "en": "Use the 에 particle to mark where you are heading."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "エ用來標記移動的目的地（去、來）。",
+              "en": "에 marks the destination for motion verbs (go, come)."
+            },
+            "source_preset_id": "go_school_polite"
+          },
+          {
+            "item_id": "a1_bg_l03_meet_3pm_polite",
+            "mastery_key": "a1_bg_l03_meet_3pm_polite",
+            "front_ko": "3시에 카페에서 만나요.",
+            "back_ko": "3시에 카페에서 만나요.",
+            "answer_i18n": {
+              "zh_tw": "3點在咖啡廳見面。",
+              "en": "I meet my friends at the cafe at 3:00."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "結合了時間標籤 에 和動作場所 에서。",
+              "en": "Combines time marker 에 with action location marker 에서."
+            },
+            "source_preset_id": "meet_3pm_polite"
+          },
+          {
+            "item_id": "a1_bg_l03_study_school_polite",
+            "mastery_key": "a1_bg_l03_study_school_polite",
+            "front_ko": "학교에서 공부해요.",
+            "back_ko": "학교에서 공부해요.",
+            "answer_i18n": {
+              "zh_tw": "在學校學習。",
+              "en": "I study at school."
+            },
+            "prompt_i18n": {
+              "zh_tw": "這是在描述「在那裡做某事」嗎？",
+              "en": "Is this describing 'doing something there'?"
+            },
+            "note_i18n": {
+              "zh_tw": "在那裡進行具體活動時，助詞要換成 에서。",
+              "en": "When an action happens there, upgrade the particle to 에서."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "에서 用來標記動作發生的場所。",
+              "en": "에서 marks the location where an action is happening."
+            },
+            "source_preset_id": "study_school_polite"
+          },
+          {
+            "item_id": "a1_bg_l03_work_office_polite",
+            "mastery_key": "a1_bg_l03_work_office_polite",
+            "front_ko": "회사에서 일해요.",
+            "back_ko": "회사에서 일해요.",
+            "answer_i18n": {
+              "zh_tw": "在公司工作。",
+              "en": "I'm working at the office."
+            },
+            "usage_note_i18n": {
+              "zh_tw": "在公司工作，強調動作場所，用 에서。",
+              "en": "Working at the office, emphasize the location of action, use 에서."
+            },
+            "source_preset_id": "work_office_polite"
+          },
+          {
+            "item_id": "legacy_hand_authored_only",
+            "source": "hand_authored_override",
+            "front_ko": "어디에서 만나야 해요?",
+            "answer_i18n": {
+              "zh_tw": "要在哪裡見面？",
+              "en": "Where should we meet?"
+            },
+            "note_i18n": {
+              "zh_tw": "詢問「見面」這個活動的地點，用 에서。",
+              "en": "Asking for the location of the 'meeting' activity, use 에서."
+            }
+          }
+        ]
+      },
+      "output_mode": "flashcard_review"
+    },
+    {
+      "id": "A1-BG-L03-R1",
+      "candidate_type": "lesson",
+      "content_form": "review_card",
+      "learning_role": "review_retrieval",
+      "payload": {
+        "prompts_i18n": [
+          {
+            "zh_tw": "這節課學到了哪兩個重要的場所助詞？它們差在哪？",
+            "en": "Which two location particles did we learn? What's the difference?"
+          },
+          {
+            "zh_tw": "如果要約「週末」或「早上」，後面要加什麼助詞？",
+            "en": "If you are meeting 'on the weekend' or 'in the morning', which particle do you add?"
+          },
+          {
+            "zh_tw": "請試著說出「去公司 (회사)」與「在公司工作 (일하다)」用的助詞差別。",
+            "en": "Try to explain the difference between 'going to the office (회사)' and 'working (일하다) at the office'."
+          },
+          {
+            "zh_tw": "「超市 (마트) 在這」跟「在超市買東西」，韓文助詞一樣嗎？",
+            "en": "Is the particle same for 'mart (마트) is here' and 'buying things at the mart'?"
+          }
+        ]
+      },
+      "adapter_hints": {
+        "content_renderer_key": "review_card",
+        "interaction_renderer_key": "review_retrieval"
+      },
+      "title_i18n": {
+        "zh_tw": "R1 課程小結：你能解釋了嗎？",
+        "en": "R1 Wrap-Up: Can you explain it?"
+      },
+      "output_mode": "review_retrieval"
+    }
+  ]
+}

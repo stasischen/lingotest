@@ -1,0 +1,329 @@
+{
+  "schema_version": "reigns_coverage_matrix.v1",
+  "matrix_id": "ko.a1.reigns.coverage.seed.v1",
+  "level": "A1",
+  "target_event_count": 100,
+  "status": "seed",
+  "event_buckets": [
+    {
+      "bucket_id": "a1.schedule_plans",
+      "title": "Schedules, Plans, And Appointments",
+      "event_count": 10,
+      "scene_tags": ["schedule", "time", "appointment", "plans"],
+      "primary_targets": [
+        "ko:pattern:a1.schedule_time",
+        "ko:grammar:a1.future_intention",
+        "ko:vocab:a1.time_schedule"
+      ],
+      "notes": "Make, confirm, and adjust simple plans with time expressions."
+    },
+    {
+      "bucket_id": "a1.food_preferences",
+      "title": "Food Preferences And Restaurant Choices",
+      "event_count": 10,
+      "scene_tags": ["food", "restaurant", "preference"],
+      "primary_targets": [
+        "ko:pattern:a1.preference",
+        "ko:grammar:a1.object_particle",
+        "ko:vocab:a1.food_preferences"
+      ],
+      "notes": "Say likes, dislikes, menu preferences, and simple dietary choices."
+    },
+    {
+      "bucket_id": "a1.shopping_comparison",
+      "title": "Shopping, Size, And Comparison",
+      "event_count": 10,
+      "scene_tags": ["shopping", "comparison", "price"],
+      "primary_targets": [
+        "ko:pattern:a1.comparison_choice",
+        "ko:grammar:a1.descriptive_adjectives",
+        "ko:vocab:a1.shopping"
+      ],
+      "notes": "Choose cheaper, bigger, smaller, more suitable items."
+    },
+    {
+      "bucket_id": "a1.transport_navigation",
+      "title": "Transportation And Navigation",
+      "event_count": 10,
+      "scene_tags": ["transportation", "directions", "ticket"],
+      "primary_targets": [
+        "ko:pattern:a1.transport_destination",
+        "ko:grammar:a1.from_to_particles",
+        "ko:vocab:a1.transportation"
+      ],
+      "notes": "Ask routes, destination, tickets, transfer, and arrival time."
+    },
+    {
+      "bucket_id": "a1.past_experience",
+      "title": "Past Experience And Simple Reports",
+      "event_count": 10,
+      "scene_tags": ["yesterday", "experience", "reporting"],
+      "primary_targets": [
+        "ko:grammar:a1.past_tense",
+        "ko:pattern:a1.did_activity",
+        "ko:vocab:a1.daily_activities"
+      ],
+      "notes": "Say what happened yesterday or earlier today in simple form."
+    },
+    {
+      "bucket_id": "a1.invitation_accept_decline",
+      "title": "Invitations, Accepting, And Declining",
+      "event_count": 10,
+      "scene_tags": ["invitation", "accept_decline", "politeness"],
+      "primary_targets": [
+        "ko:pattern:a1.invitation",
+        "ko:pattern:a1.polite_decline",
+        "ko:grammar:a1.future_intention"
+      ],
+      "notes": "Invite someone, accept, decline politely, suggest another time."
+    },
+    {
+      "bucket_id": "a1.requests_favors",
+      "title": "Requests And Small Favors",
+      "event_count": 10,
+      "scene_tags": ["request", "favor", "help"],
+      "primary_targets": [
+        "ko:pattern:a1.can_you_help",
+        "ko:grammar:a1.request_can_you",
+        "ko:vocab:a1.favors"
+      ],
+      "notes": "Ask someone to help, lend, wait, call, show, or write something."
+    },
+    {
+      "bucket_id": "a1.health_feelings",
+      "title": "Health, Feelings, And Condition",
+      "event_count": 10,
+      "scene_tags": ["health", "feelings", "condition"],
+      "primary_targets": [
+        "ko:pattern:a1.feel_sick",
+        "ko:grammar:a1.descriptive_adjectives",
+        "ko:vocab:a1.health_feelings"
+      ],
+      "notes": "Say tired, sick, okay, hungry, cold, hot, and choose safe responses."
+    },
+    {
+      "bucket_id": "a1.school_work_routines",
+      "title": "School, Work, And Routines",
+      "event_count": 10,
+      "scene_tags": ["routine", "school", "work"],
+      "primary_targets": [
+        "ko:pattern:a1.routine_frequency",
+        "ko:grammar:a1.frequency_adverbs",
+        "ko:vocab:a1.routines"
+      ],
+      "notes": "Talk about weekly routines, study, work, and repeated activities."
+    },
+    {
+      "bucket_id": "a1.travel_accommodation",
+      "title": "Travel And Accommodation",
+      "event_count": 10,
+      "scene_tags": ["travel", "hotel", "service"],
+      "primary_targets": [
+        "ko:pattern:a1.reservation_check",
+        "ko:grammar:a1.from_to_particles",
+        "ko:vocab:a1.travel_service"
+      ],
+      "notes": "Check reservations, ask for service, confirm destination and dates."
+    }
+  ],
+  "coverage_targets": [
+    {
+      "target_id": "ko:pattern:a1.schedule_time",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["schedule", "time", "appointment"],
+      "covered_by": ["ko.a1.reigns.appointment_time.001"]
+    },
+    {
+      "target_id": "ko:pattern:a1.preference",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["food", "shopping", "preference"],
+      "covered_by": ["ko.a1.reigns.food_preference.001"]
+    },
+    {
+      "target_id": "ko:pattern:a1.comparison_choice",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["shopping", "comparison"],
+      "covered_by": ["ko.a1.reigns.shopping_size.001"]
+    },
+    {
+      "target_id": "ko:pattern:a1.transport_destination",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["transportation", "directions"],
+      "covered_by": ["ko.a1.reigns.transport_destination.001"]
+    },
+    {
+      "target_id": "ko:pattern:a1.did_activity",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["past", "experience", "reporting"],
+      "covered_by": ["ko.a1.reigns.past_movie.001"]
+    },
+    {
+      "target_id": "ko:pattern:a1.invitation",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["invitation", "plans"],
+      "covered_by": []
+    },
+    {
+      "target_id": "ko:pattern:a1.polite_decline",
+      "kind": "pattern",
+      "required_event_count": 6,
+      "scene_tags": ["accept_decline", "politeness"],
+      "covered_by": ["ko.a1.reigns.polite_decline.001"]
+    },
+    {
+      "target_id": "ko:pattern:a1.can_you_help",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["request", "favor", "help"],
+      "covered_by": ["ko.a1.reigns.photo_favor.001"]
+    },
+    {
+      "target_id": "ko:pattern:a1.feel_sick",
+      "kind": "pattern",
+      "required_event_count": 6,
+      "scene_tags": ["health", "condition"],
+      "covered_by": ["ko.a1.reigns.health_headache.001"]
+    },
+    {
+      "target_id": "ko:pattern:a1.routine_frequency",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["routine", "frequency"],
+      "covered_by": ["ko.a1.reigns.routine_exercise.001"]
+    },
+    {
+      "target_id": "ko:pattern:a1.reservation_check",
+      "kind": "pattern",
+      "required_event_count": 6,
+      "scene_tags": ["travel", "hotel", "service"],
+      "covered_by": ["ko.a1.reigns.hotel_reservation.001"]
+    },
+    {
+      "target_id": "ko:grammar:a1.future_intention",
+      "kind": "grammar",
+      "required_event_count": 12,
+      "scene_tags": ["plans", "future", "schedule"],
+      "covered_by": ["ko.a1.reigns.appointment_time.001"]
+    },
+    {
+      "target_id": "ko:grammar:a1.object_particle",
+      "kind": "grammar",
+      "required_event_count": 10,
+      "scene_tags": ["food", "shopping", "preference"],
+      "covered_by": ["ko.a1.reigns.food_preference.001"]
+    },
+    {
+      "target_id": "ko:grammar:a1.descriptive_adjectives",
+      "kind": "grammar",
+      "required_event_count": 14,
+      "scene_tags": ["comparison", "condition", "feelings"],
+      "covered_by": [
+        "ko.a1.reigns.shopping_size.001",
+        "ko.a1.reigns.health_headache.001"
+      ]
+    },
+    {
+      "target_id": "ko:grammar:a1.from_to_particles",
+      "kind": "grammar",
+      "required_event_count": 12,
+      "scene_tags": ["transportation", "travel", "directions"],
+      "covered_by": ["ko.a1.reigns.transport_destination.001"]
+    },
+    {
+      "target_id": "ko:grammar:a1.past_tense",
+      "kind": "grammar",
+      "required_event_count": 12,
+      "scene_tags": ["past", "experience", "reporting"],
+      "covered_by": [
+        "ko.a1.reigns.past_movie.001",
+        "ko.a1.reigns.hotel_reservation.001"
+      ]
+    },
+    {
+      "target_id": "ko:grammar:a1.request_can_you",
+      "kind": "grammar",
+      "required_event_count": 8,
+      "scene_tags": ["request", "favor"],
+      "covered_by": ["ko.a1.reigns.photo_favor.001"]
+    },
+    {
+      "target_id": "ko:grammar:a1.frequency_adverbs",
+      "kind": "grammar",
+      "required_event_count": 8,
+      "scene_tags": ["routine", "frequency"],
+      "covered_by": ["ko.a1.reigns.routine_exercise.001"]
+    },
+    {
+      "target_id": "ko:vocab:a1.time_schedule",
+      "kind": "vocab_set",
+      "required_event_count": 10,
+      "scene_tags": ["time", "schedule"],
+      "covered_by": ["ko.a1.reigns.appointment_time.001"]
+    },
+    {
+      "target_id": "ko:vocab:a1.food_preferences",
+      "kind": "vocab_set",
+      "required_event_count": 10,
+      "scene_tags": ["food", "preference"],
+      "covered_by": ["ko.a1.reigns.food_preference.001"]
+    },
+    {
+      "target_id": "ko:vocab:a1.shopping",
+      "kind": "vocab_set",
+      "required_event_count": 10,
+      "scene_tags": ["shopping", "comparison"],
+      "covered_by": ["ko.a1.reigns.shopping_size.001"]
+    },
+    {
+      "target_id": "ko:vocab:a1.transportation",
+      "kind": "vocab_set",
+      "required_event_count": 10,
+      "scene_tags": ["transportation", "ticket"],
+      "covered_by": ["ko.a1.reigns.transport_destination.001"]
+    },
+    {
+      "target_id": "ko:vocab:a1.daily_activities",
+      "kind": "vocab_set",
+      "required_event_count": 10,
+      "scene_tags": ["routine", "past", "activity"],
+      "covered_by": [
+        "ko.a1.reigns.past_movie.001",
+        "ko.a1.reigns.routine_exercise.001"
+      ]
+    },
+    {
+      "target_id": "ko:vocab:a1.favors",
+      "kind": "vocab_set",
+      "required_event_count": 8,
+      "scene_tags": ["request", "favor"],
+      "covered_by": ["ko.a1.reigns.photo_favor.001"]
+    },
+    {
+      "target_id": "ko:vocab:a1.health_feelings",
+      "kind": "vocab_set",
+      "required_event_count": 8,
+      "scene_tags": ["health", "feelings"],
+      "covered_by": ["ko.a1.reigns.health_headache.001"]
+    },
+    {
+      "target_id": "ko:vocab:a1.routines",
+      "kind": "vocab_set",
+      "required_event_count": 8,
+      "scene_tags": ["routine", "school", "work"],
+      "covered_by": ["ko.a1.reigns.routine_exercise.001"]
+    },
+    {
+      "target_id": "ko:vocab:a1.travel_service",
+      "kind": "vocab_set",
+      "required_event_count": 8,
+      "scene_tags": ["travel", "hotel", "service"],
+      "covered_by": ["ko.a1.reigns.hotel_reservation.001"]
+    }
+  ]
+}

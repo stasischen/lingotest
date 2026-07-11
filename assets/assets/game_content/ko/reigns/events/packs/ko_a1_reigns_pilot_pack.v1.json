@@ -1,0 +1,630 @@
+{
+  "schema_version": "reigns_event_pack.v1",
+  "pack_id": "ko.a1.reigns.pilot.v1",
+  "status": "draft",
+  "target_lang": "ko",
+  "support_lang": "zh_tw",
+  "level": "A1",
+  "events": [
+    {
+      "event_id": "ko.a1.reigns.appointment_time.001",
+      "level": "A1",
+      "scene_type": "appointment_time",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "同學想約你明天一起讀韓文，你需要確認時間。",
+        "en": "A classmate wants to study Korean with you tomorrow, and you need to confirm the time."
+      },
+      "npc_speaker_id": "classmate",
+      "npc_utterance": {
+        "ko": "내일 만날까요?",
+        "zh_tw": "明天要見面嗎？",
+        "en": "Shall we meet tomorrow?"
+      },
+      "choices": [
+        {
+          "choice_id": "confirm_three_pm",
+          "text": {
+            "ko": "세 시에 만날 거예요.",
+            "zh_tw": "三點見。",
+            "en": "I will meet at three."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "同學把三點記在行事曆裡。",
+            "en": "The classmate writes three o'clock in the calendar."
+          },
+          "pal_tip": {
+            "zh_tw": "A1 可以開始用「-ㄹ 거예요」說接下來的安排。",
+            "en": "At A1, you can use -ㄹ 거예요 to state a coming plan."
+          }
+        },
+        {
+          "choice_id": "past_time_mismatch",
+          "text": {
+            "ko": "어제 만났어요.",
+            "zh_tw": "昨天見面了。",
+            "en": "We met yesterday."
+          },
+          "result": "error",
+          "error_type": "tense_mismatch",
+          "reaction": {
+            "zh_tw": "同學以為你在說過去的事，沒有得到明天的時間。",
+            "en": "The classmate thinks you are talking about the past and does not get tomorrow's time."
+          },
+          "pal_tip": {
+            "zh_tw": "約明天是未來安排，用「만날 거예요」比過去式自然。",
+            "en": "For tomorrow's plan, 만날 거예요 is more natural than a past-tense sentence."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:내일", "ko:vocab:세 시", "ko:vocab:만나다"],
+        "grammar": ["ko:grammar:a1.future_intention"],
+        "patterns": ["ko:pattern:a1.schedule_time"],
+        "scene_tags": ["schedule", "time", "appointment", "plans", "future"]
+      },
+      "tags": ["survival", "schedule", "two_choice"],
+      "prerequisites": []
+    },
+    {
+      "event_id": "ko.a1.reigns.food_preference.001",
+      "level": "A1",
+      "scene_type": "food_preference",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "朋友問你午餐想吃什麼，你想表達自己的偏好。",
+        "en": "A friend asks what you want for lunch, and you want to express your preference."
+      },
+      "npc_speaker_id": "friend",
+      "npc_utterance": {
+        "ko": "뭐 먹고 싶어요?",
+        "zh_tw": "想吃什麼？",
+        "en": "What do you want to eat?"
+      },
+      "choices": [
+        {
+          "choice_id": "say_bibimbap_like",
+          "text": {
+            "ko": "비빔밥을 좋아해요.",
+            "zh_tw": "我喜歡拌飯。",
+            "en": "I like bibimbap."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "朋友說附近有一家拌飯店。",
+            "en": "Your friend says there is a bibimbap place nearby."
+          },
+          "pal_tip": {
+            "zh_tw": "「名詞 + 을/를 좋아해요」是 A1 表達偏好的核心句型。",
+            "en": "Noun + 을/를 좋아해요 is a core A1 pattern for preferences."
+          }
+        },
+        {
+          "choice_id": "say_price_food_mismatch",
+          "text": {
+            "ko": "비빔밥이 얼마예요?",
+            "zh_tw": "拌飯多少錢？",
+            "en": "How much is bibimbap?"
+          },
+          "result": "error",
+          "error_type": "intent_mismatch",
+          "reaction": {
+            "zh_tw": "朋友以為你在問價格，還是不知道你想吃什麼。",
+            "en": "Your friend thinks you are asking the price and still does not know what you want."
+          },
+          "pal_tip": {
+            "zh_tw": "對方問偏好時，用「좋아해요」比問價格更符合情境。",
+            "en": "When asked about preference, 좋아해요 fits better than asking price."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:비빔밥", "ko:vocab:먹다", "ko:vocab:좋아하다"],
+        "grammar": ["ko:grammar:a1.object_particle"],
+        "patterns": ["ko:pattern:a1.preference"],
+        "scene_tags": ["food", "preference", "restaurant"]
+      },
+      "tags": ["survival", "food", "two_choice"],
+      "prerequisites": ["ko.a1.reigns.appointment_time.001"]
+    },
+    {
+      "event_id": "ko.a1.reigns.shopping_size.001",
+      "level": "A1",
+      "scene_type": "shopping_size_compare",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "你試穿一件外套，但尺寸有點大，想請店員拿小一點的。",
+        "en": "You try on a jacket, but it is a little big, and you want a smaller one."
+      },
+      "npc_speaker_id": "clerk",
+      "npc_utterance": {
+        "ko": "사이즈 괜찮으세요?",
+        "zh_tw": "尺寸可以嗎？",
+        "en": "Is the size okay?"
+      },
+      "choices": [
+        {
+          "choice_id": "ask_smaller_one",
+          "text": {
+            "ko": "더 작은 거 있어요?",
+            "zh_tw": "有更小的嗎？",
+            "en": "Do you have a smaller one?"
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "店員拿來小一號的外套。",
+            "en": "The clerk brings a smaller jacket."
+          },
+          "pal_tip": {
+            "zh_tw": "比較尺寸時，「더 작은 거」很實用，意思是更小的那個。",
+            "en": "For size comparison, 더 작은 거 is useful: the smaller one."
+          }
+        },
+        {
+          "choice_id": "say_like_only",
+          "text": {
+            "ko": "이거 좋아해요.",
+            "zh_tw": "我喜歡這個。",
+            "en": "I like this."
+          },
+          "result": "error",
+          "error_type": "missing_comparison",
+          "reaction": {
+            "zh_tw": "店員以為你喜歡這件，沒有換尺寸。",
+            "en": "The clerk thinks you like this one and does not change the size."
+          },
+          "pal_tip": {
+            "zh_tw": "如果問題是大小，要說「더 작은 거」或「더 큰 거」。",
+            "en": "If the issue is size, say 더 작은 거 or 더 큰 거."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:사이즈", "ko:vocab:작다", "ko:vocab:옷"],
+        "grammar": ["ko:grammar:a1.descriptive_adjectives"],
+        "patterns": ["ko:pattern:a1.comparison_choice"],
+        "scene_tags": ["shopping", "comparison", "size"]
+      },
+      "tags": ["survival", "shopping", "two_choice"],
+      "prerequisites": ["ko.a1.reigns.food_preference.001"]
+    },
+    {
+      "event_id": "ko.a1.reigns.transport_destination.001",
+      "level": "A1",
+      "scene_type": "transportation_route",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "你想搭車從首爾站到弘大，正在向站務人員確認路線。",
+        "en": "You want to travel from Seoul Station to Hongdae and are checking the route with station staff."
+      },
+      "npc_speaker_id": "station_staff",
+      "npc_utterance": {
+        "ko": "어디까지 가세요?",
+        "zh_tw": "您要到哪裡？",
+        "en": "How far are you going?"
+      },
+      "choices": [
+        {
+          "choice_id": "from_seoul_to_hongdae",
+          "text": {
+            "ko": "서울역에서 홍대까지 가요.",
+            "zh_tw": "從首爾站到弘大。",
+            "en": "I go from Seoul Station to Hongdae."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "站務人員告訴你要搭哪一線。",
+            "en": "The station staff tells you which line to take."
+          },
+          "pal_tip": {
+            "zh_tw": "「에서」標起點，「까지」標終點。A1 交通情境很常用。",
+            "en": "에서 marks the start, and 까지 marks the endpoint. This is common in A1 transport scenes."
+          }
+        },
+        {
+          "choice_id": "only_hongdae_missing_start",
+          "text": {
+            "ko": "홍대가 좋아요.",
+            "zh_tw": "弘大很好。",
+            "en": "Hongdae is good."
+          },
+          "result": "error",
+          "error_type": "missing_route",
+          "reaction": {
+            "zh_tw": "站務人員知道地點，但還不清楚你的路線。",
+            "en": "The staff knows the place, but not your route."
+          },
+          "pal_tip": {
+            "zh_tw": "確認路線時，把起點和終點一起說清楚。",
+            "en": "When checking a route, state both starting point and destination."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:서울역", "ko:vocab:홍대", "ko:vocab:가다"],
+        "grammar": ["ko:grammar:a1.from_to_particles"],
+        "patterns": ["ko:pattern:a1.transport_destination"],
+        "scene_tags": ["transportation", "directions", "travel"]
+      },
+      "tags": ["survival", "transportation", "two_choice"],
+      "prerequisites": ["ko.a1.reigns.shopping_size.001"]
+    },
+    {
+      "event_id": "ko.a1.reigns.past_movie.001",
+      "level": "A1",
+      "scene_type": "past_experience_report",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "朋友問你昨天做了什麼，你想用一句話回答。",
+        "en": "A friend asks what you did yesterday, and you want to answer in one sentence."
+      },
+      "npc_speaker_id": "friend",
+      "npc_utterance": {
+        "ko": "어제 뭐 했어요?",
+        "zh_tw": "昨天做了什麼？",
+        "en": "What did you do yesterday?"
+      },
+      "choices": [
+        {
+          "choice_id": "watched_movie_past",
+          "text": {
+            "ko": "영화를 봤어요.",
+            "zh_tw": "看了電影。",
+            "en": "I watched a movie."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "朋友接著問你電影好不好看。",
+            "en": "Your friend asks whether the movie was good."
+          },
+          "pal_tip": {
+            "zh_tw": "回答昨天的事，要用過去式。A1 常見形是「봤어요」。",
+            "en": "For yesterday, use past tense. A common A1 form is 봤어요."
+          }
+        },
+        {
+          "choice_id": "movie_future_mismatch",
+          "text": {
+            "ko": "영화를 볼 거예요.",
+            "zh_tw": "我要看電影。",
+            "en": "I will watch a movie."
+          },
+          "result": "error",
+          "error_type": "tense_mismatch",
+          "reaction": {
+            "zh_tw": "朋友以為你在說之後的計畫。",
+            "en": "Your friend thinks you are talking about a future plan."
+          },
+          "pal_tip": {
+            "zh_tw": "「어제」是昨天，所以要選過去式，不是未來式。",
+            "en": "어제 means yesterday, so choose past tense, not future tense."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:어제", "ko:vocab:영화", "ko:vocab:보다"],
+        "grammar": ["ko:grammar:a1.past_tense"],
+        "patterns": ["ko:pattern:a1.did_activity"],
+        "scene_tags": ["past", "experience", "reporting", "activity"]
+      },
+      "tags": ["survival", "past", "two_choice"],
+      "prerequisites": ["ko.a1.reigns.transport_destination.001"]
+    },
+    {
+      "event_id": "ko.a1.reigns.polite_decline.001",
+      "level": "A1",
+      "scene_type": "accept_decline_invitation",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "同學邀你今天晚上去咖啡店，但你今天不方便。",
+        "en": "A classmate invites you to a cafe tonight, but you are not available today."
+      },
+      "npc_speaker_id": "classmate",
+      "npc_utterance": {
+        "ko": "오늘 카페 갈까요?",
+        "zh_tw": "今天要去咖啡店嗎？",
+        "en": "Shall we go to a cafe today?"
+      },
+      "choices": [
+        {
+          "choice_id": "decline_today",
+          "text": {
+            "ko": "미안해요, 오늘은 못 가요.",
+            "zh_tw": "不好意思，今天不能去。",
+            "en": "Sorry, I cannot go today."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "同學點頭，說下次再約。",
+            "en": "The classmate nods and says maybe next time."
+          },
+          "pal_tip": {
+            "zh_tw": "拒絕邀請時，先用「미안해요」再說不能去，語氣比較安全。",
+            "en": "When declining, start with 미안해요 and then say you cannot go."
+          }
+        },
+        {
+          "choice_id": "say_like_cafe",
+          "text": {
+            "ko": "카페를 좋아해요.",
+            "zh_tw": "我喜歡咖啡店。",
+            "en": "I like cafes."
+          },
+          "result": "error",
+          "error_type": "missing_decline",
+          "reaction": {
+            "zh_tw": "同學以為你想去，開始查咖啡店。",
+            "en": "The classmate thinks you want to go and starts searching for cafes."
+          },
+          "pal_tip": {
+            "zh_tw": "喜歡咖啡店不等於答應或拒絕。不能去時要說「못 가요」。",
+            "en": "Liking cafes is not accepting or declining. If you cannot go, say 못 가요."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:미안해요", "ko:vocab:오늘", "ko:vocab:못 가요"],
+        "grammar": [],
+        "patterns": ["ko:pattern:a1.polite_decline"],
+        "scene_tags": ["accept_decline", "politeness", "plans"]
+      },
+      "tags": ["survival", "politeness", "two_choice"],
+      "prerequisites": ["ko.a1.reigns.past_movie.001"]
+    },
+    {
+      "event_id": "ko.a1.reigns.photo_favor.001",
+      "level": "A1",
+      "scene_type": "small_favor_photo",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "你在景點想請路人幫你拍一張照片。",
+        "en": "At a sightseeing spot, you want to ask someone to take a photo for you."
+      },
+      "npc_speaker_id": "passerby",
+      "npc_utterance": {
+        "ko": "네?",
+        "zh_tw": "嗯？",
+        "en": "Yes?"
+      },
+      "choices": [
+        {
+          "choice_id": "ask_take_photo",
+          "text": {
+            "ko": "사진 좀 찍어 줄 수 있어요?",
+            "zh_tw": "可以幫我拍照嗎？",
+            "en": "Could you take a photo for me?"
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "路人接過手機，幫你拍了一張照片。",
+            "en": "The passerby takes your phone and snaps a photo."
+          },
+          "pal_tip": {
+            "zh_tw": "請人幫小忙時，「___ 줄 수 있어요?」比命令句安全。",
+            "en": "For a small favor, ___ 줄 수 있어요? is safer than an imperative."
+          }
+        },
+        {
+          "choice_id": "photo_statement_only",
+          "text": {
+            "ko": "사진이 좋아요.",
+            "zh_tw": "照片很好。",
+            "en": "Photos are good."
+          },
+          "result": "error",
+          "error_type": "missing_request",
+          "reaction": {
+            "zh_tw": "路人不知道你需要他做什麼。",
+            "en": "The passerby does not know what you need them to do."
+          },
+          "pal_tip": {
+            "zh_tw": "要請人動作，句子裡要有「줄 수 있어요?」。",
+            "en": "To ask someone to act, include 줄 수 있어요?"
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:사진", "ko:vocab:찍다", "ko:vocab:도와주다"],
+        "grammar": ["ko:grammar:a1.request_can_you"],
+        "patterns": ["ko:pattern:a1.can_you_help"],
+        "scene_tags": ["request", "favor", "help", "travel"]
+      },
+      "tags": ["survival", "favor", "two_choice"],
+      "prerequisites": ["ko.a1.reigns.polite_decline.001"]
+    },
+    {
+      "event_id": "ko.a1.reigns.health_headache.001",
+      "level": "A1",
+      "scene_type": "health_condition",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "上課中你覺得頭痛，老師注意到你不太舒服。",
+        "en": "During class, you have a headache, and the teacher notices you do not look well."
+      },
+      "npc_speaker_id": "teacher",
+      "npc_utterance": {
+        "ko": "괜찮아요?",
+        "zh_tw": "還好嗎？",
+        "en": "Are you okay?"
+      },
+      "choices": [
+        {
+          "choice_id": "say_head_hurts",
+          "text": {
+            "ko": "머리가 아파요.",
+            "zh_tw": "我頭痛。",
+            "en": "My head hurts."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "老師讓你先休息一下。",
+            "en": "The teacher lets you rest for a moment."
+          },
+          "pal_tip": {
+            "zh_tw": "說身體狀況時，「머리가 아파요」是 A1 很實用的句子。",
+            "en": "For physical condition, 머리가 아파요 is a useful A1 sentence."
+          }
+        },
+        {
+          "choice_id": "say_busy_mismatch",
+          "text": {
+            "ko": "바빠요.",
+            "zh_tw": "我很忙。",
+            "en": "I am busy."
+          },
+          "result": "error",
+          "error_type": "condition_mismatch",
+          "reaction": {
+            "zh_tw": "老師知道你忙，但不知道你不舒服。",
+            "en": "The teacher knows you are busy but not that you feel sick."
+          },
+          "pal_tip": {
+            "zh_tw": "不舒服時要說身體部位加「아파요」，不要只說忙。",
+            "en": "When sick, use a body part plus 아파요, not just busy."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:머리", "ko:vocab:아프다", "ko:vocab:괜찮아요"],
+        "grammar": ["ko:grammar:a1.descriptive_adjectives"],
+        "patterns": ["ko:pattern:a1.feel_sick"],
+        "scene_tags": ["health", "condition", "feelings"]
+      },
+      "tags": ["survival", "health", "two_choice"],
+      "prerequisites": ["ko.a1.reigns.photo_favor.001"]
+    },
+    {
+      "event_id": "ko.a1.reigns.routine_exercise.001",
+      "level": "A1",
+      "scene_type": "routine_frequency",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "朋友問你平常做什麼運動，你想回答自己的習慣。",
+        "en": "A friend asks what exercise you usually do, and you want to answer with your routine."
+      },
+      "npc_speaker_id": "friend",
+      "npc_utterance": {
+        "ko": "운동 자주 해요?",
+        "zh_tw": "常運動嗎？",
+        "en": "Do you exercise often?"
+      },
+      "choices": [
+        {
+          "choice_id": "say_daily_exercise",
+          "text": {
+            "ko": "매일 운동해요.",
+            "zh_tw": "我每天運動。",
+            "en": "I exercise every day."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "朋友說你很有規律。",
+            "en": "Your friend says you are consistent."
+          },
+          "pal_tip": {
+            "zh_tw": "描述習慣時，把頻率副詞放前面：「매일 운동해요」。",
+            "en": "For routines, put the frequency word first: 매일 운동해요."
+          }
+        },
+        {
+          "choice_id": "exercise_past_only",
+          "text": {
+            "ko": "어제 운동했어요.",
+            "zh_tw": "我昨天運動了。",
+            "en": "I exercised yesterday."
+          },
+          "result": "error",
+          "error_type": "routine_vs_single_event",
+          "reaction": {
+            "zh_tw": "朋友知道昨天的事，但還不知道你的平常習慣。",
+            "en": "Your friend knows about yesterday, but not your usual routine."
+          },
+          "pal_tip": {
+            "zh_tw": "問「자주」是在問頻率。回答時用「매일、가끔」這類詞。",
+            "en": "자주 asks frequency. Answer with words like 매일 or 가끔."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:매일", "ko:vocab:운동", "ko:vocab:자주"],
+        "grammar": ["ko:grammar:a1.frequency_adverbs"],
+        "patterns": ["ko:pattern:a1.routine_frequency"],
+        "scene_tags": ["routine", "frequency", "school", "work"]
+      },
+      "tags": ["survival", "routine", "two_choice"],
+      "prerequisites": ["ko.a1.reigns.health_headache.001"]
+    },
+    {
+      "event_id": "ko.a1.reigns.hotel_reservation.001",
+      "level": "A1",
+      "scene_type": "hotel_reservation_check",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "你到飯店櫃台，想確認自己的訂房。",
+        "en": "You arrive at a hotel counter and want to confirm your reservation."
+      },
+      "npc_speaker_id": "hotel_staff",
+      "npc_utterance": {
+        "ko": "예약하셨어요?",
+        "zh_tw": "有訂位嗎？",
+        "en": "Do you have a reservation?"
+      },
+      "choices": [
+        {
+          "choice_id": "say_reserved",
+          "text": {
+            "ko": "네, 예약했어요.",
+            "zh_tw": "有，我預訂了。",
+            "en": "Yes, I made a reservation."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "櫃台人員開始查你的名字。",
+            "en": "The hotel staff starts looking up your name."
+          },
+          "pal_tip": {
+            "zh_tw": "到飯店或餐廳確認預約時，「예약했어요」很常用。",
+            "en": "At hotels or restaurants, 예약했어요 is common for confirming a reservation."
+          }
+        },
+        {
+          "choice_id": "ask_like_hotel",
+          "text": {
+            "ko": "호텔을 좋아해요.",
+            "zh_tw": "我喜歡飯店。",
+            "en": "I like hotels."
+          },
+          "result": "error",
+          "error_type": "missing_reservation_answer",
+          "reaction": {
+            "zh_tw": "櫃台人員還是不知道你有沒有預訂。",
+            "en": "The staff still does not know whether you have a reservation."
+          },
+          "pal_tip": {
+            "zh_tw": "對方問有沒有預約時，回答「예약했어요」或「예약 안 했어요」。",
+            "en": "When asked about a reservation, answer 예약했어요 or 예약 안 했어요."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:호텔", "ko:vocab:예약", "ko:vocab:이름"],
+        "grammar": ["ko:grammar:a1.past_tense"],
+        "patterns": ["ko:pattern:a1.reservation_check"],
+        "scene_tags": ["travel", "hotel", "service"]
+      },
+      "tags": ["survival", "travel", "two_choice"],
+      "prerequisites": ["ko.a1.reigns.routine_exercise.001"]
+    }
+  ]
+}

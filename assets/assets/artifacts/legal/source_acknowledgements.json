@@ -1,0 +1,24 @@
+{
+  "schema_version": "lingo_source_acknowledgements.v1",
+  "entries": [
+    {
+      "id": "authority.th.yaitron_lexitron_nectec",
+      "language": "th",
+      "source_name": "Yaitron / LEXiTRON / NECTEC",
+      "source_role": "fact_authority_only_for_lemma_pos_gloss_evidence",
+      "learner_expression_policy": "learner-facing Thai expressions are model-authored and native-review pending before production reuse",
+      "required_acknowledgement": "This product is created by the adaptation of LEXiTRON developed by NECTEC (http://www.nectec.or.th/).",
+      "must_retain": [
+        "copyright notice",
+        "license agreement terms of use",
+        "disclaimer for source/binary redistributions"
+      ],
+      "must_not": [
+        "Call derived product LEXiTRON",
+        "Use LEXiTRON in product name without permission",
+        "Imply NECTEC/NSTDA endorsement"
+      ],
+      "source_review_artifact": "content-th/content/review/th_phase_a_source_pool_20260708/th_product_legal_source_acknowledgements_candidate_20260708.json"
+    }
+  ]
+}

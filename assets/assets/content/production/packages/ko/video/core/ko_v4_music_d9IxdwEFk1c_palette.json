@@ -1,0 +1,1726 @@
+{
+  "id": "d9IxdwEFk1c",
+  "metadata": {
+    "title": "[MV] IU(아이유) _ Palette(팔레트) (Feat. G-DRAGON)",
+    "channel": "1theK (원더케이)",
+    "thumbnailUrl": "https://img.youtube.com/vi/d9IxdwEFk1c/maxresdefault.jpg",
+    "duration": "03:38",
+    "category": "music",
+    "difficulty_level": "v4"
+  },
+  "nodes": {
+    "Start": {
+      "id": "Start",
+      "turns": [
+        {
+          "id": "v_001",
+          "text": {
+            "ko": "이상하게도 요즘엔 그냥 쉬운 게 좋아"
+          },
+          "time": {
+            "start": 19553,
+            "end": 27181
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:이상하다+ko:e:게+ko:p:도",
+                "text": "이상하게도",
+                "pos": "adj+e+p"
+              },
+              {
+                "id": "ko:n:요즘+ko:p:에+ko:p:는",
+                "text": "요즘엔",
+                "pos": "n+p+p"
+              },
+              {
+                "id": "ko:adv:그냥",
+                "text": "그냥",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:쉽다+ko:e:은",
+                "text": "쉬운",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:n:것+ko:p:이",
+                "text": "게",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:좋다+ko:e:아",
+                "text": "좋아",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_002",
+          "text": {
+            "ko": "하긴 그래도 여전히 커린 음악은 좋더라"
+          },
+          "time": {
+            "start": 29026,
+            "end": 36918
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:하긴",
+                "text": "하긴",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adv:그래도",
+                "text": "그래도",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adv:여전히",
+                "text": "여전히",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:prop:커린",
+                "text": "커린",
+                "pos": "prop"
+              },
+              {
+                "id": "ko:n:음악+ko:p:은",
+                "text": "음악은",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:좋다+ko:e:더라",
+                "text": "좋더라",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_003",
+          "text": {
+            "ko": "Hot pink보다 진한 보라색을 더 좋아해"
+          },
+          "time": {
+            "start": 38067,
+            "end": 45586
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "x:adj:hot",
+                "text": "Hot",
+                "pos": "adj"
+              },
+              {
+                "id": "x:n:pink+ko:p:보다",
+                "text": "pink보다",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:진하다+ko:e:ㄴ",
+                "text": "진한",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:n:보라색+ko:p:을",
+                "text": "보라색을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adv:더",
+                "text": "더",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:좋아하다+ko:e:어",
+                "text": "좋아해",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_004",
+          "text": {
+            "ko": "또 뭐더라 단추 있는 Pajamas, Lipstick"
+          },
+          "time": {
+            "start": 47518,
+            "end": 53694
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:또",
+                "text": "또",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:pron:무엇+ko:cop:이다+ko:e:더라",
+                "text": "뭐더라",
+                "pos": "pron+cop+e"
+              },
+              {
+                "id": "ko:n:단추",
+                "text": "단추",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adj:있다+ko:e:는",
+                "text": "있는",
+                "pos": "adj+e"
+              },
+              {
+                "id": "x:n:pajamas",
+                "text": "Pajamas",
+                "pos": "n"
+              },
+              {
+                "id": "x:n:lipstick",
+                "text": "Lipstick",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_005",
+          "text": {
+            "ko": "좀 짓궂은 장난"
+          },
+          "time": {
+            "start": 53694,
+            "end": 56183
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:좀",
+                "text": "좀",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:짓궂다+ko:e:은",
+                "text": "짓궂은",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:n:장난",
+                "text": "장난",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_006",
+          "text": {
+            "ko": "I like it. I'm twenty five"
+          },
+          "time": {
+            "start": 56183,
+            "end": 60711
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "x:pron:i",
+                "text": "I",
+                "pos": "pron"
+              },
+              {
+                "id": "x:v:like",
+                "text": "like",
+                "pos": "v"
+              },
+              {
+                "id": "x:pron:it",
+                "text": "it",
+                "pos": "pron"
+              },
+              {
+                "id": "x:pron:i_m",
+                "text": "I'm",
+                "pos": "pron"
+              },
+              {
+                "id": "x:num:twenty",
+                "text": "twenty",
+                "pos": "num"
+              },
+              {
+                "id": "x:num:five",
+                "text": "five",
+                "pos": "num"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_007",
+          "text": {
+            "ko": "날 좋아하는 거 알아"
+          },
+          "time": {
+            "start": 60711,
+            "end": 65558
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:나+ko:p:를",
+                "text": "날",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:v:좋아하다+ko:e:는",
+                "text": "좋아하는",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:것",
+                "text": "거",
+                "pos": "n"
+              },
+              {
+                "id": "ko:v:알다+ko:e:아",
+                "text": "알아",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_008",
+          "text": {
+            "ko": "I got this. I'm truly fine"
+          },
+          "time": {
+            "start": 65558,
+            "end": 70142
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "x:pron:i_2",
+                "text": "I",
+                "pos": "pron"
+              },
+              {
+                "id": "x:v:got",
+                "text": "got",
+                "pos": "v"
+              },
+              {
+                "id": "x:pron:this",
+                "text": "this",
+                "pos": "pron"
+              },
+              {
+                "id": "x:pron:i_m_2",
+                "text": "I'm",
+                "pos": "pron"
+              },
+              {
+                "id": "x:adv:truly",
+                "text": "truly",
+                "pos": "adv"
+              },
+              {
+                "id": "x:adj:fine",
+                "text": "fine",
+                "pos": "adj"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_009",
+          "text": {
+            "ko": "이제 조금 알 것 같아 날"
+          },
+          "time": {
+            "start": 70142,
+            "end": 74483
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:이제",
+                "text": "이제",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adv:조금",
+                "text": "조금",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:알다+ko:e:ㄹ",
+                "text": "알",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:것",
+                "text": "것",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adj:같다+ko:e:아",
+                "text": "같아",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:pron:나+ko:p:를",
+                "text": "날",
+                "pos": "pron+p"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_010",
+          "text": {
+            "ko": "긴 머리보다 반듯이 자른 단발이 좋아"
+          },
+          "time": {
+            "start": 75974,
+            "end": 83417
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:길다+ko:e:ㄴ",
+                "text": "긴",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:n:머리+ko:p:보다",
+                "text": "머리보다",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adv:반듯이",
+                "text": "반듯이",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:자르다+ko:e:ㄴ",
+                "text": "자른",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:단발+ko:p:이",
+                "text": "단발이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:좋다+ko:e:아",
+                "text": "좋아",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_011",
+          "text": {
+            "ko": "하긴 그래도 '좋은 날' 부를 땐 참 예뻤더라"
+          },
+          "time": {
+            "start": 85398,
+            "end": 93773
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:하긴",
+                "text": "하긴",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adv:그래도",
+                "text": "그래도",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:좋다+ko:e:은",
+                "text": "좋은",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:n:날",
+                "text": "날",
+                "pos": "n"
+              },
+              {
+                "id": "ko:v:부르다+ko:e:ㄹ",
+                "text": "부를",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:때+ko:p:는",
+                "text": "땐",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adv:참",
+                "text": "참",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:예쁘다+ko:e:었+ko:e:더라",
+                "text": "예뻤더라",
+                "pos": "adj+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_012",
+          "text": {
+            "ko": "왜 그럴까 조금 촌스러운 걸 좋아해"
+          },
+          "time": {
+            "start": 94818,
+            "end": 102261
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:왜",
+                "text": "왜",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:그러하다+ko:e:까",
+                "text": "그럴까",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:adv:조금",
+                "text": "조금",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:촌스럽다+ko:e:운",
+                "text": "촌스러운",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:n:것+ko:p:을",
+                "text": "걸",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:좋아하다+ko:e:어",
+                "text": "좋아해",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_013",
+          "text": {
+            "ko": "그림보다 색칠된 Palette, 일기 그리고"
+          },
+          "time": {
+            "start": 103993,
+            "end": 110161
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:그림+ko:p:보다",
+                "text": "그림보다",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:색칠되다+ko:e:ㄴ",
+                "text": "색칠된",
+                "pos": "v+e"
+              },
+              {
+                "id": "x:prop:palette",
+                "text": "Palette",
+                "pos": "prop"
+              },
+              {
+                "id": "ko:n:일기",
+                "text": "일기",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adv:그리고",
+                "text": "그리고",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_014",
+          "text": {
+            "ko": "잠들었던 시간들"
+          },
+          "time": {
+            "start": 110161,
+            "end": 112643
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:v:잠들다+ko:e:었+ko:e:던",
+                "text": "잠들었던",
+                "pos": "v+e+e"
+              },
+              {
+                "id": "ko:n:시간+ko:affix:-들",
+                "text": "시간들",
+                "pos": "n+affix"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_015",
+          "text": {
+            "ko": "I like it. I'm twenty five"
+          },
+          "time": {
+            "start": 112643,
+            "end": 117169
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "x:pron:i_3",
+                "text": "I",
+                "pos": "pron"
+              },
+              {
+                "id": "x:v:like_2",
+                "text": "like",
+                "pos": "v"
+              },
+              {
+                "id": "x:pron:it_2",
+                "text": "it",
+                "pos": "pron"
+              },
+              {
+                "id": "x:pron:i_m_3",
+                "text": "I'm",
+                "pos": "pron"
+              },
+              {
+                "id": "x:num:twenty_2",
+                "text": "twenty",
+                "pos": "num"
+              },
+              {
+                "id": "x:num:five_2",
+                "text": "five",
+                "pos": "num"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_016",
+          "text": {
+            "ko": "날 미워하는 거 알아"
+          },
+          "time": {
+            "start": 117169,
+            "end": 121982
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:나+ko:p:를",
+                "text": "날",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:v:미워하다+ko:e:는",
+                "text": "미워하는",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:것",
+                "text": "거",
+                "pos": "n"
+              },
+              {
+                "id": "ko:v:알다+ko:e:아",
+                "text": "알아",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_017",
+          "text": {
+            "ko": "I got this. I'm truly fine"
+          },
+          "time": {
+            "start": 121982,
+            "end": 126629
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "x:pron:i_4",
+                "text": "I",
+                "pos": "pron"
+              },
+              {
+                "id": "x:v:got_2",
+                "text": "got",
+                "pos": "v"
+              },
+              {
+                "id": "x:pron:this_2",
+                "text": "this",
+                "pos": "pron"
+              },
+              {
+                "id": "x:pron:i_m_4",
+                "text": "I'm",
+                "pos": "pron"
+              },
+              {
+                "id": "x:adv:truly_2",
+                "text": "truly",
+                "pos": "adv"
+              },
+              {
+                "id": "x:adj:fine_2",
+                "text": "fine",
+                "pos": "adj"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_018",
+          "text": {
+            "ko": "이제 조금 알 것 같아 날"
+          },
+          "time": {
+            "start": 126629,
+            "end": 130618
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:이제",
+                "text": "이제",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adv:조금",
+                "text": "조금",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:알다+ko:e:ㄹ",
+                "text": "알",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:것",
+                "text": "것",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adj:같다+ko:e:아",
+                "text": "같아",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:pron:나+ko:p:를",
+                "text": "날",
+                "pos": "pron+p"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_019",
+          "text": {
+            "ko": "어려서 모든 게 어려워 / 잔소리에 매 서러워"
+          },
+          "time": {
+            "start": 131374,
+            "end": 133797
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:어리다+ko:e:어서",
+                "text": "어려서",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:det:모든",
+                "text": "모든",
+                "pos": "det"
+              },
+              {
+                "id": "ko:n:것+ko:p:이",
+                "text": "게",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:어렵다+ko:e:어",
+                "text": "어려워",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:n:잔소리+ko:p:에",
+                "text": "잔소리에",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adv:매",
+                "text": "매",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:서럽다+ko:e:어",
+                "text": "서러워",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_020",
+          "text": {
+            "ko": "꾸중만 듣던 철부지 애"
+          },
+          "time": {
+            "start": 133797,
+            "end": 136078
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:꾸중+ko:p:만",
+                "text": "꾸중만",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:듣다+ko:e:던",
+                "text": "듣던",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:철부지",
+                "text": "철부지",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:아이",
+                "text": "애",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_021",
+          "text": {
+            "ko": "겨우 스무고개 넘어 / 기쁨도 잠시 어머"
+          },
+          "time": {
+            "start": 136078,
+            "end": 138574
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:겨우",
+                "text": "겨우",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:num:스물+ko:n:고개",
+                "text": "스무고개",
+                "pos": "num+n"
+              },
+              {
+                "id": "ko:v:넘다+ko:e:어",
+                "text": "넘어",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:기쁨+ko:p:도",
+                "text": "기쁨도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adv:잠시",
+                "text": "잠시",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:intj:어머",
+                "text": "어머",
+                "pos": "intj"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_022",
+          "text": {
+            "ko": "아프니까 웬 청춘이래"
+          },
+          "time": {
+            "start": 138574,
+            "end": 140758
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:아프다+ko:e:으니까",
+                "text": "아프니까",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:det:웬",
+                "text": "웬",
+                "pos": "det"
+              },
+              {
+                "id": "ko:n:청춘+ko:cop:이다+ko:e:래",
+                "text": "청춘이래",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_023",
+          "text": {
+            "ko": "지은아, 오빠는 말이야 / 지금 막 서른인데"
+          },
+          "time": {
+            "start": 140758,
+            "end": 143309
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:prop:지은+ko:e:아",
+                "text": "지은아",
+                "pos": "prop+e"
+              },
+              {
+                "id": "ko:n:오빠+ko:p:는",
+                "text": "오빠는",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:말+ko:cop:이다+ko:e:야",
+                "text": "말이야",
+                "pos": "n+cop+e"
+              },
+              {
+                "id": "ko:adv:지금",
+                "text": "지금",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adv:막",
+                "text": "막",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:num:서른+ko:cop:이다+ko:e:데",
+                "text": "서른인데",
+                "pos": "num+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_024",
+          "text": {
+            "ko": "나는 절대로 아니야 / 근데 막 어른이 돼"
+          },
+          "time": {
+            "start": 143309,
+            "end": 146113
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:나+ko:p:는",
+                "text": "나는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:adv:절대로",
+                "text": "절대로",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:cop:아니다+ko:e:야",
+                "text": "아니야",
+                "pos": "cop+e"
+              },
+              {
+                "id": "ko:adv:근데",
+                "text": "근데",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adv:막",
+                "text": "막",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:n:어른+ko:p:이",
+                "text": "어른이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:되다+ko:e:어",
+                "text": "돼",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_025",
+          "text": {
+            "ko": "아직도 한참 멀었는데"
+          },
+          "time": {
+            "start": 146113,
+            "end": 147825
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:아직+ko:p:도",
+                "text": "아직도",
+                "pos": "adv+p"
+              },
+              {
+                "id": "ko:adv:한참",
+                "text": "한참",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:멀다+ko:e:었+ko:e:는데",
+                "text": "멀었는데",
+                "pos": "adj+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_026",
+          "text": {
+            "ko": "너보다 다섯 살 밖에 안 먹었는데"
+          },
+          "time": {
+            "start": 147825,
+            "end": 150194
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:너+ko:p:보다",
+                "text": "너보다",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:num:다섯",
+                "text": "다섯",
+                "pos": "num"
+              },
+              {
+                "id": "ko:n:살",
+                "text": "살",
+                "pos": "n"
+              },
+              {
+                "id": "ko:p:밖에",
+                "text": "밖에",
+                "pos": "p"
+              },
+              {
+                "id": "ko:adv:안",
+                "text": "안",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:먹다+ko:e:었+ko:e:는데",
+                "text": "먹었는데",
+                "pos": "v+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_027",
+          "text": {
+            "ko": "스물 위, 서른 아래, 고맘때, right there"
+          },
+          "time": {
+            "start": 150194,
+            "end": 152641
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:num:스물",
+                "text": "스물",
+                "pos": "num"
+              },
+              {
+                "id": "ko:n:위",
+                "text": "위",
+                "pos": "n"
+              },
+              {
+                "id": "ko:num:서른",
+                "text": "서른",
+                "pos": "num"
+              },
+              {
+                "id": "ko:n:아래",
+                "text": "아래",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:고맘때",
+                "text": "고맘때",
+                "pos": "n"
+              },
+              {
+                "id": "x:adv:right",
+                "text": "right",
+                "pos": "adv"
+              },
+              {
+                "id": "x:adv:there",
+                "text": "there",
+                "pos": "adv"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_028",
+          "text": {
+            "ko": "애도 어른도 아닌 나이 때, 그저 나일 때"
+          },
+          "time": {
+            "start": 152641,
+            "end": 155481
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:아이+ko:p:도",
+                "text": "애도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:어른+ko:p:도",
+                "text": "어른도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:cop:아니다+ko:e:ㄴ",
+                "text": "아닌",
+                "pos": "cop+e"
+              },
+              {
+                "id": "ko:n:나이",
+                "text": "나이",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:때",
+                "text": "때",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adv:그저",
+                "text": "그저",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:pron:나+ko:cop:이다+ko:e:ㄹ",
+                "text": "나일",
+                "pos": "pron+cop+e"
+              },
+              {
+                "id": "ko:n:때",
+                "text": "때",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_029",
+          "text": {
+            "ko": "가장 찬란하게 빛이 나"
+          },
+          "time": {
+            "start": 155481,
+            "end": 157222
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:가장",
+                "text": "가장",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:찬란하다+ko:e:게",
+                "text": "찬란하게",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:n:빛+ko:p:이",
+                "text": "빛이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:나다+ko:e:아",
+                "text": "나",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_030",
+          "text": {
+            "ko": "어둠이 드리워질 때도 겁내지마"
+          },
+          "time": {
+            "start": 157222,
+            "end": 159581
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:어둠+ko:p:이",
+                "text": "어둠이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:드리우다+ko:e:어+ko:vx:지다+ko:e:ㄹ",
+                "text": "드리워질",
+                "pos": "v+e+vx+e"
+              },
+              {
+                "id": "ko:n:때+ko:p:도",
+                "text": "때도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:겁+ko:v:내다+ko:e:지+ko:vx:말다+ko:e:아",
+                "text": "겁내지마",
+                "pos": "n+v+e+vx+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_031",
+          "text": {
+            "ko": "너무 아름다워서 꽃잎 활짝 펴서"
+          },
+          "time": {
+            "start": 159581,
+            "end": 162029
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:너무",
+                "text": "너무",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:아름답다+ko:e:아서",
+                "text": "아름다워서",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:n:꽃잎",
+                "text": "꽃잎",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adv:활짝",
+                "text": "활짝",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:펴다+ko:e:어서",
+                "text": "펴서",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_032",
+          "text": {
+            "ko": "언제나 사랑받는 아이 you"
+          },
+          "time": {
+            "start": 162029,
+            "end": 164419
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:언제나",
+                "text": "언제나",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:사랑받다+ko:e:는",
+                "text": "사랑받는",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:아이",
+                "text": "아이",
+                "pos": "n"
+              },
+              {
+                "id": "x:pron:you",
+                "text": "you",
+                "pos": "pron"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_033",
+          "text": {
+            "ko": "Palette, 일기, 잠들었던 시간들"
+          },
+          "time": {
+            "start": 164419,
+            "end": 169075
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "x:prop:palette_2",
+                "text": "Palette",
+                "pos": "prop"
+              },
+              {
+                "id": "ko:n:일기",
+                "text": "일기",
+                "pos": "n"
+              },
+              {
+                "id": "ko:v:잠들다+ko:e:었+ko:e:던",
+                "text": "잠들었던",
+                "pos": "v+e+e"
+              },
+              {
+                "id": "ko:n:시간+ko:affix:-들",
+                "text": "시간들",
+                "pos": "n+affix"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_034",
+          "text": {
+            "ko": "I like it. I'm twenty five"
+          },
+          "time": {
+            "start": 169075,
+            "end": 173627
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "x:pron:i_5",
+                "text": "I",
+                "pos": "pron"
+              },
+              {
+                "id": "x:v:like_3",
+                "text": "like",
+                "pos": "v"
+              },
+              {
+                "id": "x:pron:it_3",
+                "text": "it",
+                "pos": "pron"
+              },
+              {
+                "id": "x:pron:i_m_5",
+                "text": "I'm",
+                "pos": "pron"
+              },
+              {
+                "id": "x:num:twenty_3",
+                "text": "twenty",
+                "pos": "num"
+              },
+              {
+                "id": "x:num:five_3",
+                "text": "five",
+                "pos": "num"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_035",
+          "text": {
+            "ko": "날 좋아하는 거 알아"
+          },
+          "time": {
+            "start": 173627,
+            "end": 178435
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:나+ko:p:를",
+                "text": "날",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:v:좋아하다+ko:e:는",
+                "text": "좋아하는",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:것",
+                "text": "거",
+                "pos": "n"
+              },
+              {
+                "id": "ko:v:알다+ko:e:아",
+                "text": "알아",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_036",
+          "text": {
+            "ko": "I got this. I'm truly fine"
+          },
+          "time": {
+            "start": 178435,
+            "end": 183090
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "x:pron:i_6",
+                "text": "I",
+                "pos": "pron"
+              },
+              {
+                "id": "x:v:got_3",
+                "text": "got",
+                "pos": "v"
+              },
+              {
+                "id": "x:pron:this_3",
+                "text": "this",
+                "pos": "pron"
+              },
+              {
+                "id": "x:pron:i_m_6",
+                "text": "I'm",
+                "pos": "pron"
+              },
+              {
+                "id": "x:adv:truly_3",
+                "text": "truly",
+                "pos": "adv"
+              },
+              {
+                "id": "x:adj:fine_3",
+                "text": "fine",
+                "pos": "adj"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_037",
+          "text": {
+            "ko": "이제 조금 알 것 같아 날"
+          },
+          "time": {
+            "start": 183090,
+            "end": 186119
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:이제",
+                "text": "이제",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adv:조금",
+                "text": "조금",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:알다+ko:e:ㄹ",
+                "text": "알",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:것",
+                "text": "것",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adj:같다+ko:e:아",
+                "text": "같아",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:pron:나+ko:p:를",
+                "text": "날",
+                "pos": "pron+p"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_038",
+          "text": {
+            "ko": "(아직 할 말이 많은데)"
+          },
+          "time": {
+            "start": 186119,
+            "end": 187958
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:아직",
+                "text": "아직",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:하다+ko:e:ㄹ",
+                "text": "할",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:말+ko:p:이",
+                "text": "말이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:많다+ko:e:은데",
+                "text": "많은데",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_039",
+          "text": {
+            "ko": "I like it. I'm twenty five"
+          },
+          "time": {
+            "start": 187958,
+            "end": 192446
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "x:pron:i_7",
+                "text": "I",
+                "pos": "pron"
+              },
+              {
+                "id": "x:v:like_4",
+                "text": "like",
+                "pos": "v"
+              },
+              {
+                "id": "x:pron:it_4",
+                "text": "it",
+                "pos": "pron"
+              },
+              {
+                "id": "x:pron:i_m_7",
+                "text": "I'm",
+                "pos": "pron"
+              },
+              {
+                "id": "x:num:twenty_4",
+                "text": "twenty",
+                "pos": "num"
+              },
+              {
+                "id": "x:num:five_4",
+                "text": "five",
+                "pos": "num"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_040",
+          "text": {
+            "ko": "날 미워하는 거 알아"
+          },
+          "time": {
+            "start": 192446,
+            "end": 197335
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:나+ko:p:를",
+                "text": "날",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:v:미워하다+ko:e:는",
+                "text": "미워하는",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:것",
+                "text": "거",
+                "pos": "n"
+              },
+              {
+                "id": "ko:v:알다+ko:e:아",
+                "text": "알아",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_041",
+          "text": {
+            "ko": "I got this. I'm truly fine"
+          },
+          "time": {
+            "start": 197335,
+            "end": 201919
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "x:pron:i_8",
+                "text": "I",
+                "pos": "pron"
+              },
+              {
+                "id": "x:v:got_4",
+                "text": "got",
+                "pos": "v"
+              },
+              {
+                "id": "x:pron:this_4",
+                "text": "this",
+                "pos": "pron"
+              },
+              {
+                "id": "x:pron:i_m_8",
+                "text": "I'm",
+                "pos": "pron"
+              },
+              {
+                "id": "x:adv:truly_4",
+                "text": "truly",
+                "pos": "adv"
+              },
+              {
+                "id": "x:adj:fine_4",
+                "text": "fine",
+                "pos": "adj"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_042",
+          "text": {
+            "ko": "이제 조금 알 것 같아 날"
+          },
+          "time": {
+            "start": 201919,
+            "end": 206171
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:이제",
+                "text": "이제",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adv:조금",
+                "text": "조금",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:알다+ko:e:ㄹ",
+                "text": "알",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:n:것",
+                "text": "것",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adj:같다+ko:e:아",
+                "text": "같아",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:pron:나+ko:p:를",
+                "text": "날",
+                "pos": "pron+p"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

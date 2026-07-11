@@ -1,0 +1,197 @@
+{
+  "schema_version": "de_a2_current_flow_preview_scenario_index.v1",
+  "scenarios": [
+    {
+      "scenario_id": "a2_app_booking_confirmation",
+      "title": "Eine App-Buchung bestätigen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_app_booking_confirmation.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_app_booking_confirmation.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_ask_ingredient_preference",
+      "title": "Nach einer Zutat fragen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_ingredient_preference.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_ingredient_preference.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_ask_late_checkout",
+      "title": "Nach späterem Check-out fragen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_late_checkout.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_late_checkout.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_ask_recommendation_budget",
+      "title": "Eine Empfehlung im Budget erfragen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_recommendation_budget.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_recommendation_budget.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_ask_transfer_platform",
+      "title": "Nach dem Umstiegsbahnsteig fragen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_transfer_platform.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_transfer_platform.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_change_delivery_pickup_time",
+      "title": "Eine Abholzeit ändern",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_change_delivery_pickup_time.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_change_delivery_pickup_time.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_change_ticket_time",
+      "title": "Eine Ticketzeit ändern",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_change_ticket_time.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_change_ticket_time.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_compare_two_menu_options",
+      "title": "Zwei Menüoptionen vergleichen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_compare_two_menu_options.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_compare_two_menu_options.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_confirm_date_time_place",
+      "title": "Datum, Uhrzeit und Ort bestätigen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_confirm_date_time_place.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_confirm_date_time_place.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_decline_with_reason",
+      "title": "Mit einem einfachen Grund absagen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_decline_with_reason.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_decline_with_reason.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_describe_weekend_activity",
+      "title": "Eine Wochenendaktivität beschreiben",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_describe_weekend_activity.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_describe_weekend_activity.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_exchange_wrong_item",
+      "title": "Einen falschen Artikel umtauschen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_exchange_wrong_item.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_exchange_wrong_item.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_explain_simple_delay_reason",
+      "title": "Eine kleine Verspätung erklären",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_explain_simple_delay_reason.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_explain_simple_delay_reason.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_fill_simple_form_help",
+      "title": "Hilfe bei einem einfachen Formular bekommen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_fill_simple_form_help.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_fill_simple_form_help.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_invite_friend_activity",
+      "title": "Einen Freund zu einer Aktivität einladen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_invite_friend_activity.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_invite_friend_activity.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_lost_item_followup_message",
+      "title": "Nach einem verlorenen Gegenstand fragen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_lost_item_followup_message.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_lost_item_followup_message.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_luggage_storage_pickup",
+      "title": "Gepäck abgeben und abholen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_luggage_storage_pickup.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_luggage_storage_pickup.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_make_simple_plan_sequence",
+      "title": "Einen einfachen Zwei-Schritt-Plan machen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_make_simple_plan_sequence.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_make_simple_plan_sequence.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_plan_tomorrow_morning",
+      "title": "Morgen früh etwas planen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_plan_tomorrow_morning.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_plan_tomorrow_morning.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_report_room_problem",
+      "title": "Ein Zimmerproblem melden",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_report_room_problem.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_report_room_problem.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_request_room_change",
+      "title": "Um Zimmerwechsel bitten",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_request_room_change.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_request_room_change.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_reschedule_meeting_time",
+      "title": "Eine Uhrzeit ändern",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_reschedule_meeting_time.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_reschedule_meeting_time.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_transport_delay_announcement",
+      "title": "Eine Verspätungsansage verstehen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_transport_delay_announcement.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_transport_delay_announcement.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    },
+    {
+      "scenario_id": "a2_understand_hotel_notice",
+      "title": "Einen Hotelhinweis verstehen",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_understand_hotel_notice.de.v1.json",
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_understand_hotel_notice.de.segmentation.json",
+      "turn_count": 4,
+      "segmentation_rows": 32
+    }
+  ]
+}

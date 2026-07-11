@@ -1,0 +1,40 @@
+{
+  "accepted_coverage_source": "manifest.owner_accepted_coverage_derived",
+  "build_id": "th-grammar-a1a2-r1-preview.1",
+  "channel": "debug_preview",
+  "channel_version": "preview.1",
+  "content_version": "r1",
+  "debug_only": true,
+  "language": "th",
+  "module_groups": {
+    "core": [
+      "lesson_blocks",
+      "knowledge_items",
+      "candidate_sentences",
+      "pronunciation_bindings",
+      "atom_rules"
+    ],
+    "i18n": {
+      "zh_tw": [
+        "knowledge_i18n_zh_tw",
+        "sentence_i18n_zh_tw"
+      ]
+    }
+  },
+  "modules": {
+    "atom_rules": "core/atom_rules.json",
+    "candidate_sentences": "core/candidate_sentences.json",
+    "knowledge_i18n_zh_tw": "i18n/zh_tw/knowledge.json",
+    "knowledge_items": "core/knowledge_items.json",
+    "lesson_blocks": "core/lesson_blocks.json",
+    "pronunciation_bindings": "core/pronunciation_bindings.json",
+    "sentence_i18n_zh_tw": "i18n/zh_tw/sentences.json"
+  },
+  "native_approval_claim_allowed": false,
+  "package_id": "th-grammar-a1a2",
+  "production_materialization_allowed": false,
+  "production_runtime_content": false,
+  "runtime_materialization_allowed": false,
+  "schema_version": "grammar_debug_preview_manifest.v1",
+  "scope": "grammar_authoring_review_only"
+}

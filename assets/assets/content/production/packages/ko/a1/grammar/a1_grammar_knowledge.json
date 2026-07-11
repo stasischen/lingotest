@@ -1,0 +1,368 @@
+{
+  "schema_version": "a1_grammar_knowledge_sidecar.v1",
+  "language": "ko",
+  "status": "review_staging_native_pending",
+  "created_at": "2026-06-18",
+  "author_id": "phase3_grammar_knowledge_author_ko_20260618",
+  "authoring_basis": "external denominator row plus grounded reading_surface_drafts_20260615 examples",
+  "production_promotion_allowed": false,
+  "native_status": "native_pending",
+  "nodes": [
+    {
+      "learning_object_id": "ko_grammar_topic_particle",
+      "title_zh_tw": "topic particle 은/는（은, 는）",
+      "explanation_md_zh_tw": "這個節點教 韓文 A1 的「topic particle 은/는」。 它接在名詞後面，標出這句主要在談誰或什麼；有時也帶出對比。 這次先認得：은、는。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "explanation_source": "template",
+      "ref_id": "KO.grammar.topic_particle",
+      "ref_item": "topic particle 은/는",
+      "ref_subitems": [
+        "은",
+        "는"
+      ],
+      "examples": [
+        {
+          "surface": "저는 아침에 작은 카페에 가요.",
+          "source_item_id": "article:ko_reading_topic_particle_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「은、는」，呈現「topic particle 은/는」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "오늘은 비가 조금 와요.",
+          "source_item_id": "article:ko_reading_topic_particle_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「은」，呈現「topic particle 은/는」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "카페는 따뜻하고 조용해요.",
+          "source_item_id": "article:ko_reading_topic_particle_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「는」，呈現「topic particle 은/는」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "제 가방은 의자 옆에 있어요.",
+          "source_item_id": "article:ko_reading_topic_particle_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「은」，呈現「topic particle 은/는」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "NIKL International Standard Curriculum A1",
+      "source_locator": "NIKL standard Korean curriculum A1",
+      "source_reading_asset_id": "ko_reading_topic_particle_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ko_reading_topic_particle_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ko_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ko_grammar_subject_particle",
+      "title_zh_tw": "subject particle 이/가（이, 가）",
+      "explanation_md_zh_tw": "這個節點教 韓文 A1 的「subject particle 이/가」。 它接在名詞後面，標出做動作或出現的新主詞。先看誰做了後面的動作。 這次先認得：이、가。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "explanation_source": "template",
+      "ref_id": "KO.grammar.subject_particle",
+      "ref_item": "subject particle 이/가",
+      "ref_subitems": [
+        "이",
+        "가"
+      ],
+      "examples": [
+        {
+          "surface": "아침에 교실 문이 열려요.",
+          "source_item_id": "article:ko_reading_subject_particle_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「이」，呈現「subject particle 이/가」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "친구가 먼저 들어와요.",
+          "source_item_id": "article:ko_reading_subject_particle_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「가」，呈現「subject particle 이/가」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "책이 책상 위에 있어요.",
+          "source_item_id": "article:ko_reading_subject_particle_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「이」，呈現「subject particle 이/가」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "선생님이 웃으며 인사해요.",
+          "source_item_id": "article:ko_reading_subject_particle_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「이」，呈現「subject particle 이/가」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "NIKL International Standard Curriculum A1",
+      "source_locator": "NIKL standard Korean curriculum A1",
+      "source_reading_asset_id": "ko_reading_subject_particle_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ko_reading_subject_particle_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ko_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ko_grammar_object_particle",
+      "title_zh_tw": "object particle 을/를（을, 를）",
+      "explanation_md_zh_tw": "這個節點教 韓文 A1 的「object particle 을/를」。 它接在名詞後面，標出動作影響到的東西或人，也就是受詞。 這次先認得：을、를。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "explanation_source": "template",
+      "ref_id": "KO.grammar.object_particle",
+      "ref_item": "object particle 을/를",
+      "ref_subitems": [
+        "을",
+        "를"
+      ],
+      "examples": [
+        {
+          "surface": "지수는 아침에 물을 마셔요.",
+          "source_item_id": "article:ko_reading_object_particle_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「을」，呈現「object particle 을/를」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "학교 앞 가게에서 우유를 사요.",
+          "source_item_id": "article:ko_reading_object_particle_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「를」，呈現「object particle 을/를」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "가방에 책을 넣어요.",
+          "source_item_id": "article:ko_reading_object_particle_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「을」，呈現「object particle 을/를」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "교실에서 공책을 펴요.",
+          "source_item_id": "article:ko_reading_object_particle_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「을」，呈現「object particle 을/를」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "NIKL International Standard Curriculum A1",
+      "source_locator": "NIKL standard Korean curriculum A1",
+      "source_reading_asset_id": "ko_reading_object_particle_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ko_reading_object_particle_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ko_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ko_grammar_location_particles",
+      "title_zh_tw": "location/time particles 에/에서（에, 에서）",
+      "explanation_md_zh_tw": "這個節點教 韓文 A1 的「location/time particles 에/에서」。 它接在地點或時間後面；에 常表示時間、目的地或存在位置，에서 常表示動作發生的地方。 這次先認得：에、에서。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "explanation_source": "template",
+      "ref_id": "KO.grammar.location_particles",
+      "ref_item": "location/time particles 에/에서",
+      "ref_subitems": [
+        "에",
+        "에서"
+      ],
+      "examples": [
+        {
+          "surface": "점심에는 식당에서 밥을 먹어요.",
+          "source_item_id": "article:ko_reading_location_particles_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「에、에서」，呈現「location/time particles 에/에서」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "민수는 아침에 학교에 가요.",
+          "source_item_id": "article:ko_reading_location_particles_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「에」，呈現「location/time particles 에/에서」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "교실에서 친구를 만나요.",
+          "source_item_id": "article:ko_reading_location_particles_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「에서」，呈現「location/time particles 에/에서」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "책상에 공책과 연필이 있어요.",
+          "source_item_id": "article:ko_reading_location_particles_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「에」，呈現「location/time particles 에/에서」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "NIKL International Standard Curriculum A1",
+      "source_locator": "NIKL standard Korean curriculum A1",
+      "source_reading_asset_id": "ko_reading_location_particles_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ko_reading_location_particles_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ko_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ko_grammar_polite_style",
+      "title_zh_tw": "basic polite style -아요/-어요 / -습니다（아요, 어요, 습니다）",
+      "explanation_md_zh_tw": "這個節點教韓文 A1 的基本禮貌語尾。-아요/-어요都接在動詞或形容詞後，表示日常禮貌語氣；實際用哪一個取決於前面詞幹的母音，像 좋아요、와요 屬於 -아요 類，있어요 屬於 -어요 類。-습니다更正式，常見於公告、課堂或正式說明。",
+      "explanation_source": "authored",
+      "ref_id": "KO.grammar.polite_style",
+      "ref_item": "basic polite style -아요/-어요 / -습니다",
+      "ref_subitems": [
+        "아요",
+        "어요",
+        "습니다"
+      ],
+      "examples": [
+        {
+          "surface": "교실 문에 \"수업 시간에는 책을 읽습니다\"라고 써 있어요.",
+          "source_item_id": "article:ko_reading_polite_style_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「어요、습니다」，呈現「basic polite style -아요/-어요 / -습니다」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "하나는 아침에 기분이 좋아요.",
+          "source_item_id": "article:ko_reading_polite_style_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「아요」，呈現「basic polite style -아요/-어요 / -습니다」在 A1 閱讀中的實際用法。",
+          "note_source": "authored"
+        },
+        {
+          "surface": "밖에는 비가 조금 와요.",
+          "source_item_id": "article:ko_reading_polite_style_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「아요」，呈現「basic polite style -아요/-어요 / -습니다」在 A1 閱讀中的實際用法。",
+          "note_source": "authored"
+        },
+        {
+          "surface": "하나는 우산을 들어요.",
+          "source_item_id": "article:ko_reading_polite_style_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「어요」，呈現「basic polite style -아요/-어요 / -습니다」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "NIKL International Standard Curriculum A1",
+      "source_locator": "NIKL standard Korean curriculum A1",
+      "source_reading_asset_id": "ko_reading_polite_style_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ko_reading_polite_style_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ko_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ko_grammar_request_juseyo",
+      "title_zh_tw": "polite request -주세요（주세요）",
+      "explanation_md_zh_tw": "這個節點教 韓文 A1 的「polite request -주세요」。 它用來請別人做事或給東西。A1 先學禮貌、短句、情境清楚的用法。 這次先認得：주세요。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "explanation_source": "template",
+      "ref_id": "KO.grammar.request_juseyo",
+      "ref_item": "polite request -주세요",
+      "ref_subitems": [
+        "주세요"
+      ],
+      "examples": [
+        {
+          "surface": "수지는 \"물 주세요\"라고 말해요.",
+          "source_item_id": "article:ko_reading_request_juseyo_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「주세요」，呈現「polite request -주세요」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "그리고 \"작은 빵도 주세요\"라고 말해요.",
+          "source_item_id": "article:ko_reading_request_juseyo_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「주세요」，呈現「polite request -주세요」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "NIKL International Standard Curriculum A1",
+      "source_locator": "NIKL standard Korean curriculum A1",
+      "source_reading_asset_id": "ko_reading_request_juseyo_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ko_reading_request_juseyo_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ko_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ko_grammar_numbers_counters",
+      "title_zh_tw": "numbers and counters（개, 명）",
+      "explanation_md_zh_tw": "這個節點教 韓文 A1 的「numbers and counters」。 它用來說數量、程度或幾個人/幾個東西。遇到量詞時，先看數字後面接的是人、物品還是其他類別。 這次先認得：개、명。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "explanation_source": "template",
+      "ref_id": "KO.grammar.numbers_counters",
+      "ref_item": "numbers and counters",
+      "ref_subitems": [
+        "개",
+        "명"
+      ],
+      "examples": [
+        {
+          "surface": "친구 한 명은 빵 한 개를 골라요.",
+          "source_item_id": "article:ko_reading_numbers_counters_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「개、명」，呈現「numbers and counters」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "카페에 친구 두 명이 먼저 와요.",
+          "source_item_id": "article:ko_reading_numbers_counters_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「명」，呈現「numbers and counters」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "민수도 와서 모두 세 명이에요.",
+          "source_item_id": "article:ko_reading_numbers_counters_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「명」，呈現「numbers and counters」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "민수는 사과 세 개를 사요.",
+          "source_item_id": "article:ko_reading_numbers_counters_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「개」，呈現「numbers and counters」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "NIKL International Standard Curriculum A1",
+      "source_locator": "NIKL standard Korean curriculum A1",
+      "source_reading_asset_id": "ko_reading_numbers_counters_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ko_reading_numbers_counters_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ko_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ko_grammar_negation",
+      "title_zh_tw": "basic negation 안/못（안, 못）",
+      "explanation_md_zh_tw": "這個節點教 韓文 A1 的「basic negation 안/못」。 它用來說「不/沒有」。重點是把否定標記放在例句中的正確位置。 這次先認得：안、못。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "explanation_source": "template",
+      "ref_id": "KO.grammar.negation",
+      "ref_item": "basic negation 안/못",
+      "ref_subitems": [
+        "안",
+        "못"
+      ],
+      "examples": [
+        {
+          "surface": "그래서 커피를 안 마셔요.",
+          "source_item_id": "article:ko_reading_negation_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「안」，呈現「basic negation 안/못」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "비가 와서 밖에 못 가요.",
+          "source_item_id": "article:ko_reading_negation_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「못」，呈現「basic negation 안/못」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "빵도 많이 안 먹어요.",
+          "source_item_id": "article:ko_reading_negation_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「안」，呈現「basic negation 안/못」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "NIKL International Standard Curriculum A1",
+      "source_locator": "NIKL standard Korean curriculum A1",
+      "source_reading_asset_id": "ko_reading_negation_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ko_reading_negation_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ko_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ko_grammar_copula",
+      "title_zh_tw": "이에요/예요 copula（이에요, 예요）",
+      "explanation_md_zh_tw": "這個節點教 韓文 A1 的「이에요/예요 copula」。 先用它說身分、狀態、位置或「是什麼」。遇到兩種形式時，先看例句是在說固定身分還是當下狀態。 這次先認得：이에요、예요。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "explanation_source": "template",
+      "ref_id": "KO.grammar.copula",
+      "ref_item": "이에요/예요 copula",
+      "ref_subitems": [
+        "이에요",
+        "예요"
+      ],
+      "examples": [
+        {
+          "surface": "민수는 \"민수예요\"라고 말해요.",
+          "source_item_id": "article:ko_reading_copula_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「예요」，呈現「이에요/예요 copula」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "직원은 \"오늘은 첫날이에요\"라고 확인해요.",
+          "source_item_id": "article:ko_reading_copula_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「이에요」，呈現「이에요/예요 copula」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "민수는 다른 카드를 보고 \"제 카드예요?\"라고 물어요.",
+          "source_item_id": "article:ko_reading_copula_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「예요」，呈現「이에요/예요 copula」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "직원은 \"아니에요, 이 카드예요\"라고 말해요.",
+          "source_item_id": "article:ko_reading_copula_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「예요」，呈現「이에요/예요 copula」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "NIKL International Standard Curriculum A1",
+      "source_locator": "NIKL standard Korean curriculum A1",
+      "source_reading_asset_id": "ko_reading_copula_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ko\\content_v2\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ko_reading_copula_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ko_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    }
+  ]
+}

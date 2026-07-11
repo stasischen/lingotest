@@ -1,0 +1,338 @@
+{
+  "schema_version": "a1_runtime_reading_index.v1",
+  "language": "ko",
+  "assets": [
+    {
+      "surface_id": "ko_reading_clothes_colors_a1_v1",
+      "learning_object_id": "ko_vocab_clothes_colors",
+      "object_type": null,
+      "controlled_terms": [
+        "파란",
+        "셔츠",
+        "검은",
+        "바지",
+        "흰",
+        "모자"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_daily_routine_a1_v1",
+      "learning_object_id": "ko_vocab_daily_routine",
+      "object_type": null,
+      "controlled_terms": [
+        "아침",
+        "일어나요",
+        "학교",
+        "점심",
+        "저녁",
+        "집"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_family_a1_v1",
+      "learning_object_id": "ko_vocab_family",
+      "object_type": null,
+      "controlled_terms": [
+        "가족",
+        "아버지",
+        "어머니",
+        "동생",
+        "저",
+        "학생"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_health_body_a1_v1",
+      "learning_object_id": "ko_vocab_health_body",
+      "object_type": null,
+      "controlled_terms": [
+        "머리",
+        "아파요",
+        "목",
+        "물",
+        "쉬어요"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_home_rooms_a1_v1",
+      "learning_object_id": "ko_vocab_home",
+      "object_type": null,
+      "controlled_terms": [
+        "집",
+        "방",
+        "두 개",
+        "부엌",
+        "왼쪽",
+        "화장실",
+        "오른쪽"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_transport_a1_v1",
+      "learning_object_id": "ko_vocab_transport",
+      "object_type": null,
+      "controlled_terms": [
+        "택시",
+        "서울역",
+        "역",
+        "표",
+        "기차"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_weather_a1_v1",
+      "learning_object_id": "ko_vocab_weather",
+      "object_type": null,
+      "controlled_terms": [
+        "날씨",
+        "좋아요",
+        "하늘",
+        "맑아요",
+        "더워요",
+        "물"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_work_school_a1_v1",
+      "learning_object_id": "ko_vocab_work_school",
+      "object_type": null,
+      "controlled_terms": [
+        "학생",
+        "학교",
+        "친구",
+        "회사",
+        "오후",
+        "카페"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_topic_particle_a1_v1",
+      "learning_object_id": "ko_grammar_topic_particle",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "은",
+        "는"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_subject_particle_a1_v1",
+      "learning_object_id": "ko_grammar_subject_particle",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "이",
+        "가"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_object_particle_a1_v1",
+      "learning_object_id": "ko_grammar_object_particle",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "을",
+        "를"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_location_particles_a1_v1",
+      "learning_object_id": "ko_grammar_location_particles",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "에",
+        "에서"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_polite_style_a1_v1",
+      "learning_object_id": "ko_grammar_polite_style",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "아요",
+        "어요",
+        "습니다"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_request_juseyo_a1_v1",
+      "learning_object_id": "ko_grammar_request_juseyo",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "주세요"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_numbers_counters_a1_v1",
+      "learning_object_id": "ko_grammar_numbers_counters",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "개",
+        "명"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_negation_a1_v1",
+      "learning_object_id": "ko_grammar_negation",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "안",
+        "못"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_copula_a1_v1",
+      "learning_object_id": "ko_grammar_copula",
+      "object_type": "grammar_pattern",
+      "controlled_terms": [
+        "이에요",
+        "예요"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_food_drink_a1_v1",
+      "learning_object_id": "ko_vocab_food_drink",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "밥",
+        "물",
+        "커피",
+        "빵",
+        "우유"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_hotel_a1_v1",
+      "learning_object_id": "ko_vocab_hotel",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "호텔",
+        "방",
+        "카드",
+        "열쇠",
+        "아침"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_directions_places_a1_v1",
+      "learning_object_id": "ko_vocab_directions_places",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "역",
+        "길",
+        "오른쪽",
+        "왼쪽",
+        "화장실"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_money_payment_a1_v1",
+      "learning_object_id": "ko_vocab_money_payment",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "돈",
+        "가격",
+        "카드",
+        "현금",
+        "영수증"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_time_schedule_a1_v1",
+      "learning_object_id": "ko_vocab_time_schedule",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "시간",
+        "아침",
+        "오후",
+        "분",
+        "약속"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_self_intro_identity_a1_v1",
+      "learning_object_id": "ko_vocab_self_intro_identity",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "이름",
+        "저",
+        "한국",
+        "학생",
+        "친구"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_social_meeting_a1_v1",
+      "learning_object_id": "ko_vocab_social_meeting",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "안녕하세요",
+        "친구",
+        "만나요",
+        "고마워요",
+        "안녕히 가세요"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_digital_phone_wifi_a1_v1",
+      "learning_object_id": "ko_vocab_digital_phone_wifi",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "전화",
+        "휴대폰",
+        "와이파이",
+        "충전",
+        "비밀번호"
+      ],
+      "row_count": 6
+    },
+    {
+      "surface_id": "ko_reading_shopping_services_a1_v1",
+      "learning_object_id": "ko_vocab_shopping_services",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "가게",
+        "물건",
+        "직원",
+        "계산대",
+        "봉투"
+      ],
+      "row_count": 5
+    },
+    {
+      "surface_id": "ko_reading_lost_items_a1_v1",
+      "learning_object_id": "ko_vocab_lost_items",
+      "object_type": "vocab_domain",
+      "controlled_terms": [
+        "가방",
+        "지갑",
+        "분실물",
+        "직원",
+        "이름"
+      ],
+      "row_count": 5
+    }
+  ],
+  "row_count": 147
+}

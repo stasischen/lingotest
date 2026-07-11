@@ -1,0 +1,186 @@
+{
+  "schema_version": "vocab_taxonomy_i18n.v1",
+  "pos_groups": {
+    "noun": {
+      "label": "名詞"
+    },
+    "verb": {
+      "label": "動詞"
+    },
+    "adjective": {
+      "label": "形容詞"
+    },
+    "adverb": {
+      "label": "副詞"
+    },
+    "determiner": {
+      "label": "冠形詞"
+    },
+    "particle": {
+      "label": "助詞"
+    },
+    "ending": {
+      "label": "詞尾"
+    },
+    "expression": {
+      "label": "語句/感嘆詞"
+    },
+    "honorific": {
+      "label": "稱謂/敬稱"
+    },
+    "grammar_marker": {
+      "label": "語法標記"
+    }
+  },
+  "categories": {
+    "people": {
+      "label": "人物與關係",
+      "description": "家人、朋友、職業以外的稱呼"
+    },
+    "occupations": {
+      "label": "職業與工作",
+      "description": "各行各業、職場相關詞彙"
+    },
+    "body_parts": {
+      "label": "身體部位",
+      "description": "五官、內臟、肢體"
+    },
+    "health_symptoms": {
+      "label": "健康與症狀",
+      "description": "疾病、醫院、生病時的感受"
+    },
+    "emotions": {
+      "label": "情緒與心理",
+      "description": "喜怒哀樂、內心感受"
+    },
+    "personality": {
+      "label": "性格與特徵",
+      "description": "人的個性、特質描述"
+    },
+    "food_general": {
+      "label": "食物與飲食",
+      "description": "一般食物、正餐、餐廳相關"
+    },
+    "ingredients": {
+      "label": "食材與配料",
+      "description": "蔬菜、肉類、調味料"
+    },
+    "cooking_methods": {
+      "label": "烹飪與下廚",
+      "description": "切、煮、炒等動作"
+    },
+    "beverages": {
+      "label": "飲料與咖啡廳",
+      "description": "水、果汁、咖啡、酒"
+    },
+    "places": {
+      "label": "場所與地點",
+      "description": "公共場所、城市、國家"
+    },
+    "buildings": {
+      "label": "建築與空間",
+      "description": "房屋、設施、建築物內部"
+    },
+    "home_items": {
+      "label": "家居與日用品",
+      "description": "家具、家電、生活雜物"
+    },
+    "clothing": {
+      "label": "衣服與穿著",
+      "description": "服裝、飾品、穿衣動作"
+    },
+    "weather": {
+      "label": "天氣與季節",
+      "description": "晴雨、冷熱、四季"
+    },
+    "nature": {
+      "label": "自然與環境",
+      "description": "山川、地理、宇宙"
+    },
+    "animals": {
+      "label": "動物與生物",
+      "description": "寵物、野生動物、昆蟲"
+    },
+    "transportation": {
+      "label": "交通工具",
+      "description": "汽機車、捷運、飛機"
+    },
+    "directions": {
+      "label": "方向與位置",
+      "description": "上下左右、東南西北"
+    },
+    "clock_time": {
+      "label": "時間點",
+      "description": "幾點幾分、時段"
+    },
+    "calendar_time": {
+      "label": "曆法時間",
+      "description": "日期、星期、月份"
+    },
+    "relative_time": {
+      "label": "相對時間",
+      "description": "昨天、現在、以後"
+    },
+    "numbers": {
+      "label": "數字與計算",
+      "description": "數詞、量詞、數學"
+    },
+    "money": {
+      "label": "金錢與財政",
+      "description": "貨幣、銀行、薪水"
+    },
+    "shopping": {
+      "label": "購物與消費",
+      "description": "買賣、價格、店鋪行為"
+    },
+    "devices": {
+      "label": "裝置與硬體",
+      "description": "手機、電腦、電子產品"
+    },
+    "online_life": {
+      "label": "網路與科技",
+      "description": "社群、APP、網際網路"
+    },
+    "speech_acts": {
+      "label": "言詞與溝通",
+      "description": "說話、聽講、對話行為"
+    },
+    "preference": {
+      "label": "愛好與選擇",
+      "description": "最喜歡、挑選、偏好"
+    },
+    "obligation_permission": {
+      "label": "義務與許可",
+      "description": "必須、可以、禁止"
+    },
+    "shapes": {
+      "label": "形狀與樣式",
+      "description": "圓方、長短、圖案"
+    },
+    "colors": {
+      "label": "顏色與光澤",
+      "description": "紅橙黃綠、明亮黑暗"
+    },
+    "sizes": {
+      "label": "大小與程度",
+      "description": "大中小、非常、稍微"
+    },
+    "social_etiquette": {
+      "label": "社交與禮儀",
+      "description": "禮貌用語、問候"
+    },
+    "greetings": {
+      "label": "招呼用語",
+      "description": "你好、再見、祝賀"
+    },
+    "learning": {
+      "label": "學習與教育",
+      "description": "學校、課業、學習行為、文化"
+    },
+    "abstract_concepts": {
+      "label": "抽象概念",
+      "description": "事實、原因、方式、程度等邏輯概念"
+    }
+  },
+  "support_language": "zh_tw"
+}

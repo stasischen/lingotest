@@ -1,0 +1,5044 @@
+{
+  "schema_version": "a1_runtime_scenario_packs.v1",
+  "language": "ja",
+  "review_ceiling": "native_pending",
+  "promotion": "owner_decision_20260619_native_waived",
+  "scenario_packs": [
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "convenience_payment_card_cash",
+      "brief_id": "ml0_a1_004_convenience_payment_card_cash",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#brief-ml0-a1-004-convenience-store-payment",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/convenience_payment_card_cash.ja.v1.json",
+      "title": "コンビニで支払う",
+      "setting_label": "コンビニのレジ",
+      "wrap_title": "コンビニで支払いできました",
+      "wrap_friend": "短い言い方でカード払いを伝え、袋やレシートの質問にも答えられました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在日本便利商店櫃台，想用卡付款。聽店員問付款方式，選一句自然接得上這個目標的日文。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "payment_method_question",
+          "act_slots": {
+            "topic": "付款方式",
+            "keyword": "お支払い",
+            "gloss": "付款"
+          },
+          "learning_role": "listen_only",
+          "surface": "お会計は520円です。お支払いは現金ですか、カードですか。",
+          "speak": "お会計は520円です。お支払いは現金ですか、カードですか。",
+          "translation": "總共五百二十日圓。您要付現金還是刷卡？",
+          "friend": {
+            "hint": "店員在問付款方式。要刷卡時，可以說「カードでお願いします」。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.store.payment.card_cash.v1",
+            "formula_ref": null,
+            "title": "カード / 現金",
+            "explain": "「カード」是卡片，「現金」是現金。用「〜でお願いします」可以自然回答付款方式。",
+            "items": [
+              {
+                "surface": "カードでお願いします。",
+                "translation": "麻煩刷卡。",
+                "speak": "カードでお願いします。"
+              },
+              {
+                "surface": "現金でお願いします。",
+                "translation": "麻煩付現金。",
+                "speak": "現金でお願いします。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "カードでお願いします。",
+                "translation": "麻煩刷卡。",
+                "speak": "カードでお願いします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "カードは520円ですか。",
+                "translation": "卡片是520日圓嗎？",
+                "speak": "カードはごひゃくにじゅうえんですか。",
+                "contrast_type": "confuses_payment_method_with_price",
+                "feedback": "店員問的是付款方式。卡片不是價格，想刷卡時說カードでお願いします。"
+              },
+              {
+                "id": "r1c",
+                "surface": "あとで払います。",
+                "translation": "我之後再付。",
+                "speak": "あとで払います。",
+                "contrast_type": "invalid_payment_timing",
+                "feedback": "在收銀台不能說之後再付。要回答付款方式。"
+              },
+              {
+                "id": "r1d",
+                "surface": "カードをください。",
+                "translation": "請給我卡片。",
+                "speak": "カードをください。",
+                "contrast_type": "asks_for_card_instead_of_payment_method",
+                "feedback": "這像是在向店員要卡片，不是在回答用卡付款。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "payment_instruction",
+          "act_slots": {
+            "topic": "刷卡指示",
+            "keyword": "タッチ",
+            "gloss": "感應"
+          },
+          "learning_role": "listen_only",
+          "surface": "こちらにタッチしてください。",
+          "speak": "こちらにタッチしてください。",
+          "translation": "請感應這裡。",
+          "friend": {
+            "hint": "店員要你把卡片感應在這裡。簡短回答「はい」就可以。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "はい。",
+                "translation": "好。",
+                "speak": "はい。"
+              },
+              {
+                "id": "r2b",
+                "surface": "暗証番号ですか。",
+                "translation": "是密碼嗎？",
+                "speak": "暗証番号ですか。",
+                "contrast_type": "confuses_card_action",
+                "feedback": "店員請你感應卡片，不是在問密碼。"
+              },
+              {
+                "id": "r2c",
+                "surface": "レシートください。",
+                "translation": "請給我收據。",
+                "speak": "レシートください。",
+                "contrast_type": "receipt_request_before_payment_done",
+                "feedback": "付款還沒完成。先照店員說的感應。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "bag_question",
+          "act_slots": {
+            "topic": "袋子",
+            "keyword": "袋",
+            "gloss": "袋子"
+          },
+          "learning_role": "listen_only",
+          "surface": "袋はご利用ですか。",
+          "speak": "袋はご利用ですか。",
+          "translation": "需要袋子嗎？",
+          "friend": {
+            "hint": "袋是袋子。不要袋子時，可以說「袋はいりません」。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "袋はいりません。",
+                "translation": "不需要袋子。",
+                "speak": "袋はいりません。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "袋はどこですか。",
+                "translation": "袋子在哪裡？",
+                "speak": "袋はどこですか。",
+                "contrast_type": "bag_location_question_instead_of_need_answer",
+                "feedback": "這是在問袋子在哪裡，不是在回答要不要袋子。不要袋子時說「袋はいりません」。"
+              },
+              {
+                "id": "r3c",
+                "surface": "レシートはいりません。",
+                "translation": "不需要收據。",
+                "speak": "レシートはいりません。",
+                "contrast_type": "receipt_answer_to_bag_question",
+                "feedback": "這是在回答收據。店員現在問的是袋子。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "transaction_close",
+          "act_slots": {
+            "topic": "交易完成",
+            "keyword": "レシート",
+            "gloss": "收據"
+          },
+          "learning_role": "listen_only",
+          "surface": "レシートです。ありがとうございました。",
+          "speak": "レシートです。ありがとうございました。",
+          "translation": "這是收據。謝謝您。",
+          "friend": {
+            "hint": "交易結束了。用簡短的謝謝收尾就好。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ありがとうございます。",
+                "translation": "謝謝。",
+                "speak": "ありがとうございます。"
+              },
+              {
+                "id": "r4b",
+                "surface": "レシートはありますか。",
+                "translation": "有收據嗎？",
+                "speak": "レシートはありますか。",
+                "contrast_type": "asks_about_receipt_after_receipt_given",
+                "feedback": "店員已經說「レシートです」。這裡只要道謝。"
+              },
+              {
+                "id": "r4c",
+                "surface": "袋はありますか。",
+                "translation": "有袋子嗎？",
+                "speak": "袋はありますか。",
+                "contrast_type": "returns_to_bag_after_close",
+                "feedback": "袋子的問題已經結束了。交易完成時用謝謝收尾。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "handover",
+            "learning_role": "listen_only",
+            "surface": "またお越しください。",
+            "speak": "またお越しください。",
+            "translation": "歡迎再次光臨。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.store.payment.card_cash.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief, not Korean surface text.",
+        "review_policy": "AI-authored candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, or legacy content."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "core_repair_repeat_slowly",
+      "brief_id": "ml3_a1_014_core_repair_repeat_slowly",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml3-a1-014-ask-to-repeat-or-speak-slowly",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/core_repair_repeat_slowly.ja.v1.json",
+      "title": "もう一度お願いする",
+      "setting_label": "カフェのレジ",
+      "wrap_title": "聞き返せた",
+      "wrap_friend": "もう一度お願いし、ゆっくり話してもらい、質問に答えられました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在咖啡店櫃台沒聽清楚外帶或內用的問題。你的目標是外帶；先請對方重複，聽清楚後回答外帶。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "ask_counter_question",
+          "learning_role": "listen_only",
+          "surface": "店内ですか、お持ち帰りですか。",
+          "speak": "てんないですか、おもちかえりですか。",
+          "translation": "內用嗎？還是外帶？",
+          "friend": {
+            "hint": "你沒聽清楚。先請對方再說一次。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "すみません、もう一度お願いします。",
+                "translation": "不好意思，請再說一次。",
+                "speak": "すみません、もういちど、おねがいします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "はい、そうです。",
+                "translation": "是的，沒錯。",
+                "speak": "はい、そうです。",
+                "contrast_type": "blind_confirmation_before_understanding",
+                "feedback": "你還沒聽懂，先不要盲目確認。"
+              },
+              {
+                "id": "r1c",
+                "surface": "すみません、遅いです。",
+                "translation": "不好意思，太慢了。",
+                "speak": "すみません、おそいです。",
+                "contrast_type": "wrong_speed_repair",
+                "feedback": "你沒聽清楚時應該請對方再說一次，不是說太慢。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "repeat_question",
+          "learning_role": "listen_only",
+          "surface": "店内ですか、お持ち帰りですか。",
+          "speak": "てんないですか、おもちかえりですか。",
+          "translation": "內用嗎？還是外帶？",
+          "friend": {
+            "hint": "還是太快。請對方說慢一點。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.repair.slowly.v1",
+            "formula_ref": null,
+            "title": "ゆっくりお願いします",
+            "explain": "速くて聞き取れない時に、短く丁寧にお願いする表現です。",
+            "items": [
+              {
+                "surface": "ゆっくりお願いします。",
+                "translation": "請慢一點。",
+                "speak": "ゆっくり、おねがいします。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ゆっくりお願いします。",
+                "translation": "請慢一點。",
+                "speak": "ゆっくり、おねがいします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "店内でお願いします。",
+                "translation": "麻煩內用。",
+                "speak": "店内でお願いします。",
+                "contrast_type": "answers_before_requesting_slow_repeat",
+                "feedback": "還沒聽清楚時，不要猜答案。先請對方慢一點。"
+              },
+              {
+                "id": "r2c",
+                "surface": "持ち帰りですか。",
+                "translation": "是外帶嗎？",
+                "speak": "持ち帰りですか。",
+                "contrast_type": "guesses_one_option_as_question",
+                "feedback": "這是在猜其中一個選項。聽不清楚時先請對方慢慢說。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "slow_restate",
+          "learning_role": "listen_only",
+          "surface": "店内ですか。お持ち帰りですか。",
+          "speak": "てんないですか。おもちかえりですか。",
+          "translation": "內用嗎？外帶嗎？",
+          "friend": {
+            "hint": "現在問題清楚了。你要外帶，所以簡短回答お持ち帰り。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "持ち帰りでお願いします。ありがとうございます。",
+                "translation": "外帶，麻煩你。謝謝。",
+                "speak": "もちかえりで、おねがいします。ありがとうございます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "店内でお願いします。",
+                "translation": "麻煩內用。",
+                "speak": "てんないでおねがいします。",
+                "contrast_type": "wrong_option_after_slow_restate",
+                "feedback": "對方已慢慢說清楚。這一輪目標是選外帶，不是內用。"
+              },
+              {
+                "id": "r4c",
+                "surface": "店内ですか。",
+                "translation": "內用嗎？",
+                "speak": "店内ですか。",
+                "contrast_type": "repeats_half_question_after_clear_prompt",
+                "feedback": "對方已慢慢重說兩個選項。現在要選店内或持ち帰り。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "service_close",
+          "learning_role": "listen_only",
+          "surface": "はい、大丈夫です。",
+          "speak": "はい、だいじょうぶです。",
+          "translation": "好的，沒問題。",
+          "friend": {
+            "hint": "對方已經理解你的回答。最後道謝。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ありがとうございます。",
+                "translation": "謝謝。",
+                "speak": "ありがとうございます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "持ち帰りでお願いします。",
+                "translation": "麻煩外帶。",
+                "speak": "もちかえりでおねがいします。",
+                "contrast_type": "answers_old_choice_after_close",
+                "feedback": "服務流程已結束。店員說大丈夫時，道謝即可。"
+              },
+              {
+                "id": "r4c",
+                "surface": "店内でお願いします。",
+                "translation": "麻煩內用。",
+                "speak": "店内でお願いします。",
+                "contrast_type": "answers_old_service_choice_after_close",
+                "feedback": "服務流程已收尾。這裡回謝謝即可。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "core_repair_repeat_slowly_complete",
+            "learning_role": "listen_only",
+            "surface": "はい、大丈夫です。",
+            "speak": "はい、だいじょうぶです。",
+            "translation": "好的，沒問題。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.repair.repeat.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.repair.slowly.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "ja.repair.answer_after_repair.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-3 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, or legacy content.",
+        "register_note": "Polite but simple repair Japanese for a cafe counter."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "daily_meet_friend",
+      "brief_id": "ml2_a1_010_daily_meet_friend",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml2-a1-010-meet-a-friend",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/daily_meet_friend.ja.v1.json",
+      "title": "友だちと会う",
+      "setting_label": "カフェの入口",
+      "wrap_title": "友だちに会えた",
+      "wrap_friend": "友だちにあいさつして、予定を確認し、出発できました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你已經準備好，正在咖啡店入口和朋友碰面去看電影。選自然、簡短的日文回應。",
+      "roles": {
+        "npc": {
+          "label": "友だち"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "friend_greeting",
+          "learning_role": "listen_only",
+          "surface": "あ、来たね。",
+          "speak": "あ、来たね。",
+          "translation": "啊，你來了。",
+          "friend": {
+            "hint": "朋友用輕鬆語氣打招呼。回一句嗨和很高興見到你。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "こんにちは。会えてうれしい。",
+                "translation": "你好。很高興見到你。",
+                "speak": "こんにちは。会えてうれしい。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "まだ着いていないよ。",
+                "translation": "我還沒到喔。",
+                "speak": "まだついていないよ。",
+                "contrast_type": "contradicts_arrival_greeting",
+                "feedback": "朋友已經看到你來了。這句和場面矛盾。"
+              },
+              {
+                "id": "r1c",
+                "surface": "映画はもう終わったね。",
+                "translation": "電影已經結束了呢。",
+                "speak": "映画はもう終わったね。",
+                "contrast_type": "wrong_timing_before_movie",
+                "feedback": "你們正要去看電影，還沒看完。先回應朋友的打招呼。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "confirm_plan",
+          "learning_role": "listen_only",
+          "surface": "映画に行くんだよね。",
+          "speak": "えいがに、いくんだよね。",
+          "translation": "我們是要去看電影，對吧？",
+          "friend": {
+            "hint": "朋友在確認計畫。用そうだよ簡短回答。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.friend.plan_confirm.v1",
+            "formula_ref": null,
+            "title": "そうだよ",
+            "explain": "友だちとの会話で、予定を短く確認する自然な表現です。",
+            "items": [
+              {
+                "surface": "うん、そうだよ。",
+                "translation": "嗯，沒錯。",
+                "speak": "うん、そうだよ。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "うん、そうだよ。",
+                "translation": "嗯，沒錯。",
+                "speak": "うん、そうだよ。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "今日はカフェに行くんだよね。",
+                "translation": "今天是去咖啡店對吧？",
+                "speak": "今日はカフェに行くんだよね。",
+                "contrast_type": "wrong_plan_confirmation",
+                "feedback": "朋友確認的是電影，不是咖啡店。"
+              },
+              {
+                "id": "r2c",
+                "surface": "まだ決めていないよ。",
+                "translation": "還沒決定喔。",
+                "speak": "まだ決めていないよ。",
+                "contrast_type": "contradicts_existing_plan",
+                "feedback": "你們已經約好去看電影。這裡要確認計畫。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "ask_ready",
+          "learning_role": "listen_only",
+          "surface": "もう行ける？",
+          "speak": "もう、いける？",
+          "translation": "可以走了嗎？",
+          "friend": {
+            "hint": "朋友問你準備好了沒。你已經準備好了，回答可以走了。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "うん、行こう。",
+                "translation": "嗯，走吧。",
+                "speak": "うん、行こう。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "まだ少し待って。",
+                "translation": "再等我一下。",
+                "speak": "まだ少し待って。",
+                "contrast_type": "not_ready_yet",
+                "feedback": "朋友問能不能走了。準備好了時說行こう。"
+              },
+              {
+                "id": "r4c",
+                "surface": "映画はもう終わった？",
+                "translation": "電影已經結束了嗎？",
+                "speak": "映画はもう終わった？",
+                "contrast_type": "wrong_timing_instead_of_ready_answer",
+                "feedback": "你們還沒出發去看電影。朋友問能不能走，準備好了時說行こう。"
+              }
+            ]
+          },
+          "runtime_note": "Reply choices mirror the next learner response so the current prototype can render every round."
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "final_ready_check",
+          "learning_role": "listen_only",
+          "surface": "じゃあ、行ける？",
+          "speak": "じゃあ、いける？",
+          "translation": "那可以走了嗎？",
+          "friend": {
+            "hint": "朋友最後確認能不能出發。你已經準備好了，就說出発しよう。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "うん、出発しよう。",
+                "translation": "嗯，出發吧。",
+                "speak": "うん、しゅっぱつしよう。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "もう少し待って。",
+                "translation": "再等一下。",
+                "speak": "もう少し待って。",
+                "contrast_type": "not_ready_close",
+                "feedback": "這表示還不能走。準備好了要說行こう。"
+              },
+              {
+                "id": "r4c",
+                "surface": "カフェに戻ろう。",
+                "translation": "回咖啡店吧。",
+                "speak": "カフェに戻ろう。",
+                "contrast_type": "wrong_direction_after_meeting",
+                "feedback": "朋友問能不能出發。要去看電影時說走吧。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "meeting_complete",
+            "learning_role": "listen_only",
+            "surface": "友だちに会って、出発できます。",
+            "speak": "ともだちにあって、しゅっぱつできます。",
+            "translation": "你見到朋友，可以出發了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.friend.plan_confirm.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "ja.friend.ready_go.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-2 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, or legacy content.",
+        "register_note": "Friendly casual Japanese; not service or business register."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "daily_schedule_time",
+      "brief_id": "ml0_a1_005_daily_schedule_time",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#brief-ml0-a1-005-scheduling-a-time",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/daily_schedule_time.ja.v1.json",
+      "title": "会う時間を決める",
+      "setting_label": "友だちとの予定",
+      "wrap_title": "会う時間を決められました",
+      "wrap_friend": "カジュアルな言い方で時間を提案し、最後に予定を確認できました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在和日本朋友約時間。聽對方問什麼，選一句自然接得上的日文。",
+      "roles": {
+        "npc": {
+          "label": "友だち"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "ask_time",
+          "act_slots": {
+            "topic": "約時間",
+            "keyword": "何時",
+            "gloss": "幾點"
+          },
+          "learning_role": "listen_only",
+          "surface": "明日、何時に会う？",
+          "speak": "明日、何時に会う？",
+          "translation": "明天幾點見？",
+          "friend": {
+            "hint": "對方在問時間。可以用「3時はどう？」提議三點。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.schedule.time_suggestion.v1",
+            "formula_ref": null,
+            "title": "何時 / 3時",
+            "explain": "「何時」是幾點。提議時間時，可以說「3時はどう？」。",
+            "items": [
+              {
+                "surface": "何時に会う？",
+                "translation": "幾點見？",
+                "speak": "何時に会う？"
+              },
+              {
+                "surface": "3時はどう？",
+                "translation": "三點怎麼樣？",
+                "speak": "3時はどう？"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "3時はどう？",
+                "translation": "三點怎麼樣？",
+                "speak": "3時はどう？",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "駅で会おう。",
+                "translation": "在車站見吧。",
+                "speak": "駅で会おう。",
+                "contrast_type": "location_answer_when_time_requested",
+                "feedback": "這是在說地點。對方現在問的是幾點。"
+              },
+              {
+                "id": "r1c",
+                "surface": "今日は行けない。",
+                "translation": "今天不能去。",
+                "speak": "今日は行けない。",
+                "contrast_type": "wrong_act_refusal",
+                "feedback": "這像是在拒絕。這裡要先回答或提議時間。"
+              },
+              {
+                "id": "r1d",
+                "surface": "明日です。",
+                "translation": "是明天。",
+                "speak": "明日です。",
+                "contrast_type": "wrong_day_time_answer",
+                "feedback": "日期已經知道是明天。現在要說幾點。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "confirm_availability",
+          "act_slots": {
+            "topic": "確認時間",
+            "keyword": "大丈夫",
+            "gloss": "可以"
+          },
+          "learning_role": "listen_only",
+          "surface": "3時で大丈夫。駅でいい？",
+          "speak": "3時で大丈夫。駅でいい？",
+          "translation": "三點可以。在車站可以嗎？",
+          "friend": {
+            "hint": "時間確定了，對方又確認地點。可以簡短回答可以。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "うん、駅で。",
+                "translation": "嗯，在車站。",
+                "speak": "うん、駅で。"
+              },
+              {
+                "id": "r2b",
+                "surface": "4時なら大丈夫。",
+                "translation": "四點的話可以。",
+                "speak": "4時なら大丈夫。",
+                "contrast_type": "changes_confirmed_time",
+                "feedback": "朋友已經接受三點，現在是在確認地點。"
+              },
+              {
+                "id": "r2c",
+                "surface": "カフェは何時でいい？",
+                "translation": "咖啡店幾點可以嗎？",
+                "speak": "カフェは何時でいい？",
+                "contrast_type": "mixes_location_and_time_confirmation",
+                "feedback": "朋友已經接受三點，現在是在確認駅這個地點。不要把地點和時間混在一起。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "plan_confirmation",
+          "act_slots": {
+            "topic": "予定確認",
+            "keyword": "明日3時",
+            "gloss": "明天三點"
+          },
+          "learning_role": "listen_only",
+          "surface": "じゃあ、明日3時に駅ね。",
+          "speak": "じゃあ、明日3時に駅ね。",
+          "translation": "那明天三點在車站喔。",
+          "friend": {
+            "hint": "對方在總結約定。用「また明日」自然收尾。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "うん、また明日。",
+                "translation": "嗯，明天見。",
+                "speak": "うん、また明日。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "カフェの前ね。",
+                "translation": "咖啡店前面喔。",
+                "speak": "カフェのまえね。",
+                "contrast_type": "wrong_location_confirmation",
+                "feedback": "約定是駅，不是カフェ。"
+              },
+              {
+                "id": "r3c",
+                "surface": "行けません。",
+                "translation": "不能去。",
+                "speak": "行けません。",
+                "contrast_type": "wrong_act_refusal",
+                "feedback": "這樣會突然取消。約定沒問題時，簡短確認即可。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "closing",
+          "act_slots": {
+            "topic": "結束對話",
+            "keyword": "また明日",
+            "gloss": "明天見"
+          },
+          "learning_role": "listen_only",
+          "surface": "また明日。",
+          "speak": "また明日。",
+          "translation": "明天見。",
+          "friend": {
+            "hint": "對話結束了。你可以簡短回應。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "うん、またね。",
+                "translation": "嗯，再見。",
+                "speak": "うん、またね。"
+              },
+              {
+                "id": "r4b",
+                "surface": "今日3時ね。",
+                "translation": "今天三點喔。",
+                "speak": "きょうさんじね。",
+                "contrast_type": "wrong_day_at_closing",
+                "feedback": "約的是明日，不是今日。"
+              },
+              {
+                "id": "r4c",
+                "surface": "カフェで待ってるね。",
+                "translation": "我會在咖啡店等你。",
+                "speak": "カフェでまってるね。",
+                "contrast_type": "wrong_location_at_closing",
+                "feedback": "約定地點是駅，不是カフェ。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "plan_set",
+            "learning_role": "listen_only",
+            "surface": "予定が決まりました。",
+            "speak": "予定が決まりました。",
+            "translation": "行程約好了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.schedule.time_suggestion.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief, not Korean surface text.",
+        "review_policy": "AI-authored candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, or legacy content.",
+        "register_note": "Uses casual friend speech consistently for the scheduling scenario."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "daily_self_intro",
+      "brief_id": "ml3_a1_012_daily_self_intro",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml3-a1-012-daily-self-introduction",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/daily_self_intro.ja.v1.json",
+      "title": "自己紹介をする",
+      "setting_label": "語学交流のテーブル",
+      "wrap_title": "自己紹介できた",
+      "wrap_friend": "名前を言い、勉強していることを短く伝え、個人情報を出さずにあいさつできました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在語言交流活動第一次見到新朋友。選自然、簡短的日文回應。",
+      "roles": {
+        "npc": {
+          "label": "新しい友だち"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "first_meeting_greeting",
+          "learning_role": "listen_only",
+          "surface": "はじめまして。まやです。お名前は？",
+          "speak": "はじめまして。まやです。おなまえは？",
+          "translation": "初次見面。我是 Maya。你叫什麼名字？",
+          "friend": {
+            "hint": "對方先說名字。用です簡短介紹自己。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "はじめまして。アレックスです。",
+                "translation": "初次見面。我是 Alex。",
+                "speak": "はじめまして。アレックスです。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "まやです。",
+                "translation": "我是 Maya。",
+                "speak": "まやです。",
+                "contrast_type": "repeats_other_person_name",
+                "feedback": "對方已經說她叫まや。你要說自己的名字。"
+              },
+              {
+                "id": "r1c",
+                "surface": "名前はまだ言いません。",
+                "translation": "我還不說名字。",
+                "speak": "名前はまだ言いません。",
+                "contrast_type": "refuses_name_in_intro",
+                "feedback": "初次見面被問名字時，自然回答自己的名字。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_learning_language",
+          "learning_role": "listen_only",
+          "surface": "日本語を勉強していますか。",
+          "speak": "にほんごを、べんきょうしていますか。",
+          "translation": "你在學日文嗎？",
+          "friend": {
+            "hint": "對方問你是不是在學日文。用はい簡短回答。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.self_intro.learning_language.v1",
+            "formula_ref": null,
+            "title": "日本語を勉強しています",
+            "explain": "初対面で、勉強している言語を短く伝える自然な表現です。",
+            "items": [
+              {
+                "surface": "はい、日本語を勉強しています。",
+                "translation": "是的，我在學日文。",
+                "speak": "はい、にほんごを、べんきょうしています。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "はい、日本語を勉強しています。",
+                "translation": "是的，我在學日文。",
+                "speak": "はい、にほんごを、べんきょうしています。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "アレックスです。",
+                "translation": "我是 Alex。",
+                "speak": "アレックスです。",
+                "contrast_type": "repeat_name_after_new_question",
+                "feedback": "你已經說過名字；現在要回答是不是在學日文。"
+              },
+              {
+                "id": "r2c",
+                "surface": "英語を勉強しています。",
+                "translation": "我在學英文。",
+                "speak": "えいごをべんきょうしています。",
+                "contrast_type": "wrong_language_answer",
+                "feedback": "對方問的是日本語。這一輪要回答正在學日文。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "friendly_close",
+          "learning_role": "listen_only",
+          "surface": "いいですね。よろしくお願いします。",
+          "speak": "いいですね。よろしくおねがいします。",
+          "translation": "很好呢。請多指教。",
+          "friend": {
+            "hint": "對方友善收尾。用こちらこそ簡短回應。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "こちらこそ、よろしくお願いします。",
+                "translation": "我也請你多指教。",
+                "speak": "こちらこそ、よろしくおねがいします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "よろしくお願いしました。",
+                "translation": "已經請多指教了。",
+                "speak": "よろしくおねがいしました。",
+                "contrast_type": "wrong_tense_for_greeting",
+                "feedback": "這用了過去式，初次見面當下不自然。要用こちらこそ、よろしくお願いします。"
+              },
+              {
+                "id": "r4c",
+                "surface": "いつもお世話になっております。",
+                "translation": "一直承蒙照顧。",
+                "speak": "いつも、おせわになっております。",
+                "contrast_type": "overformal_business_greeting",
+                "feedback": "這太像商務信件或公司場合，不適合語言交流桌。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "friendly_continue",
+          "learning_role": "listen_only",
+          "surface": "では、よろしくお願いします。",
+          "speak": "では、よろしくおねがいします。",
+          "translation": "那就請多指教。",
+          "friend": {
+            "hint": "對方準備開始活動。用「はい、お願いします」自然回應。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "はい、お願いします。",
+                "translation": "好的，麻煩你。",
+                "speak": "はい、おねがいします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "はじめまして。",
+                "translation": "初次見面。",
+                "speak": "はじめまして。",
+                "contrast_type": "restarts_greeting_at_close",
+                "feedback": "已經打過招呼。這裡要接よろしくお願いします。"
+              },
+              {
+                "id": "r4c",
+                "surface": "いつもお世話になっております。",
+                "translation": "一直承蒙照顧。",
+                "speak": "いつも、おせわになっております。",
+                "contrast_type": "overformal_business_greeting",
+                "feedback": "這太像商務信件或公司場合，不適合語言交流桌。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "daily_self_intro_complete",
+            "learning_role": "listen_only",
+            "surface": "では、よろしくお願いします。",
+            "speak": "では、よろしくおねがいします。",
+            "translation": "那就請多指教。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.self_intro.name.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.self_intro.learning_language.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "ja.self_intro.yoroshiku.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-3 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, or legacy content.",
+        "register_note": "Beginner-safe first-meeting Japanese with polite desu/masu; avoids stiff business formulas."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "digital_battery_charging",
+      "brief_id": "ml5_a1_018_digital_battery_charging",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml5-a1-018-ask-permission-to-charge-a-phone",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/digital_battery_charging.ja.v1.json",
+      "title": "スマホを充電する",
+      "setting_label": "カフェのカウンター",
+      "wrap_title": "充電してよいか聞けました",
+      "wrap_friend": "充電の許可を聞き、コンセントの場所を確認して、お礼を言えました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在日本咖啡店想幫手機充電。選自然、簡短的日文。",
+      "roles": {
+        "npc": {
+          "label": "スタッフ"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "learning_role": "listen_only",
+          "surface": "何かお困りですか。",
+          "speak": "何かお困りですか。",
+          "translation": "有什麼需要幫忙嗎？",
+          "friend": {
+            "hint": "先用自然的日文問能不能充手機。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.digital.charge_permission.v1",
+            "formula_ref": null,
+            "title": "充電してもいいですか",
+            "explain": "問可不可以做某事時，可以用「てもいいですか」。",
+            "items": [
+              {
+                "surface": "すみません、スマホを充電してもいいですか。",
+                "translation": "不好意思，可以充手機嗎？",
+                "speak": "すみません、スマホを充電してもいいですか。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "すみません、スマホを充電してもいいですか。",
+                "translation": "不好意思，可以充手機嗎？",
+                "speak": "すみません、スマホを充電してもいいですか。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "もう充電できました。",
+                "translation": "已經充好電了。",
+                "speak": "もうじゅうでんできました。",
+                "contrast_type": "problem_already_solved",
+                "feedback": "對方問你有什麼困難。若已經充好了，就不需要請求充電。"
+              },
+              {
+                "id": "r1c",
+                "surface": "充電器を買えますか。",
+                "translation": "可以買充電器嗎？",
+                "speak": "充電器を買えますか。",
+                "contrast_type": "purchase_question_instead_of_permission",
+                "feedback": "這是在問購買。目標是在這裡借用插座充電。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "grant_permission",
+          "learning_role": "listen_only",
+          "surface": "はい、大丈夫ですよ。",
+          "speak": "はい、大丈夫ですよ。",
+          "translation": "可以，沒問題。",
+          "friend": {
+            "hint": "對方同意了。問插座在哪裡。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.digital.outlet_location.v1",
+            "formula_ref": null,
+            "title": "コンセントはどこですか",
+            "explain": "在日本日常說插座常用「コンセント」。",
+            "items": [
+              {
+                "surface": "コンセントはどこですか。",
+                "translation": "插座在哪裡？",
+                "speak": "コンセントはどこですか。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "コンセントはどこですか。",
+                "translation": "插座在哪裡？",
+                "speak": "コンセントはどこですか。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "スマホを充電してもいいですか。",
+                "translation": "可以充手機嗎？",
+                "speak": "スマホを充電してもいいですか。",
+                "contrast_type": "repeat_permission_after_permission_granted",
+                "feedback": "對方已經同意了。現在要問插座位置。"
+              },
+              {
+                "id": "r2c",
+                "surface": "コンセントは何円ですか。",
+                "translation": "插座幾日圓？",
+                "speak": "コンセントはなんえんですか。",
+                "contrast_type": "asks_price_instead_of_location",
+                "feedback": "對方已經同意你充電。接著要問插座在哪裡，不是問插座的價格。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "give_outlet_location",
+          "learning_role": "listen_only",
+          "surface": "左のテーブルの下にあります。",
+          "speak": "左のテーブルの下にあります。",
+          "translation": "在左邊桌子下面。",
+          "friend": {
+            "hint": "確認你聽到的位置。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "左のテーブルの下ですね。",
+                "translation": "左邊桌子下面對吧。",
+                "speak": "左のテーブルの下ですね。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "右のテーブルの下ですね。",
+                "translation": "右邊桌子下面對吧？",
+                "speak": "右のテーブルの下ですね。",
+                "contrast_type": "wrong_location_confirmation",
+                "feedback": "對方說的是左のテーブルの下。"
+              },
+              {
+                "id": "r3c",
+                "surface": "テーブルの上ですね。",
+                "translation": "桌子上面對吧？",
+                "speak": "テーブルの上ですね。",
+                "contrast_type": "wrong_position_confirmation",
+                "feedback": "對方說在桌子下面，不是在上面。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "confirm_location",
+          "learning_role": "listen_only",
+          "surface": "はい、そこを使ってください。",
+          "speak": "はい、そこを使ってください。",
+          "translation": "對，請用那裡。",
+          "friend": {
+            "hint": "對方確認了。簡短道謝即可。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ありがとうございます。",
+                "translation": "謝謝。",
+                "speak": "ありがとうございます。"
+              },
+              {
+                "id": "r4b",
+                "surface": "左のテーブルですね。",
+                "translation": "左邊桌子對吧？",
+                "speak": "左のテーブルですね。",
+                "contrast_type": "partial_location_repeat_at_close",
+                "feedback": "位置已確認，店員讓你使用時道謝即可。"
+              },
+              {
+                "id": "r4c",
+                "surface": "もう充電できました。",
+                "translation": "已經充好電了。",
+                "speak": "もうじゅうでんできました。",
+                "contrast_type": "claims_charged_before_using_outlet",
+                "feedback": "你還沒開始使用插座。對方已經准許，這時道謝即可。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "charging_help_complete",
+            "learning_role": "listen_only",
+            "surface": "充電の許可を聞き、場所も確認しました。",
+            "speak": "充電の許可を聞き、場所も確認しました。",
+            "translation": "你詢問了充電許可，也確認了位置。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.digital.charge_permission.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.digital.outlet_location.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "ja.digital.thanks.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-5 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, runtime exports, frontend, or legacy content.",
+        "register_note": "Uses natural public-venue Japanese and avoids adapter specs, battery health, electrical safety, and paid charging disputes."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "digital_wifi_connect",
+      "brief_id": "ml4_a1_017_digital_wifi_connect",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml4-a1-017-ask-for-wi-fi-and-say-it-will-not-connect",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/digital_wifi_connect.ja.v1.json",
+      "title": "Wi-Fiにつなぐ",
+      "setting_label": "カフェのカウンター",
+      "wrap_title": "Wi-Fiの問題を伝えられました",
+      "wrap_friend": "パスワードを聞き、試して、つながらないことを伝えてお礼を言えました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在日本咖啡店或飯店櫃台，需要連Wi-Fi。選自然、簡短的日文。",
+      "roles": {
+        "npc": {
+          "label": "スタッフ"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "learning_role": "listen_only",
+          "surface": "何かお困りですか。",
+          "speak": "何かお困りですか。",
+          "translation": "有什麼需要幫忙嗎？",
+          "friend": {
+            "hint": "你需要Wi-Fi密碼。自然地請對方告訴你。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.digital.wifi_password.v1",
+            "formula_ref": null,
+            "title": "教えてください",
+            "explain": "請對方告訴你資訊時，可以用「教えてください」。",
+            "items": [
+              {
+                "surface": "Wi-Fiのパスワードを教えてください。",
+                "translation": "請告訴我Wi-Fi密碼。",
+                "speak": "Wi-Fiのパスワードを教えてください。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "Wi-Fiのパスワードを教えてください。",
+                "translation": "請告訴我Wi-Fi密碼。",
+                "speak": "Wi-Fiのパスワードを教えてください。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "もうWi-Fiにつながりました。",
+                "translation": "已經連上 Wi-Fi 了。",
+                "speak": "もうWi-Fiにつながりました。",
+                "contrast_type": "problem_already_solved",
+                "feedback": "如果已經連上，就不需要請對方告訴密碼。"
+              },
+              {
+                "id": "r1c",
+                "surface": "パスワードはいりません。",
+                "translation": "不需要密碼。",
+                "speak": "パスワードはいりません。",
+                "contrast_type": "declines_needed_password",
+                "feedback": "你的目標是取得Wi-Fi密碼，不是說不需要密碼。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "give_password",
+          "learning_role": "listen_only",
+          "surface": "パスワードは cafe123 です。",
+          "speak": "パスワードは カフェ ワン ツー スリー です。",
+          "translation": "密碼是 cafe123。",
+          "friend": {
+            "hint": "你拿到密碼了。先說謝謝並試試看。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ありがとうございます。やってみます。",
+                "translation": "謝謝，我試試看。",
+                "speak": "ありがとうございます。やってみます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "パスワードは空ですか。",
+                "translation": "密碼是空白嗎？",
+                "speak": "パスワードはからですか。",
+                "contrast_type": "wrong_password_assumption",
+                "feedback": "對方已說密碼是 cafe123，不是空白。"
+              },
+              {
+                "id": "r2c",
+                "surface": "cafe124ですね。",
+                "translation": "是 cafe124 對吧？",
+                "speak": "cafe124ですね。",
+                "contrast_type": "wrong_password_confirmation",
+                "feedback": "對方說的是 cafe123，不是 cafe124。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "ask_connection_status",
+          "learning_role": "listen_only",
+          "surface": "つながりましたか。",
+          "speak": "つながりましたか。",
+          "translation": "連上了嗎？",
+          "friend": {
+            "hint": "你的手機連不上。用簡短句說問題。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.digital.wont_connect.v1",
+            "formula_ref": null,
+            "title": "つながりません",
+            "explain": "說網路連不上時，可以說「つながりません」。",
+            "items": [
+              {
+                "surface": "すみません、つながりません。",
+                "translation": "不好意思，連不上。",
+                "speak": "すみません、つながりません。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "すみません、つながりません。",
+                "translation": "不好意思，連不上。",
+                "speak": "すみません、つながりません。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "はい、つながりました。",
+                "translation": "是的，連上了。",
+                "speak": "はい、つながりました。",
+                "contrast_type": "success_answer_when_failure_expected",
+                "feedback": "情境是連不上。需要說問題，而不是說成功。"
+              },
+              {
+                "id": "r3c",
+                "surface": "パスワードはcafe124です。",
+                "translation": "密碼是 cafe124。",
+                "speak": "パスワードは カフェ ワン ツー フォー です。",
+                "contrast_type": "wrong_password_statement_instead_of_connection_status",
+                "feedback": "密碼說成了 cafe124，而且沒有回答是否連上。這一輪要說Wi-Fi連不上。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "simple_retry_instruction",
+          "learning_role": "listen_only",
+          "surface": "もう一度入力してみてください。",
+          "speak": "もういちどにゅうりょくしてみてください。",
+          "translation": "請再輸入一次看看。",
+          "friend": {
+            "hint": "對方給簡單建議。道謝即可。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "はい、もう一度やってみます。",
+                "translation": "好，我再試一次。",
+                "speak": "はい、もういちどやってみます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "もうつながりました。",
+                "translation": "已經連上了。",
+                "speak": "もうつながりました。",
+                "contrast_type": "claims_success_before_retry",
+                "feedback": "剛才說連不上。對方請你再輸入一次時，先回應會再試。"
+              },
+              {
+                "id": "r4c",
+                "surface": "パスワードは違います。",
+                "translation": "密碼不對。",
+                "speak": "パスワードは違います。",
+                "contrast_type": "reports_failure_before_retrying",
+                "feedback": "還沒照指示重試。先說會再試一次。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "wifi_help_complete",
+            "learning_role": "listen_only",
+            "surface": "Wi-Fiのパスワードを聞き、問題も伝えました。",
+            "speak": "Wi-Fiのパスワードを聞き、問題も伝えました。",
+            "translation": "你問了Wi-Fi密碼，也說明了問題。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.digital.wifi_password.v1"
+        },
+        {
+          "after_turn": "t3",
+          "pattern_id": "ja.digital.wont_connect.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "ja.digital.thanks.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-4 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, runtime exports, frontend, or legacy content.",
+        "register_note": "Uses natural counter-service Japanese and avoids account, router, security, or technical diagnosis vocabulary."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "food_bill_payment",
+      "brief_id": "ml2_a1_011_food_bill_payment",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml2-a1-011-pay-the-bill",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/food_bill_payment.ja.v1.json",
+      "title": "食事の会計",
+      "setting_label": "カジュアルなカフェ",
+      "wrap_title": "会計できた",
+      "wrap_friend": "会計をお願いして、支払い方法を答え、丁寧に終えました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在咖啡店用餐後要結帳，而且想用信用卡付款。選自然、簡短的日文。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "check_meal_finished",
+          "learning_role": "listen_only",
+          "surface": "お食事はお済みですか。",
+          "speak": "おしょくじは、おすみですか。",
+          "translation": "您用餐結束了嗎？",
+          "friend": {
+            "hint": "店員確認你是否用餐結束。你想結帳時，說お会計をお願いします。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.restaurant.bill_request.v1",
+            "formula_ref": null,
+            "title": "お会計をお願いします",
+            "explain": "食事のあとに会計をお願いする丁寧で自然な表現です。",
+            "items": [
+              {
+                "surface": "お会計をお願いします。",
+                "translation": "麻煩結帳。",
+                "speak": "おかいけいを、おねがいします。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "お会計をお願いします。",
+                "translation": "麻煩結帳。",
+                "speak": "おかいけいを、おねがいします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "まだ食べています。",
+                "translation": "我還在吃。",
+                "speak": "まだたべています。",
+                "contrast_type": "not_ready_for_bill",
+                "feedback": "這是在說還沒吃完。你已經要結帳了。"
+              },
+              {
+                "id": "r1c",
+                "surface": "レシートをお願いします。",
+                "translation": "麻煩給我收據。",
+                "speak": "レシートをおねがいします。",
+                "contrast_type": "receipt_before_bill_request",
+                "feedback": "這是要收據。還沒請店員結帳時，先說お会計をお願いします。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_payment_method",
+          "learning_role": "listen_only",
+          "surface": "カードですか、現金ですか。",
+          "speak": "カードですか、げんきんですか。",
+          "translation": "刷卡還是現金？",
+          "friend": {
+            "hint": "店員問付款方式。你想刷卡，所以用カードでお願いします。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "カードでお願いします。",
+                "translation": "刷卡，麻煩你。",
+                "speak": "カードで、おねがいします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "カードをください。",
+                "translation": "請給我卡片。",
+                "speak": "カードをください。",
+                "contrast_type": "asks_for_card_instead_of_payment_method",
+                "feedback": "店員問付款方式；這句像是在向店員要卡片，不是回答刷卡。"
+              },
+              {
+                "id": "r2c",
+                "surface": "レシートをください。",
+                "translation": "請給我收據。",
+                "speak": "レシートをください。",
+                "contrast_type": "receipt_answer_to_payment_method",
+                "feedback": "這是在要收據。店員現在問的是付款方式。"
+              }
+            ]
+          },
+          "runtime_note": "Reply choices mirror the next learner response so the current prototype can render every round."
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "card_terminal_instruction",
+          "learning_role": "listen_only",
+          "surface": "カードをこちらにお願いします。",
+          "speak": "カードをこちらに、おねがいします。",
+          "translation": "請把卡放在這裡。",
+          "friend": {
+            "hint": "店員請你刷卡或放卡。簡短回答はい即可。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "はい、お願いします。",
+                "translation": "好的，麻煩你。",
+                "speak": "はい、おねがいします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "カードはありますか。",
+                "translation": "有卡片嗎？",
+                "speak": "カードはありますか。",
+                "contrast_type": "asks_availability_after_card_choice",
+                "feedback": "已經選擇刷卡，現在要照店員指示放卡。"
+              },
+              {
+                "id": "r3c",
+                "surface": "レシートをください。",
+                "translation": "請給我收據。",
+                "speak": "レシートをください。",
+                "contrast_type": "receipt_request_before_payment_complete",
+                "feedback": "付款還沒完成。先完成刷卡。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "close_payment",
+          "learning_role": "listen_only",
+          "surface": "ありがとうございます。",
+          "speak": "ありがとうございます。",
+          "translation": "謝謝。",
+          "friend": {
+            "hint": "付款完成。用謝謝收尾即可。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ごちそうさまでした。",
+                "translation": "謝謝招待。",
+                "speak": "ごちそうさまでした。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "お会計はまだですか。",
+                "translation": "還沒結帳嗎？",
+                "speak": "おかいけいはまだですか。",
+                "contrast_type": "claims_payment_not_done_after_close",
+                "feedback": "付款已完成，店員已道謝。"
+              },
+              {
+                "id": "r4c",
+                "surface": "もう一度払いますか。",
+                "translation": "要再付一次嗎？",
+                "speak": "もういちどはらいますか。",
+                "contrast_type": "asks_double_payment_after_close",
+                "feedback": "已經付款完成，不需要再付一次。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "payment_complete",
+            "learning_role": "listen_only",
+            "surface": "会計が終わりました。",
+            "speak": "かいけいが、おわりました。",
+            "translation": "結帳完成了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.restaurant.bill_request.v1"
+        },
+        {
+          "after_turn": "t3",
+          "pattern_id": "ja.payment.card_cash.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-2 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, or legacy content.",
+        "register_note": "Natural restaurant payment Japanese, polite but not overly formal."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "food_coffee_ordering",
+      "brief_id": "ml0_a1_001_food_coffee_ordering",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#brief-ml0-a1-001-coffee-ordering",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/food_coffee_ordering.ja.v1.json",
+      "title": "カフェで注文する",
+      "setting_label": "カフェのレジ",
+      "wrap_title": "カフェで注文できました",
+      "wrap_friend": "短い言い方で飲み物を注文し、選択肢にも答えられました。次は同じ形で別の飲み物にも言えます。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在日本咖啡店櫃台，要買一杯冰咖啡外帶。聽店員問什麼，選一句自然接得上的日文。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "service_opening",
+          "act_slots": {
+            "topic": "注文開始",
+            "keyword": "ご注文",
+            "gloss": "點餐"
+          },
+          "learning_role": "listen_only",
+          "surface": "いらっしゃいませ。ご注文をどうぞ。",
+          "speak": "いらっしゃいませ。ご注文をどうぞ。",
+          "translation": "歡迎光臨。請點餐。",
+          "friend": {
+            "hint": "店員在請你點餐。想要某個飲料時，可以用「〜をください」。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "アイスコーヒーをください。",
+                "translation": "請給我冰咖啡。",
+                "speak": "アイスコーヒーをください。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "ホットコーヒーですね。",
+                "translation": "是熱咖啡對吧？",
+                "speak": "ホットコーヒーですね。",
+                "contrast_type": "customer_confirms_unordered_item",
+                "feedback": "店員請你點餐。這句像在確認沒有點過的熱咖啡。"
+              },
+              {
+                "id": "r1c",
+                "surface": "アイスコーヒーです。",
+                "translation": "是冰咖啡。",
+                "speak": "アイスコーヒーです。",
+                "contrast_type": "fragment_not_order",
+                "feedback": "意思接近，但點餐時用「ください」比較自然。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "choice_question",
+          "act_slots": {
+            "topic": "內用或外帶",
+            "keyword": "店内",
+            "gloss": "店內"
+          },
+          "learning_role": "listen_only",
+          "surface": "店内でお召し上がりですか、お持ち帰りですか。",
+          "speak": "店内でお召し上がりですか、お持ち帰りですか。",
+          "translation": "內用還是外帶？",
+          "friend": {
+            "hint": "店員問內用或外帶。你要外帶，所以選お持ち帰り。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.cafe.for_here.to_go.v1",
+            "formula_ref": null,
+            "title": "店内 / お持ち帰り",
+            "explain": "「店内」是內用，「お持ち帰り」是外帶。",
+            "items": [
+              {
+                "surface": "店内",
+                "translation": "內用",
+                "speak": "店内"
+              },
+              {
+                "surface": "お持ち帰り",
+                "translation": "外帶",
+                "speak": "お持ち帰り"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "お持ち帰りでお願いします。",
+                "translation": "麻煩外帶。",
+                "speak": "お持ち帰りでお願いします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "お持ち帰りですか。",
+                "translation": "是外帶嗎？",
+                "speak": "おもちかえりですか。",
+                "contrast_type": "repeats_option_as_question",
+                "feedback": "店員問你內用還是外帶。要回答外帶，不是反問。"
+              },
+              {
+                "id": "r2c",
+                "surface": "少し待ってください。",
+                "translation": "請等一下。",
+                "speak": "少し待ってください。",
+                "contrast_type": "delay_instead_of_choice",
+                "feedback": "店員給了兩個選項。要選店内或お持ち帰り。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "confirmation",
+          "act_slots": {
+            "topic": "訂單確認",
+            "keyword": "よろしいですか",
+            "gloss": "可以嗎"
+          },
+          "learning_role": "listen_only",
+          "surface": "アイスコーヒーをお持ち帰りで、よろしいですか。",
+          "speak": "アイスコーヒーをお持ち帰りで、よろしいですか。",
+          "translation": "冰咖啡外帶，可以嗎？",
+          "friend": {
+            "hint": "店員在確認訂單。沒問題時，用「はい、お願いします」。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "はい、お願いします。",
+                "translation": "好的，麻煩了。",
+                "speak": "はい、お願いします。"
+              },
+              {
+                "id": "r3b",
+                "surface": "いいえ、大丈夫です。",
+                "translation": "不用了，沒關係。",
+                "speak": "いいえ、大丈夫です。",
+                "contrast_type": "wrong_act_refusal",
+                "feedback": "這樣像是在取消。訂單沒問題時，可以說「はい、お願いします」。"
+              },
+              {
+                "id": "r3c",
+                "surface": "ホットコーヒーでお願いします。",
+                "translation": "麻煩熱咖啡。",
+                "speak": "ホットコーヒーでお願いします。",
+                "contrast_type": "changes_order_at_confirmation",
+                "feedback": "店員正在確認冰咖啡外帶。這句改成熱咖啡，和目前訂單不一致。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "payment",
+          "act_slots": {
+            "topic": "付款",
+            "keyword": "お会計",
+            "gloss": "結帳"
+          },
+          "learning_role": "listen_only",
+          "surface": "お会計は300円です。こちらでお待ちください。",
+          "speak": "お会計は300円です。こちらでお待ちください。",
+          "translation": "總共三百日圓。請在這邊稍等。",
+          "friend": {
+            "hint": "店員說價格，也請你在這邊等。簡短回答「はい」就可以。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "はい。",
+                "translation": "好。",
+                "speak": "はい。"
+              },
+              {
+                "id": "r4b",
+                "surface": "500円ですか。",
+                "translation": "是五百日圓嗎？",
+                "speak": "ごひゃくえんですか。",
+                "contrast_type": "wrong_price_confirmation",
+                "feedback": "店員說的是300円，不是500円。"
+              },
+              {
+                "id": "r4c",
+                "surface": "店内で待ちます。",
+                "translation": "我在店內等。",
+                "speak": "てんないでまちます。",
+                "contrast_type": "wrong_waiting_place_for_takeaway",
+                "feedback": "你點的是外帶，店員請你在這裡等即可。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "handover",
+            "learning_role": "listen_only",
+            "surface": "お待たせしました。アイスコーヒーです。",
+            "speak": "お待たせしました。アイスコーヒーです。",
+            "translation": "久等了。這是您的冰咖啡。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.cafe.for_here.to_go.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief, not Korean surface text.",
+        "review_policy": "AI review required before closed pilot; native review pending.",
+        "canonical_policy": "Pilot-authored staging candidate only; do not write back to canonical schema."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "food_restaurant_ordering",
+      "brief_id": "ml1_a1_006_food_restaurant_ordering",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml1-a1-006-restaurant-ordering",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/food_restaurant_ordering.ja.v1.json",
+      "title": "レストランで注文する",
+      "setting_label": "カジュアルなレストラン",
+      "wrap_title": "注文できました",
+      "wrap_friend": "人数を伝え、食べたいものを短く注文し、確認してお礼を言えました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在日本的簡單餐廳用餐。聽店員問什麼，選一句自然接得上的日文。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "greet_and_ask_party",
+          "act_slots": {
+            "topic": "人数確認",
+            "keyword": "お一人",
+            "gloss": "一位"
+          },
+          "learning_role": "listen_only",
+          "surface": "いらっしゃいませ。お一人ですか。",
+          "speak": "いらっしゃいませ。お一人ですか。",
+          "translation": "歡迎光臨。是一位嗎？",
+          "friend": {
+            "hint": "店員在確認人數。可以短短回答一位。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.restaurant.party_count.v1",
+            "formula_ref": null,
+            "title": "一人です",
+            "explain": "「一人です」可以簡短回答用餐人數。服務場合加「お願いします」也自然。",
+            "items": [
+              {
+                "surface": "一人です。",
+                "translation": "我一個人。",
+                "speak": "一人です。"
+              },
+              {
+                "surface": "お願いします。",
+                "translation": "麻煩了。",
+                "speak": "お願いします。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "はい、一人です。",
+                "translation": "是的，一位。",
+                "speak": "はい、一人です。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "二人です。",
+                "translation": "兩位。",
+                "speak": "二人です。",
+                "contrast_type": "wrong_party_size",
+                "feedback": "店員問是不是一位。這輪目標是回答一人。"
+              },
+              {
+                "id": "r1c",
+                "surface": "カウンターでお願いします。",
+                "translation": "麻煩安排吧台。",
+                "speak": "カウンターでお願いします。",
+                "contrast_type": "seat_request_before_party_size",
+                "feedback": "可以之後說座位偏好，但先回答人數。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_order",
+          "act_slots": {
+            "topic": "注文",
+            "keyword": "ご注文",
+            "gloss": "點餐"
+          },
+          "learning_role": "listen_only",
+          "surface": "ご注文はお決まりですか。",
+          "speak": "ご注文はお決まりですか。",
+          "translation": "您決定要點什麼了嗎？",
+          "friend": {
+            "hint": "店員在問餐點。用「カレーをください」就能點一份。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.restaurant.order_one_dish.v1",
+            "formula_ref": null,
+            "title": "〜をください",
+            "explain": "點一樣東西時，可以用「料理名 + をください」。",
+            "items": [
+              {
+                "surface": "カレーをください。",
+                "translation": "請給我咖哩。",
+                "speak": "カレーをください。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "カレーをください。",
+                "translation": "請給我咖哩。",
+                "speak": "カレーをください。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "水だけでいいです。",
+                "translation": "只要水就好。",
+                "speak": "水だけでいいです。",
+                "contrast_type": "no_meal_when_meal_order_expected",
+                "feedback": "這不像是在點一份餐。這裡要點一個主餐。"
+              },
+              {
+                "id": "r2c",
+                "surface": "持ち帰りです。",
+                "translation": "我要外帶。",
+                "speak": "持ち帰りです。",
+                "contrast_type": "takeout_answer_in_dine_in_order",
+                "feedback": "這是在說外帶。現在店員問的是要點什麼。"
+              },
+              {
+                "id": "r2d",
+                "surface": "二人です。",
+                "translation": "兩位。",
+                "speak": "二人です。",
+                "contrast_type": "party_size_answer_when_order_requested",
+                "feedback": "人數已經確認了。現在要說餐點。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "confirm_order",
+          "act_slots": {
+            "topic": "注文確認",
+            "keyword": "カレー",
+            "gloss": "咖哩"
+          },
+          "learning_role": "listen_only",
+          "surface": "カレーですね。",
+          "speak": "カレーですね。",
+          "translation": "是咖哩對吧？",
+          "friend": {
+            "hint": "店員在確認你的餐點。簡短說對就可以。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "はい、お願いします。",
+                "translation": "是的，麻煩了。",
+                "speak": "はい、お願いします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "カレーではありません。",
+                "translation": "不是咖哩。",
+                "speak": "カレーではありません。",
+                "contrast_type": "wrong_order_correction",
+                "feedback": "你剛剛點的是カレー。店員確認時，沒問題就回答はい。"
+              },
+              {
+                "id": "r3c",
+                "surface": "二人です。",
+                "translation": "兩位。",
+                "speak": "ふたりです。",
+                "contrast_type": "party_size_answer_during_order_confirmation",
+                "feedback": "人數已回答過。店員現在確認カレー。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "order_close",
+          "act_slots": {
+            "topic": "結束點餐",
+            "keyword": "少々",
+            "gloss": "稍等"
+          },
+          "learning_role": "listen_only",
+          "surface": "ありがとうございます。少々お待ちください。",
+          "speak": "ありがとうございます。少々お待ちください。",
+          "translation": "謝謝，請稍等。",
+          "friend": {
+            "hint": "點餐完成了。用一句謝謝收尾很自然。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ありがとうございます。",
+                "translation": "謝謝。",
+                "speak": "ありがとうございます。"
+              },
+              {
+                "id": "r4b",
+                "surface": "一人です。",
+                "translation": "我一個人。",
+                "speak": "一人です。",
+                "contrast_type": "repeated_party_size",
+                "feedback": "人數已經說過了。現在用謝謝收尾即可。"
+              },
+              {
+                "id": "r4c",
+                "surface": "まだ決めていません。",
+                "translation": "我還沒決定。",
+                "speak": "まだ決めていません。",
+                "contrast_type": "contradicts_order_after_close",
+                "feedback": "你已經點了カレー。店員請你稍等時道謝即可。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "order_understood",
+            "learning_role": "listen_only",
+            "surface": "注文が伝わりました。",
+            "speak": "注文が伝わりました。",
+            "translation": "你的餐點已經傳達清楚了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.restaurant.party_count.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.restaurant.order_one_dish.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-1 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, or legacy content.",
+        "register_note": "Uses concise service-polite Japanese suitable for a casual restaurant."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "hotel_checkout",
+      "brief_id": "ml4_a1_016_hotel_checkout",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml4-a1-016-hotel-checkout",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/hotel_checkout.ja.v1.json",
+      "title": "ホテルでチェックアウトする",
+      "setting_label": "ホテルのフロント",
+      "wrap_title": "チェックアウトできました",
+      "wrap_friend": "チェックアウトを頼み、部屋番号を言い、カードキーを渡してお礼を言えました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在日本飯店櫃台退房。選自然、簡短的日文。",
+      "roles": {
+        "npc": {
+          "label": "フロント"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "learning_role": "listen_only",
+          "surface": "おはようございます。チェックアウトでございますか。",
+          "speak": "おはようございます。チェックアウトでございますか。",
+          "translation": "早安。您要退房嗎？",
+          "friend": {
+            "hint": "櫃台在確認你是不是要退房。用短句請對方辦理退房。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.hotel.checkout_request.v1",
+            "formula_ref": null,
+            "title": "チェックアウトをお願いします",
+            "explain": "退房時可以說「チェックアウトをお願いします」。",
+            "items": [
+              {
+                "surface": "チェックアウトをお願いします。",
+                "translation": "麻煩辦理退房。",
+                "speak": "チェックアウトをお願いします。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "チェックアウトをお願いします。",
+                "translation": "麻煩辦理退房。",
+                "speak": "チェックアウトをお願いします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "チェックインをお願いします。",
+                "translation": "我要辦理入住。",
+                "speak": "チェックインをお願いします。",
+                "contrast_type": "wrong_hotel_flow_checkin",
+                "feedback": "現在是退房情境，不是辦理入住。"
+              },
+              {
+                "id": "r1c",
+                "surface": "チェックアウトは終わりました。",
+                "translation": "退房已經結束了。",
+                "speak": "チェックアウトはおわりました。",
+                "contrast_type": "claims_checkout_already_done",
+                "feedback": "你還沒辦理退房。要說チェックアウトをお願いします。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_room_number",
+          "learning_role": "listen_only",
+          "surface": "お部屋番号をお願いします。",
+          "speak": "お部屋番号をお願いします。",
+          "translation": "請問房號。",
+          "friend": {
+            "hint": "櫃台問房號。只說房號即可。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "305号室です。",
+                "translation": "是305號房。",
+                "speak": "さんまるご号室です。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "503号室です。",
+                "translation": "是503號房。",
+                "speak": "ごひゃくさんごうしつです。",
+                "contrast_type": "wrong_room_number",
+                "feedback": "這是房號格式，但不是這一輪要說的305號房。"
+              },
+              {
+                "id": "r2c",
+                "surface": "305階です。",
+                "translation": "三百五樓。",
+                "speak": "305階です。",
+                "contrast_type": "floor_number_instead_of_room_number",
+                "feedback": "櫃台要房號。305号室才是自然回答。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "ask_key_card",
+          "learning_role": "listen_only",
+          "surface": "カードキーをお願いします。",
+          "speak": "カードキーをお願いします。",
+          "translation": "請給我房卡。",
+          "friend": {
+            "hint": "櫃台要房卡。把房卡交給對方。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.hotel.key_handover.v1",
+            "formula_ref": null,
+            "title": "はい、どうぞ",
+            "explain": "交東西給對方時可以說「はい、どうぞ」。",
+            "items": [
+              {
+                "surface": "はい、どうぞ。",
+                "translation": "好的，給你。",
+                "speak": "はい、どうぞ。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "はい、どうぞ。",
+                "translation": "好的，給你。",
+                "speak": "はい、どうぞ。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "カードキーをください。",
+                "translation": "請給我房卡。",
+                "speak": "カードキーをください。",
+                "contrast_type": "asks_for_key_when_staff_requests_key",
+                "feedback": "櫃台是在向你要房卡，不是要給你房卡。"
+              },
+              {
+                "id": "r3c",
+                "surface": "領収書をください。",
+                "translation": "請給我收據。",
+                "speak": "りょうしゅうしょをください。",
+                "contrast_type": "receipt_request_before_key_handover",
+                "feedback": "領収書は退房完成後。櫃台現在要房卡。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "confirm_checkout",
+          "learning_role": "listen_only",
+          "surface": "チェックアウトは完了です。こちらが領収書です。",
+          "speak": "チェックアウトは完了です。こちらが領収書です。",
+          "translation": "退房完成了。這是收據。",
+          "friend": {
+            "hint": "退房完成。道謝收尾。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ありがとうございます。",
+                "translation": "謝謝。",
+                "speak": "ありがとうございます。"
+              },
+              {
+                "id": "r4b",
+                "surface": "チェックアウトはまだですか。",
+                "translation": "還沒退房嗎？",
+                "speak": "チェックアウトはまだですか。",
+                "contrast_type": "claims_checkout_not_done",
+                "feedback": "櫃台已說チェックアウトは完了です。"
+              },
+              {
+                "id": "r4c",
+                "surface": "カードキーを返してください。",
+                "translation": "請把房卡還給我。",
+                "speak": "カードキーをかえしてください。",
+                "contrast_type": "wrong_key_direction_after_checkout",
+                "feedback": "退房時是客人交回房卡，不是請櫃台還房卡。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "hotel_checkout_complete",
+            "learning_role": "listen_only",
+            "surface": "チェックアウトが完了しました。",
+            "speak": "チェックアウトが完了しました。",
+            "translation": "退房完成了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.hotel.checkout_request.v1"
+        },
+        {
+          "after_turn": "t3",
+          "pattern_id": "ja.hotel.key_handover.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "ja.hotel.checkout_thanks.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-4 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, runtime exports, frontend, or legacy content.",
+        "register_note": "Uses service-counter polite Japanese and avoids payment, deposit, ID, or dispute content."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "hotel_wifi_breakfast",
+      "brief_id": "ml1_a1_008_hotel_wifi_breakfast",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml1-a1-008-hotel-wi-fi-and-breakfast",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/hotel_wifi_breakfast.ja.v1.json",
+      "title": "ホテルでWi-Fiと朝食を聞く",
+      "setting_label": "ホテルのフロント",
+      "wrap_title": "Wi-Fiと朝食がわかりました",
+      "wrap_friend": "Wi-Fiの情報と朝食時間を短く質問し、答えを確認してお礼を言えました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在日本飯店櫃台，先問Wi-Fi密碼，再問早餐時間。選自然、簡短的日文。",
+      "roles": {
+        "npc": {
+          "label": "フロント"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "greet_guest",
+          "act_slots": {
+            "topic": "フロント対応",
+            "keyword": "ご用件",
+            "gloss": "需求"
+          },
+          "learning_role": "listen_only",
+          "surface": "Wi-Fiでお困りですか。",
+          "speak": "ワイファイでおこまりですか。",
+          "translation": "您是Wi-Fi方面有問題嗎？",
+          "friend": {
+            "hint": "你想問Wi-Fi密碼。用簡短禮貌的問題。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.hotel.wifi_question.v1",
+            "formula_ref": null,
+            "title": "Wi-Fiのパスワード",
+            "explain": "在飯店可問「Wi-Fiのパスワードはどこですか」。",
+            "items": [
+              {
+                "surface": "Wi-Fiのパスワードはどこですか。",
+                "translation": "Wi-Fi密碼在哪裡？",
+                "speak": "Wi-Fiのパスワードはどこですか。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "Wi-Fiのパスワードはどこですか。",
+                "translation": "Wi-Fi密碼在哪裡？",
+                "speak": "Wi-Fiのパスワードはどこですか。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "Wi-Fiはもう使えます。",
+                "translation": "Wi-Fi已經可以用了。",
+                "speak": "ワイファイはもうつかえます。",
+                "contrast_type": "claims_wifi_already_works",
+                "feedback": "你還需要Wi-Fi密碼，不是說已經可以用了。"
+              },
+              {
+                "id": "r1c",
+                "surface": "朝食は9時からですか。",
+                "translation": "早餐是9點開始嗎？",
+                "speak": "ちょうしょくはくじからですか。",
+                "contrast_type": "breakfast_question_before_wifi_password",
+                "feedback": "現在先問Wi-Fi密碼。早餐時間可以等拿到Wi-Fi資訊後再問。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "give_wifi_info",
+          "act_slots": {
+            "topic": "Wi-Fi案内",
+            "keyword": "カード",
+            "gloss": "卡片"
+          },
+          "learning_role": "listen_only",
+          "surface": "パスワードはこのカードにあります。",
+          "speak": "パスワードはこのカードにあります。",
+          "translation": "密碼在這張卡上。",
+          "friend": {
+            "hint": "Wi-Fi資訊知道了。接著問早餐時間。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.hotel.breakfast_time.v1",
+            "formula_ref": null,
+            "title": "朝食は何時ですか",
+            "explain": "問早餐時間時，可以說「朝食は何時ですか」。",
+            "items": [
+              {
+                "surface": "朝食は何時ですか。",
+                "translation": "早餐是幾點？",
+                "speak": "朝食は何時ですか。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "ありがとうございます。朝食は何時ですか。",
+                "translation": "謝謝。早餐是幾點？",
+                "speak": "ありがとうございます。朝食は何時ですか。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "朝食は9階ですか。",
+                "translation": "早餐是在9樓嗎？",
+                "speak": "ちょうしょくはきゅうかいですか。",
+                "contrast_type": "asks_wrong_breakfast_location_instead_of_time",
+                "feedback": "你的目標是問早餐時間，不是猜樓層。"
+              },
+              {
+                "id": "r2c",
+                "surface": "Wi-Fiはもう使えます。",
+                "translation": "Wi-Fi已經可以用了。",
+                "speak": "ワイファイはもうつかえます。",
+                "contrast_type": "returns_to_wifi_status_instead_of_breakfast_time",
+                "feedback": "Wi-Fi資訊已經拿到。接著要問早餐時間。"
+              },
+              {
+                "id": "r2d",
+                "surface": "朝食は部屋ですか。",
+                "translation": "早餐是在房間嗎？",
+                "speak": "ちょうしょくはへやですか。",
+                "contrast_type": "asks_wrong_breakfast_place_instead_of_time",
+                "feedback": "這是在猜早餐地點。你的目標是問早餐時間。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "give_breakfast_time",
+          "act_slots": {
+            "topic": "朝食時間",
+            "keyword": "7時",
+            "gloss": "七點"
+          },
+          "learning_role": "listen_only",
+          "surface": "朝食は7時からです。",
+          "speak": "朝食は7時からです。",
+          "translation": "早餐從七點開始。",
+          "friend": {
+            "hint": "櫃台告訴你早餐時間。可以確認並道謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "7時ですね。ありがとうございます。",
+                "translation": "七點對吧？謝謝。",
+                "speak": "7時ですね。ありがとうございます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "9時ですね。",
+                "translation": "九點對吧？",
+                "speak": "9時ですね。",
+                "contrast_type": "wrong_time_confirmation",
+                "feedback": "櫃台說的是七點，不是九點。"
+              },
+              {
+                "id": "r3c",
+                "surface": "7階ですね。",
+                "translation": "是在7樓對吧？",
+                "speak": "ななかいですね。",
+                "contrast_type": "confuses_time_with_floor",
+                "feedback": "櫃台說的是7時，不是7樓。確認時間時要說7時ですね。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "closing",
+          "act_slots": {
+            "topic": "案内終了",
+            "keyword": "どうぞ",
+            "gloss": "請"
+          },
+          "learning_role": "listen_only",
+          "surface": "どうぞごゆっくり。",
+          "speak": "どうぞごゆっくり。",
+          "translation": "請好好休息。",
+          "friend": {
+            "hint": "櫃台在結束對話。簡短道謝即可。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "助かりました。",
+                "translation": "幫大忙了。",
+                "speak": "助かりました。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "朝食は9時からですね。",
+                "translation": "早餐是9點開始對吧？",
+                "speak": "ちょうしょくは くじからですね。",
+                "contrast_type": "wrong_time_confirmation_after_close",
+                "feedback": "前面說的是7時からです。最後は短くお礼を言います。"
+              },
+              {
+                "id": "r4c",
+                "surface": "9時ですね。",
+                "translation": "九點對吧？",
+                "speak": "9時ですね。",
+                "contrast_type": "repeated_wrong_time",
+                "feedback": "早餐時間是七點。結尾時道謝比較自然。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "hotel_info_understood",
+            "learning_role": "listen_only",
+            "surface": "Wi-Fiと朝食時間がわかりました。",
+            "speak": "Wi-Fiと朝食時間がわかりました。",
+            "translation": "你知道Wi-Fi和早餐時間了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.hotel.wifi_question.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.hotel.breakfast_time.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-1 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, or legacy content.",
+        "register_note": "Uses natural but compact hotel guest politeness."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "problem_lost_item",
+      "brief_id": "ml5_a1_020_problem_lost_item",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml5-a1-020-say-a-small-item-is-lost",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/problem_lost_item.ja.v1.json",
+      "title": "なくした物を伝える",
+      "setting_label": "インフォメーションカウンター",
+      "wrap_title": "なくした物について聞けました",
+      "wrap_friend": "小さな物をなくしたこと、場所、次に聞く場所を確認して、お礼を言えました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在日本服務台找遺失的小物。選自然、簡短的日文。",
+      "roles": {
+        "npc": {
+          "label": "スタッフ"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "learning_role": "listen_only",
+          "surface": "何をなくしましたか。",
+          "speak": "なにをなくしましたか。",
+          "translation": "您遺失了什麼？",
+          "friend": {
+            "hint": "對方問你遺失了什麼。簡短說包包不見了。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.problem.lost_item.v1",
+            "formula_ref": null,
+            "title": "なくしました",
+            "explain": "說東西不見了，可以用「なくしました」。",
+            "items": [
+              {
+                "surface": "すみません、バッグをなくしました。",
+                "translation": "不好意思，我的包包不見了。",
+                "speak": "すみません、バッグをなくしました。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "すみません、バッグをなくしました。",
+                "translation": "不好意思，我的包包不見了。",
+                "speak": "すみません、バッグをなくしました。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "バッグはありますか。",
+                "translation": "有看到包包嗎？",
+                "speak": "バッグはありますか。",
+                "contrast_type": "asks_if_found_before_reporting_loss",
+                "feedback": "意思相近，但要先清楚說自己弄丟了包包。"
+              },
+              {
+                "id": "r1c",
+                "surface": "バッグを買いたいです。",
+                "translation": "我想買包包。",
+                "speak": "バッグをかいたいです。",
+                "contrast_type": "buying_bag_instead_of_lost_item",
+                "feedback": "這是在說想買包包，不是說包包遺失了。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_lost_location",
+          "learning_role": "listen_only",
+          "surface": "どこでなくしましたか。",
+          "speak": "どこでなくしましたか。",
+          "translation": "你在哪裡弄丟的？",
+          "friend": {
+            "hint": "回答簡單地點。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.problem.simple_place.v1",
+            "formula_ref": null,
+            "title": "カフェで",
+            "explain": "回答地點時，可以用「場所 + で」。",
+            "items": [
+              {
+                "surface": "カフェでなくしました。",
+                "translation": "在咖啡店弄丟的。",
+                "speak": "カフェでなくしました。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "カフェでなくしました。",
+                "translation": "在咖啡店弄丟的。",
+                "speak": "カフェでなくしました。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "黒いバッグです。",
+                "translation": "是黑色包包。",
+                "speak": "黒いバッグです。",
+                "contrast_type": "describes_item_instead_of_location",
+                "feedback": "對方問在哪裡弄丟。先回答場所。"
+              },
+              {
+                "id": "r2c",
+                "surface": "さっきです。",
+                "translation": "剛剛。",
+                "speak": "さっきです。",
+                "contrast_type": "time_answer_instead_of_location",
+                "feedback": "這回答時間，不是地點。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "give_next_desk",
+          "learning_role": "listen_only",
+          "surface": "落とし物カウンターはあちらです。",
+          "speak": "落とし物カウンターはあちらです。",
+          "translation": "失物招領櫃台在那邊。",
+          "friend": {
+            "hint": "確認你聽到的位置。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "あちらのカウンターですね。",
+                "translation": "那邊的櫃台對吧。",
+                "speak": "あちらのカウンターですね。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "バッグをなくしました。",
+                "translation": "我的包包不見了。",
+                "speak": "バッグをなくしました。",
+                "contrast_type": "repeat_lost_statement_after_next_step",
+                "feedback": "你已經說過物品不見了。現在要確認下一個地點。"
+              },
+              {
+                "id": "r3c",
+                "surface": "ここで待ちます。",
+                "translation": "我在這裡等。",
+                "speak": "ここで待ちます。",
+                "contrast_type": "wrong_next_step",
+                "feedback": "對方指示去失物櫃台。要確認あちらのカウンター。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "confirm_next_step",
+          "learning_role": "listen_only",
+          "surface": "はい、そこで聞いてください。",
+          "speak": "はい、そこで聞いてください。",
+          "translation": "對，請在那裡詢問。",
+          "friend": {
+            "hint": "對方給了下一步。道謝即可。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ありがとうございます。",
+                "translation": "謝謝。",
+                "speak": "ありがとうございます。"
+              },
+              {
+                "id": "r4b",
+                "surface": "バッグは黒いです。",
+                "translation": "包包是黑色的。",
+                "speak": "バッグは黒いです。",
+                "contrast_type": "adds_description_after_next_step",
+                "feedback": "描述可以在櫃台說。現在先道謝並去那裡問。"
+              },
+              {
+                "id": "r4c",
+                "surface": "もう見つかりました。",
+                "translation": "已經找到了。",
+                "speak": "もう見つかりました。",
+                "contrast_type": "claims_found_without_checking_counter",
+                "feedback": "還沒去櫃台確認。這裡先道謝。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "lost_item_help_complete",
+            "learning_role": "listen_only",
+            "surface": "なくした物と、次に聞く場所を確認しました。",
+            "speak": "なくした物と、次に聞く場所を確認しました。",
+            "translation": "你確認了遺失物，也知道下一步去哪裡問。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.problem.lost_item.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.problem.simple_place.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "ja.problem.thanks.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-5 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, runtime exports, frontend, or legacy content.",
+        "register_note": "Uses low-stakes service-desk Japanese and avoids police reports, theft accusations, passports, credit-card emergencies, identity proof, compensation, and money disputes."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "shopping_ask_price",
+      "brief_id": "ml2_a1_009_shopping_ask_price",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml2-a1-009-shopping-ask-price",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML2_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/shopping_ask_price.ja.v1.json",
+      "title": "値段を聞く",
+      "setting_label": "小さな店",
+      "wrap_title": "値段を聞けた",
+      "wrap_friend": "店員に声をかけて、一つの商品について値段を聞き、短く返事できました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在小店想問一件商品的價格。選自然、簡短的日文。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "shop_greeting",
+          "learning_role": "listen_only",
+          "surface": "いらっしゃいませ。",
+          "speak": "いらっしゃいませ。",
+          "translation": "歡迎光臨。",
+          "friend": {
+            "hint": "店員在招呼。用すみません自然地叫住對方。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.shopping.attention.v1",
+            "formula_ref": null,
+            "title": "すみません",
+            "explain": "店で店員に声をかけるときの短い丁寧表現です。",
+            "items": [
+              {
+                "surface": "すみません。",
+                "translation": "不好意思。",
+                "speak": "すみません。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "すみません。",
+                "translation": "不好意思。",
+                "speak": "すみません。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "もう買いました。",
+                "translation": "我已經買了。",
+                "speak": "もうかいました。",
+                "contrast_type": "claims_purchase_before_price_question",
+                "feedback": "還沒問價格也還沒購買。先叫住店員。"
+              },
+              {
+                "id": "r1c",
+                "surface": "五百円ですか。",
+                "translation": "是五百日圓嗎？",
+                "speak": "ごひゃくえんですか。",
+                "contrast_type": "guesses_price_before_asking",
+                "feedback": "還沒問價格前不要先猜。先叫住店員。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_item_interest",
+          "learning_role": "listen_only",
+          "surface": "このポーチですね。価格を確認しますか。",
+          "speak": "このポーチですね。かかくをかくにんしますか。",
+          "translation": "是這個小包對吧？要確認價格嗎？",
+          "friend": {
+            "hint": "店員確認你想問這個小包的價格。直接問いくらですか。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.shopping.price_question.v1",
+            "formula_ref": null,
+            "title": "これはいくらですか",
+            "explain": "近くの商品一つの値段を聞く自然なA1表現です。",
+            "items": [
+              {
+                "surface": "これはいくらですか。",
+                "translation": "這個多少錢？",
+                "speak": "これは、いくらですか。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "このポーチはいくらですか。",
+                "translation": "這個小包多少錢？",
+                "speak": "このポーチは、いくらですか。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "このポーチは大きいですか。",
+                "translation": "這個小包很大嗎？",
+                "speak": "このポーチはおおきいですか。",
+                "contrast_type": "asks_size_instead_of_price",
+                "feedback": "店員把話題帶到價格。你要問多少錢，不是大小。"
+              },
+              {
+                "id": "r2c",
+                "surface": "このポーチは高いです。",
+                "translation": "這個小包很貴。",
+                "speak": "このポーチはたかいです。",
+                "contrast_type": "price_comment_instead_of_price_question",
+                "feedback": "店員確認你要問價格。這只是評論，不是在問多少錢。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "give_price",
+          "learning_role": "listen_only",
+          "surface": "五百円です。",
+          "speak": "ごひゃくえんです。",
+          "translation": "五百日圓。",
+          "friend": {
+            "hint": "店員回答價格：五百円。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ありがとうございます。少し見ます。",
+                "translation": "謝謝。我再看一下。",
+                "speak": "ありがとうございます。すこしみます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "三百円ですか。",
+                "translation": "是三百日圓嗎？",
+                "speak": "三百円ですか。",
+                "contrast_type": "wrong_price_confirmation",
+                "feedback": "店員說的是五百円，不是三百円。"
+              },
+              {
+                "id": "r4c",
+                "surface": "五千円ですか。",
+                "translation": "是五千日圓嗎？",
+                "speak": "ごせんえんですか。",
+                "contrast_type": "wrong_price_confirmation",
+                "feedback": "店員說的是五百円，不是五千円。"
+              }
+            ]
+          },
+          "runtime_note": "Reply choices mirror the next learner response so the current prototype can render every round."
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "ask_decision",
+          "learning_role": "listen_only",
+          "surface": "どうしますか。",
+          "speak": "どうしますか。",
+          "translation": "您要怎麼決定？",
+          "friend": {
+            "hint": "店員問你要不要買。你還沒決定，所以說少し考えます。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "少し考えます。",
+                "translation": "我考慮一下。",
+                "speak": "すこしかんがえます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "五百円をください。",
+                "translation": "請給我五百日圓。",
+                "speak": "ごひゃくえんをください。",
+                "contrast_type": "asks_for_money_instead_of_decision",
+                "feedback": "店員問你要不要買。客人不會向店員要五百円；還沒決定時說少し考えます。"
+              },
+              {
+                "id": "r4c",
+                "surface": "もう買いました。",
+                "translation": "我已經買了。",
+                "speak": "もうかいました。",
+                "contrast_type": "claims_already_bought_before_deciding",
+                "feedback": "你還沒決定也還沒購買。要說少し考えます。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "price_understood",
+            "learning_role": "listen_only",
+            "surface": "値段を聞いて、買うことを伝えました。",
+            "speak": "ねだんをきいて、かうことをつたえました。",
+            "translation": "你問到價格，也表達要買了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.shopping.attention.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.shopping.price_question.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-2 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, or legacy content.",
+        "register_note": "Polite customer Japanese with short A1-sized formulas."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "social_running_late",
+      "brief_id": "ml5_a1_019_social_running_late",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml5-a1-019-say-you-are-running-late",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML5_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/social_running_late.ja.v1.json",
+      "title": "少し遅れると伝える",
+      "setting_label": "友だちへのメッセージ",
+      "wrap_title": "遅れることを伝えられました",
+      "wrap_friend": "友だちに遅れること、目安の時間、感謝、短い締めの言葉を伝えました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你要傳訊息給日本朋友說會晚到。選自然、簡短的日文。",
+      "roles": {
+        "npc": {
+          "label": "友だち"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "ask_delay_status",
+          "learning_role": "listen_only",
+          "surface": "もうすぐ着く？",
+          "speak": "もうすぐ着く？",
+          "translation": "快到了嗎？",
+          "friend": {
+            "hint": "朋友問你快到了嗎。你會晚一點，所以先道歉，再說少し遅れます。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.social.running_late.v1",
+            "formula_ref": null,
+            "title": "少し遅れます",
+            "explain": "說會晚到時，可以用「少し遅れます」。",
+            "items": [
+              {
+                "surface": "ごめん、少し遅れます。",
+                "translation": "抱歉，我會晚一點。",
+                "speak": "ごめん、少し遅れます。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "ごめん、少し遅れます。",
+                "translation": "抱歉，我會晚一點。",
+                "speak": "ごめん、少し遅れます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "10時くらいです。",
+                "translation": "大概十點。",
+                "speak": "じゅうじくらいです。",
+                "contrast_type": "clock_time_instead_of_delay_status",
+                "feedback": "這像是在回答時鐘時間，不是在說快到或會遲到。"
+              },
+              {
+                "id": "r1c",
+                "surface": "もう駅にいます。",
+                "translation": "我已經在車站。",
+                "speak": "もう駅にいます。",
+                "contrast_type": "claims_arrived_when_late",
+                "feedback": "如果已經到了就不是遲到。目標是說會晚一點。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "ask_minutes",
+          "learning_role": "listen_only",
+          "surface": "何分くらい？",
+          "speak": "何分くらい？",
+          "translation": "大概幾分鐘？",
+          "friend": {
+            "hint": "給短短的時間估計。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.social.minutes_estimate.v1",
+            "formula_ref": null,
+            "title": "10分くらいです",
+            "explain": "用「くらい」說大約的時間。",
+            "items": [
+              {
+                "surface": "10分くらいです。",
+                "translation": "大約十分鐘。",
+                "speak": "じゅっぷんくらいです。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "10分くらいです。",
+                "translation": "大約十分鐘。",
+                "speak": "じゅっぷんくらいです。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "少し遅れます。",
+                "translation": "我會晚一點。",
+                "speak": "少し遅れます。",
+                "contrast_type": "repeats_delay_without_minutes",
+                "feedback": "朋友問幾分鐘。要說10分くらい。"
+              },
+              {
+                "id": "r2c",
+                "surface": "今出ます。",
+                "translation": "我現在出門。",
+                "speak": "今出ます。",
+                "contrast_type": "departure_status_instead_of_minutes",
+                "feedback": "這沒有回答還要多久。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "accept_waiting",
+          "learning_role": "listen_only",
+          "surface": "わかった。待ってるね。",
+          "speak": "わかった。待ってるね。",
+          "translation": "知道了。我等你。",
+          "friend": {
+            "hint": "朋友願意等。簡短道謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ありがとう。",
+                "translation": "謝謝。",
+                "speak": "ありがとう。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "もう着きました。",
+                "translation": "我已經到了。",
+                "speak": "もうつきました。",
+                "contrast_type": "contradicts_previous_eta",
+                "feedback": "前面說還要10分。朋友說會等你時，先說ありがとう。"
+              },
+              {
+                "id": "r3c",
+                "surface": "もう駅にいます。",
+                "translation": "我已經在車站。",
+                "speak": "もうえきにいます。",
+                "contrast_type": "claims_arrived_after_saying_late",
+                "feedback": "前面已說還要十分鐘。朋友說會等你時，先道謝。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "close_see_you_soon",
+          "learning_role": "listen_only",
+          "surface": "じゃあ、あとでね。",
+          "speak": "じゃあ、あとでね。",
+          "translation": "那待會見。",
+          "friend": {
+            "hint": "用朋友間自然的收尾。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "すぐ行きます。",
+                "translation": "我很快到。",
+                "speak": "すぐ行きます。"
+              },
+              {
+                "id": "r4b",
+                "surface": "あと10分です。",
+                "translation": "還要十分鐘。",
+                "speak": "あと10分です。",
+                "contrast_type": "repeats_eta_at_closing",
+                "feedback": "時間已經說過了。朋友說あとでね時，用すぐ行きます收尾。"
+              },
+              {
+                "id": "r4c",
+                "surface": "もう駅にいます。",
+                "translation": "我已經在車站了。",
+                "speak": "もうえきにいます。",
+                "contrast_type": "claims_arrived_at_closing_after_eta",
+                "feedback": "前面說還要10分鐘。最後自然收尾，不要改口說已經到了。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "late_message_complete",
+            "learning_role": "listen_only",
+            "surface": "遅れることと時間を友だちに伝えました。",
+            "speak": "遅れることと時間を友だちに伝えました。",
+            "translation": "你把會晚到和時間告訴了朋友。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.social.running_late.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.social.minutes_estimate.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "ja.social.close.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-5 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, runtime exports, frontend, or legacy content.",
+        "register_note": "Uses low-stakes friend-message Japanese and avoids exact live location, safety incidents, blame, or conflict."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_hotel_checkin",
+      "brief_id": "ml0_a1_002_travel_hotel_checkin",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#brief-ml0-a1-002-hotel-check-in",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_hotel_checkin.ja.v1.json",
+      "title": "ホテルでチェックインする",
+      "setting_label": "ホテルのフロント",
+      "wrap_title": "ホテルでチェックインできました",
+      "wrap_friend": "予約があることを伝え、名前を言って、部屋の案内まで聞けました。短い文でも手続きは進められます。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你到飯店櫃台要辦理入住。用短句說有預約，再回答姓名。",
+      "roles": {
+        "npc": {
+          "label": "フロント"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "front_desk_greeting",
+          "act_slots": {
+            "topic": "入住開場",
+            "keyword": "チェックイン",
+            "gloss": "入住"
+          },
+          "learning_role": "listen_only",
+          "surface": "いらっしゃいませ。チェックインでございますか。",
+          "speak": "いらっしゃいませ。チェックインでございますか。",
+          "translation": "歡迎光臨。要辦理入住嗎？",
+          "friend": {
+            "hint": "櫃台在確認你是不是要入住。有預約時，可以說「予約しています」。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "はい、予約しています。",
+                "translation": "是的，我有預約。",
+                "speak": "はい、予約しています。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "予約はありますか。",
+                "translation": "有預約嗎？",
+                "speak": "予約はありますか。",
+                "contrast_type": "asks_staff_question_instead_of_answering",
+                "feedback": "櫃台問你是不是入住。你要回答自己有預約。"
+              },
+              {
+                "id": "r1c",
+                "surface": "チェックアウトです。",
+                "translation": "我要退房。",
+                "speak": "チェックアウトです。",
+                "contrast_type": "wrong_flow_checkout",
+                "feedback": "チェックアウト是退房。剛到飯店時要說チェックイン或予約しています。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "identity_prompt",
+          "act_slots": {
+            "topic": "姓名確認",
+            "keyword": "お名前",
+            "gloss": "姓名"
+          },
+          "learning_role": "listen_only",
+          "surface": "お名前をお願いします。",
+          "speak": "お名前をお願いします。",
+          "translation": "請問您的姓名。",
+          "friend": {
+            "hint": "他在問名字。用「〜です」回答就可以。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "リンです。",
+                "translation": "我是 Lin。",
+                "speak": "リンです。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "予約しています。",
+                "translation": "我有預約。",
+                "speak": "予約しています。",
+                "contrast_type": "repeats_reservation_when_name_requested",
+                "feedback": "預約已經說過。現在要回答姓名。"
+              },
+              {
+                "id": "r2c",
+                "surface": "名前はわかりません。",
+                "translation": "我不知道名字。",
+                "speak": "名前はわかりません。",
+                "contrast_type": "refuses_identity_prompt",
+                "feedback": "辦理入住時被問姓名，要說自己的名字。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "reservation_confirmation",
+          "act_slots": {
+            "topic": "預約確認",
+            "keyword": "確認",
+            "gloss": "確認"
+          },
+          "learning_role": "listen_only",
+          "surface": "はい、確認できました。シングルルームでございますね。",
+          "speak": "はい、確認できました。シングルルームでございますね。",
+          "translation": "好的，確認到了。是單人房對吧？",
+          "friend": {
+            "hint": "櫃台確認了預約和房型。沒問題時，短短回答「はい」。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "はい。",
+                "translation": "是的。",
+                "speak": "はい。"
+              },
+              {
+                "id": "r3b",
+                "surface": "いいえ、予約していません。",
+                "translation": "不，我沒有預約。",
+                "speak": "いいえ、予約していません。",
+                "contrast_type": "wrong_act_contradiction",
+                "feedback": "你剛剛已經說有預約。房型沒問題時，回答「はい」。"
+              },
+              {
+                "id": "r3c",
+                "surface": "二人部屋です。",
+                "translation": "是雙人房。",
+                "speak": "二人部屋です。",
+                "contrast_type": "wrong_room_type_confirmation",
+                "feedback": "櫃台確認的是シングルルーム。沒問題時回答はい。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "key_direction",
+          "act_slots": {
+            "topic": "房卡與樓層",
+            "keyword": "カードキー",
+            "gloss": "房卡"
+          },
+          "learning_role": "listen_only",
+          "surface": "こちらがカードキーでございます。お部屋は5階でございます。",
+          "speak": "こちらがカードキーでございます。お部屋は5階でございます。",
+          "translation": "這是房卡。您的房間在五樓。",
+          "friend": {
+            "hint": "カードキー是房卡，五階是五樓。拿到資訊後可以道謝。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ありがとうございます。",
+                "translation": "謝謝。",
+                "speak": "ありがとうございます。"
+              },
+              {
+                "id": "r4b",
+                "surface": "4階ですね。",
+                "translation": "四樓對吧？",
+                "speak": "よんかいですね。",
+                "contrast_type": "wrong_floor_confirmation",
+                "feedback": "櫃台說的是5階，不是4階。"
+              },
+              {
+                "id": "r4c",
+                "surface": "チェックアウトです。",
+                "translation": "我要退房。",
+                "speak": "チェックアウトです。",
+                "contrast_type": "wrong_flow_checkout_after_checkin",
+                "feedback": "剛拿到房卡是入住完成，不是退房。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "closing",
+            "learning_role": "listen_only",
+            "surface": "ごゆっくりお過ごしください。",
+            "speak": "ごゆっくりお過ごしください。",
+            "translation": "祝您住宿愉快。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.hotel.name.response.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief, not Korean surface text.",
+        "review_policy": "AI review required before closed pilot; native review pending.",
+        "canonical_policy": "Pilot-authored staging candidate only; do not write back to canonical schema."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_restroom_directions",
+      "brief_id": "ml0_a1_003_travel_restroom_directions",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_NEUTRAL_ADAPTATION_BRIEFS_20260613.md#brief-ml0-a1-003-asking-for-restroom-directions",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML0_BLUEPRINT_LEDGER_20260613.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_restroom_directions.ja.v1.json",
+      "title": "トイレの場所を聞く",
+      "setting_label": "店内で場所を聞く",
+      "wrap_title": "トイレの場所を聞けました",
+      "wrap_friend": "短く場所を聞いて、右・まっすぐなどの方向を聞き取れました。公共の場所でも使いやすい形です。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在店裡想找洗手間。先禮貌開口，再聽懂簡單方向。",
+      "roles": {
+        "npc": {
+          "label": "店員"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "opening_messages": [
+        {
+          "speaker": "learner",
+          "learning_role": "production_target",
+          "surface": "すみません。",
+          "speak": "すみません。",
+          "translation": "不好意思。"
+        }
+      ],
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "service_prompt",
+          "act_slots": {
+            "topic": "服務開場"
+          },
+          "learning_role": "listen_only",
+          "surface": "はい、何でしょうか。",
+          "speak": "はい、何でしょうか。",
+          "translation": "好的，請問怎麼了？",
+          "friend": {
+            "hint": "對方在問你需要什麼。直接問洗手間在哪裡就可以。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "トイレはどちらですか。",
+                "translation": "洗手間在哪裡？",
+                "speak": "トイレはどちらですか。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "右に行きます。",
+                "translation": "我往右走。",
+                "speak": "みぎにいきます。",
+                "contrast_type": "states_direction_without_asking",
+                "feedback": "你還不知道洗手間位置。要先問トイレはどちらですか。"
+              },
+              {
+                "id": "r1c",
+                "surface": "トイレは近いです。",
+                "translation": "洗手間很近。",
+                "speak": "トイレはちかいです。",
+                "contrast_type": "states_distance_without_location_request",
+                "feedback": "這是在陳述距離，不是在問洗手間在哪裡。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "direction_instruction",
+          "act_slots": {
+            "topic": "右邊",
+            "keyword": "右",
+            "gloss": "右邊"
+          },
+          "learning_role": "listen_only",
+          "surface": "まっすぐ行って、右側にあります。",
+          "speak": "まっすぐ行って、右側にあります。",
+          "translation": "直走，在右邊。",
+          "friend": {
+            "hint": "まっすぐ是直走，右是右邊。先抓大方向就好。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.directions.left.right.v1",
+            "formula_ref": null,
+            "title": "左 / 右",
+            "explain": "「左」是左邊，「右」是右邊。",
+            "items": [
+              {
+                "surface": "左",
+                "translation": "左邊",
+                "speak": "左"
+              },
+              {
+                "surface": "右",
+                "translation": "右邊",
+                "speak": "右"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "右ですね。",
+                "translation": "右邊對吧。",
+                "speak": "右ですね。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "まっすぐですね。",
+                "translation": "直走對吧？",
+                "speak": "まっすぐですね。",
+                "contrast_type": "partial_direction_confirmation",
+                "feedback": "少了右側。對方說まっすぐ行って、右側。"
+              },
+              {
+                "id": "r2c",
+                "surface": "左側ですね。",
+                "translation": "左邊對吧？",
+                "speak": "左側ですね。",
+                "contrast_type": "wrong_side_confirmation",
+                "feedback": "對方說右側，不是左側。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "confirmation",
+          "act_slots": {
+            "topic": "方向確認",
+            "keyword": "右",
+            "gloss": "右邊"
+          },
+          "learning_role": "listen_only",
+          "surface": "はい、右です。",
+          "speak": "はい、右です。",
+          "translation": "對，在右邊。",
+          "friend": {
+            "hint": "對方確認是右邊。這時候道謝就好。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ありがとうございます。",
+                "translation": "謝謝。",
+                "speak": "ありがとうございます。"
+              },
+              {
+                "id": "r3b",
+                "surface": "左ですね。",
+                "translation": "左邊對吧？",
+                "speak": "左ですね。",
+                "contrast_type": "wrong_direction_confirmation",
+                "feedback": "對方說的是右邊。確認方向時要聽清楚右。"
+              },
+              {
+                "id": "r3c",
+                "surface": "まっすぐですね。",
+                "translation": "直走對吧？",
+                "speak": "まっすぐですね。",
+                "contrast_type": "partial_direction_after_right_confirmation",
+                "feedback": "最後確認的是右です。只說まっすぐ不完整。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "closing",
+            "learning_role": "context_support",
+            "surface": "はい。",
+            "speak": "はい。",
+            "translation": "好的。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.directions.left.right.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-0 neutral brief, not Korean surface text.",
+        "review_policy": "AI review required before closed pilot; native review pending.",
+        "canonical_policy": "Pilot-authored staging candidate only; do not write back to canonical schema."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_station_directions",
+      "brief_id": "ml1_a1_007_travel_station_directions",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml1-a1-007-station-or-exit-directions",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML1_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_station_directions.ja.v1.json",
+      "title": "駅の出口を聞く",
+      "setting_label": "駅の中",
+      "wrap_title": "出口の場所がわかりました",
+      "wrap_friend": "駅で短く声をかけ、出口を聞き、方向を確認してお礼を言えました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在日本車站裡找出口。聽對方的方向提示，選一句自然接得上的日文。",
+      "roles": {
+        "npc": {
+          "label": "駅員"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "act_slots": {
+            "topic": "声かけ",
+            "keyword": "どうしましたか",
+            "gloss": "怎麼了"
+          },
+          "learning_role": "listen_only",
+          "surface": "どうしましたか。",
+          "speak": "どうしましたか。",
+          "translation": "請問怎麼了？",
+          "friend": {
+            "hint": "可以先問你要找的出口在哪裡。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.station.exit_question.v1",
+            "formula_ref": null,
+            "title": "〜はどこですか",
+            "explain": "問地點時，可以用「場所 + はどこですか」。",
+            "items": [
+              {
+                "surface": "東口はどこですか。",
+                "translation": "東口在哪裡？",
+                "speak": "東口はどこですか。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "すみません、東口はどこですか。",
+                "translation": "不好意思，東口在哪裡？",
+                "speak": "すみません、東口はどこですか。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "東口です。",
+                "translation": "是東口。",
+                "speak": "ひがしぐちです。",
+                "contrast_type": "states_target_instead_of_asking_location",
+                "feedback": "你要問東口在哪裡，不是只說東口です。"
+              },
+              {
+                "id": "r1c",
+                "surface": "タクシーで行きます。",
+                "translation": "我搭計程車去。",
+                "speak": "タクシーで行きます。",
+                "contrast_type": "taxi_destination_answer",
+                "feedback": "這是在說交通方式，不是在問車站出口。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "give_direction",
+          "act_slots": {
+            "topic": "方向",
+            "keyword": "まっすぐ",
+            "gloss": "直走"
+          },
+          "learning_role": "listen_only",
+          "surface": "まっすぐ行って、右です。",
+          "speak": "まっすぐ行って、右です。",
+          "translation": "直走，然後在右邊。",
+          "friend": {
+            "hint": "對方說直走再右轉。可以確認方向。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.station.simple_direction.v1",
+            "formula_ref": null,
+            "title": "まっすぐ / 右",
+            "explain": "「まっすぐ」是直走，「右」是右邊。",
+            "items": [
+              {
+                "surface": "まっすぐ",
+                "translation": "直走",
+                "speak": "まっすぐ"
+              },
+              {
+                "surface": "右",
+                "translation": "右邊",
+                "speak": "右"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "まっすぐ行って、右ですね。",
+                "translation": "直走，然後右邊對吧？",
+                "speak": "まっすぐ行って、右ですね。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "左ですね。",
+                "translation": "是左邊對吧？",
+                "speak": "左ですね。",
+                "contrast_type": "wrong_direction_confirmation",
+                "feedback": "對方說的是右，不是左。"
+              },
+              {
+                "id": "r2c",
+                "surface": "左の改札ですか。",
+                "translation": "是左邊的剪票口嗎？",
+                "speak": "ひだりのかいさつですか。",
+                "contrast_type": "wrong_direction_specific_gate",
+                "feedback": "對方說右，不是左。"
+              },
+              {
+                "id": "r2d",
+                "surface": "タクシー乗り場です。",
+                "translation": "是計程車乘車處。",
+                "speak": "タクシー乗り場です。",
+                "contrast_type": "wrong_destination_confirmation",
+                "feedback": "目標是東口，不是計程車乘車處。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "confirm_exit",
+          "act_slots": {
+            "topic": "出口確認",
+            "keyword": "東口",
+            "gloss": "東口"
+          },
+          "learning_role": "listen_only",
+          "surface": "はい。東口はその先です。",
+          "speak": "はい。東口はその先です。",
+          "translation": "是的。東口就在前面。",
+          "friend": {
+            "hint": "出口位置確認了。可以道謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "ありがとうございます。",
+                "translation": "謝謝。",
+                "speak": "ありがとうございます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "東口はどこですか。",
+                "translation": "東口在哪裡？",
+                "speak": "東口はどこですか。",
+                "contrast_type": "repeated_location_question",
+                "feedback": "對方已經告訴你方向了。現在道謝比較自然。"
+              },
+              {
+                "id": "r3c",
+                "surface": "左ですね。",
+                "translation": "左邊對吧？",
+                "speak": "ひだりですね。",
+                "contrast_type": "wrong_direction_after_exit_confirmation",
+                "feedback": "對方說東口在前面，不是左邊。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "closing",
+          "act_slots": {
+            "topic": "道案内終了",
+            "keyword": "どうぞ",
+            "gloss": "請"
+          },
+          "learning_role": "listen_only",
+          "surface": "どうぞ。",
+          "speak": "どうぞ。",
+          "translation": "請。",
+          "friend": {
+            "hint": "對話結束了。可以再簡短回應。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "助かりました。",
+                "translation": "幫大忙了。",
+                "speak": "助かりました。"
+              },
+              {
+                "id": "r4b",
+                "surface": "西口ですね。",
+                "translation": "西口對吧？",
+                "speak": "にしぐちですね。",
+                "contrast_type": "wrong_exit_at_closing",
+                "feedback": "目標是東口，不是西口。"
+              },
+              {
+                "id": "r4c",
+                "surface": "東口は左ですか。",
+                "translation": "東口在左邊嗎？",
+                "speak": "東口は左ですか。",
+                "contrast_type": "new_wrong_direction_at_close",
+                "feedback": "對方已說右並確認。不要再改成左。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "direction_understood",
+            "learning_role": "listen_only",
+            "surface": "出口の方向がわかりました。",
+            "speak": "出口の方向がわかりました。",
+            "translation": "你知道出口方向了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.station.exit_question.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.station.simple_direction.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-1 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, or legacy content.",
+        "register_note": "Uses compact polite Japanese for station staff interaction."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_taxi_destination",
+      "brief_id": "ml4_a1_015_travel_taxi_destination",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml4-a1-015-taxi-destination",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML4_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_taxi_destination.ja.v1.json",
+      "title": "タクシーで行き先を伝える",
+      "setting_label": "タクシー",
+      "wrap_title": "行き先を伝えられました",
+      "wrap_friend": "行き先を伝え、確認して、到着時にお礼を言えました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在日本搭計程車。聽司機說話，選一句自然接得上的日文。",
+      "roles": {
+        "npc": {
+          "label": "運転手"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "ask_destination",
+          "learning_role": "listen_only",
+          "surface": "どちらまでですか。",
+          "speak": "どちらまでですか。",
+          "translation": "請問要到哪裡？",
+          "friend": {
+            "hint": "司機問目的地。用短句說到這間飯店。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.taxi.destination_request.v1",
+            "formula_ref": null,
+            "title": "このホテルまでお願いします",
+            "explain": "搭計程車時，說目的地加「までお願いします」很自然。",
+            "items": [
+              {
+                "surface": "このホテルまでお願いします。",
+                "translation": "麻煩到這間飯店。",
+                "speak": "このホテルまでお願いします。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "このホテルまでお願いします。",
+                "translation": "麻煩到這間飯店。",
+                "speak": "このホテルまでお願いします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "このホテルは近いですか。",
+                "translation": "這間飯店近嗎？",
+                "speak": "このホテルは近いですか。",
+                "contrast_type": "asks_distance_instead_of_destination",
+                "feedback": "司機問目的地。要先說このホテルまでお願いします。"
+              },
+              {
+                "id": "r1c",
+                "surface": "このホテルまで歩きます。",
+                "translation": "我走路到這間飯店。",
+                "speak": "このホテルまで歩きます。",
+                "contrast_type": "wrong_transport_mode_in_taxi",
+                "feedback": "你已經在タクシー裡。司機問目的地時，要說このホテルまでお願いします。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "confirm_destination",
+          "learning_role": "listen_only",
+          "surface": "このホテルですね。",
+          "speak": "このホテルですね。",
+          "translation": "是這間飯店，對吧？",
+          "friend": {
+            "hint": "司機確認目的地。簡短確認。"
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "はい、お願いします。",
+                "translation": "是的，麻煩你。",
+                "speak": "はい、お願いします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "駅までどのくらいですか。",
+                "translation": "到車站大概要多久？",
+                "speak": "駅までどのくらいですか。",
+                "contrast_type": "different_destination_question",
+                "feedback": "這是在問到車站的時間。司機剛確認的是這家飯店的位置。"
+              },
+              {
+                "id": "r2c",
+                "surface": "この道は歩きますか。",
+                "translation": "這條路要走路嗎？",
+                "speak": "このみちはあるきますか。",
+                "contrast_type": "wrong_transport_mode_confirmation",
+                "feedback": "現在是在計程車上，不是走路。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "give_duration",
+          "learning_role": "listen_only",
+          "surface": "10分くらいです。",
+          "speak": "じゅっぷんくらいです。",
+          "translation": "大約十分鐘。",
+          "friend": {
+            "hint": "聽到車程時間。表示知道了並道謝。"
+          },
+          "reply_set": {
+            "correct": "r3a",
+            "choices": [
+              {
+                "id": "r3a",
+                "surface": "わかりました。ありがとうございます。",
+                "translation": "我知道了，謝謝。",
+                "speak": "わかりました。ありがとうございます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r3b",
+                "surface": "もう過ぎましたか。",
+                "translation": "已經過頭了嗎？",
+                "speak": "もうすぎましたか。",
+                "contrast_type": "wrong_arrival_status_after_duration",
+                "feedback": "司機只說大約10分鐘，沒有說已經過頭。"
+              },
+              {
+                "id": "r3c",
+                "surface": "10時に着きますか。",
+                "translation": "十點會到嗎？",
+                "speak": "じゅうじにつきますか。",
+                "contrast_type": "clock_time_instead_of_duration",
+                "feedback": "司機說的是10分くらい，不是10時。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "arrival",
+          "learning_role": "listen_only",
+          "surface": "着きました。",
+          "speak": "つきました。",
+          "translation": "到了。",
+          "friend": {
+            "hint": "司機說到了。確認在這裡下車並道謝。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "ここで大丈夫です。ありがとうございます。",
+                "translation": "這裡可以。謝謝。",
+                "speak": "ここでだいじょうぶです。ありがとうございます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "駅までお願いします。",
+                "translation": "請到車站。",
+                "speak": "えきまでお願いします。",
+                "contrast_type": "changes_destination_after_arrival",
+                "feedback": "已經到指定飯店了。這時應確認下車並道謝。"
+              },
+              {
+                "id": "r4c",
+                "surface": "何分くらいですか。",
+                "translation": "大概要幾分鐘？",
+                "speak": "なんぷんくらいですか。",
+                "contrast_type": "asks_duration_after_arrival",
+                "feedback": "已經到達，不需要再問時間。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "taxi_destination_complete",
+            "learning_role": "listen_only",
+            "surface": "行き先を伝えて、到着できました。",
+            "speak": "行き先を伝えて、到着できました。",
+            "translation": "你說出目的地並到達了。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.taxi.destination_request.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.taxi.confirm_yes.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "ja.taxi.thanks.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-4 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, runtime exports, frontend, or legacy content.",
+        "register_note": "Uses compact polite passenger Japanese for a low-stakes taxi ride."
+      }
+    },
+    {
+      "schema_version": "scenario_pack.v1",
+      "scenario_id": "travel_ticket_buying",
+      "brief_id": "ml3_a1_013_travel_ticket_buying",
+      "source_neutral_brief": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_NEUTRAL_ADAPTATION_BRIEFS_20260614.md#brief-ml3-a1-013-buy-a-ticket",
+      "blueprint_ledger": "release-aggregator/docs/tasks/A1_MULTILINGUAL_KO_B1_PARALLEL_ORCHESTRATION/work_products/ml0/ML3_BLUEPRINT_LEDGER_20260614.md",
+      "repo": "content-ja",
+      "staging_path": "content/core/content_assets/scenario_packs/current_flow/travel_ticket_buying.ja.v1.json",
+      "title": "切符を買う",
+      "setting_label": "駅の切符売り場",
+      "wrap_title": "切符を買えた",
+      "wrap_friend": "行き先と枚数を伝え、確認して、切符を受け取れました。",
+      "language": "ja",
+      "ui_language": "zh_tw",
+      "source_status": "ai_reviewed",
+      "review_state": "ai_semantic_reviewed_native_pending",
+      "review_status_framework_state": "ai_reviewed",
+      "native_review_state": "native_pending",
+      "production_mode_default": {
+        "required": [
+          "choice"
+        ],
+        "optional_visible": [
+          "speaking"
+        ],
+        "optional_hidden": [
+          "typing"
+        ]
+      },
+      "support_text": "你在車站售票窗口買一張票。選自然、簡短的日文。",
+      "roles": {
+        "npc": {
+          "label": "駅員"
+        },
+        "learner": {
+          "label": "あなた"
+        }
+      },
+      "turns": [
+        {
+          "turn_id": "t1",
+          "speaker": "npc",
+          "act": "offer_help",
+          "learning_role": "listen_only",
+          "surface": "どちらまでですか。",
+          "speak": "どちらまでですか。",
+          "translation": "請問到哪裡？",
+          "friend": {
+            "hint": "站務員問目的地。用まで一枚ください。"
+          },
+          "reply_set": {
+            "correct": "r1a",
+            "choices": [
+              {
+                "id": "r1a",
+                "surface": "中央駅まで一枚ください。",
+                "translation": "請給我一張到中央車站的票。",
+                "speak": "ちゅうおうえきまで、いちまいください。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r1b",
+                "surface": "中央駅はどこですか。",
+                "translation": "中央車站在哪裡？",
+                "speak": "ちゅうおうえきは、どこですか。",
+                "contrast_type": "directions_instead_of_ticket_purchase",
+                "feedback": "這是在問路，不是在買票。"
+              },
+              {
+                "id": "r1c",
+                "surface": "中央駅まで何分ですか。",
+                "translation": "到中央站要幾分鐘？",
+                "speak": "中央駅まで何分ですか。",
+                "contrast_type": "asks_duration_instead_of_buying_ticket",
+                "feedback": "這是在問時間，不是在買票。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t2",
+          "speaker": "npc",
+          "act": "confirm_destination_quantity",
+          "learning_role": "listen_only",
+          "surface": "中央駅まで、一枚ですね。",
+          "speak": "ちゅうおうえきまで、いちまいですね。",
+          "translation": "到中央車站，一張，對吧？",
+          "friend": {
+            "hint": "站務員確認資訊。用はい、お願いします。"
+          },
+          "inline_explain": {
+            "pattern_id": "ja.ticket.confirm.v1",
+            "formula_ref": null,
+            "title": "はい、お願いします",
+            "explain": "店員や駅員が確認した時に、短く丁寧に答える表現です。",
+            "items": [
+              {
+                "surface": "はい、お願いします。",
+                "translation": "是的，麻煩你。",
+                "speak": "はい、おねがいします。"
+              }
+            ]
+          },
+          "reply_set": {
+            "correct": "r2a",
+            "choices": [
+              {
+                "id": "r2a",
+                "surface": "はい、お願いします。",
+                "translation": "是的，麻煩你。",
+                "speak": "はい、おねがいします。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r2b",
+                "surface": "二枚ですね。",
+                "translation": "是兩張對吧？",
+                "speak": "にまいですね。",
+                "contrast_type": "wrong_quantity_confirmation",
+                "feedback": "站務員確認的是一張。不要改成兩張。"
+              },
+              {
+                "id": "r2c",
+                "surface": "空港まで二枚ください。",
+                "translation": "請給我兩張到機場的票。",
+                "speak": "くうこうまで、にまいください。",
+                "contrast_type": "wrong_quantity_and_destination",
+                "feedback": "這改變了張數和目的地，和前一句不一致。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t3",
+          "speaker": "npc",
+          "act": "handover_ticket",
+          "learning_role": "listen_only",
+          "surface": "三百円です。二番線です。",
+          "speak": "さんびゃくえんです。にばんせんです。",
+          "translation": "三百日圓。二號月台。",
+          "friend": {
+            "hint": "站務員說價格和月台。付款並道謝。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "はい、ありがとうございます。",
+                "translation": "好的，謝謝。",
+                "speak": "はい、ありがとうございます。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "中央駅まで行きますか。",
+                "translation": "你要去中央車站嗎？",
+                "speak": "ちゅうおうえきまで、いきますか。",
+                "contrast_type": "staff_role_sentence_by_customer",
+                "feedback": "這像站務員問旅客，不是旅客付款收尾。"
+              },
+              {
+                "id": "r4c",
+                "surface": "一番線ですね。",
+                "translation": "一號月台對吧？",
+                "speak": "いちばんせんですね。",
+                "contrast_type": "wrong_platform_confirmation",
+                "feedback": "店員說的是二番線，不是一番線。"
+              }
+            ]
+          }
+        },
+        {
+          "turn_id": "t4",
+          "speaker": "npc",
+          "act": "ticket_handover",
+          "learning_role": "listen_only",
+          "surface": "切符です。二番ホームです。",
+          "speak": "きっぷです。にばんホームです。",
+          "translation": "這是車票。二號月台。",
+          "friend": {
+            "hint": "拿到票和月台資訊後，簡短道謝。"
+          },
+          "reply_set": {
+            "correct": "r4a",
+            "choices": [
+              {
+                "id": "r4a",
+                "surface": "どうも。",
+                "translation": "謝了。",
+                "speak": "どうも。",
+                "learning_role": "production_target"
+              },
+              {
+                "id": "r4b",
+                "surface": "一番ホームですね。",
+                "translation": "一號月台對吧？",
+                "speak": "いちばんホームですね。",
+                "contrast_type": "wrong_platform_at_handover",
+                "feedback": "店員說的是二番ホーム，不是一番ホーム。"
+              },
+              {
+                "id": "r4c",
+                "surface": "もう一枚ください。",
+                "translation": "請再給我一張。",
+                "speak": "もういちまいください。",
+                "contrast_type": "asks_extra_ticket_after_handover",
+                "feedback": "票已經給你了。若沒有要加買，簡短道謝即可。"
+              }
+            ]
+          },
+          "closing": {
+            "act": "travel_ticket_buying_complete",
+            "learning_role": "listen_only",
+            "surface": "切符です。二番ホームです。",
+            "speak": "きっぷです。にばんホームです。",
+            "translation": "這是車票。二號月台。"
+          }
+        }
+      ],
+      "formula_moments": [
+        {
+          "after_turn": "t1",
+          "pattern_id": "ja.ticket.destination_quantity.v1"
+        },
+        {
+          "after_turn": "t2",
+          "pattern_id": "ja.ticket.confirm_yes.v1"
+        },
+        {
+          "after_turn": "t4",
+          "pattern_id": "ja.ticket.thanks.v1"
+        }
+      ],
+      "notes": {
+        "authoring_source": "Authored from ML-3 neutral brief, not Korean surface text or another target-language pack.",
+        "review_policy": "AI-authored Japanese candidate. Requires AI review, runtime smoke, and tracked native review before any stronger status.",
+        "canonical_policy": "Staging candidate only. Do not write back to manifests, production exports, schemas, or legacy content.",
+        "register_note": "Polite station-counter Japanese with simple destination and quantity."
+      }
+    }
+  ]
+}

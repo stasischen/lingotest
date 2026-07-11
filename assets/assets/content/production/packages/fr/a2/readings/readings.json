@@ -1,0 +1,5685 @@
+{
+  "language": "fr",
+  "readings": [
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:la",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:la",
+          "lemma": "la",
+          "pos": "det",
+          "text": "La"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:réservation",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:réservation",
+          "lemma": "réservation",
+          "pos": "n",
+          "text": "réservation"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:être",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:être",
+          "lemma": "être",
+          "pos": "v",
+          "text": "est"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adj:confirmé",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adj:confirmé",
+          "lemma": "confirmé",
+          "pos": "adj",
+          "text": "confirmée"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:pour",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:pour",
+          "lemma": "pour",
+          "pos": "p",
+          "text": "pour"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_app_booking_confirmation:r001:tok06:adv:aujourd_hui",
+          "lemma": "aujourd’hui",
+          "pos": "adv",
+          "text": "aujourd’hui"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:à",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:à",
+          "lemma": "à",
+          "pos": "p",
+          "text": "à"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:num:trois",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:num:trois",
+          "lemma": "trois",
+          "pos": "num",
+          "text": "trois"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:heures",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:heures",
+          "lemma": "heures",
+          "pos": "n",
+          "text": "heures"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_app_booking_confirmation:r001:tok10:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_app_booking_confirmation:r002:tok06:adv:aujourd_hui",
+          "lemma": "aujourd’hui",
+          "pos": "adv",
+          "text": "aujourd’hui"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_app_booking_confirmation:r002:tok10:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_app_booking_confirmation:r003:tok01:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:où",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:où",
+          "lemma": "où",
+          "pos": "adv",
+          "text": "où"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_app_booking_confirmation:r003:tok04:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_app_booking_confirmation:r004:tok01:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_app_booking_confirmation:r004:tok04:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-001-a2_app_booking_confirmation",
+      "source_scenario_id": "a2_app_booking_confirmation",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Confirmez la date, le lieu, le nom et l’heure de la réservation sans partager de données sensibles. La réservation est confirmée pour aujourd’hui à trois heures. C’est au deuxième étage du café.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_app_booking_confirmation",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "Vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:vouloir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:vouloir",
+          "lemma": "vouloir",
+          "pos": "v",
+          "text": "voulez"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:commander",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:commander",
+          "lemma": "commander",
+          "pos": "v",
+          "text": "commander"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_ingredient_preference:r001:tok04:pron:quoi",
+          "lemma": "quoi",
+          "pos": "pron",
+          "text": "quoi"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_ingredient_preference:r001:tok05:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_ingredient_preference:r002:tok04:pron:quoi",
+          "lemma": "quoi",
+          "pos": "pron",
+          "text": "quoi"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_ingredient_preference:r002:tok05:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_ingredient_preference:r003:tok01:det:cette",
+          "lemma": "cette",
+          "pos": "det",
+          "text": "Cette"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:salade",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:salade",
+          "lemma": "salade",
+          "pos": "n",
+          "text": "salade"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:contenir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:contenir",
+          "lemma": "contenir",
+          "pos": "v",
+          "text": "contient"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:de",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:de",
+          "lemma": "de",
+          "pos": "p",
+          "text": "de"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:le",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:le",
+          "lemma": "le",
+          "pos": "det",
+          "text": "le"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:oignon",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:oignon",
+          "lemma": "oignon",
+          "pos": "n",
+          "text": "oignon"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_ingredient_preference:r003:tok07:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_ingredient_preference:r004:tok01:det:cette",
+          "lemma": "cette",
+          "pos": "det",
+          "text": "Cette"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_ingredient_preference:r004:tok07:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-002-a2_ask_ingredient_preference",
+      "source_scenario_id": "a2_ask_ingredient_preference",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Demandez s’il y a un ingrédient courant et choisissez selon votre préférence. Vous voulez commander quoi ? Oui, il y a un peu d’oignon.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_ask_ingredient_preference",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_late_checkout:r001:tok01:p:comment",
+          "lemma": "comment",
+          "pos": "p",
+          "text": "Comment"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_late_checkout:r001:tok02:p:puis_je",
+          "lemma": "puis-je",
+          "pos": "p",
+          "text": "puis-je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:aider",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:aider",
+          "lemma": "aider",
+          "pos": "v",
+          "text": "aider"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_late_checkout:r001:tok05:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_late_checkout:r002:tok01:p:comment",
+          "lemma": "comment",
+          "pos": "p",
+          "text": "Comment"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_late_checkout:r002:tok02:p:puis_je",
+          "lemma": "puis-je",
+          "pos": "p",
+          "text": "puis-je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_late_checkout:r002:tok05:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "Je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:pouvoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:pouvoir",
+          "lemma": "pouvoir",
+          "pos": "v",
+          "text": "peux"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:faire",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:faire",
+          "lemma": "faire",
+          "pos": "v",
+          "text": "faire"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:le",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:le",
+          "lemma": "le",
+          "pos": "det",
+          "text": "le"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:check-out",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:check-out",
+          "lemma": "check-out",
+          "pos": "n",
+          "text": "check-out"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:un",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:un",
+          "lemma": "un",
+          "pos": "det",
+          "text": "un"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_late_checkout:r003:tok07:adv:peu",
+          "lemma": "peu",
+          "pos": "adv",
+          "text": "peu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:plus",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:plus",
+          "lemma": "plus",
+          "pos": "adv",
+          "text": "plus"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:tard",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:tard",
+          "lemma": "tard",
+          "pos": "adv",
+          "text": "tard"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_late_checkout:r003:tok10:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_late_checkout:r004:tok07:adv:peu",
+          "lemma": "peu",
+          "pos": "adv",
+          "text": "peu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_late_checkout:r004:tok10:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-003-a2_ask_late_checkout",
+      "source_scenario_id": "a2_ask_late_checkout",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Demandez si vous pouvez partir un peu plus tard et confirmez l’heure finale. Comment puis-je vous aider ? Aujourd’hui, vous pouvez faire le check-out jusqu’à treize heures.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_ask_late_checkout",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "Vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:chercher",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:chercher",
+          "lemma": "chercher",
+          "pos": "v",
+          "text": "cherchez"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_recommendation_budget:r001:tok03:pron:quoi",
+          "lemma": "quoi",
+          "pos": "pron",
+          "text": "quoi"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_recommendation_budget:r001:tok04:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_recommendation_budget:r002:tok03:pron:quoi",
+          "lemma": "quoi",
+          "pos": "pron",
+          "text": "quoi"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_recommendation_budget:r002:tok04:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:pouvoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:pouvoir",
+          "lemma": "pouvoir",
+          "pos": "v",
+          "text": "pouvez"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:me",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:me",
+          "lemma": "me",
+          "pos": "pron",
+          "text": "me"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:recommander",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:recommander",
+          "lemma": "recommander",
+          "pos": "n",
+          "text": "recommander"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:un",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:un",
+          "lemma": "un",
+          "pos": "det",
+          "text": "un"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:cadeau",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:cadeau",
+          "lemma": "cadeau",
+          "pos": "n",
+          "text": "cadeau"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:à",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:à",
+          "lemma": "à",
+          "pos": "p",
+          "text": "à"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_recommendation_budget:r003:tok08:adv:moins",
+          "lemma": "moins",
+          "pos": "adv",
+          "text": "moins"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:de",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:de",
+          "lemma": "de",
+          "pos": "p",
+          "text": "de"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:num:dix",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:num:dix",
+          "lemma": "dix",
+          "pos": "num",
+          "text": "dix"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:euros",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:euros",
+          "lemma": "euros",
+          "pos": "n",
+          "text": "euros"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_recommendation_budget:r003:tok12:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_recommendation_budget:r004:tok08:adv:moins",
+          "lemma": "moins",
+          "pos": "adv",
+          "text": "moins"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_recommendation_budget:r004:tok12:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-004-a2_ask_recommendation_budget",
+      "source_scenario_id": "a2_ask_recommendation_budget",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Demandez une recommandation simple dans un petit budget. Vous cherchez quoi ? Vous préférez quelque chose de léger ou de pratique ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_ask_recommendation_budget",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "Vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:allez",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:allez",
+          "lemma": "allez",
+          "pos": "v",
+          "text": "allez"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:où",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:où",
+          "lemma": "où",
+          "pos": "adv",
+          "text": "où"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_transfer_platform:r001:tok04:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_transfer_platform:r002:tok04:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "Je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:aller",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:aller",
+          "lemma": "aller",
+          "pos": "v",
+          "text": "vais"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:à",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:à",
+          "lemma": "à",
+          "pos": "p",
+          "text": "à"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:le",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:le",
+          "lemma": "le",
+          "pos": "det",
+          "text": "le"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:aéroport",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:aéroport",
+          "lemma": "aéroport",
+          "pos": "n",
+          "text": "aéroport"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_transfer_platform:r003:tok06:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_transfer_platform:r003:tok08:p:est_ce",
+          "lemma": "est-ce",
+          "pos": "p",
+          "text": "est-ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_transfer_platform:r003:tok09:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:changer",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:changer",
+          "lemma": "changer",
+          "pos": "v",
+          "text": "change"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_transfer_platform:r003:tok12:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_transfer_platform:r004:tok06:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_transfer_platform:r004:tok08:p:est_ce",
+          "lemma": "est-ce",
+          "pos": "p",
+          "text": "est-ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_ask_transfer_platform:r004:tok09:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_ask_transfer_platform:r004:tok12:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-005-a2_ask_transfer_platform",
+      "source_scenario_id": "a2_ask_transfer_platform",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Demandez où faire la correspondance, écoutez la station et le quai, puis confirmez. Vous allez où ? Descendez à Central, puis allez au quai trois.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_ask_transfer_platform",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:le",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:le",
+          "lemma": "le",
+          "pos": "det",
+          "text": "Le"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:retrait",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:retrait",
+          "lemma": "retrait",
+          "pos": "n",
+          "text": "retrait"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:être",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:être",
+          "lemma": "être",
+          "pos": "v",
+          "text": "est"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:prévoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:prévoir",
+          "lemma": "prévoir",
+          "pos": "v",
+          "text": "prévu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_change_delivery_pickup_time:r001:tok05:adv:aujourd_hui",
+          "lemma": "aujourd’hui",
+          "pos": "adv",
+          "text": "aujourd’hui"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:à",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:à",
+          "lemma": "à",
+          "pos": "p",
+          "text": "à"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:num:quatre",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:num:quatre",
+          "lemma": "quatre",
+          "pos": "num",
+          "text": "quatre"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:heures",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:heures",
+          "lemma": "heures",
+          "pos": "n",
+          "text": "heures"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_change_delivery_pickup_time:r001:tok09:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_change_delivery_pickup_time:r002:tok05:adv:aujourd_hui",
+          "lemma": "aujourd’hui",
+          "pos": "adv",
+          "text": "aujourd’hui"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_change_delivery_pickup_time:r002:tok09:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "Je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:pouvoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:pouvoir",
+          "lemma": "pouvoir",
+          "pos": "v",
+          "text": "peux"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:changer",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:changer",
+          "lemma": "changer",
+          "pos": "v",
+          "text": "changer"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:heure",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:heure",
+          "lemma": "heure",
+          "pos": "n",
+          "text": "heure"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:de",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:de",
+          "lemma": "de",
+          "pos": "p",
+          "text": "de"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_change_delivery_pickup_time:r003:tok08:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_change_delivery_pickup_time:r004:tok08:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-006-a2_change_delivery_pickup_time",
+      "source_scenario_id": "a2_change_delivery_pickup_time",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Confirmez un changement simple d’heure de retrait. Le retrait est prévu aujourd’hui à quatre heures. Oui, cinq heures est possible.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_change_delivery_pickup_time",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:intj:bonjour",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:intj:bonjour",
+          "lemma": "bonjour",
+          "pos": "intj",
+          "text": "Bonjour"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_change_ticket_time:r001:tok02:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_change_ticket_time:r001:tok03:p:comment",
+          "lemma": "comment",
+          "pos": "p",
+          "text": "Comment"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_change_ticket_time:r001:tok04:p:puis_je",
+          "lemma": "puis-je",
+          "pos": "p",
+          "text": "puis-je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:aider",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:aider",
+          "lemma": "aider",
+          "pos": "v",
+          "text": "aider"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_change_ticket_time:r001:tok07:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_change_ticket_time:r002:tok02:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_change_ticket_time:r002:tok03:p:comment",
+          "lemma": "comment",
+          "pos": "p",
+          "text": "Comment"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_change_ticket_time:r002:tok04:p:puis_je",
+          "lemma": "puis-je",
+          "pos": "p",
+          "text": "puis-je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_change_ticket_time:r002:tok07:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "Je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:vouloir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:vouloir",
+          "lemma": "vouloir",
+          "pos": "v",
+          "text": "voudrais"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:changer",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:changer",
+          "lemma": "changer",
+          "pos": "v",
+          "text": "changer"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:le",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:le",
+          "lemma": "le",
+          "pos": "det",
+          "text": "le"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:heure",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:heure",
+          "lemma": "heure",
+          "pos": "n",
+          "text": "heure"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:de",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:de",
+          "lemma": "de",
+          "pos": "p",
+          "text": "de"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:mon",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:mon",
+          "lemma": "mon",
+          "pos": "det",
+          "text": "mon"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:billet",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:billet",
+          "lemma": "billet",
+          "pos": "n",
+          "text": "billet"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_change_ticket_time:r003:tok09:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_change_ticket_time:r004:tok09:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-007-a2_change_ticket_time",
+      "source_scenario_id": "a2_change_ticket_time",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Demandez à changer l’heure d’un billet, écoutez l’horaire disponible, puis confirmez. Bonjour. Comment puis-je vous aider ? Vous pouvez le changer pour le train de quinze heures.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_change_ticket_time",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_compare_two_menu_options:r001:tok01:adv:aujourd_hui",
+          "lemma": "aujourd’hui",
+          "pos": "adv",
+          "text": "Aujourd’hui"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_compare_two_menu_options:r001:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:pouvoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:pouvoir",
+          "lemma": "pouvoir",
+          "pos": "v",
+          "text": "pouvez"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:choisir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:choisir",
+          "lemma": "choisir",
+          "pos": "v",
+          "text": "choisir"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:le",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:le",
+          "lemma": "le",
+          "pos": "det",
+          "text": "le"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:bol",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:bol",
+          "lemma": "bol",
+          "pos": "n",
+          "text": "bol"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:de",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:de",
+          "lemma": "de",
+          "pos": "p",
+          "text": "de"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:riz",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:riz",
+          "lemma": "riz",
+          "pos": "n",
+          "text": "riz"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:conj:ou",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:conj:ou",
+          "lemma": "ou",
+          "pos": "conj",
+          "text": "ou"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:la",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:la",
+          "lemma": "la",
+          "pos": "det",
+          "text": "la"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:soupe",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:soupe",
+          "lemma": "soupe",
+          "pos": "n",
+          "text": "soupe"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:nouilles",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:nouilles",
+          "lemma": "nouilles",
+          "pos": "n",
+          "text": "nouilles"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_compare_two_menu_options:r001:tok15:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_compare_two_menu_options:r002:tok01:adv:aujourd_hui",
+          "lemma": "aujourd’hui",
+          "pos": "adv",
+          "text": "Aujourd’hui"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_compare_two_menu_options:r002:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_compare_two_menu_options:r002:tok15:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:quelle",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:quelle",
+          "lemma": "quelle",
+          "pos": "det",
+          "text": "Quelle"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:être",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:être",
+          "lemma": "être",
+          "pos": "v",
+          "text": "est"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:différence",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:différence",
+          "lemma": "différence",
+          "pos": "n",
+          "text": "différence"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:entre",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:entre",
+          "lemma": "entre",
+          "pos": "n",
+          "text": "entre"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:les",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:les",
+          "lemma": "les",
+          "pos": "det",
+          "text": "les"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:num:deux",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:num:deux",
+          "lemma": "deux",
+          "pos": "num",
+          "text": "deux"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:options",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:options",
+          "lemma": "options",
+          "pos": "n",
+          "text": "options"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_compare_two_menu_options:r003:tok09:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_compare_two_menu_options:r004:tok09:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-008-a2_compare_two_menu_options",
+      "source_scenario_id": "a2_compare_two_menu_options",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Comparez deux options simples du menu et choisissez celle que vous préférez. Aujourd’hui, vous pouvez choisir le bol de riz ou la soupe de nouilles. Le bol de riz est un peu épicé, et la soupe de nouilles est plus légère.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_compare_two_menu_options",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:tu",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:tu",
+          "lemma": "tu",
+          "pos": "pron",
+          "text": "Tu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:avoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:avoir",
+          "lemma": "avoir",
+          "pos": "v",
+          "text": "as"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:voir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:voir",
+          "lemma": "voir",
+          "pos": "v",
+          "text": "vu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:mon",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:mon",
+          "lemma": "mon",
+          "pos": "det",
+          "text": "mon"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:message",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:message",
+          "lemma": "message",
+          "pos": "n",
+          "text": "message"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r001:tok06:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:samedi",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:samedi",
+          "lemma": "samedi",
+          "pos": "n",
+          "text": "Samedi"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r001:tok08:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r001:tok09:num:10",
+          "lemma": "10",
+          "pos": "num",
+          "text": "10"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:heure",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:heure",
+          "lemma": "heure",
+          "pos": "n",
+          "text": "h"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r001:tok11:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:devant",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:devant",
+          "lemma": "devant",
+          "pos": "p",
+          "text": "devant"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:le",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:le",
+          "lemma": "le",
+          "pos": "det",
+          "text": "le"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:cinéma",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:cinéma",
+          "lemma": "cinéma",
+          "pos": "n",
+          "text": "cinéma"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:prop:lumière",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "named_entity"
+          },
+          "id": "fr:prop:lumière",
+          "lemma": "Lumière",
+          "pos": "prop",
+          "text": "Lumière"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r001:tok16:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r002:tok06:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r002:tok08:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:num:dix",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:num:dix",
+          "lemma": "dix",
+          "pos": "num",
+          "text": "dix"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:heures",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:heures",
+          "lemma": "heures",
+          "pos": "n",
+          "text": "heures"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r002:tok11:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r002:tok16:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:intj:oui",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:intj:oui",
+          "lemma": "oui",
+          "pos": "intj",
+          "text": "Oui"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r003:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r003:tok03:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:être",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:être",
+          "lemma": "être",
+          "pos": "v",
+          "text": "est"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:à",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:à",
+          "lemma": "à",
+          "pos": "p",
+          "text": "à"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r003:tok09:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r004:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r004:tok03:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_confirm_date_time_place:r004:tok09:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-009-a2_confirm_date_time_place",
+      "source_scenario_id": "a2_confirm_date_time_place",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Lis le court message de ton amie. Confirme la date, l'heure, puis le lieu sans ajouter d'itinéraire. Tu as vu mon message ? Samedi, 10 h, devant le cinéma Lumière. Et on se retrouve où ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_confirm_date_time_place",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:tu",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:tu",
+          "lemma": "tu",
+          "pos": "pron",
+          "text": "Tu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:vouloir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:vouloir",
+          "lemma": "vouloir",
+          "pos": "v",
+          "text": "veux"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:voir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:voir",
+          "lemma": "voir",
+          "pos": "v",
+          "text": "voir"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:un",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:un",
+          "lemma": "un",
+          "pos": "det",
+          "text": "un"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:film",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:film",
+          "lemma": "film",
+          "pos": "n",
+          "text": "film"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_decline_with_reason:r001:tok06:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:soir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:soir",
+          "lemma": "soir",
+          "pos": "n",
+          "text": "soir"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_decline_with_reason:r001:tok08:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_decline_with_reason:r002:tok06:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_decline_with_reason:r002:tok08:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:intj:désolé",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:intj:désolé",
+          "lemma": "désolé",
+          "pos": "intj",
+          "text": "Désolé"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_decline_with_reason:r003:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_decline_with_reason:r003:tok03:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:ne",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:ne",
+          "lemma": "ne",
+          "pos": "n",
+          "text": "ne"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:pouvoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:pouvoir",
+          "lemma": "pouvoir",
+          "pos": "v",
+          "text": "peux"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:pas",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:pas",
+          "lemma": "pas",
+          "pos": "adv",
+          "text": "pas"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_decline_with_reason:r003:tok09:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_decline_with_reason:r004:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_decline_with_reason:r004:tok03:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_decline_with_reason:r004:tok09:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-010-a2_decline_with_reason",
+      "source_scenario_id": "a2_decline_with_reason",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Utilise un langage naturel avec un ami. Garde l’activité et la raison simples. Tu veux voir un film ce soir ? Pas de souci. Tu es occupé ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_decline_with_reason",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r001:tok01:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r001:tok02:p:est_ce",
+          "lemma": "est-ce",
+          "pos": "p",
+          "text": "est-ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r001:tok03:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:tu",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:tu",
+          "lemma": "tu",
+          "pos": "pron",
+          "text": "tu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:avoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:avoir",
+          "lemma": "avoir",
+          "pos": "v",
+          "text": "as"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:fait",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:fait",
+          "lemma": "fait",
+          "pos": "v",
+          "text": "fait"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r001:tok07:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:week-end",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:week-end",
+          "lemma": "week-end",
+          "pos": "n",
+          "text": "week-end"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r001:tok09:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r002:tok01:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r002:tok02:p:est_ce",
+          "lemma": "est-ce",
+          "pos": "p",
+          "text": "est-ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r002:tok03:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r002:tok07:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r002:tok09:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:voir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:voir",
+          "lemma": "voir",
+          "pos": "v",
+          "text": "vu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:un",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:un",
+          "lemma": "un",
+          "pos": "det",
+          "text": "un"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:ami",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:ami",
+          "lemma": "ami",
+          "pos": "n",
+          "text": "ami"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:conj:et",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:conj:et",
+          "lemma": "et",
+          "pos": "conj",
+          "text": "et"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:on",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:on",
+          "lemma": "on",
+          "pos": "pron",
+          "text": "on"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:déjeuné",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:déjeuné",
+          "lemma": "déjeuné",
+          "pos": "n",
+          "text": "déjeuné"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r003:tok10:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_describe_weekend_activity:r004:tok10:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-011-a2_describe_weekend_activity",
+      "source_scenario_id": "a2_describe_weekend_activity",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Utilise un langage naturel avec un ami. Garde l’activité et la raison simples. Qu’est-ce que tu as fait ce week-end ? Vous vous êtes vus où ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_describe_weekend_activity",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "Je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:pouvoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:pouvoir",
+          "lemma": "pouvoir",
+          "pos": "v",
+          "text": "peux"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:aider",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:aider",
+          "lemma": "aider",
+          "pos": "v",
+          "text": "aider"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_exchange_wrong_item:r001:tok05:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_exchange_wrong_item:r002:tok05:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:avoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:avoir",
+          "lemma": "avoir",
+          "pos": "v",
+          "text": "ai"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:demander",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:demander",
+          "lemma": "demander",
+          "pos": "v",
+          "text": "demandé"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:une",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:une",
+          "lemma": "une",
+          "pos": "det",
+          "text": "une"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adj:petite",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adj:petite",
+          "lemma": "petite",
+          "pos": "adj",
+          "text": "petite"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:tasse",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:tasse",
+          "lemma": "tasse",
+          "pos": "n",
+          "text": "tasse"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_exchange_wrong_item:r003:tok07:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_exchange_wrong_item:r003:tok08:conj:mais",
+          "lemma": "mais",
+          "pos": "conj",
+          "text": "mais"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:reçu",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:reçu",
+          "lemma": "reçu",
+          "pos": "n",
+          "text": "reçu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:grande",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:grande",
+          "lemma": "grande",
+          "pos": "n",
+          "text": "grande"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_exchange_wrong_item:r003:tok15:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_exchange_wrong_item:r004:tok07:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_exchange_wrong_item:r004:tok08:conj:mais",
+          "lemma": "mais",
+          "pos": "conj",
+          "text": "mais"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_exchange_wrong_item:r004:tok15:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-012-a2_exchange_wrong_item",
+      "source_scenario_id": "a2_exchange_wrong_item",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Expliquez poliment que vous avez reçu le mauvais article et demandez le bon. Je peux vous aider ? Je vérifie. Je peux voir le reçu ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_exchange_wrong_item",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:tu",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:tu",
+          "lemma": "tu",
+          "pos": "pron",
+          "text": "Tu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:es",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:es",
+          "lemma": "es",
+          "pos": "v",
+          "text": "es"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:où",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:où",
+          "lemma": "où",
+          "pos": "adv",
+          "text": "où"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_explain_simple_delay_reason:r001:tok04:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:presque",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:presque",
+          "lemma": "presque",
+          "pos": "n",
+          "text": "presque"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:arriver",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:arriver",
+          "lemma": "arriver",
+          "pos": "v",
+          "text": "arrivé"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_explain_simple_delay_reason:r001:tok09:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_explain_simple_delay_reason:r002:tok04:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_explain_simple_delay_reason:r002:tok09:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:intj:désolé",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:intj:désolé",
+          "lemma": "désolé",
+          "pos": "intj",
+          "text": "Désolé"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_explain_simple_delay_reason:r003:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:aller",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:aller",
+          "lemma": "aller",
+          "pos": "v",
+          "text": "vais"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:être",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:être",
+          "lemma": "être",
+          "pos": "v",
+          "text": "être"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:un",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:un",
+          "lemma": "un",
+          "pos": "det",
+          "text": "un"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_explain_simple_delay_reason:r003:tok07:adv:peu",
+          "lemma": "peu",
+          "pos": "adv",
+          "text": "peu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:en",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:en",
+          "lemma": "en",
+          "pos": "p",
+          "text": "en"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:retard",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:retard",
+          "lemma": "retard",
+          "pos": "n",
+          "text": "retard"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_explain_simple_delay_reason:r003:tok10:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_explain_simple_delay_reason:r004:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_explain_simple_delay_reason:r004:tok07:adv:peu",
+          "lemma": "peu",
+          "pos": "adv",
+          "text": "peu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_explain_simple_delay_reason:r004:tok10:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-013-a2_explain_simple_delay_reason",
+      "source_scenario_id": "a2_explain_simple_delay_reason",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Ton amie t'attend. Excuse-toi, dis que tu arrives un peu en retard, puis donne une raison simple et une estimation. Tu es où ? Tu es presque arrivé ? D'accord. Tu arrives dans combien de temps ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_explain_simple_delay_reason",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:vouloir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:vouloir",
+          "lemma": "vouloir",
+          "pos": "v",
+          "text": "Veuillez"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:remplir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:remplir",
+          "lemma": "remplir",
+          "pos": "v",
+          "text": "remplir"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r001:tok03:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:formulaire",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:formulaire",
+          "lemma": "formulaire",
+          "pos": "n",
+          "text": "formulaire"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r001:tok05:adv:d_abord",
+          "lemma": "d’abord",
+          "pos": "adv",
+          "text": "d’abord"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r001:tok06:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r002:tok03:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r002:tok05:adv:d_abord",
+          "lemma": "d’abord",
+          "pos": "adv",
+          "text": "d’abord"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r002:tok06:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r003:tok01:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r003:tok02:p:est_ce",
+          "lemma": "est-ce",
+          "pos": "p",
+          "text": "est-ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r003:tok03:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:écrire",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:écrire",
+          "lemma": "écrire",
+          "pos": "v",
+          "text": "écris"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:dans",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:dans",
+          "lemma": "dans",
+          "pos": "p",
+          "text": "dans"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r003:tok07:det:cette",
+          "lemma": "cette",
+          "pos": "det",
+          "text": "cette"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:case",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:case",
+          "lemma": "case",
+          "pos": "n",
+          "text": "case"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r003:tok09:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r004:tok01:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r004:tok02:p:est_ce",
+          "lemma": "est-ce",
+          "pos": "p",
+          "text": "est-ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r004:tok03:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r004:tok07:det:cette",
+          "lemma": "cette",
+          "pos": "det",
+          "text": "cette"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_fill_simple_form_help:r004:tok09:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-014-a2_fill_simple_form_help",
+      "source_scenario_id": "a2_fill_simple_form_help",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Demandez de l’aide pour remplir des champs simples du formulaire, sans données sensibles. Veuillez remplir ce formulaire d’abord. Ici, écrivez votre nom.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_fill_simple_form_help",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:tu",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:tu",
+          "lemma": "tu",
+          "pos": "pron",
+          "text": "Tu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:vouloir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:vouloir",
+          "lemma": "vouloir",
+          "pos": "v",
+          "text": "veux"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:prendre",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:prendre",
+          "lemma": "prendre",
+          "pos": "v",
+          "text": "prendre"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:un",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:un",
+          "lemma": "un",
+          "pos": "det",
+          "text": "un"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:café",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:café",
+          "lemma": "café",
+          "pos": "n",
+          "text": "café"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:plus",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:plus",
+          "lemma": "plus",
+          "pos": "adv",
+          "text": "plus"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:tard",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:tard",
+          "lemma": "tard",
+          "pos": "adv",
+          "text": "tard"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_invite_friend_activity:r001:tok08:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_invite_friend_activity:r002:tok08:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:intj:oui",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:intj:oui",
+          "lemma": "oui",
+          "pos": "intj",
+          "text": "Oui"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_invite_friend_activity:r003:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adj:bonne",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adj:bonne",
+          "lemma": "bonne",
+          "pos": "adj",
+          "text": "bonne"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:idée",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:idée",
+          "lemma": "idée",
+          "pos": "n",
+          "text": "idée"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_invite_friend_activity:r003:tok05:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_invite_friend_activity:r004:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_invite_friend_activity:r004:tok05:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-015-a2_invite_friend_activity",
+      "source_scenario_id": "a2_invite_friend_activity",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Utilise un langage naturel avec un ami. Garde l’activité et la raison simples. Tu veux prendre un café plus tard ? Bien sûr. À quelle heure ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_invite_friend_activity",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:quel",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:quel",
+          "lemma": "quel",
+          "pos": "det",
+          "text": "Quel"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:objet",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:objet",
+          "lemma": "objet",
+          "pos": "n",
+          "text": "objet"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:chercher",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:chercher",
+          "lemma": "chercher",
+          "pos": "v",
+          "text": "cherchez"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_lost_item_followup_message:r001:tok05:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_lost_item_followup_message:r002:tok05:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "Je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:crois",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:crois",
+          "lemma": "crois",
+          "pos": "v",
+          "text": "crois"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:avoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:avoir",
+          "lemma": "avoir",
+          "pos": "v",
+          "text": "avoir"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:oublié",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:oublié",
+          "lemma": "oublié",
+          "pos": "n",
+          "text": "oublié"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:un",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:un",
+          "lemma": "un",
+          "pos": "det",
+          "text": "un"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:parapluie",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:parapluie",
+          "lemma": "parapluie",
+          "pos": "n",
+          "text": "parapluie"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adj:noir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adj:noir",
+          "lemma": "noir",
+          "pos": "adj",
+          "text": "noir"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_lost_item_followup_message:r003:tok08:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_lost_item_followup_message:r004:tok08:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-016-a2_lost_item_followup_message",
+      "source_scenario_id": "a2_lost_item_followup_message",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Décrivez l’objet perdu, le lieu possible et un contact simple. Quel objet cherchez-vous ? Vous l’avez laissé où ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_lost_item_followup_message",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "Vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:vouloir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:vouloir",
+          "lemma": "vouloir",
+          "pos": "v",
+          "text": "voulez"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:déposer",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:déposer",
+          "lemma": "déposer",
+          "pos": "v",
+          "text": "déposer"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:un",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:un",
+          "lemma": "un",
+          "pos": "det",
+          "text": "un"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:bagage",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:bagage",
+          "lemma": "bagage",
+          "pos": "n",
+          "text": "bagage"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_luggage_storage_pickup:r001:tok06:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_luggage_storage_pickup:r002:tok06:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "Je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:laisser",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:laisser",
+          "lemma": "laisser",
+          "pos": "v",
+          "text": "laisser"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_luggage_storage_pickup:r003:tok04:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:sac",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:sac",
+          "lemma": "sac",
+          "pos": "n",
+          "text": "sac"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_luggage_storage_pickup:r003:tok06:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_luggage_storage_pickup:r004:tok04:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_luggage_storage_pickup:r004:tok06:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-017-a2_luggage_storage_pickup",
+      "source_scenario_id": "a2_luggage_storage_pickup",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Déposez un bagage, écoutez l’heure limite de retrait, puis confirmez le reçu nécessaire. Vous voulez déposer un bagage ? Vous pouvez le reprendre aujourd’hui avant dix-neuf heures.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_luggage_storage_pickup",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:on",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:on",
+          "lemma": "on",
+          "pos": "pron",
+          "text": "On"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:se",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:se",
+          "lemma": "se",
+          "pos": "pron",
+          "text": "se"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:retrouve",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:retrouve",
+          "lemma": "retrouve",
+          "pos": "v",
+          "text": "retrouve"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_make_simple_plan_sequence:r001:tok04:adv:d_abord",
+          "lemma": "d’abord",
+          "pos": "adv",
+          "text": "d’abord"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:à",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:à",
+          "lemma": "à",
+          "pos": "p",
+          "text": "à"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:la",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:la",
+          "lemma": "la",
+          "pos": "det",
+          "text": "la"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:gare",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:gare",
+          "lemma": "gare",
+          "pos": "n",
+          "text": "gare"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_make_simple_plan_sequence:r001:tok08:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_make_simple_plan_sequence:r002:tok04:adv:d_abord",
+          "lemma": "d’abord",
+          "pos": "adv",
+          "text": "d’abord"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_make_simple_plan_sequence:r002:tok08:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:intj:oui",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:intj:oui",
+          "lemma": "oui",
+          "pos": "intj",
+          "text": "Oui"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_make_simple_plan_sequence:r003:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_make_simple_plan_sequence:r003:tok06:adv:d_abord",
+          "lemma": "d’abord",
+          "pos": "adv",
+          "text": "d’abord"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_make_simple_plan_sequence:r003:tok10:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_make_simple_plan_sequence:r004:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_make_simple_plan_sequence:r004:tok06:adv:d_abord",
+          "lemma": "d’abord",
+          "pos": "adv",
+          "text": "d’abord"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_make_simple_plan_sequence:r004:tok10:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-018-a2_make_simple_plan_sequence",
+      "source_scenario_id": "a2_make_simple_plan_sequence",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Utilise un langage naturel avec un ami. Garde l’activité et la raison simples. On se retrouve d’abord à la gare ? Ensuite, on va au parc ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_make_simple_plan_sequence",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_plan_tomorrow_morning:r001:tok01:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_plan_tomorrow_morning:r001:tok02:p:est_ce",
+          "lemma": "est-ce",
+          "pos": "p",
+          "text": "est-ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_plan_tomorrow_morning:r001:tok03:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:tu",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:tu",
+          "lemma": "tu",
+          "pos": "pron",
+          "text": "tu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:aller",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:aller",
+          "lemma": "aller",
+          "pos": "v",
+          "text": "vas"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:faire",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:faire",
+          "lemma": "faire",
+          "pos": "v",
+          "text": "faire"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:demain",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:demain",
+          "lemma": "demain",
+          "pos": "adv",
+          "text": "demain"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:matin",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:matin",
+          "lemma": "matin",
+          "pos": "n",
+          "text": "matin"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_plan_tomorrow_morning:r001:tok09:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_plan_tomorrow_morning:r002:tok01:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_plan_tomorrow_morning:r002:tok02:p:est_ce",
+          "lemma": "est-ce",
+          "pos": "p",
+          "text": "est-ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_plan_tomorrow_morning:r002:tok03:conj:que",
+          "lemma": "que",
+          "pos": "conj",
+          "text": "que"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_plan_tomorrow_morning:r002:tok09:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "Je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:passer",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:passer",
+          "lemma": "passer",
+          "pos": "v",
+          "text": "passer"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:à",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:à",
+          "lemma": "à",
+          "pos": "p",
+          "text": "à"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:la",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:la",
+          "lemma": "la",
+          "pos": "det",
+          "text": "la"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:boulangerie",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:boulangerie",
+          "lemma": "boulangerie",
+          "pos": "n",
+          "text": "boulangerie"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_plan_tomorrow_morning:r003:tok07:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_plan_tomorrow_morning:r004:tok07:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-019-a2_plan_tomorrow_morning",
+      "source_scenario_id": "a2_plan_tomorrow_morning",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Ton amie te demande ton programme de demain matin. Dis d'abord ce que tu vas faire, puis ajoute une prochaine étape. Qu'est-ce que tu vas faire demain matin ? Et après ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_plan_tomorrow_morning",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:intj:bonjour",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:intj:bonjour",
+          "lemma": "bonjour",
+          "pos": "intj",
+          "text": "Bonjour"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_report_room_problem:r001:tok02:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_report_room_problem:r001:tok03:p:comment",
+          "lemma": "comment",
+          "pos": "p",
+          "text": "Comment"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_report_room_problem:r001:tok04:p:puis_je",
+          "lemma": "puis-je",
+          "pos": "p",
+          "text": "puis-je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:aider",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:aider",
+          "lemma": "aider",
+          "pos": "v",
+          "text": "aider"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_report_room_problem:r001:tok07:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_report_room_problem:r002:tok02:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_report_room_problem:r002:tok03:p:comment",
+          "lemma": "comment",
+          "pos": "p",
+          "text": "Comment"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_report_room_problem:r002:tok04:p:puis_je",
+          "lemma": "puis-je",
+          "pos": "p",
+          "text": "puis-je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_report_room_problem:r002:tok07:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:il",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:il",
+          "lemma": "il",
+          "pos": "pron",
+          "text": "Il"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:ne",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:ne",
+          "lemma": "ne",
+          "pos": "n",
+          "text": "ne"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:y",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:y",
+          "lemma": "y",
+          "pos": "adv",
+          "text": "y"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:avoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:avoir",
+          "lemma": "avoir",
+          "pos": "v",
+          "text": "a"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:pas",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:pas",
+          "lemma": "pas",
+          "pos": "adv",
+          "text": "pas"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:de",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:de",
+          "lemma": "de",
+          "pos": "p",
+          "text": "de"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:serviettes",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:serviettes",
+          "lemma": "serviettes",
+          "pos": "n",
+          "text": "serviettes"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:dans",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:dans",
+          "lemma": "dans",
+          "pos": "p",
+          "text": "dans"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_report_room_problem:r003:tok09:det:ma",
+          "lemma": "ma",
+          "pos": "det",
+          "text": "ma"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:chambre",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:chambre",
+          "lemma": "chambre",
+          "pos": "n",
+          "text": "chambre"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_report_room_problem:r003:tok11:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:pouvoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:pouvoir",
+          "lemma": "pouvoir",
+          "pos": "v",
+          "text": "pouvez"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:me",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:me",
+          "lemma": "me",
+          "pos": "pron",
+          "text": "me"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_report_room_problem:r003:tok16:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_report_room_problem:r004:tok09:det:ma",
+          "lemma": "ma",
+          "pos": "det",
+          "text": "ma"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_report_room_problem:r004:tok11:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_report_room_problem:r004:tok16:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-020-a2_report_room_problem",
+      "source_scenario_id": "a2_report_room_problem",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Signalez un petit problème dans la chambre et confirmez ce que le personnel va faire. Bonjour. Comment puis-je vous aider ? Oui, je vous apporte des serviettes tout de suite.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_report_room_problem",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_request_room_change:r001:tok01:p:comment",
+          "lemma": "comment",
+          "pos": "p",
+          "text": "Comment"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_request_room_change:r001:tok02:p:puis_je",
+          "lemma": "puis-je",
+          "pos": "p",
+          "text": "puis-je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:aider",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:aider",
+          "lemma": "aider",
+          "pos": "v",
+          "text": "aider"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_request_room_change:r001:tok05:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_request_room_change:r002:tok01:p:comment",
+          "lemma": "comment",
+          "pos": "p",
+          "text": "Comment"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_request_room_change:r002:tok02:p:puis_je",
+          "lemma": "puis-je",
+          "pos": "p",
+          "text": "puis-je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_request_room_change:r002:tok05:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_request_room_change:r003:tok01:det:ma",
+          "lemma": "ma",
+          "pos": "det",
+          "text": "Ma"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:chambre",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:chambre",
+          "lemma": "chambre",
+          "pos": "n",
+          "text": "chambre"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:être",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:être",
+          "lemma": "être",
+          "pos": "v",
+          "text": "est"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:un",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:un",
+          "lemma": "un",
+          "pos": "det",
+          "text": "un"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_request_room_change:r003:tok05:adv:peu",
+          "lemma": "peu",
+          "pos": "adv",
+          "text": "peu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adj:bruyante",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adj:bruyante",
+          "lemma": "bruyante",
+          "pos": "adj",
+          "text": "bruyante"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_request_room_change:r003:tok07:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:je",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:je",
+          "lemma": "je",
+          "pos": "pron",
+          "text": "Je"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:pouvoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:pouvoir",
+          "lemma": "pouvoir",
+          "pos": "v",
+          "text": "peux"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:changer",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:changer",
+          "lemma": "changer",
+          "pos": "v",
+          "text": "changer"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:de",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:de",
+          "lemma": "de",
+          "pos": "p",
+          "text": "de"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_request_room_change:r003:tok13:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_request_room_change:r004:tok01:det:ma",
+          "lemma": "ma",
+          "pos": "det",
+          "text": "Ma"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_request_room_change:r004:tok05:adv:peu",
+          "lemma": "peu",
+          "pos": "adv",
+          "text": "peu"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_request_room_change:r004:tok07:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_request_room_change:r004:tok13:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-021-a2_request_room_change",
+      "source_scenario_id": "a2_request_room_change",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Donnez une raison simple et demandez si vous pouvez changer de chambre. Comment puis-je vous aider ? J’ai vérifié. Nous avons une autre chambre disponible.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_request_room_change",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:on",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:on",
+          "lemma": "on",
+          "pos": "pron",
+          "text": "On"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:se",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:se",
+          "lemma": "se",
+          "pos": "pron",
+          "text": "se"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:voit",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:voit",
+          "lemma": "voit",
+          "pos": "v",
+          "text": "voit"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:toujours",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:toujours",
+          "lemma": "toujours",
+          "pos": "n",
+          "text": "toujours"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:à",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:à",
+          "lemma": "à",
+          "pos": "p",
+          "text": "à"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:num:trois",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:num:trois",
+          "lemma": "trois",
+          "pos": "num",
+          "text": "trois"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:heures",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:heures",
+          "lemma": "heures",
+          "pos": "n",
+          "text": "heures"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_reschedule_meeting_time:r001:tok08:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_reschedule_meeting_time:r002:tok08:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:pouvoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:pouvoir",
+          "lemma": "pouvoir",
+          "pos": "v",
+          "text": "peut"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:changer",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:changer",
+          "lemma": "changer",
+          "pos": "v",
+          "text": "changer"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:le",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:le",
+          "lemma": "le",
+          "pos": "det",
+          "text": "le"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:heure",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:heure",
+          "lemma": "heure",
+          "pos": "n",
+          "text": "heure"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_reschedule_meeting_time:r003:tok06:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:il",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:il",
+          "lemma": "il",
+          "pos": "pron",
+          "text": "il"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:te",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:te",
+          "lemma": "te",
+          "pos": "pron",
+          "text": "te"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:plaît",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:plaît",
+          "lemma": "plaît",
+          "pos": "v",
+          "text": "plaît"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_reschedule_meeting_time:r003:tok11:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_reschedule_meeting_time:r004:tok06:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_reschedule_meeting_time:r004:tok11:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-022-a2_reschedule_meeting_time",
+      "source_scenario_id": "a2_reschedule_meeting_time",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Ton amie confirme l'heure du rendez-vous. Demande poliment de changer l'heure, propose une nouvelle heure, puis confirme. On se voit toujours à trois heures ? Oui, quelle heure te va ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_reschedule_meeting_time",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:attention",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:attention",
+          "lemma": "attention",
+          "pos": "n",
+          "text": "Attention"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r001:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:se",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:se",
+          "lemma": "se",
+          "pos": "pron",
+          "text": "se"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:il",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:il",
+          "lemma": "il",
+          "pos": "pron",
+          "text": "il"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:vous",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:vous",
+          "lemma": "vous",
+          "pos": "pron",
+          "text": "vous"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:plaît",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:plaît",
+          "lemma": "plaît",
+          "pos": "v",
+          "text": "plaît"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r001:tok07:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:le",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:le",
+          "lemma": "le",
+          "pos": "det",
+          "text": "Le"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:train",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:train",
+          "lemma": "train",
+          "pos": "n",
+          "text": "train"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:pour",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:pour",
+          "lemma": "pour",
+          "pos": "p",
+          "text": "pour"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:prop:central",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "named_entity"
+          },
+          "id": "fr:prop:central",
+          "lemma": "Central",
+          "pos": "prop",
+          "text": "Central"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:avoir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:avoir",
+          "lemma": "avoir",
+          "pos": "v",
+          "text": "a"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:num:quinze",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:num:quinze",
+          "lemma": "quinze",
+          "pos": "num",
+          "text": "quinze"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:minutes",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:minutes",
+          "lemma": "minutes",
+          "pos": "n",
+          "text": "minutes"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:de",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:de",
+          "lemma": "de",
+          "pos": "p",
+          "text": "de"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:retard",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:retard",
+          "lemma": "retard",
+          "pos": "n",
+          "text": "retard"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r001:tok17:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r002:tok02:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r002:tok07:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r002:tok17:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r003:tok07:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r003:tok08:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:être",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:être",
+          "lemma": "être",
+          "pos": "v",
+          "text": "est"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:adv:bien",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:adv:bien",
+          "lemma": "bien",
+          "pos": "adv",
+          "text": "bien"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:ça",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:ça",
+          "lemma": "ça",
+          "pos": "pron",
+          "text": "ça"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r003:tok12:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r004:tok07:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r004:tok08:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_transport_delay_announcement:r004:tok12:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-023-a2_transport_delay_announcement",
+      "source_scenario_id": "a2_transport_delay_announcement",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Écoutez l’annonce à la gare, confirmez la durée du retard, puis choisissez une réponse simple. Attention, s’il vous plaît. Le train pour Central a quinze minutes de retard. Si c’est quinze minutes, vous attendez ou vous prenez le bus ?",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_transport_delay_announcement",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:vouloir",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:vouloir",
+          "lemma": "vouloir",
+          "pos": "v",
+          "text": "Veuillez"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:regarder",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:regarder",
+          "lemma": "regarder",
+          "pos": "v",
+          "text": "regarder"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:det:le",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:det:le",
+          "lemma": "le",
+          "pos": "det",
+          "text": "le"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:avis",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:avis",
+          "lemma": "avis",
+          "pos": "n",
+          "text": "avis"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r001:tok05:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:petit-déjeuner",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:petit-déjeuner",
+          "lemma": "petit-déjeuner",
+          "pos": "n",
+          "text": "petit-déjeuner"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:v:être",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:v:être",
+          "lemma": "être",
+          "pos": "v",
+          "text": "est"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:de",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:de",
+          "lemma": "de",
+          "pos": "p",
+          "text": "de"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:num:sept",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:num:sept",
+          "lemma": "sept",
+          "pos": "num",
+          "text": "sept"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:heures",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:heures",
+          "lemma": "heures",
+          "pos": "n",
+          "text": "heures"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:p:à",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:p:à",
+          "lemma": "à",
+          "pos": "p",
+          "text": "à"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:num:neuf",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:num:neuf",
+          "lemma": "neuf",
+          "pos": "num",
+          "text": "neuf"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r001:tok15:p:du",
+          "lemma": "du",
+          "pos": "p",
+          "text": "du"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:n:matin",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:n:matin",
+          "lemma": "matin",
+          "pos": "n",
+          "text": "matin"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r001:tok17:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r002:tok05:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r002:tok15:p:du",
+          "lemma": "du",
+          "pos": "p",
+          "text": "du"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r002:tok17:punct:punct",
+          "lemma": ".",
+          "pos": "punct",
+          "text": "."
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r003:tok09:p:du",
+          "lemma": "du",
+          "pos": "p",
+          "text": "du"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r003:tok11:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r003:tok12:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "fr:pron:ça",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "fr:pron:ça",
+          "lemma": "ça",
+          "pos": "pron",
+          "text": "ça"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r003:tok15:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r004:tok09:p:du",
+          "lemma": "du",
+          "pos": "p",
+          "text": "du"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r004:tok11:punct:punct",
+          "lemma": ",",
+          "pos": "punct",
+          "text": ","
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r004:tok12:det:ce",
+          "lemma": "ce",
+          "pos": "det",
+          "text": "ce"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "fr:a2:a2_understand_hotel_notice:r004:tok15:punct:punct",
+          "lemma": "?",
+          "pos": "punct",
+          "text": "?"
+        }
+      ],
+      "content_id": "fr_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:fr-a2-024-a2_understand_hotel_notice",
+      "source_scenario_id": "a2_understand_hotel_notice",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "Comprenez un court avis de l’hôtel et confirmez l’heure, le lieu et la règle. Veuillez regarder l’avis. Le petit-déjeuner est de sept heures à neuf heures du matin. C’est au restaurant du deuxième étage.",
+      "target_freeze": {
+        "learning_object_id": "fr-a2-scenario-a2_understand_hotel_notice",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    }
+  ]
+}

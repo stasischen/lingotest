@@ -1,0 +1,197 @@
+{
+  "scenarios": [
+    {
+      "scenario_id": "a2_app_booking_confirmation",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_app_booking_confirmation.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_app_booking_confirmation.th.v1.json",
+      "title": "ยืนยันการจองในแอป",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_ask_ingredient_preference",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_ingredient_preference.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_ingredient_preference.th.v1.json",
+      "title": "ถามเรื่องวัตถุดิบที่ชอบ",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_ask_late_checkout",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_late_checkout.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_late_checkout.th.v1.json",
+      "title": "ถามเรื่องเช็กเอาต์ช้า",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_ask_recommendation_budget",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_recommendation_budget.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_recommendation_budget.th.v1.json",
+      "title": "ขอคำแนะนำตามงบ",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_ask_transfer_platform",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_ask_transfer_platform.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_ask_transfer_platform.th.v1.json",
+      "title": "ถามชานชาลาที่ต้องเปลี่ยนขบวน",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_change_delivery_pickup_time",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_change_delivery_pickup_time.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_change_delivery_pickup_time.th.v1.json",
+      "title": "เปลี่ยนเวลารับของ",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_change_ticket_time",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_change_ticket_time.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_change_ticket_time.th.v1.json",
+      "title": "เปลี่ยนเวลาตั๋ว",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_compare_two_menu_options",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_compare_two_menu_options.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_compare_two_menu_options.th.v1.json",
+      "title": "เปรียบเทียบเมนูสองอย่าง",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_confirm_date_time_place",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_confirm_date_time_place.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_confirm_date_time_place.th.v1.json",
+      "title": "ยืนยันวัน เวลา และสถานที่",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_decline_with_reason",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_decline_with_reason.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_decline_with_reason.th.v1.json",
+      "title": "ปฏิเสธพร้อมเหตุผลง่าย ๆ",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_describe_weekend_activity",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_describe_weekend_activity.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_describe_weekend_activity.th.v1.json",
+      "title": "เล่าเรื่องที่ทำช่วงสุดสัปดาห์",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_exchange_wrong_item",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_exchange_wrong_item.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_exchange_wrong_item.th.v1.json",
+      "title": "ขอเปลี่ยนของที่ได้ผิด",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_explain_simple_delay_reason",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_explain_simple_delay_reason.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_explain_simple_delay_reason.th.v1.json",
+      "title": "บอกเหตุผลง่าย ๆ ว่าจะไปสาย",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_fill_simple_form_help",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_fill_simple_form_help.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_fill_simple_form_help.th.v1.json",
+      "title": "ขอความช่วยเหลือกับแบบฟอร์มง่าย ๆ",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_invite_friend_activity",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_invite_friend_activity.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_invite_friend_activity.th.v1.json",
+      "title": "ชวนเพื่อนไปทำกิจกรรม",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_lost_item_followup_message",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_lost_item_followup_message.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_lost_item_followup_message.th.v1.json",
+      "title": "ติดตามของที่ลืมไว้",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_luggage_storage_pickup",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_luggage_storage_pickup.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_luggage_storage_pickup.th.v1.json",
+      "title": "ฝากกระเป๋าและถามเวลารับคืน",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_make_simple_plan_sequence",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_make_simple_plan_sequence.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_make_simple_plan_sequence.th.v1.json",
+      "title": "วางแผนสองขั้นตอนง่าย ๆ",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_plan_tomorrow_morning",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_plan_tomorrow_morning.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_plan_tomorrow_morning.th.v1.json",
+      "title": "บอกแผนพรุ่งนี้เช้า",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_report_room_problem",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_report_room_problem.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_report_room_problem.th.v1.json",
+      "title": "แจ้งปัญหาในห้องพัก",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_request_room_change",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_request_room_change.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_request_room_change.th.v1.json",
+      "title": "ขอเปลี่ยนห้องพัก",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_reschedule_meeting_time",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_reschedule_meeting_time.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_reschedule_meeting_time.th.v1.json",
+      "title": "ขอเลื่อนเวลานัด",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_transport_delay_announcement",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_transport_delay_announcement.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_transport_delay_announcement.th.v1.json",
+      "title": "ฟังประกาศรถไฟล่าช้า",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "a2_understand_hotel_notice",
+      "segmentation_rows": 32,
+      "sidecar_path": "content/review/a2_current_flow_segmentation/sidecars/a2_understand_hotel_notice.th.segmentation.json",
+      "source_path": "content/core/content_assets/scenario_packs/current_flow/a2/a2_understand_hotel_notice.th.v1.json",
+      "title": "เข้าใจประกาศของโรงแรม",
+      "turn_count": 4
+    }
+  ],
+  "schema_version": "th_a2_current_flow_preview_scenario_index.v1"
+}

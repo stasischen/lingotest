@@ -1,0 +1,3000 @@
+{
+  "content_version": "r1",
+  "items": [
+    {
+      "canonical_pattern": {
+        "display": "subject + be + name/role",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "be for identity with I am",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_001.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_001",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "auxiliary.basic_be_have_do",
+      "surface": "be for identity with I am",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_BE_COPULA_EXISTENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "my name + be + name",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "be for name with my name is",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_002.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_002",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "auxiliary.basic_be_have_do",
+      "surface": "be for name with my name is",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_BE_COPULA_EXISTENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + be + nationality/from-place",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "be for nationality or origin",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_003.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_003",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "auxiliary.basic_be_have_do",
+      "surface": "be for nationality or origin",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_BE_COPULA_EXISTENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + be + article + role",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "be for role or job",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_004.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_004",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "auxiliary.basic_be_have_do",
+      "surface": "be for role or job",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_BE_COPULA_EXISTENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + be + age",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "be for age",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_005.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_005",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "auxiliary.basic_be_have_do",
+      "surface": "be for age",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_BE_COPULA_EXISTENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + be + place/available",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "be for location and availability",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_006.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_006",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "auxiliary.basic_be_have_do",
+      "surface": "be for location and availability",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_BE_COPULA_EXISTENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "there + be + noun phrase",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "there is/there are for existence",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_007.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_007",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "auxiliary.basic_be_have_do",
+      "surface": "there is/there are for existence",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_BE_COPULA_EXISTENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "present simple for daily routines",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_008.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_008",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "tam.habit_routine",
+      "surface": "present simple for daily routines",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PRESENT_SIMPLE_ROUTINES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "he/she/it + verb-s",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "third-person -s in simple facts",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_009.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_009",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "tam.habit_routine",
+      "surface": "third-person -s in simple facts",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PRESENT_SIMPLE_ROUTINES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "do/does + subject + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "do-support yes/no question",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_010.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_010",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "tam.habit_routine",
+      "surface": "do-support yes/no question",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PRESENT_SIMPLE_ROUTINES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "yes/no + subject + do/does",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "do-support short answer",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_011.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_011",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "tam.habit_routine",
+      "surface": "do-support short answer",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PRESENT_SIMPLE_ROUTINES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + need/want + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "present simple for needs and wants",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_012.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_012",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "tam.habit_routine",
+      "surface": "present simple for needs and wants",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PRESENT_SIMPLE_ROUTINES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + open/close/cost + complement",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "present simple for service facts",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_013.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_013",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "tam.habit_routine",
+      "surface": "present simple for service facts",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PRESENT_SIMPLE_ROUTINES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + usually/often/sometimes + verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "frequency adverb placement",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_014.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_014",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "tam.habit_routine",
+      "surface": "frequency adverb placement",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PRESENT_SIMPLE_ROUTINES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "base verb + object/place",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "plain imperative for directions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_015.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_015",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "imperative.basic_command_instruction",
+      "surface": "plain imperative for directions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_IMPERATIVES_REQUESTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "please + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "please imperative for service help",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_016.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_016",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "imperative.basic_command_instruction",
+      "surface": "please imperative for service help",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_IMPERATIVES_REQUESTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "let's + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "let's for simple suggestion",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_017.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_017",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "imperative.basic_command_instruction",
+      "surface": "let's for simple suggestion",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_IMPERATIVES_REQUESTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "can you + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "can you request frame",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_018.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_018",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "imperative.basic_command_instruction",
+      "surface": "can you request frame",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_IMPERATIVES_REQUESTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "could I + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "could I polite request frame",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_019.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_019",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "imperative.basic_command_instruction",
+      "surface": "could I polite request frame",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_IMPERATIVES_REQUESTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "I/you/he/she/it/we/they + verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "subject pronouns as clause subjects",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_020.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_020",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "pronoun.object_reflexive_possessive",
+      "surface": "subject pronouns as clause subjects",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_SUBJECT_OBJECT_PRONOUNS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "verb + me/you/him/her/it/us/them",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "object pronouns after verbs",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_021.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_021",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "pronoun.object_reflexive_possessive",
+      "surface": "object pronouns after verbs",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_SUBJECT_OBJECT_PRONOUNS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "preposition + object pronoun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "object pronouns after prepositions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_022.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_022",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "pronoun.object_reflexive_possessive",
+      "surface": "object pronouns after prepositions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_SUBJECT_OBJECT_PRONOUNS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "it + be/verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "it for things and situations",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_023.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_023",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "pronoun.object_reflexive_possessive",
+      "surface": "it for things and situations",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_SUBJECT_OBJECT_PRONOUNS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "they + verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "they for people or plural things",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_024.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_024",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "pronoun.object_reflexive_possessive",
+      "surface": "they for people or plural things",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_SUBJECT_OBJECT_PRONOUNS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "a/an + singular count noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "a/an for first mention singular count noun",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_025.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_025",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "determiner.article_definiteness_specificity",
+      "surface": "a/an for first mention singular count noun",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_ARTICLES_DETERMINERS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "the + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "the for known item",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_026.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_026",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "determiner.article_definiteness_specificity",
+      "surface": "the for known item",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_ARTICLES_DETERMINERS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "name/meal without article",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "zero article for names and meals",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_027.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_027",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "determiner.article_definiteness_specificity",
+      "surface": "zero article for names and meals",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_ARTICLES_DETERMINERS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "this/that + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "this/that for near/far reference",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_028.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_028",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "determiner.article_definiteness_specificity",
+      "surface": "this/that for near/far reference",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_ARTICLES_DETERMINERS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "these/those + plural noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "these/those for plural reference",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_029.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_029",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "determiner.article_definiteness_specificity",
+      "surface": "these/those for plural reference",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_ARTICLES_DETERMINERS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "some/any + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "some/any for limited beginner requests",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_030.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_030",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "determiner.article_definiteness_specificity",
+      "surface": "some/any for limited beginner requests",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_ARTICLES_DETERMINERS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "number + plural noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "regular plural -s",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_031.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_031",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "number.plural_count_mass",
+      "surface": "regular plural -s",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_COUNTABILITY_PLURALS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "irregular plural noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "common irregular plurals",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_032.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_032",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "number.plural_count_mass",
+      "surface": "common irregular plurals",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_COUNTABILITY_PLURALS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "some + mass noun / a + count noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "count vs mass noun choice",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_033.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_033",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "number.plural_count_mass",
+      "surface": "count vs mass noun choice",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_COUNTABILITY_PLURALS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "how many + plural noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "how many for count nouns",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_034.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_034",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "number.plural_count_mass",
+      "surface": "how many for count nouns",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_COUNTABILITY_PLURALS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "how much + noun/be",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "how much for price or mass amount",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_035.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_035",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "number.plural_count_mass",
+      "surface": "how much for price or mass amount",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_COUNTABILITY_PLURALS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "at + place",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "at for point location",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_036.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_036",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "relation.location_route",
+      "surface": "at for point location",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PLACE_PREPOSITIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "in + place",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "in for enclosed place",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_037.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_037",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "relation.location_route",
+      "surface": "in for enclosed place",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PLACE_PREPOSITIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "on + surface/line",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "on for surface or transit line",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_038.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_038",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "relation.location_route",
+      "surface": "on for surface or transit line",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PLACE_PREPOSITIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "to/from + place",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "to/from for route endpoints",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_039.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_039",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "relation.location_route",
+      "surface": "to/from for route endpoints",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PLACE_PREPOSITIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "near/next to + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "near/next to for simple location",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_040.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_040",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "relation.location_route",
+      "surface": "near/next to for simple location",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PLACE_PREPOSITIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "at/on/in + time expression",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "basic time prepositions at/on/in",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_041.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_041",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "relation.location_route",
+      "surface": "basic time prepositions at/on/in",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_PLACE_PREPOSITIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "be + subject + complement",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "be yes/no questions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_042.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_042",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question.polar",
+      "surface": "be yes/no questions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_YES_NO_WH_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "do/does + subject + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "do yes/no questions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_043.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_043",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question.polar",
+      "surface": "do yes/no questions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_YES_NO_WH_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "can + subject + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "can yes/no questions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_044.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_044",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question.polar",
+      "surface": "can yes/no questions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_YES_NO_WH_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "what + auxiliary/be + subject",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "what questions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_045.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_045",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question.polar",
+      "surface": "what questions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_YES_NO_WH_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "where + auxiliary/be + subject",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "where questions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_046.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_046",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question.polar",
+      "surface": "where questions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_YES_NO_WH_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "when/how much + auxiliary/be",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "when/how much questions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_047.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_047",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question.polar",
+      "surface": "when/how much questions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_YES_NO_WH_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "who + be/verb + complement",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "who questions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_048.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_048",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question.polar",
+      "surface": "who questions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_YES_NO_WH_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "why + auxiliary/be + subject",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "why questions with short reason",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_049.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_049",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question.polar",
+      "surface": "why questions with short reason",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_YES_NO_WH_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "how + auxiliary + subject + verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "how manner questions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_050.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_050",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question.polar",
+      "surface": "how manner questions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_YES_NO_WH_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + be + not",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "be + not",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_051.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_051",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "negation.predicate",
+      "surface": "be + not",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_NEGATION_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + do/does not + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "do not for present simple",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_052.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_052",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "negation.predicate",
+      "surface": "do not for present simple",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_NEGATION_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + cannot + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "cannot for ability or permission",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_053.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_053",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "negation.predicate",
+      "surface": "cannot for ability or permission",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_NEGATION_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "no + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "no before nouns in simple answers",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_054.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_054",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "negation.predicate",
+      "surface": "no before nouns in simple answers",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_NEGATION_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "not + demonstrative",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "not this/that correction",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_055.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_055",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "negation.predicate",
+      "surface": "not this/that correction",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_NEGATION_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + can + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "can for ability",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_056.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_056",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "modality.ability_permission",
+      "surface": "can for ability",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_CAN_ABILITY_PERMISSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "can I + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "can for permission request",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_057.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_057",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "modality.ability_permission",
+      "surface": "can for permission request",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_CAN_ABILITY_PERMISSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "can + subject + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "can for service availability",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_058.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_058",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "modality.ability_permission",
+      "surface": "can for service availability",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_CAN_ABILITY_PERMISSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + can't + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "can't for simple inability",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_059.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_059",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "modality.ability_permission",
+      "surface": "can't for simple inability",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_CAN_ABILITY_PERMISSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "my/your/his/her/our/their + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "possessive adjectives",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_060.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_060",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "nominal.possession_association",
+      "surface": "possessive adjectives",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_POSSESSIVES_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "whose + noun + be",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "whose questions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_061.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_061",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "nominal.possession_association",
+      "surface": "whose questions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_POSSESSIVES_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "name/person + 's + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "possessive 's for people",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_062.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_062",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "nominal.possession_association",
+      "surface": "possessive 's for people",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_POSSESSIVES_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "mine/yours/his/hers",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "mine/yours for short replies",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_063.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_063",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "nominal.possession_association",
+      "surface": "mine/yours for short replies",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_POSSESSIVES_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "clause/noun + and + clause/noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "and for addition",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_064.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_064",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "connector.additive_and_comitative",
+      "surface": "and for addition",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_BASIC_CONNECTORS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "clause + but + clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "but for simple contrast",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_065.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_065",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "connector.additive_and_comitative",
+      "surface": "but for simple contrast",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_BASIC_CONNECTORS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "clause + because + clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "because for short reason",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a1_grammar_card_066.01"
+      ],
+      "id": "EN_A1_GRAMMAR_MP_066",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "connector.additive_and_comitative",
+      "surface": "because for short reason",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A1_GRAMMAR_BASIC_CONNECTORS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + verb-ed",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "regular past -ed",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_001.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_001",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "task.short_past_event_narrative",
+      "surface": "regular past -ed",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PAST_SIMPLE_EVENTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + irregular past",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "irregular past high-frequency verbs",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_002.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_002",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "task.short_past_event_narrative",
+      "surface": "irregular past high-frequency verbs",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PAST_SIMPLE_EVENTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "did + subject + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "did questions for past events",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_003.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_003",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "task.short_past_event_narrative",
+      "surface": "did questions for past events",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PAST_SIMPLE_EVENTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + did not + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "did not plus base verb",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_004.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_004",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "task.short_past_event_narrative",
+      "surface": "did not plus base verb",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PAST_SIMPLE_EVENTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + was/were + complement",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "was/were for past state",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_005.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_005",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "task.short_past_event_narrative",
+      "surface": "was/were for past state",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PAST_SIMPLE_EVENTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "past clause + yesterday/last week",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "past time adverbials",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_006.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_006",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "task.short_past_event_narrative",
+      "surface": "past time adverbials",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PAST_SIMPLE_EVENTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "past clause + then + past clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "short past event sequence",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_007.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_007",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "task.short_past_event_narrative",
+      "surface": "short past event sequence",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PAST_SIMPLE_EVENTS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "be + verb-ing",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "current action now",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_008.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_008",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.progressive_current_action",
+      "surface": "current action now",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PRESENT_PROGRESSIVE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "be + verb-ing + for now",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "temporary situation",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_009.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_009",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.progressive_current_action",
+      "surface": "temporary situation",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PRESENT_PROGRESSIVE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "be + verb-ing + future time",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "fixed future arrangement",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_010.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_010",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.progressive_current_action",
+      "surface": "fixed future arrangement",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PRESENT_PROGRESSIVE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "be + subject + verb-ing",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "present progressive question",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_011.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_011",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.progressive_current_action",
+      "surface": "present progressive question",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PRESENT_PROGRESSIVE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "subject + be not + verb-ing",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "present progressive negative",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_012.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_012",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.progressive_current_action",
+      "surface": "present progressive negative",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PRESENT_PROGRESSIVE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "routine vs now",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "contrast with present simple routine",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_013.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_013",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.progressive_current_action",
+      "surface": "contrast with present simple routine",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PRESENT_PROGRESSIVE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "be going to + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "going to for planned action",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_014.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_014",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.future_plan",
+      "surface": "going to for planned action",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_FUTURE_INTENTION_PLANS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "will + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "will for service confirmation",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_015.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_015",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.future_plan",
+      "surface": "will for service confirmation",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_FUTURE_INTENTION_PLANS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "want to + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "want to for intention",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_016.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_016",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.future_plan",
+      "surface": "want to for intention",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_FUTURE_INTENTION_PLANS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "plan to + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "plan to for arranged intention",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_017.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_017",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.future_plan",
+      "surface": "plan to for arranged intention",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_FUTURE_INTENTION_PLANS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "would like to + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "would like to for polite plan",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_018.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_018",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.future_plan",
+      "surface": "would like to for polite plan",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_FUTURE_INTENTION_PLANS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "future clause + time phrase",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "future time phrase placement",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_019.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_019",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.future_plan",
+      "surface": "future time phrase placement",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_FUTURE_INTENTION_PLANS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "after that + clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "after that for next planned step",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_020.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_020",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.future_plan",
+      "surface": "after that for next planned step",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_FUTURE_INTENTION_PLANS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "will not / not going to + verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "future negative",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_021.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_021",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "tam.future_plan",
+      "surface": "future negative",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_FUTURE_INTENTION_PLANS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "adjective-er + than",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "short adjective comparative -er",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_022.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_022",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "comparison.comparative",
+      "surface": "short adjective comparative -er",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_COMPARATIVES_SUPERLATIVES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "more + adjective + than",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "more with longer adjectives",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_023.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_023",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "comparison.comparative",
+      "surface": "more with longer adjectives",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_COMPARATIVES_SUPERLATIVES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "less + adjective + than",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "less for lower degree",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_024.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_024",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "comparison.comparative",
+      "surface": "less for lower degree",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_COMPARATIVES_SUPERLATIVES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "better/worse + than",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "irregular better/worse",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_025.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_025",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "comparison.comparative",
+      "surface": "irregular better/worse",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_COMPARATIVES_SUPERLATIVES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "the + adjective-est",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "superlative -est",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_026.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_026",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "comparison.comparative",
+      "surface": "superlative -est",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_COMPARATIVES_SUPERLATIVES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "the most + adjective",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "most with longer adjectives",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_027.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_027",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "comparison.comparative",
+      "surface": "most with longer adjectives",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_COMPARATIVES_SUPERLATIVES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "as + adjective + as",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "as...as equality",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_028.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_028",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "comparison.comparative",
+      "surface": "as...as equality",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_COMPARATIVES_SUPERLATIVES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "the same as / different from",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "same as / different from",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_029.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_029",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "comparison.comparative",
+      "surface": "same as / different from",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_COMPARATIVES_SUPERLATIVES"
+    },
+    {
+      "canonical_pattern": {
+        "display": "could + subject + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "could for polite request",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_030.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_030",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "modality.obligation_prohibition_advice",
+      "surface": "could for polite request",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_MODALS_REQUESTS_OBLIGATION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "would like + noun/to-verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "would for polite offer/preference",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_031.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_031",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "modality.obligation_prohibition_advice",
+      "surface": "would for polite offer/preference",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_MODALS_REQUESTS_OBLIGATION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "should + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "should for advice",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_032.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_032",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "modality.obligation_prohibition_advice",
+      "surface": "should for advice",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_MODALS_REQUESTS_OBLIGATION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "have to + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "have to for obligation",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_033.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_033",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "modality.obligation_prohibition_advice",
+      "surface": "have to for obligation",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_MODALS_REQUESTS_OBLIGATION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "must/must not + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "must for rule or prohibition",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_034.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_034",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "modality.obligation_prohibition_advice",
+      "surface": "must for rule or prohibition",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_MODALS_REQUESTS_OBLIGATION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "do not have to + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "do not have to for no obligation",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_035.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_035",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "modality.obligation_prohibition_advice",
+      "surface": "do not have to for no obligation",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_MODALS_REQUESTS_OBLIGATION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "may + base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "may for permission in notices",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_036.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_036",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "modality.obligation_prohibition_advice",
+      "surface": "may for permission in notices",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_MODALS_REQUESTS_OBLIGATION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "if + present, base verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "if + present, imperative",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_037.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_037",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "condition.simple_if",
+      "surface": "if + present, imperative",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_CONDITIONAL_IF_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "if + present, will + verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "if + present, will",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_038.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_038",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "condition.simple_if",
+      "surface": "if + present, will",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_CONDITIONAL_IF_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "if + present, can + verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "if + present, can",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_039.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_039",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "condition.simple_if",
+      "surface": "if + present, can",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_CONDITIONAL_IF_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "unless + present",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "unless formula deferred beyond core A2",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_040.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_040",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "condition.simple_if",
+      "surface": "unless formula deferred beyond core A2",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_CONDITIONAL_IF_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "if + condition + instruction",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "condition in rules and notices",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_041.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_041",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "condition.simple_if",
+      "surface": "condition in rules and notices",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_CONDITIONAL_IF_BASIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "clause + because + clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "because for concrete reason",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_042.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_042",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "connector.reason_result",
+      "surface": "because for concrete reason",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_REASON_RESULT_SEQUENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "clause + so + clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "so for result",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_043.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_043",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "connector.reason_result",
+      "surface": "so for result",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_REASON_RESULT_SEQUENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "clause + then + clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "then for next step",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_044.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_044",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "connector.reason_result",
+      "surface": "then for next step",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_REASON_RESULT_SEQUENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "before + noun/clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "before with noun or clause",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_045.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_045",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "connector.reason_result",
+      "surface": "before with noun or clause",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_REASON_RESULT_SEQUENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "after + noun/clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "after with noun or clause",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_046.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_046",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "connector.reason_result",
+      "surface": "after with noun or clause",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_REASON_RESULT_SEQUENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "when + present/past clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "when for time condition",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_047.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_047",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "connector.reason_result",
+      "surface": "when for time condition",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_REASON_RESULT_SEQUENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "clause + and/but/or + clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "and/but/or choice coordination",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_048.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_048",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "connector.reason_result",
+      "surface": "and/but/or choice coordination",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_REASON_RESULT_SEQUENCE"
+    },
+    {
+      "canonical_pattern": {
+        "display": "adjective + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "adjective before noun",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_049.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_049",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "nominal.relative_or_modifier_clause",
+      "surface": "adjective before noun",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_NOUN_PHRASE_EXPANSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "number/some + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "quantity + noun phrase",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_050.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_050",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "nominal.relative_or_modifier_clause",
+      "surface": "quantity + noun phrase",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_NOUN_PHRASE_EXPANSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "noun + of + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "of-phrase modifier",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_051.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_051",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "nominal.relative_or_modifier_clause",
+      "surface": "of-phrase modifier",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_NOUN_PHRASE_EXPANSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "noun + prepositional phrase",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "prepositional phrase after noun",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_052.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_052",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "nominal.relative_or_modifier_clause",
+      "surface": "prepositional phrase after noun",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_NOUN_PHRASE_EXPANSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "noun + who/that + verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "simple relative-like modifier with who/that",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_053.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_053",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "nominal.relative_or_modifier_clause",
+      "surface": "simple relative-like modifier with who/that",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_NOUN_PHRASE_EXPANSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "adjective + one/ones",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "one/ones substitution",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_054.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_054",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "nominal.relative_or_modifier_clause",
+      "surface": "one/ones substitution",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_NOUN_PHRASE_EXPANSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "too/enough + adjective",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "too/enough with adjective",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_055.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_055",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "nominal.relative_or_modifier_clause",
+      "surface": "too/enough with adjective",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_NOUN_PHRASE_EXPANSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "determiner + adjective + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "order of determiner adjective noun",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_056.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_056",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "nominal.relative_or_modifier_clause",
+      "surface": "order of determiner adjective noun",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_NOUN_PHRASE_EXPANSION"
+    },
+    {
+      "canonical_pattern": {
+        "display": "pick + object + up / pick up + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "pick up as phrasal verb",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_057.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_057",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "formulaic.expression_overlay",
+      "surface": "pick up as phrasal verb",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PHRASAL_VERBS_FORMULAIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "fill in + form/field",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "fill in for forms",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_058.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_058",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "formulaic.expression_overlay",
+      "surface": "fill in for forms",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PHRASAL_VERBS_FORMULAIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "check in/out",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "check in/out service frame",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_059.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_059",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "formulaic.expression_overlay",
+      "surface": "check in/out service frame",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PHRASAL_VERBS_FORMULAIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "turn on/off + device",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "turn on/off device frame",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_060.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_060",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "formulaic.expression_overlay",
+      "surface": "turn on/off device frame",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PHRASAL_VERBS_FORMULAIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "look for + noun",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "look for service/search frame",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_061.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_061",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "formulaic.expression_overlay",
+      "surface": "look for service/search frame",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PHRASAL_VERBS_FORMULAIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "fixed expression overlay",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "formulaic service expressions",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_062.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_062",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "formulaic.expression_overlay",
+      "surface": "formulaic service expressions",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_PHRASAL_VERBS_FORMULAIC"
+    },
+    {
+      "canonical_pattern": {
+        "display": "could you tell me + wh-clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "could you tell me wh-clause",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_063.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_063",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "question.indirect_polite",
+      "surface": "could you tell me wh-clause",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_INDIRECT_POLITE_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "do you know + wh-clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "do you know wh-clause",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_064.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_064",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "question.indirect_polite",
+      "surface": "do you know wh-clause",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_INDIRECT_POLITE_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "I would like to know + wh-clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "I would like to know formula deferred",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_065.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_065",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "question.indirect_polite",
+      "surface": "I would like to know formula deferred",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_INDIRECT_POLITE_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "wh-word + subject + verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "embedded statement word order deferred",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_066.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_066",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "question.indirect_polite",
+      "surface": "embedded statement word order deferred",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_INDIRECT_POLITE_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "do you mean + noun/clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "do you mean confirmation",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_067.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_067",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "question.indirect_polite",
+      "surface": "do you mean confirmation",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_INDIRECT_POLITE_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "would it be possible to + verb",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "would it be possible to formulaic only",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_068.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_068",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "question.indirect_polite",
+      "surface": "would it be possible to formulaic only",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_INDIRECT_POLITE_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "can I ask if + clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "can I ask if",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_069.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_069",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "question.indirect_polite",
+      "surface": "can I ask if",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_INDIRECT_POLITE_QUESTIONS"
+    },
+    {
+      "canonical_pattern": {
+        "display": "I'm afraid + clause",
+        "language_features": {
+          "word_order_sensitive": true
+        },
+        "type": "target_pattern"
+      },
+      "display_surface": "softened problem report",
+      "example_sentence_refs": [
+        "sent.en.phase2.grammar.en_a2_grammar_card_070.01"
+      ],
+      "id": "EN_A2_GRAMMAR_MP_070",
+      "kind": "grammar",
+      "level": "A2",
+      "subcategory": "question.indirect_polite",
+      "surface": "softened problem report",
+      "tags": [
+        "grammar"
+      ],
+      "target_inventory_id": "EN_A2_GRAMMAR_INDIRECT_POLITE_QUESTIONS"
+    }
+  ],
+  "language": "en",
+  "package_id": "en-grammar-a1a2",
+  "schema_version": "grammar_authoring_knowledge_items.v1"
+}

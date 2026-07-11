@@ -1,0 +1,319 @@
+{
+  "schema_version": "reigns_coverage_matrix.v1",
+  "matrix_id": "ko.a0.reigns.coverage.seed.v1",
+  "level": "A0",
+  "target_event_count": 100,
+  "status": "seed",
+  "event_buckets": [
+    {
+      "bucket_id": "a0.greeting_openings",
+      "title": "Greetings And Openings",
+      "event_count": 10,
+      "scene_tags": ["classroom", "store", "street", "first_meeting"],
+      "primary_targets": ["ko:pattern:a0.safe_greeting", "ko:vocab:a0.greetings"],
+      "notes": "Safe polite openings, recognizing greeting versus thanks or request."
+    },
+    {
+      "bucket_id": "a0.identity_self_intro",
+      "title": "Names And Identity",
+      "event_count": 10,
+      "scene_tags": ["classroom", "club", "first_meeting", "identity"],
+      "primary_targets": [
+        "ko:pattern:a0.safe_self_intro",
+        "ko:grammar:a0.topic_particle_는",
+        "ko:vocab:a0.identity"
+      ],
+      "notes": "Name, learner role, nationality-like identity placeholders, polite first meeting."
+    },
+    {
+      "bucket_id": "a0.classroom_rescue",
+      "title": "Classroom Rescue Phrases",
+      "event_count": 10,
+      "scene_tags": ["classroom", "listening_breakdown", "repair"],
+      "primary_targets": [
+        "ko:pattern:a0.repeat_request",
+        "ko:pattern:a0.i_do_not_understand",
+        "ko:grammar:a0.request_주세요"
+      ],
+      "notes": "Ask to repeat, say you do not understand, ask for slower speech."
+    },
+    {
+      "bucket_id": "a0.cafe_ordering",
+      "title": "Cafe And Simple Ordering",
+      "event_count": 10,
+      "scene_tags": ["cafe", "ordering", "request"],
+      "primary_targets": [
+        "ko:pattern:a0.item_주세요",
+        "ko:vocab:a0.cafe_items",
+        "ko:grammar:a0.request_주세요"
+      ],
+      "notes": "Coffee, water, menu, here/to-go as scene-safe requests."
+    },
+    {
+      "bucket_id": "a0.store_payment_numbers",
+      "title": "Store, Price, And Numbers",
+      "event_count": 10,
+      "scene_tags": ["store", "payment", "numbers"],
+      "primary_targets": [
+        "ko:pattern:a0.how_much",
+        "ko:vocab:a0.native_sino_numbers",
+        "ko:vocab:a0.store_items"
+      ],
+      "notes": "Recognize price, count small quantities, basic purchase flow."
+    },
+    {
+      "bucket_id": "a0.location_directions",
+      "title": "Location And Directions",
+      "event_count": 10,
+      "scene_tags": ["directions", "location", "help"],
+      "primary_targets": [
+        "ko:pattern:a0.where_is",
+        "ko:vocab:a0.places",
+        "ko:grammar:a0.location_particle_에"
+      ],
+      "notes": "Bathroom, classroom, station, cafe, and simple location help."
+    },
+    {
+      "bucket_id": "a0.time_schedule",
+      "title": "Basic Time And Schedule",
+      "event_count": 10,
+      "scene_tags": ["time", "schedule", "classroom"],
+      "primary_targets": [
+        "ko:pattern:a0.what_time",
+        "ko:vocab:a0.time_words",
+        "ko:vocab:a0.weekday_today"
+      ],
+      "notes": "Today, tomorrow, class time, meeting time, simple schedule recognition."
+    },
+    {
+      "bucket_id": "a0.transportation_basic",
+      "title": "Basic Transportation",
+      "event_count": 10,
+      "scene_tags": ["transportation", "station", "directions"],
+      "primary_targets": [
+        "ko:pattern:a0.go_to_place",
+        "ko:vocab:a0.transport",
+        "ko:vocab:a0.places"
+      ],
+      "notes": "Bus, subway, station, going to a place, choosing scene-safe phrase."
+    },
+    {
+      "bucket_id": "a0.politeness_social",
+      "title": "Thanks, Sorry, And Social Politeness",
+      "event_count": 10,
+      "scene_tags": ["politeness", "apology", "thanks"],
+      "primary_targets": [
+        "ko:pattern:a0.thanks",
+        "ko:pattern:a0.sorry",
+        "ko:vocab:a0.politeness"
+      ],
+      "notes": "Choose thanks versus apology versus greeting in everyday scenes."
+    },
+    {
+      "bucket_id": "a0.daily_needs_help",
+      "title": "Daily Needs And Help",
+      "event_count": 10,
+      "scene_tags": ["help", "daily_need", "request"],
+      "primary_targets": [
+        "ko:pattern:a0.help_me",
+        "ko:pattern:a0.item_주세요",
+        "ko:vocab:a0.daily_needs"
+      ],
+      "notes": "Ask for water, help, phone, bag, and simple support in safe polite form."
+    }
+  ],
+  "coverage_targets": [
+    {
+      "target_id": "ko:pattern:a0.safe_greeting",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["classroom", "store", "first_meeting"],
+      "covered_by": ["ko.a0.reigns.classroom_greeting.001"]
+    },
+    {
+      "target_id": "ko:pattern:a0.safe_self_intro",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["classroom", "first_meeting", "identity"],
+      "covered_by": ["ko.a0.reigns.self_intro_name.001"]
+    },
+    {
+      "target_id": "ko:pattern:a0.repeat_request",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["classroom", "listening_breakdown", "repair"],
+      "covered_by": ["ko.a0.reigns.repeat_request.001"]
+    },
+    {
+      "target_id": "ko:pattern:a0.i_do_not_understand",
+      "kind": "pattern",
+      "required_event_count": 6,
+      "scene_tags": ["listening_breakdown", "repair"],
+      "covered_by": []
+    },
+    {
+      "target_id": "ko:pattern:a0.item_주세요",
+      "kind": "pattern",
+      "required_event_count": 10,
+      "scene_tags": ["cafe", "store", "request"],
+      "covered_by": ["ko.a0.reigns.cafe_water_request.001"]
+    },
+    {
+      "target_id": "ko:pattern:a0.how_much",
+      "kind": "pattern",
+      "required_event_count": 6,
+      "scene_tags": ["store", "payment"],
+      "covered_by": ["ko.a0.reigns.store_price.001"]
+    },
+    {
+      "target_id": "ko:pattern:a0.where_is",
+      "kind": "pattern",
+      "required_event_count": 8,
+      "scene_tags": ["directions", "location"],
+      "covered_by": ["ko.a0.reigns.location_restroom.001"]
+    },
+    {
+      "target_id": "ko:pattern:a0.what_time",
+      "kind": "pattern",
+      "required_event_count": 6,
+      "scene_tags": ["time", "schedule"],
+      "covered_by": ["ko.a0.reigns.class_time.001"]
+    },
+    {
+      "target_id": "ko:pattern:a0.go_to_place",
+      "kind": "pattern",
+      "required_event_count": 6,
+      "scene_tags": ["transportation", "directions"],
+      "covered_by": ["ko.a0.reigns.subway_station.001"]
+    },
+    {
+      "target_id": "ko:pattern:a0.thanks",
+      "kind": "pattern",
+      "required_event_count": 6,
+      "scene_tags": ["thanks", "politeness"],
+      "covered_by": ["ko.a0.reigns.polite_apology.001"]
+    },
+    {
+      "target_id": "ko:pattern:a0.sorry",
+      "kind": "pattern",
+      "required_event_count": 6,
+      "scene_tags": ["apology", "politeness"],
+      "covered_by": ["ko.a0.reigns.polite_apology.001"]
+    },
+    {
+      "target_id": "ko:pattern:a0.help_me",
+      "kind": "pattern",
+      "required_event_count": 6,
+      "scene_tags": ["help", "request"],
+      "covered_by": ["ko.a0.reigns.daily_need_help.001"]
+    },
+    {
+      "target_id": "ko:grammar:a0.topic_particle_는",
+      "kind": "grammar",
+      "required_event_count": 8,
+      "scene_tags": ["identity", "self_introduction"],
+      "covered_by": ["ko.a0.reigns.self_intro_name.001"]
+    },
+    {
+      "target_id": "ko:grammar:a0.request_주세요",
+      "kind": "grammar",
+      "required_event_count": 12,
+      "scene_tags": ["request", "cafe", "help"],
+      "covered_by": [
+        "ko.a0.reigns.repeat_request.001",
+        "ko.a0.reigns.cafe_water_request.001",
+        "ko.a0.reigns.daily_need_help.001"
+      ]
+    },
+    {
+      "target_id": "ko:grammar:a0.location_particle_에",
+      "kind": "grammar",
+      "required_event_count": 6,
+      "scene_tags": ["location", "transportation"],
+      "covered_by": [
+        "ko.a0.reigns.location_restroom.001",
+        "ko.a0.reigns.subway_station.001"
+      ]
+    },
+    {
+      "target_id": "ko:vocab:a0.greetings",
+      "kind": "vocab_set",
+      "required_event_count": 10,
+      "scene_tags": ["greeting", "first_meeting"],
+      "covered_by": ["ko.a0.reigns.classroom_greeting.001"]
+    },
+    {
+      "target_id": "ko:vocab:a0.identity",
+      "kind": "vocab_set",
+      "required_event_count": 10,
+      "scene_tags": ["identity", "classroom"],
+      "covered_by": ["ko.a0.reigns.self_intro_name.001"]
+    },
+    {
+      "target_id": "ko:vocab:a0.cafe_items",
+      "kind": "vocab_set",
+      "required_event_count": 8,
+      "scene_tags": ["cafe", "ordering"],
+      "covered_by": ["ko.a0.reigns.cafe_water_request.001"]
+    },
+    {
+      "target_id": "ko:vocab:a0.native_sino_numbers",
+      "kind": "vocab_set",
+      "required_event_count": 10,
+      "scene_tags": ["numbers", "payment", "time"],
+      "covered_by": ["ko.a0.reigns.store_price.001"]
+    },
+    {
+      "target_id": "ko:vocab:a0.store_items",
+      "kind": "vocab_set",
+      "required_event_count": 8,
+      "scene_tags": ["store", "payment"],
+      "covered_by": ["ko.a0.reigns.store_price.001"]
+    },
+    {
+      "target_id": "ko:vocab:a0.places",
+      "kind": "vocab_set",
+      "required_event_count": 10,
+      "scene_tags": ["location", "directions", "transportation"],
+      "covered_by": [
+        "ko.a0.reigns.location_restroom.001",
+        "ko.a0.reigns.subway_station.001"
+      ]
+    },
+    {
+      "target_id": "ko:vocab:a0.time_words",
+      "kind": "vocab_set",
+      "required_event_count": 8,
+      "scene_tags": ["time", "schedule"],
+      "covered_by": ["ko.a0.reigns.class_time.001"]
+    },
+    {
+      "target_id": "ko:vocab:a0.weekday_today",
+      "kind": "vocab_set",
+      "required_event_count": 6,
+      "scene_tags": ["time", "schedule"],
+      "covered_by": ["ko.a0.reigns.subway_station.001"]
+    },
+    {
+      "target_id": "ko:vocab:a0.transport",
+      "kind": "vocab_set",
+      "required_event_count": 8,
+      "scene_tags": ["transportation", "station"],
+      "covered_by": ["ko.a0.reigns.polite_apology.001"]
+    },
+    {
+      "target_id": "ko:vocab:a0.politeness",
+      "kind": "vocab_set",
+      "required_event_count": 10,
+      "scene_tags": ["politeness", "thanks", "apology"],
+      "covered_by": ["ko.a0.reigns.daily_need_help.001"]
+    },
+    {
+      "target_id": "ko:vocab:a0.daily_needs",
+      "kind": "vocab_set",
+      "required_event_count": 8,
+      "scene_tags": ["daily_need", "help", "request"],
+      "covered_by": []
+    }
+  ]
+}

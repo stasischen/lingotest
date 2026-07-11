@@ -1,0 +1,6919 @@
+{
+  "version": "grammar-mapping-v1",
+  "target": "ko",
+  "rules": [
+    {
+      "id": "gm.ko.grammar.copula.polite_yeyo_ieyo",
+      "knowledge_id": "kg.grammar.copula.polite_yeyo_ieyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:에요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:에요"
+          }
+        ]
+      },
+      "priority": 1000,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "예요/이에요"
+    },
+    {
+      "id": "gm.ko.grammar.copula.polite_yeyo_ieyo.2",
+      "knowledge_id": "kg.grammar.copula.polite_yeyo_ieyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:이에요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:이에요"
+          }
+        ]
+      },
+      "priority": 1000,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "예요/이에요"
+    },
+    {
+      "id": "gm.ko.grammar.tense.past_ass_oss",
+      "knowledge_id": "kg.grammar.tense.past_ass_oss",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:았"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:았"
+          }
+        ]
+      },
+      "priority": 999,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-았/었/했어요"
+    },
+    {
+      "id": "gm.ko.grammar.tense.past_ass_oss.2",
+      "knowledge_id": "kg.grammar.tense.past_ass_oss",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:었"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:었"
+          }
+        ]
+      },
+      "priority": 999,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-았/었/했어요"
+    },
+    {
+      "id": "gm.ko.grammar.tense.past_ass_oss.3",
+      "knowledge_id": "kg.grammar.tense.past_ass_oss",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:였"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:였"
+          }
+        ]
+      },
+      "priority": 999,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-았/었/했어요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.polite_standard_ayo_eoyo",
+      "knowledge_id": "kg.grammar.ending.polite_standard_ayo_eoyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:아요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:아요"
+          }
+        ]
+      },
+      "priority": 997,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "아요/어요/해요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.polite_standard_ayo_eoyo.2",
+      "knowledge_id": "kg.grammar.ending.polite_standard_ayo_eoyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:어요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:어요"
+          }
+        ]
+      },
+      "priority": 997,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "아요/어요/해요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.polite_standard_ayo_eoyo.3",
+      "knowledge_id": "kg.grammar.ending.polite_standard_ayo_eoyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:여요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:여요"
+          }
+        ]
+      },
+      "priority": 997,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "아요/어요/해요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.past_perfect_ass_eossda.split",
+      "knowledge_id": "kg.grammar.ending.past_perfect_ass_eossda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:았",
+          "ko:e:었"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:았"
+          },
+          {
+            "id": "ko:e:었"
+          }
+        ]
+      },
+      "priority": 996,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~았/었었다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.past_perfect_ass_eossda.split.2",
+      "knowledge_id": "kg.grammar.ending.past_perfect_ass_eossda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:었",
+          "ko:e:었"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:었"
+          },
+          {
+            "id": "ko:e:었"
+          }
+        ]
+      },
+      "priority": 996,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~았/었었다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.past_perfect_ass_eossda.split.3",
+      "knowledge_id": "kg.grammar.ending.past_perfect_ass_eossda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:였",
+          "ko:e:었"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:였"
+          },
+          {
+            "id": "ko:e:었"
+          }
+        ]
+      },
+      "priority": 996,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~았/었었다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.past_perfect_ass_eossda.compact",
+      "knowledge_id": "kg.grammar.ending.past_perfect_ass_eossda",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:았었"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:았었"
+          }
+        ]
+      },
+      "priority": 995,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~았/었었다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.past_perfect_ass_eossda.compact.2",
+      "knowledge_id": "kg.grammar.ending.past_perfect_ass_eossda",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:었었"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:었었"
+          }
+        ]
+      },
+      "priority": 995,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~았/었었다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.past_perfect_ass_eossda.compact.3",
+      "knowledge_id": "kg.grammar.ending.past_perfect_ass_eossda",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:였었"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:였었"
+          }
+        ]
+      },
+      "priority": 995,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~았/었었다"
+    },
+    {
+      "id": "gm.ko.grammar.tense.future_ul_geoyeyo",
+      "knowledge_id": "kg.grammar.tense.future_ul_geoyeyo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ",
+          "ko:count:거",
+          "ko:e:에요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ"
+          },
+          {
+            "id": "ko:count:거"
+          },
+          {
+            "id": "ko:e:에요"
+          }
+        ]
+      },
+      "priority": 994,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 거예요"
+    },
+    {
+      "id": "gm.ko.grammar.tense.future_ul_geoyeyo.2",
+      "knowledge_id": "kg.grammar.tense.future_ul_geoyeyo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ",
+          "ko:count:거",
+          "ko:e:이에요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ"
+          },
+          {
+            "id": "ko:count:거"
+          },
+          {
+            "id": "ko:e:이에요"
+          }
+        ]
+      },
+      "priority": 994,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 거예요"
+    },
+    {
+      "id": "gm.ko.grammar.tense.future_ul_geoyeyo.3",
+      "knowledge_id": "kg.grammar.tense.future_ul_geoyeyo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ",
+          "ko:count:것",
+          "ko:e:에요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ"
+          },
+          {
+            "id": "ko:count:것"
+          },
+          {
+            "id": "ko:e:에요"
+          }
+        ]
+      },
+      "priority": 994,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 거예요"
+    },
+    {
+      "id": "gm.ko.grammar.tense.future_ul_geoyeyo.4",
+      "knowledge_id": "kg.grammar.tense.future_ul_geoyeyo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ",
+          "ko:count:것",
+          "ko:e:이에요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ"
+          },
+          {
+            "id": "ko:count:것"
+          },
+          {
+            "id": "ko:e:이에요"
+          }
+        ]
+      },
+      "priority": 994,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 거예요"
+    },
+    {
+      "id": "gm.ko.grammar.tense.future_ul_geoyeyo.5",
+      "knowledge_id": "kg.grammar.tense.future_ul_geoyeyo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을",
+          "ko:count:거",
+          "ko:e:에요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을"
+          },
+          {
+            "id": "ko:count:거"
+          },
+          {
+            "id": "ko:e:에요"
+          }
+        ]
+      },
+      "priority": 994,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 거예요"
+    },
+    {
+      "id": "gm.ko.grammar.tense.future_ul_geoyeyo.6",
+      "knowledge_id": "kg.grammar.tense.future_ul_geoyeyo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을",
+          "ko:count:거",
+          "ko:e:이에요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을"
+          },
+          {
+            "id": "ko:count:거"
+          },
+          {
+            "id": "ko:e:이에요"
+          }
+        ]
+      },
+      "priority": 994,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 거예요"
+    },
+    {
+      "id": "gm.ko.grammar.tense.future_ul_geoyeyo.7",
+      "knowledge_id": "kg.grammar.tense.future_ul_geoyeyo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을",
+          "ko:count:것",
+          "ko:e:에요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을"
+          },
+          {
+            "id": "ko:count:것"
+          },
+          {
+            "id": "ko:e:에요"
+          }
+        ]
+      },
+      "priority": 994,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 거예요"
+    },
+    {
+      "id": "gm.ko.grammar.tense.future_ul_geoyeyo.8",
+      "knowledge_id": "kg.grammar.tense.future_ul_geoyeyo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을",
+          "ko:count:것",
+          "ko:e:이에요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을"
+          },
+          {
+            "id": "ko:count:것"
+          },
+          {
+            "id": "ko:e:이에요"
+          }
+        ]
+      },
+      "priority": 994,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 거예요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.promise_ulgeyo",
+      "knowledge_id": "kg.grammar.ending.promise_ulgeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ게"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ게"
+          }
+        ]
+      },
+      "priority": 993,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ게요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.promise_ulgeyo.2",
+      "knowledge_id": "kg.grammar.ending.promise_ulgeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ게요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ게요"
+          }
+        ]
+      },
+      "priority": 993,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ게요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.promise_ulgeyo.3",
+      "knowledge_id": "kg.grammar.ending.promise_ulgeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:을게"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을게"
+          }
+        ]
+      },
+      "priority": 993,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ게요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.promise_ulgeyo.4",
+      "knowledge_id": "kg.grammar.ending.promise_ulgeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:을게요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을게요"
+          }
+        ]
+      },
+      "priority": 993,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ게요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.suggest_ul_kkayo",
+      "knowledge_id": "kg.grammar.ending.suggest_ul_kkayo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ까"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ까"
+          }
+        ]
+      },
+      "priority": 992,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "kg.grammar.ending.suggest_ul_kkayo"
+    },
+    {
+      "id": "gm.ko.grammar.ending.suggest_ul_kkayo.2",
+      "knowledge_id": "kg.grammar.ending.suggest_ul_kkayo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ까요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ까요"
+          }
+        ]
+      },
+      "priority": 992,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "kg.grammar.ending.suggest_ul_kkayo"
+    },
+    {
+      "id": "gm.ko.grammar.ending.suggest_ul_kkayo.3",
+      "knowledge_id": "kg.grammar.ending.suggest_ul_kkayo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:을까"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을까"
+          }
+        ]
+      },
+      "priority": 992,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "kg.grammar.ending.suggest_ul_kkayo"
+    },
+    {
+      "id": "gm.ko.grammar.ending.suggest_ul_kkayo.4",
+      "knowledge_id": "kg.grammar.ending.suggest_ul_kkayo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:을까요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을까요"
+          }
+        ]
+      },
+      "priority": 992,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "kg.grammar.ending.suggest_ul_kkayo"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_ul_laeyo",
+      "knowledge_id": "kg.grammar.ending.wish_ul_laeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ래"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ래"
+          }
+        ]
+      },
+      "priority": 991,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "kg.grammar.ending.wish_ul_laeyo"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_ul_laeyo.2",
+      "knowledge_id": "kg.grammar.ending.wish_ul_laeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ래요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ래요"
+          }
+        ]
+      },
+      "priority": 991,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "kg.grammar.ending.wish_ul_laeyo"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_ul_laeyo.3",
+      "knowledge_id": "kg.grammar.ending.wish_ul_laeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:을래"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을래"
+          }
+        ]
+      },
+      "priority": 991,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "kg.grammar.ending.wish_ul_laeyo"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_ul_laeyo.4",
+      "knowledge_id": "kg.grammar.ending.wish_ul_laeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:을래요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을래요"
+          }
+        ]
+      },
+      "priority": 991,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "kg.grammar.ending.wish_ul_laeyo"
+    },
+    {
+      "id": "gm.ko.grammar.ending.promise_gi_ro_hada",
+      "knowledge_id": "kg.grammar.ending.promise_gi_ro_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:기로",
+          "ko:v:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:기로"
+          },
+          {
+            "id": "ko:v:하다"
+          }
+        ]
+      },
+      "priority": 990,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-기로 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.promise_gi_ro_hada.2",
+      "knowledge_id": "kg.grammar.ending.promise_gi_ro_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:기로",
+          "ko:v:약속하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:기로"
+          },
+          {
+            "id": "ko:v:약속하다"
+          }
+        ]
+      },
+      "priority": 990,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-기로 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.promise_gi_ro_hada.3",
+      "knowledge_id": "kg.grammar.ending.promise_gi_ro_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:기로",
+          "ko:v:결심하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:기로"
+          },
+          {
+            "id": "ko:v:결심하다"
+          }
+        ]
+      },
+      "priority": 990,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-기로 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.promise_gi_ro_hada.split_gi_ro",
+      "knowledge_id": "kg.grammar.ending.promise_gi_ro_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:기",
+          "ko:p:로",
+          "ko:v:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:기"
+          },
+          {
+            "id": "ko:p:로"
+          },
+          {
+            "id": "ko:v:하다"
+          }
+        ]
+      },
+      "priority": 989,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-기로 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.promise_gi_ro_hada.split_gi_ro.2",
+      "knowledge_id": "kg.grammar.ending.promise_gi_ro_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:기",
+          "ko:p:로",
+          "ko:v:약속하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:기"
+          },
+          {
+            "id": "ko:p:로"
+          },
+          {
+            "id": "ko:v:약속하다"
+          }
+        ]
+      },
+      "priority": 989,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-기로 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.promise_gi_ro_hada.split_gi_ro.3",
+      "knowledge_id": "kg.grammar.ending.promise_gi_ro_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:기",
+          "ko:p:로",
+          "ko:v:결심하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:기"
+          },
+          {
+            "id": "ko:p:로"
+          },
+          {
+            "id": "ko:v:결심하다"
+          }
+        ]
+      },
+      "priority": 989,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-기로 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.transition_daga",
+      "knowledge_id": "kg.grammar.ending.transition_daga",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:다가"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:다가"
+          }
+        ]
+      },
+      "priority": 988,
+      "display_priority": 7,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-다가"
+    },
+    {
+      "id": "gm.ko.grammar.ending.condition_myeon",
+      "knowledge_id": "kg.grammar.ending.condition_myeon",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:면"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:면"
+          }
+        ]
+      },
+      "priority": 987,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "면/으면"
+    },
+    {
+      "id": "gm.ko.grammar.ending.condition_myeon.2",
+      "knowledge_id": "kg.grammar.ending.condition_myeon",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:으면"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으면"
+          }
+        ]
+      },
+      "priority": 987,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "면/으면"
+    },
+    {
+      "id": "gm.ko.grammar.ending.nominalizer_gi",
+      "knowledge_id": "kg.grammar.ending.nominalizer_gi",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:기"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:기"
+          }
+        ]
+      },
+      "priority": 986,
+      "display_priority": 7,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-기"
+    },
+    {
+      "id": "gm.ko.grammar.ending.eun_neun_damyeon.n_damyeon",
+      "knowledge_id": "kg.grammar.ending.eun_neun_damyeon",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ다면"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ다면"
+          }
+        ]
+      },
+      "priority": 985,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ/는다면"
+    },
+    {
+      "id": "gm.ko.grammar.ending.eun_neun_damyeon.damyeon",
+      "knowledge_id": "kg.grammar.ending.eun_neun_damyeon",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:다면"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:다면"
+          }
+        ]
+      },
+      "priority": 984,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ/는다면"
+    },
+    {
+      "id": "gm.ko.grammar.ending.proportional_l_surok",
+      "knowledge_id": "kg.grammar.ending.proportional_l_surok",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ수록"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ수록"
+          }
+        ]
+      },
+      "priority": 983,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-ㄹ수록/-을수록"
+    },
+    {
+      "id": "gm.ko.grammar.ending.proportional_l_surok.2",
+      "knowledge_id": "kg.grammar.ending.proportional_l_surok",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:을수록"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을수록"
+          }
+        ]
+      },
+      "priority": 983,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-ㄹ수록/-을수록"
+    },
+    {
+      "id": "gm.ko.grammar.ending.indirect_question_n_ji_neun_ji",
+      "knowledge_id": "kg.grammar.ending.indirect_question_n_ji_neun_ji",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ지"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ지"
+          }
+        ]
+      },
+      "priority": 982,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-ㄴ지/-은지/-는지"
+    },
+    {
+      "id": "gm.ko.grammar.ending.indirect_question_n_ji_neun_ji.2",
+      "knowledge_id": "kg.grammar.ending.indirect_question_n_ji_neun_ji",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:는지"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:는지"
+          }
+        ]
+      },
+      "priority": 982,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-ㄴ지/-은지/-는지"
+    },
+    {
+      "id": "gm.ko.grammar.ending.indirect_question_n_ji_neun_ji.3",
+      "knowledge_id": "kg.grammar.ending.indirect_question_n_ji_neun_ji",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:은지"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:은지"
+          }
+        ]
+      },
+      "priority": 982,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-ㄴ지/-은지/-는지"
+    },
+    {
+      "id": "gm.ko.grammar.ending.soft_question_n_gayo_nayo",
+      "knowledge_id": "kg.grammar.ending.soft_question_n_gayo_nayo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ가"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ가"
+          }
+        ]
+      },
+      "priority": 981,
+      "display_priority": 7,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-ㄴ가/-ㄴ가요/-나요/-은가요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.soft_question_n_gayo_nayo.2",
+      "knowledge_id": "kg.grammar.ending.soft_question_n_gayo_nayo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ가요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ가요"
+          }
+        ]
+      },
+      "priority": 981,
+      "display_priority": 7,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-ㄴ가/-ㄴ가요/-나요/-은가요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.soft_question_n_gayo_nayo.3",
+      "knowledge_id": "kg.grammar.ending.soft_question_n_gayo_nayo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:나요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:나요"
+          }
+        ]
+      },
+      "priority": 981,
+      "display_priority": 7,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-ㄴ가/-ㄴ가요/-나요/-은가요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.soft_question_n_gayo_nayo.4",
+      "knowledge_id": "kg.grammar.ending.soft_question_n_gayo_nayo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:은가요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:은가요"
+          }
+        ]
+      },
+      "priority": 981,
+      "display_priority": 7,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-ㄴ가/-ㄴ가요/-나요/-은가요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.polite_confirmation_jiyo",
+      "knowledge_id": "kg.grammar.ending.polite_confirmation_jiyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:지요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:지요"
+          }
+        ]
+      },
+      "priority": 980,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-지요/-죠"
+    },
+    {
+      "id": "gm.ko.grammar.ending.polite_confirmation_jiyo.2",
+      "knowledge_id": "kg.grammar.ending.polite_confirmation_jiyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:죠"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:죠"
+          }
+        ]
+      },
+      "priority": 980,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-지요/-죠"
+    },
+    {
+      "id": "gm.ko.grammar.ending.plain_confirmation_ji",
+      "knowledge_id": "kg.grammar.ending.plain_confirmation_ji",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:지"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:지"
+          }
+        ],
+        "exclude_after": [
+          {
+            "pos": "v"
+          },
+          {
+            "pos": "vx"
+          },
+          {
+            "pos": "adj"
+          },
+          {
+            "pos": "e"
+          }
+        ]
+      },
+      "priority": 979,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-지"
+    },
+    {
+      "id": "gm.ko.grammar.ending.reported_speech_daeyo",
+      "knowledge_id": "kg.grammar.ending.reported_speech_daeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:대요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:대요"
+          }
+        ]
+      },
+      "priority": 978,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-대요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.quote_cause_danikka_ranikka",
+      "knowledge_id": "kg.grammar.ending.quote_cause_danikka_ranikka",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:다니까"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:다니까"
+          }
+        ]
+      },
+      "priority": 977,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-다니까/-라니까"
+    },
+    {
+      "id": "gm.ko.grammar.ending.quote_cause_danikka_ranikka.2",
+      "knowledge_id": "kg.grammar.ending.quote_cause_danikka_ranikka",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:라니까"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:라니까"
+          }
+        ]
+      },
+      "priority": 977,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-다니까/-라니까"
+    },
+    {
+      "id": "gm.ko.grammar.ending.quote_command_reason_raseo",
+      "knowledge_id": "kg.grammar.ending.quote_command_reason_raseo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:라서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:라서"
+          }
+        ]
+      },
+      "priority": 976,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-라서"
+    },
+    {
+      "id": "gm.ko.grammar.ending.reported_confirmation_damyeonseo_ramyeonseo",
+      "knowledge_id": "kg.grammar.ending.reported_confirmation_damyeonseo_ramyeonseo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:다면서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:다면서"
+          }
+        ]
+      },
+      "priority": 975,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-다면서/-라면서"
+    },
+    {
+      "id": "gm.ko.grammar.ending.reported_confirmation_damyeonseo_ramyeonseo.2",
+      "knowledge_id": "kg.grammar.ending.reported_confirmation_damyeonseo_ramyeonseo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:라면서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:라면서"
+          }
+        ]
+      },
+      "priority": 975,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-다면서/-라면서"
+    },
+    {
+      "id": "gm.ko.grammar.ending.recollection_deoni_connective",
+      "knowledge_id": "kg.grammar.ending.recollection_deoni_connective",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:더니"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:더니"
+          }
+        ]
+      },
+      "priority": 974,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-더니"
+    },
+    {
+      "id": "gm.ko.grammar.ending.recollection_deora_declarative",
+      "knowledge_id": "kg.grammar.ending.recollection_deora_declarative",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:더라"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:더라"
+          }
+        ]
+      },
+      "priority": 973,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-더라"
+    },
+    {
+      "id": "gm.ko.grammar.ending.exclamative_guna_gun",
+      "knowledge_id": "kg.grammar.ending.exclamative_guna_gun",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:구나"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:구나"
+          }
+        ]
+      },
+      "priority": 972,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-구나/-군"
+    },
+    {
+      "id": "gm.ko.grammar.ending.plain_declarative_n_da_neun_da_da",
+      "knowledge_id": "kg.grammar.ending.plain_declarative_n_da_neun_da_da",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ다"
+          }
+        ]
+      },
+      "priority": 971,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-ㄴ다/-는다/-다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.plain_declarative_n_da_neun_da_da.2",
+      "knowledge_id": "kg.grammar.ending.plain_declarative_n_da_neun_da_da",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:는다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:는다"
+          }
+        ]
+      },
+      "priority": 971,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-ㄴ다/-는다/-다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.cause_ul_ni_ka",
+      "knowledge_id": "kg.grammar.ending.cause_ul_ni_ka",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:니까"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:니까"
+          }
+        ]
+      },
+      "priority": 970,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)니까"
+    },
+    {
+      "id": "gm.ko.grammar.ending.cause_ul_ni_ka.2",
+      "knowledge_id": "kg.grammar.ending.cause_ul_ni_ka",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:으니까"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으니까"
+          }
+        ]
+      },
+      "priority": 970,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)니까"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_ass_eumyeon_jokgetda.compact",
+      "knowledge_id": "kg.grammar.ending.wish_ass_eumyeon_jokgetda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:았으면",
+          "ko:adj:좋다",
+          "ko:e:겠"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:았으면"
+          },
+          {
+            "id": "ko:adj:좋다"
+          },
+          {
+            "id": "ko:e:겠"
+          }
+        ]
+      },
+      "priority": 969,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(았/었/했)으면 좋겠다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_ass_eumyeon_jokgetda.compact.2",
+      "knowledge_id": "kg.grammar.ending.wish_ass_eumyeon_jokgetda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:었으면",
+          "ko:adj:좋다",
+          "ko:e:겠"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:었으면"
+          },
+          {
+            "id": "ko:adj:좋다"
+          },
+          {
+            "id": "ko:e:겠"
+          }
+        ]
+      },
+      "priority": 969,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(았/었/했)으면 좋겠다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_ass_eumyeon_jokgetda.compact.3",
+      "knowledge_id": "kg.grammar.ending.wish_ass_eumyeon_jokgetda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:였으면",
+          "ko:adj:좋다",
+          "ko:e:겠"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:였으면"
+          },
+          {
+            "id": "ko:adj:좋다"
+          },
+          {
+            "id": "ko:e:겠"
+          }
+        ]
+      },
+      "priority": 969,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(았/었/했)으면 좋겠다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_ass_eumyeon_jokgetda.split",
+      "knowledge_id": "kg.grammar.ending.wish_ass_eumyeon_jokgetda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:았",
+          "ko:e:으면",
+          "ko:adj:좋다",
+          "ko:e:겠"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:았"
+          },
+          {
+            "id": "ko:e:으면"
+          },
+          {
+            "id": "ko:adj:좋다"
+          },
+          {
+            "id": "ko:e:겠"
+          }
+        ]
+      },
+      "priority": 968,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(았/었/했)으면 좋겠다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_ass_eumyeon_jokgetda.split.2",
+      "knowledge_id": "kg.grammar.ending.wish_ass_eumyeon_jokgetda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:었",
+          "ko:e:으면",
+          "ko:adj:좋다",
+          "ko:e:겠"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:었"
+          },
+          {
+            "id": "ko:e:으면"
+          },
+          {
+            "id": "ko:adj:좋다"
+          },
+          {
+            "id": "ko:e:겠"
+          }
+        ]
+      },
+      "priority": 968,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(았/었/했)으면 좋겠다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_ass_eumyeon_jokgetda.split.3",
+      "knowledge_id": "kg.grammar.ending.wish_ass_eumyeon_jokgetda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:였",
+          "ko:e:으면",
+          "ko:adj:좋다",
+          "ko:e:겠"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:였"
+          },
+          {
+            "id": "ko:e:으면"
+          },
+          {
+            "id": "ko:adj:좋다"
+          },
+          {
+            "id": "ko:e:겠"
+          }
+        ]
+      },
+      "priority": 968,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(았/었/했)으면 좋겠다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.cause_connective_aseo_eoseo",
+      "knowledge_id": "kg.grammar.ending.cause_connective_aseo_eoseo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:아서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:아서"
+          }
+        ]
+      },
+      "priority": 967,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "아서/어서"
+    },
+    {
+      "id": "gm.ko.grammar.ending.cause_connective_aseo_eoseo.2",
+      "knowledge_id": "kg.grammar.ending.cause_connective_aseo_eoseo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:어서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:어서"
+          }
+        ]
+      },
+      "priority": 967,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "아서/어서"
+    },
+    {
+      "id": "gm.ko.grammar.ending.cause_connective_aseo_eoseo.3",
+      "knowledge_id": "kg.grammar.ending.cause_connective_aseo_eoseo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:여서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:여서"
+          }
+        ]
+      },
+      "priority": 967,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "아서/어서"
+    },
+    {
+      "id": "gm.ko.grammar.ending.dorok",
+      "knowledge_id": "kg.grammar.ending.dorok",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:도록"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:도록"
+          }
+        ]
+      },
+      "priority": 966,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "도록"
+    },
+    {
+      "id": "gm.ko.grammar.ending.choice_geona",
+      "knowledge_id": "kg.grammar.ending.choice_geona",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:거나"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:거나"
+          }
+        ]
+      },
+      "priority": 965,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "거나"
+    },
+    {
+      "id": "gm.ko.grammar.ending.after_go_na_seo",
+      "knowledge_id": "kg.grammar.ending.after_go_na_seo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:고",
+          "ko:v:나다",
+          "ko:e:서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:고"
+          },
+          {
+            "id": "ko:v:나다"
+          },
+          {
+            "id": "ko:e:서"
+          }
+        ]
+      },
+      "priority": 964,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "고 나서"
+    },
+    {
+      "id": "gm.ko.grammar.ending.as_soon_as_ja_ma_ja",
+      "knowledge_id": "kg.grammar.ending.as_soon_as_ja_ma_ja",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:자마자"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:자마자"
+          }
+        ]
+      },
+      "priority": 963,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "자마자"
+    },
+    {
+      "id": "gm.ko.grammar.ending.when_ul_tte",
+      "knowledge_id": "kg.grammar.ending.when_ul_tte",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ",
+          "ko:n:때"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ"
+          },
+          {
+            "id": "ko:n:때"
+          }
+        ]
+      },
+      "priority": 962,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 때"
+    },
+    {
+      "id": "gm.ko.grammar.ending.when_ul_tte.2",
+      "knowledge_id": "kg.grammar.ending.when_ul_tte",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을",
+          "ko:n:때"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을"
+          },
+          {
+            "id": "ko:n:때"
+          }
+        ]
+      },
+      "priority": 962,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 때"
+    },
+    {
+      "id": "gm.ko.grammar.ending.after_time_eun_ji.seq",
+      "knowledge_id": "kg.grammar.ending.after_time_eun_ji",
+      "match_type": "ordered_atoms",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ",
+          "ko:count:지",
+          "ko:v:되다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ"
+          },
+          {
+            "id": "ko:count:지"
+          },
+          {
+            "id": "ko:v:되다"
+          }
+        ],
+        "max_gap": 5,
+        "highlight_scope": "span_between"
+      },
+      "priority": 961,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ 지"
+    },
+    {
+      "id": "gm.ko.grammar.ending.after_time_eun_ji.seq.2",
+      "knowledge_id": "kg.grammar.ending.after_time_eun_ji",
+      "match_type": "ordered_atoms",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ",
+          "ko:count:지",
+          "ko:v:지나다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ"
+          },
+          {
+            "id": "ko:count:지"
+          },
+          {
+            "id": "ko:v:지나다"
+          }
+        ],
+        "max_gap": 5,
+        "highlight_scope": "span_between"
+      },
+      "priority": 961,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ 지"
+    },
+    {
+      "id": "gm.ko.grammar.ending.after_time_eun_ji.seq.3",
+      "knowledge_id": "kg.grammar.ending.after_time_eun_ji",
+      "match_type": "ordered_atoms",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ",
+          "ko:count:지",
+          "ko:adj:오래되다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ"
+          },
+          {
+            "id": "ko:count:지"
+          },
+          {
+            "id": "ko:adj:오래되다"
+          }
+        ],
+        "max_gap": 5,
+        "highlight_scope": "span_between"
+      },
+      "priority": 961,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ 지"
+    },
+    {
+      "id": "gm.ko.grammar.ending.after_time_eun_ji.seq.4",
+      "knowledge_id": "kg.grammar.ending.after_time_eun_ji",
+      "match_type": "ordered_atoms",
+      "match": {
+        "atom_ids": [
+          "ko:e:은",
+          "ko:count:지",
+          "ko:v:되다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:은"
+          },
+          {
+            "id": "ko:count:지"
+          },
+          {
+            "id": "ko:v:되다"
+          }
+        ],
+        "max_gap": 5,
+        "highlight_scope": "span_between"
+      },
+      "priority": 961,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ 지"
+    },
+    {
+      "id": "gm.ko.grammar.ending.after_time_eun_ji.seq.5",
+      "knowledge_id": "kg.grammar.ending.after_time_eun_ji",
+      "match_type": "ordered_atoms",
+      "match": {
+        "atom_ids": [
+          "ko:e:은",
+          "ko:count:지",
+          "ko:v:지나다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:은"
+          },
+          {
+            "id": "ko:count:지"
+          },
+          {
+            "id": "ko:v:지나다"
+          }
+        ],
+        "max_gap": 5,
+        "highlight_scope": "span_between"
+      },
+      "priority": 961,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ 지"
+    },
+    {
+      "id": "gm.ko.grammar.ending.after_time_eun_ji.seq.6",
+      "knowledge_id": "kg.grammar.ending.after_time_eun_ji",
+      "match_type": "ordered_atoms",
+      "match": {
+        "atom_ids": [
+          "ko:e:은",
+          "ko:count:지",
+          "ko:adj:오래되다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:은"
+          },
+          {
+            "id": "ko:count:지"
+          },
+          {
+            "id": "ko:adj:오래되다"
+          }
+        ],
+        "max_gap": 5,
+        "highlight_scope": "span_between"
+      },
+      "priority": 961,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ 지"
+    },
+    {
+      "id": "gm.ko.grammar.ending.while_ul_myeon_seo",
+      "knowledge_id": "kg.grammar.ending.while_ul_myeon_seo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:면서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:면서"
+          }
+        ]
+      },
+      "priority": 960,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)면서"
+    },
+    {
+      "id": "gm.ko.grammar.ending.while_ul_myeon_seo.2",
+      "knowledge_id": "kg.grammar.ending.while_ul_myeon_seo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:으면서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으면서"
+          }
+        ]
+      },
+      "priority": 960,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)면서"
+    },
+    {
+      "id": "gm.ko.grammar.ending.listing_simultaneous_myeo_eumyeo",
+      "knowledge_id": "kg.grammar.ending.listing_simultaneous_myeo_eumyeo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:며"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:며"
+          }
+        ]
+      },
+      "priority": 959,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-며/-으며"
+    },
+    {
+      "id": "gm.ko.grammar.ending.listing_simultaneous_myeo_eumyeo.2",
+      "knowledge_id": "kg.grammar.ending.listing_simultaneous_myeo_eumyeo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:으며"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으며"
+          }
+        ]
+      },
+      "priority": 959,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-며/-으며"
+    },
+    {
+      "id": "gm.ko.grammar.ending.explanation_surprise_neundeyo",
+      "knowledge_id": "kg.grammar.ending.explanation_surprise_neundeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:는데요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:는데요"
+          }
+        ]
+      },
+      "priority": 958,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "ㄴ/은데요 / 는데요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.explanation_surprise_neundeyo.2",
+      "knowledge_id": "kg.grammar.ending.explanation_surprise_neundeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ데요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ데요"
+          }
+        ]
+      },
+      "priority": 958,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "ㄴ/은데요 / 는데요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.explanation_surprise_neundeyo.3",
+      "knowledge_id": "kg.grammar.ending.explanation_surprise_neundeyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:은데요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:은데요"
+          }
+        ]
+      },
+      "priority": 958,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "ㄴ/은데요 / 는데요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.contrast_jiman",
+      "knowledge_id": "kg.grammar.ending.contrast_jiman",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:지만"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:지만"
+          }
+        ]
+      },
+      "priority": 957,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "지만"
+    },
+    {
+      "id": "gm.ko.grammar.ending.concessive_ado",
+      "knowledge_id": "kg.grammar.ending.concessive_ado",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:아도"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:아도"
+          }
+        ]
+      },
+      "priority": 956,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어/여도/-더라도"
+    },
+    {
+      "id": "gm.ko.grammar.ending.concessive_ado.2",
+      "knowledge_id": "kg.grammar.ending.concessive_ado",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:어도"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:어도"
+          }
+        ]
+      },
+      "priority": 956,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어/여도/-더라도"
+    },
+    {
+      "id": "gm.ko.grammar.ending.concessive_ado.3",
+      "knowledge_id": "kg.grammar.ending.concessive_ado",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:여도"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:여도"
+          }
+        ]
+      },
+      "priority": 956,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어/여도/-더라도"
+    },
+    {
+      "id": "gm.ko.grammar.ending.concessive_ado.4",
+      "knowledge_id": "kg.grammar.ending.concessive_ado",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:더라도"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:더라도"
+          }
+        ]
+      },
+      "priority": 956,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어/여도/-더라도"
+    },
+    {
+      "id": "gm.ko.grammar.ending.geonman",
+      "knowledge_id": "kg.grammar.ending.geonman",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:건만"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:건만"
+          }
+        ]
+      },
+      "priority": 955,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-건만"
+    },
+    {
+      "id": "gm.ko.grammar.ending.neuni",
+      "knowledge_id": "kg.grammar.ending.neuni",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:느니"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:느니"
+          }
+        ]
+      },
+      "priority": 954,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-느니"
+    },
+    {
+      "id": "gm.ko.grammar.ending.background_neunde",
+      "knowledge_id": "kg.grammar.ending.background_neunde",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:는데"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:는데"
+          }
+        ]
+      },
+      "priority": 953,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "는데/ㄴ데/은데"
+    },
+    {
+      "id": "gm.ko.grammar.ending.background_neunde.2",
+      "knowledge_id": "kg.grammar.ending.background_neunde",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ데"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ데"
+          }
+        ]
+      },
+      "priority": 953,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "는데/ㄴ데/은데"
+    },
+    {
+      "id": "gm.ko.grammar.ending.background_neunde.3",
+      "knowledge_id": "kg.grammar.ending.background_neunde",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:은데"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:은데"
+          }
+        ]
+      },
+      "priority": 953,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "는데/ㄴ데/은데"
+    },
+    {
+      "id": "gm.ko.grammar.ability.can_ul_su_itda",
+      "knowledge_id": "kg.grammar.ability.can_ul_su_itda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ",
+          "ko:count:수",
+          "ko:adj:있다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:ㄹ"
+          },
+          {
+            "id": "ko:count:수"
+          },
+          {
+            "id": "ko:adj:있다"
+          }
+        ]
+      },
+      "priority": 952,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 수 있다"
+    },
+    {
+      "id": "gm.ko.grammar.ability.can_ul_su_itda.2",
+      "knowledge_id": "kg.grammar.ability.can_ul_su_itda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을",
+          "ko:count:수",
+          "ko:adj:있다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:을"
+          },
+          {
+            "id": "ko:count:수"
+          },
+          {
+            "id": "ko:adj:있다"
+          }
+        ]
+      },
+      "priority": 952,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 수 있다"
+    },
+    {
+      "id": "gm.ko.grammar.ability.cannot_ul_su_eoptda",
+      "knowledge_id": "kg.grammar.ability.cannot_ul_su_eoptda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ",
+          "ko:count:수",
+          "ko:adj:없다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:ㄹ"
+          },
+          {
+            "id": "ko:count:수"
+          },
+          {
+            "id": "ko:adj:없다"
+          }
+        ]
+      },
+      "priority": 951,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 수 없다"
+    },
+    {
+      "id": "gm.ko.grammar.ability.cannot_ul_su_eoptda.2",
+      "knowledge_id": "kg.grammar.ability.cannot_ul_su_eoptda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을",
+          "ko:count:수",
+          "ko:adj:없다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:을"
+          },
+          {
+            "id": "ko:count:수"
+          },
+          {
+            "id": "ko:adj:없다"
+          }
+        ]
+      },
+      "priority": 951,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 수 없다"
+    },
+    {
+      "id": "gm.ko.grammar.desire.wish_go_sipda",
+      "knowledge_id": "kg.grammar.desire.wish_go_sipda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:고",
+          "ko:vx:싶다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:고"
+          },
+          {
+            "id": "ko:vx:싶다"
+          }
+        ],
+        "exclude_after": [
+          {
+            "id": "ko:e:어"
+          }
+        ]
+      },
+      "priority": 950,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "고 싶다"
+    },
+    {
+      "id": "gm.ko.grammar.desire.wish_third_person_go_sip_eohada",
+      "knowledge_id": "kg.grammar.desire.wish_third_person_go_sip_eohada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:고",
+          "ko:vx:싶다",
+          "ko:e:어",
+          "ko:v:하다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:고"
+          },
+          {
+            "id": "ko:vx:싶다"
+          },
+          {
+            "id": "ko:e:어"
+          },
+          {
+            "id": "ko:v:하다"
+          }
+        ]
+      },
+      "priority": 949,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-고 싶어하다"
+    },
+    {
+      "id": "gm.ko.grammar.desire.change_go_sipeojida",
+      "knowledge_id": "kg.grammar.desire.change_go_sipeojida",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:고",
+          "ko:vx:싶다",
+          "ko:e:어",
+          "ko:vx:지다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:고"
+          },
+          {
+            "id": "ko:vx:싶다"
+          },
+          {
+            "id": "ko:e:어"
+          },
+          {
+            "id": "ko:vx:지다"
+          }
+        ]
+      },
+      "priority": 948,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-고 싶어지다"
+    },
+    {
+      "id": "gm.ko.grammar.negation.long_ji_anta",
+      "knowledge_id": "kg.grammar.negation.long_ji_anta",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:지",
+          "ko:vx:않다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:지"
+          },
+          {
+            "id": "ko:vx:않다"
+          }
+        ]
+      },
+      "priority": 947,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-지 않다"
+    },
+    {
+      "id": "gm.ko.grammar.negation.short_an",
+      "knowledge_id": "kg.grammar.negation.short_an",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:adv:안"
+        ],
+        "selectors": [
+          {
+            "id": "ko:adv:안"
+          }
+        ]
+      },
+      "priority": 946,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "안 + V/A"
+    },
+    {
+      "id": "gm.ko.grammar.negation.short_mot",
+      "knowledge_id": "kg.grammar.negation.short_mot",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:adv:못"
+        ],
+        "selectors": [
+          {
+            "id": "ko:adv:못"
+          }
+        ]
+      },
+      "priority": 945,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "못"
+    },
+    {
+      "id": "gm.ko.grammar.existence.itda",
+      "knowledge_id": "kg.grammar.existence.itda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:이",
+          "ko:adj:있다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:이"
+          },
+          {
+            "id": "ko:adj:있다"
+          }
+        ]
+      },
+      "priority": 944,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "이/가 있다"
+    },
+    {
+      "id": "gm.ko.grammar.existence.itda.2",
+      "knowledge_id": "kg.grammar.existence.itda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:가",
+          "ko:adj:있다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:가"
+          },
+          {
+            "id": "ko:adj:있다"
+          }
+        ]
+      },
+      "priority": 944,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "이/가 있다"
+    },
+    {
+      "id": "gm.ko.grammar.existence.eopda",
+      "knowledge_id": "kg.grammar.existence.eopda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:이",
+          "ko:adj:없다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:이"
+          },
+          {
+            "id": "ko:adj:없다"
+          }
+        ]
+      },
+      "priority": 943,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "이/가 없다"
+    },
+    {
+      "id": "gm.ko.grammar.existence.eopda.2",
+      "knowledge_id": "kg.grammar.existence.eopda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:가",
+          "ko:adj:없다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:가"
+          },
+          {
+            "id": "ko:adj:없다"
+          }
+        ]
+      },
+      "priority": 943,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "이/가 없다"
+    },
+    {
+      "id": "gm.ko.grammar.existence.loc_itda",
+      "knowledge_id": "kg.grammar.existence.loc_itda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:에",
+          "ko:adj:있다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:에"
+          },
+          {
+            "id": "ko:adj:있다"
+          }
+        ]
+      },
+      "priority": 942,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "에 있다"
+    },
+    {
+      "id": "gm.ko.grammar.existence.loc_eopda.seq",
+      "knowledge_id": "kg.grammar.existence.loc_eopda",
+      "match_type": "ordered_atoms",
+      "match": {
+        "atom_ids": [
+          "ko:p:에",
+          "ko:p:이",
+          "ko:adj:없다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:에"
+          },
+          {
+            "id": "ko:p:이"
+          },
+          {
+            "id": "ko:adj:없다"
+          }
+        ],
+        "max_gap": 4,
+        "highlight_scope": "span_between"
+      },
+      "priority": 941,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "에 없다"
+    },
+    {
+      "id": "gm.ko.grammar.existence.loc_eopda.seq.2",
+      "knowledge_id": "kg.grammar.existence.loc_eopda",
+      "match_type": "ordered_atoms",
+      "match": {
+        "atom_ids": [
+          "ko:p:에",
+          "ko:p:가",
+          "ko:adj:없다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:에"
+          },
+          {
+            "id": "ko:p:가"
+          },
+          {
+            "id": "ko:adj:없다"
+          }
+        ],
+        "max_gap": 4,
+        "highlight_scope": "span_between"
+      },
+      "priority": 941,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "에 없다"
+    },
+    {
+      "id": "gm.ko.grammar.particle.eul_reul",
+      "knowledge_id": "kg.grammar.particle.eul_reul",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:을"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:을"
+          }
+        ]
+      },
+      "priority": 940,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "을/를"
+    },
+    {
+      "id": "gm.ko.grammar.particle.eul_reul.2",
+      "knowledge_id": "kg.grammar.particle.eul_reul",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:를"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:를"
+          }
+        ]
+      },
+      "priority": 940,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "을/를"
+    },
+    {
+      "id": "gm.ko.grammar.particle.eun_neun",
+      "knowledge_id": "kg.grammar.particle.eun_neun",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:은"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:은"
+          }
+        ]
+      },
+      "priority": 939,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "은/는"
+    },
+    {
+      "id": "gm.ko.grammar.particle.eun_neun.2",
+      "knowledge_id": "kg.grammar.particle.eun_neun",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:는"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:는"
+          }
+        ]
+      },
+      "priority": 939,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "은/는"
+    },
+    {
+      "id": "gm.ko.grammar.particle.do",
+      "knowledge_id": "kg.grammar.particle.do",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:도"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:도"
+          }
+        ]
+      },
+      "priority": 938,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "도"
+    },
+    {
+      "id": "gm.ko.grammar.particle.wa_gwa",
+      "knowledge_id": "kg.grammar.particle.wa_gwa",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:와"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:와"
+          }
+        ]
+      },
+      "priority": 937,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "와/과"
+    },
+    {
+      "id": "gm.ko.grammar.particle.wa_gwa.2",
+      "knowledge_id": "kg.grammar.particle.wa_gwa",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:과"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:과"
+          }
+        ]
+      },
+      "priority": 937,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "와/과"
+    },
+    {
+      "id": "gm.ko.grammar.particle.wa_gwa.3",
+      "knowledge_id": "kg.grammar.particle.wa_gwa",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:이랑"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:이랑"
+          }
+        ]
+      },
+      "priority": 937,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "와/과"
+    },
+    {
+      "id": "gm.ko.grammar.particle.hago",
+      "knowledge_id": "kg.grammar.particle.hago",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:하고"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:하고"
+          }
+        ]
+      },
+      "priority": 936,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "하고"
+    },
+    {
+      "id": "gm.ko.grammar.particle.torok_extent_limit",
+      "knowledge_id": "kg.grammar.particle.torok_extent_limit",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:토록"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:토록"
+          }
+        ]
+      },
+      "priority": 935,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "토록"
+    },
+    {
+      "id": "gm.ko.grammar.particle.ttara_exceptional_contrast",
+      "knowledge_id": "kg.grammar.particle.ttara_exceptional_contrast",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:따라"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:따라"
+          }
+        ],
+        "exclude_before": [
+          {
+            "id": "ko:p:에"
+          }
+        ]
+      },
+      "priority": 934,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "따라"
+    },
+    {
+      "id": "gm.ko.grammar.particle.iran_topic_label",
+      "knowledge_id": "kg.grammar.particle.iran_topic_label",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:이란"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:이란"
+          }
+        ]
+      },
+      "priority": 933,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "이란"
+    },
+    {
+      "id": "gm.ko.grammar.particle.connective_iyumyeo",
+      "knowledge_id": "kg.grammar.particle.connective_iyumyeo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:이며"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:이며"
+          }
+        ]
+      },
+      "priority": 932,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "이며"
+    },
+    {
+      "id": "gm.ko.grammar.particle.ege_hante",
+      "knowledge_id": "kg.grammar.particle.ege_hante",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:에게"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:에게"
+          }
+        ]
+      },
+      "priority": 931,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "에게/한테"
+    },
+    {
+      "id": "gm.ko.grammar.particle.ege_hante.2",
+      "knowledge_id": "kg.grammar.particle.ege_hante",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:한테"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:한테"
+          }
+        ]
+      },
+      "priority": 931,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "에게/한테"
+    },
+    {
+      "id": "gm.ko.grammar.particle.eseo",
+      "knowledge_id": "kg.grammar.particle.eseo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:에서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:에서"
+          }
+        ]
+      },
+      "priority": 930,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "에서"
+    },
+    {
+      "id": "gm.ko.grammar.copula.ya_iya",
+      "knowledge_id": "kg.grammar.copula.ya_iya",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:cop:이다",
+          "ko:e:야"
+        ],
+        "selectors": [
+          {
+            "id": "ko:cop:이다"
+          },
+          {
+            "id": "ko:e:야"
+          }
+        ]
+      },
+      "priority": 929,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "야/이야"
+    },
+    {
+      "id": "gm.ko.grammar.copula.ya_iya.2",
+      "knowledge_id": "kg.grammar.copula.ya_iya",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:cop:이다",
+          "ko:e:이야"
+        ],
+        "selectors": [
+          {
+            "id": "ko:cop:이다"
+          },
+          {
+            "id": "ko:e:이야"
+          }
+        ]
+      },
+      "priority": 929,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "야/이야"
+    },
+    {
+      "id": "gm.ko.grammar.ending.formal_declarative_su_ni_da",
+      "knowledge_id": "kg.grammar.ending.formal_declarative_su_ni_da",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㅂ니다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㅂ니다"
+          }
+        ]
+      },
+      "priority": 928,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-습니다/ㅂ니다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.formal_declarative_su_ni_da.2",
+      "knowledge_id": "kg.grammar.ending.formal_declarative_su_ni_da",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:습니다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:습니다"
+          }
+        ]
+      },
+      "priority": 928,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-습니다/ㅂ니다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.formal_question_su_ni_kka",
+      "knowledge_id": "kg.grammar.ending.formal_question_su_ni_kka",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:습니까"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:습니까"
+          }
+        ]
+      },
+      "priority": 927,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-습니까"
+    },
+    {
+      "id": "gm.ko.grammar.experience.un_jeoki_itda",
+      "knowledge_id": "kg.grammar.experience.un_jeoki_itda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ",
+          "ko:n:적",
+          "ko:p:이",
+          "ko:adj:있다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ"
+          },
+          {
+            "id": "ko:n:적"
+          },
+          {
+            "id": "ko:p:이"
+          },
+          {
+            "id": "ko:adj:있다"
+          }
+        ]
+      },
+      "priority": 926,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ 적이 있다"
+    },
+    {
+      "id": "gm.ko.grammar.experience.un_jeoki_itda.2",
+      "knowledge_id": "kg.grammar.experience.un_jeoki_itda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:은",
+          "ko:n:적",
+          "ko:p:이",
+          "ko:adj:있다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:은"
+          },
+          {
+            "id": "ko:n:적"
+          },
+          {
+            "id": "ko:p:이"
+          },
+          {
+            "id": "ko:adj:있다"
+          }
+        ]
+      },
+      "priority": 926,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ 적이 있다"
+    },
+    {
+      "id": "gm.ko.grammar.experience.un_jeoki_eopda",
+      "knowledge_id": "kg.grammar.experience.un_jeoki_eopda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ",
+          "ko:n:적",
+          "ko:p:이",
+          "ko:adj:없다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ"
+          },
+          {
+            "id": "ko:n:적"
+          },
+          {
+            "id": "ko:p:이"
+          },
+          {
+            "id": "ko:adj:없다"
+          }
+        ]
+      },
+      "priority": 925,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ 적이 없다"
+    },
+    {
+      "id": "gm.ko.grammar.experience.un_jeoki_eopda.2",
+      "knowledge_id": "kg.grammar.experience.un_jeoki_eopda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:은",
+          "ko:n:적",
+          "ko:p:이",
+          "ko:adj:없다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:은"
+          },
+          {
+            "id": "ko:n:적"
+          },
+          {
+            "id": "ko:p:이"
+          },
+          {
+            "id": "ko:adj:없다"
+          }
+        ]
+      },
+      "priority": 925,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄴ 적이 없다"
+    },
+    {
+      "id": "gm.ko.grammar.intent.intend_ul_ryeogo_hada",
+      "knowledge_id": "kg.grammar.intent.intend_ul_ryeogo_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:려고",
+          "ko:v:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:려고"
+          },
+          {
+            "id": "ko:v:하다"
+          }
+        ]
+      },
+      "priority": 924,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)려고 하다"
+    },
+    {
+      "id": "gm.ko.grammar.intent.intend_ul_ryeogo_hada.2",
+      "knowledge_id": "kg.grammar.intent.intend_ul_ryeogo_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:려고",
+          "ko:vx:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:려고"
+          },
+          {
+            "id": "ko:vx:하다"
+          }
+        ]
+      },
+      "priority": 924,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)려고 하다"
+    },
+    {
+      "id": "gm.ko.grammar.intent.intend_ul_ryeogo_hada.3",
+      "knowledge_id": "kg.grammar.intent.intend_ul_ryeogo_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:으려고",
+          "ko:v:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으려고"
+          },
+          {
+            "id": "ko:v:하다"
+          }
+        ]
+      },
+      "priority": 924,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)려고 하다"
+    },
+    {
+      "id": "gm.ko.grammar.intent.intend_ul_ryeogo_hada.4",
+      "knowledge_id": "kg.grammar.intent.intend_ul_ryeogo_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:으려고",
+          "ko:vx:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으려고"
+          },
+          {
+            "id": "ko:vx:하다"
+          }
+        ]
+      },
+      "priority": 924,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)려고 하다"
+    },
+    {
+      "id": "gm.ko.grammar.intent.ul_kka_hada",
+      "knowledge_id": "kg.grammar.intent.ul_kka_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ까",
+          "ko:v:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ까"
+          },
+          {
+            "id": "ko:v:하다"
+          }
+        ]
+      },
+      "priority": 923,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ까 하다"
+    },
+    {
+      "id": "gm.ko.grammar.intent.ul_kka_hada.2",
+      "knowledge_id": "kg.grammar.intent.ul_kka_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ까",
+          "ko:vx:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ까"
+          },
+          {
+            "id": "ko:vx:하다"
+          }
+        ]
+      },
+      "priority": 923,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ까 하다"
+    },
+    {
+      "id": "gm.ko.grammar.intent.ul_kka_hada.3",
+      "knowledge_id": "kg.grammar.intent.ul_kka_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을까",
+          "ko:v:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을까"
+          },
+          {
+            "id": "ko:v:하다"
+          }
+        ]
+      },
+      "priority": 923,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ까 하다"
+    },
+    {
+      "id": "gm.ko.grammar.intent.ul_kka_hada.4",
+      "knowledge_id": "kg.grammar.intent.ul_kka_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을까",
+          "ko:vx:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을까"
+          },
+          {
+            "id": "ko:vx:하다"
+          }
+        ]
+      },
+      "priority": 923,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ까 하다"
+    },
+    {
+      "id": "gm.ko.grammar.movement.ul_ryeo_ga_da_o_da",
+      "knowledge_id": "kg.grammar.movement.ul_ryeo_ga_da_o_da",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:러",
+          "ko:v:가다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:러"
+          },
+          {
+            "id": "ko:v:가다"
+          }
+        ]
+      },
+      "priority": 922,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)러 가다/오다"
+    },
+    {
+      "id": "gm.ko.grammar.movement.ul_ryeo_ga_da_o_da.2",
+      "knowledge_id": "kg.grammar.movement.ul_ryeo_ga_da_o_da",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:러",
+          "ko:v:오다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:러"
+          },
+          {
+            "id": "ko:v:오다"
+          }
+        ]
+      },
+      "priority": 922,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)러 가다/오다"
+    },
+    {
+      "id": "gm.ko.grammar.movement.ul_ryeo_ga_da_o_da.3",
+      "knowledge_id": "kg.grammar.movement.ul_ryeo_ga_da_o_da",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:으러",
+          "ko:v:가다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으러"
+          },
+          {
+            "id": "ko:v:가다"
+          }
+        ]
+      },
+      "priority": 922,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)러 가다/오다"
+    },
+    {
+      "id": "gm.ko.grammar.movement.ul_ryeo_ga_da_o_da.4",
+      "knowledge_id": "kg.grammar.movement.ul_ryeo_ga_da_o_da",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:으러",
+          "ko:v:오다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으러"
+          },
+          {
+            "id": "ko:v:오다"
+          }
+        ]
+      },
+      "priority": 922,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)러 가다/오다"
+    },
+    {
+      "id": "gm.ko.grammar.movement.loc_ga_o",
+      "knowledge_id": "kg.grammar.movement.loc_ga_o",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:에",
+          "ko:v:가다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:에"
+          },
+          {
+            "id": "ko:v:가다"
+          }
+        ]
+      },
+      "priority": 921,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "에 가다/오다"
+    },
+    {
+      "id": "gm.ko.grammar.movement.loc_ga_o.2",
+      "knowledge_id": "kg.grammar.movement.loc_ga_o",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:에",
+          "ko:v:오다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:에"
+          },
+          {
+            "id": "ko:v:오다"
+          }
+        ]
+      },
+      "priority": 921,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "에 가다/오다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.try_a_eo_boda",
+      "knowledge_id": "kg.grammar.ending.try_a_eo_boda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:아",
+          "ko:vx:보다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:아"
+          },
+          {
+            "id": "ko:vx:보다"
+          }
+        ]
+      },
+      "priority": 920,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~아/어/해 보다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.try_a_eo_boda.2",
+      "knowledge_id": "kg.grammar.ending.try_a_eo_boda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:어",
+          "ko:vx:보다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:어"
+          },
+          {
+            "id": "ko:vx:보다"
+          }
+        ]
+      },
+      "priority": 920,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~아/어/해 보다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.try_a_eo_boda.3",
+      "knowledge_id": "kg.grammar.ending.try_a_eo_boda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:여",
+          "ko:vx:보다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:여"
+          },
+          {
+            "id": "ko:vx:보다"
+          }
+        ]
+      },
+      "priority": 920,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~아/어/해 보다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.benefactive_ju_da",
+      "knowledge_id": "kg.grammar.ending.benefactive_ju_da",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:아",
+          "ko:vx:주다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:아"
+          },
+          {
+            "id": "ko:vx:주다"
+          }
+        ]
+      },
+      "priority": 919,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어 주다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.benefactive_ju_da.2",
+      "knowledge_id": "kg.grammar.ending.benefactive_ju_da",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:어",
+          "ko:vx:주다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:어"
+          },
+          {
+            "id": "ko:vx:주다"
+          }
+        ]
+      },
+      "priority": 919,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어 주다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.benefactive_ju_da.3",
+      "knowledge_id": "kg.grammar.ending.benefactive_ju_da",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:여",
+          "ko:vx:주다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:여"
+          },
+          {
+            "id": "ko:vx:주다"
+          }
+        ]
+      },
+      "priority": 919,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어 주다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.progressive_go_itda",
+      "knowledge_id": "kg.grammar.ending.progressive_go_itda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:고",
+          "ko:vx:있다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:고"
+          },
+          {
+            "id": "ko:vx:있다"
+          }
+        ]
+      },
+      "priority": 918,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-고 있다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.state_prog_a_eo_itda",
+      "knowledge_id": "kg.grammar.ending.state_prog_a_eo_itda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:아",
+          "ko:vx:있다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:아"
+          },
+          {
+            "id": "ko:vx:있다"
+          }
+        ]
+      },
+      "priority": 917,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어 있다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.state_prog_a_eo_itda.2",
+      "knowledge_id": "kg.grammar.ending.state_prog_a_eo_itda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:어",
+          "ko:vx:있다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:어"
+          },
+          {
+            "id": "ko:vx:있다"
+          }
+        ]
+      },
+      "priority": 917,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어 있다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.state_prog_a_eo_itda.3",
+      "knowledge_id": "kg.grammar.ending.state_prog_a_eo_itda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:여",
+          "ko:vx:있다"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:여"
+          },
+          {
+            "id": "ko:vx:있다"
+          }
+        ]
+      },
+      "priority": 917,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어 있다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.state_change_ajida_eojida",
+      "knowledge_id": "kg.grammar.ending.state_change_ajida_eojida",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:아",
+          "ko:vx:지다"
+        ],
+        "selectors": [
+          {
+            "pos": "adj"
+          },
+          {
+            "id": "ko:e:아"
+          },
+          {
+            "id": "ko:vx:지다"
+          }
+        ]
+      },
+      "priority": 916,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어/해지다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.state_change_ajida_eojida.2",
+      "knowledge_id": "kg.grammar.ending.state_change_ajida_eojida",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:어",
+          "ko:vx:지다"
+        ],
+        "selectors": [
+          {
+            "pos": "adj"
+          },
+          {
+            "id": "ko:e:어"
+          },
+          {
+            "id": "ko:vx:지다"
+          }
+        ]
+      },
+      "priority": 916,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어/해지다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.state_change_ajida_eojida.3",
+      "knowledge_id": "kg.grammar.ending.state_change_ajida_eojida",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:여",
+          "ko:vx:지다"
+        ],
+        "selectors": [
+          {
+            "pos": "adj"
+          },
+          {
+            "id": "ko:e:여"
+          },
+          {
+            "id": "ko:vx:지다"
+          }
+        ]
+      },
+      "priority": 916,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어/해지다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.not_try_a_eo_boji_anta",
+      "knowledge_id": "kg.grammar.ending.not_try_a_eo_boji_anta",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:아",
+          "ko:vx:보다",
+          "ko:e:지",
+          "ko:vx:않다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:아"
+          },
+          {
+            "id": "ko:vx:보다"
+          },
+          {
+            "id": "ko:e:지"
+          },
+          {
+            "id": "ko:vx:않다"
+          }
+        ]
+      },
+      "priority": 915,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~아/어/해 보지 않다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.not_try_a_eo_boji_anta.2",
+      "knowledge_id": "kg.grammar.ending.not_try_a_eo_boji_anta",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:어",
+          "ko:vx:보다",
+          "ko:e:지",
+          "ko:vx:않다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:어"
+          },
+          {
+            "id": "ko:vx:보다"
+          },
+          {
+            "id": "ko:e:지"
+          },
+          {
+            "id": "ko:vx:않다"
+          }
+        ]
+      },
+      "priority": 915,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~아/어/해 보지 않다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.not_try_a_eo_boji_anta.3",
+      "knowledge_id": "kg.grammar.ending.not_try_a_eo_boji_anta",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:여",
+          "ko:vx:보다",
+          "ko:e:지",
+          "ko:vx:않다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:여"
+          },
+          {
+            "id": "ko:vx:보다"
+          },
+          {
+            "id": "ko:e:지"
+          },
+          {
+            "id": "ko:vx:않다"
+          }
+        ]
+      },
+      "priority": 915,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "~아/어/해 보지 않다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.connective_a_eo_method_sequence",
+      "knowledge_id": "kg.grammar.ending.connective_a_eo_method_sequence",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:아"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:아"
+          },
+          {
+            "pos": "v"
+          }
+        ]
+      },
+      "priority": 914,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-아/-어"
+    },
+    {
+      "id": "gm.ko.grammar.ending.connective_a_eo_method_sequence.2",
+      "knowledge_id": "kg.grammar.ending.connective_a_eo_method_sequence",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:어"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:어"
+          },
+          {
+            "pos": "v"
+          }
+        ]
+      },
+      "priority": 914,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-아/-어"
+    },
+    {
+      "id": "gm.ko.grammar.ending.connective_a_eo_method_sequence.3",
+      "knowledge_id": "kg.grammar.ending.connective_a_eo_method_sequence",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:여"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:여"
+          },
+          {
+            "pos": "v"
+          }
+        ]
+      },
+      "priority": 914,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-아/-어"
+    },
+    {
+      "id": "gm.ko.grammar.ending.must_aya_hada",
+      "knowledge_id": "kg.grammar.ending.must_aya_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:아야",
+          "ko:vx:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:아야"
+          },
+          {
+            "id": "ko:vx:하다"
+          }
+        ]
+      },
+      "priority": 913,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아야/어야/해야 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.must_aya_hada.2",
+      "knowledge_id": "kg.grammar.ending.must_aya_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:어야",
+          "ko:vx:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:어야"
+          },
+          {
+            "id": "ko:vx:하다"
+          }
+        ]
+      },
+      "priority": 913,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아야/어야/해야 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.must_aya_hada.3",
+      "knowledge_id": "kg.grammar.ending.must_aya_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:여야",
+          "ko:vx:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:여야"
+          },
+          {
+            "id": "ko:vx:하다"
+          }
+        ]
+      },
+      "priority": 913,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아야/어야/해야 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.polite_command_useyo",
+      "knowledge_id": "kg.grammar.ending.polite_command_useyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:세요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:세요"
+          }
+        ]
+      },
+      "priority": 912,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)세요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.polite_command_useyo.2",
+      "knowledge_id": "kg.grammar.ending.polite_command_useyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:셔요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:셔요"
+          }
+        ]
+      },
+      "priority": 912,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)세요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.polite_command_useyo.3",
+      "knowledge_id": "kg.grammar.ending.polite_command_useyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:시어요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:시어요"
+          }
+        ]
+      },
+      "priority": 912,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)세요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.polite_command_useyo.4",
+      "knowledge_id": "kg.grammar.ending.polite_command_useyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:으세요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으세요"
+          }
+        ]
+      },
+      "priority": 912,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)세요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.polite_command_useyo.5",
+      "knowledge_id": "kg.grammar.ending.polite_command_useyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:으셔요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으셔요"
+          }
+        ]
+      },
+      "priority": 912,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)세요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.polite_command_useyo.6",
+      "knowledge_id": "kg.grammar.ending.polite_command_useyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:으시어요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으시어요"
+          }
+        ]
+      },
+      "priority": 912,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)세요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.prohibit_ji_maseyo",
+      "knowledge_id": "kg.grammar.ending.prohibit_ji_maseyo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:지",
+          "ko:vx:말다",
+          "ko:e:세요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:지"
+          },
+          {
+            "id": "ko:vx:말다"
+          },
+          {
+            "id": "ko:e:세요"
+          }
+        ]
+      },
+      "priority": 911,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-지 마세요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.prohibit_ji_maseyo.2",
+      "knowledge_id": "kg.grammar.ending.prohibit_ji_maseyo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:지",
+          "ko:vx:말다",
+          "ko:e:으세요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:지"
+          },
+          {
+            "id": "ko:vx:말다"
+          },
+          {
+            "id": "ko:e:으세요"
+          }
+        ]
+      },
+      "priority": 911,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-지 마세요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.prohibit_ji_mapsida",
+      "knowledge_id": "kg.grammar.ending.prohibit_ji_mapsida",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:지",
+          "ko:vx:말다",
+          "ko:e:ㅂ시다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:지"
+          },
+          {
+            "id": "ko:vx:말다"
+          },
+          {
+            "id": "ko:e:ㅂ시다"
+          }
+        ]
+      },
+      "priority": 910,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-지 맙시다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.propose_prohibit_banmal_ji_malja",
+      "knowledge_id": "kg.grammar.ending.propose_prohibit_banmal_ji_malja",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:지",
+          "ko:vx:말다",
+          "ko:e:자"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:지"
+          },
+          {
+            "id": "ko:vx:말다"
+          },
+          {
+            "id": "ko:e:자"
+          }
+        ]
+      },
+      "priority": 909,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-지 말자"
+    },
+    {
+      "id": "gm.ko.grammar.ending.before_gi_jeone",
+      "knowledge_id": "kg.grammar.ending.before_gi_jeone",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:기",
+          "ko:n:전"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:기"
+          },
+          {
+            "id": "ko:n:전"
+          }
+        ]
+      },
+      "priority": 908,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-기 전에"
+    },
+    {
+      "id": "gm.ko.grammar.ending.after_eun_hue",
+      "knowledge_id": "kg.grammar.ending.after_eun_hue",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ",
+          "ko:n:후"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄴ"
+          },
+          {
+            "id": "ko:n:후"
+          }
+        ]
+      },
+      "priority": 907,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "ㄴ/은 후에"
+    },
+    {
+      "id": "gm.ko.grammar.ending.after_eun_hue.2",
+      "knowledge_id": "kg.grammar.ending.after_eun_hue",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:은",
+          "ko:n:후"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:은"
+          },
+          {
+            "id": "ko:n:후"
+          }
+        ]
+      },
+      "priority": 907,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "ㄴ/은 후에"
+    },
+    {
+      "id": "gm.ko.grammar.ending.discovery_neyo",
+      "knowledge_id": "kg.grammar.ending.discovery_neyo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:네요"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:네요"
+          }
+        ]
+      },
+      "priority": 906,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-네/네요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.concession_gi_neun_hajiman",
+      "knowledge_id": "kg.grammar.ending.concession_gi_neun_hajiman",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:기",
+          "ko:p:는",
+          "ko:v:하다",
+          "ko:e:지만"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:기"
+          },
+          {
+            "id": "ko:p:는"
+          },
+          {
+            "id": "ko:v:하다"
+          },
+          {
+            "id": "ko:e:지만"
+          }
+        ]
+      },
+      "priority": 905,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-기는 하지만"
+    },
+    {
+      "id": "gm.ko.grammar.ending.concession_gi_neun_hajiman.2",
+      "knowledge_id": "kg.grammar.ending.concession_gi_neun_hajiman",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:기",
+          "ko:p:는",
+          "ko:vx:하다",
+          "ko:e:지만"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:기"
+          },
+          {
+            "id": "ko:p:는"
+          },
+          {
+            "id": "ko:vx:하다"
+          },
+          {
+            "id": "ko:e:지만"
+          }
+        ]
+      },
+      "priority": 905,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-기는 하지만"
+    },
+    {
+      "id": "gm.ko.grammar.ending.connective_a_eo_haeseo_gajigo",
+      "knowledge_id": "kg.grammar.ending.connective_a_eo_haeseo_gajigo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:아",
+          "ko:v:가지다",
+          "ko:e:고"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:아"
+          },
+          {
+            "id": "ko:v:가지다"
+          },
+          {
+            "id": "ko:e:고"
+          }
+        ]
+      },
+      "priority": 904,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어/해 가지고"
+    },
+    {
+      "id": "gm.ko.grammar.ending.connective_a_eo_haeseo_gajigo.2",
+      "knowledge_id": "kg.grammar.ending.connective_a_eo_haeseo_gajigo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:어",
+          "ko:v:가지다",
+          "ko:e:고"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:어"
+          },
+          {
+            "id": "ko:v:가지다"
+          },
+          {
+            "id": "ko:e:고"
+          }
+        ]
+      },
+      "priority": 904,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어/해 가지고"
+    },
+    {
+      "id": "gm.ko.grammar.ending.connective_a_eo_haeseo_gajigo.3",
+      "knowledge_id": "kg.grammar.ending.connective_a_eo_haeseo_gajigo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:여",
+          "ko:v:가지다",
+          "ko:e:고"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:여"
+          },
+          {
+            "id": "ko:v:가지다"
+          },
+          {
+            "id": "ko:e:고"
+          }
+        ]
+      },
+      "priority": 904,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-아/어/해 가지고"
+    },
+    {
+      "id": "gm.ko.grammar.modifier.adj_noun",
+      "knowledge_id": "kg.grammar.modifier.adj_noun",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ"
+        ],
+        "selectors": [
+          {
+            "pos": "adj"
+          },
+          {
+            "id": "ko:e:ㄴ"
+          },
+          {
+            "pos": "n"
+          }
+        ]
+      },
+      "priority": 903,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "形容詞 + ㄴ/은 + 名詞 (現在)"
+    },
+    {
+      "id": "gm.ko.grammar.modifier.adj_noun.2",
+      "knowledge_id": "kg.grammar.modifier.adj_noun",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:은"
+        ],
+        "selectors": [
+          {
+            "pos": "adj"
+          },
+          {
+            "id": "ko:e:은"
+          },
+          {
+            "pos": "n"
+          }
+        ]
+      },
+      "priority": 903,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "形容詞 + ㄴ/은 + 名詞 (現在)"
+    },
+    {
+      "id": "gm.ko.grammar.modifier.v_neun",
+      "knowledge_id": "kg.grammar.modifier.v_neun",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:는"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:는"
+          },
+          {
+            "pos": "n"
+          }
+        ]
+      },
+      "priority": 902,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "~는 + 名詞"
+    },
+    {
+      "id": "gm.ko.grammar.modifier.v_eul",
+      "knowledge_id": "kg.grammar.modifier.v_eul",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:ㄹ"
+          },
+          {
+            "pos": "n"
+          }
+        ]
+      },
+      "priority": 901,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "~ㄹ/을 + 名詞"
+    },
+    {
+      "id": "gm.ko.grammar.modifier.v_eul.2",
+      "knowledge_id": "kg.grammar.modifier.v_eul",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:을"
+          },
+          {
+            "pos": "n"
+          }
+        ]
+      },
+      "priority": 901,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "~ㄹ/을 + 名詞"
+    },
+    {
+      "id": "gm.ko.grammar.modifier.v_eun",
+      "knowledge_id": "kg.grammar.modifier.v_eun",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄴ"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:ㄴ"
+          },
+          {
+            "pos": "n"
+          }
+        ]
+      },
+      "priority": 900,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "動詞 + ㄴ/은 + 名詞 (過去)"
+    },
+    {
+      "id": "gm.ko.grammar.modifier.v_eun.2",
+      "knowledge_id": "kg.grammar.modifier.v_eun",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:은"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:은"
+          },
+          {
+            "pos": "n"
+          }
+        ]
+      },
+      "priority": 900,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "動詞 + ㄴ/은 + 名詞 (過去)"
+    },
+    {
+      "id": "gm.ko.grammar.ending.retrospective_adnominal_deon",
+      "knowledge_id": "kg.grammar.ending.retrospective_adnominal_deon",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:던"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:던"
+          },
+          {
+            "pos": "n"
+          }
+        ]
+      },
+      "priority": 899,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-던"
+    },
+    {
+      "id": "gm.ko.grammar.ending.terminal_recollection_question_deon",
+      "knowledge_id": "kg.grammar.ending.terminal_recollection_question_deon",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:던"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:던"
+          }
+        ],
+        "exclude_after": [
+          {
+            "pos": "n"
+          },
+          {
+            "pos": "count"
+          },
+          {
+            "pos": "v"
+          },
+          {
+            "pos": "vx"
+          },
+          {
+            "pos": "adj"
+          },
+          {
+            "pos": "e"
+          }
+        ]
+      },
+      "priority": 898,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-던"
+    },
+    {
+      "id": "gm.ko.grammar.ending.connective_go.v",
+      "knowledge_id": "kg.grammar.ending.connective_go",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:고"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:고"
+          }
+        ],
+        "exclude_after": [
+          {
+            "id": "ko:vx:싶다"
+          },
+          {
+            "id": "ko:vx:있다"
+          },
+          {
+            "id": "ko:adj:있다"
+          }
+        ]
+      },
+      "priority": 897,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "고"
+    },
+    {
+      "id": "gm.ko.grammar.ending.connective_go.adj",
+      "knowledge_id": "kg.grammar.ending.connective_go",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:고"
+        ],
+        "selectors": [
+          {
+            "pos": "adj"
+          },
+          {
+            "id": "ko:e:고"
+          }
+        ],
+        "exclude_after": [
+          {
+            "id": "ko:vx:싶다"
+          },
+          {
+            "id": "ko:vx:있다"
+          },
+          {
+            "id": "ko:adj:있다"
+          }
+        ]
+      },
+      "priority": 896,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "고"
+    },
+    {
+      "id": "gm.ko.grammar.ending.resultative_ge",
+      "knowledge_id": "kg.grammar.ending.resultative_ge",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:게"
+        ],
+        "selectors": [
+          {
+            "pos": "adj"
+          },
+          {
+            "id": "ko:e:게"
+          }
+        ]
+      },
+      "priority": 895,
+      "display_priority": 2,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "~게"
+    },
+    {
+      "id": "gm.ko.grammar.ending.dasipi",
+      "knowledge_id": "kg.grammar.ending.dasipi",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:다시피"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:다시피"
+          }
+        ]
+      },
+      "priority": 894,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-다시피"
+    },
+    {
+      "id": "gm.ko.grammar.ending.doe",
+      "knowledge_id": "kg.grammar.ending.doe",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:되"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:되"
+          }
+        ]
+      },
+      "priority": 893,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-되"
+    },
+    {
+      "id": "gm.ko.grammar.ending.deusi",
+      "knowledge_id": "kg.grammar.ending.deusi",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:count:듯이"
+        ],
+        "selectors": [
+          {
+            "id": "ko:count:듯이"
+          }
+        ]
+      },
+      "priority": 892,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-듯이"
+    },
+    {
+      "id": "gm.ko.grammar.particle.daero_manner_boundary",
+      "knowledge_id": "kg.grammar.particle.daero_manner_boundary",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:count:대로"
+        ],
+        "selectors": [
+          {
+            "id": "ko:count:대로"
+          }
+        ]
+      },
+      "priority": 891,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "대로"
+    },
+    {
+      "id": "gm.ko.grammar.particle.mankeum_degree_boundary",
+      "knowledge_id": "kg.grammar.particle.mankeum_degree_boundary",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:count:만큼"
+        ],
+        "selectors": [
+          {
+            "id": "ko:count:만큼"
+          }
+        ]
+      },
+      "priority": 890,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "만큼"
+    },
+    {
+      "id": "gm.ko.grammar.ending.cause_gi_ttaemune",
+      "knowledge_id": "kg.grammar.ending.cause_gi_ttaemune",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:기",
+          "ko:count:때문",
+          "ko:p:에"
+        ],
+        "selectors": [
+          {
+            "pos": "v"
+          },
+          {
+            "id": "ko:e:기"
+          },
+          {
+            "id": "ko:count:때문"
+          },
+          {
+            "id": "ko:p:에"
+          }
+        ]
+      },
+      "priority": 889,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-기 때문에"
+    },
+    {
+      "id": "gm.ko.grammar.ending.cause_gi_ttaemune.adj",
+      "knowledge_id": "kg.grammar.ending.cause_gi_ttaemune",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:기",
+          "ko:count:때문",
+          "ko:p:에"
+        ],
+        "selectors": [
+          {
+            "pos": "adj"
+          },
+          {
+            "id": "ko:e:기"
+          },
+          {
+            "id": "ko:count:때문"
+          },
+          {
+            "id": "ko:p:에"
+          }
+        ]
+      },
+      "priority": 888,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-기 때문에"
+    },
+    {
+      "id": "gm.ko.grammar.ending.cause_igi_ttaemune",
+      "knowledge_id": "kg.grammar.ending.cause_igi_ttaemune",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:cop:이다",
+          "ko:e:기",
+          "ko:count:때문",
+          "ko:p:에"
+        ],
+        "selectors": [
+          {
+            "pos": "n"
+          },
+          {
+            "id": "ko:cop:이다"
+          },
+          {
+            "id": "ko:e:기"
+          },
+          {
+            "id": "ko:count:때문"
+          },
+          {
+            "id": "ko:p:에"
+          }
+        ]
+      },
+      "priority": 887,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(이)기 때문에"
+    },
+    {
+      "id": "gm.ko.grammar.determiner.musun",
+      "knowledge_id": "kg.grammar.determiner.musun",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:det:무슨"
+        ],
+        "selectors": [
+          {
+            "id": "ko:det:무슨"
+          }
+        ]
+      },
+      "priority": 886,
+      "display_priority": 4,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "무슨"
+    },
+    {
+      "id": "gm.ko.grammar.determiner.eoneu",
+      "knowledge_id": "kg.grammar.determiner.eoneu",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:det:어느"
+        ],
+        "selectors": [
+          {
+            "id": "ko:det:어느"
+          }
+        ]
+      },
+      "priority": 885,
+      "display_priority": 4,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "어느"
+    },
+    {
+      "id": "gm.ko.grammar.determiner.demonstrative",
+      "knowledge_id": "kg.grammar.determiner.demonstrative",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:det:이"
+        ],
+        "selectors": [
+          {
+            "id": "ko:det:이"
+          }
+        ]
+      },
+      "priority": 884,
+      "display_priority": 4,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "이/그/저"
+    },
+    {
+      "id": "gm.ko.grammar.determiner.demonstrative.2",
+      "knowledge_id": "kg.grammar.determiner.demonstrative",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:det:그"
+        ],
+        "selectors": [
+          {
+            "id": "ko:det:그"
+          }
+        ]
+      },
+      "priority": 884,
+      "display_priority": 4,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "이/그/저"
+    },
+    {
+      "id": "gm.ko.grammar.determiner.demonstrative.3",
+      "knowledge_id": "kg.grammar.determiner.demonstrative",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:det:저"
+        ],
+        "selectors": [
+          {
+            "id": "ko:det:저"
+          }
+        ]
+      },
+      "priority": 884,
+      "display_priority": 4,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "이/그/저"
+    },
+    {
+      "id": "gm.ko.grammar.particle.from_to_bu_teo",
+      "knowledge_id": "kg.grammar.particle.from_to_bu_teo_kka_ji",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:부터"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:부터"
+          }
+        ]
+      },
+      "priority": 883,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "부터 ~까지"
+    },
+    {
+      "id": "gm.ko.grammar.particle.from_to_kka_ji",
+      "knowledge_id": "kg.grammar.particle.from_to_bu_teo_kka_ji",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:까지"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:까지"
+          }
+        ]
+      },
+      "priority": 882,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "부터 ~까지"
+    },
+    {
+      "id": "gm.ko.grammar.particle.after_noun_hu",
+      "knowledge_id": "kg.grammar.particle.after_noun_hu",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:n:후",
+          "ko:p:에"
+        ],
+        "selectors": [
+          {
+            "id": "ko:n:후"
+          },
+          {
+            "id": "ko:p:에"
+          }
+        ]
+      },
+      "priority": 881,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "n 후에"
+    },
+    {
+      "id": "gm.ko.grammar.particle.during_dongan",
+      "knowledge_id": "kg.grammar.particle.during_dongan",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:n:동안"
+        ],
+        "selectors": [
+          {
+            "id": "ko:n:동안"
+          }
+        ]
+      },
+      "priority": 880,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "동안"
+    },
+    {
+      "id": "gm.ko.grammar.particle.among_jung_eseo",
+      "knowledge_id": "kg.grammar.particle.among_jung_eseo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:n:중",
+          "ko:p:에서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:n:중"
+          },
+          {
+            "id": "ko:p:에서"
+          }
+        ]
+      },
+      "priority": 879,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "중에서"
+    },
+    {
+      "id": "gm.ko.grammar.particle.cause_noun_ttaemune",
+      "knowledge_id": "kg.grammar.particle.cause_noun_ttaemune",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:count:때문",
+          "ko:p:에"
+        ],
+        "selectors": [
+          {
+            "id": "ko:count:때문"
+          },
+          {
+            "id": "ko:p:에"
+          }
+        ]
+      },
+      "priority": 878,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "때문에"
+    },
+    {
+      "id": "gm.ko.grammar.particle.regardless_noun_ideunji",
+      "knowledge_id": "kg.grammar.particle.regardless_noun_ideunji",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:든지"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:든지"
+          }
+        ]
+      },
+      "priority": 877,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-(이)든지"
+    },
+    {
+      "id": "gm.ko.grammar.particle.boda_comparison",
+      "knowledge_id": "kg.grammar.particle.boda_comparison",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:보다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:보다"
+          }
+        ]
+      },
+      "priority": 876,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "보다"
+    },
+    {
+      "id": "gm.ko.grammar.expectation.seem_ul_geot_gatda",
+      "knowledge_id": "kg.grammar.expectation.seem_ul_geot_gatda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ",
+          "ko:count:것",
+          "ko:adj:같다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ"
+          },
+          {
+            "id": "ko:count:것"
+          },
+          {
+            "id": "ko:adj:같다"
+          }
+        ]
+      },
+      "priority": 875,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 것 같다"
+    },
+    {
+      "id": "gm.ko.grammar.expectation.seem_ul_geot_gatda.2",
+      "knowledge_id": "kg.grammar.expectation.seem_ul_geot_gatda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을",
+          "ko:count:것",
+          "ko:adj:같다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을"
+          },
+          {
+            "id": "ko:count:것"
+          },
+          {
+            "id": "ko:adj:같다"
+          }
+        ]
+      },
+      "priority": 875,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ 것 같다"
+    },
+    {
+      "id": "gm.ko.grammar.particle.e_jjeum",
+      "knowledge_id": "kg.grammar.particle.e_jjeum",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:count:쯤"
+        ],
+        "selectors": [
+          {
+            "id": "ko:count:쯤"
+          }
+        ]
+      },
+      "priority": 874,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "~에 ~쯤"
+    },
+    {
+      "id": "gm.ko.grammar.expectation.ul_kka_sipda",
+      "knowledge_id": "kg.grammar.expectation.ul_kka_sipda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㄹ까",
+          "ko:vx:싶다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㄹ까"
+          },
+          {
+            "id": "ko:vx:싶다"
+          }
+        ]
+      },
+      "priority": 873,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ까 싶다"
+    },
+    {
+      "id": "gm.ko.grammar.expectation.ul_kka_sipda.2",
+      "knowledge_id": "kg.grammar.expectation.ul_kka_sipda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:을까",
+          "ko:vx:싶다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:을까"
+          },
+          {
+            "id": "ko:vx:싶다"
+          }
+        ]
+      },
+      "priority": 873,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㄹ까 싶다"
+    },
+    {
+      "id": "gm.ko.grammar.particle.egeseo",
+      "knowledge_id": "kg.grammar.particle.egeseo_hanteseo_eseo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:에서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:에서"
+          }
+        ]
+      },
+      "priority": 872,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "~에게서/한테서/에서"
+    },
+    {
+      "id": "gm.ko.grammar.particle.hanteseo",
+      "knowledge_id": "kg.grammar.particle.egeseo_hanteseo_eseo",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:한테",
+          "ko:p:서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:한테"
+          },
+          {
+            "id": "ko:p:서"
+          }
+        ]
+      },
+      "priority": 871,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "~에게서/한테서/에서"
+    },
+    {
+      "id": "gm.ko.grammar.particle.man",
+      "knowledge_id": "kg.grammar.particle.man",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:만"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:만"
+          }
+        ]
+      },
+      "priority": 870,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "~만"
+    },
+    {
+      "id": "gm.ko.grammar.particle.mada",
+      "knowledge_id": "kg.grammar.particle.mada",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:마다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:마다"
+          }
+        ]
+      },
+      "priority": 869,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "마다"
+    },
+    {
+      "id": "gm.ko.grammar.particle.choice_na",
+      "knowledge_id": "kg.grammar.particle.choice_na_ina",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:나"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:나"
+          }
+        ]
+      },
+      "priority": 868,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-(이)나"
+    },
+    {
+      "id": "gm.ko.grammar.particle.choice_ina",
+      "knowledge_id": "kg.grammar.particle.choice_na_ina",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:이나"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:이나"
+          }
+        ]
+      },
+      "priority": 867,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "-(이)나"
+    },
+    {
+      "id": "gm.ko.grammar.particle.cheoreom",
+      "knowledge_id": "kg.grammar.particle.cheoreom",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:처럼"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:처럼"
+          }
+        ]
+      },
+      "priority": 866,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "처럼"
+    },
+    {
+      "id": "gm.ko.grammar.particle.chigo_standard_exception",
+      "knowledge_id": "kg.grammar.particle.chigo_standard_exception",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:치고"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:치고"
+          }
+        ]
+      },
+      "priority": 865,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "치고"
+    },
+    {
+      "id": "gm.ko.grammar.particle.chigo_standard_exception.chigo_seo",
+      "knowledge_id": "kg.grammar.particle.chigo_standard_exception",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:치고서"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:치고서"
+          }
+        ]
+      },
+      "priority": 864,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "치고"
+    },
+    {
+      "id": "gm.ko.grammar.particle.yamallo_focus",
+      "knowledge_id": "kg.grammar.particle.yamallo_focus",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:야말로"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:야말로"
+          }
+        ]
+      },
+      "priority": 863,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "야말로/이야말로"
+    },
+    {
+      "id": "gm.ko.grammar.particle.yamallo_focus.i_yamallo",
+      "knowledge_id": "kg.grammar.particle.yamallo_focus",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:이야말로"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:이야말로"
+          }
+        ]
+      },
+      "priority": 862,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "야말로/이야말로"
+    },
+    {
+      "id": "gm.ko.grammar.phrase.n_e_ttara_according_to",
+      "knowledge_id": "kg.grammar.phrase.n_e_ttara_according_to",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:에",
+          "ko:p:따라"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:에"
+          },
+          {
+            "id": "ko:p:따라"
+          }
+        ]
+      },
+      "priority": 861,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "N에 따라"
+    },
+    {
+      "id": "gm.ko.grammar.particle.rado_fallback_choice",
+      "knowledge_id": "kg.grammar.particle.rado_fallback_choice",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:이라도"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:이라도"
+          }
+        ]
+      },
+      "priority": 860,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "이라도"
+    },
+    {
+      "id": "gm.ko.grammar.particle.bakke_exclusive",
+      "knowledge_id": "kg.grammar.particle.bakke_exclusive",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:밖에"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:밖에"
+          }
+        ]
+      },
+      "priority": 859,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "밖에"
+    },
+    {
+      "id": "gm.ko.grammar.particle.i_ga",
+      "knowledge_id": "kg.grammar.particle.i_ga",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:이"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:이"
+          }
+        ]
+      },
+      "priority": 858,
+      "display_priority": 3,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "이/가"
+    },
+    {
+      "id": "gm.ko.grammar.particle.i_ga.2",
+      "knowledge_id": "kg.grammar.particle.i_ga",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:가"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:가"
+          }
+        ]
+      },
+      "priority": 858,
+      "display_priority": 3,
+      "display_tier": "micro",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "이/가"
+    },
+    {
+      "id": "gm.ko.grammar.ending.intent_inference_getda",
+      "knowledge_id": "kg.grammar.ending.intent_inference_getda",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:겠"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:겠"
+          }
+        ],
+        "exclude_before": [
+          {
+            "id": "ko:e:으면"
+          },
+          {
+            "id": "ko:adj:좋다"
+          }
+        ]
+      },
+      "priority": 857,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-겠어요"
+    },
+    {
+      "id": "gm.ko.grammar.ending.intent_ul_ryeogo",
+      "knowledge_id": "kg.grammar.ending.intent_ul_ryeogo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:려고"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:려고"
+          }
+        ],
+        "exclude_after": [
+          {
+            "id": "ko:v:하다"
+          },
+          {
+            "id": "ko:vx:하다"
+          }
+        ]
+      },
+      "priority": 856,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)려고"
+    },
+    {
+      "id": "gm.ko.grammar.ending.intent_ul_ryeogo.2",
+      "knowledge_id": "kg.grammar.ending.intent_ul_ryeogo",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:으려고"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으려고"
+          }
+        ],
+        "exclude_after": [
+          {
+            "id": "ko:v:하다"
+          },
+          {
+            "id": "ko:vx:하다"
+          }
+        ]
+      },
+      "priority": 856,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)려고"
+    },
+    {
+      "id": "gm.ko.grammar.ending.intent_condition_ryeomyeon",
+      "knowledge_id": "kg.grammar.ending.intent_condition_ryeomyeon",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:려면"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:려면"
+          }
+        ]
+      },
+      "priority": 855,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)려면"
+    },
+    {
+      "id": "gm.ko.grammar.ending.intent_condition_ryeomyeon.2",
+      "knowledge_id": "kg.grammar.ending.intent_condition_ryeomyeon",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:으려면"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으려면"
+          }
+        ]
+      },
+      "priority": 855,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)려면"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_eumyeon_jokgetda",
+      "knowledge_id": "kg.grammar.ending.wish_eumyeon_jokgetda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:면",
+          "ko:adj:좋다",
+          "ko:e:겠"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:면"
+          },
+          {
+            "id": "ko:adj:좋다"
+          },
+          {
+            "id": "ko:e:겠"
+          }
+        ],
+        "exclude_before": [
+          {
+            "id": "ko:e:았"
+          },
+          {
+            "id": "ko:e:었"
+          },
+          {
+            "id": "ko:e:였"
+          }
+        ]
+      },
+      "priority": 854,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)면 좋겠다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.wish_eumyeon_jokgetda.2",
+      "knowledge_id": "kg.grammar.ending.wish_eumyeon_jokgetda",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:으면",
+          "ko:adj:좋다",
+          "ko:e:겠"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:으면"
+          },
+          {
+            "id": "ko:adj:좋다"
+          },
+          {
+            "id": "ko:e:겠"
+          }
+        ],
+        "exclude_before": [
+          {
+            "id": "ko:e:았"
+          },
+          {
+            "id": "ko:e:었"
+          },
+          {
+            "id": "ko:e:였"
+          }
+        ]
+      },
+      "priority": 854,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)면 좋겠다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.prohibit_ji_ma",
+      "knowledge_id": "kg.grammar.ending.prohibit_ji_ma",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:e:지",
+          "ko:vx:말다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:지"
+          },
+          {
+            "id": "ko:vx:말다"
+          }
+        ],
+        "exclude_after": [
+          {
+            "id": "ko:e:세요"
+          },
+          {
+            "id": "ko:e:으세요"
+          },
+          {
+            "id": "ko:e:ㅂ시다"
+          },
+          {
+            "id": "ko:e:자"
+          }
+        ]
+      },
+      "priority": 853,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-지 마"
+    },
+    {
+      "id": "gm.ko.grammar.ending.propose_upsida",
+      "knowledge_id": "kg.grammar.ending.propose_upsida",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:ㅂ시다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:ㅂ시다"
+          }
+        ],
+        "exclude_before": [
+          {
+            "id": "ko:e:지"
+          },
+          {
+            "id": "ko:vx:말다"
+          }
+        ]
+      },
+      "priority": 852,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㅂ시다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.propose_upsida.2",
+      "knowledge_id": "kg.grammar.ending.propose_upsida",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:읍시다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:읍시다"
+          }
+        ],
+        "exclude_before": [
+          {
+            "id": "ko:e:지"
+          },
+          {
+            "id": "ko:vx:말다"
+          }
+        ]
+      },
+      "priority": 852,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)ㅂ시다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.propose_banmal_ja",
+      "knowledge_id": "kg.grammar.ending.propose_banmal_ja",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:자"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:자"
+          }
+        ],
+        "exclude_before": [
+          {
+            "id": "ko:vx:말다"
+          }
+        ]
+      },
+      "priority": 851,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-자"
+    },
+    {
+      "id": "gm.ko.grammar.ending.formula_viewpoint_condition_jamyeon",
+      "knowledge_id": "kg.grammar.ending.formula_viewpoint_condition_jamyeon",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:e:자면"
+        ],
+        "selectors": [
+          {
+            "id": "ko:e:자면"
+          }
+        ]
+      },
+      "priority": 850,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-자면"
+    },
+    {
+      "id": "gm.ko.grammar.ending.choice_euro_hada",
+      "knowledge_id": "kg.grammar.ending.choice_euro_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:로",
+          "ko:v:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:로"
+          },
+          {
+            "id": "ko:v:하다"
+          }
+        ],
+        "exclude_before": [
+          {
+            "id": "ko:e:기"
+          }
+        ]
+      },
+      "priority": 849,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)로 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.choice_euro_hada.2",
+      "knowledge_id": "kg.grammar.ending.choice_euro_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:로",
+          "ko:vx:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:로"
+          },
+          {
+            "id": "ko:vx:하다"
+          }
+        ],
+        "exclude_before": [
+          {
+            "id": "ko:e:기"
+          }
+        ]
+      },
+      "priority": 849,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)로 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.choice_euro_hada.3",
+      "knowledge_id": "kg.grammar.ending.choice_euro_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:으로",
+          "ko:v:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:으로"
+          },
+          {
+            "id": "ko:v:하다"
+          }
+        ],
+        "exclude_before": [
+          {
+            "id": "ko:e:기"
+          }
+        ]
+      },
+      "priority": 849,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)로 하다"
+    },
+    {
+      "id": "gm.ko.grammar.ending.choice_euro_hada.4",
+      "knowledge_id": "kg.grammar.ending.choice_euro_hada",
+      "match_type": "atom_sequence",
+      "match": {
+        "atom_ids": [
+          "ko:p:으로",
+          "ko:vx:하다"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:으로"
+          },
+          {
+            "id": "ko:vx:하다"
+          }
+        ],
+        "exclude_before": [
+          {
+            "id": "ko:e:기"
+          }
+        ]
+      },
+      "priority": 849,
+      "display_priority": 7,
+      "display_tier": "core_pattern",
+      "default_visibility": "visible",
+      "mastery_hideable": false,
+      "label": "-(으)로 하다"
+    },
+    {
+      "id": "gm.ko.grammar.particle.ya_vocative",
+      "knowledge_id": "kg.grammar.particle.ya_vocative",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:야"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:야"
+          }
+        ]
+      },
+      "priority": 848,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "야"
+    },
+    {
+      "id": "gm.ko.grammar.particle.ya_focus",
+      "knowledge_id": "kg.grammar.particle.ya_focus",
+      "match_type": "atom_id",
+      "match": {
+        "atom_ids": [
+          "ko:p:야"
+        ],
+        "selectors": [
+          {
+            "id": "ko:p:야"
+          }
+        ]
+      },
+      "priority": 847,
+      "display_priority": 2,
+      "display_tier": "particle",
+      "default_visibility": "collapsed",
+      "mastery_hideable": true,
+      "label": "야"
+    }
+  ]
+}

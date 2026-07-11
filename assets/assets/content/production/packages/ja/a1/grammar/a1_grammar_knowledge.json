@@ -1,0 +1,336 @@
+{
+  "schema_version": "a1_grammar_knowledge_sidecar.v1",
+  "language": "ja",
+  "status": "review_staging_native_pending",
+  "created_at": "2026-06-18",
+  "author_id": "phase3_grammar_knowledge_author_ja_20260618",
+  "authoring_basis": "external denominator row plus grounded reading_surface_drafts_20260615 examples",
+  "production_promotion_allowed": false,
+  "native_status": "native_pending",
+  "nodes": [
+    {
+      "learning_object_id": "ja_grammar_particles",
+      "title_zh_tw": "basic particles は/が/を/に/で（は, が, を, に）",
+      "explanation_md_zh_tw": "這個節點教 日文 A1 的「basic particles は/が/を/に/で」。 它是接在名詞後面的小詞，用來標出主題、主詞、受詞、位置、時間或動作地點。先看它貼在哪個名詞後面。 這次先認得：は、が、を、に、で。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "JA.grammar.particles",
+      "ref_item": "basic particles は/が/を/に/で",
+      "ref_subitems": [
+        "は",
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "examples": [
+        {
+          "surface": "わたしたちは地図を見て、カフェに行きます。",
+          "source_item_id": "article:ja_reading_particles_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「は、を、に」，呈現「basic particles は/が/を/に/で」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "駅で友だちが待っています。",
+          "source_item_id": "article:ja_reading_particles_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「が、で」，呈現「basic particles は/が/を/に/で」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "朝、わたしは駅に行きます。",
+          "source_item_id": "article:ja_reading_particles_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「は、に」，呈現「basic particles は/が/を/に/で」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "友だちは小さい地図を持っています。",
+          "source_item_id": "article:ja_reading_particles_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「は、を」，呈現「basic particles は/が/を/に/で」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "JF Standard A1 / Marugoto A1 grammar proxy",
+      "source_locator": "https://www.jfstandard.jpf.go.jp/summaryen/ja/render.do",
+      "source_reading_asset_id": "ja_reading_particles_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ja\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ja_reading_particles_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ja_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ja_grammar_desu_masu",
+      "title_zh_tw": "polite desu/masu style（です, ます）",
+      "explanation_md_zh_tw": "這個節點教日文 A1 的禮貌體です/ます。です接在名詞或形容詞句後，讓「是/狀態」聽起來禮貌；ます接在動詞後，表示禮貌的現在/習慣動作。讀例句時，先看句尾是です還是ます，再判斷前面是名詞/狀態還是動作。",
+      "explanation_source": "authored",
+      "ref_id": "JA.grammar.desu_masu",
+      "ref_item": "polite desu/masu style",
+      "ref_subitems": [
+        "です",
+        "ます"
+      ],
+      "examples": [
+        {
+          "surface": "今日は日本語のクラスです。",
+          "source_item_id": "article:ja_reading_desu_masu_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「です」，呈現「polite desu/masu style」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "先生に名前を言います。",
+          "source_item_id": "article:ja_reading_desu_masu_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「ます」，呈現「polite desu/masu style」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "わたしは新しい学生です。",
+          "source_item_id": "article:ja_reading_desu_masu_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「です」，呈現「polite desu/masu style」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "となりの人も学生です。",
+          "source_item_id": "article:ja_reading_desu_masu_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「です」，呈現「polite desu/masu style」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "JF Standard A1 / Marugoto A1 grammar proxy",
+      "source_locator": "https://www.jfstandard.jpf.go.jp/summaryen/ja/render.do",
+      "source_reading_asset_id": "ja_reading_desu_masu_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ja\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ja_reading_desu_masu_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ja_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ja_grammar_te_form",
+      "title_zh_tw": "te-form sequencing/request（て）",
+      "explanation_md_zh_tw": "這個節點教日文 A1 的て形。て可以把兩個動作連起來，表示先做 A 再做 B，例如 起きて、水を飲みます 是「起來，然後喝水」。て也常用在請求：動詞て形 + ください 表示「請做某事」，所以看到〜てください時，要讀成禮貌請求。",
+      "explanation_source": "authored",
+      "ref_id": "JA.grammar.te_form",
+      "ref_item": "te-form sequencing/request",
+      "ref_subitems": [
+        "て"
+      ],
+      "examples": [
+        {
+          "surface": "朝、みかさんは早く起きて、水を飲みます。",
+          "source_item_id": "article:ja_reading_te_form_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「て」，呈現「te-form sequencing/request」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "顔を洗って、青いシャツを着ます。",
+          "source_item_id": "article:ja_reading_te_form_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「て」，呈現「te-form sequencing/request」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "かばんを持って、家を出ます。",
+          "source_item_id": "article:ja_reading_te_form_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「て」，呈現「te-form sequencing/request」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "駅まで歩いて、電車に乗ります。",
+          "source_item_id": "article:ja_reading_te_form_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「て」，呈現「te-form sequencing/request」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "JF Standard A1 / Marugoto A1 grammar proxy",
+      "source_locator": "https://www.jfstandard.jpf.go.jp/summaryen/ja/render.do",
+      "source_reading_asset_id": "ja_reading_te_form_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ja\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ja_reading_te_form_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ja_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ja_grammar_question_ka",
+      "title_zh_tw": "basic questions with か（か）",
+      "explanation_md_zh_tw": "這個節點教 日文 A1 的「basic questions with か」。 它用來問問題。先記住問人、地點、時間、數量或 yes/no 時句子怎麼開頭或結尾。 這次先認得：か。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "JA.grammar.question_ka",
+      "ref_item": "basic questions with か",
+      "ref_subitems": [
+        "か"
+      ],
+      "examples": [
+        {
+          "surface": "店員さんが、何を探していますか、と聞きます。",
+          "source_item_id": "article:ja_reading_question_ka_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「か」，呈現「basic questions with か」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ゆうたさんは、赤いノートはありますか、と聞きます。",
+          "source_item_id": "article:ja_reading_question_ka_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「か」，呈現「basic questions with か」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "店員さんは、これはどうですか、と見せます。",
+          "source_item_id": "article:ja_reading_question_ka_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「か」，呈現「basic questions with か」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ゆうたさんは、いくらですか、と聞きます。",
+          "source_item_id": "article:ja_reading_question_ka_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「か」，呈現「basic questions with か」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "JF Standard A1 / Marugoto A1 grammar proxy",
+      "source_locator": "https://www.jfstandard.jpf.go.jp/summaryen/ja/render.do",
+      "source_reading_asset_id": "ja_reading_question_ka_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ja\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ja_reading_question_ka_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ja_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ja_grammar_demonstratives",
+      "title_zh_tw": "こ/そ/あ demonstratives（これ, それ, あれ）",
+      "explanation_md_zh_tw": "這個節點教 日文 A1 的「こ/そ/あ demonstratives」。 它用來指「這個/那個/那邊那個」。先看東西離說話者、聽話者遠近。 這次先認得：これ、それ、あれ。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "JA.grammar.demonstratives",
+      "ref_item": "こ/そ/あ demonstratives",
+      "ref_subitems": [
+        "これ",
+        "それ",
+        "あれ"
+      ],
+      "examples": [
+        {
+          "surface": "最後に、これとそれを箱に入れます。",
+          "source_item_id": "article:ja_reading_demonstratives_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「これ、それ」，呈現「こ/そ/あ demonstratives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "先生は、あれは田中さんのカードです、と言います。",
+          "source_item_id": "article:ja_reading_demonstratives_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「あれ」，呈現「こ/そ/あ demonstratives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "先生は、これはわたしのカードです、と言います。",
+          "source_item_id": "article:ja_reading_demonstratives_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「これ」，呈現「こ/そ/あ demonstratives」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "学生は、それはだれのカードですか、と聞きます。",
+          "source_item_id": "article:ja_reading_demonstratives_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「それ」，呈現「こ/そ/あ demonstratives」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "JF Standard A1 / Marugoto A1 grammar proxy",
+      "source_locator": "https://www.jfstandard.jpf.go.jp/summaryen/ja/render.do",
+      "source_reading_asset_id": "ja_reading_demonstratives_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ja\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ja_reading_demonstratives_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ja_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ja_grammar_counters_numbers",
+      "title_zh_tw": "numbers and counters（一, 二）",
+      "explanation_md_zh_tw": "這個節點教 日文 A1 的「numbers and counters」。 它用來說數量、程度或幾個人/幾個東西。遇到量詞時，先看數字後面接的是人、物品還是其他類別。 這次先認得：一、二。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "JA.grammar.counters_numbers",
+      "ref_item": "numbers and counters",
+      "ref_subitems": [
+        "一",
+        "二"
+      ],
+      "examples": [
+        {
+          "surface": "一つ目のパンは自分の分です。",
+          "source_item_id": "article:ja_reading_counters_numbers_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「一」，呈現「numbers and counters」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "二つ目のパンは友だちの分です。",
+          "source_item_id": "article:ja_reading_counters_numbers_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「二」，呈現「numbers and counters」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "りなさんは水を一つ買います。",
+          "source_item_id": "article:ja_reading_counters_numbers_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「一」，呈現「numbers and counters」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "友だちも水を一つ買います。",
+          "source_item_id": "article:ja_reading_counters_numbers_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「一」，呈現「numbers and counters」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "JF Standard A1 / Marugoto A1 grammar proxy",
+      "source_locator": "https://www.jfstandard.jpf.go.jp/summaryen/ja/render.do",
+      "source_reading_asset_id": "ja_reading_counters_numbers_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ja\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ja_reading_counters_numbers_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ja_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ja_grammar_negation",
+      "title_zh_tw": "basic negation（ない, ません）",
+      "explanation_md_zh_tw": "這個節點教 日文 A1 的「basic negation」。 它用來說「不/沒有」。重點是把否定標記放在例句中的正確位置。 這次先認得：ない、ません。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "JA.grammar.negation",
+      "ref_item": "basic negation",
+      "ref_subitems": [
+        "ない",
+        "ません"
+      ],
+      "examples": [
+        {
+          "surface": "けんさんは公園に行きません。",
+          "source_item_id": "article:ja_reading_negation_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「ません」，呈現「basic negation」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "かばんにかさがないからです。",
+          "source_item_id": "article:ja_reading_negation_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「ない」，呈現「basic negation」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "友だちも外で待ちません。",
+          "source_item_id": "article:ja_reading_negation_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「ません」，呈現「basic negation」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "雨が止まるまで、外に出ないで休みます。",
+          "source_item_id": "article:ja_reading_negation_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「ない」，呈現「basic negation」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "JF Standard A1 / Marugoto A1 grammar proxy",
+      "source_locator": "https://www.jfstandard.jpf.go.jp/summaryen/ja/render.do",
+      "source_reading_asset_id": "ja_reading_negation_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ja\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ja_reading_negation_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ja_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "ja_grammar_existence",
+      "title_zh_tw": "あります/います（あります, います）",
+      "explanation_md_zh_tw": "這個節點教 日文 A1 的「あります/います」。 あります/います都用來說「有、在」。東西或植物等無生命物常用あります；人或動物常用います。先看存在的是物品，還是人/動物。 這次先認得：あります、います。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "JA.grammar.existence",
+      "ref_item": "あります/います",
+      "ref_subitems": [
+        "あります",
+        "います"
+      ],
+      "examples": [
+        {
+          "surface": "机の上に水があります。",
+          "source_item_id": "article:ja_reading_existence_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「あります」，呈現「あります/います」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "となりの部屋に友だちがいます。",
+          "source_item_id": "article:ja_reading_existence_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「います」，呈現「あります/います」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "ベッドのそばにかばんがあります。",
+          "source_item_id": "article:ja_reading_existence_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「あります」，呈現「あります/います」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "鍵がありますから、二人は安心して休みます。",
+          "source_item_id": "article:ja_reading_existence_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「あります」，呈現「あります/います」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "JF Standard A1 / Marugoto A1 grammar proxy",
+      "source_locator": "https://www.jfstandard.jpf.go.jp/summaryen/ja/render.do",
+      "source_reading_asset_id": "ja_reading_existence_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-ja\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\ja_reading_existence_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_ja_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    }
+  ]
+}

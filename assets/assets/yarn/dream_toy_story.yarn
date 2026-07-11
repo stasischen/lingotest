@@ -1,0 +1,92 @@
+title: dream_toy_story
+tags: dream, toy_story
+---
+<<declare $puzzle_result = "">>
+
+// Phase 1: The Reception (Reality/Atelier)
+// Context: Inside the Dream Weaver's shop. Soft jazz playing.
+// Client: Buzz enters, stiff and mechanical.
+
+System: CLIENT APPROACHING. IDENTITY: SPACE RANGER (SELF-PROCLAIMED).
+<<sfx "door_slide">>
+Weaver: Welcome to the Dream Weaver. Please, take a seat.
+
+(He scans the room with a laser pointer.)
+<<sfx "laser_scan">>
+Buzz: Negative. I do not "sit". I am on a reconnaissance mission.
+Buzz: I picked up a distress signal... wait, was it mine?
+Weaver: You look tired, Ranger. Your internal gyroscope seems... off-balance.
+
+(He sighs and slumps slightly, the plastic armor squeaking.)
+<<sfx "armor_squeak">>
+Buzz: It is the gravity on this planet. It is... heavy.
+Buzz: Every time I try to launch, I fail. Systems check is green. Wings are operational.
+Buzz: But I cannot fly. I am grounded.
+
+<<wait 1.0>>
+Weaver: Let's look at that flight log together. Close your eyes.
+<<sfx "dream_transition">>
+Weaver: Initiating Dream Sequence...
+
+// Phase 2: The Diagnosis (Entering the Dream)
+// Scene Shift: The "Alien Planet" (Andy's Bed, high up)
+
+// Phase 3: The Glitch
+Weaver: You're trying to calculate the trajectory alone, Buzz.
+Buzz: A Ranger works alone! That is protocol!
+Buzz: If I fail, I fail alone. That is honor!
+
+Weaver: That's the error in your code.
+Weaver: Look at the syntax of your mission statement.
+Weaver: "I fly." "I launch." "I succeed."
+Weaver: It's too singular. It's too heavy for one pair of plastic wings.
+
+Buzz: Then what is the variable? What am I missing?
+Weaver: You need a co-pilot. You need to change the **Subject**.
+
+// Phase 4: The Puzzle
+// Puzzle ID: "ranger_togetherness"
+// Goal: Change "Alone" (혼자) -> "Together" (함께)
+<<dream_puzzle "ranger_togetherness" "easy">>
+
+<<if $puzzle_result == "success">>
+    // Phase 5: Resolution (The Epiphany)
+    Buzz: Together...?
+    
+    <<wait 1.0>>
+    <<sfx "cowboy_theme_faint">>
+
+    (He looks down. A hand reaches out—it's Woody.)
+    Buzz: Wait. I am not the only one stranded here.
+    Buzz: Woody? You... you want to give me a lift?
+    
+    (Buzz smiles. It's not a Ranger's smile, but a friend's smile.)
+    Buzz: Affirmative. New trajectory calculated.
+    Buzz: We aren't aiming for the stars anymore, Sheriff.
+    Buzz: We are aiming for the car!
+    
+    <<sfx "rocket_launch_style">>
+    Buzz: This isn't flying... this is falling with style!
+    System: DREAM STABILIZED. EMOTIONAL CORE REPAIRED.
+
+<<elseif $puzzle_result == "fail_alone">>
+    Buzz: No! I don't need help! I am Buzz Lightyear!
+    Buzz: (He pushes the hand away and leaps.)
+    Buzz: To Infinity and...
+    Buzz: (He drops like a stone. *THUD*.)
+    Buzz: ...and beyond valid warranty.
+    System: MISSION FAILED. RANGER BROKEN.
+
+<<else>>
+    Buzz: Faster! Harder! Max power!
+    Buzz: (His rocket overheats. Smoke starts pouring out.)
+    Buzz: SYSTEM OVERLOAD.
+    System: CRITICAL FAILURE.
+<<endif>>
+
+// Epilogue (Back in Atelier)
+Weaver: Welcome back. How do the wings feel?
+Buzz: (He taps his chest emblem.)
+Buzz: The wings are plastic. But the heart... the heart feels lighter.
+Buzz: Thank you, Weaver. I have a moving truck to catch.
+===

@@ -1,0 +1,24 @@
+{
+  "schema_version": "a2_preview_runtime_source_report.v1",
+  "runtime_id": "a2_preview_20260623",
+  "language": "en",
+  "visibility": "preview",
+  "promotion": "stage3_inventory_preview_not_production",
+  "inputs": {
+    "lexical": "docs/tasks/A2_KNOWLEDGE_LAB_TEN_LANGUAGE_BACKFILL/expanded/en_A2_EXPANDED_LEXICAL_ITEMS_20260623.tsv",
+    "grammar": "docs/tasks/A2_KNOWLEDGE_LAB_TEN_LANGUAGE_BACKFILL/expanded/en_A2_EXPANDED_GRAMMAR_MICROPOINTS_20260623.tsv",
+    "frames": "docs/tasks/A2_KNOWLEDGE_LAB_TEN_LANGUAGE_BACKFILL/expanded/en_A2_EXPANDED_SENTENCE_FRAMES_20260623.tsv",
+    "scenarios": "/Users/ywchen/Dev/lingo/content-en/content/core/content_assets/scenario_packs/current_flow/a2"
+  },
+  "counts": {
+    "source_rows": 220,
+    "dictionary_gloss": 520,
+    "grammar_nodes": 65,
+    "frame_rows_total": 220,
+    "dictionary_gloss_total": 520,
+    "grammar_nodes_total": 65,
+    "scenario_packs": 24,
+    "scenario_turns": 96,
+    "scenario_reply_choices": 288
+  }
+}

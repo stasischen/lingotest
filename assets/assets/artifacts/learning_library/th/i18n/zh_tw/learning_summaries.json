@@ -1,0 +1,4296 @@
+{
+  "schema_version": "learning_summary.v1",
+  "summaries": {
+    "src.th.dialogue.convenience_payment_card_cash": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.convenience_payment_card_cash",
+      "vocabulary": [
+        {
+          "id": "th:adv:ไม่",
+          "surface": "ไม่",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:จ่าย",
+          "surface": "จ่าย",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ตรงนี้",
+          "surface": "ตรงนี้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:บัตร",
+          "surface": "บัตร",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:บาท",
+          "surface": "บาท",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:รับ",
+          "surface": "รับ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:หนึ่งร้อย",
+          "surface": "หนึ่งร้อย",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เงินสด",
+          "surface": "เงินสด",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เรียบร้อย",
+          "surface": "เรียบร้อย",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:แตะ",
+          "surface": "แตะ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:num:ยี่สิบ",
+          "surface": "ยี่สิบ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:ทั้งหมด",
+          "surface": "ทั้งหมด",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ได้",
+          "surface": "ได้",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.core_repair_repeat_slowly": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.core_repair_repeat_slowly",
+      "vocabulary": [
+        {
+          "id": "th:adv:ช้า",
+          "surface": "ช้า",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:กลับบ้าน",
+          "surface": "กลับบ้าน",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ขอโทษ",
+          "surface": "ขอโทษ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ทาน",
+          "surface": "ทาน",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ที่นี่",
+          "surface": "ที่นี่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:อีกครั้ง",
+          "surface": "อีกครั้ง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เรียบร้อย",
+          "surface": "เรียบร้อย",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:โอเค",
+          "surface": "โอเค",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ๆ",
+          "surface": "ๆ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:v:พูด",
+          "surface": "พูด",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ได้",
+          "surface": "ได้",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.daily_meet_friend": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.daily_meet_friend",
+      "vocabulary": [
+        {
+          "id": "th:adj:ดี",
+          "surface": "ดี",
+          "pos_group": "adjective",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ก่อน",
+          "surface": "ก่อน",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:แล้ว",
+          "surface": "แล้ว",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ไป",
+          "surface": "ไป",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ดีใจ",
+          "surface": "ดีใจ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ตั๋ว",
+          "surface": "ตั๋ว",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:พร้อม",
+          "surface": "พร้อม",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:หนัง",
+          "surface": "หนัง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:หรือยัง",
+          "surface": "หรือยัง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:หวัด",
+          "surface": "หวัด",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เจอ",
+          "surface": "เจอ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เหรอ",
+          "surface": "เหรอ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:โอเค",
+          "surface": "โอเค",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ไปดู",
+          "surface": "ไปดู",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:กัน",
+          "surface": "กัน",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:เรา",
+          "surface": "เรา",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ซื้อ",
+          "surface": "ซื้อ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:v:มา",
+          "surface": "มา",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ],
+      "grammar": []
+    },
+    "src.th.dialogue.daily_schedule_time": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.daily_schedule_time",
+      "vocabulary": [
+        {
+          "id": "th:adj:ดี",
+          "surface": "ดี",
+          "pos_group": "adjective",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:พรุ่งนี้",
+          "surface": "พรุ่งนี้",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:แล้ว",
+          "surface": "แล้ว",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:กันที่",
+          "surface": "กันที่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:บ่าย",
+          "surface": "บ่าย",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:สถานี",
+          "surface": "สถานี",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เจอ",
+          "surface": "เจอ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เจอกัน",
+          "surface": "เจอกัน",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:โมง",
+          "surface": "โมง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:โอเค",
+          "surface": "โอเค",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:num:สาม",
+          "surface": "สาม",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:กี่",
+          "surface": "กี่",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ได้",
+          "surface": "ได้",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        }
+      ],
+      "grammar": []
+    },
+    "src.th.dialogue.daily_self_intro": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.daily_self_intro",
+      "vocabulary": [
+        {
+          "id": "th:adj:ดี",
+          "surface": "ดี",
+          "pos_group": "adjective",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adj:ยินดี",
+          "surface": "ยินดี",
+          "pos_group": "adjective",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:อยู่",
+          "surface": "อยู่",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:เช่นกัน",
+          "surface": "เช่นกัน",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:เลย",
+          "surface": "เลย",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:คุณ",
+          "surface": "คุณ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ภาษาไทย",
+          "surface": "ภาษาไทย",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:มายา",
+          "surface": "มายา",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:อเล็กซ์",
+          "surface": "อเล็กซ์",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เริ่ม",
+          "surface": "เริ่ม",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:กัน",
+          "surface": "กัน",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:ผม",
+          "surface": "ผม",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:อะไร",
+          "surface": "อะไร",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:เรา",
+          "surface": "เรา",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ชื่อ",
+          "surface": "ชื่อ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:v:รู้จัก",
+          "surface": "รู้จัก",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:v:เรียน",
+          "surface": "เรียน",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ได้",
+          "surface": "ได้",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:intj:สวัสดี",
+          "surface": "สวัสดี",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.digital_battery_charging": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.digital_battery_charging",
+      "vocabulary": [
+        {
+          "id": "th:adv:อยู่",
+          "surface": "อยู่",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ชาร์จ",
+          "surface": "ชาร์จ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ซ้ายมือ",
+          "surface": "ซ้ายมือ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ตรงนั้น",
+          "surface": "ตรงนั้น",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ปลั๊ก",
+          "surface": "ปลั๊ก",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:มือถือ",
+          "surface": "มือถือ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช้",
+          "surface": "ใช้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใต้โต๊ะ",
+          "surface": "ใต้โต๊ะ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ให้",
+          "surface": "ให้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:ที่ไหน",
+          "surface": "ที่ไหน",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:อะไร",
+          "surface": "อะไร",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ช่วย",
+          "surface": "ช่วย",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:มี",
+          "surface": "มี",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ได้",
+          "surface": "ได้",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.digital_wifi_connect": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.digital_wifi_connect",
+      "vocabulary": [
+        {
+          "id": "th:adj:ใหม่",
+          "surface": "ใหม่",
+          "pos_group": "adjective",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ก่อน",
+          "surface": "ก่อน",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:จะ",
+          "surface": "จะ",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ไม่",
+          "surface": "ไม่",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:cop:คือ",
+          "surface": "คือ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:cafe",
+          "surface": "cafe",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ขอโทษ",
+          "surface": "ขอโทษ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ต่อ",
+          "surface": "ต่อ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:รหัส",
+          "surface": "รหัส",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ลอง",
+          "surface": "ลอง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:อีกครั้ง",
+          "surface": "อีกครั้ง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช้ได้",
+          "surface": "ใช้ได้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ให้",
+          "surface": "ให้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ไวไฟ",
+          "surface": "ไวไฟ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:num:123",
+          "surface": "123",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:อะไร",
+          "surface": "อะไร",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ขอ",
+          "surface": "ขอ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ช่วย",
+          "surface": "ช่วย",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:มี",
+          "surface": "มี",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ได้",
+          "surface": "ได้",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.food_bill_payment": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.food_bill_payment",
+      "vocabulary": [
+        {
+          "id": "th:n:จ่าย",
+          "surface": "จ่าย",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ชำระ",
+          "surface": "ชำระ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ต้องการ",
+          "surface": "ต้องการ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:บัตร",
+          "surface": "บัตร",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เงินสด",
+          "surface": "เงินสด",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เช็กบิล",
+          "surface": "เช็กบิล",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เพิ่ม",
+          "surface": "เพิ่ม",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เรียบร้อย",
+          "surface": "เรียบร้อย",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:อะไร",
+          "surface": "อะไร",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ขอ",
+          "surface": "ขอ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.food_coffee_ordering": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.food_coffee_ordering",
+      "vocabulary": [
+        {
+          "id": "th:adj:ดี",
+          "surface": "ดี",
+          "pos_group": "adjective",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adj:เย็น",
+          "surface": "เย็น",
+          "pos_group": "adjective",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:กลับบ้าน",
+          "surface": "กลับบ้าน",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ทาน",
+          "surface": "ทาน",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:บาท",
+          "surface": "บาท",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:รับ",
+          "surface": "รับ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ร้าน",
+          "surface": "ร้าน",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:สักครู่",
+          "surface": "สักครู่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:โน่",
+          "surface": "โน่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:num:หกสิบ",
+          "surface": "หกสิบ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:อะไร",
+          "surface": "อะไร",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:prop:อเมริกา",
+          "surface": "อเมริกา",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:รอ",
+          "surface": "รอ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:เอา",
+          "surface": "เอา",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:intj:สวัสดี",
+          "surface": "สวัสดี",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.food_restaurant_ordering": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.food_restaurant_ordering",
+      "vocabulary": [
+        {
+          "id": "th:adj:ดี",
+          "surface": "ดี",
+          "pos_group": "adjective",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ข้าวผัด",
+          "surface": "ข้าวผัด",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:คนเดียว",
+          "surface": "คนเดียว",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ท่าน",
+          "surface": "ท่าน",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:รับ",
+          "surface": "รับ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:สักครู่",
+          "surface": "สักครู่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ไก่",
+          "surface": "ไก่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:กี่",
+          "surface": "กี่",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:อะไร",
+          "surface": "อะไร",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ขอ",
+          "surface": "ขอ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:v:มา",
+          "surface": "มา",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:รอ",
+          "surface": "รอ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ได้",
+          "surface": "ได้",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:intj:สวัสดี",
+          "surface": "สวัสดี",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.hotel_checkout": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.hotel_checkout",
+      "vocabulary": [
+        {
+          "id": "th:adv:จะ",
+          "surface": "จะ",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:การ์ด",
+          "surface": "การ์ด",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:คีย์",
+          "surface": "คีย์",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ห้อง",
+          "surface": "ห้อง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เช็กเอาต์",
+          "surface": "เช็กเอาต์",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เบอร์",
+          "surface": "เบอร์",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เรียบร้อย",
+          "surface": "เรียบร้อย",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใบเสร็จ",
+          "surface": "ใบเสร็จ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ให้",
+          "surface": "ให้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:num:305",
+          "surface": "305",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:นี่",
+          "surface": "นี่",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:อะไร",
+          "surface": "อะไร",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ขอ",
+          "surface": "ขอ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ช่วย",
+          "surface": "ช่วย",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:มี",
+          "surface": "มี",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:intj:สวัสดี",
+          "surface": "สวัสดี",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.hotel_wifi_breakfast": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.hotel_wifi_breakfast",
+      "vocabulary": [
+        {
+          "id": "th:adv:อยู่",
+          "surface": "อยู่",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:อีก",
+          "surface": "อีก",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:แล้ว",
+          "surface": "แล้ว",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ไม่",
+          "surface": "ไม่",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:cop:คือ",
+          "surface": "คือ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ต้องการ",
+          "surface": "ต้องการ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:บัตร",
+          "surface": "บัตร",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:รหัส",
+          "surface": "รหัส",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ห้อง",
+          "surface": "ห้อง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:อาหารเช้า",
+          "surface": "อาหารเช้า",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เจ็ด",
+          "surface": "เจ็ด",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เริ่ม",
+          "surface": "เริ่ม",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:โมง",
+          "surface": "โมง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ให้",
+          "surface": "ให้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ไวไฟ",
+          "surface": "ไวไฟ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:กี่",
+          "surface": "กี่",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:อะไร",
+          "surface": "อะไร",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ช่วย",
+          "surface": "ช่วย",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:มี",
+          "surface": "มี",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:intj:สวัสดี",
+          "surface": "สวัสดี",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.problem_lost_item": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.problem_lost_item",
+      "vocabulary": [
+        {
+          "id": "th:adj:เล็ก",
+          "surface": "เล็ก",
+          "pos_group": "adjective",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:อยู่",
+          "surface": "อยู่",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:กระเป๋า",
+          "surface": "กระเป๋า",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:คาเฟ่",
+          "surface": "คาเฟ่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ทาง",
+          "surface": "ทาง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ที่นั่น",
+          "surface": "ที่นั่น",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:หาย",
+          "surface": "หาย",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เคาน์เตอร์",
+          "surface": "เคาน์เตอร์",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ให้",
+          "surface": "ให้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:ที่ไหน",
+          "surface": "ที่ไหน",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:นั้น",
+          "surface": "นั้น",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:อะไร",
+          "surface": "อะไร",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ช่วย",
+          "surface": "ช่วย",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ถาม",
+          "surface": "ถาม",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:มี",
+          "surface": "มี",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ได้",
+          "surface": "ได้",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.shopping_ask_price": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.shopping_ask_price",
+      "vocabulary": [
+        {
+          "id": "th:adv:เท่าไหร่",
+          "surface": "เท่าไหร่",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:เลย",
+          "surface": "เลย",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:จ่าย",
+          "surface": "จ่าย",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:บัตร",
+          "surface": "บัตร",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:บาท",
+          "surface": "บาท",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ราคา",
+          "surface": "ราคา",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:อันนี้",
+          "surface": "อันนี้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เงินสด",
+          "surface": "เงินสด",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใส่",
+          "surface": "ใส่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ไม่ต้อง",
+          "surface": "ไม่ต้อง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:num:ห้าสิบ",
+          "surface": "ห้าสิบ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ดู",
+          "surface": "ดู",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:เอา",
+          "surface": "เอา",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ได้",
+          "surface": "ได้",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:intj:สวัสดี",
+          "surface": "สวัสดี",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.social_running_late": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.social_running_late",
+      "vocabulary": [
+        {
+          "id": "th:adj:ใกล้",
+          "surface": "ใกล้",
+          "pos_group": "adjective",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:จะ",
+          "surface": "จะ",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ช้า",
+          "surface": "ช้า",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:นิดหน่อย",
+          "surface": "นิดหน่อย",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ประมาณ",
+          "surface": "ประมาณ",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:อีก",
+          "surface": "อีก",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ไป",
+          "surface": "ไป",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ขอโทษ",
+          "surface": "ขอโทษ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:นาที",
+          "surface": "นาที",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:หรือยัง",
+          "surface": "หรือยัง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เจอกัน",
+          "surface": "เจอกัน",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เดี๋ยว",
+          "surface": "เดี๋ยว",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เร็ว_ๆ_นี้",
+          "surface": "เร็ว ๆ นี้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:โอเค",
+          "surface": "โอเค",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:num:สิบ",
+          "surface": "สิบ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:กี่",
+          "surface": "กี่",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:รอ",
+          "surface": "รอ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.travel_hotel_checkin": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.travel_hotel_checkin",
+      "vocabulary": [
+        {
+          "id": "th:adv:คืน",
+          "surface": "คืน",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:อยู่",
+          "surface": "อยู่",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:แล้ว",
+          "surface": "แล้ว",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:การ์ด",
+          "surface": "การ์ด",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:คีย์",
+          "surface": "คีย์",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ชั้น",
+          "surface": "ชั้น",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:พัก",
+          "surface": "พัก",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:หลิน",
+          "surface": "หลิน",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ห้อง",
+          "surface": "ห้อง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เช็กอิน",
+          "surface": "เช็กอิน",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ไว้",
+          "surface": "ไว้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:num:สาม",
+          "surface": "สาม",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:num:หนึ่ง",
+          "surface": "หนึ่ง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:นี่",
+          "surface": "นี่",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ขอ",
+          "surface": "ขอ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:จอง",
+          "surface": "จอง",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ชื่อ",
+          "surface": "ชื่อ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:v:พบ",
+          "surface": "พบ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:มา",
+          "surface": "มา",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:intj:สวัสดี",
+          "surface": "สวัสดี",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.travel_restroom_directions": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.travel_restroom_directions",
+      "vocabulary": [
+        {
+          "id": "th:adv:อยู่",
+          "surface": "อยู่",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:แล้ว",
+          "surface": "แล้ว",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ไป",
+          "surface": "ไป",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ตรง",
+          "surface": "ตรง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ห้องน้ำ",
+          "surface": "ห้องน้ำ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เลี้ยวขวา",
+          "surface": "เลี้ยวขวา",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ให้",
+          "surface": "ให้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:ที่ไหน",
+          "surface": "ที่ไหน",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:อะไร",
+          "surface": "อะไร",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ช่วย",
+          "surface": "ช่วย",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:มี",
+          "surface": "มี",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.travel_station_directions": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.travel_station_directions",
+      "vocabulary": [
+        {
+          "id": "th:adj:ยินดี",
+          "surface": "ยินดี",
+          "pos_group": "adjective",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:อยู่",
+          "surface": "อยู่",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:แล้ว",
+          "surface": "แล้ว",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ไป",
+          "surface": "ไป",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ขอโทษ",
+          "surface": "ขอโทษ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ตรง",
+          "surface": "ตรง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ทางขวา",
+          "surface": "ทางขวา",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ทางออก",
+          "surface": "ทางออก",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:อีกครั้ง",
+          "surface": "อีกครั้ง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:เลี้ยวขวา",
+          "surface": "เลี้ยวขวา",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ให้",
+          "surface": "ให้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:num:สอง",
+          "surface": "สอง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:ที่ไหน",
+          "surface": "ที่ไหน",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:อะไร",
+          "surface": "อะไร",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ช่วย",
+          "surface": "ช่วย",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:มี",
+          "surface": "มี",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.travel_taxi_destination": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.travel_taxi_destination",
+      "vocabulary": [
+        {
+          "id": "th:adv:ประมาณ",
+          "surface": "ประมาณ",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:แล้ว",
+          "surface": "แล้ว",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ไป",
+          "surface": "ไป",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ตรงนี้",
+          "surface": "ตรงนี้",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:นาที",
+          "surface": "นาที",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:โรงแรม",
+          "surface": "โรงแรม",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:โอเค",
+          "surface": "โอเค",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:num:สิบ",
+          "surface": "สิบ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:ที่ไหน",
+          "surface": "ที่ไหน",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:นี้",
+          "surface": "นี้",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ได้",
+          "surface": "ได้",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        }
+      ]
+    },
+    "src.th.dialogue.travel_ticket_buying": {
+      "schema_version": "learning_summary.v1",
+      "content_id": "src.th.dialogue.travel_ticket_buying",
+      "vocabulary": [
+        {
+          "id": "th:adv:ไป",
+          "surface": "ไป",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:adv:ไหน",
+          "surface": "ไหน",
+          "pos_group": "adverb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:กลาง",
+          "surface": "กลาง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ชานชาลา",
+          "surface": "ชานชาลา",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ตั๋ว",
+          "surface": "ตั๋ว",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:บาท",
+          "surface": "บาท",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:สถานี",
+          "surface": "สถานี",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:n:ใช่",
+          "surface": "ใช่",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t2_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:num:สอง",
+          "surface": "สอง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_learner"
+            }
+          ]
+        },
+        {
+          "id": "th:num:สามสิบ",
+          "surface": "สามสิบ",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:num:หนึ่ง",
+          "surface": "หนึ่ง",
+          "pos_group": "noun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t2_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:pron:นี่",
+          "surface": "นี่",
+          "pos_group": "pronoun",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            },
+            {
+              "type": "turn_index",
+              "turn_id": "t4_npc"
+            }
+          ]
+        },
+        {
+          "id": "th:v:ขอ",
+          "surface": "ขอ",
+          "pos_group": "verb",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t1_learner"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "th:intj:ขอบคุณ",
+          "surface": "ขอบคุณ",
+          "pos_group": "expression",
+          "occurrences": [
+            {
+              "type": "turn_index",
+              "turn_id": "t3_learner"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

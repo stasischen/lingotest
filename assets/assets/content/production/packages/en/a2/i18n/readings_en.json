@@ -1,0 +1,127 @@
+{
+  "items": {
+    "reading:en-a2-001-a2_app_booking_confirmation": {
+      "source_scenario_id": "a2_app_booking_confirmation",
+      "summary_en": "預約確認為今天下午三點。 / 在咖啡店二樓。",
+      "title_en": "Confirm an App Booking"
+    },
+    "reading:en-a2-002-a2_ask_ingredient_preference": {
+      "source_scenario_id": "a2_ask_ingredient_preference",
+      "summary_en": "您想點什麼？ / 有，放一點洋蔥。",
+      "title_en": "Ingredient preference confirmed"
+    },
+    "reading:en-a2-003-a2_ask_late_checkout": {
+      "source_scenario_id": "a2_ask_late_checkout",
+      "summary_en": "我可以怎麼幫您？ / 今天可以一點前退房。",
+      "title_en": "Checkout Time Confirmed"
+    },
+    "reading:en-a2-004-a2_ask_recommendation_budget": {
+      "source_scenario_id": "a2_ask_recommendation_budget",
+      "summary_en": "您在找什麼？ / 您想要輕巧的，還是實用的？",
+      "title_en": "Recommendation confirmed"
+    },
+    "reading:en-a2-005-a2_ask_transfer_platform": {
+      "source_scenario_id": "a2_ask_transfer_platform",
+      "summary_en": "嗨。你需要幫忙嗎？ / 在三號月台轉乘。下樓梯後左轉。",
+      "title_en": "Transfer Platform"
+    },
+    "reading:en-a2-006-a2_change_delivery_pickup_time": {
+      "source_scenario_id": "a2_change_delivery_pickup_time",
+      "summary_en": "今天四點取貨。 / 可以，五點可以。",
+      "title_en": "Change a Pickup Time"
+    },
+    "reading:en-a2-007-a2_change_ticket_time": {
+      "source_scenario_id": "a2_change_ticket_time",
+      "summary_en": "你好。我可以怎麼幫你？ / 下一個可用時間是四點半。",
+      "title_en": "New Ticket Time"
+    },
+    "reading:en-a2-008-a2_compare_two_menu_options": {
+      "source_scenario_id": "a2_compare_two_menu_options",
+      "summary_en": "今天可以選飯碗或湯麵。 / 飯碗有點辣，湯麵比較清爽。",
+      "title_en": "Menu choice confirmed"
+    },
+    "reading:en-a2-009-a2_confirm_date_time_place": {
+      "source_scenario_id": "a2_confirm_date_time_place",
+      "summary_en": "你看過我的訊息了嗎？ / 對。我們在哪裡見？",
+      "title_en": "Message Details"
+    },
+    "reading:en-a2-010-a2_decline_with_reason": {
+      "source_scenario_id": "a2_decline_with_reason",
+      "summary_en": "今晚要看電影嗎？ / 沒關係。你很忙嗎？",
+      "title_en": "Soft refusal complete"
+    },
+    "reading:en-a2-011-a2_describe_weekend_activity": {
+      "source_scenario_id": "a2_describe_weekend_activity",
+      "summary_en": "週末做了什麼？ / 你們在哪裡見面？",
+      "title_en": "Weekend activity described"
+    },
+    "reading:en-a2-012-a2_exchange_wrong_item": {
+      "source_scenario_id": "a2_exchange_wrong_item",
+      "summary_en": "需要幫忙嗎？ / 我確認一下。可以看收據嗎？",
+      "title_en": "Exchange confirmed"
+    },
+    "reading:en-a2-013-a2_explain_simple_delay_reason": {
+      "source_scenario_id": "a2_explain_simple_delay_reason",
+      "summary_en": "你在哪裡？快到了嗎？ / 為什麼？怎麼了？",
+      "title_en": "Delay Reason"
+    },
+    "reading:en-a2-014-a2_fill_simple_form_help": {
+      "source_scenario_id": "a2_fill_simple_form_help",
+      "summary_en": "請先填這張表。 / 這裡請填姓名。",
+      "title_en": "Get Help with a Simple Form"
+    },
+    "reading:en-a2-015-a2_invite_friend_activity": {
+      "source_scenario_id": "a2_invite_friend_activity",
+      "summary_en": "等一下要一起喝咖啡嗎？ / 好啊。什麼時間可以？",
+      "title_en": "Plan with a friend confirmed"
+    },
+    "reading:en-a2-016-a2_lost_item_followup_message": {
+      "source_scenario_id": "a2_lost_item_followup_message",
+      "summary_en": "您在找什麼？ / 放在哪裡？",
+      "title_en": "Follow Up About a Lost Item"
+    },
+    "reading:en-a2-017-a2_luggage_storage_pickup": {
+      "source_scenario_id": "a2_luggage_storage_pickup",
+      "summary_en": "你好。你想寄放一個包包嗎？ / 可以。請在六點以前取回。",
+      "title_en": "Luggage Pickup"
+    },
+    "reading:en-a2-018-a2_make_simple_plan_sequence": {
+      "source_scenario_id": "a2_make_simple_plan_sequence",
+      "summary_en": "我們先在車站見嗎？ / 接著要走去公園嗎？",
+      "title_en": "Two-step plan confirmed"
+    },
+    "reading:en-a2-019-a2_plan_tomorrow_morning": {
+      "source_scenario_id": "a2_plan_tomorrow_morning",
+      "summary_en": "你明天早上打算做什麼？ / 那之後你要做什麼？",
+      "title_en": "Tomorrow Morning Plan"
+    },
+    "reading:en-a2-020-a2_report_room_problem": {
+      "source_scenario_id": "a2_report_room_problem",
+      "summary_en": "您好，我可以怎麼幫您？ / 好的，我馬上拿毛巾過去。",
+      "title_en": "Help Request Confirmed"
+    },
+    "reading:en-a2-021-a2_request_room_change": {
+      "source_scenario_id": "a2_request_room_change",
+      "summary_en": "我可以怎麼幫忙？ / 我確認了，有另一間房。",
+      "title_en": "Room Change Confirmed"
+    },
+    "reading:en-a2-022-a2_reschedule_meeting_time": {
+      "source_scenario_id": "a2_reschedule_meeting_time",
+      "summary_en": "我們今天三點見，對吧？ / 可以。你幾點方便？",
+      "title_en": "New Meeting Time"
+    },
+    "reading:en-a2-023-a2_transport_delay_announcement": {
+      "source_scenario_id": "a2_transport_delay_announcement",
+      "summary_en": "請注意。前往 Central 的火車延誤十五分鐘。 / 對，大約十五分鐘。",
+      "title_en": "Delay Choice"
+    },
+    "reading:en-a2-024-a2_understand_hotel_notice": {
+      "source_scenario_id": "a2_understand_hotel_notice",
+      "summary_en": "請看公告。早餐是早上七點到九點。 / 地點是二樓餐廳。",
+      "title_en": "Hotel Notice Confirmed"
+    }
+  },
+  "language": "en",
+  "learner_locale": "en",
+  "schema_version": "en_a2_current_flow_runtime_readings_i18n_en.v1"
+}

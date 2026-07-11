@@ -1,0 +1,106 @@
+{
+  "artifact_type": "nikl_runtime_package_index_v1",
+  "schema_version": 1,
+  "runtime_manifest_type": "nikl_runtime_lookup_pack_split_v2",
+  "runtime_schema_version": 1,
+  "language": "ko",
+  "default_locale": "zh_tw",
+  "locales": [
+    "zh_tw"
+  ],
+  "created_at": "2026-04-19T00:00:00Z",
+  "compression": {
+    "algorithm": "zlib",
+    "block_bytes": 65536
+  },
+  "packages": [
+    {
+      "package_id": "core_min",
+      "role": "core_lookup",
+      "install_group": "required_shared",
+      "filename": "ko_lookup_core_min.sqlite",
+      "size_bytes": 15343616,
+      "checksum": "sha256:e27d761f5a0a56a2f751ed6dc1b38f00c793373698c3a6bb78d9d013c6bf43aa",
+      "depends_on": [],
+      "required": true,
+      "counts": {
+        "lemma_group_count": 52041,
+        "entry_count": 56556,
+        "sense_count": 76836,
+        "lookup_count": 76836
+      }
+    },
+    {
+      "package_id": "i18n:zh_tw",
+      "role": "i18n_payload",
+      "install_group": "required_locale",
+      "filename": "ko_i18n_zh_tw_payload.sqlite",
+      "size_bytes": 7659520,
+      "checksum": "sha256:c024134267702847556f7f9ba238fcccc9965078d9962d529b1f084cd38593cd",
+      "depends_on": [
+        "core_min"
+      ],
+      "required": true,
+      "locale": "zh_tw",
+      "counts": {
+        "i18n_count": 75148,
+        "missing_i18n_count": 1688
+      }
+    },
+    {
+      "package_id": "wordform",
+      "role": "wordform_lookup",
+      "install_group": "optional_wordform",
+      "filename": "ko_wordform.sqlite",
+      "size_bytes": 12259328,
+      "checksum": "sha256:ee794d044cef447acf27c55eec538219c5cca59b68239dee2964bb0f5bb100ac",
+      "depends_on": [
+        "core_min"
+      ],
+      "required": false
+    },
+    {
+      "package_id": "reference",
+      "role": "source_reference",
+      "install_group": "optional_reference",
+      "filename": "ko_reference.sqlite",
+      "size_bytes": 27828224,
+      "checksum": "sha256:e39017f8adb075a7a7faf6b74b26db98955868326ea9951cf17f2f4bf8d80ba4",
+      "depends_on": [
+        "core_min"
+      ],
+      "required": false
+    },
+    {
+      "package_id": "detail",
+      "role": "korean_detail",
+      "install_group": "optional_detail",
+      "filename": "ko_detail.sqlite",
+      "size_bytes": 7360512,
+      "checksum": "sha256:f9f0358e2a78f84d35ce2a6c3aa7e6e1e20629f2522a05fd952f6d6def4c6837",
+      "depends_on": [
+        "core_min"
+      ],
+      "required": false
+    }
+  ],
+  "install_profiles": {
+    "minimal_by_locale": {
+      "zh_tw": [
+        "core_min",
+        "i18n:zh_tw"
+      ]
+    },
+    "optional_features": {
+      "inflected_form_lookup": [
+        "wordform"
+      ],
+      "source_trace": [
+        "reference"
+      ],
+      "korean_detail": [
+        "detail"
+      ]
+    }
+  }
+}

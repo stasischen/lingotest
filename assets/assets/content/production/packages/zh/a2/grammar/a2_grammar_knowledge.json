@@ -1,0 +1,425 @@
+{
+  "language": "zh",
+  "nodes": [
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我買了車票。",
+          "source_item_id": "grammar:zh-a2-gram-0001#example-1",
+          "surface": "我買了車票。"
+        },
+        {
+          "note_zh_tw": "他已經到飯店了。",
+          "source_item_id": "grammar:zh-a2-gram-0001#example-2",
+          "surface": "他已經到飯店了。"
+        }
+      ],
+      "explanation": "了 可以標出事件完成或狀態變化，但本列先只處理一件完成事件。A2 先用買票、到飯店等清楚場景，避免把所有過去時間都硬套了。",
+      "form_pattern_zh_tw": "主詞 + 動詞 + 了 + 受詞/補語",
+      "grammar_id": "zh-a2-gram-0001",
+      "learning_object_id": "zh-a2-gram-0001",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "了：說一件已完成的事"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我明天要改時間。",
+          "source_item_id": "grammar:zh-a2-gram-0002#example-1",
+          "surface": "我明天要改时间。"
+        },
+        {
+          "note_zh_tw": "今天下午會下雨。",
+          "source_item_id": "grammar:zh-a2-gram-0002#example-2",
+          "surface": "今天下午会下雨。"
+        }
+      ],
+      "explanation": "要 常說打算或近期安排，會 常說將會發生或依情況判斷會發生。A2 要能分清楚自己的計畫和對事件的預測。",
+      "form_pattern_zh_tw": "主詞 + 要 + 動詞；主詞 + 會 + 動詞",
+      "grammar_id": "zh-a2-gram-0002",
+      "learning_object_id": "zh-a2-gram-0002",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "要 / 会：說近期計畫或可能發生的事"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "因為路上車很多，所以我來晚了。",
+          "source_item_id": "grammar:zh-a2-gram-0003#example-1",
+          "surface": "因为路上车很多，所以我来晚了。"
+        },
+        {
+          "note_zh_tw": "因為房間太小，所以我想換一間。",
+          "source_item_id": "grammar:zh-a2-gram-0003#example-2",
+          "surface": "因为房间太小，所以我想换一间。"
+        }
+      ],
+      "explanation": "用 因為...所以... 可以把一個原因和一個結果連起來。A2 重點是原因要短而具體，結果要清楚，例如路上車多，所以遲到。",
+      "form_pattern_zh_tw": "因為 + 原因，所以 + 結果",
+      "grammar_id": "zh-a2-gram-0003",
+      "learning_object_id": "zh-a2-gram-0003",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "因為...所以...：給一個簡短理由和結果"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "這班車比那班車快。",
+          "source_item_id": "grammar:zh-a2-gram-0004#example-1",
+          "surface": "这班车比那班车快。"
+        },
+        {
+          "note_zh_tw": "這個房間比那個房間便宜。",
+          "source_item_id": "grammar:zh-a2-gram-0004#example-2",
+          "surface": "这个房间比那个房间便宜。"
+        }
+      ],
+      "explanation": "用 比 比較兩個具體選項時，句子要先說 A，再說 比 B，最後接比較的特徵。A2 先練交通、住宿或購物中一個明確特徵，例如快或便宜。",
+      "form_pattern_zh_tw": "A + 比 + B + 形容詞",
+      "grammar_id": "zh-a2-gram-0004",
+      "learning_object_id": "zh-a2-gram-0004",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "比：比較兩個具體選項"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "能不能幫我改一下時間？",
+          "source_item_id": "grammar:zh-a2-gram-0005#example-1",
+          "surface": "能不能帮我改一下时间？"
+        },
+        {
+          "note_zh_tw": "可以給我一張收據嗎？",
+          "source_item_id": "grammar:zh-a2-gram-0005#example-2",
+          "surface": "可以给我一张收据吗？"
+        }
+      ],
+      "explanation": "在櫃台、餐廳或客服情境中，能不能 和 可以...嗎 可以把請求說得清楚又有禮貌。A2 重點是把想請對方做的動作說完整。",
+      "form_pattern_zh_tw": "能不能 + 動詞...?；可以 + 動詞 + 嗎?",
+      "grammar_id": "zh-a2-gram-0005",
+      "learning_object_id": "zh-a2-gram-0005",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "能不能 / 可以...嗎：禮貌提出服務請求"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "這裡可以刷卡嗎？",
+          "source_item_id": "grammar:zh-a2-gram-0006#example-1",
+          "surface": "这里可以刷卡吗？"
+        },
+        {
+          "note_zh_tw": "我能把行李放在這裡嗎？",
+          "source_item_id": "grammar:zh-a2-gram-0006#example-2",
+          "surface": "我能把行李放在这里吗？"
+        }
+      ],
+      "explanation": "可以 和 能 都可用來問可不可以做某事。可以 常問允許或規則是否允許，能 也可問能力或條件是否做得到。",
+      "form_pattern_zh_tw": "可以 + 動詞...?；能 + 動詞...?",
+      "grammar_id": "zh-a2-gram-0006",
+      "learning_object_id": "zh-a2-gram-0006",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "可以 / 能：詢問是否可以或是否能做到"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "你得先填表。",
+          "source_item_id": "grammar:zh-a2-gram-0007#example-1",
+          "surface": "你得先填表。"
+        },
+        {
+          "note_zh_tw": "進站必須刷卡。",
+          "source_item_id": "grammar:zh-a2-gram-0007#example-2",
+          "surface": "進站必須刷卡。"
+        }
+      ],
+      "explanation": "要、得、必須都能說必要事項，但語氣和場合不同。A2 可先分清楚一般需要、口語上的「得」，以及較正式或規定性的「必須」。",
+      "form_pattern_zh_tw": "主詞 + 要/得/必須 + 動詞",
+      "grammar_id": "zh-a2-gram-0007",
+      "learning_object_id": "zh-a2-gram-0007",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "要 / 得 / 必須：說必要事項或規定"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "通知說會議改到三點。",
+          "source_item_id": "grammar:zh-a2-gram-0008#example-1",
+          "surface": "通知说会议改到三点。"
+        },
+        {
+          "note_zh_tw": "簡訊說車票已經出票了。",
+          "source_item_id": "grammar:zh-a2-gram-0008#example-2",
+          "surface": "短信说车票已经出票了。"
+        }
+      ],
+      "explanation": "轉述通知、簡訊或公告時，先抓一個最重要的內容，再用「通知說...」「簡訊說...」說出來。A2 重點不是逐字翻整段訊息，而是把時間、地點或狀態變更說清楚。",
+      "form_pattern_zh_tw": "通知/短信 + 说 + 內容",
+      "grammar_id": "zh-a2-gram-0008",
+      "learning_object_id": "zh-a2-gram-0008",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "通知說 / 短信說：轉述訊息內容"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "預約在下午三點。",
+          "source_item_id": "grammar:zh-a2-gram-0009#example-1",
+          "surface": "預約在下午三點。"
+        },
+        {
+          "note_zh_tw": "會議幾點開始？",
+          "source_item_id": "grammar:zh-a2-gram-0009#example-2",
+          "surface": "會議幾點開始？"
+        }
+      ],
+      "explanation": "在可標出時間點，從...到...可標出時間範圍，幾點可用來詢問鐘點。A2 重點是用短句確認時間和行程。",
+      "form_pattern_zh_tw": "在 + 時間；從 + 開始時間 + 到 + 結束時間；幾點 + 動詞...?",
+      "grammar_id": "zh-a2-gram-0009",
+      "learning_object_id": "zh-a2-gram-0009",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "在 / 從...到... / 幾點：確認時間和行程"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我要一張票。",
+          "source_item_id": "grammar:zh-a2-gram-0010#example-1",
+          "surface": "我要一张票。"
+        },
+        {
+          "note_zh_tw": "請給我兩份文件。",
+          "source_item_id": "grammar:zh-a2-gram-0010#example-2",
+          "surface": "请给我两份文件。"
+        }
+      ],
+      "explanation": "用來說一張票、兩份文件、一杯水等購買或表單細節。A2 重點是用常見量詞自然說出數量。練習時先說數量或單位，再接物品名稱；重點是讓購買、點餐或文件需求聽起來完整。",
+      "form_pattern_zh_tw": "數字 + 量詞 + 名詞",
+      "grammar_id": "zh-a2-gram-0010",
+      "learning_object_id": "zh-a2-gram-0010",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "數字 + 量詞 + 名詞：說數量和物品細節"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "這裡要寫什麼？",
+          "source_item_id": "grammar:zh-a2-gram-0011#example-1",
+          "surface": "这里要写什么？"
+        },
+        {
+          "note_zh_tw": "地址寫在哪裡，這張表怎麼填？",
+          "source_item_id": "grammar:zh-a2-gram-0011#example-2",
+          "surface": "地址写在哪儿，这个表怎么填？"
+        }
+      ],
+      "explanation": "在表格、文件或櫃台情境中，這組疑問詞幫你把問題問清楚：什麼問內容，哪兒問位置，怎麼問方法。A2 重點是先判斷缺哪一種資訊，再用短問句請對方協助。",
+      "form_pattern_zh_tw": "什么 + 動詞...?；哪儿 + 動詞...?；怎么 + 動詞...?",
+      "grammar_id": "zh-a2-gram-0011",
+      "learning_object_id": "zh-a2-gram-0011",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "什麼 / 哪兒 / 怎麼：詢問表格或必要資訊"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "您的意思是訂單取消了嗎？",
+          "source_item_id": "grammar:zh-a2-gram-0012#example-1",
+          "surface": "您的意思是訂單取消了嗎？"
+        },
+        {
+          "note_zh_tw": "我們明天上午見，對嗎？",
+          "source_item_id": "grammar:zh-a2-gram-0012#example-2",
+          "surface": "我們明天上午見，對嗎？"
+        }
+      ],
+      "explanation": "用來確認自己是否理解正確，或把對方意思簡短重述一次。A2 重點是禮貌確認關鍵資訊，尤其在客服、櫃台或安排時間時。",
+      "form_pattern_zh_tw": "您的意思是 + 內容 + 嗎?；內容 + 對嗎?",
+      "grammar_id": "zh-a2-gram-0012",
+      "learning_object_id": "zh-a2-gram-0012",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "您的意思是...嗎 / 對嗎：確認理解"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我先填表，然後付款。",
+          "source_item_id": "grammar:zh-a2-gram-0013#example-1",
+          "surface": "我先填表，然后付款。"
+        },
+        {
+          "note_zh_tw": "你先到櫃台，然後等通知。",
+          "source_item_id": "grammar:zh-a2-gram-0013#example-2",
+          "surface": "你先到前台，然后等通知。"
+        }
+      ],
+      "explanation": "用來說明簡單流程，例如先填表、再付款，或先到櫃台、然後等通知。A2 只需要兩到三步。練習時只說兩到三個必要步驟，並用順序詞讓聽者知道先做什麼、後做什麼。",
+      "form_pattern_zh_tw": "先 + 第一步，然後 + 第二步",
+      "grammar_id": "zh-a2-gram-0013",
+      "learning_object_id": "zh-a2-gram-0013",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "先...然後...：說兩個步驟"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "不好意思，我今晚不能去，因為我要工作。",
+          "source_item_id": "grammar:zh-a2-gram-0014#example-1",
+          "surface": "不好意思，我今晚不能去，因为我要工作。"
+        },
+        {
+          "note_zh_tw": "可以，我星期六有空。",
+          "source_item_id": "grammar:zh-a2-gram-0014#example-2",
+          "surface": "可以，我星期六有空。"
+        }
+      ],
+      "explanation": "回應邀請時，可以先說能不能去，再補一個簡短理由。不好意思 能柔化婉拒；可以 則能直接接受並給出可行時間。",
+      "form_pattern_zh_tw": "不好意思，我不能 + 動詞，因為 + 原因；可以，我 + 時間/動作",
+      "grammar_id": "zh-a2-gram-0014",
+      "learning_object_id": "zh-a2-gram-0014",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "不好意思 + 理由：接受或婉拒邀請"
+    },
+    {
+      "count_status": "countable",
+      "examples": [
+        {
+          "note_zh_tw": "我已經寄出電子郵件了。",
+          "source_item_id": "grammar:zh-a2-gram-0015#example-1",
+          "surface": "我已经发了邮件。"
+        },
+        {
+          "note_zh_tw": "我還沒收到訊息。",
+          "source_item_id": "grammar:zh-a2-gram-0015#example-2",
+          "surface": "我还没收到信息。"
+        }
+      ],
+      "explanation": "這一點教的是用「已經 / 還沒」回報進度。A2 情境常要說郵件已寄出、訊息還沒收到、事情是否完成；這組對照能讓狀態清楚。",
+      "form_pattern_zh_tw": "已经 + 動詞；还没 + 動詞",
+      "grammar_id": "zh-a2-gram-0015",
+      "learning_object_id": "zh-a2-gram-0015",
+      "native_status": "native_pending",
+      "production_promotion_allowed": false,
+      "provenance_reason": "Owner-accepted grammar source imported from content_v2 owner_acceptance_20260704; native_pending and no production promotion.",
+      "review_status": "owner_accepted_native_pending_no_review_status_promotion",
+      "review_status_promotion_allowed": false,
+      "source_basis": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_ACCEPTANCE_OUTCOME_FILLED_PROPOSAL_20260704.tsv",
+      "source_decision_evidence": "docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_NATIVE_PACKET_CODEX_LANGUAGE_REVIEW_ZH_20260704.tsv;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/CLAUDE_REVIEW_PACKET_GRAMMAR_10LANG_CODEX_LANGUAGE_REVIEW_CLOSEOUT_20260704.md;docs/tasks/CONTENT_WORKFLOW_REVIEW_20260701/grammar_a1_a2_review_20260702/GRAMMAR_OWNER_ACCEPTANCE_PATH_DECISION_20260704.md",
+      "source_status": "owner_accepted_grammar_native_pending",
+      "title": "已經 / 還沒：說進度或是否完成"
+    }
+  ]
+}

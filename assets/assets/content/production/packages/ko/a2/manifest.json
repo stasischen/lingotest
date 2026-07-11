@@ -1,0 +1,40 @@
+{
+  "counts": {
+    "dictionary_gloss": 2935,
+    "grammar_nodes": 45,
+    "scenario_packs": 24,
+    "scenario_reply_choices": 288,
+    "scenario_turns": 96,
+    "source_rows": 24
+  },
+  "lang": "ko",
+  "learner_locale": "zh_tw",
+  "modules": {
+    "dictionary_gloss": "dictionary/a2_gloss.json",
+    "grammar_knowledge": "grammar/a2_grammar_knowledge.json",
+    "i18n_zh_tw": "i18n/zh_tw.json",
+    "readings": "readings/readings.json",
+    "readings_i18n": "i18n/readings_zh_tw.json",
+    "scenarios": "scenarios/scenario_packs.json",
+    "scenarios_index": "scenarios/scenario_index.json",
+    "segmentation_sidecars": "segmentation/segmentation_sidecars.json",
+    "smoke_report": "validation/smoke_report.json"
+  },
+  "promotion": "runtime_visible_native_pending_no_production_promotion",
+  "review_ceiling": "native_pending",
+  "runtime_id": "a2_current_flow_20260628_preview_materialized",
+  "schema_version": "level_runtime_manifest.v1",
+  "source_artifacts": {
+    "preserved_modules": [
+      "dictionary/a2_gloss.json",
+      "grammar/a2_grammar_knowledge.json",
+      "readings/readings.json",
+      "i18n/readings_zh_tw.json"
+    ],
+    "preview_manifest": "content-ko/content/review/a2_current_flow_runtime_preview_20260628/manifest.json",
+    "preview_smoke_report": "content-ko/content/review/a2_current_flow_runtime_preview_20260628/smoke_report.json",
+    "source_repair": "content-ko/content/review/a2_current_flow_segmentation/KO_A2_GALGEYO_ENDING_LINK_REPAIR_20260705.md"
+  },
+  "source_kind": "ko_a2_current_flow_preview_mixed_source",
+  "visibility": "production"
+}

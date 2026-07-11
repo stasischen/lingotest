@@ -1,0 +1,315 @@
+{
+  "schema_version": "a1_grammar_knowledge_sidecar.v1",
+  "language": "zh",
+  "status": "review_staging_native_pending",
+  "created_at": "2026-06-18",
+  "author_id": "phase3_grammar_knowledge_author_zh_20260618",
+  "authoring_basis": "external denominator row plus grounded reading_surface_drafts_20260615 examples",
+  "production_promotion_allowed": false,
+  "native_status": "native_pending",
+  "nodes": [
+    {
+      "learning_object_id": "zh_grammar_svo",
+      "title_zh_tw": "主詞 + 動詞 + 受詞/補語（我, 是）",
+      "explanation_md_zh_tw": "這個節點教 繁體中文 A1 的「主詞 + 動詞 + 受詞/補語」。 中文基本語序常是「主詞 + 動詞 + 受詞/補語」，例如「我買早餐」「她是學生」。先找誰做動作，再找做了什麼。 這次先認得：我、是。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ZH.grammar.svo",
+      "ref_item": "basic SVO word order",
+      "ref_subitems": [
+        "我",
+        "是"
+      ],
+      "examples": [
+        {
+          "surface": "我是阿明。",
+          "source_item_id": "article:zh_reading_svo_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「我、是」，呈現「basic SVO word order」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "我今天去學校。",
+          "source_item_id": "article:zh_reading_svo_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「我」，呈現「basic SVO word order」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "老師是王老師。",
+          "source_item_id": "article:zh_reading_svo_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「是」，呈現「basic SVO word order」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "我在教室看書。",
+          "source_item_id": "article:zh_reading_svo_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「我」，呈現「basic SVO word order」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "TBCL Level 1",
+      "source_locator": "Taiwan TBCL Level 1; Traditional Chinese denominator, not HSK",
+      "source_reading_asset_id": "zh_reading_svo_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-zh\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\zh_reading_svo_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_zh_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "zh_grammar_questions_ma",
+      "title_zh_tw": "句尾嗎 yes/no 問句（嗎）",
+      "explanation_md_zh_tw": "這個節點教 繁體中文 A1 的「句尾嗎 yes/no 問句」。 嗎放在句尾，把陳述句變成 yes/no 問句，例如「你要水嗎？」。 這次先認得：嗎。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ZH.grammar.questions_ma",
+      "ref_item": "yes/no questions with 嗎",
+      "ref_subitems": [
+        "嗎"
+      ],
+      "examples": [
+        {
+          "surface": "老闆問：「你要豆漿嗎？」",
+          "source_item_id": "article:zh_reading_questions_ma_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「嗎」，呈現「yes/no questions with 嗎」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "老闆又問：「你也要蛋餅嗎？」",
+          "source_item_id": "article:zh_reading_questions_ma_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「嗎」，呈現「yes/no questions with 嗎」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "TBCL Level 1",
+      "source_locator": "Taiwan TBCL Level 1; Traditional Chinese denominator, not HSK",
+      "source_reading_asset_id": "zh_reading_questions_ma_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-zh\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\zh_reading_questions_ma_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_zh_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "zh_grammar_location_zai",
+      "title_zh_tw": "在 + 地點（在）",
+      "explanation_md_zh_tw": "這個節點教 繁體中文 A1 的「在 + 地點」。 在可以放在地點前，說人或東西在哪裡，例如「書在桌上」。先找在後面的地點。 這次先認得：在。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ZH.grammar.location_zai",
+      "ref_item": "location with 在",
+      "ref_subitems": [
+        "在"
+      ],
+      "examples": [
+        {
+          "surface": "小美今天在圖書館。",
+          "source_item_id": "article:zh_reading_location_zai_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「在」，呈現「location with 在」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "她的書在桌上。",
+          "source_item_id": "article:zh_reading_location_zai_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「在」，呈現「location with 在」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "手機在包包裡。",
+          "source_item_id": "article:zh_reading_location_zai_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「在」，呈現「location with 在」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "她在窗邊坐下。",
+          "source_item_id": "article:zh_reading_location_zai_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「在」，呈現「location with 在」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "TBCL Level 1",
+      "source_locator": "Taiwan TBCL Level 1; Traditional Chinese denominator, not HSK",
+      "source_reading_asset_id": "zh_reading_location_zai_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-zh\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\zh_reading_location_zai_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_zh_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "zh_grammar_measure_words",
+      "title_zh_tw": "數字 + 量詞 + 名詞（個, 杯, 張）",
+      "explanation_md_zh_tw": "這個節點教 繁體中文 A1 的「數字 + 量詞 + 名詞」。 說數量時常用「數字 + 量詞 + 名詞」，例如「一杯水」「兩個人」。先看數字後面的量詞。 這次先認得：個、杯、張。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ZH.grammar.measure_words",
+      "ref_item": "measure words",
+      "ref_subitems": [
+        "個",
+        "杯",
+        "張"
+      ],
+      "examples": [
+        {
+          "surface": "他買一杯熱茶。",
+          "source_item_id": "article:zh_reading_measure_words_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「杯」，呈現「measure words」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "他也買一個小蛋糕。",
+          "source_item_id": "article:zh_reading_measure_words_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「個」，呈現「measure words」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "店員給他一張發票。",
+          "source_item_id": "article:zh_reading_measure_words_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「張」，呈現「measure words」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "TBCL Level 1",
+      "source_locator": "Taiwan TBCL Level 1; Traditional Chinese denominator, not HSK",
+      "source_reading_asset_id": "zh_reading_measure_words_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-zh\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\zh_reading_measure_words_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_zh_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "zh_grammar_time_word_order",
+      "title_zh_tw": "時間詞位置（今天, 明天）",
+      "explanation_md_zh_tw": "這個節點教 繁體中文 A1 的「時間詞位置」。 時間詞常放在句首，或放在主詞後、動詞前，例如「今天我上課」「我今天上課」。先找時間，再看動作。 這次先認得：今天、明天。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ZH.grammar.time_word_order",
+      "ref_item": "time expression placement",
+      "ref_subitems": [
+        "今天",
+        "明天"
+      ],
+      "examples": [
+        {
+          "surface": "今天早上，小林去上班。",
+          "source_item_id": "article:zh_reading_time_word_order_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「今天」，呈現「time expression placement」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "明天早上，他要去學校。",
+          "source_item_id": "article:zh_reading_time_word_order_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「明天」，呈現「time expression placement」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "今天中午，他和同事吃便當。",
+          "source_item_id": "article:zh_reading_time_word_order_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「今天」，呈現「time expression placement」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "今天晚上，他回家休息。",
+          "source_item_id": "article:zh_reading_time_word_order_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「今天」，呈現「time expression placement」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "TBCL Level 1",
+      "source_locator": "Taiwan TBCL Level 1; Traditional Chinese denominator, not HSK",
+      "source_reading_asset_id": "zh_reading_time_word_order_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-zh\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\zh_reading_time_word_order_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_zh_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "zh_grammar_negation",
+      "title_zh_tw": "不/沒有否定句（不, 沒）",
+      "explanation_md_zh_tw": "這個節點教 繁體中文 A1 的「不/沒有否定句」。 它用來說「不/沒有」。重點是把否定標記放在例句中的正確位置。 這次先認得：不、沒。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ZH.grammar.negation",
+      "ref_item": "basic negation 不/沒",
+      "ref_subitems": [
+        "不",
+        "沒"
+      ],
+      "examples": [
+        {
+          "surface": "今天下雨，阿婷不騎腳踏車。",
+          "source_item_id": "article:zh_reading_negation_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「不」，呈現「basic negation 不/沒」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "她沒有帶傘。",
+          "source_item_id": "article:zh_reading_negation_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「沒」，呈現「basic negation 不/沒」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "阿婷不怕下雨了。",
+          "source_item_id": "article:zh_reading_negation_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「不」，呈現「basic negation 不/沒」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "她說：「謝謝，我今天沒問題。」",
+          "source_item_id": "article:zh_reading_negation_a1_v1:u006",
+          "note_zh_tw": "這句直接使用「沒」，呈現「basic negation 不/沒」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "TBCL Level 1",
+      "source_locator": "Taiwan TBCL Level 1; Traditional Chinese denominator, not HSK",
+      "source_reading_asset_id": "zh_reading_negation_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-zh\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\zh_reading_negation_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_zh_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "zh_grammar_de_particle",
+      "title_zh_tw": "的：所有與修飾（的）",
+      "explanation_md_zh_tw": "這個節點教 繁體中文 A1 的「的：所有與修飾」。 的常放在修飾語或擁有者後面，連到後面的名詞，例如「我的書」「小宇的媽媽」。 這次先認得：的。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ZH.grammar.de_particle",
+      "ref_item": "的 possession/modification",
+      "ref_subitems": [
+        "的"
+      ],
+      "examples": [
+        {
+          "surface": "小宇在房間找他的鑰匙。",
+          "source_item_id": "article:zh_reading_de_particle_a1_v1:u001",
+          "note_zh_tw": "這句直接使用「的」，呈現「的 possession/modification」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "他的包包在椅子上。",
+          "source_item_id": "article:zh_reading_de_particle_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「的」，呈現「的 possession/modification」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "小宇的媽媽在廚房。",
+          "source_item_id": "article:zh_reading_de_particle_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「的」，呈現「的 possession/modification」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "媽媽說：「你的鑰匙在桌上。」",
+          "source_item_id": "article:zh_reading_de_particle_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「的」，呈現「的 possession/modification」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "TBCL Level 1",
+      "source_locator": "Taiwan TBCL Level 1; Traditional Chinese denominator, not HSK",
+      "source_reading_asset_id": "zh_reading_de_particle_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-zh\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\zh_reading_de_particle_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_zh_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    },
+    {
+      "learning_object_id": "zh_grammar_you_mei_you",
+      "title_zh_tw": "有/沒有（有, 沒有）",
+      "explanation_md_zh_tw": "這個節點教 繁體中文 A1 的「有/沒有」。 有可以說存在或擁有；沒有表示不存在或沒有某物。先看句子是在說哪裡有東西，還是誰有東西。 這次先認得：有、沒有。 讀例句時，只要能說出這個形式幫句子完成了什麼意思，就算掌握第一步。",
+      "ref_id": "ZH.grammar.you_mei_you",
+      "ref_item": "有/沒有 existence",
+      "ref_subitems": [
+        "有",
+        "沒有"
+      ],
+      "examples": [
+        {
+          "surface": "她問店員：「有冰水嗎？」",
+          "source_item_id": "article:zh_reading_you_mei_you_a1_v1:u002",
+          "note_zh_tw": "這句直接使用「有」，呈現「有/沒有 existence」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "店員說：「今天沒有熱茶。」",
+          "source_item_id": "article:zh_reading_you_mei_you_a1_v1:u005",
+          "note_zh_tw": "這句直接使用「沒有」，呈現「有/沒有 existence」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "店員說：「有，在右邊。」",
+          "source_item_id": "article:zh_reading_you_mei_you_a1_v1:u003",
+          "note_zh_tw": "這句直接使用「有」，呈現「有/沒有 existence」在 A1 閱讀中的實際用法。"
+        },
+        {
+          "surface": "小芳又問：「有熱茶嗎？」",
+          "source_item_id": "article:zh_reading_you_mei_you_a1_v1:u004",
+          "note_zh_tw": "這句直接使用「有」，呈現「有/沒有 existence」在 A1 閱讀中的實際用法。"
+        }
+      ],
+      "external_source": "TBCL Level 1",
+      "source_locator": "Taiwan TBCL Level 1; Traditional Chinese denominator, not HSK",
+      "source_reading_asset_id": "zh_reading_you_mei_you_a1_v1",
+      "source_reading_path": "D:\\Githubs\\lingo\\content-zh\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615\\article\\zh_reading_you_mei_you_a1_v1.json",
+      "author_id": "phase3_grammar_knowledge_author_zh_20260618",
+      "judge_status": "pending_independent_judge",
+      "native_status": "native_pending"
+    }
+  ]
+}

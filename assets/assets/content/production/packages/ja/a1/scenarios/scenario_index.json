@@ -1,0 +1,126 @@
+{
+  "schema_version": "a1_runtime_scenario_index.v1",
+  "language": "ja",
+  "scenarios": [
+    {
+      "scenario_id": "convenience_payment_card_cash",
+      "title": "コンビニで支払う",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\convenience_payment_card_cash.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "core_repair_repeat_slowly",
+      "title": "もう一度お願いする",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\core_repair_repeat_slowly.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "daily_meet_friend",
+      "title": "友だちと会う",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\daily_meet_friend.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "daily_schedule_time",
+      "title": "会う時間を決める",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\daily_schedule_time.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "daily_self_intro",
+      "title": "自己紹介をする",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\daily_self_intro.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "digital_battery_charging",
+      "title": "スマホを充電する",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\digital_battery_charging.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "digital_wifi_connect",
+      "title": "Wi-Fiにつなぐ",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\digital_wifi_connect.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "food_bill_payment",
+      "title": "食事の会計",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\food_bill_payment.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "food_coffee_ordering",
+      "title": "カフェで注文する",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\food_coffee_ordering.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "food_restaurant_ordering",
+      "title": "レストランで注文する",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\food_restaurant_ordering.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "hotel_checkout",
+      "title": "ホテルでチェックアウトする",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\hotel_checkout.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "hotel_wifi_breakfast",
+      "title": "ホテルでWi-Fiと朝食を聞く",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\hotel_wifi_breakfast.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "problem_lost_item",
+      "title": "なくした物を伝える",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\problem_lost_item.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "shopping_ask_price",
+      "title": "値段を聞く",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\shopping_ask_price.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "social_running_late",
+      "title": "少し遅れると伝える",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\social_running_late.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "travel_hotel_checkin",
+      "title": "ホテルでチェックインする",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\travel_hotel_checkin.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "travel_restroom_directions",
+      "title": "トイレの場所を聞く",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\travel_restroom_directions.ja.v1.json",
+      "turn_count": 3
+    },
+    {
+      "scenario_id": "travel_station_directions",
+      "title": "駅の出口を聞く",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\travel_station_directions.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "travel_taxi_destination",
+      "title": "タクシーで行き先を伝える",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\travel_taxi_destination.ja.v1.json",
+      "turn_count": 4
+    },
+    {
+      "scenario_id": "travel_ticket_buying",
+      "title": "切符を買う",
+      "path": "D:\\Githubs\\lingo\\content-ja\\content\\core\\content_assets\\scenario_packs\\current_flow\\travel_ticket_buying.ja.v1.json",
+      "turn_count": 4
+    }
+  ]
+}

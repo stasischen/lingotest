@@ -1,0 +1,58 @@
+{
+  "topics": [
+    {
+      "id": "topic.time.relative_day",
+      "category": "time",
+      "level": "A1",
+      "parent_id": "topic_family.time",
+      "source_refs": [
+        "src.ko.video.79Pwq7MTUPE"
+      ],
+      "knowledge_refs": [],
+      "vocab_refs": [],
+      "sentence_refs": []
+    },
+    {
+      "id": "topic.time.clock_time",
+      "category": "time",
+      "level": "A1-A2",
+      "parent_id": "topic_family.time",
+      "source_refs": [
+        "src.ko.video.79Pwq7MTUPE"
+      ],
+      "knowledge_refs": [],
+      "vocab_refs": [],
+      "sentence_refs": []
+    },
+    {
+      "id": "topic.time.weekday",
+      "category": "time",
+      "level": "A1",
+      "parent_id": "topic_family.time",
+      "knowledge_refs": [
+        "kg.grammar.determiner.musun"
+      ],
+      "vocab_refs": [
+        "kv.time.weekday.monday",
+        "kv.time.weekday.saturday",
+        "kv.time.weekday.sunday"
+      ],
+      "source_refs": [
+        "src.ko.video.79Pwq7MTUPE"
+      ],
+      "sentence_refs": []
+    },
+    {
+      "id": "topic.food.general",
+      "category": "food",
+      "level": "A1",
+      "parent_id": "topic_family.food",
+      "knowledge_refs": [
+        "kg.grammar.determiner.musun"
+      ],
+      "vocab_refs": [],
+      "source_refs": [],
+      "sentence_refs": []
+    }
+  ]
+}

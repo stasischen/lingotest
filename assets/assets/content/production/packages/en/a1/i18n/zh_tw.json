@@ -1,0 +1,600 @@
+{
+  "schema_version": "a1_runtime_i18n_zh_tw.v1",
+  "language": "en",
+  "learner_locale": "zh_tw",
+  "source_root": "D:\\Githubs\\lingo\\content-en\\content\\i18n\\zh_tw\\learning_library",
+  "files": {
+    "knowledge.json": {
+      "learner_language": "zh_tw",
+      "entries": {
+        "kg.grammar.en.copula.be_am_is_are.v1": {
+          "id": "kg.grammar.en.copula.be_am_is_are.v1",
+          "kind": "grammar",
+          "subcategory": "copula",
+          "level": "A1",
+          "surface": "be (am / is / are)",
+          "tags": [
+            "beginner",
+            "copula",
+            "present"
+          ],
+          "example_sentence_refs": [
+            "sent.src.en.a1.l01.001",
+            "sent.src.en.a1.l01.002",
+            "sent.src.en.a1.l01.003",
+            "sent.src.en.a1.l01.005",
+            "sent.src.en.a1.l01.006",
+            "sent.src.en.a1.l01.007"
+          ],
+          "learner_language": "zh_tw",
+          "title": "be 動詞（am / is / are）",
+          "description": "be 動詞根據主詞不同而變化，是英語中最基本的動詞。",
+          "explanation_md": "**be** 動詞根據主詞變化：\n\n| 主詞 | be 動詞 |\n|------|--------|\n| I | am |\n| he / she / it | is |\n| you / we / they | are |\n\n**用法：**\n1. 表示身分：I **am** a student.\n2. 表示狀態：She **is** happy.\n3. 表示位置：We **are** in class.\n\n**否定句：** 在 be 動詞後加 not\n- I **am not** a teacher.\n- She **is not** (isn't) here.\n- They **are not** (aren't) new.\n\n**疑問句：** 將 be 動詞移到主詞前面\n- **Am** I a student?\n- **Is** she happy?\n- **Are** you ready?"
+        },
+        "kg.grammar.en.pronouns.subject_pronouns.v1": {
+          "id": "kg.grammar.en.pronouns.subject_pronouns.v1",
+          "kind": "grammar",
+          "subcategory": "pronouns",
+          "level": "A1",
+          "surface": "I / you / he / she / it / we / they",
+          "tags": [
+            "beginner",
+            "pronouns",
+            "subject"
+          ],
+          "example_sentence_refs": [
+            "sent.src.en.a1.l01.001",
+            "sent.src.en.a1.l01.002",
+            "sent.src.en.a1.l01.003",
+            "sent.src.en.a1.l01.005",
+            "sent.src.en.a1.l01.006",
+            "sent.src.en.a1.l01.009"
+          ],
+          "learner_language": "zh_tw",
+          "title": "主詞代名詞（I / you / he / she / it / we / they）",
+          "description": "主詞代名詞用來代替人或事物，放在動詞前面當主詞。",
+          "explanation_md": "主詞代名詞用來代替人或事物：\n\n| 代名詞 | 指代對象 | 例句 |\n|--------|---------|------|\n| I | 說話者自己 | **I** am a student. |\n| you | 對方 | **You** are kind. |\n| he | 男性第三人稱 | **He** is happy. |\n| she | 女性第三人稱 | **She** is my teacher. |\n| it | 事物/動物 | **It** is a good day. |\n| we | 包含說話者的複數 | **We** are friends. |\n| they | 第三人稱複數 | **They** are new. |\n\n**注意：**\n- I 在任何位置都要大寫\n- you 可以指「你」或「你們」\n- it 用來指動物或事物"
+        },
+        "kg.grammar.en.greetings.basic_greetings.v1": {
+          "id": "kg.grammar.en.greetings.basic_greetings.v1",
+          "kind": "grammar",
+          "subcategory": "greetings",
+          "level": "A1",
+          "surface": "hi / hello / goodbye / good morning / thank you / please",
+          "tags": [
+            "beginner",
+            "greetings",
+            "social"
+          ],
+          "example_sentence_refs": [
+            "sent.src.en.a1.l01.004",
+            "sent.src.en.a1.l01.011",
+            "sent.src.en.a1.l01.012"
+          ],
+          "learner_language": "zh_tw",
+          "title": "基本問候語（hi / hello / goodbye / good morning）",
+          "description": "日常生活中最基本的打招呼和禮貌用語。",
+          "explanation_md": "基本問候語：\n\n| 英文 | 中文 | 使用時機 |\n|------|------|----------|\n| Hi! | 嗨！ | 非正式打招呼 |\n| Hello! | 你好！ | 通用打招呼 |\n| Good morning! | 早安！ | 早上見面時 |\n| Good afternoon! | 午安！ | 下午見面時 |\n| Good evening! | 晚安！ | 晚上見面時 |\n| Goodbye! | 再見！ | 道別時 |\n| See you! | 回頭見！ | 非正式道別 |\n| Thank you! | 謝謝！ | 表達感謝 |\n| Please | 請 | 禮貌請求 |\n| Sorry | 對不起 | 道歉 |\n| Excuse me | 打擾一下 | 引起注意 |\n\n**回應：**\n- How are you? → I'm fine, thank you. And you?\n- Nice to meet you. → Nice to meet you too.\n- Thank you. → You're welcome."
+        },
+        "kg.grammar.en.possessive.your_my.v1": {
+          "id": "kg.grammar.en.possessive.your_my.v1",
+          "kind": "grammar",
+          "subcategory": "possessive",
+          "level": "A1",
+          "surface": "my / your",
+          "tags": [
+            "beginner",
+            "possessive",
+            "determiner"
+          ],
+          "example_sentence_refs": [
+            "sent.src.en.a1.l02.001",
+            "sent.src.en.a1.l02.002",
+            "sent.src.en.a1.l02.003",
+            "sent.src.en.a1.l02.008"
+          ],
+          "learner_language": "zh_tw",
+          "title": "所有格形容詞（my / your）",
+          "description": "所有格形容詞放在名詞前面，表示東西是誰的。",
+          "explanation_md": "所有格形容詞放在名詞前面：\n\n| 所有格 | 中文 | 例句 |\n|--------|------|------|\n| my | 我的 | **My** name is Sam. |\n| your | 你的 | What is **your** name? |\n| his | 他的 | **His** name is Ken. |\n| her | 她的 | **Her** name is Lily. |\n| our | 我的 | This is **our** class. |\n\n**用法：**\n1. 介紹名字：**My** name is ...\n2. 詢問名字：What is **your** name?\n3. 表示擁有：This is **my** teacher.\n\n**注意：** 所有格形容詞後面一定要有名詞"
+        },
+        "kg.grammar.en.be_from.origin.v1": {
+          "id": "kg.grammar.en.be_from.origin.v1",
+          "kind": "grammar",
+          "subcategory": "origin",
+          "level": "A1",
+          "surface": "be + from (country / city)",
+          "tags": [
+            "beginner",
+            "origin",
+            "be_from"
+          ],
+          "example_sentence_refs": [
+            "sent.src.en.a1.l03.001",
+            "sent.src.en.a1.l03.002",
+            "sent.src.en.a1.l03.003",
+            "sent.src.en.a1.l03.009",
+            "sent.src.en.a1.l03.010"
+          ],
+          "learner_language": "zh_tw",
+          "title": "be + from 表示來自哪裡",
+          "description": "用 be 動詞 + from 來表示來自哪個國家或城市。",
+          "explanation_md": "用 **be + from** 表示來自哪裡：\n\n| 句型 | 例句 |\n|------|------|\n| I am from ... | I **am from** Taiwan. |\n| You are from ... | You **are from** Japan. |\n| He/She is from ... | She **is from** Thailand. |\n\n**疑問句：**\n- **Where are** you **from**?\n- I **am from** America.\n\n**國家和語言：**\n| 國家 | 語言/人 |\n|------|--------|\n| Japan | Japanese |\n| Thailand | Thai |\n| England | English |\n| America | English |\n| Taiwan | Chinese |\n\n**否定句：**\n- I **am not from** England."
+        }
+      }
+    },
+    "sentences.json": {
+      "learner_language": "zh_tw",
+      "entries": {
+        "shared_bank": {
+          "sentences": {
+            "sent.src.en.a1.l01.001": {
+              "sentence_id": "sent.src.en.a1.l01.001",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.001.json"
+              ],
+              "status": "active",
+              "translation": "我是一個學生。"
+            },
+            "sent.src.en.a1.l01.002": {
+              "sentence_id": "sent.src.en.a1.l01.002",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.002.json"
+              ],
+              "status": "active",
+              "translation": "她是我的老師。"
+            },
+            "sent.src.en.a1.l01.003": {
+              "sentence_id": "sent.src.en.a1.l01.003",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.003.json"
+              ],
+              "status": "active",
+              "translation": "我們是朋友。"
+            },
+            "sent.src.en.a1.l01.004": {
+              "sentence_id": "sent.src.en.a1.l01.004",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.004.json"
+              ],
+              "status": "active",
+              "translation": "你好，你好嗎？"
+            },
+            "sent.src.en.a1.l01.005": {
+              "sentence_id": "sent.src.en.a1.l01.005",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.005.json"
+              ],
+              "status": "active",
+              "translation": "他非常開心。"
+            },
+            "sent.src.en.a1.l01.006": {
+              "sentence_id": "sent.src.en.a1.l01.006",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.006.json"
+              ],
+              "status": "active",
+              "translation": "他們是新同學。"
+            },
+            "sent.src.en.a1.l01.007": {
+              "sentence_id": "sent.src.en.a1.l01.007",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.007.json"
+              ],
+              "status": "active",
+              "translation": "今天是美好的一天。"
+            },
+            "sent.src.en.a1.l01.008": {
+              "sentence_id": "sent.src.en.a1.l01.008",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.008.json"
+              ],
+              "status": "active",
+              "translation": "我來自台灣。"
+            },
+            "sent.src.en.a1.l01.009": {
+              "sentence_id": "sent.src.en.a1.l01.009",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.009.json"
+              ],
+              "status": "active",
+              "translation": "你非常親切。"
+            },
+            "sent.src.en.a1.l01.010": {
+              "sentence_id": "sent.src.en.a1.l01.010",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.010.json"
+              ],
+              "status": "active",
+              "translation": "我們在上課。"
+            },
+            "sent.src.en.a1.l01.011": {
+              "sentence_id": "sent.src.en.a1.l01.011",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.011.json"
+              ],
+              "status": "active",
+              "translation": "早安！"
+            },
+            "sent.src.en.a1.l01.012": {
+              "sentence_id": "sent.src.en.a1.l01.012",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l01.012.json"
+              ],
+              "status": "active",
+              "translation": "很高興認識你！"
+            },
+            "sent.src.en.a1.l02.001": {
+              "sentence_id": "sent.src.en.a1.l02.001",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l02.001.json"
+              ],
+              "status": "active",
+              "translation": "你叫什麼名字？"
+            },
+            "sent.src.en.a1.l02.002": {
+              "sentence_id": "sent.src.en.a1.l02.002",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l02.002.json"
+              ],
+              "status": "active",
+              "translation": "我叫 Sam。"
+            },
+            "sent.src.en.a1.l02.003": {
+              "sentence_id": "sent.src.en.a1.l02.003",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l02.003.json"
+              ],
+              "status": "active",
+              "translation": "你貴姓？"
+            },
+            "sent.src.en.a1.l02.004": {
+              "sentence_id": "sent.src.en.a1.l02.004",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l02.004.json"
+              ],
+              "status": "active",
+              "translation": "你有暱稱嗎？"
+            },
+            "sent.src.en.a1.l02.005": {
+              "sentence_id": "sent.src.en.a1.l02.005",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l02.005.json"
+              ],
+              "status": "active",
+              "translation": "你可以叫我 Sammy。"
+            },
+            "sent.src.en.a1.l02.006": {
+              "sentence_id": "sent.src.en.a1.l02.006",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l02.006.json"
+              ],
+              "status": "active",
+              "translation": "你可以拼一下嗎？"
+            },
+            "sent.src.en.a1.l02.007": {
+              "sentence_id": "sent.src.en.a1.l02.007",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l02.007.json"
+              ],
+              "status": "active",
+              "translation": "我是新同學。"
+            },
+            "sent.src.en.a1.l02.008": {
+              "sentence_id": "sent.src.en.a1.l02.008",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l02.008.json"
+              ],
+              "status": "active",
+              "translation": "這是我的老師。"
+            },
+            "sent.src.en.a1.l02.009": {
+              "sentence_id": "sent.src.en.a1.l02.009",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l02.009.json"
+              ],
+              "status": "active",
+              "translation": "我現在認識我的班級了。"
+            },
+            "sent.src.en.a1.l02.010": {
+              "sentence_id": "sent.src.en.a1.l02.010",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l02.010.json"
+              ],
+              "status": "active",
+              "translation": "很高興認識你！"
+            },
+            "sent.src.en.a1.l03.001": {
+              "sentence_id": "sent.src.en.a1.l03.001",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l03.001.json"
+              ],
+              "status": "active",
+              "translation": "你從哪裡來？"
+            },
+            "sent.src.en.a1.l03.002": {
+              "sentence_id": "sent.src.en.a1.l03.002",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l03.002.json"
+              ],
+              "status": "active",
+              "translation": "我從日本來。"
+            },
+            "sent.src.en.a1.l03.003": {
+              "sentence_id": "sent.src.en.a1.l03.003",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l03.003.json"
+              ],
+              "status": "active",
+              "translation": "她從泰國來。"
+            },
+            "sent.src.en.a1.l03.004": {
+              "sentence_id": "sent.src.en.a1.l03.004",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l03.004.json"
+              ],
+              "status": "active",
+              "translation": "我說英文和中文。"
+            },
+            "sent.src.en.a1.l03.005": {
+              "sentence_id": "sent.src.en.a1.l03.005",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l03.005.json"
+              ],
+              "status": "active",
+              "translation": "他說日文。"
+            },
+            "sent.src.en.a1.l03.006": {
+              "sentence_id": "sent.src.en.a1.l03.006",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l03.006.json"
+              ],
+              "status": "active",
+              "translation": "我住在這個城市。"
+            },
+            "sent.src.en.a1.l03.007": {
+              "sentence_id": "sent.src.en.a1.l03.007",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l03.007.json"
+              ],
+              "status": "active",
+              "translation": "我們在學校學英文。"
+            },
+            "sent.src.en.a1.l03.008": {
+              "sentence_id": "sent.src.en.a1.l03.008",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l03.008.json"
+              ],
+              "status": "active",
+              "translation": "你會說哪些語言？"
+            },
+            "sent.src.en.a1.l03.009": {
+              "sentence_id": "sent.src.en.a1.l03.009",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l03.009.json"
+              ],
+              "status": "active",
+              "translation": "我從美國來。我現在住在這裡。"
+            },
+            "sent.src.en.a1.l03.010": {
+              "sentence_id": "sent.src.en.a1.l03.010",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.l03.010.json"
+              ],
+              "status": "active",
+              "translation": "我的朋友從英國來。"
+            },
+            "sent.src.en.a1.r250.b01.001": {
+              "sentence_id": "sent.src.en.a1.r250.b01.001",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.001.json"
+              ],
+              "status": "active",
+              "translation": "我需要我的護照。"
+            },
+            "sent.src.en.a1.r250.b01.002": {
+              "sentence_id": "sent.src.en.a1.r250.b01.002",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.002.json"
+              ],
+              "status": "active",
+              "translation": "我想要一個房間住一個晚上。"
+            },
+            "sent.src.en.a1.r250.b01.003": {
+              "sentence_id": "sent.src.en.a1.r250.b01.003",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.003.json"
+              ],
+              "status": "active",
+              "translation": "可以給我水嗎？"
+            },
+            "sent.src.en.a1.r250.b01.004": {
+              "sentence_id": "sent.src.en.a1.r250.b01.004",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.004.json"
+              ],
+              "status": "active",
+              "translation": "出口在哪裡？"
+            },
+            "sent.src.en.a1.r250.b01.005": {
+              "sentence_id": "sent.src.en.a1.r250.b01.005",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.005.json"
+              ],
+              "status": "active",
+              "translation": "這是我的行李。"
+            },
+            "sent.src.en.a1.r250.b01.006": {
+              "sentence_id": "sent.src.en.a1.r250.b01.006",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.006.json"
+              ],
+              "status": "active",
+              "translation": "房間多少錢？"
+            },
+            "sent.src.en.a1.r250.b01.007": {
+              "sentence_id": "sent.src.en.a1.r250.b01.007",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.007.json"
+              ],
+              "status": "active",
+              "translation": "我有預訂。"
+            },
+            "sent.src.en.a1.r250.b01.008": {
+              "sentence_id": "sent.src.en.a1.r250.b01.008",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.008.json"
+              ],
+              "status": "active",
+              "translation": "我在機場。"
+            },
+            "sent.src.en.a1.r250.b01.009": {
+              "sentence_id": "sent.src.en.a1.r250.b01.009",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.009.json"
+              ],
+              "status": "active",
+              "translation": "飯店在哪裡？"
+            },
+            "sent.src.en.a1.r250.b01.010": {
+              "sentence_id": "sent.src.en.a1.r250.b01.010",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.010.json"
+              ],
+              "status": "active",
+              "translation": "我需要幫忙搬行李。"
+            },
+            "sent.src.en.a1.r250.b01.011": {
+              "sentence_id": "sent.src.en.a1.r250.b01.011",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.011.json"
+              ],
+              "status": "active",
+              "translation": "可以給我鑰匙嗎？"
+            },
+            "sent.src.en.a1.r250.b01.012": {
+              "sentence_id": "sent.src.en.a1.r250.b01.012",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.012.json"
+              ],
+              "status": "active",
+              "translation": "我想去飯店。"
+            },
+            "sent.src.en.a1.r250.b01.013": {
+              "sentence_id": "sent.src.en.a1.r250.b01.013",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.013.json"
+              ],
+              "status": "active",
+              "translation": "這是我的護照。"
+            },
+            "sent.src.en.a1.r250.b01.014": {
+              "sentence_id": "sent.src.en.a1.r250.b01.014",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.r250.b01.014.json"
+              ],
+              "status": "active",
+              "translation": "我搭計程車去機場。"
+            },
+            "sent.src.en.a1.core.b01.001": {
+              "sentence_id": "sent.src.en.a1.core.b01.001",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.001.json"
+              ],
+              "status": "active",
+              "translation": "我明天要去參觀博物館。"
+            },
+            "sent.src.en.a1.core.b01.002": {
+              "sentence_id": "sent.src.en.a1.core.b01.002",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.002.json"
+              ],
+              "status": "active",
+              "translation": "首先，我們需要買票。"
+            },
+            "sent.src.en.a1.core.b01.003": {
+              "sentence_id": "sent.src.en.a1.core.b01.003",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.003.json"
+              ],
+              "status": "active",
+              "translation": "我們到了之後，吃午餐吧。"
+            },
+            "sent.src.en.a1.core.b01.004": {
+              "sentence_id": "sent.src.en.a1.core.b01.004",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.004.json"
+              ],
+              "status": "active",
+              "translation": "寺廟在地鐵站附近。"
+            },
+            "sent.src.en.a1.core.b01.005": {
+              "sentence_id": "sent.src.en.a1.core.b01.005",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.005.json"
+              ],
+              "status": "active",
+              "translation": "我今天早上已經吃了早餐。"
+            },
+            "sent.src.en.a1.core.b01.006": {
+              "sentence_id": "sent.src.en.a1.core.b01.006",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.006.json"
+              ],
+              "status": "active",
+              "translation": "然後我要穿過公園散步。"
+            },
+            "sent.src.en.a1.core.b01.007": {
+              "sentence_id": "sent.src.en.a1.core.b01.007",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.007.json"
+              ],
+              "status": "active",
+              "translation": "您住得愉快嗎？"
+            },
+            "sent.src.en.a1.core.b01.008": {
+              "sentence_id": "sent.src.en.a1.core.b01.008",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.008.json"
+              ],
+              "status": "active",
+              "translation": "這個市場以午餐聞名。"
+            },
+            "sent.src.en.a1.core.b01.009": {
+              "sentence_id": "sent.src.en.a1.core.b01.009",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.009.json"
+              ],
+              "status": "active",
+              "translation": "我想在離開前買一些禮物。"
+            },
+            "sent.src.en.a1.core.b01.010": {
+              "sentence_id": "sent.src.en.a1.core.b01.010",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.010.json"
+              ],
+              "status": "active",
+              "translation": "祝你旅途愉快！"
+            },
+            "sent.src.en.a1.core.b01.011": {
+              "sentence_id": "sent.src.en.a1.core.b01.011",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.011.json"
+              ],
+              "status": "active",
+              "translation": "這個週末天氣會很晴朗。"
+            },
+            "sent.src.en.a1.core.b01.012": {
+              "sentence_id": "sent.src.en.a1.core.b01.012",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.en.a1.core.b01.012.json"
+              ],
+              "status": "active",
+              "translation": "我現在要把計畫寫下來。"
+            }
+          }
+        }
+      }
+    }
+  }
+}

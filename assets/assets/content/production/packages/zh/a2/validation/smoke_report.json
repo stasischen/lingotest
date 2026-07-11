@@ -1,0 +1,13 @@
+{
+  "schema_version": "zh_a2_current_flow_preview_runtime_smoke.v1",
+  "status": "pass",
+  "checks": {
+    "expected_scenario_count": 24,
+    "source_pointer_resolution": "pass",
+    "candidate_inventory_gap_atoms": 0,
+    "source_mismatches": 0,
+    "frontend_route_smoke": "not_run",
+    "native_review_worklist": "present"
+  },
+  "errors": []
+}

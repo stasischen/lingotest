@@ -1,0 +1,4282 @@
+{
+  "content_version": "r1",
+  "items": [
+    {
+      "canonical_pattern": {
+        "display": "number + counter + noun/request",
+        "language_features": {},
+        "target_forms": [
+          "개",
+          "장",
+          "잔",
+          "두",
+          "세"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "number + counter",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-counter_quantity.01",
+        "sent.ko.phase2.grammar.ko-a1-family-counter_quantity.02",
+        "sent.ko.phase2.grammar.ko-a1-family-counter_quantity.03"
+      ],
+      "id": "ko:grammar:a1_counter_quantity_basic",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "counter",
+      "surface": "number + counter",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-counter_quantity"
+    },
+    {
+      "canonical_pattern": {
+        "display": "이/그/저 + noun",
+        "language_features": {},
+        "target_forms": [
+          "이",
+          "그",
+          "저"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "이/그/저 + N",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-articles.01",
+        "sent.ko.phase2.grammar.ko-a1-family-articles.02"
+      ],
+      "id": "ko:grammar:a1_demonstrative_determiners_i_geu_jeo",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "syntax",
+      "surface": "이/그/저 + N",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-articles"
+    },
+    {
+      "canonical_pattern": {
+        "display": "이거/그거/저거",
+        "language_features": {},
+        "target_forms": [
+          "이거",
+          "그거",
+          "저거"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "이거/그거/저거",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-demonstrative.01",
+        "sent.ko.phase2.grammar.ko-a1-family-demonstrative.02"
+      ],
+      "id": "ko:grammar:a1_demonstrative_pronouns_igeo_geugeo_jeogeo",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "syntax",
+      "surface": "이거/그거/저거",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-demonstrative"
+    },
+    {
+      "canonical_pattern": {
+        "display": "N을/를 좋아해요; N이/가 좋아요",
+        "language_features": {},
+        "target_forms": [
+          "좋아해요",
+          "좋아하다"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "N을/를 좋아해요; N이/가 좋아요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-like_preference.01",
+        "sent.ko.phase2.grammar.ko-a1-family-like_preference.02"
+      ],
+      "id": "ko:grammar:a1_like_preference_joahada",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "modality",
+      "surface": "N을/를 좋아해요; N이/가 좋아요",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-like_preference"
+    },
+    {
+      "canonical_pattern": {
+        "display": "V-아/어 주세요; N 주세요",
+        "language_features": {},
+        "target_forms": [
+          "주세요",
+          "좀"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "V-아/어 주세요; N 주세요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-polite_request.01",
+        "sent.ko.phase2.grammar.ko-a1-family-polite_request.02"
+      ],
+      "id": "ko:grammar:a1_polite_request_juseyo",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "pragmatics",
+      "surface": "V-아/어 주세요; N 주세요",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-polite_request"
+    },
+    {
+      "canonical_pattern": {
+        "display": "N의; 제 + N",
+        "language_features": {},
+        "target_forms": [
+          "의",
+          "제"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "N의 / 제",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-possessive.01",
+        "sent.ko.phase2.grammar.ko-a1-family-possessive.02"
+      ],
+      "id": "ko:grammar:a1_possessive_ui_je",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "syntax",
+      "surface": "N의 / 제",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-possessive"
+    },
+    {
+      "canonical_pattern": {
+        "display": "어떻게 ...?",
+        "language_features": {},
+        "target_forms": [
+          "어떻게"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "어떻게",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-question_how.01"
+      ],
+      "id": "ko:grammar:a1_question_how_eotteoke",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question",
+      "surface": "어떻게",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-question_how"
+    },
+    {
+      "canonical_pattern": {
+        "display": "얼마예요?",
+        "language_features": {},
+        "target_forms": [
+          "얼마",
+          "얼마예요"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "얼마",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-question_how_much.01"
+      ],
+      "id": "ko:grammar:a1_question_how_much_eolma",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question",
+      "surface": "얼마",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-question_how_much"
+    },
+    {
+      "canonical_pattern": {
+        "display": "뭐예요?; 무엇을 ...?",
+        "language_features": {},
+        "target_forms": [
+          "뭐",
+          "무엇",
+          "뭐예요"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "뭐 / 무엇",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-question_what.01",
+        "sent.ko.phase2.grammar.ko-a1-family-question_what.02"
+      ],
+      "id": "ko:grammar:a1_question_what_mwo",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question",
+      "surface": "뭐 / 무엇",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-question_what"
+    },
+    {
+      "canonical_pattern": {
+        "display": "언제 ...?",
+        "language_features": {},
+        "target_forms": [
+          "언제"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "언제",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-question_when.01",
+        "sent.ko.phase2.grammar.ko-a1-family-question_when.02"
+      ],
+      "id": "ko:grammar:a1_question_when_eonje",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question",
+      "surface": "언제",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-question_when"
+    },
+    {
+      "canonical_pattern": {
+        "display": "어디예요?; 어디에/에서",
+        "language_features": {},
+        "target_forms": [
+          "어디"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "어디",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-question_where.01",
+        "sent.ko.phase2.grammar.ko-a1-family-question_where.02"
+      ],
+      "id": "ko:grammar:a1_question_where_eodi",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question",
+      "surface": "어디",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-question_where"
+    },
+    {
+      "canonical_pattern": {
+        "display": "어느 + noun",
+        "language_features": {},
+        "target_forms": [
+          "어느"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "어느 N",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-which_question.01",
+        "sent.ko.phase2.grammar.ko-a1-family-which_question.02"
+      ],
+      "id": "ko:grammar:a1_question_which_eoneu",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question",
+      "surface": "어느 N",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-which_question"
+    },
+    {
+      "canonical_pattern": {
+        "display": "누구예요?",
+        "language_features": {},
+        "target_forms": [
+          "누구",
+          "누구예요"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "누구",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-question_who.01",
+        "sent.ko.phase2.grammar.ko-a1-family-question_who.02"
+      ],
+      "id": "ko:grammar:a1_question_who_nugu",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "question",
+      "surface": "누구",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-question_who"
+    },
+    {
+      "canonical_pattern": {
+        "display": "좀 + request/predicate",
+        "language_features": {},
+        "target_forms": [
+          "좀"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "좀",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-softener.01",
+        "sent.ko.phase2.grammar.ko-a1-family-softener.02"
+      ],
+      "id": "ko:grammar:a1_softener_jom",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "pragmatics",
+      "surface": "좀",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-softener"
+    },
+    {
+      "canonical_pattern": {
+        "display": "저/제 + particle or noun",
+        "language_features": {},
+        "target_forms": [
+          "저",
+          "저는",
+          "제"
+        ],
+        "type": "a1_family_denominator_pattern"
+      },
+      "display_surface": "저 / 저는 / 제",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-family-subject_pronoun.01",
+        "sent.ko.phase2.grammar.ko-a1-family-subject_pronoun.02"
+      ],
+      "id": "ko:grammar:a1_subject_pronoun_jeo",
+      "kind": "grammar",
+      "level": "A1",
+      "subcategory": "syntax",
+      "surface": "저 / 저는 / 제",
+      "tags": [
+        "grammar",
+        "a1_family_denominator",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1-family-subject_pronoun"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄹ 수 있다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄹ 수 있다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-001.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-001.02"
+      ],
+      "id": "ko:grammar:ability_can_ul_su_itda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ability.can_ul_su_itda",
+      "level": "A1",
+      "subcategory": "ability",
+      "surface": "-(으)ㄹ 수 있다",
+      "tags": [
+        "grammar",
+        "ability",
+        "can",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-001"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄹ 수 없다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄹ 수 없다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-002.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-002.02"
+      ],
+      "id": "ko:grammar:ability_cannot_ul_su_eoptda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ability.cannot_ul_su_eoptda",
+      "level": "A1",
+      "subcategory": "ability",
+      "surface": "-(으)ㄹ 수 없다",
+      "tags": [
+        "grammar",
+        "ability",
+        "cannot",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-002"
+    },
+    {
+      "canonical_pattern": {
+        "display": "바로",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "바로",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-007.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-007.02"
+      ],
+      "id": "ko:grammar:adverb_baro",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.adverb.baro",
+      "level": "A2",
+      "subcategory": "time",
+      "surface": "바로",
+      "tags": [
+        "grammar",
+        "adverb",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-007"
+    },
+    {
+      "canonical_pattern": {
+        "display": "다시",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "다시",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-015.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-015.02"
+      ],
+      "id": "ko:grammar:adverb_dasi",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.adverb.dasi",
+      "level": "A2",
+      "subcategory": "time",
+      "surface": "다시",
+      "tags": [
+        "grammar",
+        "adverb",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-015"
+    },
+    {
+      "canonical_pattern": {
+        "display": "혹시",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "혹시",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-029.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-029.02"
+      ],
+      "id": "ko:grammar:adverb_hoksi",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.adverb.hoksi",
+      "level": "A2",
+      "subcategory": "discourse",
+      "surface": "혹시",
+      "tags": [
+        "grammar",
+        "adverb",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-029"
+    },
+    {
+      "canonical_pattern": {
+        "display": "이제",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "이제",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-030.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-030.02"
+      ],
+      "id": "ko:grammar:adverb_ije",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.adverb.ije",
+      "level": "A2",
+      "subcategory": "discourse/time",
+      "surface": "이제",
+      "tags": [
+        "grammar",
+        "adverb",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-030"
+    },
+    {
+      "canonical_pattern": {
+        "display": "정말",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "정말",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-038.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-038.02"
+      ],
+      "id": "ko:grammar:adverb_jeongmal",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.adverb.jeongmal",
+      "level": "A1",
+      "subcategory": "emphasis",
+      "surface": "정말",
+      "tags": [
+        "grammar",
+        "adverb",
+        "emphasis",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-038"
+    },
+    {
+      "canonical_pattern": {
+        "display": "역시",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "역시",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-056.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-056.02"
+      ],
+      "id": "ko:grammar:adverb_yeoksi",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.adverb.yeoksi",
+      "level": "A2",
+      "subcategory": "discourse",
+      "surface": "역시",
+      "tags": [
+        "grammar",
+        "adverb",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-056"
+    },
+    {
+      "canonical_pattern": {
+        "display": "야/이야",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "야/이야",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-059.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-059.02"
+      ],
+      "id": "ko:grammar:copula_ya_iya",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.copula.ya_iya",
+      "level": "A1",
+      "subcategory": "copula",
+      "surface": "야/이야",
+      "tags": [
+        "panmal",
+        "casual",
+        "copula",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-059"
+    },
+    {
+      "canonical_pattern": {
+        "display": "고 싶다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "고 싶다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-061.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-061.02"
+      ],
+      "id": "ko:grammar:desire_wish_go_sipda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.desire.wish_go_sipda",
+      "level": "A1",
+      "subcategory": "desire",
+      "surface": "고 싶다",
+      "tags": [
+        "desire",
+        "wish",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-061"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-고 싶어하다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-고 싶어하다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-062.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-062.02"
+      ],
+      "id": "ko:grammar:desire_wish_third_person_go_sip_eohada",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.desire.wish_third_person_go_sip_eohada",
+      "level": "A1",
+      "subcategory": "desire",
+      "surface": "-고 싶어하다",
+      "tags": [
+        "grammar",
+        "desire",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-062"
+    },
+    {
+      "canonical_pattern": {
+        "display": "ㄴ/은 후에",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "ㄴ/은 후에",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-066.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-066.02"
+      ],
+      "id": "ko:grammar:ending_after_eun_hue",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.after_eun_hue",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "ㄴ/은 후에",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-066"
+    },
+    {
+      "canonical_pattern": {
+        "display": "고 나서",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "고 나서",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-067.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-067.02"
+      ],
+      "id": "ko:grammar:ending_after_go_na_seo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.after_go_na_seo",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "고 나서",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-067"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄴ 지",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄴ 지",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-068.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-068.02"
+      ],
+      "id": "ko:grammar:ending_after_time_eun_ji",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.after_time_eun_ji",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)ㄴ 지",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "time",
+        "duration",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-068"
+    },
+    {
+      "canonical_pattern": {
+        "display": "자마자",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "자마자",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-069.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-069.02"
+      ],
+      "id": "ko:grammar:ending_as_soon_as_ja_ma_ja",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.as_soon_as_ja_ma_ja",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "자마자",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-069"
+    },
+    {
+      "canonical_pattern": {
+        "display": "는데/ㄴ데/은데",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "는데/ㄴ데/은데",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-070.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-070.02"
+      ],
+      "id": "ko:grammar:ending_background_neunde",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.background_neunde",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "는데/ㄴ데/은데",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-070"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(이)ㄴ데/는데",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(이)ㄴ데/는데",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-071.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-071.02"
+      ],
+      "id": "ko:grammar:ending_background_question_neunde",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.background_question_neunde",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-(이)ㄴ데/는데",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-071"
+    },
+    {
+      "canonical_pattern": {
+        "display": "~아/어/해",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "~아/어/해",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-072.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-072.02"
+      ],
+      "id": "ko:grammar:ending_banmal_declarative_aohe",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.banmal_declarative_aohe",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "~아/어/해",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-072"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-기 전에",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-기 전에",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-073.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-073.02"
+      ],
+      "id": "ko:grammar:ending_before_gi_jeone",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.before_gi_jeone",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-기 전에",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-073"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-아/어 주다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-아/어 주다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-074.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-074.02"
+      ],
+      "id": "ko:grammar:ending_benefactive_ju_da",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.benefactive_ju_da",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-아/어 주다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-074"
+    },
+    {
+      "canonical_pattern": {
+        "display": "아서/어서",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "아서/어서",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-075.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-075.02"
+      ],
+      "id": "ko:grammar:ending_cause_connective_aseo_eoseo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.cause_connective_aseo_eoseo",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "아서/어서",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-075"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-기 때문에",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-기 때문에",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-076.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-076.02"
+      ],
+      "id": "ko:grammar:ending_cause_gi_ttaemune",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.cause_gi_ttaemune",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-기 때문에",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-076"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(이)기 때문에",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(이)기 때문에",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-077.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-077.02"
+      ],
+      "id": "ko:grammar:ending_cause_igi_ttaemune",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.cause_igi_ttaemune",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-(이)기 때문에",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-077"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)니까",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)니까",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-078.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-078.02"
+      ],
+      "id": "ko:grammar:ending_cause_ul_ni_ka",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.cause_ul_ni_ka",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)니까",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-078"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)로 하다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)로 하다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-079.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-079.02"
+      ],
+      "id": "ko:grammar:ending_choice_euro_hada",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.choice_euro_hada",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)로 하다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-079"
+    },
+    {
+      "canonical_pattern": {
+        "display": "거나",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "거나",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-080.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-080.02"
+      ],
+      "id": "ko:grammar:ending_choice_geona",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.choice_geona",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "거나",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-080"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-기는 하지만",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-기는 하지만",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-081.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-081.02"
+      ],
+      "id": "ko:grammar:ending_concession_gi_neun_hajiman",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.concession_gi_neun_hajiman",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-기는 하지만",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-081"
+    },
+    {
+      "canonical_pattern": {
+        "display": "면/으면",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "면/으면",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-083.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-083.02"
+      ],
+      "id": "ko:grammar:ending_condition_myeon",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.condition_myeon",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "면/으면",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-083"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-아/어/해 가지고",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-아/어/해 가지고",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-084.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-084.02"
+      ],
+      "id": "ko:grammar:ending_connective_a_eo_haeseo_gajigo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.connective_a_eo_haeseo_gajigo",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-아/어/해 가지고",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-084"
+    },
+    {
+      "canonical_pattern": {
+        "display": "고",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "고",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-086.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-086.02"
+      ],
+      "id": "ko:grammar:ending_connective_go",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.connective_go",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "고",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-086"
+    },
+    {
+      "canonical_pattern": {
+        "display": "지만",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "지만",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-087.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-087.02"
+      ],
+      "id": "ko:grammar:ending_contrast_jiman",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.contrast_jiman",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "지만",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-087"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-다가 보면",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-다가 보면",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-088.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-088.02"
+      ],
+      "id": "ko:grammar:ending_da_ga_bomyeon",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.da_ga_bomyeon",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-다가 보면",
+      "tags": [
+        "grammar",
+        "ending",
+        "temporal",
+        "A2",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-088"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-다시피",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-다시피",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-089.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-089.02"
+      ],
+      "id": "ko:grammar:ending_dasipi",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.dasipi",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-다시피",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-089"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-듯이",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-듯이",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-091.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-091.02"
+      ],
+      "id": "ko:grammar:ending_deusi",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.deusi",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-듯이",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-091"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-네/네요",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-네/네요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-092.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-092.02"
+      ],
+      "id": "ko:grammar:ending_discovery_neyo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.discovery_neyo",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-네/네요",
+      "tags": [
+        "grammar",
+        "ending",
+        "discovery",
+        "surprise",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-092"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-되",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-되",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-093.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-093.02"
+      ],
+      "id": "ko:grammar:ending_doe",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.doe",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-되",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-093"
+    },
+    {
+      "canonical_pattern": {
+        "display": "도록",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "도록",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-094.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-094.02"
+      ],
+      "id": "ko:grammar:ending_dorok",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.dorok",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "도록",
+      "tags": [
+        "grammar",
+        "ending",
+        "klab_ingestion",
+        "v5_ingestion",
+        "purpose",
+        "limit",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-094"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-아/어/해하다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-아/어/해하다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-095.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-095.02"
+      ],
+      "id": "ko:grammar:ending_emotion_observer_ahada",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.emotion_observer_ahada",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-아/어/해하다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "emotion",
+        "observer",
+        "third-person",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-095"
+    },
+    {
+      "canonical_pattern": {
+        "display": "(으)ㄹ까 봐",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "(으)ㄹ까 봐",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-097.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-097.02"
+      ],
+      "id": "ko:grammar:ending_eul_kka_bwa",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.eul_kka_bwa",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "(으)ㄹ까 봐",
+      "tags": [
+        "grammar",
+        "ending",
+        "klab_ingestion",
+        "v5_ingestion",
+        "concern",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-097"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄹ세라",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄹ세라",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-099.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-099.02"
+      ],
+      "id": "ko:grammar:ending_eul_sera",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.eul_sera",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-(으)ㄹ세라",
+      "tags": [
+        "grammar",
+        "ending",
+        "concern",
+        "A2",
+        "v5_ingestion",
+        "formal",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-099"
+    },
+    {
+      "canonical_pattern": {
+        "display": "(으)ㄹ 텐데",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "(으)ㄹ 텐데",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-100.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-100.02"
+      ],
+      "id": "ko:grammar:ending_eul_tende",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.eul_tende",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "(으)ㄹ 텐데",
+      "tags": [
+        "grammar",
+        "ending",
+        "klab_ingestion",
+        "v5_ingestion",
+        "prediction",
+        "contrast",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-100"
+    },
+    {
+      "canonical_pattern": {
+        "display": "(으)ㄹ 테니까",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "(으)ㄹ 테니까",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-101.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-101.02"
+      ],
+      "id": "ko:grammar:ending_eul_tenikka",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.eul_tenikka",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "(으)ㄹ 테니까",
+      "tags": [
+        "grammar",
+        "ending",
+        "klab_ingestion",
+        "v5_ingestion",
+        "prediction",
+        "reason",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-101"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄴ/는 반면에",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄴ/는 반면에",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-102.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-102.02"
+      ],
+      "id": "ko:grammar:ending_eun_neun_banmyeone",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.eun_neun_banmyeone",
+      "level": "A2",
+      "subcategory": "contrastive",
+      "surface": "-(으)ㄴ/는 반면에",
+      "tags": [
+        "grammar",
+        "ending",
+        "contrastive",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-102"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄴ/는 채로",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄴ/는 채로",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-103.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-103.02"
+      ],
+      "id": "ko:grammar:ending_eun_neun_chaero",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.eun_neun_chaero",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-(으)ㄴ/는 채로",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-103"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄴ/는 대로",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄴ/는 대로",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-104.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-104.02"
+      ],
+      "id": "ko:grammar:ending_eun_neun_daero",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.eun_neun_daero",
+      "level": "A2",
+      "subcategory": "sequence/manner",
+      "surface": "-(으)ㄴ/는 대로",
+      "tags": [
+        "grammar",
+        "ending",
+        "sequence",
+        "manner",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-104"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄴ/는다면",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄴ/는다면",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-105.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-105.02"
+      ],
+      "id": "ko:grammar:ending_eun_neun_damyeon",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.eun_neun_damyeon",
+      "level": "A2",
+      "subcategory": "conditional",
+      "surface": "-(으)ㄴ/는다면",
+      "tags": [
+        "grammar",
+        "ending",
+        "conditional",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-105"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄴ/는 김에",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄴ/는 김에",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-106.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-106.02"
+      ],
+      "id": "ko:grammar:ending_eun_neun_gime",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.eun_neun_gime",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-(으)ㄴ/는 김에",
+      "tags": [
+        "grammar",
+        "ending",
+        "opportunity",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-106"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-은/는커녕",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-은/는커녕",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-107.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-107.02"
+      ],
+      "id": "ko:grammar:ending_eun_neun_keonyeong",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.eun_neun_keonyeong",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-은/는커녕",
+      "tags": [
+        "grammar",
+        "ending",
+        "contrastive",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-107"
+    },
+    {
+      "canonical_pattern": {
+        "display": "~다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "~다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-109.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-109.02"
+      ],
+      "id": "ko:grammar:ending_exclamative_adjective_da",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.exclamative_adjective_da",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "~다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-109"
+    },
+    {
+      "canonical_pattern": {
+        "display": "ㄴ/은데요 / 는데요",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "ㄴ/은데요 / 는데요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-111.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-111.02"
+      ],
+      "id": "ko:grammar:ending_explanation_surprise_neundeyo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.explanation_surprise_neundeyo",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "ㄴ/은데요 / 는데요",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-111"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-습니다/ㅂ니다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-습니다/ㅂ니다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-112.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-112.02"
+      ],
+      "id": "ko:grammar:ending_formal_declarative_su_ni_da",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.formal_declarative_su_ni_da",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-습니다/ㅂ니다",
+      "tags": [
+        "formal",
+        "declarative",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-112"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-건만",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-건만",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-115.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-115.02"
+      ],
+      "id": "ko:grammar:ending_geonman",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.geonman",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-건만",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-115"
+    },
+    {
+      "canonical_pattern": {
+        "display": "기가 무섭게",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "기가 무섭게",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-116.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-116.02"
+      ],
+      "id": "ko:grammar:ending_gi_ga_museopge",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.gi_ga_museopge",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "기가 무섭게",
+      "tags": [
+        "grammar",
+        "ending",
+        "klab_ingestion",
+        "v5_ingestion",
+        "temporal",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-116"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-기보다는",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-기보다는",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-117.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-117.02"
+      ],
+      "id": "ko:grammar:ending_gibodaneun",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.gibodaneun",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-기보다는",
+      "tags": [
+        "grammar",
+        "ending",
+        "comparison",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-117"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-겠어요",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-겠어요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-120.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-120.02"
+      ],
+      "id": "ko:grammar:ending_intent_inference_getda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.intent_inference_getda",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-겠어요",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-120"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)려고",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)려고",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-121.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-121.02"
+      ],
+      "id": "ko:grammar:ending_intent_ul_ryeogo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.intent_ul_ryeogo",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)려고",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-121"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-아야/어야/해야 하다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-아야/어야/해야 하다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-123.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-123.02"
+      ],
+      "id": "ko:grammar:ending_must_aya_hada",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.must_aya_hada",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-아야/어야/해야 하다",
+      "tags": [
+        "grammar",
+        "ending",
+        "obligation",
+        "must",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-123"
+    },
+    {
+      "canonical_pattern": {
+        "display": "~아/어/해 보지 않다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "~아/어/해 보지 않다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-127.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-127.02"
+      ],
+      "id": "ko:grammar:ending_not_try_a_eo_boji_anta",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.not_try_a_eo_boji_anta",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "~아/어/해 보지 않다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-127"
+    },
+    {
+      "canonical_pattern": {
+        "display": "~았/었었다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "~았/었었다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-129.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-129.02"
+      ],
+      "id": "ko:grammar:ending_past_perfect_ass_eossda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.past_perfect_ass_eossda",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "~았/었었다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-129"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)세요",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)세요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-132.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-132.02"
+      ],
+      "id": "ko:grammar:ending_polite_command_useyo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.polite_command_useyo",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)세요",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-132"
+    },
+    {
+      "canonical_pattern": {
+        "display": "아요/어요/해요",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "아요/어요/해요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-134.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-134.02"
+      ],
+      "id": "ko:grammar:ending_polite_standard_ayo_eoyo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.polite_standard_ayo_eoyo",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "아요/어요/해요",
+      "tags": [
+        "standard",
+        "polite",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-134"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-고 있다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-고 있다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-135.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-135.02"
+      ],
+      "id": "ko:grammar:ending_progressive_go_itda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.progressive_go_itda",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-고 있다",
+      "tags": [
+        "grammar",
+        "ending",
+        "progressive",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-135"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-지 마",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-지 마",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-136.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-136.02"
+      ],
+      "id": "ko:grammar:ending_prohibit_ji_ma",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.prohibit_ji_ma",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-지 마",
+      "tags": [
+        "grammar",
+        "ending",
+        "prohibit",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-136"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-지 맙시다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-지 맙시다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-137.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-137.02"
+      ],
+      "id": "ko:grammar:ending_prohibit_ji_mapsida",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.prohibit_ji_mapsida",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-지 맙시다",
+      "tags": [
+        "grammar",
+        "ending",
+        "prohibit",
+        "formal",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-137"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-지 마세요",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-지 마세요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-138.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-138.02"
+      ],
+      "id": "ko:grammar:ending_prohibit_ji_maseyo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.prohibit_ji_maseyo",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-지 마세요",
+      "tags": [
+        "grammar",
+        "ending",
+        "prohibition",
+        "polite",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-138"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-기로 하다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-기로 하다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-139.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-139.02"
+      ],
+      "id": "ko:grammar:ending_promise_gi_ro_hada",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.promise_gi_ro_hada",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-기로 하다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-139"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄹ게요",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄹ게요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-140.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-140.02"
+      ],
+      "id": "ko:grammar:ending_promise_ulgeyo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.promise_ulgeyo",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-(으)ㄹ게요",
+      "tags": [
+        "modal_intent_pack",
+        "promise",
+        "commitment",
+        "beginner",
+        "v5_hand-crafted",
+        "merged_duplicate",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-140"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-자",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-자",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-142.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-142.02"
+      ],
+      "id": "ko:grammar:ending_propose_banmal_ja",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.propose_banmal_ja",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-자",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-142"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-지 말자",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-지 말자",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-143.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-143.02"
+      ],
+      "id": "ko:grammar:ending_propose_prohibit_banmal_ji_malja",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.propose_prohibit_banmal_ji_malja",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-지 말자",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-143"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㅂ시다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㅂ시다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-144.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-144.02"
+      ],
+      "id": "ko:grammar:ending_propose_upsida",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.propose_upsida",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)ㅂ시다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-144"
+    },
+    {
+      "canonical_pattern": {
+        "display": "~게",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "~게",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-151.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-151.02"
+      ],
+      "id": "ko:grammar:ending_resultative_ge",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.resultative_ge",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "~게",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-151"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-아/어/해지다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-아/어/해지다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-154.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-154.02"
+      ],
+      "id": "ko:grammar:ending_state_change_ajida_eojida",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.state_change_ajida_eojida",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-아/어/해지다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "change",
+        "state",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-154"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-아/어 있다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-아/어 있다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-155.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-155.02"
+      ],
+      "id": "ko:grammar:ending_state_prog_a_eo_itda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.state_prog_a_eo_itda",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-아/어 있다",
+      "tags": [
+        "aspect",
+        "state",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-155"
+    },
+    {
+      "canonical_pattern": {
+        "display": "~아/어/해 보다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "~아/어/해 보다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-159.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-159.02"
+      ],
+      "id": "ko:grammar:ending_try_a_eo_boda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.try_a_eo_boda",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "~아/어/해 보다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-159"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㅁ에도 불구하고",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㅁ에도 불구하고",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-160.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-160.02"
+      ],
+      "id": "ko:grammar:ending_um_edo_bulguhago",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.um_edo_bulguhago",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-(으)ㅁ에도 불구하고",
+      "tags": [
+        "grammar",
+        "ending",
+        "concessive",
+        "A2",
+        "v5_ingestion",
+        "formal",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-160"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㅁ으로써",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㅁ으로써",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-161.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-161.02"
+      ],
+      "id": "ko:grammar:ending_um_eurosseo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.um_eurosseo",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-(으)ㅁ으로써",
+      "tags": [
+        "grammar",
+        "ending",
+        "means",
+        "A2",
+        "v5_ingestion",
+        "written",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-161"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-으면 몰라도",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-으면 몰라도",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-162.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-162.02"
+      ],
+      "id": "ko:grammar:ending_umyeon_mollado",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.umyeon_mollado",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-으면 몰라도",
+      "tags": [
+        "grammar",
+        "ending",
+        "conditional",
+        "A2",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-162"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄹ 때",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄹ 때",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-163.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-163.02"
+      ],
+      "id": "ko:grammar:ending_when_ul_tte",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.when_ul_tte",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)ㄹ 때",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-163"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)면서",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)면서",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-164.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-164.02"
+      ],
+      "id": "ko:grammar:ending_while_ul_myeon_seo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.while_ul_myeon_seo",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)면서",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-164"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-아야/어야/해야겠다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-아야/어야/해야겠다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-165.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-165.02"
+      ],
+      "id": "ko:grammar:ending_will_aya_getda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.will_aya_getda",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-아야/어야/해야겠다",
+      "tags": [
+        "grammar",
+        "ending",
+        "intention",
+        "will",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-165"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄹ게요",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄹ게요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-166.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-166.02"
+      ],
+      "id": "ko:grammar:ending_will_ul_geyo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.will_ul_geyo",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)ㄹ게요",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "promise",
+        "retired_duplicate",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-166"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(았/었/했)으면 좋겠다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(았/었/했)으면 좋겠다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-167.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-167.02"
+      ],
+      "id": "ko:grammar:ending_wish_ass_eumyeon_jokgetda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.wish_ass_eumyeon_jokgetda",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(았/었/했)으면 좋겠다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-167"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)면 좋겠다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)면 좋겠다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-168.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-168.02"
+      ],
+      "id": "ko:grammar:ending_wish_eumyeon_jokgetda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.wish_eumyeon_jokgetda",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)면 좋겠다",
+      "tags": [
+        "grammar",
+        "ending",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-168"
+    },
+    {
+      "canonical_pattern": {
+        "display": "이/가 없다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "이/가 없다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-170.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-170.02"
+      ],
+      "id": "ko:grammar:existence_eopda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.existence.eopda",
+      "level": "A1",
+      "subcategory": "existence",
+      "surface": "이/가 없다",
+      "tags": [
+        "grammar",
+        "existence",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-170"
+    },
+    {
+      "canonical_pattern": {
+        "display": "이/가 있다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "이/가 있다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-171.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-171.02"
+      ],
+      "id": "ko:grammar:existence_itda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.existence.itda",
+      "level": "A1",
+      "subcategory": "existence",
+      "surface": "이/가 있다",
+      "tags": [
+        "grammar",
+        "existence",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-171"
+    },
+    {
+      "canonical_pattern": {
+        "display": "에 없다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "에 없다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-172.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-172.02"
+      ],
+      "id": "ko:grammar:existence_loc_eopda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.existence.loc_eopda",
+      "level": "A1",
+      "subcategory": "existence",
+      "surface": "에 없다",
+      "tags": [
+        "grammar",
+        "existence",
+        "location",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-172"
+    },
+    {
+      "canonical_pattern": {
+        "display": "에 있다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "에 있다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-173.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-173.02"
+      ],
+      "id": "ko:grammar:existence_loc_itda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.existence.loc_itda",
+      "level": "A1",
+      "subcategory": "existence",
+      "surface": "에 있다",
+      "tags": [
+        "grammar",
+        "existence",
+        "location",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-173"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄹ 것 같다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄹ 것 같다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-174.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-174.02"
+      ],
+      "id": "ko:grammar:expectation_seem_ul_geot_gatda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.expectation.seem_ul_geot_gatda",
+      "level": "A1",
+      "subcategory": "expectation",
+      "surface": "-(으)ㄹ 것 같다",
+      "tags": [
+        "grammar",
+        "expectation",
+        "suppose",
+        "seem",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-174"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄹ까 싶다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄹ까 싶다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-175.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-175.02"
+      ],
+      "id": "ko:grammar:expectation_ul_kka_sipda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.expectation.ul_kka_sipda",
+      "level": "A1",
+      "subcategory": "expectation",
+      "surface": "-(으)ㄹ까 싶다",
+      "tags": [
+        "expectation",
+        "thought",
+        "wonder",
+        "hesitation",
+        "beginner",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-175"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄴ 적이 없다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄴ 적이 없다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-176.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-176.02"
+      ],
+      "id": "ko:grammar:experience_un_jeoki_eopda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.experience.un_jeoki_eopda",
+      "level": "A1",
+      "subcategory": "experience",
+      "surface": "-(으)ㄴ 적이 없다",
+      "tags": [
+        "grammar",
+        "experience",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-176"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄴ 적이 있다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄴ 적이 있다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-177.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-177.02"
+      ],
+      "id": "ko:grammar:experience_un_jeoki_itda",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.experience.un_jeoki_itda",
+      "level": "A1",
+      "subcategory": "experience",
+      "surface": "-(으)ㄴ 적이 있다",
+      "tags": [
+        "grammar",
+        "experience",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-177"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)려고 하다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)려고 하다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-178.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-178.02"
+      ],
+      "id": "ko:grammar:intent_intend_ul_ryeogo_hada",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.intent.intend_ul_ryeogo_hada",
+      "level": "A1",
+      "subcategory": "intent",
+      "surface": "-(으)려고 하다",
+      "tags": [
+        "grammar",
+        "intent",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-178"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄹ까 하다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄹ까 하다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-179.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-179.02"
+      ],
+      "id": "ko:grammar:intent_ul_kka_hada",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.intent.ul_kka_hada",
+      "level": "A1",
+      "subcategory": "intent",
+      "surface": "-(으)ㄹ까 하다",
+      "tags": [
+        "intent",
+        "plan",
+        "thought",
+        "consideration",
+        "beginner",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-179"
+    },
+    {
+      "canonical_pattern": {
+        "display": "形容詞 + ㄴ/은 + 名詞 (現在)",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "形容詞 + ㄴ/은 + 名詞 (現在)",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-180.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-180.02"
+      ],
+      "id": "ko:grammar:modifier_adj_noun",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.modifier.adj_noun",
+      "level": "A1",
+      "subcategory": "modifier",
+      "surface": "形容詞 + ㄴ/은 + 名詞 (現在)",
+      "tags": [
+        "grammar",
+        "modifier",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-180"
+    },
+    {
+      "canonical_pattern": {
+        "display": "~ㄹ/을 + 名詞",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "~ㄹ/을 + 名詞",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-181.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-181.02"
+      ],
+      "id": "ko:grammar:modifier_v_eul",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.modifier.v_eul",
+      "level": "A1",
+      "subcategory": "modifier",
+      "surface": "~ㄹ/을 + 名詞",
+      "tags": [
+        "grammar",
+        "modifier",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-181"
+    },
+    {
+      "canonical_pattern": {
+        "display": "動詞 + ㄴ/은 + 名詞 (過去)",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "動詞 + ㄴ/은 + 名詞 (過去)",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-182.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-182.02"
+      ],
+      "id": "ko:grammar:modifier_v_eun",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.modifier.v_eun",
+      "level": "A1",
+      "subcategory": "modifier",
+      "surface": "動詞 + ㄴ/은 + 名詞 (過去)",
+      "tags": [
+        "grammar",
+        "modifier",
+        "beginner",
+        "v5_ingestion",
+        "nikl_batch002",
+        "content_enriched",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-182"
+    },
+    {
+      "canonical_pattern": {
+        "display": "~는 + 名詞",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "~는 + 名詞",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-183.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-183.02"
+      ],
+      "id": "ko:grammar:modifier_v_neun",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.modifier.v_neun",
+      "level": "A1",
+      "subcategory": "modifier",
+      "surface": "~는 + 名詞",
+      "tags": [
+        "grammar",
+        "modifier",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-183"
+    },
+    {
+      "canonical_pattern": {
+        "display": "에 가다/오다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "에 가다/오다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-184.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-184.02"
+      ],
+      "id": "ko:grammar:movement_loc_ga_o",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.movement.loc_ga_o",
+      "level": "A1",
+      "subcategory": "movement",
+      "surface": "에 가다/오다",
+      "tags": [
+        "grammar",
+        "movement",
+        "location",
+        "direction",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-184"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)러 가다/오다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)러 가다/오다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-185.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-185.02"
+      ],
+      "id": "ko:grammar:movement_ul_ryeo_ga_da_o_da",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.movement.ul_ryeo_ga_da_o_da",
+      "level": "A1",
+      "subcategory": "movement",
+      "surface": "-(으)러 가다/오다",
+      "tags": [
+        "grammar",
+        "movement",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-185"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-지 않다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-지 않다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-186.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-186.02"
+      ],
+      "id": "ko:grammar:negation_long_ji_anta",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.negation.long_ji_anta",
+      "level": "A1",
+      "subcategory": "negation",
+      "surface": "-지 않다",
+      "tags": [
+        "grammar",
+        "negation",
+        "long_form",
+        "formal",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-186"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-지 못하다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-지 못하다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-187.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-187.02"
+      ],
+      "id": "ko:grammar:negation_long_ji_mothada",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.negation.long_ji_mothada",
+      "level": "A1",
+      "subcategory": "negation",
+      "surface": "-지 못하다",
+      "tags": [
+        "grammar",
+        "negation",
+        "cannot",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-187"
+    },
+    {
+      "canonical_pattern": {
+        "display": "안 + V/A",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "안 + V/A",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-188.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-188.02"
+      ],
+      "id": "ko:grammar:negation_short_an",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.negation.short_an",
+      "level": "A1",
+      "subcategory": "negation",
+      "surface": "안 + V/A",
+      "tags": [
+        "grammar",
+        "negation",
+        "short_form",
+        "informal",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-188"
+    },
+    {
+      "canonical_pattern": {
+        "display": "못",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "못",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-189.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-189.02"
+      ],
+      "id": "ko:grammar:negation_short_mot",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.negation.short_mot",
+      "level": "A1",
+      "subcategory": "negation",
+      "surface": "못",
+      "tags": [
+        "grammar",
+        "negation",
+        "cannot",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-189"
+    },
+    {
+      "canonical_pattern": {
+        "display": "n 후에",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "n 후에",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-190.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-190.02"
+      ],
+      "id": "ko:grammar:particle_after_noun_hu",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.after_noun_hu",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "n 후에",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-190"
+    },
+    {
+      "canonical_pattern": {
+        "display": "중에서",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "중에서",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-191.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-191.02"
+      ],
+      "id": "ko:grammar:particle_among_jung_eseo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.among_jung_eseo",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "중에서",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-191"
+    },
+    {
+      "canonical_pattern": {
+        "display": "보다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "보다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-193.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-193.02"
+      ],
+      "id": "ko:grammar:particle_boda_comparison",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.boda_comparison",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "보다",
+      "tags": [
+        "grammar",
+        "particle",
+        "comparison",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-193"
+    },
+    {
+      "canonical_pattern": {
+        "display": "부터",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "부터",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-194.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-194.02"
+      ],
+      "id": "ko:grammar:particle_bu_teo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.bu_teo",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "부터",
+      "tags": [
+        "particle",
+        "start",
+        "priority",
+        "sequence",
+        "beginner",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-194"
+    },
+    {
+      "canonical_pattern": {
+        "display": "때문에",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "때문에",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-195.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-195.02"
+      ],
+      "id": "ko:grammar:particle_cause_noun_ttaemune",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.cause_noun_ttaemune",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "때문에",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-195"
+    },
+    {
+      "canonical_pattern": {
+        "display": "처럼",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "처럼",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-196.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-196.02"
+      ],
+      "id": "ko:grammar:particle_cheoreom",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.cheoreom",
+      "level": "A2",
+      "subcategory": "particle",
+      "surface": "처럼",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-196"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(이)나",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(이)나",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-198.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-198.02"
+      ],
+      "id": "ko:grammar:particle_choice_na_ina",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.choice_na_ina",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "-(이)나",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-198"
+    },
+    {
+      "canonical_pattern": {
+        "display": "도",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "도",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-201.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-201.02"
+      ],
+      "id": "ko:grammar:particle_do",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.do",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "도",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-201"
+    },
+    {
+      "canonical_pattern": {
+        "display": "동안",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "동안",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-202.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-202.02"
+      ],
+      "id": "ko:grammar:particle_during_dongan",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.during_dongan",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "동안",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-202"
+    },
+    {
+      "canonical_pattern": {
+        "display": "에 대해(서)",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "에 대해(서)",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-203.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-203.02"
+      ],
+      "id": "ko:grammar:particle_e_daehae",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.e_daehae",
+      "level": "A2",
+      "subcategory": "particle",
+      "surface": "에 대해(서)",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-203"
+    },
+    {
+      "canonical_pattern": {
+        "display": "~에 ~쯤",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "~에 ~쯤",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-204.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-204.02"
+      ],
+      "id": "ko:grammar:particle_e_jjeum",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.e_jjeum",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "~에 ~쯤",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "frequency",
+        "degree",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-204"
+    },
+    {
+      "canonical_pattern": {
+        "display": "에",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "에",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-205.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-205.02"
+      ],
+      "id": "ko:grammar:particle_e_loc_existence",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.e_loc_existence",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "에",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "content_enriched",
+        "umbrella_no_standalone_rule",
+        "not_standalone_learner_chip",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-205"
+    },
+    {
+      "canonical_pattern": {
+        "display": "에게/한테",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "에게/한테",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-206.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-206.02"
+      ],
+      "id": "ko:grammar:particle_ege_hante",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.ege_hante",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "에게/한테",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-206"
+    },
+    {
+      "canonical_pattern": {
+        "display": "~에게서/한테서/에서",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "~에게서/한테서/에서",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-207.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-207.02"
+      ],
+      "id": "ko:grammar:particle_egeseo_hanteseo_eseo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.egeseo_hanteseo_eseo",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "~에게서/한테서/에서",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-207"
+    },
+    {
+      "canonical_pattern": {
+        "display": "에서",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "에서",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-208.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-208.02"
+      ],
+      "id": "ko:grammar:particle_eseo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.eseo",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "에서",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-208"
+    },
+    {
+      "canonical_pattern": {
+        "display": "을/를",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "을/를",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-209.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-209.02"
+      ],
+      "id": "ko:grammar:particle_eul_reul",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.eul_reul",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "을/를",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-209"
+    },
+    {
+      "canonical_pattern": {
+        "display": "(으)로",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "(으)로",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-211.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-211.02"
+      ],
+      "id": "ko:grammar:particle_euro_direction",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.euro_direction",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "(으)로",
+      "tags": [
+        "particle",
+        "direction",
+        "destination",
+        "movement",
+        "beginner",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-211"
+    },
+    {
+      "canonical_pattern": {
+        "display": "(으)로",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "(으)로",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-212.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-212.02"
+      ],
+      "id": "ko:grammar:particle_euro_tool",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.euro_tool",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "(으)로",
+      "tags": [
+        "particle",
+        "tool",
+        "method",
+        "means",
+        "beginner",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-212"
+    },
+    {
+      "canonical_pattern": {
+        "display": "부터 ~까지",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "부터 ~까지",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-213.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-213.02"
+      ],
+      "id": "ko:grammar:particle_from_to_bu_teo_kka_ji",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.from_to_bu_teo_kka_ji",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "부터 ~까지",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-213"
+    },
+    {
+      "canonical_pattern": {
+        "display": "하고",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "하고",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-214.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-214.02"
+      ],
+      "id": "ko:grammar:particle_hago",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.hago",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "하고",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-214"
+    },
+    {
+      "canonical_pattern": {
+        "display": "마다",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "마다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-217.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-217.02"
+      ],
+      "id": "ko:grammar:particle_mada",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.mada",
+      "level": "A2",
+      "subcategory": "particle",
+      "surface": "마다",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-217"
+    },
+    {
+      "canonical_pattern": {
+        "display": "~만",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "~만",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-218.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-218.02"
+      ],
+      "id": "ko:grammar:particle_man",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.man",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "~만",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-218"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(이)든지",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(이)든지",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-221.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-221.02"
+      ],
+      "id": "ko:grammar:particle_regardless_noun_ideunji",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.regardless_noun_ideunji",
+      "level": "A2",
+      "subcategory": "particle",
+      "surface": "-(이)든지",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-221"
+    },
+    {
+      "canonical_pattern": {
+        "display": "와/과",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "와/과",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-224.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-224.02"
+      ],
+      "id": "ko:grammar:particle_wa_gwa",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.wa_gwa",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "와/과",
+      "tags": [
+        "grammar",
+        "particle",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-224"
+    },
+    {
+      "canonical_pattern": {
+        "display": "N + 이/가",
+        "language_features": {},
+        "type": "alternative_atom_sequence_pattern"
+      },
+      "display_surface": "이/가",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-gram-v2-001.01",
+        "sent.ko.phase2.grammar.ko-a1-gram-v2-001.02"
+      ],
+      "id": "ko:grammar:subject_particle_i_ga",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.i_ga",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "이/가",
+      "tags": [
+        "subject_marker",
+        "particle",
+        "a1",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-a1-gram-v2-001"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-(으)ㄹ 거예요",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-(으)ㄹ 거예요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-238.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-238.02"
+      ],
+      "id": "ko:grammar:tense_future_ul_geoyeyo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.tense.future_ul_geoyeyo",
+      "level": "A1",
+      "subcategory": "tense",
+      "surface": "-(으)ㄹ 거예요",
+      "tags": [
+        "grammar",
+        "tense",
+        "future",
+        "intention",
+        "beginner",
+        "v5_ingestion",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-238"
+    },
+    {
+      "canonical_pattern": {
+        "display": "-았/었/했어요",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "-았/었/했어요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-239.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-239.02"
+      ],
+      "id": "ko:grammar:tense_past_ass_oss",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.tense.past_ass_oss",
+      "level": "A1",
+      "subcategory": "tense",
+      "surface": "-았/었/했어요",
+      "tags": [
+        "tense",
+        "past",
+        "beginner",
+        "v5_ingestion",
+        "merged_duplicate",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-239"
+    },
+    {
+      "canonical_pattern": {
+        "display": "았/었/했",
+        "language_features": {},
+        "type": "legacy_v2_migration_pattern"
+      },
+      "display_surface": "았/었/했",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-240.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-240.02"
+      ],
+      "id": "ko:grammar:tense_past_ass_oss_haess",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.tense.past_ass_oss_haess",
+      "level": "A1",
+      "subcategory": "tense",
+      "surface": "았/었/했",
+      "tags": [
+        "grammar",
+        "tense",
+        "beginner",
+        "v5_ingestion",
+        "retired_duplicate",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-v2-gram-240"
+    },
+    {
+      "canonical_pattern": {
+        "display": "N + 은/는",
+        "language_features": {},
+        "type": "alternative_atom_sequence_pattern"
+      },
+      "display_surface": "은/는",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-a1-gram-v2-002.01",
+        "sent.ko.phase2.grammar.ko-a1-gram-v2-002.02"
+      ],
+      "id": "ko:grammar:topic_particle_eun_neun",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.eun_neun",
+      "level": "A1",
+      "subcategory": "particle",
+      "surface": "은/는",
+      "tags": [
+        "topic_marker",
+        "contrast",
+        "particle",
+        "a1",
+        "v2_migration"
+      ],
+      "target_inventory_id": "ko-a1-gram-v2-002"
+    },
+    {
+      "canonical_pattern": {
+        "display": "N밖에 + negative predicate",
+        "language_features": {},
+        "target_forms": [
+          "밖에"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "밖에",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-192.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-192.02"
+      ],
+      "id": "ko:grammar:v2_bakke_exclusive",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.bakke_exclusive",
+      "legacy_row_id": "ko-v2-gram-192",
+      "level": "A2",
+      "subcategory": "particle",
+      "surface": "밖에",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-192"
+    },
+    {
+      "canonical_pattern": {
+        "display": "V-아/어 + V",
+        "language_features": {},
+        "target_forms": [
+          "-아",
+          "-어"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "-아/-어",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-085.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-085.02"
+      ],
+      "id": "ko:grammar:v2_connective_a_eo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.connective_a_eo_method_sequence",
+      "legacy_row_id": "ko-v2-gram-085",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-아/-어",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-085"
+    },
+    {
+      "canonical_pattern": {
+        "display": "V/A-는 대로",
+        "language_features": {},
+        "target_forms": [
+          "대로"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "대로",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-200.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-200.02"
+      ],
+      "id": "ko:grammar:v2_daero_manner_boundary",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.particle.daero_manner_boundary",
+      "legacy_row_id": "ko-v2-gram-200",
+      "level": "A2",
+      "subcategory": "particle",
+      "surface": "대로",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-200"
+    },
+    {
+      "canonical_pattern": {
+        "display": "V-(으)려면",
+        "language_features": {},
+        "target_forms": [
+          "-려면",
+          "-으려면"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "-(으)려면",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-119.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-119.02"
+      ],
+      "id": "ko:grammar:v2_intent_condition_ryeomyeon",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.intent_condition_ryeomyeon",
+      "legacy_row_id": "ko-v2-gram-119",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-(으)려면",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-119"
+    },
+    {
+      "canonical_pattern": {
+        "display": "V-기",
+        "language_features": {},
+        "target_forms": [
+          "-기"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "-기",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-126.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-126.02"
+      ],
+      "id": "ko:grammar:v2_nominalizer_gi",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.nominalizer_gi",
+      "legacy_row_id": "ko-v2-gram-126",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-기",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-126"
+    },
+    {
+      "canonical_pattern": {
+        "display": "V-은 + N",
+        "language_features": {},
+        "target_forms": [
+          "-은"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "-은",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-128.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-128.02"
+      ],
+      "id": "ko:grammar:v2_past_adnominal_eun",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.past_adnominal_eun",
+      "legacy_row_id": "ko-v2-gram-128",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-은",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-128"
+    },
+    {
+      "canonical_pattern": {
+        "display": "V/A-ㄴ다/-는다/-다",
+        "language_features": {},
+        "target_forms": [
+          "-ㄴ다",
+          "-는다",
+          "-다"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "-ㄴ다/-는다/-다",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-131.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-131.02"
+      ],
+      "id": "ko:grammar:v2_plain_declarative",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.plain_declarative_n_da_neun_da_da",
+      "legacy_row_id": "ko-v2-gram-131",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-ㄴ다/-는다/-다",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-131"
+    },
+    {
+      "canonical_pattern": {
+        "display": "V/A-지요/-죠",
+        "language_features": {},
+        "target_forms": [
+          "-지요",
+          "-죠"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "-지요/-죠",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-133.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-133.02"
+      ],
+      "id": "ko:grammar:v2_polite_confirmation_jiyo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.polite_confirmation_jiyo",
+      "legacy_row_id": "ko-v2-gram-133",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-지요/-죠",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-133"
+    },
+    {
+      "canonical_pattern": {
+        "display": "N + 이에요/예요",
+        "language_features": {},
+        "target_forms": [
+          "예요",
+          "이에요"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "예요/이에요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-058.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-058.02"
+      ],
+      "id": "ko:grammar:v2_polite_copula",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.copula.polite_yeyo_ieyo",
+      "legacy_row_id": "ko-v2-gram-058",
+      "level": "A1",
+      "subcategory": "copula",
+      "surface": "예요/이에요",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-058"
+    },
+    {
+      "canonical_pattern": {
+        "display": "V/A-나요/-은가요",
+        "language_features": {},
+        "target_forms": [
+          "-ㄴ가",
+          "-ㄴ가요",
+          "-나요",
+          "-은가요"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "-ㄴ가/-ㄴ가요/-나요/-은가요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-153.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-153.02"
+      ],
+      "id": "ko:grammar:v2_soft_question_nayo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.soft_question_n_gayo_nayo",
+      "legacy_row_id": "ko-v2-gram-153",
+      "level": "A2",
+      "subcategory": "ending",
+      "surface": "-ㄴ가/-ㄴ가요/-나요/-은가요",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-153"
+    },
+    {
+      "canonical_pattern": {
+        "display": "V-(으)ㄹ까요?",
+        "language_features": {},
+        "target_forms": [
+          "-ㄹ까요",
+          "-을까요"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "-(으)ㄹ까요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-156.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-156.02"
+      ],
+      "id": "ko:grammar:v2_suggest_ul_kkayo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.suggest_ul_kkayo",
+      "legacy_row_id": "ko-v2-gram-156",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)ㄹ까요",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-156"
+    },
+    {
+      "canonical_pattern": {
+        "display": "V-(으)ㄹ래요",
+        "language_features": {},
+        "target_forms": [
+          "-ㄹ래요",
+          "-을래요"
+        ],
+        "type": "reviewed_v2_grammar_pattern"
+      },
+      "display_surface": "-(으)ㄹ래요",
+      "example_sentence_refs": [
+        "sent.ko.phase2.grammar.ko-v2-gram-169.01",
+        "sent.ko.phase2.grammar.ko-v2-gram-169.02"
+      ],
+      "id": "ko:grammar:v2_wish_ul_laeyo",
+      "kind": "grammar",
+      "legacy_knowledge_id": "kg.grammar.ending.wish_ul_laeyo",
+      "legacy_row_id": "ko-v2-gram-169",
+      "level": "A1",
+      "subcategory": "ending",
+      "surface": "-(으)ㄹ래요",
+      "tags": [
+        "grammar",
+        "v2_migration",
+        "needs_example_repair",
+        "ko_phase2_completion"
+      ],
+      "target_inventory_id": "ko-a1a2-gram-v2-169"
+    }
+  ],
+  "language": "ko",
+  "package_id": "ko-grammar-a1a2",
+  "schema_version": "grammar_authoring_knowledge_items.v1"
+}

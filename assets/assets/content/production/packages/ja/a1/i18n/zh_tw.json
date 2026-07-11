@@ -1,0 +1,3295 @@
+{
+  "schema_version": "a1_runtime_i18n_zh_tw.v1",
+  "language": "ja",
+  "learner_locale": "zh_tw",
+  "source_root": "D:\\Githubs\\lingo\\content-ja\\content\\i18n\\zh_tw\\learning_library",
+  "files": {
+    "knowledge.json": {
+      "schema_version": "learning-library-i18n-knowledge-v1",
+      "study_language": "ja",
+      "learner_language": "zh_tw",
+      "entries": {
+        "kg.grammar.ja.copula.desu.v1": {
+          "knowledge_id": "kg.grammar.ja.copula.desu.v1",
+          "title": "です（敬語形的「是」）",
+          "description": "名詞句的敬語形，表示「是…」。",
+          "explanation_md": "「です」是名詞句結尾的敬語形繫詞。\n\n**用法：**\n- N です（〜是…）\n- N は N です（主題＋述語）",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.copula.desu.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l01.001",
+            "sent.src.ja.a1.early.l01.002",
+            "sent.src.ja.a1.early.l01.004"
+          ]
+        },
+        "kg.grammar.ja.particle.wa.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.wa.v1",
+          "title": "は（主題助詞）",
+          "description": "標示句子的主題，也可用來做對比。",
+          "explanation_md": "「は」是主題助詞，寫作「は」，作助詞時讀作「wa」。它用來提示「這句話接下來要談的是什麼」。\n\n**用法：**\n- N は N です。\n- N は Vます。\n\n初學時先把「は」理解成主題標記；和「が」相比，「が」常用來標出新資訊或焦點。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.wa.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l01.001",
+            "sent.src.ja.a1.early.l01.002",
+            "sent.src.ja.a1.early.l01.007"
+          ]
+        },
+        "kg.grammar.ja.particle.ka.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.ka.v1",
+          "title": "か（疑問助詞）",
+          "description": "放在句尾，形成禮貌疑問句。",
+          "explanation_md": "「か」放在禮貌句句尾，用來表示疑問。\n\n**用法：**\n- N ですか。\n- Vますか。\n\nA1 先掌握「ですか」「ますか」這類基本問句。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.ka.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l01.003",
+            "sent.src.ja.a1.early.l01.007",
+            "sent.src.ja.a1.early.l01.011"
+          ]
+        },
+        "kg.grammar.ja.particle.no.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.no.v1",
+          "title": "の（屬格助詞）",
+          "description": "連接兩個名詞，表示所有、所屬或種類。",
+          "explanation_md": "「の」放在兩個名詞中間，表示前面的名詞在說明後面的名詞。\n\n**用法：**\n- 私の本：我的書\n- 日本語の先生：日文老師\n- 会社の人：公司的人\n\nA1 可先把「N の N」看成一個名詞片語。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.no.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l01.006",
+            "sent.src.ja.a1.early.l01.013",
+            "sent.src.ja.a1.early.l01.019"
+          ]
+        },
+        "kg.grammar.ja.suffix.yo.v1": {
+          "knowledge_id": "kg.grammar.ja.suffix.yo.v1",
+          "title": "よ / ね（句尾語氣助詞）",
+          "description": "放在句尾，用來告知、輕微強調、確認或尋求共感。",
+          "explanation_md": "「よ」和「ね」都是日文句尾常見的語氣助詞。\n\n**用法：**\n- `よ`：把資訊告訴對方，或讓語氣稍微強一點。\n- `ね`：確認對方是否同意，或表示「對吧、呢」。\n\n**例句：**\n- それはいいですね。[id:sent.src.ja.a1.early.l01.009]\n- すごいですね。[id:sent.src.ja.a1.early.l01.018]\n\nA1 階段先把它們當成讓句子更自然、更有互動感的句尾語氣來學。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.suffix.yo.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l01.009",
+            "sent.src.ja.a1.early.l01.018"
+          ]
+        },
+        "kg.grammar.ja.nominalizer.koto.v1": {
+          "knowledge_id": "kg.grammar.ja.nominalizer.koto.v1",
+          "title": "Vこと（把動作名詞化）",
+          "description": "把動詞句變成名詞句，用來表達喜歡、擅長等對象。",
+          "explanation_md": "「こと」接在動詞辭書形後，表示「做某件事」。\n\n**用法：**\n- V辭書形 + こと が 好きです（喜歡做〜）\n- 写真を撮ることが好きです。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.nominalizer.koto.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.expand.b08.002",
+            "sent.src.ja.a1.integrate.b11.012",
+            "sent.src.ja.a1.integrate.b12.003"
+          ]
+        },
+        "kg.grammar.ja.particle.kara.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.kara.v1",
+          "title": "から（起點／來源）",
+          "description": "表示「從〜」的起點、來源或開始點。",
+          "explanation_md": "「から」接在名詞後，表示動作或狀態的起點。\n\n**用法：**\n- 場所 + から 来ました（從某地來）\n- 時間 + から（從某時間開始）\n\n**例句：**\n- アメリカから来ました。[id:sent.src.ja.a1.early.l01.005]\n- 中国から来ました。[id:sent.src.ja.a1.early.l02.001]",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.kara.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l01.005",
+            "sent.src.ja.a1.early.l02.001"
+          ]
+        },
+        "kg.grammar.ja.particle.mo.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.mo.v1",
+          "title": "も（也）",
+          "description": "表示「也、也一樣」的助詞。",
+          "explanation_md": "「も」接在名詞或主題位置，表示「也」。它常用來把新資訊和前面的資訊並列。\n\n**用法：**\n- N も（N 也〜）\n\n**例句：**\n- 日本語も話せます。[id:sent.src.ja.a1.early.l02.003]\n- 台湾も美しいです。[id:sent.src.ja.a1.early.l02.007]",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.mo.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l02.003",
+            "sent.src.ja.a1.early.l02.007",
+            "sent.src.ja.a1.early.l02.011"
+          ]
+        },
+        "kg.grammar.ja.conjunctive.jaa.v1": {
+          "knowledge_id": "kg.grammar.ja.conjunctive.jaa.v1",
+          "title": "じゃあ（那麼／那就）",
+          "description": "承接前一句，表示接下來的結論、選擇或行動。",
+          "explanation_md": "「じゃあ」是會話裡很常見的承接表現，意思接近「那麼、那就」。\n\n**用法：**\n- じゃあ、〜（那麼，就〜）\n\n**例句：**\n- じゃあ、日本語で話します。[id:sent.src.ja.a1.early.l02.010]\n\nA1 階段先把它當成自然接話的短語。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.conjunctive.jaa.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l02.010",
+            "sent.src.ja.a1.core.b02.013"
+          ]
+        },
+        "kg.grammar.ja.particle.ga.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.ga.v1",
+          "title": "が（主語／存在句標記）",
+          "description": "標示主語，常出現在存在句或喜好表達中。",
+          "explanation_md": "「が」可以標示句子的主語。在 A1 早期，常見於「有〜」的存在句。\n\n**用法：**\n- N が います（有某人／某動物）\n- N が あります（有某物）\n- N が 好きです（喜歡某物）\n\n**例句：**\n- 兄が一人います。[id:sent.src.ja.a1.early.l03.004]\n- 三人の兄弟がいます。[id:sent.src.ja.a1.early.l03.008]",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.ga.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l03.004",
+            "sent.src.ja.a1.early.l03.008",
+            "sent.src.ja.a1.early.l03.012"
+          ]
+        },
+        "kg.grammar.ja.existence.iru.v1": {
+          "knowledge_id": "kg.grammar.ja.existence.iru.v1",
+          "title": "います（有／在：有生命）",
+          "description": "表示人或動物等有生命事物的存在。",
+          "explanation_md": "「います」用來表示人或動物等有生命事物「在、有」。\n\n**用法：**\n- N が います（有 N）\n- 場所 に N が います（某處有 N）\n- N は 場所 に います（N 在某處）\n\n**例句：**\n- 兄が一人います。[id:sent.src.ja.a1.early.l03.004]\n- 祖父と祖母は北京にいます。[id:sent.src.ja.a1.early.l03.006]",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.existence.iru.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l03.004",
+            "sent.src.ja.a1.early.l03.006",
+            "sent.src.ja.a1.early.l03.008",
+            "sent.src.ja.a1.early.l03.012"
+          ]
+        },
+        "kg.grammar.ja.existence.aru.v1": {
+          "knowledge_id": "kg.grammar.ja.existence.aru.v1",
+          "title": "あります（有／在：無生命）",
+          "description": "表示物品、場所、事件等無生命事物的存在。",
+          "explanation_md": "「あります」用來表示物品、場所或事件「有、在」。和「います」不同，通常不用於人或動物。\n\n**用法：**\n- N が あります（有 N）\n- 場所 に N が あります（某處有 N）\n\nA1-EARLY 目前先列為必備節點，後續需要補至少兩個實際例句。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.existence.aru.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b05.003",
+            "sent.src.ja.a1.core.b05.010",
+            "sent.src.ja.a1.core.b06.005",
+            "sent.src.ja.a1.integrate.b10.005",
+            "sent.src.ja.a1.integrate.b10.010"
+          ]
+        },
+        "kg.grammar.ja.particle.ni.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.ni.v1",
+          "title": "に（時間／位置／方向）",
+          "description": "標示時間點、存在的位置或移動方向。",
+          "explanation_md": "「に」用途很多。A1 先學三種最常見用法：時間點、存在位置、移動方向。\n\n**用法：**\n- 時間 + に（在某時間）\n- 場所 + に います/あります（在某處）\n- 場所 + に 行きます/来ます（去／來某處）\n\n**例句：**\n- 祖父と祖母は北京にいます。[id:sent.src.ja.a1.early.l03.006]",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.ni.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l03.006",
+            "sent.src.ja.a1.core.b02.002",
+            "sent.src.ja.a1.core.b02.003",
+            "sent.src.ja.a1.core.b02.016"
+          ]
+        },
+        "kg.grammar.ja.counter.nin.v1": {
+          "knowledge_id": "kg.grammar.ja.counter.nin.v1",
+          "title": "人（人數助數詞）",
+          "description": "用來數人數的助數詞。",
+          "explanation_md": "「人」用來數人數。注意「一人（ひとり）」和「二人（ふたり）」讀法特殊。\n\n**用法：**\n- 一人、二人、三人、四人...\n\n**例句：**\n- 兄が一人います。[id:sent.src.ja.a1.early.l03.004]\n- 三人の兄弟がいます。[id:sent.src.ja.a1.early.l03.008]",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.counter.nin.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l03.004",
+            "sent.src.ja.a1.early.l03.008",
+            "sent.src.ja.a1.early.l03.012"
+          ]
+        },
+        "kg.grammar.ja.particle.to.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.to.v1",
+          "title": "と（和／與）",
+          "description": "連接名詞，表示「和」。",
+          "explanation_md": "「と」可以連接名詞，表示「和、與」。A1 先學名詞並列的用法。\n\n**用法：**\n- N と N（N 和 N）\n\n**例句：**\n- 北京とソウルと台北です。[id:sent.src.ja.a1.early.l02.008]\n- 祖父と祖母は北京にいます。[id:sent.src.ja.a1.early.l03.006]",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.to.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l02.008",
+            "sent.src.ja.a1.early.l03.006"
+          ]
+        },
+        "kg.grammar.ja.particle.de.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.de.v1",
+          "title": "で（場所／手段）",
+          "description": "標示動作發生的場所或使用的手段。",
+          "explanation_md": "「で」可以表示動作發生的地方，也可以表示使用的工具、語言或交通方式。\n\n**用法：**\n- 場所 + で Vます（在某處做）\n- 手段/語言 + で Vます（用某方式做）\n\n**例句：**\n- じゃあ、日本語で話します。[id:sent.src.ja.a1.early.l02.010]",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.de.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l02.010",
+            "sent.src.ja.a1.core.b02.003",
+            "sent.src.ja.a1.core.b02.011",
+            "sent.src.ja.a1.core.b03.002"
+          ]
+        },
+        "kg.grammar.ja.verb.masu.v1": {
+          "knowledge_id": "kg.grammar.ja.verb.masu.v1",
+          "title": "ます形（禮貌動詞）",
+          "description": "日文禮貌語體中最基本的動詞形式。",
+          "explanation_md": "「ます」是動詞的禮貌形式，適合初次見面、店家、課堂等場景。\n\n**用法：**\n- Vます（做〜）\n- Vません（不做〜）\n- Vました（做了〜）\n\nA1 先用它建立穩定的禮貌句型。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.verb.masu.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b02.001",
+            "sent.src.ja.a1.early.l02.010",
+            "sent.src.ja.a1.early.l03.007"
+          ]
+        },
+        "kg.grammar.ja.particle.wo.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.wo.v1",
+          "title": "を（受詞助詞）",
+          "description": "標示動作的對象。",
+          "explanation_md": "「を」放在名詞後，表示動作作用的對象。\n\n**用法：**\n- N を Vます（做某個動作於 N）\n- コーヒーを飲みます / 写真を撮ります\n\nA1 先把它視為「動詞前的受詞標記」。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.wo.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b02.001",
+            "sent.src.ja.a1.early.l03.007",
+            "sent.src.ja.a1.expand.b08.002"
+          ]
+        },
+        "kg.grammar.ja.past.v1": {
+          "knowledge_id": "kg.grammar.ja.past.v1",
+          "title": "ました（禮貌過去）",
+          "description": "表示已經發生的動作。",
+          "explanation_md": "「ました」是動詞ます形的過去肯定形。\n\n**用法：**\n- Vました（做了〜）\n- Vませんでした（沒有做〜）\n\n用來說昨天、上週、剛才等已完成的事情。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.past.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b02.006",
+            "sent.src.ja.a1.core.b03.008",
+            "sent.src.ja.a1.core.b05.011",
+            "sent.src.ja.a1.integrate.b12.002"
+          ]
+        },
+        "kg.grammar.ja.time.ni.v1": {
+          "knowledge_id": "kg.grammar.ja.time.ni.v1",
+          "title": "時間 + に",
+          "description": "標示動作發生的時間點。",
+          "explanation_md": "「に」接在時間詞後，表示動作發生在某個時間點。\n\n**用法：**\n- 六時に起きます（六點起床）\n- 金曜日に行きます（星期五去）\n\n不是所有時間詞都一定要加「に」，A1 先從具體時間點開始學。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.time.ni.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b02.002",
+            "sent.src.ja.a1.core.b05.005"
+          ]
+        },
+        "kg.grammar.ja.verb.te.v1": {
+          "knowledge_id": "kg.grammar.ja.verb.te.v1",
+          "title": "て形",
+          "description": "連接、請求與進行狀態的基礎形。",
+          "explanation_md": "動詞て形是把動詞接到後續表達的基礎形。A1 先把它當作「連接形」理解。\n\n**用法：**\n- Vて、Vます：連接動作\n- Vてから、Vます：做完某事之後再做\n- Vています／Vてください：以て形為基礎接出來的句型\n\n請求或進行狀態會在對應句型中再細分。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.verb.te.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b02.018",
+            "sent.src.ja.a1.core.b03.003",
+            "sent.src.ja.a1.core.b02.016",
+            "sent.src.ja.a1.core.b02.017"
+          ]
+        },
+        "kg.grammar.ja.particle.made.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.made.v1",
+          "title": "まで（到〜為止）",
+          "description": "表示空間或時間的終點。",
+          "explanation_md": "「まで」表示到某個地方或時間為止。\n\n**用法：**\n- 場所まで行きます（到某地）\n- 時間までです（到某時間為止）\n\n和「までに」不同，「まで」強調終點。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.made.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b03.002",
+            "sent.src.ja.a1.core.b03.013"
+          ]
+        },
+        "kg.grammar.ja.desiderative.v1": {
+          "knowledge_id": "kg.grammar.ja.desiderative.v1",
+          "title": "たいです（想做〜）",
+          "description": "表示說話者想做某事。",
+          "explanation_md": "把動詞ます形去掉「ます」後接「たいです」，表示「想做〜」。\n\n**用法：**\n- 行きたいです（想去）\n- 買いたいです（想買）\n\n通常用來說自己的願望；詢問別人時常用疑問句。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.desiderative.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b01.001",
+            "sent.src.ja.a1.core.b01.009",
+            "sent.src.ja.a1.expand.b07.011",
+            "sent.src.ja.a1.expand.b08.004"
+          ]
+        },
+        "kg.grammar.ja.adj.i.v1": {
+          "knowledge_id": "kg.grammar.ja.adj.i.v1",
+          "title": "い形容詞",
+          "description": "以「い」結尾的形容詞。",
+          "explanation_md": "い形容詞可以直接接「です」形成禮貌句。\n\n**用法：**\n- 大きいです（很大）\n- 難しいです（很難）\n- 高いです（很高／很貴）\n\nA1 先學肯定句，再逐步補否定與過去形。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.adj.i.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b02.008",
+            "sent.src.ja.a1.core.b02.012",
+            "sent.src.ja.a1.core.b06.004",
+            "sent.src.ja.a1.core.b02.014",
+            "sent.src.ja.a1.core.b02.015"
+          ]
+        },
+        "kg.grammar.ja.adj.na.v1": {
+          "knowledge_id": "kg.grammar.ja.adj.na.v1",
+          "title": "な形容詞",
+          "description": "修飾名詞時通常接「な」的形容詞。",
+          "explanation_md": "な形容詞作述語時可直接接「です」，修飾名詞時接「な」。\n\n**用法：**\n- 静かです（很安靜）\n- 大切です（很重要）\n- 静かな町（安靜的城市）\n\nA1 先辨認它和い形容詞的不同。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.adj.na.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b03.009",
+            "sent.src.ja.a1.expand.b09.009",
+            "sent.src.ja.a1.integrate.b11.012",
+            "sent.src.ja.a1.integrate.b12.003"
+          ]
+        },
+        "kg.grammar.ja.comparative.v1": {
+          "knowledge_id": "kg.grammar.ja.comparative.v1",
+          "title": "より（比較）",
+          "description": "表示比較基準。",
+          "explanation_md": "「より」放在比較對象後，表示「比〜」。\n\n**用法：**\n- N1 は N2 より Adj です（N1 比 N2 更〜）\n\n比較句常和形容詞一起出現，用來描述城市、價格、天氣等差異。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.comparative.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b02.008",
+            "sent.src.ja.a1.core.b03.009"
+          ]
+        },
+        "kg.grammar.ja.particle.ya.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.ya.v1",
+          "title": "や（列舉例子）",
+          "description": "列出幾個代表例，暗示還有其他項目。",
+          "explanation_md": "「や」用來列舉例子，不表示完整清單。\n\n**用法：**\n- N や N（N 和 N 等等）\n\n「と」偏向列出全部；「や」偏向舉例。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.ya.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b04.013",
+            "sent.src.ja.a1.core.b04.014"
+          ]
+        },
+        "kg.grammar.ja.volitional.mashou.v1": {
+          "knowledge_id": "kg.grammar.ja.volitional.mashou.v1",
+          "title": "ましょう（一起〜吧）",
+          "description": "禮貌地提議一起做某事。",
+          "explanation_md": "「ましょう」用來邀請或提議一起行動。\n\n**用法：**\n- Vましょう（一起〜吧）\n- 食べましょう / 行きましょう\n\n在旅行、吃飯、約時間時很常用。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.volitional.mashou.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b01.003",
+            "sent.src.ja.a1.core.b03.007"
+          ]
+        },
+        "kg.grammar.ja.conjunctive.nagara.v1": {
+          "knowledge_id": "kg.grammar.ja.conjunctive.nagara.v1",
+          "title": "ながら（邊〜邊〜）",
+          "description": "表示兩個動作同時進行。",
+          "explanation_md": "「ながら」接在動詞ます形語幹後，表示一邊做某事一邊做另一件事。\n\n**用法：**\n- Vながら Vます（邊〜邊〜）\n\n例如邊看電視邊吃飯、邊拍照邊走路。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.conjunctive.nagara.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b04.015",
+            "sent.src.ja.a1.core.b04.016"
+          ]
+        },
+        "kg.grammar.ja.movement.purpose_ni.v1": {
+          "knowledge_id": "kg.grammar.ja.movement.purpose_ni.v1",
+          "title": "Vに行きます（去做〜）",
+          "description": "表示移動的目的。",
+          "explanation_md": "動詞ます形語幹 + に + 行きます，表示「去做某件事」。\n\n**用法：**\n- 見に行きます（去看）\n- 撮りに行きます（去拍）\n\n這裡的「に」不是地點，而是目的。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.movement.purpose_ni.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b06.006",
+            "sent.src.ja.a1.core.b06.013"
+          ]
+        },
+        "kg.grammar.ja.particle.madeni.v1": {
+          "knowledge_id": "kg.grammar.ja.particle.madeni.v1",
+          "title": "までに（在〜以前）",
+          "description": "表示期限或截止時間。",
+          "explanation_md": "「までに」表示某件事要在期限前完成。\n\n**用法：**\n- 時間までに Vます（在〜以前做）\n\n和「まで」不同，「までに」強調截止期限。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.particle.madeni.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b06.014",
+            "sent.src.ja.a1.core.b06.015"
+          ]
+        },
+        "kg.grammar.ja.ability.dekiru.v1": {
+          "knowledge_id": "kg.grammar.ja.ability.dekiru.v1",
+          "title": "できます（能力／可以做）",
+          "description": "表示能力或可行性。",
+          "explanation_md": "「できます」表示能力或可能。\n\n**用法：**\n- N ができます：會某項活動\n- Vことができます：能做某件事\n\n「友達ができました」是「交到朋友」的意思，不作為能力用法的教學例句。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.ability.dekiru.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b05.004",
+            "sent.src.ja.a1.core.b06.007",
+            "sent.src.ja.a1.core.b06.016"
+          ]
+        },
+        "kg.grammar.ja.permission.v1": {
+          "knowledge_id": "kg.grammar.ja.permission.v1",
+          "title": "てもいいです（可以〜）",
+          "description": "表示許可或詢問是否可以做某事。",
+          "explanation_md": "「Vてもいいです」表示「可以〜」；加上「か」可用來詢問許可。\n\n**用法：**\n- Vてもいいです（可以〜）\n- Vてもいいですか（可以〜嗎？）\n\n常見於旅行、教室、服務場景中的禮貌確認。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.permission.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b02.016",
+            "sent.src.ja.a1.core.b02.017"
+          ]
+        },
+        "kg.grammar.ja.conjunctive.demo.v1": {
+          "knowledge_id": "kg.grammar.ja.conjunctive.demo.v1",
+          "title": "でも（可是／但是）",
+          "description": "承接前句並提出轉折。",
+          "explanation_md": "「でも」是會話中常見的轉折連接詞，意思接近「可是、但是」。\n\n**用法：**\n- でも、〜（可是，〜）\n\nA1 階段先把它當成句首轉折詞，用來補充不同看法或限制。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.conjunctive.demo.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b02.014",
+            "sent.src.ja.a1.core.b02.015"
+          ]
+        },
+        "kg.grammar.ja.counter.tsu.v1": {
+          "knowledge_id": "kg.grammar.ja.counter.tsu.v1",
+          "title": "つ（一般助數詞）",
+          "description": "用來數許多一般物品的基礎助數詞。",
+          "explanation_md": "「つ」是 A1 常見的一般助數詞，可用於許多沒有特定助數詞的物品。\n\n**用法：**\n- 一つ、二つ、三つ\n\n先掌握常見數量，再逐步補更細的助數詞。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.counter.tsu.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b02.004",
+            "sent.src.ja.a1.core.b04.003"
+          ]
+        },
+        "kg.grammar.ja.intention.tsumori.v1": {
+          "knowledge_id": "kg.grammar.ja.intention.tsumori.v1",
+          "title": "つもりです（打算〜）",
+          "description": "表示已經有的意圖或計畫。",
+          "explanation_md": "「つもりです」用來說自己已經打算做某事。\n\n**用法：**\n- V辭書形 + つもりです（打算〜）\n\n比臨時想到的「想〜」更像已決定的計畫。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.intention.tsumori.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.expand.b09.013",
+            "sent.src.ja.a1.expand.b09.014"
+          ]
+        },
+        "kg.grammar.ja.sequence.tekara.v1": {
+          "knowledge_id": "kg.grammar.ja.sequence.tekara.v1",
+          "title": "てから（〜之後）",
+          "description": "表示先做完一件事，再做下一件事。",
+          "explanation_md": "「Vてから」表示第一個動作完成後，再進行第二個動作。\n\n**用法：**\n- Vてから、Vます（做完〜之後，做〜）\n\n重點是順序與完成。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.sequence.tekara.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.expand.b09.015",
+            "sent.src.ja.a1.expand.b09.016"
+          ]
+        },
+        "kg.grammar.ja.try.temiru.v1": {
+          "knowledge_id": "kg.grammar.ja.try.temiru.v1",
+          "title": "てみます（試著〜看看）",
+          "description": "表示試做某個動作。",
+          "explanation_md": "「Vてみます」表示先試著做某事，看看結果如何。\n\n**用法：**\n- Vて + みます（試著〜）\n\n常用於學習、點餐、旅行時的嘗試。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.try.temiru.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.expand.b09.017",
+            "sent.src.ja.a1.expand.b09.018"
+          ]
+        },
+        "kg.grammar.ja.aspect.teiru.v1": {
+          "knowledge_id": "kg.grammar.ja.aspect.teiru.v1",
+          "title": "ています（正在／持續）",
+          "description": "表示正在進行的動作，或持續中的習慣、狀態。",
+          "explanation_md": "「Vています」可以表示現在正在做，也可以表示持續的習慣。\n\n**用法：**\n- 今、Vています（現在正在〜）\n- 毎日、Vています（每天都在〜）",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.aspect.teiru.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l03.003",
+            "sent.src.ja.a1.integrate.b12.010"
+          ]
+        },
+        "kg.grammar.ja.aspect.tearu.v1": {
+          "knowledge_id": "kg.grammar.ja.aspect.tearu.v1",
+          "title": "てあります（已經〜好）",
+          "description": "表示某人事先做了某動作，結果狀態仍然存在。",
+          "explanation_md": "「Vてあります」強調準備好的結果狀態。\n\n**用法：**\n- N が Vてあります（N 已經被〜好了）\n\n常見於門窗、名字、資料、安排等已準備好的狀態。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.aspect.tearu.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b10.015",
+            "sent.src.ja.a1.integrate.b10.016"
+          ]
+        },
+        "kg.grammar.ja.aspect.teshimau.v1": {
+          "knowledge_id": "kg.grammar.ja.aspect.teshimau.v1",
+          "title": "てしまいます（完成／不小心〜）",
+          "description": "表示動作完成，或帶有遺憾、失誤的感覺。",
+          "explanation_md": "「Vてしまいます」可表示完全做完，也常用來說不小心造成的結果。\n\n**用法：**\n- Vてしまいました（不小心〜了／已經〜完了）\n\nA1 先從「忘れてしまいました」這類失誤句型學起。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.aspect.teshimau.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b10.017",
+            "sent.src.ja.a1.integrate.b10.018"
+          ]
+        },
+        "kg.grammar.ja.obligation.nakereba.v1": {
+          "knowledge_id": "kg.grammar.ja.obligation.nakereba.v1",
+          "title": "なければなりません（必須〜）",
+          "description": "表示必須做某件事。",
+          "explanation_md": "「Vなければなりません」表示義務或必要性。\n\n**用法：**\n- Vない形去掉 ない + なければなりません\n\n用來說工作、學習、旅行準備中非做不可的事。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.obligation.nakereba.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b11.013",
+            "sent.src.ja.a1.integrate.b11.014"
+          ]
+        },
+        "kg.grammar.ja.nominalizer.no.v1": {
+          "knowledge_id": "kg.grammar.ja.nominalizer.no.v1",
+          "title": "のが（把動作變成評價對象）",
+          "description": "把動詞句名詞化，用來接「擅長、喜歡」等評價。",
+          "explanation_md": "「Vのが」把一個動作變成句子的主語或評價對象。\n\n**用法：**\n- V辭書形 + のが + 上手です\n\n和「こと」相近，但「の」在日常評價裡很常見。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.nominalizer.no.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b11.015",
+            "sent.src.ja.a1.integrate.b11.016"
+          ]
+        },
+        "kg.grammar.ja.habit.youni_shiteiru.v1": {
+          "knowledge_id": "kg.grammar.ja.habit.youni_shiteiru.v1",
+          "title": "ようにしています（盡量／習慣做〜）",
+          "description": "表示持續努力維持某個習慣。",
+          "explanation_md": "「Vようにしています」表示有意識地讓自己保持某個行為。\n\n**用法：**\n- V辭書形 + ようにしています（盡量〜）\n\n適合說讀書、運動、生活習慣。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.habit.youni_shiteiru.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b11.017",
+            "sent.src.ja.a1.integrate.b11.018"
+          ]
+        },
+        "kg.grammar.ja.experience.takotoaru.v1": {
+          "knowledge_id": "kg.grammar.ja.experience.takotoaru.v1",
+          "title": "たことがあります（曾經〜過）",
+          "description": "表示人生經驗。",
+          "explanation_md": "「Vたことがあります」表示曾經做過某事。\n\n**用法：**\n- Vた形 + ことがあります（曾經〜過）\n\n重點不是何時發生，而是有沒有這個經驗。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.experience.takotoaru.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b12.013",
+            "sent.src.ja.a1.integrate.b12.014"
+          ]
+        },
+        "kg.grammar.ja.conditional.to.v1": {
+          "knowledge_id": "kg.grammar.ja.conditional.to.v1",
+          "title": "と（條件：一〜就〜）",
+          "description": "表示自然、可預期的結果，也常用於道案內。",
+          "explanation_md": "條件「と」表示某條件成立時，自然會出現某結果。\n\n**用法：**\n- V辭書形 + と、結果\n\nA1 先用於「右に曲がると、駅があります」這類路線或簡單因果。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.conditional.to.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b12.015",
+            "sent.src.ja.a1.integrate.b12.016"
+          ]
+        },
+        "kg.grammar.ja.request.naide_kudasai.v1": {
+          "knowledge_id": "kg.grammar.ja.request.naide_kudasai.v1",
+          "title": "ないでください（請不要〜）",
+          "description": "丁寧地要求對方不要做某事。",
+          "explanation_md": "「Vないでください」表示「請不要〜」。\n\n**用法：**\n- Vない形 + でください\n\n常見於公共場所、店家、教室和旅遊注意事項。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.request.naide_kudasai.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b12.017",
+            "sent.src.ja.a1.integrate.b12.018"
+          ]
+        },
+        "kg.grammar.ja.quotation.to_omoimasu.v1": {
+          "knowledge_id": "kg.grammar.ja.quotation.to_omoimasu.v1",
+          "title": "と思います（我覺得〜）",
+          "description": "用來表達自己的想法或意見。",
+          "explanation_md": "「と思います」接在普通形後，表示「我想、我覺得」。\n\n**用法：**\n- 普通形 + と思います\n- 難しいと思います / 高いと思います\n\nA1 先從短形容詞句的意見表達開始。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.quotation.to_omoimasu.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b12.019",
+            "sent.src.ja.a1.integrate.b12.020"
+          ]
+        },
+        "kg.grammar.ja.demonstrative.ko_so_a.v1": {
+          "knowledge_id": "kg.grammar.ja.demonstrative.ko_so_a.v1",
+          "title": "これ / それ / あれ / このN（指示詞）",
+          "description": "用來指稱眼前或談話中的物品。",
+          "explanation_md": "「これ・それ・あれ」依照距離指稱物品；「このN」放在名詞前。\n\n**用法：**\n- これはNです\n- このNは〜です\n\n旅行與購物時可用來確認物品。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.demonstrative.ko_so_a.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l01.003",
+            "sent.src.ja.a1.early.l01.004"
+          ]
+        },
+        "kg.grammar.ja.question.how.v1": {
+          "knowledge_id": "kg.grammar.ja.question.how.v1",
+          "title": "どう / どうやって（怎麼）",
+          "description": "詢問狀態、方法或去法。",
+          "explanation_md": "「どう」可問「怎麼樣」或「怎麼做」。\n\n**用法：**\n- どうですか\n- どう行きますか\n\nA1 先用於問路與問使用方法。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.question.how.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b06.001",
+            "sent.src.ja.a1.travel.fn.004"
+          ]
+        },
+        "kg.grammar.ja.request.kudasai.v1": {
+          "knowledge_id": "kg.grammar.ja.request.kudasai.v1",
+          "title": "ください（請給我／請〜）",
+          "description": "丁寧地請求物品或動作。",
+          "explanation_md": "「ください」可接名詞，也可接動詞て形。\n\n**用法：**\n- Nをください\n- Vてください\n\n是旅行、點餐、購物最核心的請求句型。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.request.kudasai.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b02.004",
+            "sent.src.ja.a1.core.b04.001"
+          ]
+        },
+        "kg.grammar.ja.softener.chotto.v1": {
+          "knowledge_id": "kg.grammar.ja.softener.chotto.v1",
+          "title": "ちょっと（有點／稍微）",
+          "description": "讓請求或意見更委婉。",
+          "explanation_md": "「ちょっと」除了表示「一點」，也常用來軟化語氣。\n\n**用法：**\n- ちょっと待ってください\n- ちょっと高いです",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.softener.chotto.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.travel.fn.007",
+            "sent.src.ja.a1.travel.fn.008"
+          ]
+        },
+        "kg.grammar.ja.negation.v1": {
+          "knowledge_id": "kg.grammar.ja.negation.v1",
+          "title": "ません / ないです（否定）",
+          "description": "表示不做、不是或沒有。",
+          "explanation_md": "「ません」是動詞的禮貌否定；「ないです」是會話中常見的否定。\n\n**用法：**\n- Vません\n- Vないです",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.negation.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.early.l03.005",
+            "sent.src.ja.a1.expand.b07.012"
+          ]
+        },
+        "kg.grammar.ja.purpose.tameni.v1": {
+          "knowledge_id": "kg.grammar.ja.purpose.tameni.v1",
+          "title": "ために（為了〜）",
+          "description": "表示目的。",
+          "explanation_md": "「ために」表示做某事的目的。\n\n**用法：**\n- NのためにVます\n- V辭書形 + ためにVます",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.purpose.tameni.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.expand.b07.006",
+            "sent.src.ja.a1.integrate.b10.011"
+          ]
+        },
+        "kg.grammar.ja.conjecture.deshou.v1": {
+          "knowledge_id": "kg.grammar.ja.conjecture.deshou.v1",
+          "title": "でしょう（大概／吧）",
+          "description": "表示推量或柔和確認。",
+          "explanation_md": "「でしょう」用來表示不完全肯定的推測。\n\n**用法：**\n- N/形容詞/普通形 + でしょう\n\n常用於天氣、路線、預測。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.conjecture.deshou.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b13.001",
+            "sent.src.ja.a1.integrate.b13.002"
+          ]
+        },
+        "kg.grammar.ja.evidential.souda.v1": {
+          "knowledge_id": "kg.grammar.ja.evidential.souda.v1",
+          "title": "そうだ（看起來〜）",
+          "description": "依外觀或狀況做判斷。",
+          "explanation_md": "樣態「そうだ」表示「看起來〜」。\n\n**用法：**\n- い形容詞語幹 + そうです\n- Vます語幹 + そうです",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.evidential.souda.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b13.003",
+            "sent.src.ja.a1.integrate.b13.004"
+          ]
+        },
+        "kg.grammar.ja.modality.kamoshirenai.v1": {
+          "knowledge_id": "kg.grammar.ja.modality.kamoshirenai.v1",
+          "title": "かもしれない（可能〜）",
+          "description": "表示可能性。",
+          "explanation_md": "「かもしれません」表示「也許、可能」。\n\n**用法：**\n- 普通形 + かもしれません\n\n比「でしょう」更不確定。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.modality.kamoshirenai.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b13.005",
+            "sent.src.ja.a1.integrate.b13.006"
+          ]
+        },
+        "kg.grammar.ja.benefactive.teageru.v1": {
+          "knowledge_id": "kg.grammar.ja.benefactive.teageru.v1",
+          "title": "てあげる（為別人做〜）",
+          "description": "表示自己或第三者為別人做某事。",
+          "explanation_md": "「Vてあげる」表示為對方做某事。\n\n**用法：**\n- 人にVてあげます\n\n注意語氣可能帶有施恩感，A1 先學基本理解。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.benefactive.teageru.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b14.002",
+            "sent.src.ja.a1.integrate.b14.011"
+          ]
+        },
+        "kg.grammar.ja.benefactive.tekureru.v1": {
+          "knowledge_id": "kg.grammar.ja.benefactive.tekureru.v1",
+          "title": "てくれる（別人為我方做〜）",
+          "description": "表示別人為說話者一方做某事。",
+          "explanation_md": "「Vてくれる」表示對方為我方做某事，常帶感謝感。\n\n**用法：**\n- 人がVてくれます",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.benefactive.tekureru.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b05.012",
+            "sent.src.ja.a1.integrate.b14.004"
+          ]
+        },
+        "kg.grammar.ja.benefactive.temorau.v1": {
+          "knowledge_id": "kg.grammar.ja.benefactive.temorau.v1",
+          "title": "てもらう（請／得到別人做〜）",
+          "description": "表示請別人做某事，自己受益。",
+          "explanation_md": "「Vてもらう」表示讓別人為自己做某事。\n\n**用法：**\n- 人にVてもらいます",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.benefactive.temorau.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b14.005",
+            "sent.src.ja.a1.integrate.b14.006"
+          ]
+        },
+        "kg.grammar.ja.aspect.tabakari.v1": {
+          "knowledge_id": "kg.grammar.ja.aspect.tabakari.v1",
+          "title": "たばかりです（剛〜）",
+          "description": "表示動作剛完成不久。",
+          "explanation_md": "「Vたばかりです」表示「剛剛〜」。\n\n**用法：**\n- Vた形 + ばかりです",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.aspect.tabakari.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b14.007",
+            "sent.src.ja.a1.integrate.b14.008"
+          ]
+        },
+        "kg.grammar.ja.hearsay.soudesu.v1": {
+          "knowledge_id": "kg.grammar.ja.hearsay.soudesu.v1",
+          "title": "そうです（聽說〜）",
+          "description": "轉述聽到的資訊。",
+          "explanation_md": "傳聞「そうです」表示「聽說〜」。\n\n**用法：**\n- 普通形 + そうです\n\n和樣態「看起來〜そうです」不同，這裡是聽來的資訊。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.hearsay.soudesu.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.core.b01.011",
+            "sent.src.ja.a1.integrate.b14.010"
+          ]
+        },
+        "kg.grammar.ja.plan.yotei.v1": {
+          "knowledge_id": "kg.grammar.ja.plan.yotei.v1",
+          "title": "予定です（預定〜）",
+          "description": "表示已排定的計畫。",
+          "explanation_md": "「予定です」表示已經安排好的行程或計畫。\n\n**用法：**\n- V辭書形 + 予定です\n- N の予定です\n\n和「つもりです」相比，「予定です」比較像已排入行程表的安排。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.plan.yotei.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b15.001",
+            "sent.src.ja.a1.integrate.b15.002"
+          ]
+        },
+        "kg.grammar.ja.expectation.hazu.v1": {
+          "knowledge_id": "kg.grammar.ja.expectation.hazu.v1",
+          "title": "はずです（應該〜）",
+          "description": "表示有根據的推測。",
+          "explanation_md": "「はずです」表示根據地圖、行程、聽到的資訊等理由，判斷「應該是〜」。\n\n**用法：**\n- N の + はずです\n- 普通形 + はずです\n\n它比單純猜測更強調「有根據」。",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.expectation.hazu.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b15.003",
+            "sent.src.ja.a1.integrate.b15.004"
+          ]
+        },
+        "kg.grammar.ja.decision.kotoni_shita.v1": {
+          "knowledge_id": "kg.grammar.ja.decision.kotoni_shita.v1",
+          "title": "ことにしました（決定〜）",
+          "description": "表示已做出的決定。",
+          "explanation_md": "「Vことにしました」表示「決定要〜」。\n\n**用法：**\n- V辭書形 + ことにしました",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.decision.kotoni_shita.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b15.005",
+            "sent.src.ja.a1.integrate.b15.006"
+          ]
+        },
+        "kg.grammar.ja.habit.kotoni_shiteiru.v1": {
+          "knowledge_id": "kg.grammar.ja.habit.kotoni_shiteiru.v1",
+          "title": "ことにしています（固定／規定做〜）",
+          "description": "表示自己決定並持續的習慣或規則。",
+          "explanation_md": "「Vことにしています」表示自己定下來並持續執行的習慣。\n\n**用法：**\n- V辭書形 + ことにしています",
+          "status": "needs_review",
+          "source_refs": [
+            "content/core/knowledge/grammar/kg.grammar.ja.habit.kotoni_shiteiru.v1.json"
+          ],
+          "example_sentence_refs": [
+            "sent.src.ja.a1.integrate.b15.007",
+            "sent.src.ja.a1.integrate.b15.008"
+          ]
+        }
+      }
+    },
+    "manifest.json": {
+      "schema_version": "learning-library-i18n-manifest-v1",
+      "study_language": "ja",
+      "learner_language": "zh_tw",
+      "files": {
+        "sources": "sources.json",
+        "sentences": "sentences.json",
+        "knowledge": "knowledge.json",
+        "topics": "topics.json"
+      },
+      "coverage_floor": {
+        "sentences": 0.95,
+        "knowledge": 0.95
+      }
+    },
+    "sentences.json": {
+      "schema_version": "learning-library-i18n-sentences-v1",
+      "study_language": "ja",
+      "learner_language": "zh_tw",
+      "entries": {
+        "shared_bank": {
+          "source_id": "shared_bank",
+          "source_type": "shared_bank",
+          "sentences": {
+            "sent.src.ja.a1.early.l01.001": {
+              "sentence_id": "sent.src.ja.a1.early.l01.001",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.001.json"
+              ],
+              "status": "active",
+              "translation": "我是學生。"
+            },
+            "sent.src.ja.a1.early.l01.002": {
+              "sentence_id": "sent.src.ja.a1.early.l01.002",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.002.json"
+              ],
+              "status": "active",
+              "translation": "田中先生是老師。"
+            },
+            "sent.src.ja.a1.early.l01.003": {
+              "sentence_id": "sent.src.ja.a1.early.l01.003",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.003.json"
+              ],
+              "status": "active",
+              "translation": "這是什麼？"
+            },
+            "sent.src.ja.a1.early.l01.004": {
+              "sentence_id": "sent.src.ja.a1.early.l01.004",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.004.json"
+              ],
+              "status": "active",
+              "translation": "那是蘋果。"
+            },
+            "sent.src.ja.a1.early.l01.005": {
+              "sentence_id": "sent.src.ja.a1.early.l01.005",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.005.json"
+              ],
+              "status": "active",
+              "translation": "從美國來的。"
+            },
+            "sent.src.ja.a1.early.l01.006": {
+              "sentence_id": "sent.src.ja.a1.early.l01.006",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.006.json"
+              ],
+              "status": "active",
+              "translation": "是東京大學的學生。"
+            },
+            "sent.src.ja.a1.early.l01.007": {
+              "sentence_id": "sent.src.ja.a1.early.l01.007",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.007.json"
+              ],
+              "status": "active",
+              "translation": "日語難嗎？"
+            },
+            "sent.src.ja.a1.early.l01.008": {
+              "sentence_id": "sent.src.ja.a1.early.l01.008",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.008.json"
+              ],
+              "status": "active",
+              "translation": "不，很有趣。"
+            },
+            "sent.src.ja.a1.early.l01.009": {
+              "sentence_id": "sent.src.ja.a1.early.l01.009",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.009.json"
+              ],
+              "status": "active",
+              "translation": "那很好呢。"
+            },
+            "sent.src.ja.a1.early.l01.010": {
+              "sentence_id": "sent.src.ja.a1.early.l01.010",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.010.json"
+              ],
+              "status": "active",
+              "translation": "初次見面。"
+            },
+            "sent.src.ja.a1.early.l01.011": {
+              "sentence_id": "sent.src.ja.a1.early.l01.011",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.011.json"
+              ],
+              "status": "active",
+              "translation": "不好意思，請問是麥克先生嗎？"
+            },
+            "sent.src.ja.a1.early.l01.012": {
+              "sentence_id": "sent.src.ja.a1.early.l01.012",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.012.json"
+              ],
+              "status": "active",
+              "translation": "是的，是蘋果。"
+            },
+            "sent.src.ja.a1.early.l01.013": {
+              "sentence_id": "sent.src.ja.a1.early.l01.013",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.013.json"
+              ],
+              "status": "active",
+              "translation": "是日語老師。"
+            },
+            "sent.src.ja.a1.early.l01.014": {
+              "sentence_id": "sent.src.ja.a1.early.l01.014",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.014.json"
+              ],
+              "status": "active",
+              "translation": "請多多指教。"
+            },
+            "sent.src.ja.a1.early.l01.015": {
+              "sentence_id": "sent.src.ja.a1.early.l01.015",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.015.json"
+              ],
+              "status": "active",
+              "translation": "是美國人。"
+            },
+            "sent.src.ja.a1.early.l01.016": {
+              "sentence_id": "sent.src.ja.a1.early.l01.016",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.016.json"
+              ],
+              "status": "active",
+              "translation": "是學生嗎？"
+            },
+            "sent.src.ja.a1.early.l01.017": {
+              "sentence_id": "sent.src.ja.a1.early.l01.017",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.017.json"
+              ],
+              "status": "active",
+              "translation": "謝謝。"
+            },
+            "sent.src.ja.a1.early.l01.018": {
+              "sentence_id": "sent.src.ja.a1.early.l01.018",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.018.json"
+              ],
+              "status": "active",
+              "translation": "好厲害呢。"
+            },
+            "sent.src.ja.a1.early.l01.019": {
+              "sentence_id": "sent.src.ja.a1.early.l01.019",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.019.json"
+              ],
+              "status": "active",
+              "translation": "我的名字是田中。"
+            },
+            "sent.src.ja.a1.early.l01.020": {
+              "sentence_id": "sent.src.ja.a1.early.l01.020",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l01.020.json"
+              ],
+              "status": "active",
+              "translation": "不，日語很難。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_001": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_001",
+              "turn_id": "turn_001",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d1.json"
+              ],
+              "status": "active",
+              "translation": "不好意思，請問是蘋果嗎？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_002": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_002",
+              "turn_id": "turn_002",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d1.json"
+              ],
+              "status": "active",
+              "translation": "是的，我是麥克。麥克・史密斯。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_003": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_003",
+              "turn_id": "turn_003",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d1.json"
+              ],
+              "status": "active",
+              "translation": "初次見面。我是田中。我是日語老師。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_004": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_004",
+              "turn_id": "turn_004",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d1.json"
+              ],
+              "status": "active",
+              "translation": "初次見面。我從美國來的。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_005": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_005",
+              "turn_id": "turn_005",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d1.json"
+              ],
+              "status": "active",
+              "translation": "這樣啊。日語難嗎？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_006": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_006",
+              "turn_id": "turn_006",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d1.json"
+              ],
+              "status": "active",
+              "translation": "不，很有趣。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_007": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d1:turn_007",
+              "turn_id": "turn_007",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d1.json"
+              ],
+              "status": "active",
+              "translation": "那很好呢。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_001": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_001",
+              "turn_id": "turn_001",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d2.json"
+              ],
+              "status": "active",
+              "translation": "小櫻，這位是麥克。他是美國人。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_002": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_002",
+              "turn_id": "turn_002",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d2.json"
+              ],
+              "status": "active",
+              "translation": "初次見面，我是小櫻。請多多指教。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_003": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_003",
+              "turn_id": "turn_003",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d2.json"
+              ],
+              "status": "active",
+              "translation": "初次見面。我是麥克・強森。我是學生。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_004": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_004",
+              "turn_id": "turn_004",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d2.json"
+              ],
+              "status": "active",
+              "translation": "是大學生嗎？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_005": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_005",
+              "turn_id": "turn_005",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d2.json"
+              ],
+              "status": "active",
+              "translation": "是的，是東京大學的學生。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_006": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l01-d2:turn_006",
+              "turn_id": "turn_006",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l01-d2.json"
+              ],
+              "status": "active",
+              "translation": "好厲害呢。"
+            },
+            "sent.src.ja.video.ja_l01_video_stub_001.v_001": {
+              "sentence_id": "sent.src.ja.video.ja_l01_video_stub_001.v_001",
+              "turn_id": "v_001",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l01-video-stub-001.json"
+              ],
+              "status": "active",
+              "translation": "初次見面。"
+            },
+            "sent.src.ja.video.ja_l01_video_stub_001.v_002": {
+              "sentence_id": "sent.src.ja.video.ja_l01_video_stub_001.v_002",
+              "turn_id": "v_002",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l01-video-stub-001.json"
+              ],
+              "status": "active",
+              "translation": "我是日語老師。"
+            },
+            "sent.src.ja.a1.early.l02.001": {
+              "sentence_id": "sent.src.ja.a1.early.l02.001",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.001.json"
+              ],
+              "status": "active",
+              "translation": "從中國來的。"
+            },
+            "sent.src.ja.a1.early.l02.002": {
+              "sentence_id": "sent.src.ja.a1.early.l02.002",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.002.json"
+              ],
+              "status": "active",
+              "translation": "韓語很簡單。"
+            },
+            "sent.src.ja.a1.early.l02.003": {
+              "sentence_id": "sent.src.ja.a1.early.l02.003",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.003.json"
+              ],
+              "status": "active",
+              "translation": "我也講日語。"
+            },
+            "sent.src.ja.a1.early.l02.004": {
+              "sentence_id": "sent.src.ja.a1.early.l02.004",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.004.json"
+              ],
+              "status": "active",
+              "translation": "京都是古老的城鎮。"
+            },
+            "sent.src.ja.a1.early.l02.005": {
+              "sentence_id": "sent.src.ja.a1.early.l02.005",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.005.json"
+              ],
+              "status": "active",
+              "translation": "上海是大的城鎮。"
+            },
+            "sent.src.ja.a1.early.l02.006": {
+              "sentence_id": "sent.src.ja.a1.early.l02.006",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.006.json"
+              ],
+              "status": "active",
+              "translation": "中文難嗎？"
+            },
+            "sent.src.ja.a1.early.l02.007": {
+              "sentence_id": "sent.src.ja.a1.early.l02.007",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.007.json"
+              ],
+              "status": "active",
+              "translation": "台灣也很美麗。"
+            },
+            "sent.src.ja.a1.early.l02.008": {
+              "sentence_id": "sent.src.ja.a1.early.l02.008",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.008.json"
+              ],
+              "status": "active",
+              "translation": "北京、首爾和台北。"
+            },
+            "sent.src.ja.a1.early.l02.009": {
+              "sentence_id": "sent.src.ja.a1.early.l02.009",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.009.json"
+              ],
+              "status": "active",
+              "translation": "英語很好呢。"
+            },
+            "sent.src.ja.a1.early.l02.010": {
+              "sentence_id": "sent.src.ja.a1.early.l02.010",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.010.json"
+              ],
+              "status": "active",
+              "translation": "那麼，用日語說吧。"
+            },
+            "sent.src.ja.a1.early.l02.011": {
+              "sentence_id": "sent.src.ja.a1.early.l02.011",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.011.json"
+              ],
+              "status": "active",
+              "translation": "美國人和中國人都有。"
+            },
+            "sent.src.ja.a1.early.l02.012": {
+              "sentence_id": "sent.src.ja.a1.early.l02.012",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l02.012.json"
+              ],
+              "status": "active",
+              "translation": "我的國家是韩国。"
+            },
+            "sent.src.ja.a1.early.l03.001": {
+              "sentence_id": "sent.src.ja.a1.early.l03.001",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.001.json"
+              ],
+              "status": "active",
+              "translation": "我的家人有四個人。"
+            },
+            "sent.src.ja.a1.early.l03.002": {
+              "sentence_id": "sent.src.ja.a1.early.l03.002",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.002.json"
+              ],
+              "status": "active",
+              "translation": "父親是公司職員。"
+            },
+            "sent.src.ja.a1.early.l03.003": {
+              "sentence_id": "sent.src.ja.a1.early.l03.003",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.003.json"
+              ],
+              "status": "active",
+              "translation": "母親也在工作。"
+            },
+            "sent.src.ja.a1.early.l03.004": {
+              "sentence_id": "sent.src.ja.a1.early.l03.004",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.004.json"
+              ],
+              "status": "active",
+              "translation": "有一個哥哥。"
+            },
+            "sent.src.ja.a1.early.l03.005": {
+              "sentence_id": "sent.src.ja.a1.early.l03.005",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.005.json"
+              ],
+              "status": "active",
+              "translation": "沒有妹妹。"
+            },
+            "sent.src.ja.a1.early.l03.006": {
+              "sentence_id": "sent.src.ja.a1.early.l03.006",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.006.json"
+              ],
+              "status": "active",
+              "translation": "祖父和祖母在北京。"
+            },
+            "sent.src.ja.a1.early.l03.007": {
+              "sentence_id": "sent.src.ja.a1.early.l03.007",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.007.json"
+              ],
+              "status": "active",
+              "translation": "看家人的照片。"
+            },
+            "sent.src.ja.a1.early.l03.008": {
+              "sentence_id": "sent.src.ja.a1.early.l03.008",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.008.json"
+              ],
+              "status": "active",
+              "translation": "有三個兄弟。"
+            },
+            "sent.src.ja.a1.early.l03.009": {
+              "sentence_id": "sent.src.ja.a1.early.l03.009",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.009.json"
+              ],
+              "status": "active",
+              "translation": "姊姊是學生。"
+            },
+            "sent.src.ja.a1.early.l03.010": {
+              "sentence_id": "sent.src.ja.a1.early.l03.010",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.010.json"
+              ],
+              "status": "active",
+              "translation": "沒有弟弟。"
+            },
+            "sent.src.ja.a1.early.l03.011": {
+              "sentence_id": "sent.src.ja.a1.early.l03.011",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.011.json"
+              ],
+              "status": "active",
+              "translation": "媽媽很溫柔。"
+            },
+            "sent.src.ja.a1.early.l03.012": {
+              "sentence_id": "sent.src.ja.a1.early.l03.012",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l03.012.json"
+              ],
+              "status": "active",
+              "translation": "有五個家人的。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_001": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_001",
+              "turn_id": "turn_001",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d1.json"
+              ],
+              "status": "active",
+              "translation": "初次見面。我姓王。從中國來的。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_002": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_002",
+              "turn_id": "turn_002",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d1.json"
+              ],
+              "status": "active",
+              "translation": "初次見面。我是金。從韓國來的。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_003": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_003",
+              "turn_id": "turn_003",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d1.json"
+              ],
+              "status": "active",
+              "translation": "你會說日語嗎？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_004": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_004",
+              "turn_id": "turn_004",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d1.json"
+              ],
+              "status": "active",
+              "translation": "我會說一點。中文也會說。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_005": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_005",
+              "turn_id": "turn_005",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d1.json"
+              ],
+              "status": "active",
+              "translation": "好厲害呢。日語難嗎？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_006": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_006",
+              "turn_id": "turn_006",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d1.json"
+              ],
+              "status": "active",
+              "translation": "對，有一點難。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_007": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d1:turn_007",
+              "turn_id": "turn_007",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d1.json"
+              ],
+              "status": "active",
+              "translation": "那你的日語也很好呢。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_001": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_001",
+              "turn_id": "turn_001",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d2.json"
+              ],
+              "status": "active",
+              "translation": "田中先生的出身是哪裡？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_002": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_002",
+              "turn_id": "turn_002",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d2.json"
+              ],
+              "status": "active",
+              "translation": "京都。是古老的城鎮。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_003": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_003",
+              "turn_id": "turn_003",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d2.json"
+              ],
+              "status": "active",
+              "translation": "京都很美麗呢。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_004": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_004",
+              "turn_id": "turn_004",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d2.json"
+              ],
+              "status": "active",
+              "translation": "謝謝。王先生是從哪裡來的？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_005": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_005",
+              "turn_id": "turn_005",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d2.json"
+              ],
+              "status": "active",
+              "translation": "上海。上海是大的城鎮。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_006": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l02-d2:turn_006",
+              "turn_id": "turn_006",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l02-d2.json"
+              ],
+              "status": "active",
+              "translation": "這樣啊。日語很好呢。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_001": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_001",
+              "turn_id": "turn_001",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d1.json"
+              ],
+              "status": "active",
+              "translation": "李先生的家人有幾個人？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_002": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_002",
+              "turn_id": "turn_002",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d1.json"
+              ],
+              "status": "active",
+              "translation": "五個人。爸爸、媽媽、哥哥、姊姊和我。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_003": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_003",
+              "turn_id": "turn_003",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d1.json"
+              ],
+              "status": "active",
+              "translation": "是大家庭呢。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_004": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_004",
+              "turn_id": "turn_004",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d1.json"
+              ],
+              "status": "active",
+              "translation": "是的。田中先生有幾個兄弟姊妹？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_005": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_005",
+              "turn_id": "turn_005",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d1.json"
+              ],
+              "status": "active",
+              "translation": "三個人。有一個哥哥和一個妹妹。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_006": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_006",
+              "turn_id": "turn_006",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d1.json"
+              ],
+              "status": "active",
+              "translation": "真好呢。有照片嗎？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_007": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d1:turn_007",
+              "turn_id": "turn_007",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d1.json"
+              ],
+              "status": "active",
+              "translation": "有。就是這個。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_001": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_001",
+              "turn_id": "turn_001",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d2.json"
+              ],
+              "status": "active",
+              "translation": "這是家人的照片嗎？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_002": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_002",
+              "turn_id": "turn_002",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d2.json"
+              ],
+              "status": "active",
+              "translation": "是的，這是祖父和祖母。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_003": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_003",
+              "turn_id": "turn_003",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d2.json"
+              ],
+              "status": "active",
+              "translation": "爸爸做什麼工作？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_004": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_004",
+              "turn_id": "turn_004",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d2.json"
+              ],
+              "status": "active",
+              "translation": "爸爸是公司職員。媽媽也在工作。"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_005": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_005",
+              "turn_id": "turn_005",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d2.json"
+              ],
+              "status": "active",
+              "translation": "有弟弟嗎？"
+            },
+            "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_006": {
+              "sentence_id": "dialogue:src.ja.dialogue.a1-early-l03-d2:turn_006",
+              "turn_id": "turn_006",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-early-l03-d2.json"
+              ],
+              "status": "active",
+              "translation": "沒有弟弟。有一個姊姊。"
+            },
+            "sent.src.ja.video.ja_l02_article_001.a_001": {
+              "sentence_id": "sent.src.ja.video.ja_l02_article_001.a_001",
+              "turn_id": "a_001",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l02-article-001.json"
+              ],
+              "status": "active",
+              "translation": "世界上有很多語言。"
+            },
+            "sent.src.ja.video.ja_l02_article_001.a_002": {
+              "sentence_id": "sent.src.ja.video.ja_l02_article_001.a_002",
+              "turn_id": "a_002",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l02-article-001.json"
+              ],
+              "status": "active",
+              "translation": "中文很難，但很有趣。"
+            },
+            "sent.src.ja.video.ja_l02_article_001.a_003": {
+              "sentence_id": "sent.src.ja.video.ja_l02_article_001.a_003",
+              "turn_id": "a_003",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l02-article-001.json"
+              ],
+              "status": "active",
+              "translation": "韓語和日語都很簡單。"
+            },
+            "sent.src.ja.video.ja_l02_article_001.a_004": {
+              "sentence_id": "sent.src.ja.video.ja_l02_article_001.a_004",
+              "turn_id": "a_004",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l02-article-001.json"
+              ],
+              "status": "active",
+              "translation": "日語是美麗的語言。"
+            },
+            "sent.src.ja.video.ja_l02_article_001.a_005": {
+              "sentence_id": "sent.src.ja.video.ja_l02_article_001.a_005",
+              "turn_id": "a_005",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l02-article-001.json"
+              ],
+              "status": "active",
+              "translation": "你會說什麼語言？"
+            },
+            "sent.src.ja.video.ja_l03_article_001.a_001": {
+              "sentence_id": "sent.src.ja.video.ja_l03_article_001.a_001",
+              "turn_id": "a_001",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l03-article-001.json"
+              ],
+              "status": "active",
+              "translation": "我的家人有四個人。"
+            },
+            "sent.src.ja.video.ja_l03_article_001.a_002": {
+              "sentence_id": "sent.src.ja.video.ja_l03_article_001.a_002",
+              "turn_id": "a_002",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l03-article-001.json"
+              ],
+              "status": "active",
+              "translation": "爸爸、媽媽、姊姊和我。"
+            },
+            "sent.src.ja.video.ja_l03_article_001.a_003": {
+              "sentence_id": "sent.src.ja.video.ja_l03_article_001.a_003",
+              "turn_id": "a_003",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l03-article-001.json"
+              ],
+              "status": "active",
+              "translation": "爸爸是公司職員。"
+            },
+            "sent.src.ja.video.ja_l03_article_001.a_004": {
+              "sentence_id": "sent.src.ja.video.ja_l03_article_001.a_004",
+              "turn_id": "a_004",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l03-article-001.json"
+              ],
+              "status": "active",
+              "translation": "姊姊是大學生。"
+            },
+            "sent.src.ja.video.ja_l03_article_001.a_005": {
+              "sentence_id": "sent.src.ja.video.ja_l03_article_001.a_005",
+              "turn_id": "a_005",
+              "source_refs": [
+                "content/core/content_assets/video/ja-l03-article-001.json"
+              ],
+              "status": "active",
+              "translation": "看家人的照片。"
+            },
+            "sent.src.ja.a1.early.l04.001": {
+              "sentence_id": "sent.src.ja.a1.early.l04.001",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l04.001.json"
+              ],
+              "status": "active",
+              "translation": "機場在哪裡？"
+            },
+            "sent.src.ja.a1.early.l04.002": {
+              "sentence_id": "sent.src.ja.a1.early.l04.002",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.early.l04.002.json"
+              ],
+              "status": "active",
+              "translation": "出口在這裡。"
+            },
+            "sent.src.ja.a1.core.b01.001": {
+              "sentence_id": "sent.src.ja.a1.core.b01.001",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.001.json"
+              ],
+              "status": "active",
+              "translation": "明天想去美術館。"
+            },
+            "sent.src.ja.a1.core.b01.002": {
+              "sentence_id": "sent.src.ja.a1.core.b01.002",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.002.json"
+              ],
+              "status": "active",
+              "translation": "先買車票。"
+            },
+            "sent.src.ja.a1.core.b01.003": {
+              "sentence_id": "sent.src.ja.a1.core.b01.003",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.003.json"
+              ],
+              "status": "active",
+              "translation": "在車站附近吃午餐吧。"
+            },
+            "sent.src.ja.a1.core.b01.004": {
+              "sentence_id": "sent.src.ja.a1.core.b01.004",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.004.json"
+              ],
+              "status": "active",
+              "translation": "寺廟就在地鐵站附近。"
+            },
+            "sent.src.ja.a1.core.b01.005": {
+              "sentence_id": "sent.src.ja.a1.core.b01.005",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.005.json"
+              ],
+              "status": "active",
+              "translation": "已經吃過早餐了。"
+            },
+            "sent.src.ja.a1.core.b01.006": {
+              "sentence_id": "sent.src.ja.a1.core.b01.006",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.006.json"
+              ],
+              "status": "active",
+              "translation": "接著在公園散步。"
+            },
+            "sent.src.ja.a1.core.b01.007": {
+              "sentence_id": "sent.src.ja.a1.core.b01.007",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.007.json"
+              ],
+              "status": "active",
+              "translation": "住得還好嗎？"
+            },
+            "sent.src.ja.a1.core.b01.008": {
+              "sentence_id": "sent.src.ja.a1.core.b01.008",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.008.json"
+              ],
+              "status": "active",
+              "translation": "市場是有名的午餐去處。"
+            },
+            "sent.src.ja.a1.core.b01.009": {
+              "sentence_id": "sent.src.ja.a1.core.b01.009",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.009.json"
+              ],
+              "status": "active",
+              "translation": "回去之前，想買伴手禮。"
+            },
+            "sent.src.ja.a1.core.b01.010": {
+              "sentence_id": "sent.src.ja.a1.core.b01.010",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.010.json"
+              ],
+              "status": "active",
+              "translation": "祝你旅途愉快！"
+            },
+            "sent.src.ja.a1.core.b01.011": {
+              "sentence_id": "sent.src.ja.a1.core.b01.011",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.011.json"
+              ],
+              "status": "active",
+              "translation": "聽說這個週末會是晴天。"
+            },
+            "sent.src.ja.a1.core.b01.012": {
+              "sentence_id": "sent.src.ja.a1.core.b01.012",
+              "source_refs": [
+                "content/core/example_sentence/sent.src.ja.a1.core.b01.012.json"
+              ],
+              "status": "active",
+              "translation": "我現在開始寫行程。"
+            },
+            "dialogue:a1-core-b01-d1:turn_001": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_001",
+              "turn_id": "turn_001",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "這個週末，我有點想去哪裡走走。"
+            },
+            "dialogue:a1-core-b01-d1:turn_002": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_002",
+              "turn_id": "turn_002",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "去海邊怎麼樣？天氣看起來不錯喔。"
+            },
+            "dialogue:a1-core-b01-d1:turn_003": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_003",
+              "turn_id": "turn_003",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "不錯耶！什麼時候出發？"
+            },
+            "dialogue:a1-core-b01-d1:turn_004": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_004",
+              "turn_id": "turn_004",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "我們星期六一早出發吧。"
+            },
+            "dialogue:a1-core-b01-d1:turn_005": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_005",
+              "turn_id": "turn_005",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "早餐要在哪裡吃？"
+            },
+            "dialogue:a1-core-b01-d1:turn_006": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_006",
+              "turn_id": "turn_006",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "我們帶便當去吧。"
+            },
+            "dialogue:a1-core-b01-d1:turn_007": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_007",
+              "turn_id": "turn_007",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "好啊！大概一小時就會到嗎？"
+            },
+            "dialogue:a1-core-b01-d1:turn_008": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_008",
+              "turn_id": "turn_008",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "如果開車去，還可以順道去附近的水族館喔。"
+            },
+            "dialogue:a1-core-b01-d1:turn_009": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_009",
+              "turn_id": "turn_009",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "我也想去海邊游泳！"
+            },
+            "dialogue:a1-core-b01-d1:turn_010": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_010",
+              "turn_id": "turn_010",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "傍晚去海邊附近的餐廳吃晚餐吧。"
+            },
+            "dialogue:a1-core-b01-d1:turn_011": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_011",
+              "turn_id": "turn_011",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "感覺會是很棒的一天！"
+            },
+            "dialogue:a1-core-b01-d1:turn_012": {
+              "sentence_id": "dialogue:a1-core-b01-d1:turn_012",
+              "turn_id": "turn_012",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+              ],
+              "status": "active",
+              "translation": "回去之後再寫日記吧。"
+            },
+            "dialogue:a1-core-b01-d2:turn_001": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_001",
+              "turn_id": "turn_001",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "不好意思，我大概十點左右到的。"
+            },
+            "dialogue:a1-core-b01-d2:turn_002": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_002",
+              "turn_id": "turn_002",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "歡迎光臨。請問貴姓？"
+            },
+            "dialogue:a1-core-b01-d2:turn_003": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_003",
+              "turn_id": "turn_003",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "我姓強森。想辦理入住。"
+            },
+            "dialogue:a1-core-b01-d2:turn_004": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_004",
+              "turn_id": "turn_004",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "您的房間在三樓 305 號。電梯在那邊。"
+            },
+            "dialogue:a1-core-b01-d2:turn_005": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_005",
+              "turn_id": "turn_005",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "謝謝。行李可以先放這裡嗎？"
+            },
+            "dialogue:a1-core-b01-d2:turn_006": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_006",
+              "turn_id": "turn_006",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "可以，請放這裡。"
+            },
+            "dialogue:a1-core-b01-d2:turn_007": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_007",
+              "turn_id": "turn_007",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "謝謝。這附近有公園嗎？"
+            },
+            "dialogue:a1-core-b01-d2:turn_008": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_008",
+              "turn_id": "turn_008",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "這一帶有很多公園，很適合散步喔。"
+            },
+            "dialogue:a1-core-b01-d2:turn_009": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_009",
+              "turn_id": "turn_009",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "不好意思，這附近有推薦的餐廳嗎？"
+            },
+            "dialogue:a1-core-b01-d2:turn_010": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_010",
+              "turn_id": "turn_010",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "有，附近有一家不錯的餐廳。"
+            },
+            "dialogue:a1-core-b01-d2:turn_011": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_011",
+              "turn_id": "turn_011",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "謝謝。明天幾點前要退房呢？"
+            },
+            "dialogue:a1-core-b01-d2:turn_012": {
+              "sentence_id": "dialogue:a1-core-b01-d2:turn_012",
+              "turn_id": "turn_012",
+              "source_refs": [
+                "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+              ],
+              "status": "active",
+              "translation": "到十一點為止。請慢慢享受旅程。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u001": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u001",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "這個週末，打算去海邊附近的美麗城市旅行。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u002": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u002",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "預計停留三天。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u003": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u003",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "第一天預計早上早到。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u004": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u004",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "首先，從自己的城市坐電車到車站。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u005": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u005",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "然後，坐地鐵去飯店。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u006": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u006",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "入住之後，去看飯店附近的古老寺廟。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u007": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u007",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "那座寺廟很有名，非常美麗。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u008": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u008",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "傍晚在海邊的餐廳吃晚餐。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u009": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u009",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "第二天早上，參觀美術館。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u010": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u010",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "美術館裡有很多古老的東西和有趣的東西。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u011": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u011",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "美術館之後，在大公園散步。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u012": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u012",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "然後，在市場吃午餐。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u013": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u013",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "市場在公園附近，走路很容易到。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u014": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u014",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "下午在市場買一些伴手禮。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u015": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u015",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "第三天早上去海邊。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u016": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u016",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "游泳或在沙灘上散步。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u017": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u017",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "午餐後，坐電車回去。"
+            },
+            "sent.src.ja.article.a1_a1-core_b01_article_001.u018": {
+              "sentence_id": "sent.src.ja.article.a1_a1-core_b01_article_001.u018",
+              "source_refs": [
+                "content/core/content_assets/article/a1-core-b01-article-001.json"
+              ],
+              "status": "active",
+              "translation": "這次旅行一定會很美好。"
+            },
+            "sent.src.ja.a1.core.b02.001": {
+              "sentence_id": "sent.src.ja.a1.core.b02.001",
+              "status": "reviewed",
+              "translation": "每天早上我喝咖啡。"
+            },
+            "sent.src.ja.a1.core.b02.002": {
+              "sentence_id": "sent.src.ja.a1.core.b02.002",
+              "status": "reviewed",
+              "translation": "我六點起床。"
+            },
+            "sent.src.ja.a1.core.b02.003": {
+              "sentence_id": "sent.src.ja.a1.core.b02.003",
+              "status": "reviewed",
+              "translation": "我搭電車去公司。"
+            },
+            "sent.src.ja.a1.core.b02.004": {
+              "sentence_id": "sent.src.ja.a1.core.b02.004",
+              "status": "reviewed",
+              "translation": "請給我兩個飯糰。"
+            },
+            "sent.src.ja.a1.core.b02.005": {
+              "sentence_id": "sent.src.ja.a1.core.b02.005",
+              "status": "reviewed",
+              "translation": "這本書是三百日圓。"
+            },
+            "sent.src.ja.a1.core.b02.006": {
+              "sentence_id": "sent.src.ja.a1.core.b02.006",
+              "status": "reviewed",
+              "translation": "昨天我看了電影。"
+            },
+            "sent.src.ja.a1.core.b02.007": {
+              "sentence_id": "sent.src.ja.a1.core.b02.007",
+              "status": "reviewed",
+              "translation": "我要買麵包和蛋。"
+            },
+            "sent.src.ja.a1.core.b02.008": {
+              "sentence_id": "sent.src.ja.a1.core.b02.008",
+              "status": "reviewed",
+              "translation": "東京比大阪大。"
+            },
+            "sent.src.ja.a1.core.b02.009": {
+              "sentence_id": "sent.src.ja.a1.core.b02.009",
+              "status": "reviewed",
+              "translation": "三位朋友會來。"
+            },
+            "sent.src.ja.a1.core.b02.010": {
+              "sentence_id": "sent.src.ja.a1.core.b02.010",
+              "status": "reviewed",
+              "translation": "這顆蘋果多少錢？"
+            },
+            "sent.src.ja.a1.core.b02.011": {
+              "sentence_id": "sent.src.ja.a1.core.b02.011",
+              "status": "reviewed",
+              "translation": "我在美術館拍照。"
+            },
+            "sent.src.ja.a1.core.b02.012": {
+              "sentence_id": "sent.src.ja.a1.core.b02.012",
+              "status": "reviewed",
+              "translation": "東京鐵塔非常高。"
+            },
+            "sent.src.ja.a1.core.b03.001": {
+              "sentence_id": "sent.src.ja.a1.core.b03.001",
+              "status": "reviewed",
+              "translation": "我想去淺草寺。"
+            },
+            "sent.src.ja.a1.core.b03.002": {
+              "sentence_id": "sent.src.ja.a1.core.b03.002",
+              "status": "reviewed",
+              "translation": "我搭新幹線去京都。"
+            },
+            "sent.src.ja.a1.core.b03.003": {
+              "sentence_id": "sent.src.ja.a1.core.b03.003",
+              "status": "reviewed",
+              "translation": "請拍照。"
+            },
+            "sent.src.ja.a1.core.b03.004": {
+              "sentence_id": "sent.src.ja.a1.core.b03.004",
+              "status": "reviewed",
+              "translation": "金閣寺非常美。"
+            },
+            "sent.src.ja.a1.core.b03.005": {
+              "sentence_id": "sent.src.ja.a1.core.b03.005",
+              "status": "reviewed",
+              "translation": "是一萬四千日圓。"
+            },
+            "sent.src.ja.a1.core.b03.006": {
+              "sentence_id": "sent.src.ja.a1.core.b03.006",
+              "status": "reviewed",
+              "translation": "幾點出發？"
+            },
+            "sent.src.ja.a1.core.b03.007": {
+              "sentence_id": "sent.src.ja.a1.core.b03.007",
+              "status": "reviewed",
+              "translation": "我們在東京車站會合吧。"
+            },
+            "sent.src.ja.a1.core.b03.008": {
+              "sentence_id": "sent.src.ja.a1.core.b03.008",
+              "status": "reviewed",
+              "translation": "我買了伴手禮。"
+            },
+            "sent.src.ja.a1.core.b03.009": {
+              "sentence_id": "sent.src.ja.a1.core.b03.009",
+              "status": "reviewed",
+              "translation": "京都比東京安靜。"
+            },
+            "sent.src.ja.a1.core.b03.010": {
+              "sentence_id": "sent.src.ja.a1.core.b03.010",
+              "status": "reviewed",
+              "translation": "票在那邊買。"
+            },
+            "sent.src.ja.a1.core.b03.011": {
+              "sentence_id": "sent.src.ja.a1.core.b03.011",
+              "status": "reviewed",
+              "translation": "景色非常棒。"
+            },
+            "sent.src.ja.a1.core.b03.012": {
+              "sentence_id": "sent.src.ja.a1.core.b03.012",
+              "status": "reviewed",
+              "translation": "我送了朋友京扇子。"
+            },
+            "sent.src.ja.a1.core.b04.001": {
+              "sentence_id": "sent.src.ja.a1.core.b04.001",
+              "status": "reviewed",
+              "translation": "請給我菜單。"
+            },
+            "sent.src.ja.a1.core.b04.002": {
+              "sentence_id": "sent.src.ja.a1.core.b04.002",
+              "status": "reviewed",
+              "translation": "推薦的是什麼？"
+            },
+            "sent.src.ja.a1.core.b04.003": {
+              "sentence_id": "sent.src.ja.a1.core.b04.003",
+              "status": "reviewed",
+              "translation": "請給我一份天婦羅定食。"
+            },
+            "sent.src.ja.a1.core.b04.004": {
+              "sentence_id": "sent.src.ja.a1.core.b04.004",
+              "status": "reviewed",
+              "translation": "請給我一杯茶。"
+            },
+            "sent.src.ja.a1.core.b04.005": {
+              "sentence_id": "sent.src.ja.a1.core.b04.005",
+              "status": "reviewed",
+              "translation": "我最喜歡壽司。"
+            },
+            "sent.src.ja.a1.core.b04.006": {
+              "sentence_id": "sent.src.ja.a1.core.b04.006",
+              "status": "reviewed",
+              "translation": "麻煩結帳。"
+            },
+            "sent.src.ja.a1.core.b04.007": {
+              "sentence_id": "sent.src.ja.a1.core.b04.007",
+              "status": "reviewed",
+              "translation": "是一千五百日圓。"
+            },
+            "sent.src.ja.a1.core.b04.008": {
+              "sentence_id": "sent.src.ja.a1.core.b04.008",
+              "status": "reviewed",
+              "translation": "拉麵有味噌和醬油口味。"
+            },
+            "sent.src.ja.a1.core.b04.009": {
+              "sentence_id": "sent.src.ja.a1.core.b04.009",
+              "status": "reviewed",
+              "translation": "請給我烤雞肉串和啤酒。"
+            },
+            "sent.src.ja.a1.core.b04.010": {
+              "sentence_id": "sent.src.ja.a1.core.b04.010",
+              "status": "reviewed",
+              "translation": "吃飯前會說「いただきます」。"
+            },
+            "sent.src.ja.a1.core.b04.011": {
+              "sentence_id": "sent.src.ja.a1.core.b04.011",
+              "status": "reviewed",
+              "translation": "日本的餐廳很乾淨。"
+            },
+            "sent.src.ja.a1.core.b04.012": {
+              "sentence_id": "sent.src.ja.a1.core.b04.012",
+              "status": "reviewed",
+              "translation": "咖哩又便宜又好吃。"
+            },
+            "sent.src.ja.a1.core.b05.001": {
+              "sentence_id": "sent.src.ja.a1.core.b05.001",
+              "status": "reviewed",
+              "translation": "這個娃娃多少錢？"
+            },
+            "sent.src.ja.a1.core.b05.002": {
+              "sentence_id": "sent.src.ja.a1.core.b05.002",
+              "status": "reviewed",
+              "translation": "請用信用卡。"
+            },
+            "sent.src.ja.a1.core.b05.003": {
+              "sentence_id": "sent.src.ja.a1.core.b05.003",
+              "status": "reviewed",
+              "translation": "有再便宜一點的嗎？"
+            },
+            "sent.src.ja.a1.core.b05.004": {
+              "sentence_id": "sent.src.ja.a1.core.b05.004",
+              "status": "reviewed",
+              "translation": "可以試穿襯衫嗎？"
+            },
+            "sent.src.ja.a1.core.b05.005": {
+              "sentence_id": "sent.src.ja.a1.core.b05.005",
+              "status": "reviewed",
+              "translation": "百貨公司十點開門。"
+            },
+            "sent.src.ja.a1.core.b05.006": {
+              "sentence_id": "sent.src.ja.a1.core.b05.006",
+              "status": "reviewed",
+              "translation": "是三千日圓。"
+            },
+            "sent.src.ja.a1.core.b05.007": {
+              "sentence_id": "sent.src.ja.a1.core.b05.007",
+              "status": "reviewed",
+              "translation": "麻煩幫我包成禮物。"
+            },
+            "sent.src.ja.a1.core.b05.008": {
+              "sentence_id": "sent.src.ja.a1.core.b05.008",
+              "status": "reviewed",
+              "translation": "尺寸合適嗎？"
+            },
+            "sent.src.ja.a1.core.b05.009": {
+              "sentence_id": "sent.src.ja.a1.core.b05.009",
+              "status": "reviewed",
+              "translation": "收銀台在那邊。"
+            },
+            "sent.src.ja.a1.core.b05.010": {
+              "sentence_id": "sent.src.ja.a1.core.b05.010",
+              "status": "reviewed",
+              "translation": "有很多伴手禮店。"
+            },
+            "sent.src.ja.a1.core.b05.011": {
+              "sentence_id": "sent.src.ja.a1.core.b05.011",
+              "status": "reviewed",
+              "translation": "我買了五萬日圓的相機。"
+            },
+            "sent.src.ja.a1.core.b05.012": {
+              "sentence_id": "sent.src.ja.a1.core.b05.012",
+              "status": "reviewed",
+              "translation": "也會幫忙包裝得很漂亮。"
+            },
+            "sent.src.ja.a1.core.b06.001": {
+              "sentence_id": "sent.src.ja.a1.core.b06.001",
+              "status": "reviewed",
+              "translation": "今天的天氣怎麼樣？"
+            },
+            "sent.src.ja.a1.core.b06.002": {
+              "sentence_id": "sent.src.ja.a1.core.b06.002",
+              "status": "reviewed",
+              "translation": "早上下雨，但下午放晴了。"
+            },
+            "sent.src.ja.a1.core.b06.003": {
+              "sentence_id": "sent.src.ja.a1.core.b06.003",
+              "status": "reviewed",
+              "translation": "櫻花非常漂亮。"
+            },
+            "sent.src.ja.a1.core.b06.004": {
+              "sentence_id": "sent.src.ja.a1.core.b06.004",
+              "status": "reviewed",
+              "translation": "春天很溫暖，讓人很舒服。"
+            },
+            "sent.src.ja.a1.core.b06.005": {
+              "sentence_id": "sent.src.ja.a1.core.b06.005",
+              "status": "reviewed",
+              "translation": "有煙火大會。"
+            },
+            "sent.src.ja.a1.core.b06.006": {
+              "sentence_id": "sent.src.ja.a1.core.b06.006",
+              "status": "reviewed",
+              "translation": "我要去看紅葉。"
+            },
+            "sent.src.ja.a1.core.b06.007": {
+              "sentence_id": "sent.src.ja.a1.core.b06.007",
+              "status": "reviewed",
+              "translation": "可以滑雪嗎？"
+            },
+            "sent.src.ja.a1.core.b06.008": {
+              "sentence_id": "sent.src.ja.a1.core.b06.008",
+              "status": "reviewed",
+              "translation": "會變成三十五度。"
+            },
+            "sent.src.ja.a1.core.b06.009": {
+              "sentence_id": "sent.src.ja.a1.core.b06.009",
+              "status": "reviewed",
+              "translation": "我穿浴衣出門。"
+            },
+            "sent.src.ja.a1.core.b06.010": {
+              "sentence_id": "sent.src.ja.a1.core.b06.010",
+              "status": "reviewed",
+              "translation": "新年和家人一起度過。"
+            },
+            "sent.src.ja.a1.core.b06.011": {
+              "sentence_id": "sent.src.ja.a1.core.b06.011",
+              "status": "reviewed",
+              "translation": "冬天很冷，但是溫泉最棒。"
+            },
+            "sent.src.ja.a1.core.b06.012": {
+              "sentence_id": "sent.src.ja.a1.core.b06.012",
+              "status": "reviewed",
+              "translation": "享受每個季節的食物。"
+            },
+            "sent.src.ja.a1.expand.b07.001": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.001",
+              "status": "reviewed",
+              "translation": "我頭痛。"
+            },
+            "sent.src.ja.a1.expand.b07.002": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.002",
+              "status": "reviewed",
+              "translation": "我會開藥給你。"
+            },
+            "sent.src.ja.a1.expand.b07.003": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.003",
+              "status": "reviewed",
+              "translation": "我每天早上跑步。"
+            },
+            "sent.src.ja.a1.expand.b07.004": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.004",
+              "status": "reviewed",
+              "translation": "大約三十分鐘。"
+            },
+            "sent.src.ja.a1.expand.b07.005": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.005",
+              "status": "reviewed",
+              "translation": "要不要一起跑步？"
+            },
+            "sent.src.ja.a1.expand.b07.006": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.006",
+              "status": "reviewed",
+              "translation": "為了健康，我會努力。"
+            },
+            "sent.src.ja.a1.expand.b07.007": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.007",
+              "status": "reviewed",
+              "translation": "對身體很好。"
+            },
+            "sent.src.ja.a1.expand.b07.008": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.008",
+              "status": "reviewed",
+              "translation": "在醫院接受檢查。"
+            },
+            "sent.src.ja.a1.expand.b07.009": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.009",
+              "status": "reviewed",
+              "translation": "烤魚並做沙拉。"
+            },
+            "sent.src.ja.a1.expand.b07.010": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.010",
+              "status": "reviewed",
+              "translation": "睡八個小時。"
+            },
+            "sent.src.ja.a1.expand.b07.011": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.011",
+              "status": "reviewed",
+              "translation": "我想運動。"
+            },
+            "sent.src.ja.a1.expand.b07.012": {
+              "sentence_id": "sent.src.ja.a1.expand.b07.012",
+              "status": "reviewed",
+              "translation": "不要累積壓力。"
+            },
+            "sent.src.ja.a1.expand.b08.001": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.001",
+              "status": "reviewed",
+              "translation": "你的興趣是什麼？"
+            },
+            "sent.src.ja.a1.expand.b08.002": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.002",
+              "status": "reviewed",
+              "translation": "我喜歡拍照。"
+            },
+            "sent.src.ja.a1.expand.b08.003": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.003",
+              "status": "reviewed",
+              "translation": "我彈吉他。"
+            },
+            "sent.src.ja.a1.expand.b08.004": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.004",
+              "status": "reviewed",
+              "translation": "我想去美術館。"
+            },
+            "sent.src.ja.a1.expand.b08.005": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.005",
+              "status": "reviewed",
+              "translation": "我擅長做料理。"
+            },
+            "sent.src.ja.a1.expand.b08.006": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.006",
+              "status": "reviewed",
+              "translation": "我要做新的料理。"
+            },
+            "sent.src.ja.a1.expand.b08.007": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.007",
+              "status": "reviewed",
+              "translation": "也能成為日文學習。"
+            },
+            "sent.src.ja.a1.expand.b08.008": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.008",
+              "status": "reviewed",
+              "translation": "在公園散步。"
+            },
+            "sent.src.ja.a1.expand.b08.009": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.009",
+              "status": "reviewed",
+              "translation": "帶著便當出門。"
+            },
+            "sent.src.ja.a1.expand.b08.010": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.010",
+              "status": "reviewed",
+              "translation": "賞花很受歡迎。"
+            },
+            "sent.src.ja.a1.expand.b08.011": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.011",
+              "status": "reviewed",
+              "translation": "交新的朋友。"
+            },
+            "sent.src.ja.a1.expand.b08.012": {
+              "sentence_id": "sent.src.ja.a1.expand.b08.012",
+              "status": "reviewed",
+              "translation": "每天一點一點變得更好。"
+            },
+            "sent.src.ja.a1.expand.b09.001": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.001",
+              "status": "reviewed",
+              "translation": "你家有幾個人？"
+            },
+            "sent.src.ja.a1.expand.b09.002": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.002",
+              "status": "reviewed",
+              "translation": "父親在公司工作。"
+            },
+            "sent.src.ja.a1.expand.b09.003": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.003",
+              "status": "reviewed",
+              "translation": "住在大阪。"
+            },
+            "sent.src.ja.a1.expand.b09.004": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.004",
+              "status": "reviewed",
+              "translation": "一個月去一次。"
+            },
+            "sent.src.ja.a1.expand.b09.005": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.005",
+              "status": "reviewed",
+              "translation": "很會做料理。"
+            },
+            "sent.src.ja.a1.expand.b09.006": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.006",
+              "status": "reviewed",
+              "translation": "和朋友聊天。"
+            },
+            "sent.src.ja.a1.expand.b09.007": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.007",
+              "status": "reviewed",
+              "translation": "遇到困難時，會和朋友商量。"
+            },
+            "sent.src.ja.a1.expand.b09.008": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.008",
+              "status": "reviewed",
+              "translation": "一年去見兩次。"
+            },
+            "sent.src.ja.a1.expand.b09.009": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.009",
+              "status": "reviewed",
+              "translation": "朋友很重要。"
+            },
+            "sent.src.ja.a1.expand.b09.010": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.010",
+              "status": "reviewed",
+              "translation": "大學畢業了。"
+            },
+            "sent.src.ja.a1.expand.b09.011": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.011",
+              "status": "reviewed",
+              "translation": "我想成為醫生。"
+            },
+            "sent.src.ja.a1.expand.b09.012": {
+              "sentence_id": "sent.src.ja.a1.expand.b09.012",
+              "status": "reviewed",
+              "translation": "人與人的連結很重要。"
+            },
+            "sent.src.ja.a1.integrate.b10.001": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.001",
+              "status": "reviewed",
+              "translation": "會議是幾點？"
+            },
+            "sent.src.ja.a1.integrate.b10.002": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.002",
+              "status": "reviewed",
+              "translation": "資料已經準備好了。"
+            },
+            "sent.src.ja.a1.integrate.b10.003": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.003",
+              "status": "reviewed",
+              "translation": "吃午餐。"
+            },
+            "sent.src.ja.a1.integrate.b10.004": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.004",
+              "status": "reviewed",
+              "translation": "已經預約了。"
+            },
+            "sent.src.ja.a1.integrate.b10.005": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.005",
+              "status": "reviewed",
+              "translation": "我有文法問題。"
+            },
+            "sent.src.ja.a1.integrate.b10.006": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.006",
+              "status": "reviewed",
+              "translation": "我不懂「は」和「が」的差別。"
+            },
+            "sent.src.ja.a1.integrate.b10.007": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.007",
+              "status": "reviewed",
+              "translation": "學習日文。"
+            },
+            "sent.src.ja.a1.integrate.b10.008": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.008",
+              "status": "reviewed",
+              "translation": "練習新的文法。"
+            },
+            "sent.src.ja.a1.integrate.b10.009": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.009",
+              "status": "reviewed",
+              "translation": "有時會加班。"
+            },
+            "sent.src.ja.a1.integrate.b10.010": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.010",
+              "status": "reviewed",
+              "translation": "考試一個月有一次。"
+            },
+            "sent.src.ja.a1.integrate.b10.011": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.011",
+              "status": "reviewed",
+              "translation": "為了將來的目標而努力。"
+            },
+            "sent.src.ja.a1.integrate.b10.012": {
+              "sentence_id": "sent.src.ja.a1.integrate.b10.012",
+              "status": "reviewed",
+              "translation": "努力一定會有回報。"
+            },
+            "sent.src.ja.a1.integrate.b11.001": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.001",
+              "status": "reviewed",
+              "translation": "你會使用應用程式嗎？"
+            },
+            "sent.src.ja.a1.integrate.b11.002": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.002",
+              "status": "reviewed",
+              "translation": "用 LINE 和朋友聯絡。"
+            },
+            "sent.src.ja.a1.integrate.b11.003": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.003",
+              "status": "reviewed",
+              "translation": "可以傳照片。"
+            },
+            "sent.src.ja.a1.integrate.b11.004": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.004",
+              "status": "reviewed",
+              "translation": "知道路。"
+            },
+            "sent.src.ja.a1.integrate.b11.005": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.005",
+              "status": "reviewed",
+              "translation": "知道電車的時間。"
+            },
+            "sent.src.ja.a1.integrate.b11.006": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.006",
+              "status": "reviewed",
+              "translation": "用電子錢包付款。"
+            },
+            "sent.src.ja.a1.integrate.b11.007": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.007",
+              "status": "reviewed",
+              "translation": "常常使用社群網站。"
+            },
+            "sent.src.ja.a1.integrate.b11.008": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.008",
+              "status": "reviewed",
+              "translation": "發布料理的照片。"
+            },
+            "sent.src.ja.a1.integrate.b11.009": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.009",
+              "status": "reviewed",
+              "translation": "看太久對眼睛不好。"
+            },
+            "sent.src.ja.a1.integrate.b11.010": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.010",
+              "status": "reviewed",
+              "translation": "平衡很重要。"
+            },
+            "sent.src.ja.a1.integrate.b11.011": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.011",
+              "status": "reviewed",
+              "translation": "在網路上購物。"
+            },
+            "sent.src.ja.a1.integrate.b11.012": {
+              "sentence_id": "sent.src.ja.a1.integrate.b11.012",
+              "status": "reviewed",
+              "translation": "和人見面也很重要。"
+            },
+            "sent.src.ja.a1.integrate.b12.001": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.001",
+              "status": "reviewed",
+              "translation": "快要滿一年了。"
+            },
+            "sent.src.ja.a1.integrate.b12.002": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.002",
+              "status": "reviewed",
+              "translation": "日文變好了。"
+            },
+            "sent.src.ja.a1.integrate.b12.003": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.003",
+              "status": "reviewed",
+              "translation": "每天持續很重要。"
+            },
+            "sent.src.ja.a1.integrate.b12.004": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.004",
+              "status": "reviewed",
+              "translation": "習慣了日本的生活。"
+            },
+            "sent.src.ja.a1.integrate.b12.005": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.005",
+              "status": "reviewed",
+              "translation": "櫻花非常漂亮。"
+            },
+            "sent.src.ja.a1.integrate.b12.006": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.006",
+              "status": "reviewed",
+              "translation": "交到朋友了。"
+            },
+            "sent.src.ja.a1.integrate.b12.007": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.007",
+              "status": "reviewed",
+              "translation": "可以讀報紙。"
+            },
+            "sent.src.ja.a1.integrate.b12.008": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.008",
+              "status": "reviewed",
+              "translation": "我想成為譯者。"
+            },
+            "sent.src.ja.a1.integrate.b12.009": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.009",
+              "status": "reviewed",
+              "translation": "我想連結人與人。"
+            },
+            "sent.src.ja.a1.integrate.b12.010": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.010",
+              "status": "reviewed",
+              "translation": "每天踏實地學習。"
+            },
+            "sent.src.ja.a1.integrate.b12.011": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.011",
+              "status": "reviewed",
+              "translation": "我想學習日本文化。"
+            },
+            "sent.src.ja.a1.integrate.b12.012": {
+              "sentence_id": "sent.src.ja.a1.integrate.b12.012",
+              "status": "reviewed",
+              "translation": "感謝日本的各位。"
+            }
+          }
+        },
+        "src.ja.a1-core.b01": {
+          "source_id": "src.ja.a1-core.b01",
+          "source_type": "example_sentence",
+          "title": "A1-a1-core B01 例句",
+          "status": "active",
+          "source_refs": [
+            "content/core/example_sentence/sent.src.ja.a1.core.b01.*.json"
+          ],
+          "sentences": {}
+        },
+        "src.ja.a1-core.b02": {
+          "source_id": "src.ja.a1-core.b02",
+          "source_type": "dialogue",
+          "sentences": {}
+        },
+        "src.ja.a1-core.b03": {
+          "source_id": "src.ja.a1-core.b03",
+          "source_type": "dialogue",
+          "sentences": {}
+        },
+        "src.ja.a1-core.b04": {
+          "source_id": "src.ja.a1-core.b04",
+          "source_type": "dialogue",
+          "sentences": {}
+        },
+        "src.ja.a1-core.b05": {
+          "source_id": "src.ja.a1-core.b05",
+          "source_type": "dialogue",
+          "sentences": {}
+        },
+        "src.ja.a1-core.b06": {
+          "source_id": "src.ja.a1-core.b06",
+          "source_type": "dialogue",
+          "sentences": {}
+        },
+        "src.ja.a1-expand.b07": {
+          "source_id": "src.ja.a1-expand.b07",
+          "source_type": "dialogue",
+          "sentences": {}
+        },
+        "src.ja.a1-expand.b08": {
+          "source_id": "src.ja.a1-expand.b08",
+          "source_type": "dialogue",
+          "sentences": {}
+        },
+        "src.ja.a1-expand.b09": {
+          "source_id": "src.ja.a1-expand.b09",
+          "source_type": "dialogue",
+          "sentences": {}
+        },
+        "src.ja.a1-integrate.b10": {
+          "source_id": "src.ja.a1-integrate.b10",
+          "source_type": "dialogue",
+          "sentences": {}
+        },
+        "src.ja.a1-integrate.b11": {
+          "source_id": "src.ja.a1-integrate.b11",
+          "source_type": "dialogue",
+          "sentences": {}
+        },
+        "src.ja.a1-integrate.b12": {
+          "source_id": "src.ja.a1-integrate.b12",
+          "source_type": "dialogue",
+          "sentences": {}
+        }
+      }
+    },
+    "sources.json": {
+      "schema_version": "learning-library-i18n-sources-v1",
+      "study_language": "ja",
+      "learner_language": "zh_tw",
+      "entries": {
+        "shared_bank": {
+          "source_id": "shared_bank",
+          "source_type": "shared_bank",
+          "title": "共享例句庫",
+          "summary": "L01 共用例句庫。",
+          "status": "active",
+          "source_refs": [
+            "content/core/example_sentence/"
+          ]
+        },
+        "src.ja.dialogue.a1-early-l01-d1": {
+          "source_id": "src.ja.dialogue.a1-early-l01-d1",
+          "source_type": "dialogue",
+          "title": "語言學校報到",
+          "summary": "L01 對話：在語言學校櫃台報到。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/dialogue/a1-early-l01-d1.json"
+          ]
+        },
+        "src.ja.dialogue.a1-early-l01-d2": {
+          "source_id": "src.ja.dialogue.a1-early-l01-d2",
+          "source_type": "dialogue",
+          "title": "朋友介紹",
+          "summary": "L01 對話：在咖啡廳介紹朋友。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/dialogue/a1-early-l01-d2.json"
+          ]
+        },
+        "src.ja.video.ja_l01_video_stub_001": {
+          "source_id": "src.ja.video.ja_l01_video_stub_001",
+          "source_type": "video",
+          "title": "L01 はじめまして - 動画",
+          "summary": "L01 課程介紹影片。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/video/ja-l01-video-stub-001.json"
+          ]
+        },
+        "src.ja.dialogue.a1-early-l02-d1": {
+          "source_id": "src.ja.dialogue.a1-early-l02-d1",
+          "source_type": "dialogue",
+          "title": "國家與出身",
+          "summary": "L02 對話：同學們互相介紹自己的國家和城市。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/dialogue/a1-early-l02-d1.json"
+          ]
+        },
+        "src.ja.dialogue.a1-early-l02-d2": {
+          "source_id": "src.ja.dialogue.a1-early-l02-d2",
+          "source_type": "dialogue",
+          "title": "故鄉的話題",
+          "summary": "L02 對話：同事們聊自己的故鄉。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/dialogue/a1-early-l02-d2.json"
+          ]
+        },
+        "src.ja.dialogue.a1-early-l03-d1": {
+          "source_id": "src.ja.dialogue.a1-early-l03-d1",
+          "source_type": "dialogue",
+          "title": "家人的人數",
+          "summary": "L03 對話：同學們聊家人的人數。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/dialogue/a1-early-l03-d1.json"
+          ]
+        },
+        "src.ja.dialogue.a1-early-l03-d2": {
+          "source_id": "src.ja.dialogue.a1-early-l03-d2",
+          "source_type": "dialogue",
+          "title": "家人的照片",
+          "summary": "L03 對話：朋友展示家人照片。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/dialogue/a1-early-l03-d2.json"
+          ]
+        },
+        "src.ja.video.ja_l02_article_001": {
+          "source_id": "src.ja.video.ja_l02_article_001",
+          "source_type": "video",
+          "title": "L02 世界的語言 - 文章",
+          "summary": "L02 課程文章：關於世界上的語言。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/video/ja-l02-article-001.json"
+          ]
+        },
+        "src.ja.video.ja_l03_article_001": {
+          "source_id": "src.ja.video.ja_l03_article_001",
+          "source_type": "video",
+          "title": "L03 我的家人 - 文章",
+          "summary": "L03 課程文章：關於我的家人。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/video/ja-l03-article-001.json"
+          ]
+        },
+        "src.ja.dialogue.a1-early-l04-d1": {
+          "source_id": "src.ja.dialogue.a1-early-l04-d1",
+          "source_type": "dialogue",
+          "title": "在機場",
+          "summary": "詢問出口、行李與計程車的基礎旅遊對話。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/dialogue/a1-early-l04-d1.json"
+          ]
+        },
+        "src.ja.dialogue.a1-early-l04-d2": {
+          "source_id": "src.ja.dialogue.a1-early-l04-d2",
+          "source_type": "dialogue",
+          "title": "在飯店",
+          "summary": "飯店入住、預約、護照與房間鑰匙。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/dialogue/a1-early-l04-d2.json"
+          ]
+        },
+        "src.ja.video.ja_a1-early_b01_article_001": {
+          "source_id": "src.ja.video.ja_a1-early_b01_article_001",
+          "source_type": "video",
+          "title": "a1-early B01 空港與飯店 - 文章",
+          "summary": "旅客從機場到飯店入住的簡短文章。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/video/ja-a1-early-b01-article-001.json"
+          ]
+        },
+        "src.ja.dialogue.a1_a1-core_b01_d1": {
+          "source_id": "src.ja.dialogue.a1_a1-core_b01_d1",
+          "source_type": "dialogue",
+          "title": "海辺の日帰りプラン",
+          "summary": "兩個朋友在討論週末去海邊的一日小旅行。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/dialogue/a1-core-b01-d1.json"
+          ]
+        },
+        "src.ja.dialogue.a1_a1-core_b01_d2": {
+          "source_id": "src.ja.dialogue.a1_a1-core_b01_d2",
+          "source_type": "dialogue",
+          "title": "ホテルでチェックイン",
+          "summary": "旅客在飯店辦理入住，順便詢問附近的公園與餐廳。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/dialogue/a1-core-b01-d2.json"
+          ]
+        },
+        "src.ja.article.a1_a1-core_b01_article_001": {
+          "source_id": "src.ja.article.a1_a1-core_b01_article_001",
+          "source_type": "article",
+          "title": "三日間の旅行計画",
+          "summary": "描述三天旅行計畫的文章：第一天寺廟，第二天美術館和市場，第三天海邊。",
+          "status": "active",
+          "source_refs": [
+            "content/core/content_assets/article/a1-core-b01-article-001.json"
+          ]
+        },
+        "src.ja.a1-core.b01": {
+          "source_id": "src.ja.a1-core.b01",
+          "source_type": "example_sentence",
+          "title": "A1-a1-core B01 旅行相關例句",
+          "summary": "行程規劃與旅行日相關例句。",
+          "status": "active",
+          "source_refs": [
+            "content/core/example_sentence/sent.src.ja.a1.core.b01.*.json"
+          ]
+        },
+        "src.ja.a1-core.b02": {
+          "source_id": "src.ja.a1-core.b02",
+          "source_type": "dialogue",
+          "title": "A1 Core b02: Daily Life & Shopping",
+          "summary": "Dialogues and sentences for L05-L06.",
+          "status": "active"
+        },
+        "src.ja.a1-core.b03": {
+          "source_id": "src.ja.a1-core.b03",
+          "source_type": "dialogue",
+          "title": "A1 Core b03: Travel & Directions",
+          "summary": "Dialogues and sentences for L07-L08.",
+          "status": "active"
+        },
+        "src.ja.a1-core.b04": {
+          "source_id": "src.ja.a1-core.b04",
+          "source_type": "dialogue",
+          "title": "A1 Core b04: Restaurant & Food",
+          "summary": "Dialogues and sentences for L09-L10.",
+          "status": "active"
+        },
+        "src.ja.a1-core.b05": {
+          "source_id": "src.ja.a1-core.b05",
+          "source_type": "dialogue",
+          "title": "A1 Core b05: Shopping & Souvenirs",
+          "summary": "Dialogues and sentences for L09-L10.",
+          "status": "active"
+        },
+        "src.ja.a1-core.b06": {
+          "source_id": "src.ja.a1-core.b06",
+          "source_type": "dialogue",
+          "title": "A1 Core b06: Weather & Seasons",
+          "summary": "Dialogues and sentences for L09-L10.",
+          "status": "active"
+        },
+        "src.ja.a1-expand.b07": {
+          "source_id": "src.ja.a1-expand.b07",
+          "source_type": "dialogue",
+          "title": "A1 Core b07: Health & Body",
+          "summary": "Dialogues and sentences for L11-L12.",
+          "status": "active"
+        },
+        "src.ja.a1-expand.b08": {
+          "source_id": "src.ja.a1-expand.b08",
+          "source_type": "dialogue",
+          "title": "A1 Core b08: Hobbies & Free Time",
+          "summary": "Dialogues and sentences for L13-L14.",
+          "status": "active"
+        },
+        "src.ja.a1-expand.b09": {
+          "source_id": "src.ja.a1-expand.b09",
+          "source_type": "dialogue",
+          "title": "A1 Core b09: Family & Relationships",
+          "summary": "Dialogues and sentences for L15-L16.",
+          "status": "active"
+        },
+        "src.ja.a1-integrate.b10": {
+          "source_id": "src.ja.a1-integrate.b10",
+          "source_type": "dialogue",
+          "title": "A1 Core b10: Work & School",
+          "summary": "Dialogues and sentences for L17-L18.",
+          "status": "active"
+        },
+        "src.ja.a1-integrate.b11": {
+          "source_id": "src.ja.a1-integrate.b11",
+          "source_type": "dialogue",
+          "title": "A1 Core b11: Communication & Technology",
+          "summary": "Dialogues and sentences for L19-L20.",
+          "status": "active"
+        },
+        "src.ja.a1-integrate.b12": {
+          "source_id": "src.ja.a1-integrate.b12",
+          "source_type": "dialogue",
+          "title": "A1 Core b12: Review & Integration",
+          "summary": "Dialogues and sentences for L19-L20.",
+          "status": "active"
+        }
+      }
+    },
+    "topics.json": {
+      "schema_version": "learning-library-i18n-topics-v1",
+      "study_language": "ja",
+      "learner_language": "zh_tw",
+      "entries": {
+        "topic.greeting.introduction": {
+          "topic_id": "topic.greeting.introduction",
+          "title": "問候與自我介紹",
+          "summary": "學習初次見面時的問候語和自我介紹。",
+          "status": "active",
+          "source_refs": []
+        },
+        "topic.origin.country": {
+          "topic_id": "topic.origin.country",
+          "title": "國家與出身",
+          "summary": "學習如何詢問和回答來自哪個國家。",
+          "status": "active",
+          "source_refs": []
+        },
+        "topic.family.members": {
+          "topic_id": "topic.family.members",
+          "title": "家人",
+          "summary": "學習家人相關的詞彙和表達方式。",
+          "status": "active",
+          "source_refs": []
+        },
+        "topic.travel.airport_hotel": {
+          "topic_id": "topic.travel.airport_hotel",
+          "title": "機場與飯店",
+          "summary": "a1-early 旅遊生存場景：出口、行李、計程車、入住與房間鑰匙。",
+          "status": "active",
+          "source_refs": []
+        }
+      }
+    }
+  }
+}

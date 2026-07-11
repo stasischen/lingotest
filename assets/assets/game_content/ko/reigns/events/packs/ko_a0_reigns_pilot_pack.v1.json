@@ -1,0 +1,631 @@
+{
+  "schema_version": "reigns_event_pack.v1",
+  "pack_id": "ko.a0.reigns.pilot.v1",
+  "status": "draft",
+  "target_lang": "ko",
+  "support_lang": "zh_tw",
+  "level": "A0",
+  "events": [
+    {
+      "event_id": "ko.a0.reigns.classroom_greeting.001",
+      "level": "A0",
+      "scene_type": "classroom_first_meeting",
+      "register": "polite_safe",
+      "difficulty": 1,
+      "setup": {
+        "zh_tw": "開學第一天，你走進韓語課教室。旁邊的同學看起來很友善。",
+        "en": "On the first day of class, you walk into the Korean classroom. The student next to you looks friendly."
+      },
+      "npc_speaker_id": "classmate",
+      "npc_utterance": {
+        "ko": "안녕하세요.",
+        "zh_tw": "你好。",
+        "en": "Hello."
+      },
+      "choices": [
+        {
+          "choice_id": "greeting_safe",
+          "text": {
+            "ko": "안녕하세요.",
+            "zh_tw": "你好。",
+            "en": "Hello."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "同學笑著點頭。氣氛很自然。",
+            "en": "The classmate smiles and nods. The moment feels natural."
+          },
+          "pal_tip": {
+            "zh_tw": "第一次見面，「안녕하세요」很安全。上課、商店、遇到不熟的人，都可以先用這句。",
+            "en": "For a first meeting, 안녕하세요 is safe. You can use it in class, stores, and with people you do not know well."
+          }
+        },
+        {
+          "choice_id": "greeting_thanks_mismatch",
+          "text": {
+            "ko": "감사합니다.",
+            "zh_tw": "謝謝。",
+            "en": "Thank you."
+          },
+          "result": "error",
+          "error_type": "semantic_mismatch",
+          "reaction": {
+            "zh_tw": "同學有點疑惑。他剛剛是在跟你打招呼。",
+            "en": "The classmate looks unsure. They were greeting you."
+          },
+          "pal_tip": {
+            "zh_tw": "「감사합니다」是謝謝。這裡先回打招呼：「안녕하세요」。",
+            "en": "감사합니다 means thank you. Here, greet back with 안녕하세요."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:안녕하세요", "ko:vocab:감사합니다"],
+        "grammar": [],
+        "patterns": ["ko:pattern:a0.safe_greeting"],
+        "scene_tags": ["classroom", "first_meeting", "greeting"]
+      },
+      "tags": ["survival", "politeness", "two_choice"],
+      "prerequisites": []
+    },
+    {
+      "event_id": "ko.a0.reigns.self_intro_name.001",
+      "level": "A0",
+      "scene_type": "classroom_name_question",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "剛打過招呼，同學接著問你的名字。",
+        "en": "After greeting you, the classmate asks your name."
+      },
+      "npc_speaker_id": "classmate",
+      "npc_utterance": {
+        "ko": "이름이 뭐예요?",
+        "zh_tw": "你叫什麼名字？",
+        "en": "What is your name?"
+      },
+      "choices": [
+        {
+          "choice_id": "self_intro_safe_name",
+          "text": {
+            "ko": "저는 {name}예요.",
+            "zh_tw": "我是{name}。",
+            "en": "I am {name}."
+          },
+          "result": "success",
+          "reaction": {
+            "ko": "반가워요.",
+            "zh_tw": "同學說很高興認識你。",
+            "en": "The classmate says it is nice to meet you."
+          },
+          "pal_tip": {
+            "zh_tw": "「저는 ___예요/이에요」是安全的自我介紹。第一次見面先用這個。",
+            "en": "저는 ___예요/이에요 is a safe self-introduction. Use it first when meeting someone."
+          }
+        },
+        {
+          "choice_id": "self_intro_thanks_mismatch",
+          "text": {
+            "ko": "감사합니다.",
+            "zh_tw": "謝謝。",
+            "en": "Thank you."
+          },
+          "result": "error",
+          "error_type": "semantic_mismatch",
+          "reaction": {
+            "zh_tw": "同學還在等你的名字。",
+            "en": "The classmate is still waiting for your name."
+          },
+          "pal_tip": {
+            "zh_tw": "「이름이 뭐예요?」是在問名字。回答用「저는 ___예요/이에요」。",
+            "en": "이름이 뭐예요 asks for your name. Answer with 저는 ___예요/이에요."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:이름", "ko:vocab:뭐", "ko:vocab:저"],
+        "grammar": ["ko:grammar:a0.topic_particle_는"],
+        "patterns": ["ko:pattern:a0.safe_self_intro"],
+        "scene_tags": ["classroom", "name", "self_introduction", "identity"]
+      },
+      "tags": ["survival", "identity", "politeness", "two_choice"],
+      "prerequisites": ["ko.a0.reigns.classroom_greeting.001"]
+    },
+    {
+      "event_id": "ko.a0.reigns.repeat_request.001",
+      "level": "A0",
+      "scene_type": "classroom_rescue_phrase",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "老師開始說明課程，但你沒有完全聽懂。",
+        "en": "The teacher starts explaining the class, but you do not fully understand."
+      },
+      "npc_speaker_id": "teacher",
+      "npc_utterance": {
+        "ko": "여러분, 시작할게요.",
+        "zh_tw": "各位，我們要開始了。",
+        "en": "Everyone, let's begin."
+      },
+      "choices": [
+        {
+          "choice_id": "repeat_request",
+          "text": {
+            "ko": "다시 말해 주세요.",
+            "zh_tw": "請再說一次。",
+            "en": "Please say it again."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "老師停下來，慢一點又說了一次。",
+            "en": "The teacher pauses and says it again more slowly."
+          },
+          "pal_tip": {
+            "zh_tw": "聽不懂時，先用「다시 말해 주세요」。這比亂猜更安全。",
+            "en": "When you do not understand, use 다시 말해 주세요. It is safer than guessing."
+          }
+        },
+        {
+          "choice_id": "wrong_self_intro",
+          "text": {
+            "ko": "저는 {name}예요.",
+            "zh_tw": "我是{name}。",
+            "en": "I am {name}."
+          },
+          "result": "error",
+          "error_type": "scene_mismatch",
+          "reaction": {
+            "zh_tw": "老師知道你的名字了，但你還是不懂剛剛的話。",
+            "en": "The teacher knows your name, but you still do not understand."
+          },
+          "pal_tip": {
+            "zh_tw": "自我介紹很有用，但聽不懂時要用救援句：「다시 말해 주세요」。",
+            "en": "Self-introduction is useful, but when lost, use 다시 말해 주세요."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:다시", "ko:vocab:말하다", "ko:vocab:주세요"],
+        "grammar": ["ko:grammar:a0.request_주세요"],
+        "patterns": ["ko:pattern:a0.repeat_request"],
+        "scene_tags": ["classroom", "listening_breakdown", "repair"]
+      },
+      "tags": ["survival", "listening", "repair", "two_choice"],
+      "prerequisites": ["ko.a0.reigns.self_intro_name.001"]
+    },
+    {
+      "event_id": "ko.a0.reigns.cafe_water_request.001",
+      "level": "A0",
+      "scene_type": "cafe_simple_order",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "你在咖啡店櫃台前，只想先要一杯水。",
+        "en": "At a cafe counter, you only want to ask for water first."
+      },
+      "npc_speaker_id": "barista",
+      "npc_utterance": {
+        "ko": "주문하시겠어요?",
+        "zh_tw": "您要點餐嗎？",
+        "en": "Would you like to order?"
+      },
+      "choices": [
+        {
+          "choice_id": "water_please",
+          "text": {
+            "ko": "물 주세요.",
+            "zh_tw": "請給我水。",
+            "en": "Water, please."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "店員點頭，拿了一杯水給你。",
+            "en": "The barista nods and gives you a cup of water."
+          },
+          "pal_tip": {
+            "zh_tw": "「名詞 + 주세요」是 A0 很重要的請求句。先從「물 주세요」開始。",
+            "en": "Noun + 주세요 is an important A0 request pattern. Start with 물 주세요."
+          }
+        },
+        {
+          "choice_id": "water_where_mismatch",
+          "text": {
+            "ko": "물이 어디예요?",
+            "zh_tw": "水在哪裡？",
+            "en": "Where is the water?"
+          },
+          "result": "error",
+          "error_type": "intent_mismatch",
+          "reaction": {
+            "zh_tw": "店員看向旁邊的取水區，但你其實想請他給你水。",
+            "en": "The barista looks toward the water area, but you wanted them to give you water."
+          },
+          "pal_tip": {
+            "zh_tw": "要請對方拿東西給你，用「주세요」。問位置才用「어디예요」。",
+            "en": "Use 주세요 to ask someone to give you something. Use 어디예요 to ask location."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:물", "ko:vocab:주문", "ko:vocab:주세요"],
+        "grammar": ["ko:grammar:a0.request_주세요"],
+        "patterns": ["ko:pattern:a0.item_주세요"],
+        "scene_tags": ["cafe", "ordering", "request"]
+      },
+      "tags": ["survival", "cafe", "two_choice"],
+      "prerequisites": ["ko.a0.reigns.repeat_request.001"]
+    },
+    {
+      "event_id": "ko.a0.reigns.store_price.001",
+      "level": "A0",
+      "scene_type": "store_price_check",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "你在便利商店拿起一瓶水，但價格標籤看不清楚。",
+        "en": "In a convenience store, you pick up water but cannot see the price tag clearly."
+      },
+      "npc_speaker_id": "clerk",
+      "npc_utterance": {
+        "ko": "필요하세요?",
+        "zh_tw": "需要幫忙嗎？",
+        "en": "Do you need help?"
+      },
+      "choices": [
+        {
+          "choice_id": "ask_price",
+          "text": {
+            "ko": "얼마예요?",
+            "zh_tw": "多少錢？",
+            "en": "How much is it?"
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "店員指著收銀機上的價格。",
+            "en": "The clerk points to the price on the register."
+          },
+          "pal_tip": {
+            "zh_tw": "不知道價格時，最安全的句子是「얼마예요?」。",
+            "en": "When you do not know the price, the safest sentence is 얼마예요?"
+          }
+        },
+        {
+          "choice_id": "say_water_request_again",
+          "text": {
+            "ko": "물 주세요.",
+            "zh_tw": "請給我水。",
+            "en": "Water, please."
+          },
+          "result": "error",
+          "error_type": "missing_price_question",
+          "reaction": {
+            "zh_tw": "店員以為你已經決定要買，準備結帳。",
+            "en": "The clerk thinks you decided to buy it and prepares checkout."
+          },
+          "pal_tip": {
+            "zh_tw": "要問價格，不要再說「주세요」。直接問「얼마예요?」。",
+            "en": "To ask the price, do not use 주세요 again. Ask 얼마예요?"
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:얼마", "ko:vocab:물", "ko:vocab:원"],
+        "grammar": [],
+        "patterns": ["ko:pattern:a0.how_much"],
+        "scene_tags": ["store", "payment", "numbers"]
+      },
+      "tags": ["survival", "store", "two_choice"],
+      "prerequisites": ["ko.a0.reigns.cafe_water_request.001"]
+    },
+    {
+      "event_id": "ko.a0.reigns.location_restroom.001",
+      "level": "A0",
+      "scene_type": "location_restroom",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "你在學校大樓裡，需要找到洗手間。",
+        "en": "In a school building, you need to find the restroom."
+      },
+      "npc_speaker_id": "staff",
+      "npc_utterance": {
+        "ko": "무엇을 찾으세요?",
+        "zh_tw": "您在找什麼？",
+        "en": "What are you looking for?"
+      },
+      "choices": [
+        {
+          "choice_id": "ask_restroom_where",
+          "text": {
+            "ko": "화장실이 어디예요?",
+            "zh_tw": "洗手間在哪裡？",
+            "en": "Where is the restroom?"
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "職員指向走廊右邊。",
+            "en": "The staff points to the right side of the hallway."
+          },
+          "pal_tip": {
+            "zh_tw": "找地點時，用「___이/가 어디예요?」。A0 先記整句也可以。",
+            "en": "When finding a place, use ___이/가 어디예요? At A0, memorizing the whole sentence is fine."
+          }
+        },
+        {
+          "choice_id": "restroom_price_mismatch",
+          "text": {
+            "ko": "화장실 얼마예요?",
+            "zh_tw": "洗手間多少錢？",
+            "en": "How much is the restroom?"
+          },
+          "result": "error",
+          "error_type": "wrong_question_type",
+          "reaction": {
+            "zh_tw": "職員愣了一下，因為你像是在問價格。",
+            "en": "The staff pauses because it sounds like you are asking a price."
+          },
+          "pal_tip": {
+            "zh_tw": "「얼마예요」問價格；「어디예요」問位置。",
+            "en": "얼마예요 asks price; 어디예요 asks location."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:화장실", "ko:vocab:어디", "ko:vocab:오른쪽"],
+        "grammar": ["ko:grammar:a0.location_particle_에"],
+        "patterns": ["ko:pattern:a0.where_is"],
+        "scene_tags": ["location", "directions", "school"]
+      },
+      "tags": ["survival", "location", "two_choice"],
+      "prerequisites": ["ko.a0.reigns.store_price.001"]
+    },
+    {
+      "event_id": "ko.a0.reigns.class_time.001",
+      "level": "A0",
+      "scene_type": "class_time_check",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "你看到教室門口有課表，但不知道下一堂幾點開始。",
+        "en": "You see a schedule by the classroom door but do not know when the next class starts."
+      },
+      "npc_speaker_id": "classmate",
+      "npc_utterance": {
+        "ko": "수업이 곧 시작해요.",
+        "zh_tw": "課快開始了。",
+        "en": "Class starts soon."
+      },
+      "choices": [
+        {
+          "choice_id": "ask_what_time",
+          "text": {
+            "ko": "몇 시예요?",
+            "zh_tw": "幾點？",
+            "en": "What time is it?"
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "同學看了一下手機，告訴你時間。",
+            "en": "The classmate checks their phone and tells you the time."
+          },
+          "pal_tip": {
+            "zh_tw": "問時間先用「몇 시예요?」。句子短，很適合 A0 生存情境。",
+            "en": "Use 몇 시예요? to ask time. It is short and useful for A0 survival scenes."
+          }
+        },
+        {
+          "choice_id": "ask_where_time_mismatch",
+          "text": {
+            "ko": "어디예요?",
+            "zh_tw": "在哪裡？",
+            "en": "Where is it?"
+          },
+          "result": "error",
+          "error_type": "wrong_question_type",
+          "reaction": {
+            "zh_tw": "同學指向教室，但你其實想問時間。",
+            "en": "The classmate points to the classroom, but you wanted the time."
+          },
+          "pal_tip": {
+            "zh_tw": "「어디예요」問地點；時間要問「몇 시예요?」。",
+            "en": "어디예요 asks place; for time, ask 몇 시예요?"
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:몇", "ko:vocab:시", "ko:vocab:수업"],
+        "grammar": [],
+        "patterns": ["ko:pattern:a0.what_time"],
+        "scene_tags": ["time", "schedule", "classroom"]
+      },
+      "tags": ["survival", "time", "two_choice"],
+      "prerequisites": ["ko.a0.reigns.location_restroom.001"]
+    },
+    {
+      "event_id": "ko.a0.reigns.subway_station.001",
+      "level": "A0",
+      "scene_type": "transportation_destination",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "你站在地鐵站裡，想確認這班車是不是去首爾站。",
+        "en": "You are in a subway station and want to check whether this train goes to Seoul Station."
+      },
+      "npc_speaker_id": "station_staff",
+      "npc_utterance": {
+        "ko": "어디 가세요?",
+        "zh_tw": "您去哪裡？",
+        "en": "Where are you going?"
+      },
+      "choices": [
+        {
+          "choice_id": "go_seoul_station",
+          "text": {
+            "ko": "서울역에 가요.",
+            "zh_tw": "我去首爾站。",
+            "en": "I am going to Seoul Station."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "站務人員點頭，指向正確月台。",
+            "en": "The station staff nods and points to the correct platform."
+          },
+          "pal_tip": {
+            "zh_tw": "說目的地時，用「地點 + 에 가요」。A0 先掌握這個路線句。",
+            "en": "To state a destination, use place + 에 가요. This is a core A0 travel sentence."
+          }
+        },
+        {
+          "choice_id": "ask_price_transport_mismatch",
+          "text": {
+            "ko": "서울역 얼마예요?",
+            "zh_tw": "首爾站多少錢？",
+            "en": "How much is Seoul Station?"
+          },
+          "result": "error",
+          "error_type": "wrong_question_type",
+          "reaction": {
+            "zh_tw": "站務人員以為你在問票價，沒有確認方向。",
+            "en": "The staff thinks you are asking fare and does not confirm direction."
+          },
+          "pal_tip": {
+            "zh_tw": "要說去哪裡，用「에 가요」。問價格才用「얼마예요」。",
+            "en": "Use 에 가요 to say where you go. Use 얼마예요 for price."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:서울역", "ko:vocab:지하철", "ko:vocab:가다"],
+        "grammar": ["ko:grammar:a0.location_particle_에"],
+        "patterns": ["ko:pattern:a0.go_to_place"],
+        "scene_tags": ["transportation", "station", "directions", "location"]
+      },
+      "tags": ["survival", "transportation", "two_choice"],
+      "prerequisites": ["ko.a0.reigns.class_time.001"]
+    },
+    {
+      "event_id": "ko.a0.reigns.polite_apology.001",
+      "level": "A0",
+      "scene_type": "social_politeness_bump",
+      "register": "polite_safe",
+      "difficulty": 1,
+      "setup": {
+        "zh_tw": "你在走廊不小心碰到別人的包。",
+        "en": "In the hallway, you accidentally bump into someone's bag."
+      },
+      "npc_speaker_id": "student",
+      "npc_utterance": {
+        "ko": "괜찮아요?",
+        "zh_tw": "你還好嗎？",
+        "en": "Are you okay?"
+      },
+      "choices": [
+        {
+          "choice_id": "say_sorry",
+          "text": {
+            "ko": "죄송합니다.",
+            "zh_tw": "對不起。",
+            "en": "I am sorry."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "對方笑著說沒關係。",
+            "en": "The other student smiles and says it is okay."
+          },
+          "pal_tip": {
+            "zh_tw": "正式一點的道歉先用「죄송합니다」。陌生人和學校場景都安全。",
+            "en": "Use 죄송합니다 for a safer formal apology with strangers or at school."
+          }
+        },
+        {
+          "choice_id": "say_price_mismatch",
+          "text": {
+            "ko": "얼마예요?",
+            "zh_tw": "多少錢？",
+            "en": "How much is it?"
+          },
+          "result": "error",
+          "error_type": "semantic_mismatch",
+          "reaction": {
+            "zh_tw": "對方困惑地看著你，因為現在不是買東西。",
+            "en": "The other student looks confused because this is not shopping."
+          },
+          "pal_tip": {
+            "zh_tw": "碰到人或打擾別人時，用「죄송합니다」。",
+            "en": "When you bump into or bother someone, use 죄송합니다."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:죄송합니다", "ko:vocab:괜찮아요", "ko:vocab:감사합니다"],
+        "grammar": [],
+        "patterns": ["ko:pattern:a0.sorry", "ko:pattern:a0.thanks"],
+        "scene_tags": ["politeness", "apology", "thanks"]
+      },
+      "tags": ["survival", "politeness", "two_choice"],
+      "prerequisites": ["ko.a0.reigns.subway_station.001"]
+    },
+    {
+      "event_id": "ko.a0.reigns.daily_need_help.001",
+      "level": "A0",
+      "scene_type": "daily_need_help",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "你的手機快沒電了，想請櫃台幫忙。",
+        "en": "Your phone is almost out of battery, and you want to ask the counter for help."
+      },
+      "npc_speaker_id": "staff",
+      "npc_utterance": {
+        "ko": "무슨 일이에요?",
+        "zh_tw": "怎麼了？",
+        "en": "What is the matter?"
+      },
+      "choices": [
+        {
+          "choice_id": "ask_help",
+          "text": {
+            "ko": "도와주세요.",
+            "zh_tw": "請幫幫我。",
+            "en": "Please help me."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "職員走過來，指給你充電的地方。",
+            "en": "The staff comes over and points to a charging spot."
+          },
+          "pal_tip": {
+            "zh_tw": "遇到緊急或不知道怎麼說的需求，可以先用「도와주세요」。",
+            "en": "For urgent needs or when you lack words, start with 도와주세요."
+          }
+        },
+        {
+          "choice_id": "ask_time_help_mismatch",
+          "text": {
+            "ko": "몇 시예요?",
+            "zh_tw": "幾點？",
+            "en": "What time is it?"
+          },
+          "result": "error",
+          "error_type": "semantic_mismatch",
+          "reaction": {
+            "zh_tw": "職員告訴你時間，但沒有理解你需要幫忙。",
+            "en": "The staff tells you the time but does not understand that you need help."
+          },
+          "pal_tip": {
+            "zh_tw": "你需要幫忙時，直接說「도와주세요」。時間問題才用「몇 시예요」。",
+            "en": "When you need help, say 도와주세요. Use 몇 시예요 only for time."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:도와주세요", "ko:vocab:휴대폰", "ko:vocab:충전"],
+        "grammar": ["ko:grammar:a0.request_주세요"],
+        "patterns": ["ko:pattern:a0.help_me"],
+        "scene_tags": ["daily_need", "help", "request"]
+      },
+      "tags": ["survival", "help", "two_choice"],
+      "prerequisites": ["ko.a0.reigns.polite_apology.001"]
+    }
+  ]
+}

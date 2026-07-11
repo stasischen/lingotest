@@ -1,0 +1,2689 @@
+{
+  "id": "IGEj-oDKyw8",
+  "metadata": {
+    "title": "If You’re a BEGINNER, WATCH THIS! | Comprehensible Korean Input at a Convenience Store",
+    "channel": "Daily Korean with Jaerim",
+    "thumbnailUrl": "https://img.youtube.com/vi/IGEj-oDKyw8/maxresdefault.jpg",
+    "duration": "09:33",
+    "category": "vlog",
+    "difficulty_level": "v1"
+  },
+  "nodes": {
+    "Start": {
+      "id": "Start",
+      "turns": [
+        {
+          "id": "v_001",
+          "text": {
+            "ko": "안녕하세요. 여러분, 재림이에요."
+          },
+          "time": {
+            "start": 9381,
+            "end": 15881
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:안녕하다+ko:e:세요",
+                "text": "안녕하세요",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:pron:여러분",
+                "text": "여러분",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:prop:재림+ko:cop:이다+ko:e:에요",
+                "text": "재림이에요",
+                "pos": "prop+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_002",
+          "text": {
+            "ko": "여러분, 지금은 저녁 9시예요. 9시예요."
+          },
+          "time": {
+            "start": 15881,
+            "end": 27581
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:여러분",
+                "text": "여러분",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:n:지금+ko:p:은",
+                "text": "지금은",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:저녁",
+                "text": "저녁",
+                "pos": "n"
+              },
+              {
+                "id": "ko:xnum:9+ko:count:시+ko:cop:이다+ko:e:에요",
+                "text": "9시예요",
+                "pos": "xnum+count+cop+e"
+              },
+              {
+                "id": "ko:xnum:9+ko:count:시+ko:cop:이다+ko:e:에요",
+                "text": "9시예요",
+                "pos": "xnum+count+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_003",
+          "text": {
+            "ko": "저는 지금 배고파요. 배고파요."
+          },
+          "time": {
+            "start": 27581,
+            "end": 35781
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:저+ko:p:는",
+                "text": "저는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:n:지금",
+                "text": "지금",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adj:배고프다+ko:e:어요",
+                "text": "배고파요",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:adj:배고프다+ko:e:어요",
+                "text": "배고파요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_004",
+          "text": {
+            "ko": "그래서 편의점, 편의점에 갈 거예요."
+          },
+          "time": {
+            "start": 35781,
+            "end": 45192
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:그래서",
+                "text": "그래서",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:n:편의점",
+                "text": "편의점",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:편의점+ko:p:에",
+                "text": "편의점에",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:가다+ko:e:ㄹ",
+                "text": "갈",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:pron:거+ko:cop:이다+ko:e:어요",
+                "text": "거예요",
+                "pos": "pron+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_005",
+          "text": {
+            "ko": "같이 갈까요?"
+          },
+          "time": {
+            "start": 45221,
+            "end": 48756
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:같이",
+                "text": "같이",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:가다+ko:e:ㄹ까요",
+                "text": "갈까요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_006",
+          "text": {
+            "ko": "지금은 저녁이에요. 저녁이에요."
+          },
+          "time": {
+            "start": 48786,
+            "end": 56026
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:지금+ko:p:은",
+                "text": "지금은",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:저녁+ko:cop:이다+ko:e:에요",
+                "text": "저녁이에요",
+                "pos": "n+cop+e"
+              },
+              {
+                "id": "ko:n:저녁+ko:cop:이다+ko:e:에요",
+                "text": "저녁이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_007",
+          "text": {
+            "ko": "깜깜해요. 깜깜해요."
+          },
+          "time": {
+            "start": 56026,
+            "end": 62506
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:깜깜하다+ko:e:어요",
+                "text": "깜깜해요",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:adj:깜깜하다+ko:e:어요",
+                "text": "깜깜해요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_008",
+          "text": {
+            "ko": "여기는 편의점이에요."
+          },
+          "time": {
+            "start": 62506,
+            "end": 68646
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:여기+ko:p:는",
+                "text": "여기는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:n:편의점+ko:cop:이다+ko:e:어요",
+                "text": "편의점이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_009",
+          "text": {
+            "ko": "편의점"
+          },
+          "time": {
+            "start": 68646,
+            "end": 71646
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:편의점",
+                "text": "편의점",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_010",
+          "text": {
+            "ko": "편의점에 들어가요. 들어가요."
+          },
+          "time": {
+            "start": 71646,
+            "end": 80146
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:편의점+ko:p:에",
+                "text": "편의점에",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:들어가다+ko:e:아요",
+                "text": "들어가요",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:v:들어가다+ko:e:아요",
+                "text": "들어가요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_011",
+          "text": {
+            "ko": "여기는 편의점이에요. "
+          },
+          "time": {
+            "start": 80146,
+            "end": 86926
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:여기+ko:p:는",
+                "text": "여기는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:n:편의점+ko:cop:이다+ko:e:에요",
+                "text": "편의점이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_012",
+          "text": {
+            "ko": "라면이 많아요. 많아요."
+          },
+          "time": {
+            "start": 86926,
+            "end": 93706
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:라면+ko:p:이",
+                "text": "라면이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:많다+ko:e:아요",
+                "text": "많아요",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:adj:많다+ko:e:아요",
+                "text": "많아요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_013",
+          "text": {
+            "ko": "컵라면을 골라요. 골라요."
+          },
+          "time": {
+            "start": 93706,
+            "end": 100906
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:컵라면+ko:p:을",
+                "text": "컵라면을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:고르다+ko:e:아요",
+                "text": "골라요",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:v:고르다+ko:e:아요",
+                "text": "골라요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_014",
+          "text": {
+            "ko": "이거 매워요. 매워요."
+          },
+          "time": {
+            "start": 100906,
+            "end": 107486
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:이거",
+                "text": "이거",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:adj:맵다+ko:e:어요",
+                "text": "매워요",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:adj:맵다+ko:e:어요",
+                "text": "매워요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_015",
+          "text": {
+            "ko": "이것도 매워요."
+          },
+          "time": {
+            "start": 107486,
+            "end": 111346
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:이거+ko:p:도",
+                "text": "이것도",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:adj:맵다+ko:e:어요",
+                "text": "매워요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_016",
+          "text": {
+            "ko": "매운맛."
+          },
+          "time": {
+            "start": 111346,
+            "end": 113926
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:맵다+ko:n:맛",
+                "text": "매운맛",
+                "pos": "adj+n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_017",
+          "text": {
+            "ko": "매운맛이에요."
+          },
+          "time": {
+            "start": 113926,
+            "end": 116466
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:맵다+ko:n:맛+ko:cop:이다+ko:e:어요",
+                "text": "매운맛이에요",
+                "pos": "adj+n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_018",
+          "text": {
+            "ko": "이것도 매워요."
+          },
+          "time": {
+            "start": 116466,
+            "end": 120125
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:이거+ko:p:도",
+                "text": "이것도",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:adj:맵다+ko:e:어요",
+                "text": "매워요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_019",
+          "text": {
+            "ko": "이거 진짜 매워요. 진짜 매워요."
+          },
+          "time": {
+            "start": 120126,
+            "end": 127546
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:이거",
+                "text": "이거",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:adv:진짜",
+                "text": "진짜",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:맵다+ko:e:어요",
+                "text": "매워요",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:adv:진짜",
+                "text": "진짜",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:맵다+ko:e:어요",
+                "text": "매워요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_020",
+          "text": {
+            "ko": "이거는 안 매워요. 안 매워요."
+          },
+          "time": {
+            "start": 127546,
+            "end": 134286
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:이거+ko:p:는",
+                "text": "이거는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:adv:안",
+                "text": "안",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:맵다+ko:e:어요",
+                "text": "매워요",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:adv:안",
+                "text": "안",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:맵다+ko:e:어요",
+                "text": "매워요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_021",
+          "text": {
+            "ko": "저는 이거 골랐어요."
+          },
+          "time": {
+            "start": 134286,
+            "end": 140226
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:저+ko:p:는",
+                "text": "저는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:pron:이거",
+                "text": "이거",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:v:고르다+ko:e:았+ko:e:어요",
+                "text": "골랐어요",
+                "pos": "v+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_022",
+          "text": {
+            "ko": "저는 매운라면 좋아해요."
+          },
+          "time": {
+            "start": 140226,
+            "end": 145826
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:저+ko:p:는",
+                "text": "저는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:adj:맵다+ko:n:라면",
+                "text": "매운라면",
+                "pos": "adj+n"
+              },
+              {
+                "id": "ko:v:좋아하다+ko:e:어요",
+                "text": "좋아해요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_023",
+          "text": {
+            "ko": "가격은 1,250원이에요."
+          },
+          "time": {
+            "start": 145826,
+            "end": 153745
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:가격+ko:p:은",
+                "text": "가격은",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:xnum:1,250+ko:count:원+ko:cop:이다+ko:e:에요",
+                "text": "1,250원이에요",
+                "pos": "xnum+count+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_024",
+          "text": {
+            "ko": "1,250원"
+          },
+          "time": {
+            "start": 153745,
+            "end": 158726
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:xnum:1,250+ko:count:원",
+                "text": "1,250원",
+                "pos": "xnum+count"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_025",
+          "text": {
+            "ko": "삼각김밥이에요."
+          },
+          "time": {
+            "start": 158726,
+            "end": 162886
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:삼각김밥+ko:cop:이다+ko:e:에요",
+                "text": "삼각김밥이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_026",
+          "text": {
+            "ko": "삼각김밥을 골라요."
+          },
+          "time": {
+            "start": 162886,
+            "end": 168025
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:삼각김밥+ko:p:을",
+                "text": "삼각김밥을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:고르다+ko:e:아요",
+                "text": "골라요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_027",
+          "text": {
+            "ko": "골라요."
+          },
+          "time": {
+            "start": 168026,
+            "end": 170966
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:v:고르다+ko:e:아요",
+                "text": "골라요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_028",
+          "text": {
+            "ko": "저는 참치 좋아해요."
+          },
+          "time": {
+            "start": 170966,
+            "end": 176426
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:저+ko:p:는",
+                "text": "저는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:n:참치",
+                "text": "참치",
+                "pos": "n"
+              },
+              {
+                "id": "ko:v:좋아하다+ko:e:어요",
+                "text": "좋아해요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_029",
+          "text": {
+            "ko": "이거 골랐어요."
+          },
+          "time": {
+            "start": 176426,
+            "end": 180046
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:이거",
+                "text": "이거",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:v:고르다+ko:e:았+ko:e:어요",
+                "text": "골랐어요",
+                "pos": "v+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_030",
+          "text": {
+            "ko": "골랐어요."
+          },
+          "time": {
+            "start": 180046,
+            "end": 182666
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:v:고르다+ko:e:았+ko:e:어요",
+                "text": "골랐어요",
+                "pos": "v+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_031",
+          "text": {
+            "ko": "1,200원이에요."
+          },
+          "time": {
+            "start": 182666,
+            "end": 187226
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:xnum:1,200+ko:count:원+ko:cop:이다+ko:e:에요",
+                "text": "1,200원이에요",
+                "pos": "xnum+count+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_032",
+          "text": {
+            "ko": "1,200원"
+          },
+          "time": {
+            "start": 187226,
+            "end": 190806
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:xnum:1,200+ko:count:원",
+                "text": "1,200원",
+                "pos": "xnum+count"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_033",
+          "text": {
+            "ko": "음료수예요."
+          },
+          "time": {
+            "start": 190806,
+            "end": 193466
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:음료수+ko:cop:이다+ko:e:에요",
+                "text": "음료수예요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_034",
+          "text": {
+            "ko": "음료수"
+          },
+          "time": {
+            "start": 193466,
+            "end": 195686
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:음료수",
+                "text": "음료수",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_035",
+          "text": {
+            "ko": "음료수를 골라요."
+          },
+          "time": {
+            "start": 195686,
+            "end": 200346
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:음료수+ko:p:를",
+                "text": "음료수를",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:고르다+ko:e:아요",
+                "text": "골라요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_036",
+          "text": {
+            "ko": "저는 복숭아 아이스티 골랐어요."
+          },
+          "time": {
+            "start": 200346,
+            "end": 207946
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:저+ko:p:는",
+                "text": "저는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:n:복숭아",
+                "text": "복숭아",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:아이스티",
+                "text": "아이스티",
+                "pos": "n"
+              },
+              {
+                "id": "ko:v:고르다+ko:e:았+ko:e:어요",
+                "text": "골랐어요",
+                "pos": "v+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_037",
+          "text": {
+            "ko": "골랐어요."
+          },
+          "time": {
+            "start": 207946,
+            "end": 210386
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:v:고르다+ko:e:았+ko:e:어요",
+                "text": "골랐어요",
+                "pos": "v+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_038",
+          "text": {
+            "ko": "복숭아 맛이에요."
+          },
+          "time": {
+            "start": 210386,
+            "end": 214866
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:복숭아",
+                "text": "복숭아",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:맛+ko:cop:이다+ko:e:에요",
+                "text": "맛이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_039",
+          "text": {
+            "ko": "그리고 얼음컵"
+          },
+          "time": {
+            "start": 214866,
+            "end": 218726
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:그리고",
+                "text": "그리고",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:n:얼음컵",
+                "text": "얼음컵",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_040",
+          "text": {
+            "ko": "얼음컵도 하나 꺼내요."
+          },
+          "time": {
+            "start": 218726,
+            "end": 224666
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:얼음컵+ko:p:도",
+                "text": "얼음컵도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:num:하나",
+                "text": "하나",
+                "pos": "num"
+              },
+              {
+                "id": "ko:v:꺼내다+ko:e:아요",
+                "text": "꺼내요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_041",
+          "text": {
+            "ko": "꺼내요."
+          },
+          "time": {
+            "start": 224666,
+            "end": 227946
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:v:꺼내다+ko:e:아요",
+                "text": "꺼내요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_042",
+          "text": {
+            "ko": "이제 계산해요."
+          },
+          "time": {
+            "start": 227946,
+            "end": 231866
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:이제",
+                "text": "이제",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:계산하다+ko:e:아요",
+                "text": "계산해요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_043",
+          "text": {
+            "ko": "계산해요."
+          },
+          "time": {
+            "start": 231866,
+            "end": 234866
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:v:계산하다+ko:e:어요",
+                "text": "계산해요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_044",
+          "text": {
+            "ko": "빨대"
+          },
+          "time": {
+            "start": 235661,
+            "end": 241161
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:빨대",
+                "text": "빨대",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_045",
+          "text": {
+            "ko": "젓가락"
+          },
+          "time": {
+            "start": 241161,
+            "end": 244261
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:젓가락",
+                "text": "젓가락",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_046",
+          "text": {
+            "ko": "젓가락이에요"
+          },
+          "time": {
+            "start": 244261,
+            "end": 248161
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:젓가락+ko:cop:이다+ko:e:에요",
+                "text": "젓가락이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_047",
+          "text": {
+            "ko": "여기 테이블이 있어요"
+          },
+          "time": {
+            "start": 248161,
+            "end": 253740
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:여기",
+                "text": "여기",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:n:테이블+ko:p:이",
+                "text": "테이블이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:있다+ko:e:어요",
+                "text": "있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_048",
+          "text": {
+            "ko": "테이블"
+          },
+          "time": {
+            "start": 253740,
+            "end": 256740
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:테이블",
+                "text": "테이블",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_049",
+          "text": {
+            "ko": "의자도 있어요"
+          },
+          "time": {
+            "start": 256740,
+            "end": 260341
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:의자+ko:p:도",
+                "text": "의자도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:있다+ko:e:어요",
+                "text": "있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_050",
+          "text": {
+            "ko": "의자"
+          },
+          "time": {
+            "start": 260341,
+            "end": 263341
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:의자",
+                "text": "의자",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_051",
+          "text": {
+            "ko": "여기에서 먹을 수 있어요"
+          },
+          "time": {
+            "start": 263341,
+            "end": 270301
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:여기+ko:p:에서",
+                "text": "여기에서",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:v:먹다+ko:e:을",
+                "text": "먹을",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:count:수",
+                "text": "수",
+                "pos": "count"
+              },
+              {
+                "id": "ko:adj:있다+ko:e:어요",
+                "text": "있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_052",
+          "text": {
+            "ko": "컵라면 비닐을 뜯어요. 뜯어요."
+          },
+          "time": {
+            "start": 270301,
+            "end": 279101
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:컵라면",
+                "text": "컵라면",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:비닐+ko:p:을",
+                "text": "비닐을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:뜯다+ko:e:어요",
+                "text": "뜯어요",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:v:뜯다+ko:e:어요",
+                "text": "뜯어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_053",
+          "text": {
+            "ko": "뚜껑"
+          },
+          "time": {
+            "start": 279101,
+            "end": 281421
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:뚜껑",
+                "text": "뚜껑",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_054",
+          "text": {
+            "ko": "뚜껑을 열어요"
+          },
+          "time": {
+            "start": 281421,
+            "end": 288021
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:뚜껑+ko:p:을",
+                "text": "뚜껑을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:열다+ko:e:어요",
+                "text": "열어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_055",
+          "text": {
+            "ko": "스프, 스프를 뜯어요"
+          },
+          "time": {
+            "start": 288021,
+            "end": 294261
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:스프",
+                "text": "스프",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:스프+ko:p:를",
+                "text": "스프를",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:뜯다+ko:e:어요",
+                "text": "뜯어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_056",
+          "text": {
+            "ko": "그리고 넣어요"
+          },
+          "time": {
+            "start": 294261,
+            "end": 300701
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:그리고",
+                "text": "그리고",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:넣다+ko:e:어요",
+                "text": "넣어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_057",
+          "text": {
+            "ko": "물, 물을 부어요"
+          },
+          "time": {
+            "start": 300701,
+            "end": 310101
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:물",
+                "text": "물",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:물+ko:p:를",
+                "text": "물을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:붓다+ko:e:어요",
+                "text": "부어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_058",
+          "text": {
+            "ko": "뜨거운 물이에요"
+          },
+          "time": {
+            "start": 310101,
+            "end": 317101
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:뜨겁다+ko:e:ㄴ",
+                "text": "뜨거운",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:n:물+ko:cop:이다+ko:e:에요",
+                "text": "물이에요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_059",
+          "text": {
+            "ko": "이 물 뜨거워요. 뜨거워요."
+          },
+          "time": {
+            "start": 317101,
+            "end": 323980
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:이",
+                "text": "이",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:물",
+                "text": "물",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adj:뜨겁다+ko:e:어요",
+                "text": "뜨거워요",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:adj:뜨겁다+ko:e:어요",
+                "text": "뜨거워요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_060",
+          "text": {
+            "ko": "3분"
+          },
+          "time": {
+            "start": 323980,
+            "end": 326421
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:xnum:3+ko:count:분",
+                "text": "3분",
+                "pos": "xnum+count"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_061",
+          "text": {
+            "ko": "3분 기다려요. 기다려요."
+          },
+          "time": {
+            "start": 326421,
+            "end": 333381
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:xnum:3+ko:count:분",
+                "text": "3분",
+                "pos": "xnum+count"
+              },
+              {
+                "id": "ko:v:기다리다+ko:e:어요",
+                "text": "기다려요",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:v:기다리다+ko:e:어요",
+                "text": "기다려요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_062",
+          "text": {
+            "ko": "뚜껑"
+          },
+          "time": {
+            "start": 333381,
+            "end": 335460
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:뚜껑",
+                "text": "뚜껑",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_063",
+          "text": {
+            "ko": "뚜껑을 열어요"
+          },
+          "time": {
+            "start": 335461,
+            "end": 340061
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:뚜껑+ko:p:을",
+                "text": "뚜껑을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:열다+ko:e:어요",
+                "text": "열어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_064",
+          "text": {
+            "ko": "비닐, 비닐을 뜯어요"
+          },
+          "time": {
+            "start": 340061,
+            "end": 345101
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:비닐",
+                "text": "비닐",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:비닐+ko:p:을",
+                "text": "비닐을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:뜯다+ko:e:어요",
+                "text": "뜯어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_065",
+          "text": {
+            "ko": "음료수를 컵에 부어요"
+          },
+          "time": {
+            "start": 345101,
+            "end": 356981
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:음료수+ko:p:를",
+                "text": "음료수를",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:컵+ko:p:에",
+                "text": "컵에",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:붓다+ko:e:어요",
+                "text": "부어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_066",
+          "text": {
+            "ko": "삼각김밥 비닐을 뜯어요. 뜯어요."
+          },
+          "time": {
+            "start": 356981,
+            "end": 367580
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:삼각김밥",
+                "text": "삼각김밥",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:비닐+ko:p:을",
+                "text": "비닐을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:뜯다+ko:e:어요",
+                "text": "뜯어요",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:v:뜯다+ko:e:어요",
+                "text": "뜯어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_067",
+          "text": {
+            "ko": "먹어요"
+          },
+          "time": {
+            "start": 367580,
+            "end": 370140
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:v:먹다+ko:e:어요",
+                "text": "먹어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_068",
+          "text": {
+            "ko": "삼각김밥을 먹어요"
+          },
+          "time": {
+            "start": 370141,
+            "end": 374861
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:삼각김밥+ko:p:을",
+                "text": "삼각김밥을",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:먹다+ko:e:어요",
+                "text": "먹어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_069",
+          "text": {
+            "ko": "컵라면, 컵라면도 먹어요"
+          },
+          "time": {
+            "start": 374861,
+            "end": 383741
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:컵라면",
+                "text": "컵라면",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:컵라면+ko:p:도",
+                "text": "컵라면도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:먹다+ko:e:어요",
+                "text": "먹어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_070",
+          "text": {
+            "ko": "맛있어요"
+          },
+          "time": {
+            "start": 383741,
+            "end": 387381
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:맛있다+ko:e:어요",
+                "text": "맛있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_071",
+          "text": {
+            "ko": "국물도 마셔요"
+          },
+          "time": {
+            "start": 387381,
+            "end": 390861
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:국물+ko:p:도",
+                "text": "국물도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:마시다+ko:e:어요",
+                "text": "마셔요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_072",
+          "text": {
+            "ko": "음료수도 마셔요"
+          },
+          "time": {
+            "start": 390861,
+            "end": 394621
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:음료수+ko:p:도",
+                "text": "음료수도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:마시다+ko:e:어요",
+                "text": "마셔요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_073",
+          "text": {
+            "ko": "맛있어요"
+          },
+          "time": {
+            "start": 394621,
+            "end": 397140
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:맛있다+ko:e:어요",
+                "text": "맛있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_074",
+          "text": {
+            "ko": "다 먹었어요. 다 먹었어요."
+          },
+          "time": {
+            "start": 397141,
+            "end": 403461
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:다",
+                "text": "다",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:먹다+ko:e:었+ko:e:어요",
+                "text": "먹었어요",
+                "pos": "v+e+e"
+              },
+              {
+                "id": "ko:adv:다",
+                "text": "다",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:먹다+ko:e:었+ko:e:어요",
+                "text": "먹었어요",
+                "pos": "v+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_075",
+          "text": {
+            "ko": "쓰레기"
+          },
+          "time": {
+            "start": 403461,
+            "end": 405661
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:쓰레기",
+                "text": "쓰레기",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_076",
+          "text": {
+            "ko": "쓰레기예요. 쓰레기."
+          },
+          "time": {
+            "start": 405661,
+            "end": 409941
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:쓰레기+ko:cop:이다+ko:e:에요",
+                "text": "쓰레기예요",
+                "pos": "n+cop+e"
+              },
+              {
+                "id": "ko:n:쓰레기",
+                "text": "쓰레기",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_077",
+          "text": {
+            "ko": "쓰레기통이 있어요. 쓰레기통."
+          },
+          "time": {
+            "start": 409941,
+            "end": 416900
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:쓰레기통+ko:p:이",
+                "text": "쓰레기통이",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:있다+ko:e:어요",
+                "text": "있어요",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:n:쓰레기통",
+                "text": "쓰레기통",
+                "pos": "n"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_078",
+          "text": {
+            "ko": "쓰레기를 쓰레기통에 버려요. 버려요."
+          },
+          "time": {
+            "start": 416901,
+            "end": 425541
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:쓰레기+ko:p:를",
+                "text": "쓰레기를",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:쓰레기통+ko:p:에",
+                "text": "쓰레기통에",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:버리다+ko:e:어요",
+                "text": "버려요",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:v:버리다+ko:e:어요",
+                "text": "버려요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_079",
+          "text": {
+            "ko": "맥주도 사요. "
+          },
+          "time": {
+            "start": 425541,
+            "end": 428981
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:맥주+ko:p:도",
+                "text": "맥주도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:사다+ko:e:아요",
+                "text": "사요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_080",
+          "text": {
+            "ko": "맥주가 많아요"
+          },
+          "time": {
+            "start": 428981,
+            "end": 433221
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:맥주+ko:p:가",
+                "text": "맥주가",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:많다+ko:e:아요",
+                "text": "많아요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_081",
+          "text": {
+            "ko": "세계 맥주예요."
+          },
+          "time": {
+            "start": 433221,
+            "end": 437501
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:세계",
+                "text": "세계",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:맥주+ko:cop:이다+ko:e:에요",
+                "text": "맥주예요",
+                "pos": "n+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_082",
+          "text": {
+            "ko": "4개 12,000원이에요. 12,000원."
+          },
+          "time": {
+            "start": 437501,
+            "end": 445421
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:xnum:4+ko:n:개",
+                "text": "4개",
+                "pos": "xnum+n"
+              },
+              {
+                "id": "ko:xnum:12,000+ko:count:원+ko:cop:이다+ko:e:에요",
+                "text": "12,000원이에요",
+                "pos": "xnum+count+cop+e"
+              },
+              {
+                "id": "ko:xnum:12,000+ko:count:원",
+                "text": "12,000원",
+                "pos": "xnum+count"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_083",
+          "text": {
+            "ko": "이거"
+          },
+          "time": {
+            "start": 445421,
+            "end": 450580
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:이거",
+                "text": "이거",
+                "pos": "pron"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_084",
+          "text": {
+            "ko": "이거, 이거, 이거  골랐어요. 골랐어요."
+          },
+          "time": {
+            "start": 450821,
+            "end": 458661
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:이거",
+                "text": "이거",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:pron:이거",
+                "text": "이거",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:pron:이거",
+                "text": "이거",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:v:고르다+ko:e:았+ko:e:어요",
+                "text": "골랐어요",
+                "pos": "v+e+e"
+              },
+              {
+                "id": "ko:v:고르다+ko:e:았+ko:e:어요",
+                "text": "골랐어요",
+                "pos": "v+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_085",
+          "text": {
+            "ko": "과자도 골라요"
+          },
+          "time": {
+            "start": 458661,
+            "end": 461901
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:과자+ko:p:도",
+                "text": "과자도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:고르다+ko:e:아요",
+                "text": "골라요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_086",
+          "text": {
+            "ko": "진짜 많아요"
+          },
+          "time": {
+            "start": 461901,
+            "end": 465181
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:진짜",
+                "text": "진짜",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:adj:많다+ko:e:아요",
+                "text": "많아요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_087",
+          "text": {
+            "ko": "저는 이거 좋아해요"
+          },
+          "time": {
+            "start": 465181,
+            "end": 470700
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:저+ko:p:는",
+                "text": "저는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:pron:이거",
+                "text": "이거",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:v:좋아하다+ko:e:어요",
+                "text": "좋아해요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_088",
+          "text": {
+            "ko": "맥주랑 먹으면 맛있어요"
+          },
+          "time": {
+            "start": 470701,
+            "end": 477181
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:맥주+ko:p:랑",
+                "text": "맥주랑",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:먹다+ko:e:으면",
+                "text": "먹으면",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:adj:맛있다+ko:e:어요",
+                "text": "맛있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_089",
+          "text": {
+            "ko": "1700원이에요"
+          },
+          "time": {
+            "start": 477181,
+            "end": 481861
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:xnum:1700+ko:count:원+ko:cop:이다+ko:e:에요",
+                "text": "1700원이에요",
+                "pos": "xnum+count+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_090",
+          "text": {
+            "ko": "계산해요. 계산해요."
+          },
+          "time": {
+            "start": 481861,
+            "end": 487101
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:v:계산하다+ko:e:어요",
+                "text": "계산해요",
+                "pos": "v+e"
+              },
+              {
+                "id": "ko:v:계산하다+ko:e:어요",
+                "text": "계산해요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_091",
+          "text": {
+            "ko": "총 13,800원이에요."
+          },
+          "time": {
+            "start": 487101,
+            "end": 493741
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:총",
+                "text": "총",
+                "pos": "n"
+              },
+              {
+                "id": "ko:xnum:13,800+ko:count:원+ko:cop:이다+ko:e:에요",
+                "text": "13,800원이에요",
+                "pos": "xnum+count+cop+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_092",
+          "text": {
+            "ko": "13800원"
+          },
+          "time": {
+            "start": 493741,
+            "end": 496911
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:xnum:13800+ko:count:원",
+                "text": "13800원",
+                "pos": "xnum+count"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_093",
+          "text": {
+            "ko": "여러분 저는 편의점에 다녀왔어요. 다녀왔어요."
+          },
+          "time": {
+            "start": 501283,
+            "end": 511223
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:여러분",
+                "text": "여러분",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:pron:저+ko:p:는",
+                "text": "저는",
+                "pos": "pron+p"
+              },
+              {
+                "id": "ko:n:편의점+ko:p:에",
+                "text": "편의점에",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:다녀오다+ko:e:았+ko:e:어요",
+                "text": "다녀왔어요",
+                "pos": "v+e+e"
+              },
+              {
+                "id": "ko:v:다녀오다+ko:e:았+ko:e:어요",
+                "text": "다녀왔어요",
+                "pos": "v+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_094",
+          "text": {
+            "ko": "지금 배불러요. 배불러요."
+          },
+          "time": {
+            "start": 511223,
+            "end": 517423
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:지금",
+                "text": "지금",
+                "pos": "n"
+              },
+              {
+                "id": "ko:adj:배부르다+ko:e:어요",
+                "text": "배불러요",
+                "pos": "adj+e"
+              },
+              {
+                "id": "ko:adj:배부르다+ko:e:어요",
+                "text": "배불러요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_095",
+          "text": {
+            "ko": "편의점에서 삼각김밥하고 컵라면 먹었어요."
+          },
+          "time": {
+            "start": 517423,
+            "end": 526183
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:편의점+ko:p:에서",
+                "text": "편의점에서",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:삼각김밥+ko:p:하고",
+                "text": "삼각김밥하고",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:컵라면",
+                "text": "컵라면",
+                "pos": "n"
+              },
+              {
+                "id": "ko:v:먹다+ko:e:었+ko:e:어요",
+                "text": "먹었어요",
+                "pos": "v+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_096",
+          "text": {
+            "ko": "맥주하고 과자도 사왔어요."
+          },
+          "time": {
+            "start": 526183,
+            "end": 535403
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:맥주+ko:p:하고",
+                "text": "맥주하고",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:n:과자+ko:p:도",
+                "text": "과자도",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:사오다+ko:e:았+ko:e:어요",
+                "text": "사왔어요",
+                "pos": "v+e+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_097",
+          "text": {
+            "ko": "한국 편의점은 24시예요. 24시"
+          },
+          "time": {
+            "start": 535403,
+            "end": 544426
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:한국",
+                "text": "한국",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:편의점+ko:p:은",
+                "text": "편의점은",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:xnum:24+ko:count:시+ko:cop:이다+ko:e:에요",
+                "text": "24시예요",
+                "pos": "xnum+count+cop+e"
+              },
+              {
+                "id": "ko:xnum:24+ko:count:시",
+                "text": "24시",
+                "pos": "xnum+count"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_098",
+          "text": {
+            "ko": " 24시간 열어요."
+          },
+          "time": {
+            "start": 544426,
+            "end": 550083
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:xnum:24+ko:count:시간",
+                "text": "24시간",
+                "pos": "xnum+count"
+              },
+              {
+                "id": "ko:v:열다+ko:e:어요",
+                "text": "열어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_099",
+          "text": {
+            "ko": "항상 열어요."
+          },
+          "time": {
+            "start": 550083,
+            "end": 553440
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:항상",
+                "text": "항상",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:v:열다+ko:e:어요",
+                "text": "열어요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_100",
+          "text": {
+            "ko": "여러분 나라에도 24시 가게가 있어요?"
+          },
+          "time": {
+            "start": 553441,
+            "end": 561503
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:pron:여러분",
+                "text": "여러분",
+                "pos": "pron"
+              },
+              {
+                "id": "ko:n:나라+ko:p:에+ko:p:도",
+                "text": "나라에도",
+                "pos": "n+p+p"
+              },
+              {
+                "id": "ko:xnum:24+ko:count:시",
+                "text": "24시",
+                "pos": "xnum+count"
+              },
+              {
+                "id": "ko:n:가게+ko:p:가",
+                "text": "가게가",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:adj:있다+ko:e:어요",
+                "text": "있어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_101",
+          "text": {
+            "ko": "없어요."
+          },
+          "time": {
+            "start": 561503,
+            "end": 563543
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adj:없다+ko:e:어요",
+                "text": "없어요",
+                "pos": "adj+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_102",
+          "text": {
+            "ko": "댓글로 알려주세요."
+          },
+          "time": {
+            "start": 563543,
+            "end": 567143
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:n:댓글+ko:p:로",
+                "text": "댓글로",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:알리다+ko:e:어+ko:vx:주다+ko:e:세요",
+                "text": "알려주세요",
+                "pos": "v+e+vx+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_103",
+          "text": {
+            "ko": "그럼 다음 영상에서 만나요."
+          },
+          "time": {
+            "start": 567143,
+            "end": 571363
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:adv:그럼",
+                "text": "그럼",
+                "pos": "adv"
+              },
+              {
+                "id": "ko:n:다음",
+                "text": "다음",
+                "pos": "n"
+              },
+              {
+                "id": "ko:n:영상+ko:p:에서",
+                "text": "영상에서",
+                "pos": "n+p"
+              },
+              {
+                "id": "ko:v:만나다+ko:e:아요",
+                "text": "만나요",
+                "pos": "v+e"
+              }
+            ]
+          }
+        },
+        {
+          "id": "v_104",
+          "text": {
+            "ko": "안녕~"
+          },
+          "time": {
+            "start": 571363,
+            "end": 573158
+          },
+          "content": {
+            "atoms": [
+              {
+                "id": "ko:intj:안녕",
+                "text": "안녕",
+                "pos": "intj"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

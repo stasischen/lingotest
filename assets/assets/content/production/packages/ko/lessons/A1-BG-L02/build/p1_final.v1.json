@@ -1,0 +1,176 @@
+{
+  "id": "A1-BG-L02-P1",
+  "candidate_type": "lesson",
+  "content_form": "practice_card",
+  "learning_role": "controlled_output",
+  "skill_focus": [
+    "reading"
+  ],
+  "output_mode": "chunk_assembly",
+  "duration_min": 5,
+  "title_i18n": {
+    "zh_tw": "P1 實戰演練：助詞挑戰",
+    "en": "P1 Practice: Particle Challenge"
+  },
+  "summary_i18n": {
+    "zh_tw": "根據對話情境選擇正確的助詞。",
+    "en": "Select the correct particle based on the context."
+  },
+  "projection_type": "chunk_assembly",
+  "projection_source": {
+    "status": "merged_v1",
+    "last_generated": "P1_V1_MERGE"
+  },
+  "payload": {
+    "tasks": [
+      {
+        "item_id": "a1_bg_l02_apple_good_polite",
+        "mastery_key": "a1_bg_l02_apple_good_polite",
+        "ko_surface": "사과는 맛있어요.",
+        "target_examples": [
+          "사과는 맛있어요."
+        ],
+        "target_examples_zh_tw": [
+          "蘋果好吃。"
+        ],
+        "meaning_i18n": {
+          "zh_tw": "蘋果好吃。",
+          "en": "Apple is delicious."
+        },
+        "chunks": [
+          "사과는",
+          "맛있어요."
+        ],
+        "distractors": [
+          "맛없어요.",
+          "사과가"
+        ],
+        "source_preset_id": "apple_good_polite"
+      },
+      {
+        "item_id": "a1_bg_l02_coffee_expensive_polite",
+        "mastery_key": "a1_bg_l02_coffee_expensive_polite",
+        "ko_surface": "커피는 비싸요.",
+        "target_examples": [
+          "커피는 비싸요."
+        ],
+        "target_examples_zh_tw": [
+          "咖啡很貴。"
+        ],
+        "meaning_i18n": {
+          "zh_tw": "咖啡很貴。",
+          "en": "Coffee is expensive."
+        },
+        "chunks": [
+          "커피는",
+          "비싸요."
+        ],
+        "distractors": [
+          "싸요.",
+          "커피가"
+        ],
+        "source_preset_id": "coffee_expensive_polite"
+      },
+      {
+        "item_id": "a1_bg_l02_drink_coffee_polite",
+        "mastery_key": "a1_bg_l02_drink_coffee_polite",
+        "ko_surface": "커피를 마셔요.",
+        "target_examples": [
+          "커피를 마셔요."
+        ],
+        "target_examples_zh_tw": [
+          "喝咖啡。"
+        ],
+        "meaning_i18n": {
+          "zh_tw": "喝咖啡。",
+          "en": "Drink coffee."
+        },
+        "chunks": [
+          "커피를",
+          "마셔요."
+        ],
+        "distractors": [
+          "물을",
+          "먹어요."
+        ],
+        "source_preset_id": "drink_coffee_polite"
+      },
+      {
+        "item_id": "a1_bg_l02_eat_meal_polite",
+        "mastery_key": "a1_bg_l02_eat_meal_polite",
+        "ko_surface": "밥을 먹어요.",
+        "target_examples": [
+          "밥을 먹어요."
+        ],
+        "target_examples_zh_tw": [
+          "吃正餐。"
+        ],
+        "meaning_i18n": {
+          "zh_tw": "吃正餐。",
+          "en": "Eat a meal."
+        },
+        "chunks": [
+          "밥을",
+          "먹어요."
+        ],
+        "distractors": [
+          "빵을",
+          "마셔요."
+        ],
+        "source_preset_id": "eat_meal_polite"
+      },
+      {
+        "item_id": "a1_bg_l02_movie_boring_polite",
+        "mastery_key": "a1_bg_l02_movie_boring_polite",
+        "ko_surface": "영화는 재미없어요.",
+        "target_examples": [
+          "영화는 재미없어요."
+        ],
+        "target_examples_zh_tw": [
+          "電影很無聊。"
+        ],
+        "meaning_i18n": {
+          "zh_tw": "電影很無聊。",
+          "en": "The movie is boring."
+        },
+        "chunks": [
+          "영화는",
+          "재미없어요."
+        ],
+        "distractors": [
+          "재미있어요.",
+          "영화가"
+        ],
+        "source_preset_id": "movie_boring_polite"
+      },
+      {
+        "item_id": "a1_bg_l02_see_movie_polite",
+        "mastery_key": "a1_bg_l02_see_movie_polite",
+        "ko_surface": "영화를 봐요.",
+        "target_examples": [
+          "영화를 봐요."
+        ],
+        "target_examples_zh_tw": [
+          "看電影。"
+        ],
+        "meaning_i18n": {
+          "zh_tw": "看電影。",
+          "en": "Watch a movie."
+        },
+        "chunks": [
+          "영화를",
+          "봐요."
+        ],
+        "distractors": [
+          "티비를",
+          "먹어요."
+        ],
+        "source_preset_id": "see_movie_polite"
+      }
+    ]
+  },
+  "adapter_hints": {
+    "content_renderer_key": "practice_card",
+    "interaction_renderer_key": "chunk_assembly"
+  }
+}

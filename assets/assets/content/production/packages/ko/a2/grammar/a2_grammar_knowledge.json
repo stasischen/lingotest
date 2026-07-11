@@ -1,0 +1,998 @@
+{
+  "language": "ko",
+  "nodes": [
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "앱 예약 시간과 장소를 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-001-a2_app_booking_confirmation",
+          "surface": "앱 예약 확인하기"
+        },
+        {
+          "note": "픽업 시간을 정중하게 바꾸고 새 시간을 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-006-a2_change_delivery_pickup_time",
+          "surface": "픽업 시간 바꾸기"
+        },
+        {
+          "note": "민감하지 않은 간단한 항목을 어디에 쓰는지 물어보세요.",
+          "source_item_id": "reading:ko-a2-014-a2_fill_simple_form_help",
+          "surface": "간단한 양식 도움 요청하기"
+        }
+      ],
+      "explanation": "預約、通知、訊息裡先抓時間、地點、姓名等關鍵資訊，再用 짧은 확인 질문 回答，例如 `...이 맞나요?`、`...예요?`。",
+      "grammar_id": "ko-a2-func-001",
+      "learning_object_id": "ko-a2-func-confirm_booking_or_message",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_app_booking_confirmation",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "예약이나 메시지의 핵심 정보 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "앱 예약 시간과 장소를 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-001-a2_app_booking_confirmation",
+          "surface": "앱 예약 확인하기"
+        },
+        {
+          "note": "픽업 시간을 정중하게 바꾸고 새 시간을 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-006-a2_change_delivery_pickup_time",
+          "surface": "픽업 시간 바꾸기"
+        },
+        {
+          "note": "민감하지 않은 간단한 항목을 어디에 쓰는지 물어보세요.",
+          "source_item_id": "reading:ko-a2-014-a2_fill_simple_form_help",
+          "surface": "간단한 양식 도움 요청하기"
+        }
+      ],
+      "explanation": "低風險變更可以用 `...로 바꿀 수 있을까요?`、`...해도 될까요?` 禮貌提出，並在下一句確認新的時間或選項。",
+      "grammar_id": "ko-a2-func-002",
+      "learning_object_id": "ko-a2-func-request_simple_change",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_app_booking_confirmation",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "간단한 변경 요청하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "앱 예약 시간과 장소를 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-001-a2_app_booking_confirmation",
+          "surface": "앱 예약 확인하기"
+        },
+        {
+          "note": "픽업 시간을 정중하게 바꾸고 새 시간을 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-006-a2_change_delivery_pickup_time",
+          "surface": "픽업 시간 바꾸기"
+        },
+        {
+          "note": "민감하지 않은 간단한 항목을 어디에 쓰는지 물어보세요.",
+          "source_item_id": "reading:ko-a2-014-a2_fill_simple_form_help",
+          "surface": "간단한 양식 도움 요청하기"
+        }
+      ],
+      "explanation": "看不懂表格、畫面或欄位時，用 `어디에 쓰면 돼요?`、`이건 뭐예요?` 問清楚，不提供敏感個資。",
+      "grammar_id": "ko-a2-func-003",
+      "learning_object_id": "ko-a2-func-ask_simple_form_help",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_app_booking_confirmation",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "양식이나 화면 도움 요청하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "앱 예약 시간과 장소를 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-001-a2_app_booking_confirmation",
+          "surface": "앱 예약 확인하기"
+        },
+        {
+          "note": "픽업 시간을 정중하게 바꾸고 새 시간을 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-006-a2_change_delivery_pickup_time",
+          "surface": "픽업 시간 바꾸기"
+        },
+        {
+          "note": "민감하지 않은 간단한 항목을 어디에 쓰는지 물어보세요.",
+          "source_item_id": "reading:ko-a2-014-a2_fill_simple_form_help",
+          "surface": "간단한 양식 도움 요청하기"
+        }
+      ],
+      "explanation": "對收據、預約、取貨、訊息等低風險事項，用簡短句追問下一步：`그럼 어떻게 하면 돼요?`、`다시 확인해 주세요.`",
+      "grammar_id": "ko-a2-func-004",
+      "learning_object_id": "ko-a2-func-follow_up_low_risk_item",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_app_booking_confirmation",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "낮은 위험 항목 후속 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "일반적인 재료가 들어가는지 묻고, 선호에 맞게 선택해 보세요.",
+          "source_item_id": "reading:ko-a2-002-a2_ask_ingredient_preference",
+          "surface": "재료 선호 말하기"
+        },
+        {
+          "note": "작은 예산 안에서 추천을 부탁하고, 원하는 조건을 짧게 말해 보세요.",
+          "source_item_id": "reading:ko-a2-004-a2_ask_recommendation_budget",
+          "surface": "예산 안에서 추천받기"
+        },
+        {
+          "note": "메뉴 두 가지의 차이를 듣고, 원하는 쪽을 골라 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-008-a2_compare_two_menu_options",
+          "surface": "메뉴 두 가지 비교하기"
+        }
+      ],
+      "explanation": "比較兩個選項時，用 `더 ...`、`...보다 ...` 表達差異，再用 `저는 ...가 좋아요` 說出偏好。",
+      "grammar_id": "ko-a2-func-005",
+      "learning_object_id": "ko-a2-func-compare_or_state_preference",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_ask_ingredient_preference",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "비교하고 선호 말하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "일반적인 재료가 들어가는지 묻고, 선호에 맞게 선택해 보세요.",
+          "source_item_id": "reading:ko-a2-002-a2_ask_ingredient_preference",
+          "surface": "재료 선호 말하기"
+        },
+        {
+          "note": "작은 예산 안에서 추천을 부탁하고, 원하는 조건을 짧게 말해 보세요.",
+          "source_item_id": "reading:ko-a2-004-a2_ask_recommendation_budget",
+          "surface": "예산 안에서 추천받기"
+        },
+        {
+          "note": "메뉴 두 가지의 차이를 듣고, 원하는 쪽을 골라 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-008-a2_compare_two_menu_options",
+          "surface": "메뉴 두 가지 비교하기"
+        }
+      ],
+      "explanation": "聽到重要細節後，用 `...이 맞나요?` 或 `... 맞아요?` 確認，特別適合時間、地點、數字、姓名。",
+      "grammar_id": "ko-a2-func-006",
+      "learning_object_id": "ko-a2-func-confirm_key_detail",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_ask_ingredient_preference",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "핵심 세부 정보 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "일반적인 재료가 들어가는지 묻고, 선호에 맞게 선택해 보세요.",
+          "source_item_id": "reading:ko-a2-002-a2_ask_ingredient_preference",
+          "surface": "재료 선호 말하기"
+        },
+        {
+          "note": "작은 예산 안에서 추천을 부탁하고, 원하는 조건을 짧게 말해 보세요.",
+          "source_item_id": "reading:ko-a2-004-a2_ask_recommendation_budget",
+          "surface": "예산 안에서 추천받기"
+        },
+        {
+          "note": "메뉴 두 가지의 차이를 듣고, 원하는 쪽을 골라 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-008-a2_compare_two_menu_options",
+          "surface": "메뉴 두 가지 비교하기"
+        }
+      ],
+      "explanation": "服務場景中用 `... 주세요`、`...해 주세요`、`...할 수 있을까요?` 提出禮貌、低風險的請求。",
+      "grammar_id": "ko-a2-func-007",
+      "learning_object_id": "ko-a2-func-make_polite_low_risk_request",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_ask_ingredient_preference",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "정중하게 간단한 요청하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "일반적인 재료가 들어가는지 묻고, 선호에 맞게 선택해 보세요.",
+          "source_item_id": "reading:ko-a2-002-a2_ask_ingredient_preference",
+          "surface": "재료 선호 말하기"
+        },
+        {
+          "note": "작은 예산 안에서 추천을 부탁하고, 원하는 조건을 짧게 말해 보세요.",
+          "source_item_id": "reading:ko-a2-004-a2_ask_recommendation_budget",
+          "surface": "예산 안에서 추천받기"
+        },
+        {
+          "note": "메뉴 두 가지의 차이를 듣고, 원하는 쪽을 골라 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-008-a2_compare_two_menu_options",
+          "surface": "메뉴 두 가지 비교하기"
+        }
+      ],
+      "explanation": "結尾時重複正確時間、地點或動作，例如 `네, ...할게요.`，避免把前面錯誤選項帶入結尾。",
+      "grammar_id": "ko-a2-func-008",
+      "learning_object_id": "ko-a2-func-close_with_correct_next_step",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_ask_ingredient_preference",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "맞는 다음 단계로 마무리하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "체크아웃을 조금 늦출 수 있는지 묻고, 가능한 시간을 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-003-a2_ask_late_checkout",
+          "surface": "늦은 체크아웃 물어보기"
+        }
+      ],
+      "explanation": "飯店退房相關請求用 `늦게 체크아웃할 수 있을까요?`，再確認可用時間與是否有費用。",
+      "grammar_id": "ko-a2-func-009",
+      "learning_object_id": "ko-a2-func-late_checkout_request",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_ask_late_checkout",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "늦은 체크아웃 요청하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "체크아웃을 조금 늦출 수 있는지 묻고, 가능한 시간을 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-003-a2_ask_late_checkout",
+          "surface": "늦은 체크아웃 물어보기"
+        }
+      ],
+      "explanation": "詢問可行時間時用 `몇 시가 가능해요?`、`... 가능할까요?`，回答時把日期和時間一起確認。",
+      "grammar_id": "ko-a2-func-010",
+      "learning_object_id": "ko-a2-func-availability_time",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_ask_late_checkout",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "가능한 시간 묻고 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "체크아웃을 조금 늦출 수 있는지 묻고, 가능한 시간을 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-003-a2_ask_late_checkout",
+          "surface": "늦은 체크아웃 물어보기"
+        }
+      ],
+      "explanation": "用 `네, ... 맞아요`、`... 맞나요?` 做禮貌確認，語氣簡短，不加入新資訊。",
+      "grammar_id": "ko-a2-func-011",
+      "learning_object_id": "ko-a2-func-polite_confirmation",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_ask_late_checkout",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "정중하게 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "환승할 곳과 플랫폼을 물어보고, 짧게 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-005-a2_ask_transfer_platform",
+          "surface": "환승 플랫폼 묻기"
+        }
+      ],
+      "explanation": "交通轉乘時用 `어디에서 갈아타요?`、`몇 번 플랫폼이에요?` 問轉乘點或月台。",
+      "grammar_id": "ko-a2-func-012",
+      "learning_object_id": "ko-a2-func-transfer_question",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_ask_transfer_platform",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "환승 질문하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "환승할 곳과 플랫폼을 물어보고, 짧게 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-005-a2_ask_transfer_platform",
+          "surface": "환승 플랫폼 묻기"
+        }
+      ],
+      "explanation": "聽到月台或出口號碼後，用 `...번 플랫폼이 맞나요?` 確認，避免數字聽錯。",
+      "grammar_id": "ko-a2-func-013",
+      "learning_object_id": "ko-a2-func-platform_confirmation",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_ask_transfer_platform",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "플랫폼 번호 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "환승할 곳과 플랫폼을 물어보고, 짧게 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-005-a2_ask_transfer_platform",
+          "surface": "환승 플랫폼 묻기"
+        }
+      ],
+      "explanation": "兩步驟指示常用 `먼저 ...고, 그다음 ...`。回答時按順序確認，不跳過中間步驟。",
+      "grammar_id": "ko-a2-func-014",
+      "learning_object_id": "ko-a2-func-two_step_direction",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_ask_transfer_platform",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "두 단계 길 안내 이해하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "매표소에서 표 시간을 바꾸고 싶어요. 새 시간을 짧게 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-007-a2_change_ticket_time",
+          "surface": "표 시간 바꾸기"
+        }
+      ],
+      "explanation": "改票、改時間、改取貨等情境，用 `...로 변경할 수 있을까요?` 提出禮貌變更。",
+      "grammar_id": "ko-a2-func-015",
+      "learning_object_id": "ko-a2-func-polite_change_request",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_change_ticket_time",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "정중하게 변경 요청하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "매표소에서 표 시간을 바꾸고 싶어요. 새 시간을 짧게 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-007-a2_change_ticket_time",
+          "surface": "표 시간 바꾸기"
+        },
+        {
+          "note": "오늘 약속 시간이 조금 어려워졌어요. 다른 시간으로 바꿀 수 있는지 물어보세요.",
+          "source_item_id": "reading:ko-a2-022-a2_reschedule_meeting_time",
+          "surface": "약속 시간 바꾸기"
+        }
+      ],
+      "explanation": "原時間不行時，用 `대신 ...은 어때요?`、`...도 가능해요?` 提出替代時間。",
+      "grammar_id": "ko-a2-func-016",
+      "learning_object_id": "ko-a2-func-alternative_time",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_change_ticket_time",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "다른 시간 제안하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "매표소에서 표 시간을 바꾸고 싶어요. 새 시간을 짧게 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-007-a2_change_ticket_time",
+          "surface": "표 시간 바꾸기"
+        },
+        {
+          "note": "오늘 약속 시간이 조금 어려워졌어요. 다른 시간으로 바꿀 수 있는지 물어보세요.",
+          "source_item_id": "reading:ko-a2-022-a2_reschedule_meeting_time",
+          "surface": "약속 시간 바꾸기"
+        }
+      ],
+      "explanation": "用 `확인됐어요`、`맞아요`、`알겠습니다` 表示已確認，適合服務與預約流程。",
+      "grammar_id": "ko-a2-func-017",
+      "learning_object_id": "ko-a2-func-confirmation",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_change_ticket_time",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "확인 표현 사용하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구가 보낸 짧은 메시지를 보고 날짜, 시간, 장소를 확인해요.",
+          "source_item_id": "reading:ko-a2-009-a2_confirm_date_time_place",
+          "surface": "날짜, 시간, 장소 확인하기"
+        }
+      ],
+      "explanation": "讀訊息時先找日期、時間、地點、要求，再用簡短句確認自己理解的內容。",
+      "grammar_id": "ko-a2-func-018",
+      "learning_object_id": "ko-a2-func-message_comprehension",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_confirm_date_time_place",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "메시지 내용 이해하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구가 보낸 짧은 메시지를 보고 날짜, 시간, 장소를 확인해요.",
+          "source_item_id": "reading:ko-a2-009-a2_confirm_date_time_place",
+          "surface": "날짜, 시간, 장소 확인하기"
+        }
+      ],
+      "explanation": "把日期、時間、地點放在同一句確認：`...에 ...에서 맞나요?`，避免只確認其中一項。",
+      "grammar_id": "ko-a2-func-019",
+      "learning_object_id": "ko-a2-func-date_time_place_confirmation",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_confirm_date_time_place",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "날짜ㆍ시간ㆍ장소 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구가 보낸 짧은 메시지를 보고 날짜, 시간, 장소를 확인해요.",
+          "source_item_id": "reading:ko-a2-009-a2_confirm_date_time_place",
+          "surface": "날짜, 시간, 장소 확인하기"
+        }
+      ],
+      "explanation": "沒聽清楚時用 `다시 확인해 주세요`、`천천히 말해 주세요`，先修復理解再回答。",
+      "grammar_id": "ko-a2-func-020",
+      "learning_object_id": "ko-a2-func-repair_check",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_confirm_date_time_place",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "다시 확인해 달라고 하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구의 초대를 거절해야 할 때, 짧고 따뜻하게 이유를 말해 보세요.",
+          "source_item_id": "reading:ko-a2-010-a2_decline_with_reason",
+          "surface": "간단한 이유로 정중히 거절하기"
+        },
+        {
+          "note": "친구가 주말 이야기를 물어봐요. 짧은 과거 표현으로 답해 보세요.",
+          "source_item_id": "reading:ko-a2-011-a2_describe_weekend_activity",
+          "surface": "주말에 한 일 말하기"
+        },
+        {
+          "note": "친구에게 산책이나 카페 같은 간단한 활동을 자연스럽게 제안해 보세요.",
+          "source_item_id": "reading:ko-a2-015-a2_invite_friend_activity",
+          "surface": "친구에게 활동 제안하기"
+        }
+      ],
+      "explanation": "邀請或回覆朋友時可用 `같이 ...할래요?`、`좋아요`、`미안하지만 ...` 表達接受或婉拒。",
+      "grammar_id": "ko-a2-func-021",
+      "learning_object_id": "ko-a2-func-friend_invitation_or_response",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_decline_with_reason",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "친구 초대와 응답하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구의 초대를 거절해야 할 때, 짧고 따뜻하게 이유를 말해 보세요.",
+          "source_item_id": "reading:ko-a2-010-a2_decline_with_reason",
+          "surface": "간단한 이유로 정중히 거절하기"
+        },
+        {
+          "note": "친구가 주말 이야기를 물어봐요. 짧은 과거 표현으로 답해 보세요.",
+          "source_item_id": "reading:ko-a2-011-a2_describe_weekend_activity",
+          "surface": "주말에 한 일 말하기"
+        },
+        {
+          "note": "친구에게 산책이나 카페 같은 간단한 활동을 자연스럽게 제안해 보세요.",
+          "source_item_id": "reading:ko-a2-015-a2_invite_friend_activity",
+          "surface": "친구에게 활동 제안하기"
+        }
+      ],
+      "explanation": "說明原因時用 `...해서요`、`... 때문에요`，過去事件可用 `...했어요`。",
+      "grammar_id": "ko-a2-func-022",
+      "learning_object_id": "ko-a2-func-simple_reason_or_past_event",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_decline_with_reason",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "간단한 이유나 지난 일 말하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구의 초대를 거절해야 할 때, 짧고 따뜻하게 이유를 말해 보세요.",
+          "source_item_id": "reading:ko-a2-010-a2_decline_with_reason",
+          "surface": "간단한 이유로 정중히 거절하기"
+        },
+        {
+          "note": "친구가 주말 이야기를 물어봐요. 짧은 과거 표현으로 답해 보세요.",
+          "source_item_id": "reading:ko-a2-011-a2_describe_weekend_activity",
+          "surface": "주말에 한 일 말하기"
+        },
+        {
+          "note": "친구에게 산책이나 카페 같은 간단한 활동을 자연스럽게 제안해 보세요.",
+          "source_item_id": "reading:ko-a2-015-a2_invite_friend_activity",
+          "surface": "친구에게 활동 제안하기"
+        }
+      ],
+      "explanation": "安排兩步驟計畫時，用 `먼저 ...고, 그다음 ...할게요` 讓順序清楚。",
+      "grammar_id": "ko-a2-func-023",
+      "learning_object_id": "ko-a2-func-two_step_plan_or_confirmation",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_decline_with_reason",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "두 단계 계획 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구의 초대를 거절해야 할 때, 짧고 따뜻하게 이유를 말해 보세요.",
+          "source_item_id": "reading:ko-a2-010-a2_decline_with_reason",
+          "surface": "간단한 이유로 정중히 거절하기"
+        },
+        {
+          "note": "친구가 주말 이야기를 물어봐요. 짧은 과거 표현으로 답해 보세요.",
+          "source_item_id": "reading:ko-a2-011-a2_describe_weekend_activity",
+          "surface": "주말에 한 일 말하기"
+        },
+        {
+          "note": "친구에게 산책이나 카페 같은 간단한 활동을 자연스럽게 제안해 보세요.",
+          "source_item_id": "reading:ko-a2-015-a2_invite_friend_activity",
+          "surface": "친구에게 활동 제안하기"
+        }
+      ],
+      "explanation": "婉拒或改約後，用 `다음에 같이 해요`、`이해해 줘서 고마워요` 保持關係。",
+      "grammar_id": "ko-a2-func-024",
+      "learning_object_id": "ko-a2-func-close_with_relationship_maintenance",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_decline_with_reason",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "관계를 유지하며 마무리하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구가 어디쯤인지 물어봐요. 늦는 이유를 짧게 말해 보세요.",
+          "source_item_id": "reading:ko-a2-013-a2_explain_simple_delay_reason",
+          "surface": "조금 늦는 이유 말하기"
+        }
+      ],
+      "explanation": "延誤或造成不便時，用 `죄송해요`、`미안해요` 先道歉，再補原因或下一步。",
+      "grammar_id": "ko-a2-func-025",
+      "learning_object_id": "ko-a2-func-apology",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_explain_simple_delay_reason",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "사과하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구가 어디쯤인지 물어봐요. 늦는 이유를 짧게 말해 보세요.",
+          "source_item_id": "reading:ko-a2-013-a2_explain_simple_delay_reason",
+          "surface": "조금 늦는 이유 말하기"
+        },
+        {
+          "note": "간단한 이유를 말하며 방을 바꿀 수 있는지 묻고, 가능한 대안을 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-021-a2_request_room_change",
+          "surface": "객실 변경 요청하기"
+        }
+      ],
+      "explanation": "A2 原因句保持短：`차가 막혀서요`、`일이 있어서요`，不需要長篇解釋。",
+      "grammar_id": "ko-a2-func-026",
+      "learning_object_id": "ko-a2-func-simple_reason",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_explain_simple_delay_reason",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "간단한 이유 말하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구가 어디쯤인지 물어봐요. 늦는 이유를 짧게 말해 보세요.",
+          "source_item_id": "reading:ko-a2-013-a2_explain_simple_delay_reason",
+          "surface": "조금 늦는 이유 말하기"
+        }
+      ],
+      "explanation": "說延誤多久時用 `...분 정도 늦어요`、`...쯤 도착해요`，數字和時間要明確。",
+      "grammar_id": "ko-a2-func-027",
+      "learning_object_id": "ko-a2-func-delay_estimate",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_explain_simple_delay_reason",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "지연 시간 말하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "역 보관소에서 짐을 맡기고, 언제 찾을 수 있는지 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-017-a2_luggage_storage_pickup",
+          "surface": "짐 맡기고 찾는 시간 확인하기"
+        }
+      ],
+      "explanation": "櫃台或服務人員場景中，用 `... 부탁드려요`、`...해 주세요` 表達禮貌請求。",
+      "grammar_id": "ko-a2-func-028",
+      "learning_object_id": "ko-a2-func-polite_service_request",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_luggage_storage_pickup",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "서비스 요청 정중하게 하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "역 보관소에서 짐을 맡기고, 언제 찾을 수 있는지 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-017-a2_luggage_storage_pickup",
+          "surface": "짐 맡기고 찾는 시간 확인하기"
+        }
+      ],
+      "explanation": "取貨或領取物品時，用 `언제 찾을 수 있어요?`、`...시에 찾으러 올게요` 確認時間。",
+      "grammar_id": "ko-a2-func-029",
+      "learning_object_id": "ko-a2-func-pickup_time",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_luggage_storage_pickup",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "수령 시간 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "역 보관소에서 짐을 맡기고, 언제 찾을 수 있는지 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-017-a2_luggage_storage_pickup",
+          "surface": "짐 맡기고 찾는 시간 확인하기"
+        }
+      ],
+      "explanation": "寄放、取貨、退換貨時，確認收據、號碼、標籤：`이 번호가 맞나요?`。",
+      "grammar_id": "ko-a2-func-030",
+      "learning_object_id": "ko-a2-func-receipt_confirmation",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_luggage_storage_pickup",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "영수증이나 번호 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구가 내일 아침 계획을 물어봐요. 무엇을 먼저 할지 짧게 말해 보세요.",
+          "source_item_id": "reading:ko-a2-019-a2_plan_tomorrow_morning",
+          "surface": "내일 아침 계획 말하기"
+        }
+      ],
+      "explanation": "近期計畫可用 `내일 ...할 거예요`、`이따 ...할게요`，時間詞放清楚。",
+      "grammar_id": "ko-a2-func-031",
+      "learning_object_id": "ko-a2-func-near_future_plan",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_plan_tomorrow_morning",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "가까운 미래 계획 말하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구가 내일 아침 계획을 물어봐요. 무엇을 먼저 할지 짧게 말해 보세요.",
+          "source_item_id": "reading:ko-a2-019-a2_plan_tomorrow_morning",
+          "surface": "내일 아침 계획 말하기"
+        }
+      ],
+      "explanation": "說流程順序時用 `먼저`、`그다음`、`마지막으로` 連接短句。",
+      "grammar_id": "ko-a2-func-032",
+      "learning_object_id": "ko-a2-func-simple_sequence",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_plan_tomorrow_morning",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "간단한 순서 말하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "친구가 내일 아침 계획을 물어봐요. 무엇을 먼저 할지 짧게 말해 보세요.",
+          "source_item_id": "reading:ko-a2-019-a2_plan_tomorrow_morning",
+          "surface": "내일 아침 계획 말하기"
+        }
+      ],
+      "explanation": "A2 場景常用 `오전/오후`、`...시`、`...분`、`쯤` 表達時間和約略時間。",
+      "grammar_id": "ko-a2-func-033",
+      "learning_object_id": "ko-a2-func-time_expression",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_plan_tomorrow_morning",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "시간 표현 사용하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "객실에 작은 문제가 있을 때 짧게 설명하고, 직원의 다음 조치를 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-020-a2_report_room_problem",
+          "surface": "객실 문제 말하기"
+        }
+      ],
+      "explanation": "房間問題用 `...이 안 돼요`、`...가 고장 났어요`、`...이 있어요` 簡短描述。",
+      "grammar_id": "ko-a2-func-034",
+      "learning_object_id": "ko-a2-func-room_problem_description",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_report_room_problem",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "방 문제 설명하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "객실에 작은 문제가 있을 때 짧게 설명하고, 직원의 다음 조치를 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-020-a2_report_room_problem",
+          "surface": "객실 문제 말하기"
+        }
+      ],
+      "explanation": "需要協助時用 `도와주실 수 있을까요?`、`확인해 주세요`，語氣保持禮貌。",
+      "grammar_id": "ko-a2-func-035",
+      "learning_object_id": "ko-a2-func-polite_help_request",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_report_room_problem",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "도움 정중하게 요청하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "객실에 작은 문제가 있을 때 짧게 설명하고, 직원의 다음 조치를 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-020-a2_report_room_problem",
+          "surface": "객실 문제 말하기"
+        }
+      ],
+      "explanation": "客服或櫃台回覆後，用 `그럼 ...하면 돼요?` 確認下一步。",
+      "grammar_id": "ko-a2-func-036",
+      "learning_object_id": "ko-a2-func-service_next_step_confirmation",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_report_room_problem",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "서비스 다음 단계 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "간단한 이유를 말하며 방을 바꿀 수 있는지 묻고, 가능한 대안을 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-021-a2_request_room_change",
+          "surface": "객실 변경 요청하기"
+        }
+      ],
+      "explanation": "換房時用 `방을 바꿀 수 있을까요?`，再確認替代房型或時間。",
+      "grammar_id": "ko-a2-func-037",
+      "learning_object_id": "ko-a2-func-room_change_request",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_request_room_change",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "방 변경 요청하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "간단한 이유를 말하며 방을 바꿀 수 있는지 묻고, 가능한 대안을 확인해 보세요.",
+          "source_item_id": "reading:ko-a2-021-a2_request_room_change",
+          "surface": "객실 변경 요청하기"
+        }
+      ],
+      "explanation": "有替代房間時，用 `다른 방은 ...인가요?`、`그 방으로 할게요` 確認選項。",
+      "grammar_id": "ko-a2-func-038",
+      "learning_object_id": "ko-a2-func-alternative_room_confirmation",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_request_room_change",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "대체 방 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "오늘 약속 시간이 조금 어려워졌어요. 다른 시간으로 바꿀 수 있는지 물어보세요.",
+          "source_item_id": "reading:ko-a2-022-a2_reschedule_meeting_time",
+          "surface": "약속 시간 바꾸기"
+        }
+      ],
+      "explanation": "改約或重新安排時間時，用 `일정을 바꿀 수 있을까요?`、`...로 다시 잡을 수 있어요?`。",
+      "grammar_id": "ko-a2-func-039",
+      "learning_object_id": "ko-a2-func-reschedule_request",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_reschedule_meeting_time",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "일정 변경 요청하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "안내 방송을 듣고 얼마나 늦는지 확인한 뒤, 기다릴지 다른 방법을 쓸지 말해 보세요.",
+          "source_item_id": "reading:ko-a2-023-a2_transport_delay_announcement",
+          "surface": "교통 지연 안내 이해하기"
+        }
+      ],
+      "explanation": "聽公告時抓交通工具、延誤時間、替代方案，再用簡短句確認。",
+      "grammar_id": "ko-a2-func-040",
+      "learning_object_id": "ko-a2-func-announcement_comprehension",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_transport_delay_announcement",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "안내 방송 이해하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "안내 방송을 듣고 얼마나 늦는지 확인한 뒤, 기다릴지 다른 방법을 쓸지 말해 보세요.",
+          "source_item_id": "reading:ko-a2-023-a2_transport_delay_announcement",
+          "surface": "교통 지연 안내 이해하기"
+        }
+      ],
+      "explanation": "延誤時間用 `...분 지연돼요`、`얼마나 늦어요?` 表達或詢問。",
+      "grammar_id": "ko-a2-func-041",
+      "learning_object_id": "ko-a2-func-delay_duration",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_transport_delay_announcement",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "지연 시간 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "안내 방송을 듣고 얼마나 늦는지 확인한 뒤, 기다릴지 다른 방법을 쓸지 말해 보세요.",
+          "source_item_id": "reading:ko-a2-023-a2_transport_delay_announcement",
+          "surface": "교통 지연 안내 이해하기"
+        }
+      ],
+      "explanation": "交通選項中用 `...로 갈게요`、`...가 더 빨라요` 選擇簡單方案。",
+      "grammar_id": "ko-a2-func-042",
+      "learning_object_id": "ko-a2-func-simple_travel_choice",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_transport_delay_announcement",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "간단한 이동 선택하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "호텔 안내문에서 시간과 규칙을 확인하고, 내가 어떻게 하면 되는지 말해 보세요.",
+          "source_item_id": "reading:ko-a2-024-a2_understand_hotel_notice",
+          "surface": "호텔 안내문 이해하기"
+        }
+      ],
+      "explanation": "看公告時找規則、時間、地點、例外，先確認最影響行動的資訊。",
+      "grammar_id": "ko-a2-func-043",
+      "learning_object_id": "ko-a2-func-notice_comprehension",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_understand_hotel_notice",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "공지 내용 이해하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "호텔 안내문에서 시간과 규칙을 확인하고, 내가 어떻게 하면 되는지 말해 보세요.",
+          "source_item_id": "reading:ko-a2-024-a2_understand_hotel_notice",
+          "surface": "호텔 안내문 이해하기"
+        }
+      ],
+      "explanation": "規則型公告用 `...에서는 ...하면 안 돼요?`、`...까지 맞나요?` 確認限制。",
+      "grammar_id": "ko-a2-func-044",
+      "learning_object_id": "ko-a2-func-time_place_rule_confirmation",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_understand_hotel_notice",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "시간ㆍ장소ㆍ규칙 확인하기"
+    },
+    {
+      "a2_function_card": true,
+      "count_status": "countable",
+      "examples": [
+        {
+          "note": "호텔 안내문에서 시간과 규칙을 확인하고, 내가 어떻게 하면 되는지 말해 보세요.",
+          "source_item_id": "reading:ko-a2-024-a2_understand_hotel_notice",
+          "surface": "호텔 안내문 이해하기"
+        }
+      ],
+      "explanation": "不清楚時用 `무슨 뜻이에요?`、`다시 말해 주세요`、`이 부분이 맞나요?` 做簡單釐清。",
+      "grammar_id": "ko-a2-func-045",
+      "learning_object_id": "ko-a2-func-simple_clarification",
+      "provenance_reason": "KO A2 learner-visible function card compiled from reviewed scenario examples.",
+      "review_status": "semantic_pending_native_pending",
+      "source_basis": "scenario:a2_understand_hotel_notice",
+      "source_status": "scenario_function_card_native_pending",
+      "title": "간단히 다시 묻기"
+    }
+  ],
+  "review_ceiling": "native_pending",
+  "schema_version": "ko_a2_current_flow_grammar_knowledge.v1",
+  "visibility": "production"
+}

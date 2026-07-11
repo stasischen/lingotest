@@ -1,0 +1,197 @@
+{
+  "schema_version": "reigns_event_pack.v1",
+  "pack_id": "ko.a0.reigns.seed.v1",
+  "status": "seed",
+  "target_lang": "ko",
+  "support_lang": "zh_tw",
+  "level": "A0",
+  "events": [
+    {
+      "event_id": "ko.a0.reigns.classroom_greeting.001",
+      "level": "A0",
+      "scene_type": "classroom_first_meeting",
+      "register": "polite_safe",
+      "difficulty": 1,
+      "setup": {
+        "zh_tw": "開學第一天，你走進韓語課教室。旁邊的同學看起來很友善。",
+        "en": "On the first day of class, you walk into the Korean classroom. The student next to you looks friendly."
+      },
+      "npc_speaker_id": "classmate",
+      "npc_utterance": {
+        "ko": "안녕하세요.",
+        "zh_tw": "你好。",
+        "en": "Hello."
+      },
+      "choices": [
+        {
+          "choice_id": "greeting_safe",
+          "text": {
+            "ko": "안녕하세요.",
+            "zh_tw": "你好。",
+            "en": "Hello."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "同學笑著點頭。氣氛很自然。",
+            "en": "The classmate smiles and nods. The moment feels natural."
+          },
+          "pal_tip": {
+            "zh_tw": "第一次見面，「안녕하세요」很安全。上課、商店、遇到不熟的人，都可以先用這句。",
+            "en": "For a first meeting, 안녕하세요 is safe. You can use it in class, stores, and with people you do not know well."
+          }
+        },
+        {
+          "choice_id": "greeting_thanks_mismatch",
+          "text": {
+            "ko": "감사합니다.",
+            "zh_tw": "謝謝。",
+            "en": "Thank you."
+          },
+          "result": "error",
+          "error_type": "semantic_mismatch",
+          "reaction": {
+            "zh_tw": "同學笑了一下，但看起來有點疑惑。他剛剛是在跟你打招呼。",
+            "en": "The classmate smiles, but looks a little unsure. They were greeting you."
+          },
+          "pal_tip": {
+            "zh_tw": "「감사합니다」是謝謝。很有用，但這裡要先回打招呼：「안녕하세요」。",
+            "en": "감사합니다 means thank you. Useful, but here you should greet back with 안녕하세요."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:안녕하세요", "ko:vocab:감사합니다"],
+        "grammar": [],
+        "patterns": ["ko:pattern:a0.safe_greeting"],
+        "scene_tags": ["classroom", "first_meeting", "greeting"]
+      },
+      "tags": ["survival", "politeness", "two_choice"],
+      "prerequisites": []
+    },
+    {
+      "event_id": "ko.a0.reigns.self_intro_name.001",
+      "level": "A0",
+      "scene_type": "classroom_name_question",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "剛打過招呼，同學接著問你的名字。",
+        "en": "After greeting you, the classmate asks your name."
+      },
+      "npc_speaker_id": "classmate",
+      "npc_utterance": {
+        "ko": "이름이 뭐예요?",
+        "zh_tw": "你叫什麼名字？",
+        "en": "What is your name?"
+      },
+      "choices": [
+        {
+          "choice_id": "self_intro_safe_name",
+          "text": {
+            "ko": "저는 {name}예요.",
+            "zh_tw": "我是{name}。",
+            "en": "I am {name}."
+          },
+          "result": "success",
+          "reaction": {
+            "ko": "반가워요.",
+            "zh_tw": "同學說很高興認識你。",
+            "en": "The classmate says it is nice to meet you."
+          },
+          "pal_tip": {
+            "zh_tw": "「저는 ___예요/이에요」是安全的自我介紹。第一次見面先用這個。",
+            "en": "저는 ___예요/이에요 is a safe self-introduction. Use it first when meeting someone."
+          }
+        },
+        {
+          "choice_id": "self_intro_thanks_mismatch",
+          "text": {
+            "ko": "감사합니다.",
+            "zh_tw": "謝謝。",
+            "en": "Thank you."
+          },
+          "result": "error",
+          "error_type": "semantic_mismatch",
+          "reaction": {
+            "zh_tw": "同學歪了一下頭，還在等你的名字。",
+            "en": "The classmate tilts their head and is still waiting for your name."
+          },
+          "pal_tip": {
+            "zh_tw": "「이름이 뭐예요?」是在問名字。回答時用「저는 ___예요/이에요」。",
+            "en": "이름이 뭐예요 asks for your name. Answer with 저는 ___예요/이에요."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:이름", "ko:vocab:뭐", "ko:vocab:저"],
+        "grammar": ["ko:grammar:a0.topic_particle_는"],
+        "patterns": ["ko:pattern:a0.safe_self_intro"],
+        "scene_tags": ["classroom", "name", "self_introduction"]
+      },
+      "tags": ["survival", "identity", "politeness", "two_choice"],
+      "prerequisites": ["ko.a0.reigns.classroom_greeting.001"]
+    },
+    {
+      "event_id": "ko.a0.reigns.repeat_request.001",
+      "level": "A0",
+      "scene_type": "classroom_rescue_phrase",
+      "register": "polite_safe",
+      "difficulty": 2,
+      "setup": {
+        "zh_tw": "老師開始說明課程，但你沒有完全聽懂。",
+        "en": "The teacher starts explaining the class, but you do not fully understand."
+      },
+      "npc_speaker_id": "teacher",
+      "npc_utterance": {
+        "ko": "여러분, 시작할게요.",
+        "zh_tw": "各位，我們要開始了。",
+        "en": "Everyone, let's begin."
+      },
+      "choices": [
+        {
+          "choice_id": "repeat_request",
+          "text": {
+            "ko": "다시 말해 주세요.",
+            "zh_tw": "請再說一次。",
+            "en": "Please say it again."
+          },
+          "result": "success",
+          "reaction": {
+            "zh_tw": "老師停下來，慢一點又說了一次。",
+            "en": "The teacher pauses and says it again more slowly."
+          },
+          "pal_tip": {
+            "zh_tw": "聽不懂時，先用「다시 말해 주세요」。這比亂猜更安全。",
+            "en": "When you do not understand, use 다시 말해 주세요. It is safer than guessing."
+          }
+        },
+        {
+          "choice_id": "wrong_self_intro",
+          "text": {
+            "ko": "저는 {name}예요.",
+            "zh_tw": "我是{name}。",
+            "en": "I am {name}."
+          },
+          "result": "error",
+          "error_type": "scene_mismatch",
+          "reaction": {
+            "zh_tw": "老師聽懂你的名字了，但你還是不知道剛剛老師說了什麼。",
+            "en": "The teacher understands your name, but you still do not know what they said."
+          },
+          "pal_tip": {
+            "zh_tw": "自我介紹很有用，但聽不懂時要用救援句：「다시 말해 주세요」。",
+            "en": "Self-introduction is useful, but when you do not understand, use the rescue phrase 다시 말해 주세요."
+          }
+        }
+      ],
+      "coverage": {
+        "vocab": ["ko:vocab:다시", "ko:vocab:말하다", "ko:vocab:주세요"],
+        "grammar": ["ko:grammar:a0.request_주세요"],
+        "patterns": ["ko:pattern:a0.repeat_request"],
+        "scene_tags": ["classroom", "listening_breakdown", "repair"]
+      },
+      "tags": ["survival", "listening", "repair", "two_choice"],
+      "prerequisites": ["ko.a0.reigns.self_intro_name.001"]
+    }
+  ]
+}

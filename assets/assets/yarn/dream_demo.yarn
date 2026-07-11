@@ -1,0 +1,43 @@
+title: dream_demo
+tags: dream, demo
+---
+<<declare $puzzle_result = "">>
+
+// Scene: The Dream Weaver Atelier
+// Characters: Player (Weaver), Yujin (Barista)
+
+Yujin: It's just... I can't stop thinking about yesterday.
+Yujin: They were sitting right there, by the window.
+Yujin: It was freezing outside. The wind was howling.
+Yujin: And I... I served them Ice Americanos. Out of habit.
+
+<<wait 1.0>>
+
+Yujin: The girl was shivering. She didn't say anything, but I saw her hands shaking.
+Yujin: If I had just given them something... warm... maybe they wouldn't have left so angrily.
+Yujin: Can you... rewrite that for me? Make it warm?
+
+// Trigger the Dream Puzzle
+// Puzzle ID: "barista_warmth"
+// Difficulty: "normal"
+// Mechanics: Player needs to Combine [Coffee] + [Warmth]
+<<dream_puzzle "barista_warmth" "normal">>
+
+// Yarn PAUSES here until Flutter resumes it.
+// $puzzle_result will be set by Flutter.
+
+<<if $puzzle_result == "success">>
+    Yujin: ...Ah. I see it now.
+    Yujin: The steam rising from the mugs. He's blowing on it gently.
+    Yujin: She's holding the cup with both hands... finding comfort.
+    Yujin: They are smiling. Even though it's the end, it's a warm ending.
+    System: DREAM STABILIZED.
+<<elseif $puzzle_result == "fail_cold">>
+    Yujin: No... it's still cold. The ice is clinking against the glass.
+    Yujin: It sounds like a mockery of their silence.
+    System: NIGHTMARE INTENSIFIED.
+<<else>>
+    Yujin: Something is wrong... this isn't coffee. It's... mud?
+    System: RECIPE FAILED.
+<<endif>>
+===

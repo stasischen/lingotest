@@ -1,0 +1,4973 @@
+{
+  "language": "zh",
+  "readings": [
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:您",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:您",
+          "lemma": "您",
+          "pos": "pron",
+          "text": "您"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:的",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:的",
+          "lemma": "的",
+          "pos": "part",
+          "text": "的"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:預約",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:預約",
+          "lemma": "預約",
+          "pos": "n",
+          "text": "預約"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:是",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:是",
+          "lemma": "是",
+          "pos": "v",
+          "text": "是"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:今天下午",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:今天下午",
+          "lemma": "今天下午",
+          "pos": "n",
+          "text": "今天下午"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:三點",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:三點",
+          "lemma": "三點",
+          "pos": "time",
+          "text": "三點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_app_booking_confirmation:r001:tok07:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_app_booking_confirmation:r002:tok07:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:地點",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:地點",
+          "lemma": "地點",
+          "pos": "n",
+          "text": "地點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:在哪裡",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:在哪裡",
+          "lemma": "在哪裡",
+          "pos": "pron",
+          "text": "在哪裡"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_app_booking_confirmation:r003:tok03:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_app_booking_confirmation:r004:tok03:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-001-a2_app_booking_confirmation",
+      "source_scenario_id": "a2_app_booking_confirmation",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "確認預訂的日期、地點、姓名和時間，不分享敏感資料。 您的預約是今天下午三點。 在咖啡店二樓。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_app_booking_confirmation",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:您",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:您",
+          "lemma": "您",
+          "pos": "pron",
+          "text": "您"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:想",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:想",
+          "lemma": "想",
+          "pos": "v",
+          "text": "想"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_ingredient_preference:r001:tok03:clf:點",
+          "lemma": "點",
+          "pos": "clf",
+          "text": "點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:什麼",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:什麼",
+          "lemma": "什麼",
+          "pos": "pron",
+          "text": "什麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_ingredient_preference:r001:tok05:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_ingredient_preference:r002:tok03:clf:點",
+          "lemma": "點",
+          "pos": "clf",
+          "text": "點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_ingredient_preference:r002:tok05:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_ingredient_preference:r003:tok01:det:這個",
+          "lemma": "這個",
+          "pos": "det",
+          "text": "這個"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:沙拉",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:沙拉",
+          "lemma": "沙拉",
+          "pos": "n",
+          "text": "沙拉"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_ingredient_preference:r003:tok03:p:裡",
+          "lemma": "裡",
+          "pos": "p",
+          "text": "裡"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:有",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:有",
+          "lemma": "有",
+          "pos": "v",
+          "text": "有"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:洋蔥",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:洋蔥",
+          "lemma": "洋蔥",
+          "pos": "n",
+          "text": "洋蔥"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_ingredient_preference:r003:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_ingredient_preference:r004:tok01:det:這個",
+          "lemma": "這個",
+          "pos": "det",
+          "text": "這個"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_ingredient_preference:r004:tok03:p:裡",
+          "lemma": "裡",
+          "pos": "p",
+          "text": "裡"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_ingredient_preference:r004:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-002-a2_ask_ingredient_preference",
+      "source_scenario_id": "a2_ask_ingredient_preference",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "詢問是否有常見食材，並依照偏好選擇。 您想點什麼？ 有，放一點洋蔥。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_ask_ingredient_preference",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我",
+          "lemma": "我",
+          "pos": "pron",
+          "text": "我"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r001:tok02:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r001:tok03:adv:怎麼",
+          "lemma": "怎麼",
+          "pos": "adv",
+          "text": "怎麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:幫",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:幫",
+          "lemma": "幫",
+          "pos": "v",
+          "text": "幫"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:您",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:您",
+          "lemma": "您",
+          "pos": "pron",
+          "text": "您"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r001:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r002:tok02:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r002:tok03:adv:怎麼",
+          "lemma": "怎麼",
+          "pos": "adv",
+          "text": "怎麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r002:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r003:tok02:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r003:tok03:adv:晚一點",
+          "lemma": "晚一點",
+          "pos": "adv",
+          "text": "晚一點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:退房",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:退房",
+          "lemma": "退房",
+          "pos": "v",
+          "text": "退房"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r003:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r004:tok02:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r004:tok03:adv:晚一點",
+          "lemma": "晚一點",
+          "pos": "adv",
+          "text": "晚一點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_late_checkout:r004:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-003-a2_ask_late_checkout",
+      "source_scenario_id": "a2_ask_late_checkout",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "詢問是否可以晚一點退房，並確認最後退房時間。 我可以怎麼幫您？ 今天可以延到下午一點退房。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_ask_late_checkout",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:您",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:您",
+          "lemma": "您",
+          "pos": "pron",
+          "text": "您"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:p:在",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:p:在",
+          "lemma": "在",
+          "pos": "p",
+          "text": "在"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:找",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:找",
+          "lemma": "找",
+          "pos": "v",
+          "text": "找"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:什麼",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:什麼",
+          "lemma": "什麼",
+          "pos": "pron",
+          "text": "什麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_recommendation_budget:r001:tok05:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_recommendation_budget:r002:tok05:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_recommendation_budget:r003:tok01:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:推薦",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:推薦",
+          "lemma": "推薦",
+          "pos": "v",
+          "text": "推薦"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:三百元",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:三百元",
+          "lemma": "三百元",
+          "pos": "n",
+          "text": "三百元"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_recommendation_budget:r003:tok04:p:以內",
+          "lemma": "以內",
+          "pos": "p",
+          "text": "以內"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:的",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:的",
+          "lemma": "的",
+          "pos": "part",
+          "text": "的"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:禮物",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:禮物",
+          "lemma": "禮物",
+          "pos": "n",
+          "text": "禮物"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_recommendation_budget:r003:tok08:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_recommendation_budget:r004:tok01:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_ask_recommendation_budget:r004:tok04:p:以內",
+          "lemma": "以內",
+          "pos": "p",
+          "text": "以內"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_recommendation_budget:r004:tok08:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-004-a2_ask_recommendation_budget",
+      "source_scenario_id": "a2_ask_recommendation_budget",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "在小額預算內請店員推薦，並簡短說出偏好。 您在找什麼？ 想要輕巧的，還是實用的？",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_ask_recommendation_budget",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:您",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:您",
+          "lemma": "您",
+          "pos": "pron",
+          "text": "您"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:要",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:要",
+          "lemma": "要",
+          "pos": "v",
+          "text": "要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:去",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:去",
+          "lemma": "去",
+          "pos": "v",
+          "text": "去"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:哪裡",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:哪裡",
+          "lemma": "哪裡",
+          "pos": "pron",
+          "text": "哪裡"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_transfer_platform:r001:tok05:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_transfer_platform:r002:tok05:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:我要",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:我要",
+          "lemma": "我要",
+          "pos": "n",
+          "text": "我要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:機場",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:機場",
+          "lemma": "機場",
+          "pos": "n",
+          "text": "機場"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_transfer_platform:r003:tok04:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:intj:請問",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:intj:請問",
+          "lemma": "請問",
+          "pos": "intj",
+          "text": "請問"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:在哪裡",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:在哪裡",
+          "lemma": "在哪裡",
+          "pos": "pron",
+          "text": "在哪裡"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:轉乘",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:轉乘",
+          "lemma": "轉乘",
+          "pos": "v",
+          "text": "轉乘"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_transfer_platform:r003:tok09:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_transfer_platform:r004:tok04:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_ask_transfer_platform:r004:tok09:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-005-a2_ask_transfer_platform",
+      "source_scenario_id": "a2_ask_transfer_platform",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "詢問在哪裡轉乘，聽懂站名和月台，並確認簡短路線。 您要去哪裡？ 請在 Central 下車，然後到三號月台。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_ask_transfer_platform",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:你",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:你",
+          "lemma": "你",
+          "pos": "pron",
+          "text": "你"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:今天",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:今天",
+          "lemma": "今天",
+          "pos": "time",
+          "text": "今天"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:四點",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:四點",
+          "lemma": "四點",
+          "pos": "time",
+          "text": "四點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:取貨",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:取貨",
+          "lemma": "取貨",
+          "pos": "v",
+          "text": "取貨"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_change_delivery_pickup_time:r001:tok05:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_change_delivery_pickup_time:r002:tok05:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_change_delivery_pickup_time:r003:tok01:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:改",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:改",
+          "lemma": "改",
+          "pos": "v",
+          "text": "改"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:時間",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:時間",
+          "lemma": "時間",
+          "pos": "n",
+          "text": "時間"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_change_delivery_pickup_time:r003:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_change_delivery_pickup_time:r004:tok01:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_change_delivery_pickup_time:r004:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-006-a2_change_delivery_pickup_time",
+      "source_scenario_id": "a2_change_delivery_pickup_time",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "用簡單、低風險的方式確認取貨時間更改。 你今天四點取貨。 可以，五點可以。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_change_delivery_pickup_time",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:intj:您好",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:intj:您好",
+          "lemma": "您好",
+          "pos": "intj",
+          "text": "您好"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_change_ticket_time:r001:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:需要",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:需要",
+          "lemma": "需要",
+          "pos": "v",
+          "text": "需要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:幫忙",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:幫忙",
+          "lemma": "幫忙",
+          "pos": "v",
+          "text": "幫忙"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_change_ticket_time:r001:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_change_ticket_time:r002:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_change_ticket_time:r002:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我",
+          "lemma": "我",
+          "pos": "pron",
+          "text": "我"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:想",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:想",
+          "lemma": "想",
+          "pos": "v",
+          "text": "想"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:更改",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:更改",
+          "lemma": "更改",
+          "pos": "v",
+          "text": "更改"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:票",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:票",
+          "lemma": "票",
+          "pos": "n",
+          "text": "票"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:的",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:的",
+          "lemma": "的",
+          "pos": "part",
+          "text": "的"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:時間",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:時間",
+          "lemma": "時間",
+          "pos": "n",
+          "text": "時間"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_change_ticket_time:r003:tok07:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_change_ticket_time:r004:tok07:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-007-a2_change_ticket_time",
+      "source_scenario_id": "a2_change_ticket_time",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "向櫃台要求更改票券時間，聽懂可用時間，並確認新的班次。 您好，需要幫忙嗎？ 可以改成今天下午三點的車。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_change_ticket_time",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:今天",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:今天",
+          "lemma": "今天",
+          "pos": "time",
+          "text": "今天"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_compare_two_menu_options:r001:tok02:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:選",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:選",
+          "lemma": "選",
+          "pos": "v",
+          "text": "選"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:飯碗",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:飯碗",
+          "lemma": "飯碗",
+          "pos": "n",
+          "text": "飯碗"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_compare_two_menu_options:r001:tok05:conj:或",
+          "lemma": "或",
+          "pos": "conj",
+          "text": "或"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:湯麵",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:湯麵",
+          "lemma": "湯麵",
+          "pos": "n",
+          "text": "湯麵"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_compare_two_menu_options:r001:tok07:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_compare_two_menu_options:r002:tok02:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_compare_two_menu_options:r002:tok05:conj:或",
+          "lemma": "或",
+          "pos": "conj",
+          "text": "或"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_compare_two_menu_options:r002:tok07:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:兩個",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:兩個",
+          "lemma": "兩個",
+          "pos": "n",
+          "text": "兩個"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:選項",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:選項",
+          "lemma": "選項",
+          "pos": "n",
+          "text": "選項"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:有",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:有",
+          "lemma": "有",
+          "pos": "v",
+          "text": "有"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:什麼",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:什麼",
+          "lemma": "什麼",
+          "pos": "pron",
+          "text": "什麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:不同",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:不同",
+          "lemma": "不同",
+          "pos": "n",
+          "text": "不同"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_compare_two_menu_options:r003:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_compare_two_menu_options:r004:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-008-a2_compare_two_menu_options",
+      "source_scenario_id": "a2_compare_two_menu_options",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "聽懂兩個菜單選項的差異，選擇自己偏好的項目。 今天可以選飯碗或湯麵。 飯碗有點辣，湯麵比較清爽。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_compare_two_menu_options",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我",
+          "lemma": "我",
+          "pos": "pron",
+          "text": "我"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r001:tok02:adv:剛剛",
+          "lemma": "剛剛",
+          "pos": "adv",
+          "text": "剛剛"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:傳",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:傳",
+          "lemma": "傳",
+          "pos": "v",
+          "text": "傳"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:訊息",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:訊息",
+          "lemma": "訊息",
+          "pos": "n",
+          "text": "訊息"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r001:tok05:p:給",
+          "lemma": "給",
+          "pos": "p",
+          "text": "給"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:你",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:你",
+          "lemma": "你",
+          "pos": "pron",
+          "text": "你"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r001:tok07:punct:：",
+          "lemma": "：",
+          "pos": "punct",
+          "text": "："
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r001:tok08:det:這",
+          "lemma": "這",
+          "pos": "det",
+          "text": "這"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:週六",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:週六",
+          "lemma": "週六",
+          "pos": "time",
+          "text": "週六"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:下午",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:下午",
+          "lemma": "下午",
+          "pos": "time",
+          "text": "下午"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:三點",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:三點",
+          "lemma": "三點",
+          "pos": "time",
+          "text": "三點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r001:tok12:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:p:在",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:p:在",
+          "lemma": "在",
+          "pos": "p",
+          "text": "在"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:adj:市立",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:adj:市立",
+          "lemma": "市立",
+          "pos": "adj",
+          "text": "市立"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:圖書館",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:圖書館",
+          "lemma": "圖書館",
+          "pos": "n",
+          "text": "圖書館"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:門口",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:門口",
+          "lemma": "門口",
+          "pos": "n",
+          "text": "門口"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:見",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:見",
+          "lemma": "見",
+          "pos": "v",
+          "text": "見"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r001:tok18:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r002:tok02:adv:剛剛",
+          "lemma": "剛剛",
+          "pos": "adv",
+          "text": "剛剛"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r002:tok05:p:給",
+          "lemma": "給",
+          "pos": "p",
+          "text": "給"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r002:tok07:punct:：",
+          "lemma": "：",
+          "pos": "punct",
+          "text": "："
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r002:tok08:det:這",
+          "lemma": "這",
+          "pos": "det",
+          "text": "這"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r002:tok12:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r002:tok18:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:是",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:是",
+          "lemma": "是",
+          "pos": "v",
+          "text": "是"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r003:tok02:det:這",
+          "lemma": "這",
+          "pos": "det",
+          "text": "這"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r003:tok06:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:intj:對嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:intj:對嗎",
+          "lemma": "對嗎",
+          "pos": "intj",
+          "text": "對嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r003:tok08:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r004:tok02:det:這",
+          "lemma": "這",
+          "pos": "det",
+          "text": "這"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r004:tok06:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_confirm_date_time_place:r004:tok08:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-009-a2_confirm_date_time_place",
+      "source_scenario_id": "a2_confirm_date_time_place",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "朋友傳來短訊息。你要確認星期、時間和地點，不需要問路或看地圖。 我剛剛傳訊息給你：這週六下午三點，在市立圖書館門口見。 對，這週六下午三點。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_confirm_date_time_place",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:今晚",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:今晚",
+          "lemma": "今晚",
+          "pos": "n",
+          "text": "今晚"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:要",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:要",
+          "lemma": "要",
+          "pos": "v",
+          "text": "要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_decline_with_reason:r001:tok03:adv:不要",
+          "lemma": "不要",
+          "pos": "adv",
+          "text": "不要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:看",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:看",
+          "lemma": "看",
+          "pos": "v",
+          "text": "看"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:電影",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:電影",
+          "lemma": "電影",
+          "pos": "n",
+          "text": "電影"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_decline_with_reason:r001:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_decline_with_reason:r002:tok03:adv:不要",
+          "lemma": "不要",
+          "pos": "adv",
+          "text": "不要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_decline_with_reason:r002:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:intj:不好意思",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:intj:不好意思",
+          "lemma": "不好意思",
+          "pos": "intj",
+          "text": "不好意思"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_decline_with_reason:r003:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我",
+          "lemma": "我",
+          "pos": "pron",
+          "text": "我"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:adv:不",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:adv:不",
+          "lemma": "不",
+          "pos": "adv",
+          "text": "不"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_decline_with_reason:r003:tok06:adv:太",
+          "lemma": "太",
+          "pos": "adv",
+          "text": "太"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:adj:行",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:adj:行",
+          "lemma": "行",
+          "pos": "adj",
+          "text": "行"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_decline_with_reason:r003:tok08:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_decline_with_reason:r004:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_decline_with_reason:r004:tok06:adv:太",
+          "lemma": "太",
+          "pos": "adv",
+          "text": "太"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_decline_with_reason:r004:tok08:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-010-a2_decline_with_reason",
+      "source_scenario_id": "a2_decline_with_reason",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "使用自然的朋友語氣，活動和理由都保持普通、簡短。 今晚要不要看電影？ 沒關係，你很忙嗎？",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_decline_with_reason",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:你",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:你",
+          "lemma": "你",
+          "pos": "pron",
+          "text": "你"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:週末",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:週末",
+          "lemma": "週末",
+          "pos": "n",
+          "text": "週末"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:做",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:做",
+          "lemma": "做",
+          "pos": "v",
+          "text": "做"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:了",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:了",
+          "lemma": "了",
+          "pos": "part",
+          "text": "了"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:什麼",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:什麼",
+          "lemma": "什麼",
+          "pos": "pron",
+          "text": "什麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_describe_weekend_activity:r001:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_describe_weekend_activity:r002:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我",
+          "lemma": "我",
+          "pos": "pron",
+          "text": "我"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_describe_weekend_activity:r003:tok02:p:跟",
+          "lemma": "跟",
+          "pos": "p",
+          "text": "跟"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:朋友",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:朋友",
+          "lemma": "朋友",
+          "pos": "n",
+          "text": "朋友"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:見面",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:見面",
+          "lemma": "見面",
+          "pos": "v",
+          "text": "見面"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_describe_weekend_activity:r003:tok05:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:adv:還",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:adv:還",
+          "lemma": "還",
+          "pos": "adv",
+          "text": "還"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:吃",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:吃",
+          "lemma": "吃",
+          "pos": "v",
+          "text": "吃"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:午餐",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:午餐",
+          "lemma": "午餐",
+          "pos": "n",
+          "text": "午餐"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_describe_weekend_activity:r003:tok10:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_describe_weekend_activity:r004:tok02:p:跟",
+          "lemma": "跟",
+          "pos": "p",
+          "text": "跟"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_describe_weekend_activity:r004:tok05:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_describe_weekend_activity:r004:tok10:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-011-a2_describe_weekend_activity",
+      "source_scenario_id": "a2_describe_weekend_activity",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "使用自然的朋友語氣，活動和理由都保持普通、簡短。 你週末做了什麼？ 你們在哪裡見？",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_describe_weekend_activity",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:需要",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:需要",
+          "lemma": "需要",
+          "pos": "v",
+          "text": "需要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:幫忙",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:幫忙",
+          "lemma": "幫忙",
+          "pos": "v",
+          "text": "幫忙"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_exchange_wrong_item:r001:tok04:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_exchange_wrong_item:r002:tok04:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我",
+          "lemma": "我",
+          "pos": "pron",
+          "text": "我"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:訂",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:訂",
+          "lemma": "訂",
+          "pos": "v",
+          "text": "訂"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:的",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:的",
+          "lemma": "的",
+          "pos": "part",
+          "text": "的"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:是",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:是",
+          "lemma": "是",
+          "pos": "v",
+          "text": "是"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:小杯",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:小杯",
+          "lemma": "小杯",
+          "pos": "n",
+          "text": "小杯"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_exchange_wrong_item:r003:tok06:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_exchange_wrong_item:r003:tok07:conj:但",
+          "lemma": "但",
+          "pos": "conj",
+          "text": "但"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:拿到",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:拿到",
+          "lemma": "拿到",
+          "pos": "n",
+          "text": "拿到"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:大杯",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:大杯",
+          "lemma": "大杯",
+          "pos": "n",
+          "text": "大杯"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_exchange_wrong_item:r003:tok10:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_exchange_wrong_item:r004:tok06:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_exchange_wrong_item:r004:tok07:conj:但",
+          "lemma": "但",
+          "pos": "conj",
+          "text": "但"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_exchange_wrong_item:r004:tok10:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-012-a2_exchange_wrong_item",
+      "source_scenario_id": "a2_exchange_wrong_item",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "禮貌說明拿到的商品不對，請店員換成正確的。 需要幫忙嗎？ 我確認一下。可以看收據嗎？",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_exchange_wrong_item",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:你",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:你",
+          "lemma": "你",
+          "pos": "pron",
+          "text": "你"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:adj:快",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:adj:快",
+          "lemma": "快",
+          "pos": "adj",
+          "text": "快"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:到",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:到",
+          "lemma": "到",
+          "pos": "v",
+          "text": "到"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:了",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:了",
+          "lemma": "了",
+          "pos": "part",
+          "text": "了"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_explain_simple_delay_reason:r001:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_explain_simple_delay_reason:r002:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:intj:不好意思",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:intj:不好意思",
+          "lemma": "不好意思",
+          "pos": "intj",
+          "text": "不好意思"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_explain_simple_delay_reason:r003:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:我會",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:我會",
+          "lemma": "我會",
+          "pos": "n",
+          "text": "我會"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_explain_simple_delay_reason:r003:tok04:adv:晚一點",
+          "lemma": "晚一點",
+          "pos": "adv",
+          "text": "晚一點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_explain_simple_delay_reason:r003:tok06:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_explain_simple_delay_reason:r004:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_explain_simple_delay_reason:r004:tok04:adv:晚一點",
+          "lemma": "晚一點",
+          "pos": "adv",
+          "text": "晚一點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_explain_simple_delay_reason:r004:tok06:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-013-a2_explain_simple_delay_reason",
+      "source_scenario_id": "a2_explain_simple_delay_reason",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "你要跟朋友見面，但會晚到。簡單說抱歉、原因和大概幾分鐘。 你快到了嗎？ 怎麼了？",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_explain_simple_delay_reason",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_fill_simple_form_help:r001:tok01:part:請",
+          "lemma": "請",
+          "pos": "part",
+          "text": "請"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:adv:先",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:adv:先",
+          "lemma": "先",
+          "pos": "adv",
+          "text": "先"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:填",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:填",
+          "lemma": "填",
+          "pos": "v",
+          "text": "填"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_fill_simple_form_help:r001:tok04:det:這",
+          "lemma": "這",
+          "pos": "det",
+          "text": "這"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:clf:張",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:clf:張",
+          "lemma": "張",
+          "pos": "clf",
+          "text": "張"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:表",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:表",
+          "lemma": "表",
+          "pos": "n",
+          "text": "表"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_fill_simple_form_help:r001:tok07:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_fill_simple_form_help:r002:tok01:part:請",
+          "lemma": "請",
+          "pos": "part",
+          "text": "請"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_fill_simple_form_help:r002:tok04:det:這",
+          "lemma": "這",
+          "pos": "det",
+          "text": "這"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_fill_simple_form_help:r002:tok07:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_fill_simple_form_help:r003:tok01:det:這",
+          "lemma": "這",
+          "pos": "det",
+          "text": "這"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:num:一",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:num:一",
+          "lemma": "一",
+          "pos": "num",
+          "text": "一"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:欄",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:欄",
+          "lemma": "欄",
+          "pos": "n",
+          "text": "欄"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:要",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:要",
+          "lemma": "要",
+          "pos": "v",
+          "text": "要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:什麼",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:什麼",
+          "lemma": "什麼",
+          "pos": "pron",
+          "text": "什麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_fill_simple_form_help:r003:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_fill_simple_form_help:r004:tok01:det:這",
+          "lemma": "這",
+          "pos": "det",
+          "text": "這"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_fill_simple_form_help:r004:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-014-a2_fill_simple_form_help",
+      "source_scenario_id": "a2_fill_simple_form_help",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "詢問表格欄位怎麼填，不使用敏感資料。 請先填這張表。 這裡請填姓名。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_fill_simple_form_help",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r001:tok01:adv:等一下",
+          "lemma": "等一下",
+          "pos": "adv",
+          "text": "等一下"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:要",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:要",
+          "lemma": "要",
+          "pos": "v",
+          "text": "要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r001:tok03:adv:不要",
+          "lemma": "不要",
+          "pos": "adv",
+          "text": "不要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:adv:一起",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:adv:一起",
+          "lemma": "一起",
+          "pos": "adv",
+          "text": "一起"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:喝",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:喝",
+          "lemma": "喝",
+          "pos": "v",
+          "text": "喝"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:咖啡",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:咖啡",
+          "lemma": "咖啡",
+          "pos": "n",
+          "text": "咖啡"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r001:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r002:tok01:adv:等一下",
+          "lemma": "等一下",
+          "pos": "adv",
+          "text": "等一下"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r002:tok03:adv:不要",
+          "lemma": "不要",
+          "pos": "adv",
+          "text": "不要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r002:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r003:tok01:intj:好",
+          "lemma": "好",
+          "pos": "intj",
+          "text": "好"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r003:tok02:part:啊",
+          "lemma": "啊",
+          "pos": "part",
+          "text": "啊"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r003:tok03:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:去",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:去",
+          "lemma": "去",
+          "pos": "v",
+          "text": "去"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r003:tok08:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r004:tok01:intj:好",
+          "lemma": "好",
+          "pos": "intj",
+          "text": "好"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r004:tok02:part:啊",
+          "lemma": "啊",
+          "pos": "part",
+          "text": "啊"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r004:tok03:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_invite_friend_activity:r004:tok08:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-015-a2_invite_friend_activity",
+      "source_scenario_id": "a2_invite_friend_activity",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "使用自然的朋友語氣，活動和理由都保持普通、簡短。 等一下要不要一起喝咖啡？ 好啊，幾點？",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_invite_friend_activity",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:你",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:你",
+          "lemma": "你",
+          "pos": "pron",
+          "text": "你"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:p:在",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:p:在",
+          "lemma": "在",
+          "pos": "p",
+          "text": "在"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:找",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:找",
+          "lemma": "找",
+          "pos": "v",
+          "text": "找"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:什麼",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:什麼",
+          "lemma": "什麼",
+          "pos": "pron",
+          "text": "什麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:東西",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:東西",
+          "lemma": "東西",
+          "pos": "n",
+          "text": "東西"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_lost_item_followup_message:r001:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_lost_item_followup_message:r002:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我",
+          "lemma": "我",
+          "pos": "pron",
+          "text": "我"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_lost_item_followup_message:r003:tok02:adv:好像",
+          "lemma": "好像",
+          "pos": "adv",
+          "text": "好像"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:p:把",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:p:把",
+          "lemma": "把",
+          "pos": "p",
+          "text": "把"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:adj:黑色",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:adj:黑色",
+          "lemma": "黑色",
+          "pos": "adj",
+          "text": "黑色"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:雨傘",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:雨傘",
+          "lemma": "雨傘",
+          "pos": "n",
+          "text": "雨傘"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:忘",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:忘",
+          "lemma": "忘",
+          "pos": "v",
+          "text": "忘"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_lost_item_followup_message:r003:tok08:pron:那裡",
+          "lemma": "那裡",
+          "pos": "pron",
+          "text": "那裡"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_lost_item_followup_message:r003:tok09:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_lost_item_followup_message:r004:tok02:adv:好像",
+          "lemma": "好像",
+          "pos": "adv",
+          "text": "好像"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_lost_item_followup_message:r004:tok08:pron:那裡",
+          "lemma": "那裡",
+          "pos": "pron",
+          "text": "那裡"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_lost_item_followup_message:r004:tok09:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-016-a2_lost_item_followup_message",
+      "source_scenario_id": "a2_lost_item_followup_message",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "描述遺失物品、可能位置，並留下簡單聯絡方式。 你在找什麼東西？ 你放在哪裡？",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_lost_item_followup_message",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:要",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:要",
+          "lemma": "要",
+          "pos": "v",
+          "text": "要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:寄放",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:寄放",
+          "lemma": "寄放",
+          "pos": "v",
+          "text": "寄放"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:行李",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:行李",
+          "lemma": "行李",
+          "pos": "n",
+          "text": "行李"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_luggage_storage_pickup:r001:tok05:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_luggage_storage_pickup:r002:tok05:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我",
+          "lemma": "我",
+          "pos": "pron",
+          "text": "我"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:想",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:想",
+          "lemma": "想",
+          "pos": "v",
+          "text": "想"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_luggage_storage_pickup:r003:tok04:det:這個",
+          "lemma": "這個",
+          "pos": "det",
+          "text": "這個"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:行李箱",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:行李箱",
+          "lemma": "行李箱",
+          "pos": "n",
+          "text": "行李箱"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_luggage_storage_pickup:r003:tok06:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_luggage_storage_pickup:r004:tok04:det:這個",
+          "lemma": "這個",
+          "pos": "det",
+          "text": "這個"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_luggage_storage_pickup:r004:tok06:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-017-a2_luggage_storage_pickup",
+      "source_scenario_id": "a2_luggage_storage_pickup",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "寄放行李，聽懂領取期限，並確認領取時需要的單據。 要寄放行李嗎？ 今天晚上七點前可以來領。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_luggage_storage_pickup",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我們",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我們",
+          "lemma": "我們",
+          "pos": "pron",
+          "text": "我們"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:adv:先",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:adv:先",
+          "lemma": "先",
+          "pos": "adv",
+          "text": "先"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:p:在",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:p:在",
+          "lemma": "在",
+          "pos": "p",
+          "text": "在"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:車站",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:車站",
+          "lemma": "車站",
+          "pos": "n",
+          "text": "車站"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:見",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:見",
+          "lemma": "見",
+          "pos": "v",
+          "text": "見"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r001:tok06:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r001:tok07:intj:好",
+          "lemma": "好",
+          "pos": "intj",
+          "text": "好"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r001:tok09:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r002:tok06:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r002:tok07:intj:好",
+          "lemma": "好",
+          "pos": "intj",
+          "text": "好"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r002:tok09:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r003:tok01:intj:好",
+          "lemma": "好",
+          "pos": "intj",
+          "text": "好"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r003:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r003:tok08:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r004:tok01:intj:好",
+          "lemma": "好",
+          "pos": "intj",
+          "text": "好"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r004:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_make_simple_plan_sequence:r004:tok08:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-018-a2_make_simple_plan_sequence",
+      "source_scenario_id": "a2_make_simple_plan_sequence",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "使用自然的朋友語氣，活動和理由都保持普通、簡短。 我們先在車站見，好嗎？ 接著去公園嗎？",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_make_simple_plan_sequence",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:你",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:你",
+          "lemma": "你",
+          "pos": "pron",
+          "text": "你"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:明天",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:明天",
+          "lemma": "明天",
+          "pos": "time",
+          "text": "明天"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:早上",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:早上",
+          "lemma": "早上",
+          "pos": "time",
+          "text": "早上"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:打算",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:打算",
+          "lemma": "打算",
+          "pos": "n",
+          "text": "打算"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:做",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:做",
+          "lemma": "做",
+          "pos": "v",
+          "text": "做"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:什麼",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:什麼",
+          "lemma": "什麼",
+          "pos": "pron",
+          "text": "什麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_plan_tomorrow_morning:r001:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_plan_tomorrow_morning:r002:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我",
+          "lemma": "我",
+          "pos": "pron",
+          "text": "我"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:要",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:要",
+          "lemma": "要",
+          "pos": "v",
+          "text": "要"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:去",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:去",
+          "lemma": "去",
+          "pos": "v",
+          "text": "去"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:圖書館",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:圖書館",
+          "lemma": "圖書館",
+          "pos": "n",
+          "text": "圖書館"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_plan_tomorrow_morning:r003:tok07:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_plan_tomorrow_morning:r004:tok07:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-019-a2_plan_tomorrow_morning",
+      "source_scenario_id": "a2_plan_tomorrow_morning",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "朋友問你明天早上的計畫。先說你要做什麼，再說下一步，最後確認大概什麼時候有空。 你明天早上打算做什麼？ 那之後呢？",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_plan_tomorrow_morning",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:intj:您好",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:intj:您好",
+          "lemma": "您好",
+          "pos": "intj",
+          "text": "您好"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_report_room_problem:r001:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我",
+          "lemma": "我",
+          "pos": "pron",
+          "text": "我"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_report_room_problem:r001:tok04:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_report_room_problem:r001:tok05:adv:怎麼",
+          "lemma": "怎麼",
+          "pos": "adv",
+          "text": "怎麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:幫",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:幫",
+          "lemma": "幫",
+          "pos": "v",
+          "text": "幫"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:您",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:您",
+          "lemma": "您",
+          "pos": "pron",
+          "text": "您"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_report_room_problem:r001:tok08:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_report_room_problem:r002:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_report_room_problem:r002:tok04:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_report_room_problem:r002:tok05:adv:怎麼",
+          "lemma": "怎麼",
+          "pos": "adv",
+          "text": "怎麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_report_room_problem:r002:tok08:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_report_room_problem:r003:tok01:det:我的",
+          "lemma": "我的",
+          "pos": "det",
+          "text": "我的"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:房間",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:房間",
+          "lemma": "房間",
+          "pos": "n",
+          "text": "房間"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:沒有",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:沒有",
+          "lemma": "沒有",
+          "pos": "v",
+          "text": "沒有"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:毛巾",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:毛巾",
+          "lemma": "毛巾",
+          "pos": "n",
+          "text": "毛巾"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_report_room_problem:r003:tok05:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_report_room_problem:r003:tok06:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:麻煩",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:麻煩",
+          "lemma": "麻煩",
+          "pos": "v",
+          "text": "麻煩"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:幫忙",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:幫忙",
+          "lemma": "幫忙",
+          "pos": "v",
+          "text": "幫忙"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_report_room_problem:r003:tok11:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_report_room_problem:r004:tok01:det:我的",
+          "lemma": "我的",
+          "pos": "det",
+          "text": "我的"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_report_room_problem:r004:tok05:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_report_room_problem:r004:tok06:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_report_room_problem:r004:tok11:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-020-a2_report_room_problem",
+      "source_scenario_id": "a2_report_room_problem",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "回報一個簡單的房間問題，並確認飯店人員會怎麼處理。 您好，我可以怎麼幫您？ 好的，我現在幫您送毛巾。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_report_room_problem",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我",
+          "lemma": "我",
+          "pos": "pron",
+          "text": "我"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_request_room_change:r001:tok02:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_request_room_change:r001:tok03:adv:怎麼",
+          "lemma": "怎麼",
+          "pos": "adv",
+          "text": "怎麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:幫",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:幫",
+          "lemma": "幫",
+          "pos": "v",
+          "text": "幫"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:您",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:您",
+          "lemma": "您",
+          "pos": "pron",
+          "text": "您"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_request_room_change:r001:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_request_room_change:r002:tok02:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_request_room_change:r002:tok03:adv:怎麼",
+          "lemma": "怎麼",
+          "pos": "adv",
+          "text": "怎麼"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_request_room_change:r002:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_request_room_change:r003:tok01:det:我的",
+          "lemma": "我的",
+          "pos": "det",
+          "text": "我的"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:房間",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:房間",
+          "lemma": "房間",
+          "pos": "n",
+          "text": "房間"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:有",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:有",
+          "lemma": "有",
+          "pos": "v",
+          "text": "有"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_request_room_change:r003:tok04:clf:點",
+          "lemma": "點",
+          "pos": "clf",
+          "text": "點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:adj:吵",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:adj:吵",
+          "lemma": "吵",
+          "pos": "adj",
+          "text": "吵"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_request_room_change:r003:tok06:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_request_room_change:r003:tok07:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:換",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:換",
+          "lemma": "換",
+          "pos": "v",
+          "text": "換"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:房",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:房",
+          "lemma": "房",
+          "pos": "n",
+          "text": "房"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_request_room_change:r003:tok11:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_request_room_change:r004:tok01:det:我的",
+          "lemma": "我的",
+          "pos": "det",
+          "text": "我的"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_request_room_change:r004:tok04:clf:點",
+          "lemma": "點",
+          "pos": "clf",
+          "text": "點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_request_room_change:r004:tok06:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_request_room_change:r004:tok07:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_request_room_change:r004:tok11:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-021-a2_request_room_change",
+      "source_scenario_id": "a2_request_room_change",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "說出簡單理由，詢問是否可以換房。 我可以怎麼幫您？ 我查了一下，還有另一間房可以換。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_request_room_change",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "zh:pron:我們",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:pron:我們",
+          "lemma": "我們",
+          "pos": "pron",
+          "text": "我們"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:今天",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:今天",
+          "lemma": "今天",
+          "pos": "time",
+          "text": "今天"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:三點",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:三點",
+          "lemma": "三點",
+          "pos": "time",
+          "text": "三點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:見",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:見",
+          "lemma": "見",
+          "pos": "v",
+          "text": "見"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_reschedule_meeting_time:r001:tok05:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:intj:對嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:intj:對嗎",
+          "lemma": "對嗎",
+          "pos": "intj",
+          "text": "對嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_reschedule_meeting_time:r001:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_reschedule_meeting_time:r002:tok05:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_reschedule_meeting_time:r002:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:intj:不好意思",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:intj:不好意思",
+          "lemma": "不好意思",
+          "pos": "intj",
+          "text": "不好意思"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_reschedule_meeting_time:r003:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_reschedule_meeting_time:r003:tok03:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:改",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:改",
+          "lemma": "改",
+          "pos": "v",
+          "text": "改"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:時間",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:時間",
+          "lemma": "時間",
+          "pos": "n",
+          "text": "時間"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:嗎",
+          "lemma": "嗎",
+          "pos": "part",
+          "text": "嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_reschedule_meeting_time:r003:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_reschedule_meeting_time:r004:tok02:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_reschedule_meeting_time:r004:tok03:part:可以",
+          "lemma": "可以",
+          "pos": "part",
+          "text": "可以"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_reschedule_meeting_time:r004:tok07:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-022-a2_reschedule_meeting_time",
+      "source_scenario_id": "a2_reschedule_meeting_time",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "朋友確認原本三點見面。你想改時間，要簡短提出新時間並確認。 我們今天三點見，對嗎？ 可以。你想改到幾點？",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_reschedule_meeting_time",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r001:tok01:part:請",
+          "lemma": "請",
+          "pos": "part",
+          "text": "請"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:注意",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:注意",
+          "lemma": "注意",
+          "pos": "n",
+          "text": "注意"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r001:tok03:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:開往",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:開往",
+          "lemma": "開往",
+          "pos": "v",
+          "text": "開往"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:prop:Central",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "named_entity"
+          },
+          "id": "zh:prop:Central",
+          "lemma": "Central",
+          "pos": "prop",
+          "text": "Central"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:part:的",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:part:的",
+          "lemma": "的",
+          "pos": "part",
+          "text": "的"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:列車",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:列車",
+          "lemma": "列車",
+          "pos": "n",
+          "text": "列車"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r001:tok08:adv:將",
+          "lemma": "將",
+          "pos": "adv",
+          "text": "將"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:延誤",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:延誤",
+          "lemma": "延誤",
+          "pos": "v",
+          "text": "延誤"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:十五分鐘",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:十五分鐘",
+          "lemma": "十五分鐘",
+          "pos": "time",
+          "text": "十五分鐘"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r001:tok11:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r002:tok01:part:請",
+          "lemma": "請",
+          "pos": "part",
+          "text": "請"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r002:tok03:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r002:tok08:adv:將",
+          "lemma": "將",
+          "pos": "adv",
+          "text": "將"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r002:tok11:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:是",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:是",
+          "lemma": "是",
+          "pos": "v",
+          "text": "是"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r003:tok04:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:intj:對嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:intj:對嗎",
+          "lemma": "對嗎",
+          "pos": "intj",
+          "text": "對嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r003:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r004:tok04:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_transport_delay_announcement:r004:tok06:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-023-a2_transport_delay_announcement",
+      "source_scenario_id": "a2_transport_delay_announcement",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "聽車站廣播，確認列車晚多久，並選擇一個簡單下一步。 請注意，開往 Central 的列車將延誤十五分鐘。 如果延誤十五分鐘，您要等還是改搭公車？",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_transport_delay_announcement",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r001:tok01:part:請",
+          "lemma": "請",
+          "pos": "part",
+          "text": "請"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:看",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:看",
+          "lemma": "看",
+          "pos": "v",
+          "text": "看"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r001:tok03:det:這",
+          "lemma": "這",
+          "pos": "det",
+          "text": "這"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:clf:張",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:clf:張",
+          "lemma": "張",
+          "pos": "clf",
+          "text": "張"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:通知",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:通知",
+          "lemma": "通知",
+          "pos": "n",
+          "text": "通知"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r001:tok06:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:早餐",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:早餐",
+          "lemma": "早餐",
+          "pos": "n",
+          "text": "早餐"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:n:時間",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:n:時間",
+          "lemma": "時間",
+          "pos": "n",
+          "text": "時間"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:是",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:是",
+          "lemma": "是",
+          "pos": "v",
+          "text": "是"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:早上",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:早上",
+          "lemma": "早上",
+          "pos": "time",
+          "text": "早上"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:七點",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:七點",
+          "lemma": "七點",
+          "pos": "time",
+          "text": "七點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:v:到",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:v:到",
+          "lemma": "到",
+          "pos": "v",
+          "text": "到"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:time:九點",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:time:九點",
+          "lemma": "九點",
+          "pos": "time",
+          "text": "九點"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r001:tok14:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r002:tok01:part:請",
+          "lemma": "請",
+          "pos": "part",
+          "text": "請"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r002:tok03:det:這",
+          "lemma": "這",
+          "pos": "det",
+          "text": "這"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r002:tok06:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r002:tok14:punct:。",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r003:tok07:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "zh:intj:對嗎",
+            "source": "content/core/dictionary/atom_lookup.json",
+            "status": "linked"
+          },
+          "id": "zh:intj:對嗎",
+          "lemma": "對嗎",
+          "pos": "intj",
+          "text": "對嗎"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r003:tok09:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r004:tok07:punct:，",
+          "lemma": "，",
+          "pos": "punct",
+          "text": "，"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "zh:a2:a2_understand_hotel_notice:r004:tok09:punct:？",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        }
+      ],
+      "content_id": "zh_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:zh-a2-024-a2_understand_hotel_notice",
+      "source_scenario_id": "a2_understand_hotel_notice",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "看懂一則簡短飯店通知，確認時間、地點和規則。 請看這張通知。早餐時間是早上七點到九點。 地點在二樓餐廳。",
+      "target_freeze": {
+        "learning_object_id": "zh-a2-scenario-a2_understand_hotel_notice",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5352 @@
+{
+  "language": "ja",
+  "readings": [
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:予約",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:予約",
+          "lemma": "予約",
+          "pos": "n",
+          "text": "予約"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:は",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:は",
+          "lemma": "は",
+          "pos": "p",
+          "text": "は"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:今日",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:今日",
+          "lemma": "今日",
+          "pos": "n",
+          "text": "今日"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:の",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:の",
+          "lemma": "の",
+          "pos": "p",
+          "text": "の"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:午後",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:午後",
+          "lemma": "午後",
+          "pos": "n",
+          "text": "午後"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:3",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:3",
+          "lemma": "3",
+          "pos": "num",
+          "text": "3"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:count:時",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:count:時",
+          "lemma": "時",
+          "pos": "count",
+          "text": "時"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_app_booking_confirmation:r001:tok09:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_app_booking_confirmation:r002:tok09:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:場所",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:場所",
+          "lemma": "場所",
+          "pos": "n",
+          "text": "場所"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:どこ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:どこ",
+          "lemma": "どこ",
+          "pos": "n",
+          "text": "どこ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_app_booking_confirmation:r003:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_app_booking_confirmation:r004:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-001-a2_app_booking_confirmation",
+      "source_scenario_id": "a2_app_booking_confirmation",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "予約時間、場所、名前を短く確認しましょう。 予約は今日の午後3時です。 カフェの2階です。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_app_booking_confirmation",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ご",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ご",
+          "lemma": "ご",
+          "pos": "e",
+          "text": "ご"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:注文",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:注文",
+          "lemma": "注文",
+          "pos": "n",
+          "text": "注文"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:は",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:は",
+          "lemma": "は",
+          "pos": "p",
+          "text": "は"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:お",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:お",
+          "lemma": "お",
+          "pos": "e",
+          "text": "お"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:決まる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:決まる",
+          "lemma": "決まる",
+          "pos": "v",
+          "text": "決まり"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_ingredient_preference:r001:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_ingredient_preference:r002:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:det:この",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:det:この",
+          "lemma": "この",
+          "pos": "det",
+          "text": "この"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:サラダ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:サラダ",
+          "lemma": "サラダ",
+          "pos": "n",
+          "text": "サラダ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:に",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:に",
+          "lemma": "に",
+          "pos": "p",
+          "text": "に"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:玉ねぎ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:玉ねぎ",
+          "lemma": "玉ねぎ",
+          "pos": "n",
+          "text": "玉ねぎ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:入る",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:入る",
+          "lemma": "入る",
+          "pos": "v",
+          "text": "入っ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_ask_ingredient_preference:r003:tok07:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:いる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:いる",
+          "lemma": "いる",
+          "pos": "v",
+          "text": "い"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "ます"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_ingredient_preference:r003:tok11:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_ask_ingredient_preference:r004:tok07:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_ingredient_preference:r004:tok11:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-002-a2_ask_ingredient_preference",
+      "source_scenario_id": "a2_ask_ingredient_preference",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "よくある材料が入っているか聞き、好みに合わせて選びます。 ご注文はお決まりですか。 はい、少し入っています。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_ask_ingredient_preference",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:いかが",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:いかが",
+          "lemma": "いかが",
+          "pos": "adv",
+          "text": "いかが"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:なさる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:なさる",
+          "lemma": "なさる",
+          "pos": "v",
+          "text": "なさい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "まし"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:た",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:た",
+          "lemma": "た",
+          "pos": "e",
+          "text": "た"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_late_checkout:r001:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_late_checkout:r002:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:チェックアウト",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:チェックアウト",
+          "lemma": "チェックアウト",
+          "pos": "n",
+          "text": "チェックアウト"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:少し",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:少し",
+          "lemma": "少し",
+          "pos": "adv",
+          "text": "少し"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adj:遅い",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adj:遅い",
+          "lemma": "遅い",
+          "pos": "adj",
+          "text": "遅く"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:できる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:できる",
+          "lemma": "できる",
+          "pos": "v",
+          "text": "でき"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_late_checkout:r003:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_late_checkout:r004:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-003-a2_ask_late_checkout",
+      "source_scenario_id": "a2_ask_late_checkout",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "チェックアウトを少し遅くできるか尋ねて、可能な時間を確認しましょう。 いかがなさいましたか。 本日は午後一時まで可能です。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_ask_late_checkout",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:何",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:何",
+          "lemma": "何",
+          "pos": "n",
+          "text": "何"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:お",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:お",
+          "lemma": "お",
+          "pos": "e",
+          "text": "お"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:探し",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:探し",
+          "lemma": "探し",
+          "pos": "n",
+          "text": "探し"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_recommendation_budget:r001:tok07:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_recommendation_budget:r002:tok07:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:千",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:千",
+          "lemma": "千",
+          "pos": "num",
+          "text": "千"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:count:円",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:count:円",
+          "lemma": "円",
+          "pos": "count",
+          "text": "円"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:以内",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:以内",
+          "lemma": "以内",
+          "pos": "n",
+          "text": "以内"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:で",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:で",
+          "lemma": "で",
+          "pos": "p",
+          "text": "で"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:プレゼント",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:プレゼント",
+          "lemma": "プレゼント",
+          "pos": "n",
+          "text": "プレゼント"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:すすめる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:すすめる",
+          "lemma": "すすめる",
+          "pos": "v",
+          "text": "すすめ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:する",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:する",
+          "lemma": "する",
+          "pos": "v",
+          "text": "し"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_ask_recommendation_budget:r003:tok10:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:もらえる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:もらえる",
+          "lemma": "もらえる",
+          "pos": "v",
+          "text": "もらえ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "ます"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_recommendation_budget:r003:tok14:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_ask_recommendation_budget:r004:tok10:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_recommendation_budget:r004:tok14:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-004-a2_ask_recommendation_budget",
+      "source_scenario_id": "a2_ask_recommendation_budget",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "小さな予算内でおすすめを聞き、条件を短く伝えます。 何をお探しですか。 軽いものと実用的なもの、どちらがいいですか。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_ask_recommendation_budget",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:どちら",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:どちら",
+          "lemma": "どちら",
+          "pos": "n",
+          "text": "どちら"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:まで",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:まで",
+          "lemma": "まで",
+          "pos": "p",
+          "text": "まで"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:行く",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:行く",
+          "lemma": "行く",
+          "pos": "v",
+          "text": "行き"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "ます"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_transfer_platform:r001:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_transfer_platform:r002:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:空港",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:空港",
+          "lemma": "空港",
+          "pos": "n",
+          "text": "空港"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_ask_transfer_platform:r003:tok02:p:へ",
+          "lemma": "へ",
+          "pos": "p",
+          "text": "へ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:たい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:たい",
+          "lemma": "たい",
+          "pos": "e",
+          "text": "たい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_transfer_platform:r003:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:どこ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:どこ",
+          "lemma": "どこ",
+          "pos": "n",
+          "text": "どこ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:で",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:で",
+          "lemma": "で",
+          "pos": "p",
+          "text": "で"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:乗り換える",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:乗り換える",
+          "lemma": "乗り換える",
+          "pos": "v",
+          "text": "乗り換え"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_transfer_platform:r003:tok12:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_ask_transfer_platform:r004:tok02:p:へ",
+          "lemma": "へ",
+          "pos": "p",
+          "text": "へ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_transfer_platform:r004:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_ask_transfer_platform:r004:tok12:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-005-a2_ask_transfer_platform",
+      "source_scenario_id": "a2_ask_transfer_platform",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "どこで乗り換えるか、どのホームへ行くかを短く確認しましょう。 どちらまで行きますか。 中央駅で降りて、3番ホームへ行ってください。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_ask_transfer_platform",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:今日",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:今日",
+          "lemma": "今日",
+          "pos": "n",
+          "text": "今日"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:は",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:は",
+          "lemma": "は",
+          "pos": "p",
+          "text": "は"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:4",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:4",
+          "lemma": "4",
+          "pos": "num",
+          "text": "4"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:count:時",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:count:時",
+          "lemma": "時",
+          "pos": "count",
+          "text": "時"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:の",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:の",
+          "lemma": "の",
+          "pos": "p",
+          "text": "の"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:受け取り",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:受け取り",
+          "lemma": "受け取り",
+          "pos": "n",
+          "text": "受け取り"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:予定",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:予定",
+          "lemma": "予定",
+          "pos": "n",
+          "text": "予定"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_change_delivery_pickup_time:r001:tok09:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_change_delivery_pickup_time:r002:tok09:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:時間",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:時間",
+          "lemma": "時間",
+          "pos": "n",
+          "text": "時間"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:変える",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:変える",
+          "lemma": "変える",
+          "pos": "v",
+          "text": "変え"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_change_delivery_pickup_time:r003:tok05:e:られる",
+          "lemma": "られる",
+          "pos": "e",
+          "text": "られ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "ます"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_change_delivery_pickup_time:r003:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_change_delivery_pickup_time:r004:tok05:e:られる",
+          "lemma": "られる",
+          "pos": "e",
+          "text": "られ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_change_delivery_pickup_time:r004:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-006-a2_change_delivery_pickup_time",
+      "source_scenario_id": "a2_change_delivery_pickup_time",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "受け取り時間を変えて、新しい時間を確認しましょう。 今日は4時の受け取り予定です。 はい、5時なら大丈夫です。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_change_delivery_pickup_time",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:どう",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:どう",
+          "lemma": "どう",
+          "pos": "adv",
+          "text": "どう"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:する",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:する",
+          "lemma": "する",
+          "pos": "v",
+          "text": "し"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "まし"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:た",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:た",
+          "lemma": "た",
+          "pos": "e",
+          "text": "た"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_change_ticket_time:r001:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_change_ticket_time:r002:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:切符",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:切符",
+          "lemma": "切符",
+          "pos": "n",
+          "text": "切符"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:の",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:の",
+          "lemma": "の",
+          "pos": "p",
+          "text": "の"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:時間",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:時間",
+          "lemma": "時間",
+          "pos": "n",
+          "text": "時間"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:変える",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:変える",
+          "lemma": "変える",
+          "pos": "v",
+          "text": "変え"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:たい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:たい",
+          "lemma": "たい",
+          "pos": "e",
+          "text": "たい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_change_ticket_time:r003:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_change_ticket_time:r004:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-007-a2_change_ticket_time",
+      "source_scenario_id": "a2_change_ticket_time",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "駅の窓口で切符の時間を変えたいです。希望と確認を短く言いましょう。 どうしましたか。 今日の3時の切符に変えられます。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_change_ticket_time",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:今日",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:今日",
+          "lemma": "今日",
+          "pos": "n",
+          "text": "今日"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:は",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:は",
+          "lemma": "は",
+          "pos": "p",
+          "text": "は"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:ビビンバ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:ビビンバ",
+          "lemma": "ビビンバ",
+          "pos": "n",
+          "text": "ビビンバ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:と",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:と",
+          "lemma": "と",
+          "pos": "p",
+          "text": "と"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adj:冷たい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adj:冷たい",
+          "lemma": "冷たい",
+          "pos": "adj",
+          "text": "冷たい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:麺",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:麺",
+          "lemma": "麺",
+          "pos": "n",
+          "text": "麺"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:から",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:から",
+          "lemma": "から",
+          "pos": "p",
+          "text": "から"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:選べる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:選べる",
+          "lemma": "選べる",
+          "pos": "v",
+          "text": "選べ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "ます"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_compare_two_menu_options:r001:tok10:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_compare_two_menu_options:r002:tok10:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:二",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:二",
+          "lemma": "二",
+          "pos": "num",
+          "text": "二"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_compare_two_menu_options:r003:tok02:e:つ",
+          "lemma": "つ",
+          "pos": "e",
+          "text": "つ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:どう",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:どう",
+          "lemma": "どう",
+          "pos": "adv",
+          "text": "どう"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:違う",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:違う",
+          "lemma": "違う",
+          "pos": "v",
+          "text": "違い"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_compare_two_menu_options:r003:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_compare_two_menu_options:r004:tok02:e:つ",
+          "lemma": "つ",
+          "pos": "e",
+          "text": "つ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_compare_two_menu_options:r004:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-008-a2_compare_two_menu_options",
+      "source_scenario_id": "a2_compare_two_menu_options",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "二つのメニューの違いを聞いて、好みに合う方を選びます。 今日はビビンバと冷たい麺から選べます。 ビビンバは少し辛くて、麺のほうが軽いです。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_compare_two_menu_options",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:メッセージ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:メッセージ",
+          "lemma": "メッセージ",
+          "pos": "n",
+          "text": "メッセージ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:確認",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:確認",
+          "lemma": "確認",
+          "pos": "n",
+          "text": "確認"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:する",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:する",
+          "lemma": "する",
+          "pos": "v",
+          "text": "し"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "まし"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:た",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:た",
+          "lemma": "た",
+          "pos": "e",
+          "text": "た"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_confirm_date_time_place:r001:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_confirm_date_time_place:r002:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:intj:はい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:intj:はい",
+          "lemma": "はい",
+          "pos": "intj",
+          "text": "はい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_confirm_date_time_place:r003:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:明日",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:明日",
+          "lemma": "明日",
+          "pos": "n",
+          "text": "明日"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:の",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:の",
+          "lemma": "の",
+          "pos": "p",
+          "text": "の"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:午前",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:午前",
+          "lemma": "午前",
+          "pos": "n",
+          "text": "午前"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:10",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:10",
+          "lemma": "10",
+          "pos": "num",
+          "text": "10"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:count:時",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:count:時",
+          "lemma": "時",
+          "pos": "count",
+          "text": "時"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:ね",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:ね",
+          "lemma": "ね",
+          "pos": "p",
+          "text": "ね"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_confirm_date_time_place:r003:tok10:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_confirm_date_time_place:r004:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:十",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:十",
+          "lemma": "十",
+          "pos": "num",
+          "text": "十"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_confirm_date_time_place:r004:tok10:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-009-a2_confirm_date_time_place",
+      "source_scenario_id": "a2_confirm_date_time_place",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "友だちからの短いメッセージを見て、日にち、時間、場所を確認します。 メッセージを確認しましたか。 場所はどこでしたか。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_confirm_date_time_place",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:今日",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:今日",
+          "lemma": "今日",
+          "pos": "n",
+          "text": "今日"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_decline_with_reason:r001:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:映画",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:映画",
+          "lemma": "映画",
+          "pos": "n",
+          "text": "映画"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:見る",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:見る",
+          "lemma": "見る",
+          "pos": "v",
+          "text": "見"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:に",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:に",
+          "lemma": "に",
+          "pos": "p",
+          "text": "に"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:行く",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:行く",
+          "lemma": "行く",
+          "pos": "v",
+          "text": "行か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ない",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ない",
+          "lemma": "ない",
+          "pos": "e",
+          "text": "ない"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_decline_with_reason:r001:tok09:punct:punct",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_decline_with_reason:r002:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_decline_with_reason:r002:tok09:punct:punct",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:ごめん",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:ごめん",
+          "lemma": "ごめん",
+          "pos": "n",
+          "text": "ごめん"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_decline_with_reason:r003:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:は",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:は",
+          "lemma": "は",
+          "pos": "p",
+          "text": "は"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:ちょっと",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:ちょっと",
+          "lemma": "ちょっと",
+          "pos": "adv",
+          "text": "ちょっと"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:行ける",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:行ける",
+          "lemma": "行ける",
+          "pos": "v",
+          "text": "行け"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_decline_with_reason:r003:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_decline_with_reason:r004:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_decline_with_reason:r004:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-010-a2_decline_with_reason",
+      "source_scenario_id": "a2_decline_with_reason",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "友だちの誘いを今回は断ります。短い理由を言って、また今度につなげましょう。 今日、映画を見に行かない？ そっか。何かあるの？",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_decline_with_reason",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:週末",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:週末",
+          "lemma": "週末",
+          "pos": "n",
+          "text": "週末"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_describe_weekend_activity:r001:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:何",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:何",
+          "lemma": "何",
+          "pos": "n",
+          "text": "何"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:する",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:する",
+          "lemma": "する",
+          "pos": "v",
+          "text": "し"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:た",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:た",
+          "lemma": "た",
+          "pos": "e",
+          "text": "た"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:の",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:の",
+          "lemma": "の",
+          "pos": "p",
+          "text": "の"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_describe_weekend_activity:r001:tok07:punct:punct",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_describe_weekend_activity:r002:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_describe_weekend_activity:r002:tok07:punct:punct",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:公園",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:公園",
+          "lemma": "公園",
+          "pos": "n",
+          "text": "公園"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:散歩",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:散歩",
+          "lemma": "散歩",
+          "pos": "n",
+          "text": "散歩"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:よ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:よ",
+          "lemma": "よ",
+          "pos": "p",
+          "text": "よ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_describe_weekend_activity:r003:tok07:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_describe_weekend_activity:r004:tok07:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-011-a2_describe_weekend_activity",
+      "source_scenario_id": "a2_describe_weekend_activity",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "友だちが週末のことを聞いています。したことを一つ言って、短い詳しい情報を足しましょう。 週末、何したの？ 誰と行ったの？",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_describe_weekend_activity",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:いかが",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:いかが",
+          "lemma": "いかが",
+          "pos": "adv",
+          "text": "いかが"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:なさる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:なさる",
+          "lemma": "なさる",
+          "pos": "v",
+          "text": "なさい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "まし"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:た",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:た",
+          "lemma": "た",
+          "pos": "e",
+          "text": "た"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_exchange_wrong_item:r001:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_exchange_wrong_item:r002:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adj:小さい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adj:小さい",
+          "lemma": "小さい",
+          "pos": "adj",
+          "text": "小さい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:カップ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:カップ",
+          "lemma": "カップ",
+          "pos": "n",
+          "text": "カップ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:頼む",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:頼む",
+          "lemma": "頼む",
+          "pos": "v",
+          "text": "頼ん"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:だ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:だ",
+          "lemma": "だ",
+          "pos": "cop",
+          "text": "だ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:の",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:の",
+          "lemma": "の",
+          "pos": "p",
+          "text": "の"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:が",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:が",
+          "lemma": "が",
+          "pos": "p",
+          "text": "が"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_exchange_wrong_item:r003:tok09:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adj:大きい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adj:大きい",
+          "lemma": "大きい",
+          "pos": "adj",
+          "text": "大きい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:来る",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:来る",
+          "lemma": "来る",
+          "pos": "v",
+          "text": "来"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_exchange_wrong_item:r003:tok16:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_exchange_wrong_item:r004:tok09:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_exchange_wrong_item:r004:tok16:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-012-a2_exchange_wrong_item",
+      "source_scenario_id": "a2_exchange_wrong_item",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "注文と違う商品を受け取ったとき、丁寧に交換をお願いします。 いかがなさいましたか。 確認します。レシートを見せていただけますか。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_exchange_wrong_item",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:今",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:今",
+          "lemma": "今",
+          "pos": "n",
+          "text": "今"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:det:どの",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:det:どの",
+          "lemma": "どの",
+          "pos": "det",
+          "text": "どの"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:あたり",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:あたり",
+          "lemma": "あたり",
+          "pos": "n",
+          "text": "あたり"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_explain_simple_delay_reason:r001:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:もう",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:もう",
+          "lemma": "もう",
+          "pos": "adv",
+          "text": "もう"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:すぐ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:すぐ",
+          "lemma": "すぐ",
+          "pos": "adv",
+          "text": "すぐ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:着く",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:着く",
+          "lemma": "着く",
+          "pos": "v",
+          "text": "着き"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "ます"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_explain_simple_delay_reason:r001:tok12:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_explain_simple_delay_reason:r002:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_explain_simple_delay_reason:r002:tok12:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:すむ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:すむ",
+          "lemma": "すむ",
+          "pos": "v",
+          "text": "すみ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_explain_simple_delay_reason:r003:tok03:e:ぬ",
+          "lemma": "ぬ",
+          "pos": "e",
+          "text": "ん"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_explain_simple_delay_reason:r003:tok04:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:少し",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:少し",
+          "lemma": "少し",
+          "pos": "adv",
+          "text": "少し"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:遅れる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:遅れる",
+          "lemma": "遅れる",
+          "pos": "v",
+          "text": "遅れ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adj:そう",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adj:そう",
+          "lemma": "そう",
+          "pos": "adj",
+          "text": "そう"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_explain_simple_delay_reason:r003:tok09:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_explain_simple_delay_reason:r004:tok03:e:ぬ",
+          "lemma": "ぬ",
+          "pos": "e",
+          "text": "ん"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_explain_simple_delay_reason:r004:tok04:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_explain_simple_delay_reason:r004:tok09:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-013-a2_explain_simple_delay_reason",
+      "source_scenario_id": "a2_explain_simple_delay_reason",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "友だちが今どこにいるか聞いています。少し遅れることと理由を短く言いましょう。 今どのあたりですか。もうすぐ着きますか。 どうしてですか。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_explain_simple_delay_reason",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:まず",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:まず",
+          "lemma": "まず",
+          "pos": "adv",
+          "text": "まず"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:det:この",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:det:この",
+          "lemma": "この",
+          "pos": "det",
+          "text": "この"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:フォーム",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:フォーム",
+          "lemma": "フォーム",
+          "pos": "n",
+          "text": "フォーム"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:書く",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:書く",
+          "lemma": "書く",
+          "pos": "v",
+          "text": "書い"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_fill_simple_form_help:r001:tok06:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:くださる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:くださる",
+          "lemma": "くださる",
+          "pos": "v",
+          "text": "ください"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_fill_simple_form_help:r001:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_fill_simple_form_help:r002:tok06:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_fill_simple_form_help:r002:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:欄",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:欄",
+          "lemma": "欄",
+          "pos": "n",
+          "text": "欄"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:に",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:に",
+          "lemma": "に",
+          "pos": "p",
+          "text": "に"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:は",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:は",
+          "lemma": "は",
+          "pos": "p",
+          "text": "は"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:何",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:何",
+          "lemma": "何",
+          "pos": "n",
+          "text": "何"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_fill_simple_form_help:r003:tok08:p:ば",
+          "lemma": "ば",
+          "pos": "p",
+          "text": "ば"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adj:いい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adj:いい",
+          "lemma": "いい",
+          "pos": "adj",
+          "text": "いい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_fill_simple_form_help:r003:tok12:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_fill_simple_form_help:r004:tok08:p:ば",
+          "lemma": "ば",
+          "pos": "p",
+          "text": "ば"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_fill_simple_form_help:r004:tok12:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-014-a2_fill_simple_form_help",
+      "source_scenario_id": "a2_fill_simple_form_help",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "簡単なフォームの欄について聞き、書く内容を確認しましょう。 まずこのフォームを書いてください。 ここには名前を書いてください。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_fill_simple_form_help",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:今日",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:今日",
+          "lemma": "今日",
+          "pos": "n",
+          "text": "今日"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_invite_friend_activity:r001:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:カフェ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:カフェ",
+          "lemma": "カフェ",
+          "pos": "n",
+          "text": "カフェ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:に",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:に",
+          "lemma": "に",
+          "pos": "p",
+          "text": "に"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:行く",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:行く",
+          "lemma": "行く",
+          "pos": "v",
+          "text": "行か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ない",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ない",
+          "lemma": "ない",
+          "pos": "e",
+          "text": "ない"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_invite_friend_activity:r001:tok07:punct:punct",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_invite_friend_activity:r002:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_invite_friend_activity:r002:tok07:punct:punct",
+          "lemma": "？",
+          "pos": "punct",
+          "text": "？"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adj:いい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adj:いい",
+          "lemma": "いい",
+          "pos": "adj",
+          "text": "いい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:ね",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:ね",
+          "lemma": "ね",
+          "pos": "p",
+          "text": "ね"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_invite_friend_activity:r003:tok03:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_invite_friend_activity:r003:tok05:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_invite_friend_activity:r004:tok03:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_invite_friend_activity:r004:tok05:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-015-a2_invite_friend_activity",
+      "source_scenario_id": "a2_invite_friend_activity",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "友だちを気軽な活動に誘い、いつ行くかを短く決めます。 今日、カフェに行かない？ いいね。何時ごろ行く？",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_invite_friend_activity",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:何",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:何",
+          "lemma": "何",
+          "pos": "n",
+          "text": "何"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:探す",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:探す",
+          "lemma": "探す",
+          "pos": "v",
+          "text": "探し"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_lost_item_followup_message:r001:tok04:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:いる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:いる",
+          "lemma": "いる",
+          "pos": "v",
+          "text": "い"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "ます"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_lost_item_followup_message:r001:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_lost_item_followup_message:r002:tok04:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_lost_item_followup_message:r002:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adj:黒い",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adj:黒い",
+          "lemma": "黒い",
+          "pos": "adj",
+          "text": "黒い"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:傘",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:傘",
+          "lemma": "傘",
+          "pos": "n",
+          "text": "傘"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:置く",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:置く",
+          "lemma": "置く",
+          "pos": "v",
+          "text": "置い"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_lost_item_followup_message:r003:tok05:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:くる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:くる",
+          "lemma": "くる",
+          "pos": "v",
+          "text": "き"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:た",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:た",
+          "lemma": "た",
+          "pos": "e",
+          "text": "た"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:と",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:と",
+          "lemma": "と",
+          "pos": "p",
+          "text": "と"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:思う",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:思う",
+          "lemma": "思う",
+          "pos": "v",
+          "text": "思い"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_lost_item_followup_message:r003:tok11:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_lost_item_followup_message:r004:tok05:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_lost_item_followup_message:r004:tok11:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-016-a2_lost_item_followup_message",
+      "source_scenario_id": "a2_lost_item_followup_message",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "忘れ物の特徴、場所、連絡先を短く伝えましょう。 何を探していますか。 どこに置きましたか。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_lost_item_followup_message",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:荷物",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:荷物",
+          "lemma": "荷物",
+          "pos": "n",
+          "text": "荷物"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:お",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:お",
+          "lemma": "お",
+          "pos": "e",
+          "text": "お"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:預かる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:預かる",
+          "lemma": "預かる",
+          "pos": "v",
+          "text": "預かり"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:する",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:する",
+          "lemma": "する",
+          "pos": "v",
+          "text": "し"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "ましょう"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_luggage_storage_pickup:r001:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_luggage_storage_pickup:r002:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:intj:はい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:intj:はい",
+          "lemma": "はい",
+          "pos": "intj",
+          "text": "はい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_luggage_storage_pickup:r003:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:det:この",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:det:この",
+          "lemma": "この",
+          "pos": "det",
+          "text": "この"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:バッグ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:バッグ",
+          "lemma": "バッグ",
+          "pos": "n",
+          "text": "バッグ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:預ける",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:預ける",
+          "lemma": "預ける",
+          "pos": "v",
+          "text": "預け"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:たい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:たい",
+          "lemma": "たい",
+          "pos": "e",
+          "text": "たい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_luggage_storage_pickup:r003:tok09:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_luggage_storage_pickup:r004:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_luggage_storage_pickup:r004:tok09:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-017-a2_luggage_storage_pickup",
+      "source_scenario_id": "a2_luggage_storage_pickup",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "駅で荷物を預けます。いつ受け取れるか、何を見せるかを確認しましょう。 荷物をお預かりしましょうか。 今日の夜7時までに受け取りに来てください。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_luggage_storage_pickup",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:先",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:先",
+          "lemma": "先",
+          "pos": "n",
+          "text": "先"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:に",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:に",
+          "lemma": "に",
+          "pos": "p",
+          "text": "に"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:駅",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:駅",
+          "lemma": "駅",
+          "pos": "n",
+          "text": "駅"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:で",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:で",
+          "lemma": "で",
+          "pos": "p",
+          "text": "で"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:会う",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:会う",
+          "lemma": "会う",
+          "pos": "v",
+          "text": "会おう"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_make_simple_plan_sequence:r001:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_make_simple_plan_sequence:r002:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_make_simple_plan_sequence:r003:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_make_simple_plan_sequence:r004:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-018-a2_make_simple_plan_sequence",
+      "source_scenario_id": "a2_make_simple_plan_sequence",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "友だちと二つだけの予定を決めます。先に何をして、そのあと何をするかを短く言いましょう。 先に駅で会おう。 いいね。そのあと、少し歩く？",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_make_simple_plan_sequence",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:明日",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:明日",
+          "lemma": "明日",
+          "pos": "n",
+          "text": "明日"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:の",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:の",
+          "lemma": "の",
+          "pos": "p",
+          "text": "の"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:朝",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:朝",
+          "lemma": "朝",
+          "pos": "n",
+          "text": "朝"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:は",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:は",
+          "lemma": "は",
+          "pos": "p",
+          "text": "は"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:何",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:何",
+          "lemma": "何",
+          "pos": "n",
+          "text": "何"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:する",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:する",
+          "lemma": "する",
+          "pos": "v",
+          "text": "する"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:予定",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:予定",
+          "lemma": "予定",
+          "pos": "n",
+          "text": "予定"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_plan_tomorrow_morning:r001:tok11:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_plan_tomorrow_morning:r002:tok11:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_plan_tomorrow_morning:r003:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:図書",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:図書",
+          "lemma": "図書",
+          "pos": "n",
+          "text": "図書"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_plan_tomorrow_morning:r003:tok04:e:館",
+          "lemma": "館",
+          "pos": "e",
+          "text": "館"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:に",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:に",
+          "lemma": "に",
+          "pos": "p",
+          "text": "に"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:行く",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:行く",
+          "lemma": "行く",
+          "pos": "v",
+          "text": "行く"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_plan_tomorrow_morning:r003:tok09:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_plan_tomorrow_morning:r004:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_plan_tomorrow_morning:r004:tok04:e:館",
+          "lemma": "館",
+          "pos": "e",
+          "text": "館"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_plan_tomorrow_morning:r004:tok09:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-019-a2_plan_tomorrow_morning",
+      "source_scenario_id": "a2_plan_tomorrow_morning",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "友だちが明日の朝の予定を聞いています。最初にすることと、その次のことを短く言いましょう。 明日の朝は何をする予定ですか。 そのあとは何をしますか。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_plan_tomorrow_morning",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:何",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:何",
+          "lemma": "何",
+          "pos": "n",
+          "text": "何"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:お",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:お",
+          "lemma": "お",
+          "pos": "e",
+          "text": "お"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:困る",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:困る",
+          "lemma": "困る",
+          "pos": "v",
+          "text": "困り"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_report_room_problem:r001:tok07:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_report_room_problem:r002:tok07:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:部屋",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:部屋",
+          "lemma": "部屋",
+          "pos": "n",
+          "text": "部屋"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:に",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:に",
+          "lemma": "に",
+          "pos": "p",
+          "text": "に"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:タオル",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:タオル",
+          "lemma": "タオル",
+          "pos": "n",
+          "text": "タオル"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:が",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:が",
+          "lemma": "が",
+          "pos": "p",
+          "text": "が"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:ある",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:ある",
+          "lemma": "ある",
+          "pos": "v",
+          "text": "あり"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "ませ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_report_room_problem:r003:tok07:e:ぬ",
+          "lemma": "ぬ",
+          "pos": "e",
+          "text": "ん"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_report_room_problem:r003:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:願う",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:願う",
+          "lemma": "願う",
+          "pos": "v",
+          "text": "願い"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:できる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:できる",
+          "lemma": "できる",
+          "pos": "v",
+          "text": "でき"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_report_room_problem:r003:tok14:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_report_room_problem:r004:tok07:e:ぬ",
+          "lemma": "ぬ",
+          "pos": "e",
+          "text": "ん"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_report_room_problem:r004:tok08:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_report_room_problem:r004:tok14:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-020-a2_report_room_problem",
+      "source_scenario_id": "a2_report_room_problem",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "部屋で小さな問題があるとき、短く伝えて、スタッフの対応を確認しましょう。 何かお困りですか。 はい、すぐにタオルをお持ちします。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_report_room_problem",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:どう",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:どう",
+          "lemma": "どう",
+          "pos": "adv",
+          "text": "どう"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:する",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:する",
+          "lemma": "する",
+          "pos": "v",
+          "text": "さ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_request_room_change:r001:tok03:e:れる",
+          "lemma": "れる",
+          "pos": "e",
+          "text": "れ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "まし"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:た",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:た",
+          "lemma": "た",
+          "pos": "e",
+          "text": "た"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_request_room_change:r001:tok07:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_request_room_change:r002:tok03:e:れる",
+          "lemma": "れる",
+          "pos": "e",
+          "text": "れ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_request_room_change:r002:tok07:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:部屋",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:部屋",
+          "lemma": "部屋",
+          "pos": "n",
+          "text": "部屋"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:が",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:が",
+          "lemma": "が",
+          "pos": "p",
+          "text": "が"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adv:少し",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adv:少し",
+          "lemma": "少し",
+          "pos": "adv",
+          "text": "少し"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adj:うるさい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adj:うるさい",
+          "lemma": "うるさい",
+          "pos": "adj",
+          "text": "うるさい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:の",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:の",
+          "lemma": "の",
+          "pos": "p",
+          "text": "の"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:だ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:だ",
+          "lemma": "だ",
+          "pos": "cop",
+          "text": "で"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_request_room_change:r003:tok07:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:変える",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:変える",
+          "lemma": "変える",
+          "pos": "v",
+          "text": "変え"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_request_room_change:r003:tok09:e:られる",
+          "lemma": "られる",
+          "pos": "e",
+          "text": "られ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_request_room_change:r003:tok12:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_request_room_change:r004:tok07:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_request_room_change:r004:tok09:e:られる",
+          "lemma": "られる",
+          "pos": "e",
+          "text": "られ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_request_room_change:r004:tok12:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-021-a2_request_room_change",
+      "source_scenario_id": "a2_request_room_change",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "簡単な理由を言って、部屋を変えられるか確認しましょう。 どうされましたか。 確認しました。別のお部屋が一つあります。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_request_room_change",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:今日",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:今日",
+          "lemma": "今日",
+          "pos": "n",
+          "text": "今日"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r001:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:3",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:3",
+          "lemma": "3",
+          "pos": "num",
+          "text": "3"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:count:時",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:count:時",
+          "lemma": "時",
+          "pos": "count",
+          "text": "時"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:に",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:に",
+          "lemma": "に",
+          "pos": "p",
+          "text": "に"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:会う",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:会う",
+          "lemma": "会う",
+          "pos": "v",
+          "text": "会う"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:予定",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:予定",
+          "lemma": "予定",
+          "pos": "n",
+          "text": "予定"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:よ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:よ",
+          "lemma": "よ",
+          "pos": "p",
+          "text": "よ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:ね",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:ね",
+          "lemma": "ね",
+          "pos": "p",
+          "text": "ね"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r001:tok11:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r002:tok02:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:三",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:三",
+          "lemma": "三",
+          "pos": "num",
+          "text": "三"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r002:tok11:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:すむ",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:すむ",
+          "lemma": "すむ",
+          "pos": "v",
+          "text": "すみ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "ませ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r003:tok03:e:ぬ",
+          "lemma": "ぬ",
+          "pos": "e",
+          "text": "ん"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r003:tok04:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:時間",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:時間",
+          "lemma": "時間",
+          "pos": "n",
+          "text": "時間"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:変える",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:変える",
+          "lemma": "変える",
+          "pos": "v",
+          "text": "変え"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r003:tok08:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:も",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:も",
+          "lemma": "も",
+          "pos": "p",
+          "text": "も"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:adj:いい",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:adj:いい",
+          "lemma": "いい",
+          "pos": "adj",
+          "text": "いい"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:か",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:か",
+          "lemma": "か",
+          "pos": "p",
+          "text": "か"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r003:tok13:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r004:tok03:e:ぬ",
+          "lemma": "ぬ",
+          "pos": "e",
+          "text": "ん"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r004:tok04:punct:punct",
+          "lemma": "、",
+          "pos": "punct",
+          "text": "、"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r004:tok08:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_reschedule_meeting_time:r004:tok13:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-022-a2_reschedule_meeting_time",
+      "source_scenario_id": "a2_reschedule_meeting_time",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "今日の待ち合わせ時間を少し変えたいです。別の時間にできるか聞いてみましょう。 今日、3時に会う予定ですよね。 大丈夫です。何時がいいですか。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_reschedule_meeting_time",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:お",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:お",
+          "lemma": "お",
+          "pos": "e",
+          "text": "お"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:知る",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:知る",
+          "lemma": "知る",
+          "pos": "v",
+          "text": "知ら"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r001:tok03:e:せる",
+          "lemma": "せる",
+          "pos": "e",
+          "text": "せ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:する",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:する",
+          "lemma": "する",
+          "pos": "v",
+          "text": "し"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:e:ます",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:e:ます",
+          "lemma": "ます",
+          "pos": "e",
+          "text": "ます"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r001:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:電車",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:電車",
+          "lemma": "電車",
+          "pos": "n",
+          "text": "電車"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:は",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:は",
+          "lemma": "は",
+          "pos": "p",
+          "text": "は"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:10",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:10",
+          "lemma": "10",
+          "pos": "num",
+          "text": "10"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:count:分",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:count:分",
+          "lemma": "分",
+          "pos": "count",
+          "text": "分"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r001:tok11:p:ほど",
+          "lemma": "ほど",
+          "pos": "p",
+          "text": "ほど"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:遅れる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:遅れる",
+          "lemma": "遅れる",
+          "pos": "v",
+          "text": "遅れ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r001:tok13:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:到着",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:到着",
+          "lemma": "到着",
+          "pos": "n",
+          "text": "到着"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r001:tok17:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r002:tok03:e:せる",
+          "lemma": "せる",
+          "pos": "e",
+          "text": "せ"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r002:tok06:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:十",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:十",
+          "lemma": "十",
+          "pos": "num",
+          "text": "十"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r002:tok11:p:ほど",
+          "lemma": "ほど",
+          "pos": "p",
+          "text": "ほど"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r002:tok13:p:て",
+          "lemma": "て",
+          "pos": "p",
+          "text": "て"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r002:tok17:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r003:tok03:p:ほど",
+          "lemma": "ほど",
+          "pos": "p",
+          "text": "ほど"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:そう",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:そう",
+          "lemma": "そう",
+          "pos": "n",
+          "text": "そう"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r003:tok07:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "function_word"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r004:tok03:p:ほど",
+          "lemma": "ほど",
+          "pos": "p",
+          "text": "ほど"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_transport_delay_announcement:r004:tok07:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-023-a2_transport_delay_announcement",
+      "source_scenario_id": "a2_transport_delay_announcement",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "駅の案内を聞いて、どのくらい遅れるか確認し、待つか別の方法にするか言いましょう。 お知らせします。電車は10分ほど遅れて到着します。 10分くらいなら待ちますか。それともバスにしますか。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_transport_delay_announcement",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    },
+    {
+      "atoms": [
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:案内",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:案内",
+          "lemma": "案内",
+          "pos": "n",
+          "text": "案内"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:を",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:を",
+          "lemma": "を",
+          "pos": "p",
+          "text": "を"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:ご覧",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:ご覧",
+          "lemma": "ご覧",
+          "pos": "n",
+          "text": "ご覧"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:v:くださる",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:v:くださる",
+          "lemma": "くださる",
+          "pos": "v",
+          "text": "ください"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_understand_hotel_notice:r001:tok05:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:朝食",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:朝食",
+          "lemma": "朝食",
+          "pos": "n",
+          "text": "朝食"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:は",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:は",
+          "lemma": "は",
+          "pos": "p",
+          "text": "は"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:n:朝",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:n:朝",
+          "lemma": "朝",
+          "pos": "n",
+          "text": "朝"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:七",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:七",
+          "lemma": "七",
+          "pos": "num",
+          "text": "七"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:count:時",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:count:時",
+          "lemma": "時",
+          "pos": "count",
+          "text": "時"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:から",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:から",
+          "lemma": "から",
+          "pos": "p",
+          "text": "から"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:num:九",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:num:九",
+          "lemma": "九",
+          "pos": "num",
+          "text": "九"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:まで",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:まで",
+          "lemma": "まで",
+          "pos": "p",
+          "text": "まで"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:cop:です",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:cop:です",
+          "lemma": "です",
+          "pos": "cop",
+          "text": "です"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_understand_hotel_notice:r001:tok16:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_understand_hotel_notice:r002:tok05:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_understand_hotel_notice:r002:tok16:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": "ja:p:ね",
+            "source": "content/core/dictionary/index.json",
+            "status": "linked"
+          },
+          "id": "ja:p:ね",
+          "lemma": "ね",
+          "pos": "p",
+          "text": "ね"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_understand_hotel_notice:r003:tok12:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        },
+        {
+          "dictionary_link": {
+            "atom_id": null,
+            "status": "not_applicable"
+          },
+          "id": "ja:a2:a2_understand_hotel_notice:r004:tok12:punct:punct",
+          "lemma": "。",
+          "pos": "punct",
+          "text": "。"
+        }
+      ],
+      "content_id": "ja_a2_current_flow_readings",
+      "count_status": "countable",
+      "item_id": "reading:ja-a2-024-a2_understand_hotel_notice",
+      "source_scenario_id": "a2_understand_hotel_notice",
+      "source_status": "scenario_pack_reviewed_native_pending",
+      "surface": "ホテルの短い案内から、時間・場所・ルールを確認しましょう。 案内をご覧ください。朝食は朝七時から九時までです。 場所は二階のレストランです。",
+      "target_freeze": {
+        "learning_object_id": "ja-a2-scenario-a2_understand_hotel_notice",
+        "native_status": "native_pending",
+        "review_status": "needs_review"
+      }
+    }
+  ]
+}

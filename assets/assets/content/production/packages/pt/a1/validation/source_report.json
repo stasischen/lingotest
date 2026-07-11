@@ -1,0 +1,48 @@
+{
+  "schema_version": "a1_runtime_source_report.v1",
+  "runtime_id": "a1_v2_20260619",
+  "language": "pt",
+  "review_ceiling": "native_pending",
+  "visibility": "production",
+  "promotion": "owner_decision_20260619_native_waived",
+  "source_commits": {
+    "release_aggregator": "521237a4900a835e7b34a5dad25ebac246622aac",
+    "content_repo": "0a19a769c88e0f026b4fc7ad4d60684e86a43c00"
+  },
+  "module_report": {
+    "language": "pt",
+    "reading_assets": 34,
+    "reading_rows": 217,
+    "reading_segmentation_rows": 34,
+    "reading_root": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_target_freeze\\reading_surface_drafts_20260615",
+    "scenario_packs": 20,
+    "scenario_source": "D:\\Githubs\\lingo\\content-pt\\content\\core\\content_assets\\scenario_packs\\current_flow",
+    "dialogue_segmentation_rows": 744,
+    "dialogue_segmentation": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_dialogue_segmentation_20260618\\pt_dialogue_lemma_segmentation_20260618.json",
+    "productive_items": 15,
+    "productive_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_function_productive_20260617\\productive_practice_20260617.json",
+    "i18n_files": 5,
+    "i18n_entries": 40,
+    "i18n_root": "D:\\Githubs\\lingo\\content-pt\\content_v2\\i18n\\zh_tw\\learning_library",
+    "gloss_entries": 790,
+    "suppressed_gloss_entries": 0,
+    "a2_provenance_entries": 0,
+    "gloss_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_dictionary_gloss_20260618\\pt_a1_gloss.json",
+    "grammar_nodes": 16,
+    "grammar_path": "D:\\Githubs\\lingo\\content-pt\\content\\review\\a1_grammar_knowledge_20260618\\pt_grammar_knowledge.json",
+    "module_count": 11,
+    "modules": [
+      "dialogue_segmentation",
+      "dialogue_surface_projection",
+      "dictionary_gloss",
+      "grammar_knowledge",
+      "i18n_zh_tw",
+      "productive_practice",
+      "reading_segmentation",
+      "readings",
+      "readings_index",
+      "scenarios",
+      "scenarios_index"
+    ]
+  }
+}

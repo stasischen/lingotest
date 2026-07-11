@@ -1,0 +1,2480 @@
+{
+  "content_version": "r1",
+  "items": [
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ability_can_ul_su_itda",
+      "knowledge_id": "ko:grammar:ability_can_ul_su_itda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ability",
+        "grammar_refs": [
+          "ko-v2-gram-001"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ability_cannot_ul_su_eoptda",
+      "knowledge_id": "ko:grammar:ability_cannot_ul_su_eoptda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ability",
+        "grammar_refs": [
+          "ko-v2-gram-002"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.adverb_baro",
+      "knowledge_id": "ko:grammar:adverb_baro",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "time",
+        "grammar_refs": [
+          "ko-v2-gram-007"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.adverb_dasi",
+      "knowledge_id": "ko:grammar:adverb_dasi",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "time",
+        "grammar_refs": [
+          "ko-v2-gram-015"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.adverb_hoksi",
+      "knowledge_id": "ko:grammar:adverb_hoksi",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "discourse",
+        "grammar_refs": [
+          "ko-v2-gram-029"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.adverb_ije",
+      "knowledge_id": "ko:grammar:adverb_ije",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "discourse/time",
+        "grammar_refs": [
+          "ko-v2-gram-030"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.adverb_jeongmal",
+      "knowledge_id": "ko:grammar:adverb_jeongmal",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "emphasis",
+        "grammar_refs": [
+          "ko-v2-gram-038"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.adverb_yeoksi",
+      "knowledge_id": "ko:grammar:adverb_yeoksi",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "discourse",
+        "grammar_refs": [
+          "ko-v2-gram-056"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.articles",
+      "knowledge_id": "ko:grammar:a1_demonstrative_determiners_i_geu_jeo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "syntax",
+        "grammar_refs": [
+          "ko-a1-family-articles"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.copula_ya_iya",
+      "knowledge_id": "ko:grammar:copula_ya_iya",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "copula",
+        "grammar_refs": [
+          "ko-v2-gram-059"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.counter_quantity",
+      "knowledge_id": "ko:grammar:a1_counter_quantity_basic",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "counter",
+        "grammar_refs": [
+          "ko-a1-family-counter_quantity"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.demonstrative",
+      "knowledge_id": "ko:grammar:a1_demonstrative_pronouns_igeo_geugeo_jeogeo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "syntax",
+        "grammar_refs": [
+          "ko-a1-family-demonstrative"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.desire_wish_go_sipda",
+      "knowledge_id": "ko:grammar:desire_wish_go_sipda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "desire",
+        "grammar_refs": [
+          "ko-v2-gram-061"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.desire_wish_third_person_go_sip_eohada",
+      "knowledge_id": "ko:grammar:desire_wish_third_person_go_sip_eohada",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "desire",
+        "grammar_refs": [
+          "ko-v2-gram-062"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_after_eun_hue",
+      "knowledge_id": "ko:grammar:ending_after_eun_hue",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-066"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_after_go_na_seo",
+      "knowledge_id": "ko:grammar:ending_after_go_na_seo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-067"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_after_time_eun_ji",
+      "knowledge_id": "ko:grammar:ending_after_time_eun_ji",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-068"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_as_soon_as_ja_ma_ja",
+      "knowledge_id": "ko:grammar:ending_as_soon_as_ja_ma_ja",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-069"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_background_neunde",
+      "knowledge_id": "ko:grammar:ending_background_neunde",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-070"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_background_question_neunde",
+      "knowledge_id": "ko:grammar:ending_background_question_neunde",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-071"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_banmal_declarative_aohe",
+      "knowledge_id": "ko:grammar:ending_banmal_declarative_aohe",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-072"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_before_gi_jeone",
+      "knowledge_id": "ko:grammar:ending_before_gi_jeone",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-073"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_benefactive_ju_da",
+      "knowledge_id": "ko:grammar:ending_benefactive_ju_da",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-074"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_cause_connective_aseo_eoseo",
+      "knowledge_id": "ko:grammar:ending_cause_connective_aseo_eoseo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-075"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_cause_gi_ttaemune",
+      "knowledge_id": "ko:grammar:ending_cause_gi_ttaemune",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-076"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_cause_igi_ttaemune",
+      "knowledge_id": "ko:grammar:ending_cause_igi_ttaemune",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-077"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_cause_ul_ni_ka",
+      "knowledge_id": "ko:grammar:ending_cause_ul_ni_ka",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-078"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_choice_euro_hada",
+      "knowledge_id": "ko:grammar:ending_choice_euro_hada",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-079"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_choice_geona",
+      "knowledge_id": "ko:grammar:ending_choice_geona",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-080"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_concession_gi_neun_hajiman",
+      "knowledge_id": "ko:grammar:ending_concession_gi_neun_hajiman",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-081"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_condition_myeon",
+      "knowledge_id": "ko:grammar:ending_condition_myeon",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-083"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_connective_a_eo_haeseo_gajigo",
+      "knowledge_id": "ko:grammar:ending_connective_a_eo_haeseo_gajigo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-084"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_connective_go",
+      "knowledge_id": "ko:grammar:ending_connective_go",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-086"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_contrast_jiman",
+      "knowledge_id": "ko:grammar:ending_contrast_jiman",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-087"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_da_ga_bomyeon",
+      "knowledge_id": "ko:grammar:ending_da_ga_bomyeon",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-088"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_dasipi",
+      "knowledge_id": "ko:grammar:ending_dasipi",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-089"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_deusi",
+      "knowledge_id": "ko:grammar:ending_deusi",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-091"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_discovery_neyo",
+      "knowledge_id": "ko:grammar:ending_discovery_neyo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-092"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_doe",
+      "knowledge_id": "ko:grammar:ending_doe",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-093"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_dorok",
+      "knowledge_id": "ko:grammar:ending_dorok",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-094"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_emotion_observer_ahada",
+      "knowledge_id": "ko:grammar:ending_emotion_observer_ahada",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-095"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_eul_kka_bwa",
+      "knowledge_id": "ko:grammar:ending_eul_kka_bwa",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-097"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_eul_sera",
+      "knowledge_id": "ko:grammar:ending_eul_sera",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-099"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_eul_tende",
+      "knowledge_id": "ko:grammar:ending_eul_tende",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-100"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_eul_tenikka",
+      "knowledge_id": "ko:grammar:ending_eul_tenikka",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-101"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_eun_neun_banmyeone",
+      "knowledge_id": "ko:grammar:ending_eun_neun_banmyeone",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "contrastive",
+        "grammar_refs": [
+          "ko-v2-gram-102"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_eun_neun_chaero",
+      "knowledge_id": "ko:grammar:ending_eun_neun_chaero",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-103"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_eun_neun_daero",
+      "knowledge_id": "ko:grammar:ending_eun_neun_daero",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "sequence/manner",
+        "grammar_refs": [
+          "ko-v2-gram-104"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_eun_neun_damyeon",
+      "knowledge_id": "ko:grammar:ending_eun_neun_damyeon",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "conditional",
+        "grammar_refs": [
+          "ko-v2-gram-105"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_eun_neun_gime",
+      "knowledge_id": "ko:grammar:ending_eun_neun_gime",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-106"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_eun_neun_keonyeong",
+      "knowledge_id": "ko:grammar:ending_eun_neun_keonyeong",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-107"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_exclamative_adjective_da",
+      "knowledge_id": "ko:grammar:ending_exclamative_adjective_da",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-109"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_explanation_surprise_neundeyo",
+      "knowledge_id": "ko:grammar:ending_explanation_surprise_neundeyo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-111"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_formal_declarative_su_ni_da",
+      "knowledge_id": "ko:grammar:ending_formal_declarative_su_ni_da",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-112"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_geonman",
+      "knowledge_id": "ko:grammar:ending_geonman",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-115"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_gi_ga_museopge",
+      "knowledge_id": "ko:grammar:ending_gi_ga_museopge",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-116"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_gibodaneun",
+      "knowledge_id": "ko:grammar:ending_gibodaneun",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-117"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_intent_inference_getda",
+      "knowledge_id": "ko:grammar:ending_intent_inference_getda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-120"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_intent_ul_ryeogo",
+      "knowledge_id": "ko:grammar:ending_intent_ul_ryeogo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-121"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_must_aya_hada",
+      "knowledge_id": "ko:grammar:ending_must_aya_hada",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-123"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_not_try_a_eo_boji_anta",
+      "knowledge_id": "ko:grammar:ending_not_try_a_eo_boji_anta",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-127"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_past_perfect_ass_eossda",
+      "knowledge_id": "ko:grammar:ending_past_perfect_ass_eossda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-129"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_polite_command_useyo",
+      "knowledge_id": "ko:grammar:ending_polite_command_useyo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-132"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_polite_standard_ayo_eoyo",
+      "knowledge_id": "ko:grammar:ending_polite_standard_ayo_eoyo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-134"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_progressive_go_itda",
+      "knowledge_id": "ko:grammar:ending_progressive_go_itda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-135"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_prohibit_ji_ma",
+      "knowledge_id": "ko:grammar:ending_prohibit_ji_ma",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-136"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_prohibit_ji_mapsida",
+      "knowledge_id": "ko:grammar:ending_prohibit_ji_mapsida",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-137"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_prohibit_ji_maseyo",
+      "knowledge_id": "ko:grammar:ending_prohibit_ji_maseyo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-138"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_promise_gi_ro_hada",
+      "knowledge_id": "ko:grammar:ending_promise_gi_ro_hada",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-139"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_promise_ulgeyo",
+      "knowledge_id": "ko:grammar:ending_promise_ulgeyo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-140"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_propose_banmal_ja",
+      "knowledge_id": "ko:grammar:ending_propose_banmal_ja",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-142"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_propose_prohibit_banmal_ji_malja",
+      "knowledge_id": "ko:grammar:ending_propose_prohibit_banmal_ji_malja",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-143"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_propose_upsida",
+      "knowledge_id": "ko:grammar:ending_propose_upsida",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-144"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_resultative_ge",
+      "knowledge_id": "ko:grammar:ending_resultative_ge",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-151"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_state_change_ajida_eojida",
+      "knowledge_id": "ko:grammar:ending_state_change_ajida_eojida",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-154"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_state_prog_a_eo_itda",
+      "knowledge_id": "ko:grammar:ending_state_prog_a_eo_itda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-155"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_try_a_eo_boda",
+      "knowledge_id": "ko:grammar:ending_try_a_eo_boda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-159"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_um_edo_bulguhago",
+      "knowledge_id": "ko:grammar:ending_um_edo_bulguhago",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-160"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_um_eurosseo",
+      "knowledge_id": "ko:grammar:ending_um_eurosseo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-161"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_umyeon_mollado",
+      "knowledge_id": "ko:grammar:ending_umyeon_mollado",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-162"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_when_ul_tte",
+      "knowledge_id": "ko:grammar:ending_when_ul_tte",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-163"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_while_ul_myeon_seo",
+      "knowledge_id": "ko:grammar:ending_while_ul_myeon_seo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-164"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_will_aya_getda",
+      "knowledge_id": "ko:grammar:ending_will_aya_getda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-165"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_will_ul_geyo",
+      "knowledge_id": "ko:grammar:ending_will_ul_geyo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-166"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_wish_ass_eumyeon_jokgetda",
+      "knowledge_id": "ko:grammar:ending_wish_ass_eumyeon_jokgetda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-167"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.ending_wish_eumyeon_jokgetda",
+      "knowledge_id": "ko:grammar:ending_wish_eumyeon_jokgetda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "ending",
+        "grammar_refs": [
+          "ko-v2-gram-168"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.existence_eopda",
+      "knowledge_id": "ko:grammar:existence_eopda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "existence",
+        "grammar_refs": [
+          "ko-v2-gram-170"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.existence_itda",
+      "knowledge_id": "ko:grammar:existence_itda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "existence",
+        "grammar_refs": [
+          "ko-v2-gram-171"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.existence_loc_eopda",
+      "knowledge_id": "ko:grammar:existence_loc_eopda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "existence",
+        "grammar_refs": [
+          "ko-v2-gram-172"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.existence_loc_itda",
+      "knowledge_id": "ko:grammar:existence_loc_itda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "existence",
+        "grammar_refs": [
+          "ko-v2-gram-173"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.expectation_seem_ul_geot_gatda",
+      "knowledge_id": "ko:grammar:expectation_seem_ul_geot_gatda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "expectation",
+        "grammar_refs": [
+          "ko-v2-gram-174"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.expectation_ul_kka_sipda",
+      "knowledge_id": "ko:grammar:expectation_ul_kka_sipda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "expectation",
+        "grammar_refs": [
+          "ko-v2-gram-175"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.experience_un_jeoki_eopda",
+      "knowledge_id": "ko:grammar:experience_un_jeoki_eopda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "experience",
+        "grammar_refs": [
+          "ko-v2-gram-176"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.experience_un_jeoki_itda",
+      "knowledge_id": "ko:grammar:experience_un_jeoki_itda",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "experience",
+        "grammar_refs": [
+          "ko-v2-gram-177"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.intent_intend_ul_ryeogo_hada",
+      "knowledge_id": "ko:grammar:intent_intend_ul_ryeogo_hada",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "intent",
+        "grammar_refs": [
+          "ko-v2-gram-178"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.intent_ul_kka_hada",
+      "knowledge_id": "ko:grammar:intent_ul_kka_hada",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "intent",
+        "grammar_refs": [
+          "ko-v2-gram-179"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:e:예요",
+          "pos": "e",
+          "surface": "예요"
+        },
+        {
+          "atom_id": "ko:e:이에요",
+          "pos": "e",
+          "surface": "이에요"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-058",
+      "knowledge_id": "ko:grammar:v2_polite_copula",
+      "legacy_row_id": "ko-v2-gram-058",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "예요/이에요",
+      "target_inventory_id": "ko-a1a2-gram-v2-058"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:e:-아",
+          "pos": "e",
+          "surface": "-아"
+        },
+        {
+          "atom_id": "ko:e:-어",
+          "pos": "e",
+          "surface": "-어"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-085",
+      "knowledge_id": "ko:grammar:v2_connective_a_eo",
+      "legacy_row_id": "ko-v2-gram-085",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "-아/-어",
+      "target_inventory_id": "ko-a1a2-gram-v2-085"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:e:-려면",
+          "pos": "e",
+          "surface": "-려면"
+        },
+        {
+          "atom_id": "ko:e:-으려면",
+          "pos": "e",
+          "surface": "-으려면"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-119",
+      "knowledge_id": "ko:grammar:v2_intent_condition_ryeomyeon",
+      "legacy_row_id": "ko-v2-gram-119",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "-(으)려면",
+      "target_inventory_id": "ko-a1a2-gram-v2-119"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:e:-기",
+          "pos": "e",
+          "surface": "-기"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-126",
+      "knowledge_id": "ko:grammar:v2_nominalizer_gi",
+      "legacy_row_id": "ko-v2-gram-126",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "-기",
+      "target_inventory_id": "ko-a1a2-gram-v2-126"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:e:-은",
+          "pos": "e",
+          "surface": "-은"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-128",
+      "knowledge_id": "ko:grammar:v2_past_adnominal_eun",
+      "legacy_row_id": "ko-v2-gram-128",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "-은",
+      "target_inventory_id": "ko-a1a2-gram-v2-128"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:e:-ㄴ다",
+          "pos": "e",
+          "surface": "-ㄴ다"
+        },
+        {
+          "atom_id": "ko:e:-는다",
+          "pos": "e",
+          "surface": "-는다"
+        },
+        {
+          "atom_id": "ko:e:-다",
+          "pos": "e",
+          "surface": "-다"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-131",
+      "knowledge_id": "ko:grammar:v2_plain_declarative",
+      "legacy_row_id": "ko-v2-gram-131",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "-ㄴ다/-는다/-다",
+      "target_inventory_id": "ko-a1a2-gram-v2-131"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:e:-지요",
+          "pos": "e",
+          "surface": "-지요"
+        },
+        {
+          "atom_id": "ko:e:-죠",
+          "pos": "e",
+          "surface": "-죠"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-133",
+      "knowledge_id": "ko:grammar:v2_polite_confirmation_jiyo",
+      "legacy_row_id": "ko-v2-gram-133",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "-지요/-죠",
+      "target_inventory_id": "ko-a1a2-gram-v2-133"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:e:-ㄴ가",
+          "pos": "e",
+          "surface": "-ㄴ가"
+        },
+        {
+          "atom_id": "ko:e:-ㄴ가요",
+          "pos": "e",
+          "surface": "-ㄴ가요"
+        },
+        {
+          "atom_id": "ko:e:-나요",
+          "pos": "e",
+          "surface": "-나요"
+        },
+        {
+          "atom_id": "ko:e:-은가요",
+          "pos": "e",
+          "surface": "-은가요"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-153",
+      "knowledge_id": "ko:grammar:v2_soft_question_nayo",
+      "legacy_row_id": "ko-v2-gram-153",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "-ㄴ가/-ㄴ가요/-나요/-은가요",
+      "target_inventory_id": "ko-a1a2-gram-v2-153"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:e:-ㄹ까요",
+          "pos": "e",
+          "surface": "-ㄹ까요"
+        },
+        {
+          "atom_id": "ko:e:-을까요",
+          "pos": "e",
+          "surface": "-을까요"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-156",
+      "knowledge_id": "ko:grammar:v2_suggest_ul_kkayo",
+      "legacy_row_id": "ko-v2-gram-156",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "-(으)ㄹ까요",
+      "target_inventory_id": "ko-a1a2-gram-v2-156"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:e:-ㄹ래요",
+          "pos": "e",
+          "surface": "-ㄹ래요"
+        },
+        {
+          "atom_id": "ko:e:-을래요",
+          "pos": "e",
+          "surface": "-을래요"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-169",
+      "knowledge_id": "ko:grammar:v2_wish_ul_laeyo",
+      "legacy_row_id": "ko-v2-gram-169",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "-(으)ㄹ래요",
+      "target_inventory_id": "ko-a1a2-gram-v2-169"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:p:밖에",
+          "pos": "p",
+          "surface": "밖에"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-192",
+      "knowledge_id": "ko:grammar:v2_bakke_exclusive",
+      "legacy_row_id": "ko-v2-gram-192",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "밖에",
+      "target_inventory_id": "ko-a1a2-gram-v2-192"
+    },
+    {
+      "atom_sequence_candidates": [
+        {
+          "atom_id": "ko:p:대로",
+          "pos": "p",
+          "surface": "대로"
+        }
+      ],
+      "canonical_pattern_ref": "knowledge_items.canonical_pattern",
+      "id": "rule.ko.phase2.grammar.ko-v2-gram-200",
+      "knowledge_id": "ko:grammar:v2_daero_manner_boundary",
+      "legacy_row_id": "ko-v2-gram-200",
+      "payload": {},
+      "rule_type": "grammar_pattern_candidate",
+      "surface_pattern": "대로",
+      "target_inventory_id": "ko-a1a2-gram-v2-200"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.like_preference",
+      "knowledge_id": "ko:grammar:a1_like_preference_joahada",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "modality",
+        "grammar_refs": [
+          "ko-a1-family-like_preference"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.modifier_adj_noun",
+      "knowledge_id": "ko:grammar:modifier_adj_noun",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "modifier",
+        "grammar_refs": [
+          "ko-v2-gram-180"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.modifier_v_eul",
+      "knowledge_id": "ko:grammar:modifier_v_eul",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "modifier",
+        "grammar_refs": [
+          "ko-v2-gram-181"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.modifier_v_eun",
+      "knowledge_id": "ko:grammar:modifier_v_eun",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "modifier",
+        "grammar_refs": [
+          "ko-v2-gram-182"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.modifier_v_neun",
+      "knowledge_id": "ko:grammar:modifier_v_neun",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "modifier",
+        "grammar_refs": [
+          "ko-v2-gram-183"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.movement_loc_ga_o",
+      "knowledge_id": "ko:grammar:movement_loc_ga_o",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "movement",
+        "grammar_refs": [
+          "ko-v2-gram-184"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.movement_ul_ryeo_ga_da_o_da",
+      "knowledge_id": "ko:grammar:movement_ul_ryeo_ga_da_o_da",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "movement",
+        "grammar_refs": [
+          "ko-v2-gram-185"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.negation_long_ji_anta",
+      "knowledge_id": "ko:grammar:negation_long_ji_anta",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "negation",
+        "grammar_refs": [
+          "ko-v2-gram-186"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.negation_long_ji_mothada",
+      "knowledge_id": "ko:grammar:negation_long_ji_mothada",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "negation",
+        "grammar_refs": [
+          "ko-v2-gram-187"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.negation_short_an",
+      "knowledge_id": "ko:grammar:negation_short_an",
+      "match": {
+        "surface_forms": [
+          "안 + V/A"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "negation",
+        "grammar_refs": [
+          "ko-v2-gram-188"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.negation_short_mot",
+      "knowledge_id": "ko:grammar:negation_short_mot",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "negation",
+        "grammar_refs": [
+          "ko-v2-gram-189"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_after_noun_hu",
+      "knowledge_id": "ko:grammar:particle_after_noun_hu",
+      "match": {
+        "surface_forms": [
+          "n 후에"
+        ]
+      },
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-190"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_among_jung_eseo",
+      "knowledge_id": "ko:grammar:particle_among_jung_eseo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-191"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_boda_comparison",
+      "knowledge_id": "ko:grammar:particle_boda_comparison",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-193"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_bu_teo",
+      "knowledge_id": "ko:grammar:particle_bu_teo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-194"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_cause_noun_ttaemune",
+      "knowledge_id": "ko:grammar:particle_cause_noun_ttaemune",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-195"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_cheoreom",
+      "knowledge_id": "ko:grammar:particle_cheoreom",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-196"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_choice_na_ina",
+      "knowledge_id": "ko:grammar:particle_choice_na_ina",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-198"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_do",
+      "knowledge_id": "ko:grammar:particle_do",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-201"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_during_dongan",
+      "knowledge_id": "ko:grammar:particle_during_dongan",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-202"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_e_daehae",
+      "knowledge_id": "ko:grammar:particle_e_daehae",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-203"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_e_jjeum",
+      "knowledge_id": "ko:grammar:particle_e_jjeum",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-204"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_e_loc_existence",
+      "knowledge_id": "ko:grammar:particle_e_loc_existence",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-205"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_ege_hante",
+      "knowledge_id": "ko:grammar:particle_ege_hante",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-206"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_egeseo_hanteseo_eseo",
+      "knowledge_id": "ko:grammar:particle_egeseo_hanteseo_eseo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-207"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_eseo",
+      "knowledge_id": "ko:grammar:particle_eseo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-208"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_eul_reul",
+      "knowledge_id": "ko:grammar:particle_eul_reul",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-209"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_euro_direction",
+      "knowledge_id": "ko:grammar:particle_euro_direction",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-211"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_euro_tool",
+      "knowledge_id": "ko:grammar:particle_euro_tool",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-212"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_from_to_bu_teo_kka_ji",
+      "knowledge_id": "ko:grammar:particle_from_to_bu_teo_kka_ji",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-213"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_hago",
+      "knowledge_id": "ko:grammar:particle_hago",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-214"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_mada",
+      "knowledge_id": "ko:grammar:particle_mada",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-217"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_man",
+      "knowledge_id": "ko:grammar:particle_man",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-218"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_regardless_noun_ideunji",
+      "knowledge_id": "ko:grammar:particle_regardless_noun_ideunji",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-221"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.particle_wa_gwa",
+      "knowledge_id": "ko:grammar:particle_wa_gwa",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "particle",
+        "grammar_refs": [
+          "ko-v2-gram-224"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.polite_request",
+      "knowledge_id": "ko:grammar:a1_polite_request_juseyo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "pragmatics",
+        "grammar_refs": [
+          "ko-a1-family-polite_request"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.possessive",
+      "knowledge_id": "ko:grammar:a1_possessive_ui_je",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "syntax",
+        "grammar_refs": [
+          "ko-a1-family-possessive"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.question_how",
+      "knowledge_id": "ko:grammar:a1_question_how_eotteoke",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "question",
+        "grammar_refs": [
+          "ko-a1-family-question_how"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.question_how_much",
+      "knowledge_id": "ko:grammar:a1_question_how_much_eolma",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "question",
+        "grammar_refs": [
+          "ko-a1-family-question_how_much"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.question_what",
+      "knowledge_id": "ko:grammar:a1_question_what_mwo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "question",
+        "grammar_refs": [
+          "ko-a1-family-question_what"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.question_when",
+      "knowledge_id": "ko:grammar:a1_question_when_eonje",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "question",
+        "grammar_refs": [
+          "ko-a1-family-question_when"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.question_where",
+      "knowledge_id": "ko:grammar:a1_question_where_eodi",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "question",
+        "grammar_refs": [
+          "ko-a1-family-question_where"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.question_who",
+      "knowledge_id": "ko:grammar:a1_question_who_nugu",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "question",
+        "grammar_refs": [
+          "ko-a1-family-question_who"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.softener",
+      "knowledge_id": "ko:grammar:a1_softener_jom",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "pragmatics",
+        "grammar_refs": [
+          "ko-a1-family-softener"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.subject_particle_i_ga",
+      "knowledge_id": "ko:grammar:subject_particle_i_ga",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "subject_marker",
+        "grammar_refs": [
+          "ko-a1-gram-v2-001"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.subject_pronoun",
+      "knowledge_id": "ko:grammar:a1_subject_pronoun_jeo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "syntax",
+        "grammar_refs": [
+          "ko-a1-family-subject_pronoun"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.tense_future_ul_geoyeyo",
+      "knowledge_id": "ko:grammar:tense_future_ul_geoyeyo",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "tense",
+        "grammar_refs": [
+          "ko-v2-gram-238"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.tense_past_ass_oss",
+      "knowledge_id": "ko:grammar:tense_past_ass_oss",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "tense",
+        "grammar_refs": [
+          "ko-v2-gram-239"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.tense_past_ass_oss_haess",
+      "knowledge_id": "ko:grammar:tense_past_ass_oss_haess",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "tense",
+        "grammar_refs": [
+          "ko-v2-gram-240"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.topic_particle_eun_neun",
+      "knowledge_id": "ko:grammar:topic_particle_eun_neun",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "topic_or_contrast_marker",
+        "grammar_refs": [
+          "ko-a1-gram-v2-002"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    },
+    {
+      "enabled": false,
+      "id": "rule.ko.phase2.grammar.which_question",
+      "knowledge_id": "ko:grammar:a1_question_which_eoneu",
+      "match": {},
+      "output_kind": "grammar",
+      "overlays": {
+        "function_subtype": "question",
+        "grammar_refs": [
+          "ko-a1-family-which_question"
+        ]
+      },
+      "payload": {},
+      "rule_type": "target_form_sequence"
+    }
+  ],
+  "language": "ko",
+  "package_id": "ko-grammar-a1a2",
+  "schema_version": "grammar_authoring_atom_rules.v1"
+}

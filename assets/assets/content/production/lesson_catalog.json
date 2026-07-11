@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-02T00:00:00+00:00",
+  "units": [
+    {
+      "id": "a1_bg_l01",
+      "order": 1,
+      "level": "A1",
+      "title": {
+        "zh_tw": "Beginner Grammar Lesson 01 · 第一次見面先把語氣說對",
+        "en": "Beginner Grammar Lesson 01 · Choose the right speech level in a first meeting"
+      },
+      "subtitle": {
+        "zh_tw": "正式 / 日常 / 朋友語氣",
+        "en": "Formal / everyday / casual speech levels"
+      }
+    },
+    {
+      "id": "A1-BG-L02",
+      "order": 2,
+      "level": "A1",
+      "title": {
+        "zh_tw": "文法 02：三大核心助詞 (은/는, 이/가, 을/를)",
+        "en": "Grammar 02: The Three Core Particles (은/는, 이/가, 을/를)"
+      },
+      "subtitle": {
+        "zh_tw": "誰在說話、誰在做事、動作的對象",
+        "en": "Who is talking, who is doing, and the object of action"
+      }
+    },
+    {
+      "id": "A1-BG-L03",
+      "order": 3,
+      "level": "A1",
+      "title": {
+        "zh_tw": "空間與時間定位",
+        "en": "Space and Time Positioning"
+      },
+      "subtitle": {
+        "zh_tw": "在哪裡、幾點、在哪裡做事",
+        "en": "Where, what time, and where things happen"
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "lesson_id": "a1_bg_l01",
+      "unit_id": "a1_bg_l01",
+      "cefr_level": "A1",
+      "track_id": "beginner_grammar",
+      "track_source": "bg",
+      "lesson_index_in_level": 1,
+      "lesson_key": "l01",
+      "is_default_path": true,
+      "order_in_unit": 1,
+      "estimated_minutes": 8,
+      "title": {
+        "zh_tw": "Beginner Grammar Lesson 01 · 第一次見面先把語氣說對",
+        "en": "Beginner Grammar Lesson 01 · Choose the right speech level in a first meeting"
+      },
+      "subtitle": {
+        "zh_tw": "正式 / 日常 / 朋友語氣",
+        "en": "Formal / everyday / casual speech levels"
+      },
+      "theme_tags": [
+        "speech-level",
+        "first-meeting"
+      ],
+      "skill_tags": [
+        "listening",
+        "reading",
+        "grammar"
+      ],
+      "can_do": {
+        "zh_tw": [
+          "能先分出正式、日常、朋友三種說法",
+          "能把同一句切成 different speech level 版本",
+          "能在第一次見面先穩定用 해요體 開口"
+        ],
+        "en": [
+          "Tell formal, everyday, and casual speech apart.",
+          "Switch the same sentence into different speech levels.",
+          "Start a first meeting safely with 해요체."
+        ]
+      },
+      "knowledge_refs": [
+        "G-KO-A1-BG-L01-001"
+      ],
+      "key_sentence_preview": null,
+      "status_flags": [
+        "modular",
+        "grammar"
+      ]
+    },
+    {
+      "lesson_id": "A1-BG-L02",
+      "unit_id": "A1-BG-L02",
+      "cefr_level": "A1",
+      "track_id": "beginner_grammar",
+      "track_source": "bg",
+      "lesson_index_in_level": 2,
+      "lesson_key": "l02",
+      "is_default_path": true,
+      "order_in_unit": 1,
+      "estimated_minutes": 8,
+      "title": {
+        "zh_tw": "文法 02：三大核心助詞 (은/는, 이/가, 을/를)",
+        "en": "Grammar 02: The Three Core Particles (은/는, 이/가, 을/를)"
+      },
+      "subtitle": {
+        "zh_tw": "誰在說話、誰在做事、動作的對象",
+        "en": "Who is talking, who is doing, and the object of action"
+      },
+      "theme_tags": [
+        "particles",
+        "topic",
+        "subject",
+        "object"
+      ],
+      "skill_tags": [
+        "reading",
+        "grammar"
+      ],
+      "can_do": {
+        "zh_tw": [
+          "你能區分 은/는 和 이/가 的使用場景 (主題 vs 主語)。",
+          "你能正確在受詞後加上 을/를。",
+          "你能區分『我是學生』(一般介紹) 和『我才是學生』(指名主角) 的差別。",
+          "你能正確造出包含主語、受詞、動詞的簡單動作句。"
+        ],
+        "en": [
+          "Distinguish between 은/는 and 이/가 (Topic vs Subject).",
+          "Correctly apply the object markers 을/를.",
+          "Tell the difference between 'I am a student' (intro) and 'I (am the one who) am a student' (focus).",
+          "Build basic sentence structures including subject, object, and verb."
+        ]
+      },
+      "knowledge_refs": [
+        "G-KO-A1-BG-L02-001",
+        "G-KO-A1-BG-L02-002",
+        "G-KO-A1-BG-L02-003"
+      ],
+      "key_sentence_preview": null,
+      "status_flags": [
+        "modular",
+        "grammar"
+      ]
+    },
+    {
+      "lesson_id": "A1-BG-L03",
+      "unit_id": "A1-BG-L03",
+      "cefr_level": "A1",
+      "track_id": "beginner_grammar",
+      "track_source": "bg",
+      "lesson_index_in_level": 3,
+      "lesson_key": "l03",
+      "is_default_path": true,
+      "order_in_unit": 1,
+      "estimated_minutes": 8,
+      "title": {
+        "zh_tw": "空間與時間定位",
+        "en": "Space and Time Positioning"
+      },
+      "subtitle": {
+        "zh_tw": "在哪裡、幾點、在哪裡做事",
+        "en": "Where, what time, and where things happen"
+      },
+      "theme_tags": [
+        "location",
+        "time"
+      ],
+      "skill_tags": [
+        "reading",
+        "grammar"
+      ],
+      "can_do": null,
+      "knowledge_refs": [
+        "G-KO-A1-BG-L03-001",
+        "G-KO-A1-BG-L03-002",
+        "G-KO-A1-BG-L03-003"
+      ],
+      "key_sentence_preview": null,
+      "status_flags": [
+        "modular",
+        "grammar"
+      ]
+    }
+  ]
+}

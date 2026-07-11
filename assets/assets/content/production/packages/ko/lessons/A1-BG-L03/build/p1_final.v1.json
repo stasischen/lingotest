@@ -1,0 +1,244 @@
+{
+  "id": "A1-BG-L03-P1",
+  "content_form": "practice_card",
+  "learning_role": "controlled_output",
+  "projection_type": "chunk_assembly",
+  "projection_source": {
+    "status": "merged_v1",
+    "last_generated": "P1_V1_MERGE"
+  },
+  "payload": {
+    "tasks": [
+      {
+        "item_id": "a1_bg_l03_be_home_polite",
+        "mastery_key": "a1_bg_l03_be_home_polite",
+        "ko_surface": "집에 있어요.",
+        "target_examples": [
+          "집에 있어요."
+        ],
+        "target_examples_zh_tw": [
+          "在家。"
+        ],
+        "chunks": [
+          "집에",
+          "있어요."
+        ],
+        "meaning_i18n": {
+          "zh_tw": "在家。",
+          "en": "I'm at home."
+        },
+        "context_i18n": {
+          "zh_tw": "場合：朋友打電話問你在哪，你單純回答位置"
+        },
+        "prompt_i18n": {
+          "zh_tw": "請組出最自然的一句：在家。"
+        },
+        "distractors": [
+          "집에서",
+          "加요."
+        ],
+        "source_preset_id": "be_home_polite"
+      },
+      {
+        "item_id": "a1_bg_l03_buy_mart_polite",
+        "mastery_key": "a1_bg_l03_buy_mart_polite",
+        "ko_surface": "마트에서 사요.",
+        "target_examples": [
+          "마트에서 사요."
+        ],
+        "target_examples_zh_tw": [
+          "在超市買東西。"
+        ],
+        "meaning_i18n": {
+          "zh_tw": "在超市買東西。",
+          "en": "I'm buying things at the supermarket."
+        },
+        "chunks": [
+          "마트에서",
+          "사요."
+        ],
+        "distractors": [
+          "마트에",
+          "가요."
+        ],
+        "source_preset_id": "buy_mart_polite"
+      },
+      {
+        "item_id": "a1_bg_l03_come_office_formal",
+        "mastery_key": "a1_bg_l03_come_office_formal",
+        "ko_surface": "회사에 옵니다.",
+        "target_examples": [
+          "회사에 옵니다."
+        ],
+        "target_examples_zh_tw": [
+          "來公司。"
+        ],
+        "meaning_i18n": {
+          "zh_tw": "來公司。",
+          "en": "I'm coming to the office."
+        },
+        "chunks": [
+          "회사에",
+          "옵니다."
+        ],
+        "distractors": [
+          "회사에서",
+          "옵니다."
+        ],
+        "source_preset_id": "come_office_formal"
+      },
+      {
+        "item_id": "a1_bg_l03_exercise_park_weekend",
+        "mastery_key": "a1_bg_l03_exercise_park_weekend",
+        "ko_surface": "주말에 공원에서 운동해요.",
+        "target_examples": [
+          "주말에 공원에서 운동해요."
+        ],
+        "target_examples_zh_tw": [
+          "週末在公園運動。"
+        ],
+        "chunks": [
+          "주말에",
+          "공원에서",
+          "운동해요."
+        ],
+        "meaning_i18n": {
+          "zh_tw": "週末在公園運動。",
+          "en": "I exercise at the park on the weekend."
+        },
+        "context_i18n": {
+          "zh_tw": "場合：聊聊早上的規律活動"
+        },
+        "prompt_i18n": {
+          "zh_tw": "請組出最自然的一句：早上在公園運動。"
+        },
+        "distractors": [
+          "공원에",
+          "있어요."
+        ],
+        "source_preset_id": "exercise_park_weekend"
+      },
+      {
+        "item_id": "a1_bg_l03_go_school_polite",
+        "mastery_key": "a1_bg_l03_go_school_polite",
+        "ko_surface": "학교에 가요.",
+        "target_examples": [
+          "학교에 가요."
+        ],
+        "target_examples_zh_tw": [
+          "去學校。"
+        ],
+        "chunks": [
+          "학교에",
+          "가요."
+        ],
+        "meaning_i18n": {
+          "zh_tw": "去學校。",
+          "en": "I'm going to school."
+        },
+        "context_i18n": {
+          "zh_tw": "場合：跟朋友說你要去的地點"
+        },
+        "prompt_i18n": {
+          "zh_tw": "請組出最自然的一句：去超市。"
+        },
+        "distractors": [
+          "학교에서",
+          "있어요."
+        ],
+        "source_preset_id": "go_school_polite"
+      },
+      {
+        "item_id": "a1_bg_l03_meet_3pm_polite",
+        "mastery_key": "a1_bg_l03_meet_3pm_polite",
+        "ko_surface": "3시에 카페에서 만나요.",
+        "target_examples": [
+          "3시에 카페에서 만나요."
+        ],
+        "target_examples_zh_tw": [
+          "3點在咖啡廳見面。"
+        ],
+        "chunks": [
+          "3시에",
+          "카페에서",
+          "만나요."
+        ],
+        "meaning_i18n": {
+          "zh_tw": "3點在咖啡廳見面。",
+          "en": "I meet my friends at the cafe at 3:00."
+        },
+        "context_i18n": {
+          "zh_tw": "場合：跟新認識的朋友相約見面時間"
+        },
+        "prompt_i18n": {
+          "zh_tw": "請組出最自然的一句：3 點見面。"
+        },
+        "distractors": [
+          "카페에",
+          "있어요."
+        ],
+        "source_preset_id": "meet_3pm_polite"
+      },
+      {
+        "item_id": "a1_bg_l03_study_school_polite",
+        "mastery_key": "a1_bg_l03_study_school_polite",
+        "ko_surface": "학교에서 공부해요.",
+        "target_examples": [
+          "학교에서 공부해요."
+        ],
+        "target_examples_zh_tw": [
+          "在學校學習。"
+        ],
+        "chunks": [
+          "학교에서",
+          "공부해요."
+        ],
+        "meaning_i18n": {
+          "zh_tw": "在學校學習。",
+          "en": "I study at school."
+        },
+        "context_i18n": {
+          "zh_tw": "場合：跟同學在圖書館門口，決定要在哪看書"
+        },
+        "prompt_i18n": {
+          "zh_tw": "請組出最自然的一句：在圖書館學習。"
+        },
+        "distractors": [
+          "학교에",
+          "가요."
+        ],
+        "source_preset_id": "study_school_polite"
+      },
+      {
+        "item_id": "a1_bg_l03_work_office_polite",
+        "mastery_key": "a1_bg_l03_work_office_polite",
+        "ko_surface": "회사에서 일해요.",
+        "target_examples": [
+          "회사에서 일해요."
+        ],
+        "target_examples_zh_tw": [
+          "在公司工作。"
+        ],
+        "chunks": [
+          "회사에서",
+          "일해요."
+        ],
+        "meaning_i18n": {
+          "zh_tw": "在公司工作。",
+          "en": "I'm working at the office."
+        },
+        "context_i18n": {
+          "zh_tw": "場合：同事問你在哪裡，你說明人在哪裡工作"
+        },
+        "prompt_i18n": {
+          "zh_tw": "請組出最自然的一句：在公司工作。"
+        },
+        "distractors": [
+          "회사에",
+          "있어요."
+        ],
+        "source_preset_id": "work_office_polite"
+      }
+    ]
+  }
+}

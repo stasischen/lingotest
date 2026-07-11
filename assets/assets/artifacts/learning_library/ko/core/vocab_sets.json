@@ -1,0 +1,82 @@
+{
+  "vocab_sets": [
+    {
+      "id": "kv.noun.new_student",
+      "surface": "신입생",
+      "topic_refs": [],
+      "source_refs": [
+        "src.ko.dialogue.a1_01"
+      ],
+      "sentence_refs": [],
+      "dictionary_atom_ref": null
+    },
+    {
+      "id": "kv.noun.first_day",
+      "surface": "첫날",
+      "topic_refs": [],
+      "source_refs": [
+        "src.ko.dialogue.a1_01"
+      ],
+      "sentence_refs": [],
+      "dictionary_atom_ref": null
+    },
+    {
+      "id": "kv.noun.seoul",
+      "surface": "서울",
+      "topic_refs": [],
+      "source_refs": [
+        "src.ko.dialogue.a1_01"
+      ],
+      "sentence_refs": [],
+      "dictionary_atom_ref": null
+    },
+    {
+      "id": "kv.noun.busan",
+      "surface": "부산",
+      "topic_refs": [],
+      "source_refs": [
+        "src.ko.dialogue.a1_01"
+      ],
+      "sentence_refs": [],
+      "dictionary_atom_ref": null
+    },
+    {
+      "id": "kv.noun.school",
+      "surface": "학교",
+      "topic_refs": [],
+      "source_refs": [],
+      "sentence_refs": [],
+      "dictionary_atom_ref": null
+    },
+    {
+      "id": "kv.time.weekday.monday",
+      "surface": "월요일",
+      "topic_refs": [
+        "topic.time.weekday"
+      ],
+      "source_refs": [],
+      "sentence_refs": [],
+      "dictionary_atom_ref": null
+    },
+    {
+      "id": "kv.time.weekday.saturday",
+      "surface": "토요일",
+      "topic_refs": [
+        "topic.time.weekday"
+      ],
+      "source_refs": [],
+      "sentence_refs": [],
+      "dictionary_atom_ref": null
+    },
+    {
+      "id": "kv.time.weekday.sunday",
+      "surface": "일요일",
+      "topic_refs": [
+        "topic.time.weekday"
+      ],
+      "source_refs": [],
+      "sentence_refs": [],
+      "dictionary_atom_ref": null
+    }
+  ]
+}
