@@ -1,0 +1,20 @@
+{
+  "verdict":"PASS_NATIVE_PENDING",
+  "chapters":[
+    {"book":"4","chapter":1,"verdict":"PASS_NATIVE_PENDING","findings":["指認、命名與ไม่ใช่更正 frame 完整，獨立指示詞說明只涵蓋來源實際形式。","patterns、grammar、functions 分工清楚，evidence 語意與行號均有效。"]},
+    {"book":"4","chapter":2,"verdict":"PASS_NATIVE_PENDING","findings":["症狀、疼痛、疾病、病程、過敏與病因家族完整，未再把疾病名詞誤作零繫詞形容詞。","functions 分為症狀陳述、詢問確認、康復關懷、病程、過敏及病因／建議，是真實健康 speech acts。"]},
+    {"book":"4","chapter":3,"verdict":"PASS_NATIVE_PENDING","findings":["旅行計畫、經驗問答、同行者、ภูมิภาค方位、鄰接與條件建議均有可重用 frame。","經驗問句與肯否經驗陳述已分開；地區介紹與旅遊功能章節特定，evidence 完整。"]},
+    {"book":"4","chapter":4,"verdict":"PASS_NATIVE_PENDING","findings":["交通方式已區分โดย、นั่ง／ขึ้น、ขี่／ขับ、換乘、時間與路線，不再合成寬泛交通桶。","functions 分離交通詢問、所需時間、經驗、路線規劃及簽證話題；中文準確。"]},
+    {"book":"4","chapter":5,"verdict":"PASS_NATIVE_PENDING","findings":["持有、期限、申請、取消、資格、到期、文件服務與等待承辦人員均有獨立 frame。","舊問題已關閉：function「取消簽證」只引用820，「詢問移民局方向」只引用821，不再混合行政行動與問路 speech act。","815 的泰文ไม่อยาก與英文『不難』不一致仍被候選明示為 source mismatch，未以錯誤翻譯建立家族。"]},
+    {"book":"4","chapter":6,"verdict":"PASS_NATIVE_PENDING","findings":["40 patterns 涵蓋銀行、購物、基本資料、健康、會面、住宿、位置、水果、飲食、時間、天氣、關係、職業與餐具，不再以少量通用 grammar 代替 surface frames。","24 functions 已拆開舊寬桶：交通／會面、住宿、水果評價、工作年資、所有關係、位置數量、關係變化、職業影響、餐具使用與菜單請求皆為獨立 speech acts。","舊 substring 誤綁保持關閉：ขอ不引用ขอโทษ／ของฉัน，價格不引用年齡，มี與รับ不同功能分開；evidence union 與語意抽查通過。"]}
+  ],
+  "summary":{
+    "reviewed_chapters":6,
+    "pass_native_pending":6,
+    "needs_fixes":0,
+    "mechanical_validation":"PASS：Book 4 六章、來源列 coverage、example line scope、無完整來源句 label。",
+    "c5_c6_reconciliation":"CLOSED：C5 已拆取消簽證／移民局問路；C6 已把原跨場景寬桶拆為章節特定 frames 與 24 個實際 functions。",
+    "semantic_verdict":"PASS_NATIVE_PENDING：family、grammar、functions 完整性與 evidence 語意通過獨立模型 review；不主張人類或母語者批准。",
+    "human_native_review_claimed":false
+  }
+}

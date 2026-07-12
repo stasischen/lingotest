@@ -1,0 +1,69 @@
+{
+  "verdict": "PASS_NATIVE_PENDING",
+  "chapters": [
+    {
+      "book": "11R",
+      "chapter": 1,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "年輕人俚語的字面與引申義、被動／禁止 grammar，以及批評、惡作劇、稱讚、八卦與動物愛好 functions 均有準確 evidence。",
+        "未見新寬桶、錯誤合併或中文語用問題。"
+      ]
+    },
+    {
+      "book": "11R",
+      "chapter": 2,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "八組成語的 reusable frames、搭配 grammar 及相應勸導／評價 functions 完整。",
+        "中文說明能區分字面與引申用途，evidence 綁定準確。"
+      ]
+    },
+    {
+      "book": "11R",
+      "chapter": 3,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "ไป／มา 的接送、拜訪、電話、到達及反覆／持續動作 frames 分離清楚。",
+        "方向補語、時間、目的、結果 grammar 與章節 functions 相符，未見新問題。"
+      ]
+    },
+    {
+      "book": "11R",
+      "chapter": 4,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "歧義定義、詞彙多義、切分、修飾附著、雙受詞與並列邊界 inventory 完整。",
+        "functions 按歧義類型分組且共同言語目的明確，不屬跨場景寬桶。"
+      ]
+    },
+    {
+      "book": "11R",
+      "chapter": 5,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "前次 2791–2800 問題已關閉：委屈、留學計畫與改變決定、稱讚同事、功德信念、完成後安心、旅行準備與伴侶共識均拆為獨立 functions。",
+        "相關 patterns／grammar 已保留 รู้สึก、คิดไปคิดมา、ใจ 複合詞、ทั้ง ๆ ที่、เพื่อที่จะได้、ดีกว่า、แถมยัง、功德名詞化、พร้อมที่จะ 等真實形式。",
+        "ใจ／ขี้構詞、性格推斷、應對比較與文化反思的其餘分析完整，未見新 evidence 或中文問題。"
+      ]
+    },
+    {
+      "book": "11R",
+      "chapter": 6,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "ให้ 的使役、允許、受益、達成結果，ทำให้ 因果，主動提供與禮貌請求 frames 完整。",
+        "語序角色說明及八組逐段 functions 與來源相符，未見新寬桶或錯綁。"
+      ]
+    }
+  ],
+  "summary": {
+    "reviewed_chapters": 6,
+    "pass_native_pending": 6,
+    "needs_fixes": 0,
+    "prior_issue_closure": "PASS：Chapter 5 第 2791–2800 行已由單一寬桶拆為六組實際 speech acts，且有相應形式分析。",
+    "mechanical_validation": "PASS：validate_chapter_notes.py --books 11R；六章來源行 union coverage、章節歸屬及非完整來源句 label 均合格。",
+    "semantic_adequacy": "PASS_NATIVE_PENDING：topics、可重用 patterns、跨框 grammar、章節 functions、中文說明與 evidence 綁定均未見剩餘問題。",
+    "human_native_review_claimed": false
+  }
+}

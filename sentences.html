@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="sentence-explorer/styles.css">
+  <link rel="stylesheet" href="sentence-explorer/chapter.css">
 </head>
 <body>
   <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
@@ -41,17 +42,18 @@
         <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="搜尋 Thai、English 或 row ID…" autocomplete="off"></label>
         <label><span>Book</span><select id="bookFilter"><option value="">All books</option></select></label>
         <label><span>Chapter</span><select id="chapterFilter"><option value="">All chapters</option></select></label>
-        <label><span>Level band</span><select id="levelFilter"><option value="">All bands</option></select></label>
-        <label><span>Speaker</span><select id="speakerFilter"><option value="">All speakers</option><option>Female</option><option>Male</option></select></label>
+        <div class="chapter-position"><span>Reading mode</span><strong id="chapterPosition">Chapter — of —</strong></div>
       </div>
-      <div class="result-meta"><p id="resultLabel">Loading corpus…</p><div class="page-size">Rows <select id="pageSize"><option>24</option><option selected>48</option><option>96</option></select></div></div>
+      <section id="chapterNote" class="chapter-note" hidden aria-live="polite"></section>
+      <div class="result-meta"><p id="resultLabel">Loading chapter…</p></div>
       <div id="sentenceGrid" class="sentence-grid" aria-live="polite"></div>
       <div id="emptyState" class="empty" hidden><span>ไม่พบ</span><h3>No matching sentences</h3><p>Try a broader search or reset the filters.</p></div>
-      <div class="pagination"><button id="prevPage" type="button">← Previous</button><span id="pageLabel"></span><button id="nextPage" type="button">Next →</button></div>
+      <nav class="chapter-navigation" aria-label="Chapter navigation"><button id="prevChapter" type="button"><small>PREVIOUS</small><span>← 上一章</span><b id="prevChapterLabel"></b></button><button id="nextChapter" type="button"><small>NEXT</small><span>下一章 →</span><b id="nextChapterLabel"></b></button></nav>
     </section>
   </main>
   <footer><p>Lingourmet review lab · Source preserved as planning evidence only</p><a href="https://github.com/stasischen/lingotest">View repository ↗</a></footer>
   <div id="toast" role="status"></div>
+  <script src="sentence-explorer/chapter-notes.js"></script>
   <script src="sentence-explorer/sentences-data.js"></script>
   <script src="sentence-explorer/app.js"></script>
 </body>

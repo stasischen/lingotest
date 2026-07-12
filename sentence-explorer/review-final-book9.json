@@ -1,0 +1,60 @@
+{
+  "verdict": "PASS_NATIVE_PENDING",
+  "chapters": [
+    {
+      "book": "9",
+      "chapter": 1,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "前次問題已關閉：ก่อน 現獨立分析互動中的先行者（2052、2053），ตอบกลับไป 另列回應方向（2053），不再把兩者視為同一 grammar family。",
+        "失戀、倦怠、交友偏好、原因與條件回應的 patterns／grammar／functions 皆有精確 evidence，未見新問題。"
+      ]
+    },
+    {
+      "book": "9",
+      "chapter": 2,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "普遍現象、反問、趨勢轉變、健康警告及依線索改變決定的 family 與 functions 完整，中文語用邊界準確。",
+        "未見新的 evidence 誤綁、跨欄複製或寬泛兜底。"
+      ]
+    },
+    {
+      "book": "9",
+      "chapter": 3,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "แทนที่จะ...แต่กลับ、สู้...ไม่ได้、ไหนว่า...ทำไม 及反問 frames 的結構與語用區分清楚。",
+        "比較、讓步、因果及言行矛盾 functions 與來源一致，未見新問題。"
+      ]
+    },
+    {
+      "book": "9",
+      "chapter": 5,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "นอกนั้น、นอกจาก、ไม่เพียงแต่...ยัง...、ไม่ว่า...ก็... 等 family 邊界及排除／附加／無條件功能準確。",
+        "來源行 coverage 完整且未見新語意或中文說明問題。"
+      ]
+    },
+    {
+      "book": "9",
+      "chapter": 6,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "前次寬桶問題已關閉：邀請、沒聽懂、詢問計畫、驚訝確認、勸告、同意、不知道、社群詢問等均拆為實際 speech acts。",
+        "2175 已明確標為未完成的條件式情境提示，2176 另列為寬容回應；兩行的跨句互動關係有保留，未再以住宿／用餐寬桶兜底。",
+        "複習型 patterns、跨框 grammar 與 24 個章節 functions 的中文說明及 evidence 綁定均合理，未見新問題。"
+      ]
+    }
+  ],
+  "summary": {
+    "reviewed_chapters": 5,
+    "pass_native_pending": 5,
+    "needs_fixes": 0,
+    "prior_issue_closure": "PASS：C1 的不等價 grammar 合併已拆分；C6 的 function 寬桶及 2175／2176 條件互動問題已關閉。",
+    "mechanical_validation": "PASS：validate_chapter_notes.py --books 9；五章來源行 union coverage、章節歸屬及非完整來源句 label 均合格。",
+    "semantic_adequacy": "PASS_NATIVE_PENDING：topics、可重用 patterns、跨框 grammar、章節 functions、中文說明與 evidence 綁定均未見剩餘問題。",
+    "human_native_review_claimed": false
+  }
+}

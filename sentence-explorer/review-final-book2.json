@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS_NATIVE_PENDING",
+  "chapters": [
+    {"book":"2","chapter":1,"verdict":"PASS_NATIVE_PENDING","findings":["15 個 patterns 完整涵蓋飲食經驗、點餐、配料、數量、菜單、空桌、桌邊服務、結帳、付款、加點與找零，沒有逐句 placeholder 或不必要拆分。","grammar 僅保留跨 frame 規則：เคย、疑問詞留位、ไหม、量詞、否定、จะ及禮貌詞；與 patterns 分工清楚。","7 個 functions 對應餐廳真實 speech acts，所有 evidence 位於本章且 updated validator PASS。"]},
+    {"book":"2","chapter":2,"verdict":"PASS_NATIVE_PENDING","findings":["ปกติ 習慣、อะไร 飲品槽位、客製ไม่ใส่及杯量詞四個 frame 足以覆蓋短章，未因無上限要求而過拆。","grammar 對副詞位置、疑問詞、否定配料、量詞及句尾禮貌詞的中文說明準確。","functions 明確分為詢問習慣、描述習慣及點飲品，章節特定且 evidence 支持。"]},
+    {"book":"2","chapter":3,"verdict":"PASS_NATIVE_PENDING","findings":["偏好比較、原料、味道、重量、供應、購買來源、價格、腐壞換貨等 patterns 完整反映水果購物章。","grammar 正確區分形容詞述語、กว่า比較、จาก的原料／購買來源、量詞、แล้ว新狀態及ขอ...ได้ไหม請求可能式。","8 個 functions 是可辨識 speech acts，沒有用寬泛功能兜底來源列。"]},
+    {"book":"2","chapter":4,"verdict":"PASS_NATIVE_PENDING","findings":["顏色偏好、物品顏色、人物穿著、人物辨認及購車顏色 frame 完整，疑問與回答槽位清楚。","grammar 將名詞後顏色、疑問詞留位、ใส่／สวม、เป็น屬性連繫及ของ所有關係分開，未重複 pattern label。","functions 皆為章節實際 speech acts，evidence scope 有效。"]},
+    {"book":"2","chapter":5,"verdict":"PASS_NATIVE_PENDING","findings":["มี的確切數量、疑問數量、是否擁有、不定多量及อยู่位置五個 frame 涵蓋全部來源。","grammar 正確區分มี的存在／擁有、名詞—數字—量詞、กี่、เยอะ／หลาย與อยู่；無 generic rule inflation。","functions 對應陳述數量、詢問擁有、詢問所在地及表達很多，完整且不重複。"]},
+    {"book":"2","chapter":6,"verdict":"PASS_NATIVE_PENDING","findings":["方位前置存在句、住宅量詞、房間樓層、序數樓層、所有關係與後置ตัวไหน／ตัวนี้／ตัวนั้น均已建 family。","grammar 準確區分มี／อยู่、總樓層與序數樓層、ของ所有關係及後置指示詞；中文形式位置具體。","6 個 functions 分別處理位置數量、住宅擁有、顏色、配置、樓層與指認，evidence 完整。"]}
+  ],
+  "summary": {
+    "reviewed_chapters": 6,
+    "pass_native_pending": 6,
+    "needs_fixes": 0,
+    "mechanical_validation": "PASS：Book 2 六章、來源列 union coverage、example line scope、無完整來源句 label。",
+    "semantic_validation": "PASS_NATIVE_PENDING：patterns 為可重用 frame，grammar 僅保留跨 frame 規則，functions 為章節真實 speech acts；完整性、中文準確度與 evidence 均通過 fresh review。",
+    "human_native_review_claimed": false
+  }
+}

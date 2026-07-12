@@ -1,0 +1,16 @@
+.controls{grid-template-columns:2fr 1fr 1fr 1fr}
+.chapter-position{display:flex;flex-direction:column;justify-content:flex-end;gap:7px;color:var(--muted);font-size:11px;letter-spacing:.08em}
+.chapter-position strong{display:flex;align-items:center;min-height:43px;padding:0 13px;border:1px solid var(--line);border-radius:12px;background:#edf1e9;color:var(--green);font-size:13px;letter-spacing:0}
+.chapter-note{margin:0 0 18px;padding:24px;border-radius:18px;background:linear-gradient(135deg,#173f32,#1e5b43);color:white}
+.chapter-note-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px}
+.chapter-note-kicker{font-size:10px;letter-spacing:.14em;color:var(--lime);font-weight:700}
+.chapter-note h3{font-size:23px;margin:5px 0 0;letter-spacing:-.02em}
+.chapter-note-status{font-size:10px;border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:6px 9px;color:#dfeae3;white-space:nowrap}
+.chapter-note-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:20px;padding-top:18px;border-top:1px solid rgba(255,255,255,.18)}
+.chapter-note h4{font-size:11px;letter-spacing:.1em;color:#bcd0c4;margin:0 0 9px}
+.chapter-note ul{padding-left:18px;margin:0}.chapter-note li{font-size:13px;line-height:1.55;margin:5px 0;color:#dfeae3}.chapter-note li span{font-family:"Noto Sans Thai",sans-serif;color:white}
+.chapter-navigation{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}
+.chapter-navigation button{display:flex;flex-direction:column;align-items:flex-start;gap:5px;min-height:96px;border:1px solid var(--line);border-radius:16px;padding:16px 18px;background:var(--card);color:var(--ink);cursor:pointer;text-align:left}
+.chapter-navigation button:last-child{align-items:flex-end;text-align:right}.chapter-navigation small{font-size:9px;letter-spacing:.14em;color:var(--muted)}.chapter-navigation span{font-size:17px;font-weight:700;color:var(--green)}.chapter-navigation b{font-size:11px;color:var(--muted);font-weight:500}.chapter-navigation button:disabled{opacity:.35;cursor:not-allowed}
+@media(max-width:900px){.controls{grid-template-columns:repeat(2,1fr)}.chapter-note-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.controls{grid-template-columns:1fr}.chapter-navigation{grid-template-columns:1fr}.chapter-navigation button:last-child{align-items:flex-start;text-align:left}}

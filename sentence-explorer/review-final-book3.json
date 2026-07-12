@@ -1,0 +1,61 @@
+{
+  "verdict": "PASS_NATIVE_PENDING",
+  "chapters": [
+    {
+      "book": "3",
+      "chapter": 1,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "來源列聯集完整，所有 evidence 均屬本章；舊問題已閉合：กี่ + 時間單位詢問時長僅引用第360行；第367行另以「數量 + ชั่วโมง + ครึ่ง」記錄陳述時長，鐘點、時長詢問與時長回答不再混綁。 topics、可重用 patterns、跨框 grammar、實際 functions 與中文說明未見新問題。"
+      ]
+    },
+    {
+      "book": "3",
+      "chapter": 2,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "來源列聯集完整，所有 evidence 均屬本章；星期、日期、週頻率、起訖時段與假期計畫 families 準確。 topics、可重用 patterns、跨框 grammar、實際 functions 與中文說明未見新問題。"
+      ]
+    },
+    {
+      "book": "3",
+      "chapter": 3,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "來源列聯集完整，所有 evidence 均屬本章；月份、出生日期、季節、天氣與偏好 families 準確。 topics、可重用 patterns、跨框 grammar、實際 functions 與中文說明未見新問題。"
+      ]
+    },
+    {
+      "book": "3",
+      "chapter": 4,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "來源列聯集完整，所有 evidence 均屬本章；家庭構成、身份、年齡與關係狀態 families 準確。 topics、可重用 patterns、跨框 grammar、實際 functions 與中文說明未見新問題。"
+      ]
+    },
+    {
+      "book": "3",
+      "chapter": 5,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "來源列聯集完整，所有 evidence 均屬本章；職業問答、職業述語、構詞與量詞規則準確。 topics、可重用 patterns、跨框 grammar、實際 functions 與中文說明未見新問題。"
+      ]
+    },
+    {
+      "book": "3",
+      "chapter": 6,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "來源列聯集完整，所有 evidence 均屬本章；外貌、眼髮顏色、身高體重與測量語法準確。 topics、可重用 patterns、跨框 grammar、實際 functions 與中文說明未見新問題。"
+      ]
+    }
+  ],
+  "summary": {
+    "reviewed_chapters": 6,
+    "pass_native_pending": 6,
+    "needs_fixes": 0,
+    "mechanical_evidence": "PASS：六章來源列聯集完整，所有 example_lines 均屬自己的章節。",
+    "semantic_result": "Chapter 1 鐘點／詢問時長／陳述時長 evidence 已正確分離；全檔無新問題。",
+    "human_native_review_claimed": false
+  }
+}

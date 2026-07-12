@@ -1,0 +1,70 @@
+{
+  "verdict": "PASS_NATIVE_PENDING",
+  "chapters": [
+    {
+      "book": "9R",
+      "chapter": 1,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "前次問題已關閉：2224「ฟัง + ไม่รู้เรื่อง」、2225「เป็นเรื่องส่วนตัว／ไม่ควร + V」、2226「ตอนนี้...อยู่เรื่องเดียว คือ...」均建立獨立 patterns 與 functions。",
+        "人生清單、盡力、年度活動、嘗試經驗、理解失敗與私人界線的中文說明及 evidence 均準確，未見新問題。"
+      ]
+    },
+    {
+      "book": "9R",
+      "chapter": 2,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "เผื่อ 預備、โปรด／กรุณา 正式請求、หาก 正式條件與ไว้ 保留用途的 frames、grammar、functions 分工清楚。",
+        "未見新 evidence 誤綁、寬泛兜底或中文邊界問題。"
+      ]
+    },
+    {
+      "book": "9R",
+      "chapter": 3,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "เท่าไหร่ก็ 無界程度、ตั้ง 超預期量、唯一問題與ถือว่า價值判定 families 完整。",
+        "轉折、持續、唯一條件及文化判定 functions 與來源一致，未見新問題。"
+      ]
+    },
+    {
+      "book": "9R",
+      "chapter": 4,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "材料จาก／ด้วย、ฝาก 託付、ตามที่ 依據、หวังว่า 期望與程序評價的形式及語用邊界準確。",
+        "topics、functions 與 evidence 完整，未見新問題。"
+      ]
+    },
+    {
+      "book": "9R",
+      "chapter": 5,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "前次問題已關閉：2314 邀請單車活動、2315 書籍主題、2316 工作休息平衡、2317 創新料理、2318 材質觸感均拆為獨立 functions。",
+        "已補 ชวน + 人 + ไป + V、เล่าเกี่ยวกับ + 主題、ทำให้สมดุล ระหว่าง A กับ B、ทำจาก + 材料 等可重用 patterns；中文說明及 evidence 合格。",
+        "高度評價、誇張、少量請求、解除義務、許可與禮貌請託其餘分析未見新問題。"
+      ]
+    },
+    {
+      "book": "9R",
+      "chapter": 6,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "前次問題已關閉：2369 已獨立列為假日看電影邀請，2370 已獨立列為創新餐點與多樣原料介紹。",
+        "已補 ชวน + 人 + ไป + V、名詞 + ซึ่ง + 關係子句及ทำจาก + 原料 patterns；不再以同一 function 合併兩種言語功能。",
+        "正式間接問句、ยังไงก็、ยิ่ง...ยิ่ง、狀態持續、問路、接送、求職、環境與健康建議的完整分析未見新問題。"
+      ]
+    }
+  ],
+  "summary": {
+    "reviewed_chapters": 6,
+    "pass_native_pending": 6,
+    "needs_fixes": 0,
+    "prior_issue_closure": "PASS：C1、C5、C6 的寬 function 與缺漏 surface frames 均已逐項修復。",
+    "mechanical_validation": "PASS：validate_chapter_notes.py --books 9R；六章來源行 union coverage、章節歸屬及非完整來源句 label 均合格。",
+    "semantic_adequacy": "PASS_NATIVE_PENDING：topics、可重用 patterns、跨框 grammar、章節 functions、中文說明與 evidence 綁定均未見剩餘問題。",
+    "human_native_review_claimed": false
+  }
+}

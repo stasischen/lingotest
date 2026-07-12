@@ -19,10 +19,14 @@ Open the deployed report at the GitHub Pages URL published for this repository.
 ## Thai Sentence Atlas
 
 `sentences.html` is a separate, read-only explorer for the complete Gemini Thai
-sentence reference corpus. It provides full-text search, Book/Chapter/level-band
-filters, pagination, source-line lineage, copy controls, and browser Thai TTS.
-The corpus is reference material only and is not presented as native-reviewed,
-CEFR-approved, learner-ready, or production content.
+sentence reference corpus. It presents one chapter at a time, with a
+corpus-inferred guide to that chapter's topics, reusable sentence patterns,
+grammar, and communicative functions. Book/Chapter selectors and bottom
+Previous/Next controls move through all 70 chapters; search is scoped to the
+current chapter. Every sentence retains source-line lineage, copy controls, and
+browser Thai TTS. The corpus and chapter guides are reference material only and
+are not presented as native-reviewed, CEFR-approved, learner-ready, or
+production content.
 
 Rebuild its static data from the source Markdown with:
 
@@ -30,4 +34,11 @@ Rebuild its static data from the source Markdown with:
 python tools/build_sentence_data.py `
   D:\Githubs\lingo\content-th\docs\gemini\sentences.md `
   sentence-explorer\sentences-data.js
+```
+
+The browser-ready chapter guide is generated from the reviewed JSON segments:
+
+```powershell
+python tools/build_chapter_notes.py <reviewed-json-files...> `
+  --output sentence-explorer\chapter-notes.js
 ```

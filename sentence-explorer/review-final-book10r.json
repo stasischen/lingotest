@@ -1,0 +1,69 @@
+{
+  "verdict": "PASS_NATIVE_PENDING",
+  "chapters": [
+    {
+      "book": "10R",
+      "chapter": 1,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "世代科技差異、手機依賴、真實偏好、外在限制、忍不住與勉強能力 frames 完整，中文形式與語用邊界準確。",
+        "functions 分開比較、成癮自述、訪談、坦白偏好、推測安慰及克制能力，未見寬桶或 evidence 誤綁。"
+      ]
+    },
+    {
+      "book": "10R",
+      "chapter": 2,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "หันมา／หันไป 轉向、ใคร ๆ ก็ 普遍現象、反問、ถ้าอย่างนั้น 推論替代及สาย類型定義的 patterns／grammar 齊全。",
+        "個人／產業轉型、社會觀點、反問評價、替代方案及สาย文化 functions 具章節特定性，中文與 evidence 相符。"
+      ]
+    },
+    {
+      "book": "10R",
+      "chapter": 3,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "สู้...ไม่ได้、ไหนว่า...ทำไม、แทนที่จะ...แต่กลับ、替代選擇及普遍偏好反問的 reusable frames 邊界清楚。",
+        "比較、質問承諾、批評反常、替代與共同偏好 functions 完整，未見新問題。"
+      ]
+    },
+    {
+      "book": "10R",
+      "chapter": 4,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "電影類型、邀約、上映狀態、內容演員、觀影經驗、購票選座、最高評價及下決心重看等 frames 完整。",
+        "functions 已依介紹類型、邀約上映、資訊經驗、購票選座、品質評價與偏好訪談分開；中文說明與 evidence 準確。"
+      ]
+    },
+    {
+      "book": "10R",
+      "chapter": 5,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "假設感受、恐懼對象與原因、應對方法、不能做、恐懼結果及各類恐懼症命名有完整 family inventory。",
+        "functions 將一般假設、過往／現在恐懼與病菌、針頭、孔洞／陽光恐懼分開，未以單一健康寬桶覆蓋。"
+      ]
+    },
+    {
+      "book": "10R",
+      "chapter": 6,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "泰式奶茶歷史與配方、客訴回應、保存、外貌相似、攝影、選購、問診及外觀改變等 patterns／grammar 有準確 evidence。",
+        "綜合章 functions 已拆為奶茶歷史、飲品文化、餐飲客訴、保存／外貌／攝影、市場／問診、染髮／美白、職場地方及公共規範八組，未見寬泛兜底。",
+        "中文說明清楚區分被動、正式結果、演變、傳聞、推測、近過去、替代及書面名詞化，未見新問題。"
+      ]
+    }
+  ],
+  "summary": {
+    "reviewed_chapters": 6,
+    "pass_native_pending": 6,
+    "needs_fixes": 0,
+    "mechanical_validation": "PASS：validate_chapter_notes.py --books 10R；六章來源行 union coverage、章節歸屬及非完整來源句 label 均合格。",
+    "semantic_adequacy": "PASS_NATIVE_PENDING：topics、可重用 patterns、跨框 grammar、章節 functions、中文說明與 evidence 綁定均未見問題。",
+    "wide_bucket_check": "PASS：各章 functions 依實際 speech acts／場景分組，未用單一寬桶代替完整清冊。",
+    "human_native_review_claimed": false
+  }
+}

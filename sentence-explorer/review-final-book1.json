@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS_NATIVE_PENDING",
+  "chapters": [
+    {
+      "book": "1",
+      "chapter": 1,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "前次 function 問題已關閉：第 96 行只屬「問候並詢問對方來源」，第 100 行獨立列為「詢問第三人國籍來源」。",
+        "問候、มาจาก 來源 frame、地點疑問詞、ยินดีที่ได้รู้จัก 固定語與禮貌詞的中文邊界及 evidence 均準確。"
+      ]
+    },
+    {
+      "book": "1",
+      "chapter": 2,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "前次 function 問題已關閉：第 117 行獨立歸入「詢問正在做什麼」，第 115、116、118 行歸入「描述進行中活動」。",
+        "習慣、喜好、能力問句、未來意向與กำลัง...อยู่進行體的 patterns／grammar／functions 分工清楚，未見新誤綁。"
+      ]
+    },
+    {
+      "book": "1",
+      "chapter": 3,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "前次 function 問題已關閉：第 142 行只列於「描述食物的多項品質」，人物性格與能力功能自第 143 行開始。",
+        "品質述語、否定、比較、最高級、原因、人物描述與能力 frame 的中文說明及 evidence 邊界合理；未見新問題。"
+      ]
+    },
+    {
+      "book": "1",
+      "chapter": 4,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "詢價、報價、價格接受確認、首次／追加議價、接受／拒絕與禮貌收尾均有可重用 frame，evidence 與中文說明相符。",
+        "未見完整性缺口、全句 label、模板噪音或跨欄職責混淆。"
+      ]
+    },
+    {
+      "book": "1",
+      "chapter": 5,
+      "verdict": "PASS_NATIVE_PENDING",
+      "issues": [
+        "位置資訊問句、方位關係、道路具體位置與ใช่ไหม確認已清楚分開；อยู่、ที่、กับ 的 grammar 邊界有來源支持。",
+        "functions 完整涵蓋詢問、描述及確認設施位置，未見新問題。"
+      ]
+    }
+  ],
+  "summary": {
+    "reviewed_chapters": 5,
+    "pass_native_pending": 5,
+    "needs_fixes": 0,
+    "prior_issue_closure": "PASS：C1、C2、C3 最近三項 function evidence 問題均已逐行修正。",
+    "mechanical_validation": "PASS：validate_chapter_notes.py --books 1；五章來源行 union coverage、章節歸屬及非完整來源句 label 均合格。",
+    "semantic_adequacy": "PASS_NATIVE_PENDING：topics、可重用 patterns、跨框 grammar、章節 functions、中文說明與 evidence 綁定均未見剩餘問題。",
+    "human_native_review_claimed": false
+  }
+}
