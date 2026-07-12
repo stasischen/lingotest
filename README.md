@@ -4,9 +4,12 @@ Public, read-only review build for the Thai A1 source-theme package. It uses the
 existing production lesson surface and includes Thai TTS controls for both each
 sentence and each manually reviewed atom row.
 
-- 18 themes / 90 content items / 481 source rows
+- 18 canonical themes / 90 content items / 481 source rows
+- Separate blocked reference section: 59 non-theme items, marked DO NOT USE.
 - All 481 viewer rows now have manual segmentation; the viewer shows no
   `segmentation pending` rows.
+- The blocked section is retained only for taxonomy/reference review; its
+  content was previously found problematic and is not accepted learner content.
 - This is a review report, not a release package: native status remains
   `native_pending` and production promotion remains disabled.
 - Source viewer build: `lingo-frontend-web-th-a1-debug`, commit `f2c6b1fa`
