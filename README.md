@@ -42,3 +42,8 @@ The browser-ready chapter guide is generated from the reviewed JSON segments:
 python tools/build_chapter_notes.py <reviewed-json-files...> `
   --output sentence-explorer\chapter-notes.js
 ```
+
+`grammar.html` projects every chapter-level sentence-pattern and grammar
+observation into a searchable master index. Each entry expands its source-line
+evidence into the matching Thai and English sentence rows. The grouped view is
+label-normalized navigation only and does not claim canonical deduplication.

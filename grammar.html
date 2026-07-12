@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Complete Thai Gemini grammar and sentence-pattern reference with source examples.">
+  <title>Thai Grammar & Pattern Index · Lingourmet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sentence-explorer/styles.css">
+  <link rel="stylesheet" href="sentence-explorer/grammar.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">ล</span><span>Lingourmet <b>Lab</b></span></a>
+    <nav><a href="./">A1 Theme Viewer</a><a href="sentences.html">Sentence Atlas</a><a class="active" href="grammar.html">Grammar Index</a></nav>
+  </header>
+
+  <main>
+    <section class="hero grammar-hero">
+      <div class="eyebrow">GEMINI THAI · COMPLETE OBSERVATION INDEX</div>
+      <h1>Forms, choices,<br><em>and real examples.</em></h1>
+      <p class="lede">彙整全部 chapter-level 句型與文法觀察，並展開每筆 source-line evidence 的泰文與英文例句。</p>
+      <div class="notice"><span>i</span><p><strong>Reference observations, not canonical grammar.</strong> 同一 family 可能在不同章重複出現；程度與自然度仍須獨立審查。Grouped view 僅做標籤正規化，不代表正式去重或合併。</p></div>
+    </section>
+
+    <section class="metrics" aria-label="Grammar index summary">
+      <article><span id="patternCount">—</span><small>pattern observations</small></article>
+      <article><span id="grammarCount">—</span><small>grammar observations</small></article>
+      <article><span id="exampleCount">—</span><small>evidence links</small></article>
+      <article><span id="visibleCount">—</span><small>matching now</small></article>
+    </section>
+
+    <section class="explorer grammar-explorer">
+      <div class="explorer-head">
+        <div><span class="section-kicker">FORM · MEANING · USE</span><h2>Grammar & pattern master index</h2></div>
+        <button id="resetButton" class="ghost-button" type="button">Reset filters</button>
+      </div>
+      <div class="grammar-controls">
+        <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="搜尋句型、說明、泰文或英文例句…" autocomplete="off"></label>
+        <label><span>Type</span><select id="typeFilter"><option value="all">Patterns + grammar</option><option value="pattern">Sentence patterns</option><option value="grammar">Grammar observations</option></select></label>
+        <label><span>Book</span><select id="bookFilter"><option value="all">All books</option></select></label>
+        <label><span>View</span><select id="viewFilter"><option value="observations">All observations</option><option value="grouped">Grouped labels</option></select></label>
+      </div>
+      <div class="result-meta grammar-result-meta"><p id="resultLabel">Loading index…</p><label><span>Per page</span><select id="pageSize"><option>20</option><option selected>40</option><option>80</option></select></label></div>
+      <div id="grammarGrid" class="grammar-grid" aria-live="polite"></div>
+      <div id="emptyState" class="empty" hidden><span>ไม่พบ</span><h3>No matching observations</h3><p>Try another type, book, or search term.</p></div>
+      <nav class="pager" aria-label="Result pages"><button id="prevPage" type="button">← Previous</button><strong id="pagePosition">Page — of —</strong><button id="nextPage" type="button">Next →</button></nav>
+    </section>
+  </main>
+  <footer><p>Lingourmet review lab · Gemini observations · reference only</p><a href="https://github.com/stasischen/lingotest">View repository ↗</a></footer>
+  <script src="sentence-explorer/chapter-notes.js"></script>
+  <script src="sentence-explorer/sentences-data.js"></script>
+  <script src="sentence-explorer/grammar.js"></script>
+</body>
+</html>
