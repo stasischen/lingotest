@@ -15,3 +15,19 @@ sentence and each manually reviewed atom row.
 - Source viewer build: `lingo-frontend-web-th-a1-debug`, commit `f2c6b1fa`
 
 Open the deployed report at the GitHub Pages URL published for this repository.
+
+## Thai Sentence Atlas
+
+`sentences.html` is a separate, read-only explorer for the complete Gemini Thai
+sentence reference corpus. It provides full-text search, Book/Chapter/level-band
+filters, pagination, source-line lineage, copy controls, and browser Thai TTS.
+The corpus is reference material only and is not presented as native-reviewed,
+CEFR-approved, learner-ready, or production content.
+
+Rebuild its static data from the source Markdown with:
+
+```powershell
+python tools/build_sentence_data.py `
+  D:\Githubs\lingo\content-th\docs\gemini\sentences.md `
+  sentence-explorer\sentences-data.js
+```
