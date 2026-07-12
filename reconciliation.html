@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Deduplicated Gemini Thai grammar and pattern reconciliation against the candidate A1-B2 curriculum.">
+  <title>Canonical Reconciliation · Lingourmet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sentence-explorer/styles.css"><link rel="stylesheet" href="sentence-explorer/grammar.css"><link rel="stylesheet" href="sentence-explorer/reconciliation.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar"><a class="brand" href="./"><span class="brand-mark">ล</span><span>Lingourmet <b>Lab</b></span></a><nav><a href="./">Theme Viewer</a><a href="sentences.html">Sentence Atlas</a><a href="grammar.html">Observation Index</a><a class="active" href="reconciliation.html">Dedup Reconciliation</a></nav></header>
+  <main>
+    <section class="hero grammar-hero"><div class="eyebrow">GEMINI THAI · SEMANTIC DEDUP · CURRICULUM ALIGNMENT</div><h1>One teaching decision,<br><em>one counted family.</em></h1><p class="lede">將跨章重複、表面變體與相鄰對立分開，保留全部來源證據，但只用 semantic family 對齊 A1–B2 課綱。</p><div class="notice"><span>i</span><p><strong>Candidate reconciliation, not approved curriculum.</strong> Variant 不增加 denominator；contrast 保留為獨立 family；umbrella／invalid 不計入。Canonical mapping 仍維持 <code>needs_review</code>，不代表 native、promotion 或 production approval。</p></div></section>
+    <section class="metrics" aria-label="Reconciliation summary"><article><span id="familyCount">—</span><small>semantic families</small></article><article><span id="mappedCount">—</span><small>mapped candidates</small></article><article><span id="deferredCount">—</span><small>alignment deferred</small></article><article><span id="observationCount">—</span><small>source observations</small></article></section>
+    <section class="explorer grammar-explorer"><div class="explorer-head"><div><span class="section-kicker">DEDUP · EVIDENCE · TARGET</span><h2>Canonical reconciliation view</h2></div><button id="resetButton" class="ghost-button" type="button">Reset filters</button></div>
+      <div class="grammar-controls recon-controls"><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="搜尋 family、泰文、例句或 target ID…" autocomplete="off"></label><label><span>Lane</span><select id="laneFilter"><option value="all">All lanes</option></select></label><label><span>Level</span><select id="levelFilter"><option value="all">A1–B2</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option></select></label><label><span>Alignment</span><select id="alignmentFilter"><option value="all">Mapped + deferred</option><option value="existing_target">Mapped candidate</option><option value="defer">Deferred</option></select></label></div>
+      <div class="result-meta grammar-result-meta"><p id="resultLabel">Loading reconciliation…</p><label><span>Per page</span><select id="pageSize"><option>10</option><option selected>20</option><option>40</option></select></label></div><div id="reconciliationGrid" class="grammar-grid" aria-live="polite"></div><p id="speechStatus" class="speech-status" role="status" aria-live="polite"></p><div id="emptyState" class="empty" hidden><span>ไม่พบ</span><h3>No matching families</h3><p>Try another lane, level, alignment state, or search term.</p></div><nav class="pager" aria-label="Result pages"><button id="prevPage" type="button">← Previous</button><strong id="pagePosition">Page — of —</strong><button id="nextPage" type="button">Next →</button></nav>
+    </section>
+  </main><footer><p>Lingourmet review lab · candidate reconciliation · needs review</p><a href="https://github.com/stasischen/lingotest">View repository ↗</a></footer>
+  <script src="sentence-explorer/reconciliation.js"></script>
+</body></html>
