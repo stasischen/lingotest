@@ -47,3 +47,21 @@ python tools/build_chapter_notes.py <reviewed-json-files...> `
 observation into a searchable master index. Each entry expands its source-line
 evidence into the matching Thai and English sentence rows. The grouped view is
 label-normalized navigation only and does not claim canonical deduplication.
+
+## zh-TW A1 Curriculum
+
+`zh-a1-curriculum.html` is the user-review-ready explorer for the first complete
+Taiwan Traditional Chinese A1 curriculum draft. It presents 123 independent
+learner-facing units under 12 themes, plus the post-content mapping for all 101
+teaching targets and 117 richness rows. Evidence quotes link back to content
+units; 26 rows remain visibly marked as genuine gaps rather than being padded
+with unnatural content. Native status remains `native_pending` and production
+promotion remains disabled.
+
+Rebuild the browser payload from the committed `content-zh` review package with:
+
+```powershell
+python tools\build_zh_a1_curriculum_data.py `
+  D:\Githubs\lingo\content-zh\content\review\zh_tw_a1_theme_curriculum_v1_20260715 `
+  sentence-explorer\zh-a1-curriculum-data.js
+```
