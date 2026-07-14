@@ -65,3 +65,19 @@ python tools\build_zh_a1_curriculum_data.py `
   D:\Githubs\lingo\content-zh\content\review\zh_tw_a1_theme_curriculum_v1_20260715 `
   sentence-explorer\zh-a1-curriculum-data.js
 ```
+
+## Thai A1 Curriculum
+
+`th-a1-curriculum.html` presents the independently authored Thai A1 curriculum:
+123 natural Thai source units, their per-unit Taiwan Traditional Chinese i18n,
+and post-content evidence mapping for all 101 teaching targets and 117 richness
+rows. The explorer preserves all 26 genuine gaps and displays the package state
+as `needs_review`, `native_pending`, and `production=false`.
+
+Rebuild the browser payload from the committed `content-th` review package with:
+
+```powershell
+python tools\build_th_a1_curriculum_data.py `
+  D:\Githubs\lingo\content-th\content\review\th_a1_theme_curriculum_v1_20260715 `
+  sentence-explorer\th-a1-curriculum-data.js
+```

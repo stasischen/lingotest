@@ -3,32 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Review the complete user-review-ready zh-TW A1 curriculum across 12 themes and 123 independent content units.">
-  <title>zh-TW A1 Curriculum · Lingourmet Lab</title>
+  <meta name="description" content="Review 123 independently authored Thai A1 curriculum units with per-unit Taiwan Traditional Chinese i18n and post-content coverage evidence.">
+  <title>Thai A1 Curriculum · Lingourmet Lab</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="sentence-explorer/styles.css">
   <link rel="stylesheet" href="sentence-explorer/zh-a1-curriculum.css">
+  <link rel="stylesheet" href="sentence-explorer/th-a1-curriculum.css">
 </head>
 <body>
   <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
   <header class="topbar">
-    <a class="brand" href="./"><span class="brand-mark zh-mark">華</span><span>Lingourmet <b>Lab</b></span></a>
-    <nav><a href="./">Theme Viewer</a><a href="sentences.html">Sentence Atlas</a><a href="grammar.html">Observation Index</a><a href="cross-language.html">Cross-Language</a><a class="active" href="zh-a1-curriculum.html">zh-TW A1</a><a href="th-a1-curriculum.html">Thai A1</a></nav>
+    <a class="brand" href="./"><span class="brand-mark th-mark">ท</span><span>Lingourmet <b>Lab</b></span></a>
+    <nav><a href="./">Theme Viewer</a><a href="sentences.html">Sentence Atlas</a><a href="grammar.html">Observation Index</a><a href="cross-language.html">Cross-Language</a><a href="zh-a1-curriculum.html">zh-TW A1</a><a class="active" href="th-a1-curriculum.html">Thai A1</a></nav>
   </header>
 
   <main>
     <section class="hero curriculum-hero">
-      <div class="eyebrow">台灣繁中 · A1 · USER-REVIEW-READY</div>
-      <h1>先有自然內容，<br><em>再看實際覆蓋。</em></h1>
-      <p class="lede">12 個 Theme 是目錄，不是十二篇綜合課文。這裡逐一呈現 123 個獨立內容單元，讓每個實用子主題都能直接閱讀、搜尋與審閱。</p>
-      <div class="notice"><span>i</span><p><strong>仍為 needs_review / native_pending。</strong> 這是中文第一版審閱頁，不代表母語核准、production readiness 或泰文逐句翻譯來源。26 個無法自然證明的 denominator 保留為 genuine gap。</p></div>
+      <div class="eyebrow">ภาษาไทย · A1 · 123 UNITS · REVIEW SURFACE</div>
+      <h1>自然泰文先行，<br><em>逐單元對照審閱。</em></h1>
+      <p class="lede">12 個 Theme 下的 123 個單元均以共同 coverage 重新創作自然泰文，不是逐句翻譯中文。每個單元附台灣繁中 i18n，coverage 則在正文完成後依實際證據映射。</p>
+      <div class="notice"><span>i</span><p><strong>狀態維持 needs_review / native_pending / production=false。</strong> 泰文語意與 zh-TW i18n 的獨立審查已完成至 pass_native_pending，但不等於母語者核准或 production promotion；26 個未自然覆蓋項目保留為 genuine gap。</p></div>
     </section>
 
     <section class="metrics curriculum-metrics" aria-label="Curriculum summary">
       <article><span id="themeCount">—</span><small>themes</small></article>
-      <article><span id="unitCount">—</span><small>independent units</small></article>
+      <article><span id="unitCount">—</span><small>Thai + zh-TW units</small></article>
       <article><span id="targetCount">—</span><small>teaching targets</small></article>
       <article><span id="richnessCount">—</span><small>richness rows</small></article>
       <article class="gap-metric"><span id="gapCount">—</span><small>visible genuine gaps</small></article>
@@ -43,27 +44,27 @@
 
       <section class="curriculum-panel">
         <div class="panel-head">
-          <div><span class="section-kicker">SOURCE CONTENT · EXACT EVIDENCE</span><h2 id="panelTitle">完整內容</h2></div>
+          <div><span class="section-kicker">THAI SOURCE · ZH-TW I18N · EXACT EVIDENCE</span><h2 id="panelTitle">完整內容</h2></div>
           <button id="resetButton" class="ghost-button" type="button">重設篩選</button>
         </div>
         <div class="view-tabs" role="tablist" aria-label="Explorer view">
-          <button class="active" data-view="content" type="button">內容單元</button>
+          <button class="active" data-view="content" type="button">雙語內容單元</button>
           <button data-view="coverage" type="button">101 / 117 Coverage</button>
         </div>
         <div class="curriculum-controls">
-          <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="搜尋標題、情境、角色或正文…" autocomplete="off"></label>
+          <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="搜尋泰文、zh-TW、標題、情境或角色…" autocomplete="off"></label>
           <label><span id="kindLabel">內容形式</span><select id="kindFilter"><option value="all">全部形式</option></select></label>
           <label><span>證據狀態</span><select id="statusFilter" disabled><option value="all">全部狀態</option><option value="evidenced">evidenced</option><option value="genuine_gap">genuine gap</option></select></label>
         </div>
-        <div class="result-meta"><p id="resultLabel">Loading curriculum…</p><label class="page-size">每頁 <select id="pageSize"><option>8</option><option selected>12</option><option>24</option></select></label></div>
+        <div class="result-meta"><p id="resultLabel">Loading curriculum…</p><label class="page-size">每頁 <select id="pageSize"><option>4</option><option selected>8</option><option>16</option></select></label></div>
         <div id="contentGrid" class="curriculum-grid" aria-live="polite"></div>
         <div id="emptyState" class="empty" hidden><h3>找不到符合的內容</h3><p>請換一個 Theme、搜尋詞或篩選條件。</p></div>
         <nav class="pagination" aria-label="Result pages"><button id="prevPage" type="button">← 上一頁</button><span id="pagePosition">Page — of —</span><button id="nextPage" type="button">下一頁 →</button></nav>
       </section>
     </section>
   </main>
-  <footer><p>Lingourmet review lab · user-review-ready · native_pending</p><a href="https://github.com/stasischen/lingotest">View repository ↗</a></footer>
-  <script src="sentence-explorer/zh-a1-curriculum-data.js"></script>
-  <script src="sentence-explorer/zh-a1-curriculum.js"></script>
+  <footer><p>Lingourmet review lab · needs_review · native_pending · production=false</p><a href="https://github.com/stasischen/lingotest">View repository ↗</a></footer>
+  <script src="sentence-explorer/th-a1-curriculum-data.js"></script>
+  <script src="sentence-explorer/th-a1-curriculum.js"></script>
 </body>
 </html>
