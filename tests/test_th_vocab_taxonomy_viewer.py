@@ -52,3 +52,11 @@ def test_category_memberships_are_bound_to_scope() -> None:
 def test_shared_navigation_links_to_thai_vocabulary_viewer() -> None:
     navigation = (ROOT / "sentence-explorer/mobile-nav.js").read_text(encoding="utf-8")
     assert '["th-vocab.html", "Thai Vocab 5K"]' in navigation
+
+
+def test_word_cards_offer_thai_tts_playback() -> None:
+    script = (ROOT / "sentence-explorer/th-vocab.js").read_text(encoding="utf-8")
+    assert "data-speak=" in script
+    assert "new SpeechSynthesisUtterance(text)" in script
+    assert "utterance.lang='th-TH'" in script
+    assert "speechSynthesis.cancel()" in script

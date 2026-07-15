@@ -1,0 +1,32 @@
+.word-title {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.speak-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #c7dcd7;
+  border-radius: 999px;
+  background: var(--vocab-mint);
+  padding: 5px 9px;
+  color: var(--vocab-green);
+  font-size: 10px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.speak-button:hover,
+.speak-button:focus-visible,
+.speak-button.speaking {
+  border-color: var(--vocab-green);
+  background: var(--vocab-green);
+  color: #fff;
+}
+
+.speak-button:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+}
