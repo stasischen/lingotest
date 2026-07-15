@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse the Thai 5,000-word taxonomy, big and small category counts, final sense routes, and available zh-TW word i18n.">
+  <title>Thai 5,000 Vocabulary Taxonomy · Lingourmet Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sentence-explorer/styles.css">
+  <link rel="stylesheet" href="sentence-explorer/mobile-nav.css">
+  <link rel="stylesheet" href="sentence-explorer/th-vocab.css?v=20260715">
+  <script defer src="sentence-explorer/mobile-nav.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark vocab-mark">๕</span><span>Lingourmet <b>Lab</b></span></a>
+    <nav><a href="./">Theme Viewer</a><a href="sentences.html">Sentence Atlas</a><a href="grammar.html">Observation Index</a><a href="cross-language.html">Cross-Language</a><a href="zh-a1-curriculum.html">zh-TW A1</a><a href="th-a1-curriculum.html">Thai A1</a><a class="active" href="th-vocab.html">Thai Vocab 5K</a></nav>
+  </header>
+
+  <main>
+    <section class="hero vocab-hero">
+      <div class="eyebrow">ภาษาไทย · 5,000 WORDS · TAXONOMY + ZH-TW I18N</div>
+      <h1>十個大分類，<br><em>逐字展開到 159 個小分類。</em></h1>
+      <p class="lede">以完成稽核的 V160＋delta projection 為準，並列出 final sense routes、分類狀態與目前可用的台灣繁中單字 i18n。多義詞可出現在多個小分類，因此分類 membership 會高於 unique word 數。</p>
+      <div class="notice"><span>i</span><p><strong>這是唯讀 review surface，不是 production 字典。</strong> 2,647 個尚無 primary 的字包含 2,624 個 taxonomy pending 與 23 個 reviewed unmapped；缺少 i18n 的字也會保留顯示。所有資料維持 needs_review / native_pending / production=false。</p></div>
+    </section>
+
+    <section class="metrics vocab-metrics" aria-label="Vocabulary summary">
+      <article><span id="totalWords">—</span><small>字庫總字數</small></article>
+      <article><span id="categorizedWords">—</span><small>已有 primary 的字</small></article>
+      <article><span id="pendingWords">—</span><small>尚無 primary</small></article>
+      <article><span id="bigCategoryCount">—</span><small>大分類</small></article>
+      <article><span id="smallCategoryCount">—</span><small>小分類</small></article>
+      <article><span id="i18nCount">—</span><small>已有 zh-TW i18n</small></article>
+    </section>
+
+    <section class="vocab-shell">
+      <aside class="big-rail" aria-label="大分類導覽">
+        <div class="rail-title"><span class="section-kicker">BIG CATEGORIES</span><h2>10 大分類</h2></div>
+        <button class="big-button active" data-big="all" type="button"><span>ALL</span><strong>全部字庫</strong><small>5,000</small></button>
+        <div id="bigButtons"></div>
+      </aside>
+
+      <section class="vocab-panel">
+        <div class="panel-head">
+          <div><span class="section-kicker">PRIMARY TAXONOMY · FINAL SENSE ROUTES · WORD I18N</span><h2 id="panelTitle">全部字庫</h2></div>
+          <button id="resetButton" class="ghost-button" type="button">重設篩選</button>
+        </div>
+        <div class="view-tabs" role="tablist" aria-label="Explorer view">
+          <button class="active" data-view="words" type="button">單字檢視</button>
+          <button data-view="categories" type="button">大小分類統計</button>
+        </div>
+        <div class="vocab-controls">
+          <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="搜尋泰文、繁中、category ID 或英文 sense…" autocomplete="off"></label>
+          <label><span>小分類</span><select id="smallFilter"><option value="all">全部小分類</option></select></label>
+          <label><span>CEFR</span><select id="cefrFilter"><option value="all">全部 CEFR</option></select></label>
+          <label><span>詞性</span><select id="posFilter"><option value="all">全部詞性</option></select></label>
+          <label><span>分類狀態</span><select id="classFilter"><option value="all">全部</option><option value="classified">已有 primary</option><option value="pending">baseline / pending</option><option value="reviewed_unmapped">reviewed unmapped</option></select></label>
+          <label><span>zh-TW i18n</span><select id="i18nFilter"><option value="all">全部</option><option value="present">已有 i18n</option><option value="missing">尚無 i18n</option></select></label>
+        </div>
+        <div class="result-meta"><p id="resultLabel">Loading vocabulary…</p><label class="page-size">每頁 <select id="pageSize"><option>24</option><option selected>48</option><option>96</option></select></label></div>
+        <div id="contentGrid" class="word-grid" aria-live="polite"></div>
+        <div id="emptyState" class="empty" hidden><h3>找不到符合的資料</h3><p>請調整大分類、小分類、搜尋或狀態篩選。</p></div>
+        <nav class="pagination" aria-label="Result pages"><button id="prevPage" type="button">← 上一頁</button><span id="pagePosition">Page — of —</span><button id="nextPage" type="button">下一頁 →</button></nav>
+      </section>
+    </section>
+  </main>
+  <footer><p>Lingourmet review lab · needs_review · native_pending · production=false</p><a href="https://github.com/stasischen/lingotest">View repository ↗</a></footer>
+  <script src="sentence-explorer/th-vocab-data.js"></script>
+  <script src="sentence-explorer/th-vocab.js?v=20260715"></script>
+</body>
+</html>
