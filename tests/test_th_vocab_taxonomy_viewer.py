@@ -25,14 +25,18 @@ def test_payload_counts_and_gates() -> None:
         "big_categories": 10,
         "small_categories": 159,
         "used_small_categories": 154,
-        "zh_tw_i18n": 733,
-        "missing_zh_tw_i18n": 4267,
+        "zh_tw_i18n": 5000,
+        "missing_zh_tw_i18n": 0,
+        "reviewed_zh_tw_i18n": 733,
+        "candidate_zh_tw_i18n": 4267,
     }
     assert len(payload["words"]) == 5000
     assert len({word["id"] for word in payload["words"]}) == 5000
     assert all(word["review_status"] == "needs_review" for word in payload["words"])
     assert all(word["native_status"] == "native_pending" for word in payload["words"])
     assert not any(word["production_promotion_allowed"] for word in payload["words"])
+    assert all(word["zh_tw"].strip() for word in payload["words"])
+    assert sum(bool(word["source_translation_en"]) for word in payload["words"]) == 4267
 
 
 def test_category_memberships_are_bound_to_scope() -> None:
