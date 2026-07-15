@@ -69,9 +69,10 @@ python tools\build_zh_a1_curriculum_data.py `
 ## Thai A1 Curriculum
 
 `th-a1-curriculum.html` presents the independently authored Thai A1 curriculum:
-123 natural Thai source units, their per-unit Taiwan Traditional Chinese i18n,
+136 natural Thai source units, their per-unit Taiwan Traditional Chinese i18n,
 and post-content evidence mapping for all 101 teaching targets and 117 richness
-rows. The explorer preserves all 26 genuine gaps and displays the package state
+rows. All 218 denominator rows now have reviewed exact Thai evidence; the
+explorer displays zero remaining genuine gaps while preserving the package state
 as `needs_review`, `native_pending`, and `production=false`.
 
 Rebuild the browser payload from the committed `content-th` review package with:

@@ -139,8 +139,8 @@ def build_payload(root: Path) -> dict[str, object]:
 
     source_ids = {unit["id"] for unit in units}
     i18n_ids = set(i18n)
-    if len(units) != 123 or len(source_ids) != 123:
-        raise ValueError(f"expected 123 unique Thai units, found {len(units)} / {len(source_ids)}")
+    if len(units) != 136 or len(source_ids) != 136:
+        raise ValueError(f"expected 136 unique Thai units, found {len(units)} / {len(source_ids)}")
     if source_ids != i18n_ids:
         raise ValueError(f"Thai / zh-TW ID mismatch: source_only={source_ids-i18n_ids}, i18n_only={i18n_ids-source_ids}")
     if len(denominator_rows) != 218:
