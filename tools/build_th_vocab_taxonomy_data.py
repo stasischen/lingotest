@@ -40,11 +40,44 @@ def load_i18n(merged: Path, rechecked: Path) -> dict[str, dict[str, str]]:
     return rows
 
 
+def load_candidate_i18n(packet_dir: Path) -> dict[str, dict[str, str]]:
+    rows: dict[str, dict[str, str]] = {}
+    author_paths = sorted(packet_dir.glob("th_vocab_zh_tw_author_packet_*.tsv"))
+    if len(author_paths) != 3:
+        raise ValueError(f"expected 3 zh-TW author packets in {packet_dir}")
+    for author_path in author_paths:
+        suffix = author_path.stem.rsplit("_", 1)[1]
+        review_path = packet_dir / f"th_vocab_zh_tw_review_packet_{suffix}.tsv"
+        author_rows = read_tsv(author_path)
+        review_rows = read_tsv(review_path)
+        if [row["source_candidate_id"] for row in author_rows] != [
+            row["source_candidate_id"] for row in review_rows
+        ]:
+            raise ValueError(f"author/review ID order mismatch for packet {suffix}")
+        for author, review in zip(author_rows, review_rows, strict=True):
+            if review["current_translation_zh_tw"] != author["translation_zh_tw_candidate"]:
+                raise ValueError(f"review current text mismatch on {author['source_candidate_id']}")
+            if review["verdict"] == "PASS":
+                text = author["translation_zh_tw_candidate"]
+            else:
+                raise ValueError(f"unresolved review verdict on {author['source_candidate_id']}")
+            if not text.strip():
+                raise ValueError(f"blank reviewed candidate on {author['source_candidate_id']}")
+            rows[author["source_candidate_id"]] = {
+                "source_candidate_id": author["source_candidate_id"],
+                "i18n_zh_tw": text,
+                "learner_note_zh_tw": "Yaitron 英文來源義轉譯候選；尚待母語／owner 審查。",
+                "i18n_status": "semantic_pass_native_pending",
+                "source_translation_en": author["translation_en"],
+            }
+    return rows
+
+
 def split_ids(value: str) -> list[str]:
     return [item for item in value.split(";") if item]
 
 
-def build_payload(tasks: Path) -> dict[str, object]:
+def build_payload(tasks: Path, candidate_packet_dir: Path | None = None) -> dict[str, object]:
     projection_path = tasks / "TH_VOCAB_TAXONOMY_5000_EPHEMERAL_V160_DELTA_PROJECTION_20260715.tsv"
     scope_path = tasks / "TH_VOCAB_TAXONOMY_A1_B2_V2_REFINED_SCOPE_MAP_20260713.tsv"
     i18n_root = tasks / "TH_KNOWLEDGE_LANES_20260710"
@@ -54,13 +87,20 @@ def build_payload(tasks: Path) -> dict[str, object]:
         i18n_root / "TH_A1_ZH_TW_REVIEWED_SIDECAR_MERGED_20260711.tsv",
         i18n_root / "TH_A1_ZH_TW_RECHECKED_SIDECAR_20260711.tsv",
     )
+    reviewed_i18n_count = len(i18n)
+    candidate_i18n = load_candidate_i18n(candidate_packet_dir) if candidate_packet_dir else {}
+    overlap = set(i18n) & set(candidate_i18n)
+    if overlap:
+        raise ValueError(f"reviewed/candidate i18n overlap: {sorted(overlap)[:5]}")
+    i18n.update(candidate_i18n)
 
     if len(projection) != 5000 or len({row["source_candidate_id"] for row in projection}) != 5000:
         raise ValueError("projection must contain exactly 5,000 unique candidates")
     if len(scope) != 159 or len({row["row_id"] for row in scope}) != 159:
         raise ValueError("scope map must contain exactly 159 unique small categories")
-    if len(i18n) != 733:
-        raise ValueError(f"expected 733 unique zh-TW i18n rows, found {len(i18n)}")
+    expected_i18n = 5000 if candidate_packet_dir else 733
+    if len(i18n) != expected_i18n:
+        raise ValueError(f"expected {expected_i18n} unique zh-TW i18n rows, found {len(i18n)}")
 
     scope_by_id = {row["row_id"]: row for row in scope}
     leaf_members: dict[str, set[str]] = defaultdict(set)
@@ -114,6 +154,7 @@ def build_payload(tasks: Path) -> dict[str, object]:
                 ],
                 "zh_tw": sidecar["i18n_zh_tw"] if sidecar else "",
                 "zh_tw_note": sidecar["learner_note_zh_tw"] if sidecar else "",
+                "source_translation_en": sidecar.get("source_translation_en", "") if sidecar else "",
                 "i18n_status": sidecar["i18n_status"] if sidecar else "missing",
                 "review_status": "needs_review",
                 "native_status": "native_pending",
@@ -185,6 +226,8 @@ def build_payload(tasks: Path) -> dict[str, object]:
             "used_small_categories": sum(row["word_count"] > 0 for row in small_categories),
             "zh_tw_i18n": len(i18n),
             "missing_zh_tw_i18n": len(words) - len(i18n),
+            "reviewed_zh_tw_i18n": reviewed_i18n_count,
+            "candidate_zh_tw_i18n": len(candidate_i18n),
         },
         "big_categories": big_categories,
         "small_categories": small_categories,
@@ -196,8 +239,9 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("tasks_dir", type=Path)
     parser.add_argument("output", type=Path)
+    parser.add_argument("--candidate-packet-dir", type=Path)
     args = parser.parse_args()
-    payload = build_payload(args.tasks_dir)
+    payload = build_payload(args.tasks_dir, args.candidate_packet_dir)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(
         "window.TH_VOCAB_TAXONOMY = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n",
