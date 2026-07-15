@@ -7,6 +7,7 @@
     ["cross-language.html", "Cross-Language Reference"],
     ["zh-a1-curriculum.html", "zh-TW A1"],
     ["th-a1-curriculum.html", "Thai A1"],
+    ["th-vocab.html", "Thai Vocab 5K"],
   ];
 
   const topbar = document.querySelector(".topbar");

@@ -47,3 +47,8 @@ def test_category_memberships_are_bound_to_scope() -> None:
     assert sum(row["primary_memberships"] for row in payload["big_categories"]) == 2704
     assert all(set(word["primary_category_ids"]) <= small_ids for word in payload["words"])
     assert all(set(word["secondary_category_ids"]) <= small_ids for word in payload["words"])
+
+
+def test_shared_navigation_links_to_thai_vocabulary_viewer() -> None:
+    navigation = (ROOT / "sentence-explorer/mobile-nav.js").read_text(encoding="utf-8")
+    assert '["th-vocab.html", "Thai Vocab 5K"]' in navigation
