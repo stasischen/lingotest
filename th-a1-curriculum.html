@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="sentence-explorer/mobile-nav.css">
   <link rel="stylesheet" href="sentence-explorer/zh-a1-curriculum.css">
   <link rel="stylesheet" href="sentence-explorer/th-a1-curriculum.css">
+  <link rel="stylesheet" href="sentence-explorer/th-a1-tts.css?v=20260715-tts">
   <script defer src="sentence-explorer/mobile-nav.js"></script>
 </head>
 <body>
@@ -59,6 +60,8 @@
           <label><span>證據狀態</span><select id="statusFilter" disabled><option value="all">全部狀態</option><option value="evidenced">evidenced</option><option value="genuine_gap">genuine gap</option></select></label>
         </div>
         <div class="result-meta"><p id="resultLabel">Loading curriculum…</p><label class="page-size">每頁 <select id="pageSize"><option>4</option><option selected>8</option><option>16</option></select></label></div>
+        <div class="tts-disclaimer"><strong>Thai TTS 由瀏覽器與裝置語音產生。</strong> 語音品質依系統安裝的泰語 voice 而異，並非儲存、審核或核准的正式課程音檔。</div>
+        <p id="speechStatus" class="speech-status" role="status" aria-live="polite"></p>
         <div id="contentGrid" class="curriculum-grid" aria-live="polite"></div>
         <div id="emptyState" class="empty" hidden><h3>找不到符合的內容</h3><p>請換一個 Theme、搜尋詞或篩選條件。</p></div>
         <nav class="pagination" aria-label="Result pages"><button id="prevPage" type="button">← 上一頁</button><span id="pagePosition">Page — of —</span><button id="nextPage" type="button">下一頁 →</button></nav>
@@ -67,6 +70,6 @@
   </main>
   <footer><p>Lingourmet review lab · needs_review · native_pending · production=false</p><a href="https://github.com/stasischen/lingotest">View repository ↗</a></footer>
   <script src="sentence-explorer/th-a1-curriculum-data.js"></script>
-  <script src="sentence-explorer/th-a1-curriculum.js"></script>
+  <script src="sentence-explorer/th-a1-curriculum.js?v=20260715-tts"></script>
 </body>
 </html>
