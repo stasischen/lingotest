@@ -82,3 +82,20 @@ python tools\build_th_a1_curriculum_data.py `
   D:\Githubs\lingo\content-th\content\review\th_a1_theme_curriculum_v1_20260715 `
   sentence-explorer\th-a1-curriculum-data.js
 ```
+
+## Thai 5,000 Vocabulary Taxonomy
+
+`th-vocab.html` is a read-only explorer for the current audited Thai taxonomy
+projection. It shows all 5,000 candidates, the 10 parent domains and 159 small
+categories, effective primary memberships, final sense routes for the bounded
+739-row adjudication scope, and the 733 currently available zh-TW word i18n
+rows. Pending classification and missing i18n remain visible. Nothing on this
+surface changes `needs_review`, `native_pending`, or production promotion.
+
+Rebuild its browser payload from the control-tower closeout artifacts with:
+
+```powershell
+python tools\build_th_vocab_taxonomy_data.py `
+  D:\Githubs\lingo\release-aggregator\docs\tasks `
+  sentence-explorer\th-vocab-data.js
+```
